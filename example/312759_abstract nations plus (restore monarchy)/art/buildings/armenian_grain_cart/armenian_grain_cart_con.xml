@@ -1,0 +1,109 @@
+<animfile>
+  <definebone>bone_main</definebone>
+  <definebone>bone_cart</definebone>
+  <definebone>bone_whee1</definebone>
+  <definebone>bone_whee2</definebone>
+  <definebone>bone_whee3</definebone>
+  <definebone>bone_whee4</definebone>
+  <definebone>bone_mule1</definebone>
+  <definebone>bone_mule2</definebone>
+  <submodel>sub_construction_stage_01<component>construction_stage_01<assetreference type="GrannyModel">
+  <file>buildings\armenian_grain_cart\armenian_grain_cart_con1</file>
+  </assetreference>
+  <decal>
+  <effecttype>default</effecttype>
+  <texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+  <selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+  <width>3.50</width>
+  <height>6.00</height>
+  </decal>
+  </component>
+  <anim>Idle<component>construction_stage_01</component>
+  </anim>
+  </submodel>
+  <submodel>sub_construction_stage_02<component>construction_stage_02<assetreference type="GrannyModel">
+  <file>buildings\armenian_grain_cart\armenian_grain_cart_con2</file>
+  </assetreference>
+  <decal>
+  <effecttype>default</effecttype>
+  <texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+  <selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+  <width>3.50</width>
+  <height>6.00</height>
+  </decal>
+  </component>
+  <anim>Idle<component>construction_stage_02</component>
+  </anim>
+  </submodel>
+  <submodel>sub_construction_stage_03<component>construction_stage_02<assetreference type="GrannyModel">
+  <file>buildings\armenian_grain_cart\armenian_grain_cart_con3</file>
+  </assetreference>
+  <decal>
+  <effecttype>default</effecttype>
+  <texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+  <selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+  <width>3.50</width>
+  <height>6.00</height>
+  </decal>
+  </component>
+  <anim>Idle<component>construction_stage_02</component>
+  </anim>
+  </submodel>
+  <submodel>cart<attachment>mule<include>buildings\armenian_grain_cart\armenian_grain_cart_mule.xml</include>
+  </attachment>
+  <component>wagon<assetreference type="GrannyModel">
+  <file>buildings\armenian_grain_cart\armenian_grain_cart</file>
+  </assetreference>
+  <decal>
+  <effecttype>default</effecttype>
+  <texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture>
+  <selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture>
+  <width>3.50</width>
+  <height>6.00</height>
+  </decal>
+  <watersplash>
+  <texture>units\artillery\cannon\wheel_B</texture>
+  <width>1.75</width>
+  <height>2.00</height>
+  </watersplash>
+  <attach a="mule" frombone="MASTER" tobone="bone_mule1" syncanims="1">
+  </attach>
+  <attach a="mule" frombone="MASTER" tobone="bone_mule2" syncanims="1">
+  </attach>
+  </component>
+  <anim>Idle<assetreference type="GrannyAnim">
+  <file>units\trade\travois_idle</file>
+  </assetreference>
+  <component>wagon</component>
+  </anim>
+  </submodel>
+  <submodel>none<component>wagon<assetreference type="GrannyModel">
+  <file>buildings\armenian_grain_cart\nothing</file>
+  </assetreference>
+  </component>
+  <anim>Idle<assetreference type="GrannyAnim">
+  <file>units\trade\travois_idle</file>
+  </assetreference>
+  <component>wagon</component>
+  </anim>
+  </submodel>
+  <component>bank<logic type="BuildingCompletion">
+  <p0>
+  <submodelref ref="sub_construction_stage_01">
+  </submodelref>
+  </p0>
+  <p33>
+  <submodelref ref="sub_construction_stage_02">
+  </submodelref>
+  </p33>
+  <p66>
+  <submodelref ref="sub_construction_stage_03">
+  </submodelref>
+  </p66>
+  <p100>
+  <submodelref ref="none">
+  </submodelref>
+  </p100>
+  </logic>
+  </component>  
+</animfile>

@@ -1,0 +1,28 @@
+<protounitsounddefmods>
+  <protounit name="Surgeon">
+    <soundtype name="Select">
+	  <civlogic>
+		<choice name="STARKPolish">
+          <soundset name="STARKPolishSurgeonSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+		<civlogic>
+			<choice name="STARKPolish">
+			  <targetlogic>
+				<choice name="default">
+				  <soundset name="STARKPolishSurgeonMove">
+				  </soundset>
+				</choice>
+				<choice name="enemy">
+				  <soundset name="STARKPolishSurgeonAttack">
+				  </soundset>
+				</choice>
+			  </targetlogic>
+			</choice>
+		</civlogic> 
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

@@ -1,0 +1,32 @@
+<tactics>
+  <action>
+    <name stringid="68772">mmVineyardBuff</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <modifyprotoid>mmVineyard</modifyprotoid>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherRate</modifytype>
+    <modifymultiplier>1.5</modifymultiplier>
+    <nostack>1</nostack>
+  </action>
+  <action>
+    <name stringid="68772">mmVineyardNerf</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <modifyprotoid>mmVineyard</modifyprotoid>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherRate</modifytype>
+    <modifymultiplier>0.5</modifymultiplier>
+    <nostack>1</nostack>
+  </action>
+  <action>
+    <name stringid="7472837">mmBordeauxBuff</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <modifyprotoid>mmVineyard</modifyprotoid>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherRate</modifytype>
+    <modifymultiplier>1.05</modifymultiplier>
+    <nostack>1</nostack>
+  </action>
+</tactics>

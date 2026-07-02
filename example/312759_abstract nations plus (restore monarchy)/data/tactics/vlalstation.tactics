@@ -1,0 +1,144 @@
+<tactics>
+  <action>
+    <name stringid="69776">SpawnRogue</name>
+    <type>Spawn</type>
+    <rate type="mmRogueMDD">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnWarrior</name>
+    <type>Spawn</type>
+    <rate type="mmWarrior">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnPriest</name>
+    <type>Spawn</type>
+    <rate type="mmPriest">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnBarbarian</name>
+    <type>Spawn</type>
+    <rate type="mmBarbarian">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnRanger</name>
+    <type>Spawn</type>
+    <rate type="mmXbowman">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnPaladin</name>
+    <type>Spawn</type>
+    <rate type="mmPaladin">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnSettler</name>
+    <type>Spawn</type>
+    <rate type="Settler">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnSettler2</name>
+    <type>Spawn</type>
+    <rate type="Settler">2</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="43299">TacticAARR</name>
+    <type>Maintain</type>
+    <rate type="mmAARR1">1.0 </rate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">TacticAAWP</name>
+    <type>Maintain</type>
+    <rate type="mmAAWP1">1.0 </rate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">TacticAAPP</name>
+    <type>Maintain</type>
+    <rate type="mmAAPP1">1.0 </rate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">TacticAABW</name>
+    <type>Maintain</type>
+    <rate type="mmAABW1">1.0 </rate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">TacticAAXR</name>
+    <type>Maintain</type>
+    <rate type="mmAAXR1">1.0 </rate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">TacticAAWR</name>
+    <type>Maintain</type>
+    <rate type="mmAAWR1">1.0 </rate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>AARR<action>TacticAARR</action><protounitcommand>TacticAARR</protounitcommand><agerequirement>1</agerequirement>
+  <transition><tactic>AAXR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAWR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAWP</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AABW</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAPP</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>AAXR<action>TacticAAXR</action><protounitcommand>TacticAAXR</protounitcommand><agerequirement>1</agerequirement>
+  <transition><tactic>AARR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAWR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAWP</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AABW</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAPP</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>AAWR<action>TacticAAWR</action><protounitcommand>TacticAAWR</protounitcommand><agerequirement>1</agerequirement>
+  <transition><tactic>AARR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAXR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAWP</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AABW</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAPP</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>AAWP<action>TacticAAWP</action><protounitcommand>TacticAAWP</protounitcommand><agerequirement>1</agerequirement>
+  <transition><tactic>AARR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAXR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAWR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AABW</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAPP</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>AABW<action>TacticAABW</action><protounitcommand>TacticAABW</protounitcommand><agerequirement>2</agerequirement>
+  <transition><tactic>AARR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAXR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAWR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAWP</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAPP</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>AAPP<action>TacticAAPP</action><protounitcommand>TacticAAPP</protounitcommand><agerequirement>2</agerequirement>
+  <transition><tactic>AARR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAXR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAWR</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AAWP</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>AABW</tactic><length>2</length><exit>1</exit></transition></tactic>
+</tactics>

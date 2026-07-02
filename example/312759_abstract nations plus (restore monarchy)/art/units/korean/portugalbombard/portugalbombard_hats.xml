@@ -1,0 +1,6 @@
+<animfile>
+  <component>hats<logic type="Tech">
+      <none><assetreference type="GrannyModel"><file>units\asians\japanese\ashigaru\ashigaru_0age_hat</file></assetreference></none>
+       </logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

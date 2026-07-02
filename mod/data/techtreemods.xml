@@ -1,0 +1,2564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Eastern European Expansion (EEX) - techtreemods.xml
+     Defines:
+       - Age0 shadow techs (enable units/buildings at game start per civ)
+       - Age1-Age4 age-up techs (politician cards trigger these)
+       - Veteran/Guard upgrade techs for all EEX units
+
+     Tech ID ranges:
+       77194xxx = Hungary techs
+       77195xxx = Romania techs
+       77196xxx = Finland techs
+-->
+<techtreemods>
+
+  <!-- ==============================================================
+       HUNGARY TECH TREE  (77194xxx)
+       ============================================================== -->
+
+  <!-- Age0: Applied at game start; enables all Hungary units/buildings (follows Poland STARKAge0Polish pattern) -->
+  <tech name="EEXAge0Hungary" type="Normal">
+    <dbid>77194001</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <!-- Explorer -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXHungarianExplorer</target>
+      </effect>
+      <!-- Standard European infrastructure -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HouseEast</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Sheep</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Plantation</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Market</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Arsenal</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CWallGate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight2</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight5</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallConnector</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deTavern</target>
+      </effect>
+      <!-- Standard units -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Priest</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FieldHospital</target>
+      </effect>
+      <!-- Artillery -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Falconet</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mortar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpHorseArtillery</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+      <!-- Ships -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Caravel</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Monitor</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpSpy</target>
+      </effect>
+      <!-- Hungary Discovery-age units -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXMagyarHussar</target>
+      </effect>
+      <!-- Required system techs -->
+      <effect type="TechStatus" status="active">XPTrickle</effect>
+      <effect type="TechStatus" status="active">AAStandardStartingTechs</effect>
+      <effect type="TechStatus" status="active">DEEuropeanStandardTechs</effect>
+      <effect type="TechStatus" status="active">Levy</effect>
+      <!-- Standard Imperial/naval upgrade techs -->
+      <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
+      <effect type="TechStatus" status="obtainable">ImperialFieldGun</effect>
+      <effect type="TechStatus" status="obtainable">FieldGun</effect>
+      <effect type="TechStatus" status="obtainable">Bayonet</effect>
+      <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
+      <effect type="TechStatus" status="obtainable">ImperialMonitors</effect>
+      <effect type="TechStatus" status="obtainable">ImperialHorseArtillery</effect>
+      <effect type="TechStatus" status="obtainable">HeavyHorseArtillery</effect>
+      <!-- Revolution techs -->
+      <effect type="TechStatus" status="obtainable">DERevolutionHungaryGerman</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionRomania</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionUSA</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionHaiti</effect>
+      <!-- All Hungary politicians obtainable from Age0 (game engine shows correct age's options) -->
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryColonial1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryColonial2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryColonial3</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryFortress1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryFortress2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryFortress3</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryIndustrial1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryIndustrial2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryIndustrial3</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryImperial1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryImperial2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianHungaryImperial3</effect>
+      <!-- All Hungary unit upgrades obtainable (prereqtechs on those techs control research timing) -->
+      <effect type="TechStatus" status="obtainable">EEXVeteranHajduk</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardHajduk</effect>
+      <effect type="TechStatus" status="obtainable">EEXImperialHajduk</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranPandur</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardPandur</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranGrenz</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardGrenz</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranMagyarHussar</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardMagyarHussar</effect>
+      <effect type="TechStatus" status="obtainable">EEXImperialMagyarHussar</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranHungarianDragoon</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardHungarianDragoon</effect>
+    </effects>
+  </tech>
+
+  <!-- Age shadow techs: activated automatically by engine via civmods.xml agetech when SetAge fires -->
+  <tech name="EEXColonializeHungary" type="Normal">
+    <dbid>77194002</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Colonialize</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXPandur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXGrenz</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXHungarianDragoon</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXFortressizeHungary" type="Normal">
+    <dbid>77194003</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Fortressize</effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXIndustrializeHungary" type="Normal">
+    <dbid>77194004</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Industrialize</effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXImperializeHungary" type="Normal">
+    <dbid>77194005</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Imperialize</effect>
+    </effects>
+  </tech>
+
+  <!-- Politician age-up techs for Hungary -->
+  <tech name="EEXPoliticianHungaryColonial1" type="Normal">
+    <dbid>77194010</dbid>
+    <displaynameid>77181100</displaynameid>
+    <rollovertextid>77181101</rollovertextid>
+    <cost resourcetype="Food">900.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianHungaryColonial2" type="Normal">
+    <dbid>77194011</dbid>
+    <displaynameid>77181102</displaynameid>
+    <rollovertextid>77181103</rollovertextid>
+    <cost resourcetype="Food">900.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianHungaryColonial3" type="Normal">
+    <dbid>77194012</dbid>
+    <displaynameid>77181104</displaynameid>
+    <rollovertextid>77181105</rollovertextid>
+    <cost resourcetype="Food">900.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="EEXHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Fortress politicians (Age2) -->
+  <tech name="EEXPoliticianHungaryFortress1" type="Normal">
+    <dbid>77194013</dbid>
+    <displaynameid>77181110</displaynameid>
+    <rollovertextid>77181111</rollovertextid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianHungaryFortress2" type="Normal">
+    <dbid>77194014</dbid>
+    <displaynameid>77181112</displaynameid>
+    <rollovertextid>77181113</rollovertextid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="EEXMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianHungaryFortress3" type="Normal">
+    <dbid>77194015</dbid>
+    <displaynameid>77181114</displaynameid>
+    <rollovertextid>77181115</rollovertextid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Falconet" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Industrial politicians (Age3) -->
+  <tech name="EEXPoliticianHungaryIndustrial1" type="Normal">
+    <dbid>77194016</dbid>
+    <displaynameid>77181120</displaynameid>
+    <rollovertextid>77181121</rollovertextid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianHungaryIndustrial2" type="Normal">
+    <dbid>77194017</dbid>
+    <displaynameid>77181122</displaynameid>
+    <rollovertextid>77181123</rollovertextid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianHungaryIndustrial3" type="Normal">
+    <dbid>77194018</dbid>
+    <displaynameid>77181124</displaynameid>
+    <rollovertextid>77181125</rollovertextid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="EEXHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Imperial politicians (Age4) -->
+  <tech name="EEXPoliticianHungaryImperial1" type="Normal">
+    <dbid>77194019</dbid>
+    <displaynameid>77181130</displaynameid>
+    <rollovertextid>77181131</rollovertextid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianHungaryImperial2" type="Normal">
+    <dbid>77194020</dbid>
+    <displaynameid>77181132</displaynameid>
+    <rollovertextid>77181133</rollovertextid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianHungaryImperial3" type="Normal">
+    <dbid>77194021</dbid>
+    <displaynameid>77181134</displaynameid>
+    <rollovertextid>77181135</rollovertextid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="EEXHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Hungary unit upgrades -->
+  <tech name="EEXVeteranHajduk" type="Normal">
+    <dbid>77194030</dbid>
+    <displaynameid>77181200</displaynameid>
+    <rollovertextid>77181201</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Wood">150.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Hungary</prereqtech>
+    <prereqtech>EEXColonializeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXHajduk</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardHajduk" type="Normal">
+    <dbid>77194031</dbid>
+    <displaynameid>77181202</displaynameid>
+    <rollovertextid>77181203</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Wood">300.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranHajduk</prereqtech>
+    <prereqtech>EEXFortressizeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXHajduk</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXImperialHajduk" type="Normal">
+    <dbid>77194032</dbid>
+    <displaynameid>77181204</displaynameid>
+    <rollovertextid>77181205</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <cost resourcetype="Food">600.0000</cost>
+    <cost resourcetype="Wood">500.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXGuardHajduk</prereqtech>
+    <prereqtech>EEXIndustrializeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXHajduk</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXVeteranPandur" type="Normal">
+    <dbid>77194033</dbid>
+    <displaynameid>77181210</displaynameid>
+    <rollovertextid>77181211</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\skirmisher\skirmisher_icon_64x64.png</icon>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Gold">150.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Hungary</prereqtech>
+    <prereqtech>EEXColonializeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXPandur</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXPandur</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardPandur" type="Normal">
+    <dbid>77194034</dbid>
+    <displaynameid>77181212</displaynameid>
+    <rollovertextid>77181213</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\skirmisher\skirmisher_icon_64x64.png</icon>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranPandur</prereqtech>
+    <prereqtech>EEXFortressizeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXPandur</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXPandur</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXVeteranGrenz" type="Normal">
+    <dbid>77194035</dbid>
+    <displaynameid>77181220</displaynameid>
+    <rollovertextid>77181221</rollovertextid>
+    <icon>resources\art\units\infantry_hand\pikeman\pikeman_icon_64x64.png</icon>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Gold">150.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Hungary</prereqtech>
+    <prereqtech>EEXColonializeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXGrenz</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXGrenz</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardGrenz" type="Normal">
+    <dbid>77194036</dbid>
+    <displaynameid>77181222</displaynameid>
+    <rollovertextid>77181223</rollovertextid>
+    <icon>resources\art\units\infantry_hand\pikeman\pikeman_icon_64x64.png</icon>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranGrenz</prereqtech>
+    <prereqtech>EEXFortressizeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXGrenz</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXGrenz</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXVeteranMagyarHussar" type="Normal">
+    <dbid>77194037</dbid>
+    <displaynameid>77181230</displaynameid>
+    <rollovertextid>77181231</rollovertextid>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <cost resourcetype="Food">300.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>25.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Hungary</prereqtech>
+    <prereqtech>EEXColonializeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXMagyarHussar</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXMagyarHussar</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardMagyarHussar" type="Normal">
+    <dbid>77194038</dbid>
+    <displaynameid>77181232</displaynameid>
+    <rollovertextid>77181233</rollovertextid>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <cost resourcetype="Food">600.0000</cost>
+    <cost resourcetype="Gold">400.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranMagyarHussar</prereqtech>
+    <prereqtech>EEXFortressizeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXMagyarHussar</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXMagyarHussar</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXImperialMagyarHussar" type="Normal">
+    <dbid>77194039</dbid>
+    <displaynameid>77181234</displaynameid>
+    <rollovertextid>77181235</rollovertextid>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <cost resourcetype="Food">1000.0000</cost>
+    <cost resourcetype="Gold">700.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXGuardMagyarHussar</prereqtech>
+    <prereqtech>EEXIndustrializeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXMagyarHussar</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXMagyarHussar</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXVeteranHungarianDragoon" type="Normal">
+    <dbid>77194040</dbid>
+    <displaynameid>77181240</displaynameid>
+    <rollovertextid>77181241</rollovertextid>
+    <icon>resources\art\units\cavalry\dragoon\dragoon_icon_64x64.png</icon>
+    <cost resourcetype="Food">250.0000</cost>
+    <cost resourcetype="Gold">250.0000</cost>
+    <researchpoints>25.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Hungary</prereqtech>
+    <prereqtech>EEXColonializeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXHungarianDragoon</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXHungarianDragoon</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardHungarianDragoon" type="Normal">
+    <dbid>77194041</dbid>
+    <displaynameid>77181242</displaynameid>
+    <rollovertextid>77181243</rollovertextid>
+    <icon>resources\art\units\cavalry\dragoon\dragoon_icon_64x64.png</icon>
+    <cost resourcetype="Food">500.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranHungarianDragoon</prereqtech>
+    <prereqtech>EEXFortressizeHungary</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXHungarianDragoon</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXHungarianDragoon</target>
+      </effect>
+    </effects>
+  </tech>
+
+
+  <!-- ==============================================================
+       ROMANIA TECH TREE  (77195xxx)
+       ============================================================== -->
+
+  <tech name="EEXAge0Romania" type="Normal">
+    <dbid>77195001</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXRomanianExplorer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HouseEast</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Sheep</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Plantation</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Market</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Arsenal</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CWallGate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight2</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight5</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallConnector</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deTavern</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Priest</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FieldHospital</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Falconet</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mortar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpHorseArtillery</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Caravel</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Monitor</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpSpy</target>
+      </effect>
+      <!-- Romania Discovery-age units -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXDorobant</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXCurteni</target>
+      </effect>
+      <effect type="TechStatus" status="active">XPTrickle</effect>
+      <effect type="TechStatus" status="active">AAStandardStartingTechs</effect>
+      <effect type="TechStatus" status="active">DEEuropeanStandardTechs</effect>
+      <effect type="TechStatus" status="active">Levy</effect>
+      <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
+      <effect type="TechStatus" status="obtainable">ImperialFieldGun</effect>
+      <effect type="TechStatus" status="obtainable">FieldGun</effect>
+      <effect type="TechStatus" status="obtainable">Bayonet</effect>
+      <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
+      <effect type="TechStatus" status="obtainable">ImperialMonitors</effect>
+      <effect type="TechStatus" status="obtainable">ImperialHorseArtillery</effect>
+      <effect type="TechStatus" status="obtainable">HeavyHorseArtillery</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionHungaryGerman</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionRomania</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionUSA</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionHaiti</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaColonial1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaColonial2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaColonial3</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaFortress1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaFortress2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaFortress3</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaIndustrial1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaIndustrial2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaIndustrial3</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaImperial1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaImperial2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianRomaniaImperial3</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranDorobant</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardDorobant</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranRomanianPandur</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardRomanianPandur</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranSeimeni</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardSeimeni</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranCurteni</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardCurteni</effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXColonializeRomania" type="Normal">
+    <dbid>77195002</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Colonialize</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXRomanianPandur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXSeimeni</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXFortressizeRomania" type="Normal">
+    <dbid>77195003</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Fortressize</effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXIndustrializeRomania" type="Normal">
+    <dbid>77195004</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Industrialize</effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXImperializeRomania" type="Normal">
+    <dbid>77195005</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Imperialize</effect>
+    </effects>
+  </tech>
+
+  <!-- Romania politicians -->
+  <tech name="EEXPoliticianRomaniaColonial1" type="Normal">
+    <dbid>77195010</dbid>
+    <displaynameid>77182100</displaynameid>
+    <rollovertextid>77182101</rollovertextid>
+    <cost resourcetype="Food">900.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianRomaniaColonial2" type="Normal">
+    <dbid>77195011</dbid>
+    <displaynameid>77182102</displaynameid>
+    <rollovertextid>77182103</rollovertextid>
+    <cost resourcetype="Food">900.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianRomaniaColonial3" type="Normal">
+    <dbid>77195012</dbid>
+    <displaynameid>77182104</displaynameid>
+    <rollovertextid>77182105</rollovertextid>
+    <cost resourcetype="Food">900.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="EEXDorobant" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianRomaniaFortress1" type="Normal">
+    <dbid>77195013</dbid>
+    <displaynameid>77182110</displaynameid>
+    <rollovertextid>77182111</rollovertextid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXDorobant" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianRomaniaFortress2" type="Normal">
+    <dbid>77195014</dbid>
+    <displaynameid>77182112</displaynameid>
+    <rollovertextid>77182113</rollovertextid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="EEXCurteni" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianRomaniaFortress3" type="Normal">
+    <dbid>77195015</dbid>
+    <displaynameid>77182114</displaynameid>
+    <rollovertextid>77182115</rollovertextid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Falconet" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianRomaniaIndustrial1" type="Normal">
+    <dbid>77195016</dbid>
+    <displaynameid>77182120</displaynameid>
+    <rollovertextid>77182121</rollovertextid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXCurteni" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianRomaniaIndustrial2" type="Normal">
+    <dbid>77195017</dbid>
+    <displaynameid>77182122</displaynameid>
+    <rollovertextid>77182123</rollovertextid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianRomaniaIndustrial3" type="Normal">
+    <dbid>77195018</dbid>
+    <displaynameid>77182124</displaynameid>
+    <rollovertextid>77182125</rollovertextid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXSeimeni" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianRomaniaImperial1" type="Normal">
+    <dbid>77195019</dbid>
+    <displaynameid>77182130</displaynameid>
+    <rollovertextid>77182131</rollovertextid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXCurteni" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianRomaniaImperial2" type="Normal">
+    <dbid>77195020</dbid>
+    <displaynameid>77182132</displaynameid>
+    <rollovertextid>77182133</rollovertextid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianRomaniaImperial3" type="Normal">
+    <dbid>77195021</dbid>
+    <displaynameid>77182134</displaynameid>
+    <rollovertextid>77182135</rollovertextid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="EEXDorobant" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Romania unit upgrades -->
+  <tech name="EEXVeteranDorobant" type="Normal">
+    <dbid>77195030</dbid>
+    <displaynameid>77182200</displaynameid>
+    <rollovertextid>77182201</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Wood">150.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Romania</prereqtech>
+    <prereqtech>EEXColonializeRomania</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXDorobant</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXDorobant</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardDorobant" type="Normal">
+    <dbid>77195031</dbid>
+    <displaynameid>77182202</displaynameid>
+    <rollovertextid>77182203</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Wood">300.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranDorobant</prereqtech>
+    <prereqtech>EEXFortressizeRomania</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXDorobant</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXDorobant</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXVeteranRomanianPandur" type="Normal">
+    <dbid>77195032</dbid>
+    <displaynameid>77182210</displaynameid>
+    <rollovertextid>77182211</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\skirmisher\skirmisher_icon_64x64.png</icon>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Gold">150.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Romania</prereqtech>
+    <prereqtech>EEXColonializeRomania</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXRomanianPandur</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXRomanianPandur</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardRomanianPandur" type="Normal">
+    <dbid>77195033</dbid>
+    <displaynameid>77182212</displaynameid>
+    <rollovertextid>77182213</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\skirmisher\skirmisher_icon_64x64.png</icon>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranRomanianPandur</prereqtech>
+    <prereqtech>EEXFortressizeRomania</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXRomanianPandur</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXRomanianPandur</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXVeteranSeimeni" type="Normal">
+    <dbid>77195034</dbid>
+    <displaynameid>77182220</displaynameid>
+    <rollovertextid>77182221</rollovertextid>
+    <icon>resources\art\units\infantry_hand\pikeman\pikeman_icon_64x64.png</icon>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Gold">150.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Romania</prereqtech>
+    <prereqtech>EEXColonializeRomania</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXSeimeni</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXSeimeni</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardSeimeni" type="Normal">
+    <dbid>77195035</dbid>
+    <displaynameid>77182222</displaynameid>
+    <rollovertextid>77182223</rollovertextid>
+    <icon>resources\art\units\infantry_hand\pikeman\pikeman_icon_64x64.png</icon>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranSeimeni</prereqtech>
+    <prereqtech>EEXFortressizeRomania</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXSeimeni</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXSeimeni</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXVeteranCurteni" type="Normal">
+    <dbid>77195036</dbid>
+    <displaynameid>77182230</displaynameid>
+    <rollovertextid>77182231</rollovertextid>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <cost resourcetype="Food">300.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>25.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Romania</prereqtech>
+    <prereqtech>EEXColonializeRomania</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXCurteni</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXCurteni</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardCurteni" type="Normal">
+    <dbid>77195037</dbid>
+    <displaynameid>77182232</displaynameid>
+    <rollovertextid>77182233</rollovertextid>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <cost resourcetype="Food">600.0000</cost>
+    <cost resourcetype="Gold">400.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranCurteni</prereqtech>
+    <prereqtech>EEXFortressizeRomania</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXCurteni</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXCurteni</target>
+      </effect>
+    </effects>
+  </tech>
+
+
+  <!-- ==============================================================
+       FINLAND TECH TREE  (77196xxx)
+       ============================================================== -->
+
+  <tech name="EEXAge0Finland" type="Normal">
+    <dbid>77196001</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXFinnishExplorer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HouseEast</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Sheep</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Plantation</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Market</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Arsenal</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CWallGate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight2</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight5</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallConnector</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deTavern</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Priest</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FieldHospital</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Falconet</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mortar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpHorseArtillery</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Caravel</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Monitor</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpSpy</target>
+      </effect>
+      <!-- Finland Discovery-age units -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXFinnishMusketeer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXHakkapeliitta</target>
+      </effect>
+      <effect type="TechStatus" status="active">XPTrickle</effect>
+      <effect type="TechStatus" status="active">AAStandardStartingTechs</effect>
+      <effect type="TechStatus" status="active">DEEuropeanStandardTechs</effect>
+      <effect type="TechStatus" status="active">Levy</effect>
+      <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
+      <effect type="TechStatus" status="obtainable">ImperialFieldGun</effect>
+      <effect type="TechStatus" status="obtainable">FieldGun</effect>
+      <effect type="TechStatus" status="obtainable">Bayonet</effect>
+      <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
+      <effect type="TechStatus" status="obtainable">ImperialMonitors</effect>
+      <effect type="TechStatus" status="obtainable">ImperialHorseArtillery</effect>
+      <effect type="TechStatus" status="obtainable">HeavyHorseArtillery</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionHungaryGerman</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionRomania</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionUSA</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionHaiti</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandColonial1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandColonial2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandColonial3</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandFortress1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandFortress2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandFortress3</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandIndustrial1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandIndustrial2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandIndustrial3</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandImperial1</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandImperial2</effect>
+      <effect type="TechStatus" status="obtainable">EEXPoliticianFinlandImperial3</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranFinnishMusketeer</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardFinnishMusketeer</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranJaeger</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardJaeger</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranKnekt</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardKnekt</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranHakkapeliitta</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardHakkapeliitta</effect>
+      <effect type="TechStatus" status="obtainable">EEXImperialHakkapeliitta</effect>
+      <effect type="TechStatus" status="obtainable">EEXVeteranFinnishDragoon</effect>
+      <effect type="TechStatus" status="obtainable">EEXGuardFinnishDragoon</effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXColonializeFinland" type="Normal">
+    <dbid>77196002</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Colonialize</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXKnekt</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EEXFinnishDragoon</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXFortressizeFinland" type="Normal">
+    <dbid>77196003</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Fortressize</effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXIndustrializeFinland" type="Normal">
+    <dbid>77196004</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Industrialize</effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXImperializeFinland" type="Normal">
+    <dbid>77196005</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Imperialize</effect>
+    </effects>
+  </tech>
+
+  <!-- Finland politicians -->
+  <tech name="EEXPoliticianFinlandColonial1" type="Normal">
+    <dbid>77196010</dbid>
+    <displaynameid>77183100</displaynameid>
+    <rollovertextid>77183101</rollovertextid>
+    <cost resourcetype="Food">900.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianFinlandColonial2" type="Normal">
+    <dbid>77196011</dbid>
+    <displaynameid>77183102</displaynameid>
+    <rollovertextid>77183103</rollovertextid>
+    <cost resourcetype="Food">900.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="Settler" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianFinlandColonial3" type="Normal">
+    <dbid>77196012</dbid>
+    <displaynameid>77183104</displaynameid>
+    <rollovertextid>77183105</rollovertextid>
+    <cost resourcetype="Food">900.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_ii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age1</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="EEXFinnishMusketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianFinlandFortress1" type="Normal">
+    <dbid>77196013</dbid>
+    <displaynameid>77183110</displaynameid>
+    <rollovertextid>77183111</rollovertextid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXFinnishMusketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianFinlandFortress2" type="Normal">
+    <dbid>77196014</dbid>
+    <displaynameid>77183112</displaynameid>
+    <rollovertextid>77183113</rollovertextid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="EEXHakkapeliitta" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianFinlandFortress3" type="Normal">
+    <dbid>77196015</dbid>
+    <displaynameid>77183114</displaynameid>
+    <rollovertextid>77183115</rollovertextid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Falconet" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianFinlandIndustrial1" type="Normal">
+    <dbid>77196016</dbid>
+    <displaynameid>77183120</displaynameid>
+    <rollovertextid>77183121</rollovertextid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXHakkapeliitta" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianFinlandIndustrial2" type="Normal">
+    <dbid>77196017</dbid>
+    <displaynameid>77183122</displaynameid>
+    <rollovertextid>77183123</rollovertextid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianFinlandIndustrial3" type="Normal">
+    <dbid>77196018</dbid>
+    <displaynameid>77183124</displaynameid>
+    <rollovertextid>77183125</rollovertextid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianFinlandImperial1" type="Normal">
+    <dbid>77196019</dbid>
+    <displaynameid>77183130</displaynameid>
+    <rollovertextid>77183131</rollovertextid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXHakkapeliitta" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianFinlandImperial2" type="Normal">
+    <dbid>77196020</dbid>
+    <displaynameid>77183132</displaynameid>
+    <rollovertextid>77183133</rollovertextid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deMilitaryWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXPoliticianFinlandImperial3" type="Normal">
+    <dbid>77196021</dbid>
+    <displaynameid>77183134</displaynameid>
+    <rollovertextid>77183135</rollovertextid>
+    <cost resourcetype="Food">4000.0000</cost>
+    <cost resourcetype="Gold">4000.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_v.png</icon>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age4</effect>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="EEXFinnishMusketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Finland unit upgrades -->
+  <tech name="EEXVeteranFinnishMusketeer" type="Normal">
+    <dbid>77196030</dbid>
+    <displaynameid>77183200</displaynameid>
+    <rollovertextid>77183201</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Wood">150.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Finland</prereqtech>
+    <prereqtech>EEXColonializeFinland</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXFinnishMusketeer</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXFinnishMusketeer</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardFinnishMusketeer" type="Normal">
+    <dbid>77196031</dbid>
+    <displaynameid>77183202</displaynameid>
+    <rollovertextid>77183203</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Wood">300.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranFinnishMusketeer</prereqtech>
+    <prereqtech>EEXFortressizeFinland</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXFinnishMusketeer</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXFinnishMusketeer</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXVeteranJaeger" type="Normal">
+    <dbid>77196032</dbid>
+    <displaynameid>77183210</displaynameid>
+    <rollovertextid>77183211</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\skirmisher\skirmisher_icon_64x64.png</icon>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Gold">150.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Finland</prereqtech>
+    <prereqtech>EEXColonializeFinland</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXJaeger</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardJaeger" type="Normal">
+    <dbid>77196033</dbid>
+    <displaynameid>77183212</displaynameid>
+    <rollovertextid>77183213</rollovertextid>
+    <icon>resources\art\units\infantry_ranged\skirmisher\skirmisher_icon_64x64.png</icon>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranJaeger</prereqtech>
+    <prereqtech>EEXFortressizeFinland</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXJaeger</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXVeteranKnekt" type="Normal">
+    <dbid>77196034</dbid>
+    <displaynameid>77183220</displaynameid>
+    <rollovertextid>77183221</rollovertextid>
+    <icon>resources\art\units\infantry_hand\pikeman\pikeman_icon_64x64.png</icon>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Gold">150.0000</cost>
+    <researchpoints>20.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Finland</prereqtech>
+    <prereqtech>EEXColonializeFinland</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXKnekt</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXKnekt</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardKnekt" type="Normal">
+    <dbid>77196035</dbid>
+    <displaynameid>77183222</displaynameid>
+    <rollovertextid>77183223</rollovertextid>
+    <icon>resources\art\units\infantry_hand\pikeman\pikeman_icon_64x64.png</icon>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranKnekt</prereqtech>
+    <prereqtech>EEXFortressizeFinland</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXKnekt</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXKnekt</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXVeteranHakkapeliitta" type="Normal">
+    <dbid>77196036</dbid>
+    <displaynameid>77183230</displaynameid>
+    <rollovertextid>77183231</rollovertextid>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <cost resourcetype="Food">300.0000</cost>
+    <cost resourcetype="Wood">200.0000</cost>
+    <researchpoints>25.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Finland</prereqtech>
+    <prereqtech>EEXColonializeFinland</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXHakkapeliitta</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXHakkapeliitta</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardHakkapeliitta" type="Normal">
+    <dbid>77196037</dbid>
+    <displaynameid>77183232</displaynameid>
+    <rollovertextid>77183233</rollovertextid>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <cost resourcetype="Food">600.0000</cost>
+    <cost resourcetype="Wood">400.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranHakkapeliitta</prereqtech>
+    <prereqtech>EEXFortressizeFinland</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXHakkapeliitta</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXHakkapeliitta</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXImperialHakkapeliitta" type="Normal">
+    <dbid>77196038</dbid>
+    <displaynameid>77183234</displaynameid>
+    <rollovertextid>77183235</rollovertextid>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <cost resourcetype="Food">1000.0000</cost>
+    <cost resourcetype="Wood">700.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXGuardHakkapeliitta</prereqtech>
+    <prereqtech>EEXIndustrializeFinland</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXHakkapeliitta</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="MeleeAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXHakkapeliitta</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXVeteranFinnishDragoon" type="Normal">
+    <dbid>77196039</dbid>
+    <displaynameid>77183240</displaynameid>
+    <rollovertextid>77183241</rollovertextid>
+    <icon>resources\art\units\cavalry\dragoon\dragoon_icon_64x64.png</icon>
+    <cost resourcetype="Food">250.0000</cost>
+    <cost resourcetype="Gold">250.0000</cost>
+    <researchpoints>25.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXAge0Finland</prereqtech>
+    <prereqtech>EEXColonializeFinland</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXFinnishDragoon</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXFinnishDragoon</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXGuardFinnishDragoon" type="Normal">
+    <dbid>77196040</dbid>
+    <displaynameid>77183242</displaynameid>
+    <rollovertextid>77183243</rollovertextid>
+    <icon>resources\art\units\cavalry\dragoon\dragoon_icon_64x64.png</icon>
+    <cost resourcetype="Food">500.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <prereqtech>EEXVeteranFinnishDragoon</prereqtech>
+    <prereqtech>EEXFortressizeFinland</prereqtech>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="HitPoints" relativity="Percent">
+        <target type="ProtoUnit">EEXFinnishDragoon</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Attack" action="RangedAttack" relativity="Percent">
+        <target type="ProtoUnit">EEXFinnishDragoon</target>
+      </effect>
+    </effects>
+  </tech>
+
+
+  <!-- ==============================================================
+       HOME CITY SHIPMENT CARD TECHS
+       Format: cost 1 Ship, flag HomeCity, FreeHomeCityUnit effect
+       DB IDs: 77194100-77194199 (Hungary), 77195100-77195199 (Romania), 77196100-77196199 (Finland)
+       ============================================================== -->
+
+  <!-- HUNGARY shipment cards -->
+  <tech name="EEXHCShipHajduk3" type="Normal">
+    <dbid>77194100</dbid>
+    <displaynameid>77181300</displaynameid>
+    <rollovertextid>77181301</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="EEXHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipMagyarHussar4" type="Normal">
+    <dbid>77194101</dbid>
+    <displaynameid>77181302</displaynameid>
+    <rollovertextid>77181303</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipHajduk6" type="Normal">
+    <dbid>77194102</dbid>
+    <displaynameid>77181304</displaynameid>
+    <rollovertextid>77181305</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipPandur4" type="Normal">
+    <dbid>77194103</dbid>
+    <displaynameid>77181306</displaynameid>
+    <rollovertextid>77181307</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\skirmisher\skirmisher_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXPandur" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipGrenz4" type="Normal">
+    <dbid>77194104</dbid>
+    <displaynameid>77181308</displaynameid>
+    <rollovertextid>77181309</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_hand\pikeman\pikeman_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXGrenz" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipMagyarHussar6" type="Normal">
+    <dbid>77194105</dbid>
+    <displaynameid>77181310</displaynameid>
+    <rollovertextid>77181311</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipHungarianDragoon4" type="Normal">
+    <dbid>77194106</dbid>
+    <displaynameid>77181312</displaynameid>
+    <rollovertextid>77181313</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\dragoon\dragoon_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXHungarianDragoon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipMagyarHussar8" type="Normal">
+    <dbid>77194107</dbid>
+    <displaynameid>77181314</displaynameid>
+    <rollovertextid>77181315</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="EEXMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipHajduk10" type="Normal">
+    <dbid>77194108</dbid>
+    <displaynameid>77181316</displaynameid>
+    <rollovertextid>77181317</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="EEXHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- ROMANIA shipment cards -->
+  <tech name="EEXHCShipDorobant3" type="Normal">
+    <dbid>77195100</dbid>
+    <displaynameid>77182300</displaynameid>
+    <rollovertextid>77182301</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="EEXDorobant" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipCurteni4" type="Normal">
+    <dbid>77195101</dbid>
+    <displaynameid>77182302</displaynameid>
+    <rollovertextid>77182303</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXCurteni" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipDorobant6" type="Normal">
+    <dbid>77195102</dbid>
+    <displaynameid>77182304</displaynameid>
+    <rollovertextid>77182305</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXDorobant" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipSeimeni4" type="Normal">
+    <dbid>77195103</dbid>
+    <displaynameid>77182306</displaynameid>
+    <rollovertextid>77182307</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_hand\pikeman\pikeman_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXSeimeni" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipRomanianPandur4" type="Normal">
+    <dbid>77195104</dbid>
+    <displaynameid>77182308</displaynameid>
+    <rollovertextid>77182309</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\skirmisher\skirmisher_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXRomanianPandur" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipCurteni6" type="Normal">
+    <dbid>77195105</dbid>
+    <displaynameid>77182310</displaynameid>
+    <rollovertextid>77182311</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXCurteni" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipDorobant10" type="Normal">
+    <dbid>77195106</dbid>
+    <displaynameid>77182312</displaynameid>
+    <rollovertextid>77182313</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="EEXDorobant" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipCurteni8" type="Normal">
+    <dbid>77195107</dbid>
+    <displaynameid>77182314</displaynameid>
+    <rollovertextid>77182315</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="EEXCurteni" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- FINLAND shipment cards -->
+  <tech name="EEXHCShipFinnishMusketeer3" type="Normal">
+    <dbid>77196100</dbid>
+    <displaynameid>77183300</displaynameid>
+    <rollovertextid>77183301</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="EEXFinnishMusketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipHakkapeliitta3" type="Normal">
+    <dbid>77196101</dbid>
+    <displaynameid>77183302</displaynameid>
+    <rollovertextid>77183303</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="EEXHakkapeliitta" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipFinnishMusketeer6" type="Normal">
+    <dbid>77196102</dbid>
+    <displaynameid>77183304</displaynameid>
+    <rollovertextid>77183305</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXFinnishMusketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipJaeger4" type="Normal">
+    <dbid>77196103</dbid>
+    <displaynameid>77183306</displaynameid>
+    <rollovertextid>77183307</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\skirmisher\skirmisher_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipKnekt4" type="Normal">
+    <dbid>77196104</dbid>
+    <displaynameid>77183308</displaynameid>
+    <rollovertextid>77183309</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_hand\pikeman\pikeman_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXKnekt" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipHakkapeliitta6" type="Normal">
+    <dbid>77196105</dbid>
+    <displaynameid>77183310</displaynameid>
+    <rollovertextid>77183311</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="EEXHakkapeliitta" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipFinnishDragoon4" type="Normal">
+    <dbid>77196106</dbid>
+    <displaynameid>77183312</displaynameid>
+    <rollovertextid>77183313</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\dragoon\dragoon_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="EEXFinnishDragoon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipHakkapeliitta8" type="Normal">
+    <dbid>77196107</dbid>
+    <displaynameid>77183314</displaynameid>
+    <rollovertextid>77183315</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\hussar\hussar_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="EEXHakkapeliitta" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="EEXHCShipFinnishMusketeer10" type="Normal">
+    <dbid>77196108</dbid>
+    <displaynameid>77183316</displaynameid>
+    <rollovertextid>77183317</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="EEXFinnishMusketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- ==============================================================
+       DERemoveAge â€” clean up EEX politicians from TownCenter UI on age-up
+       mergeMode="add" extends the existing base game tech
+       DERemoveAge2 fires on entering Fortress (Age2), removes Colonial politicians
+       DERemoveAge3 fires on entering Industrial (Age3), removes Fortress politicians
+       DERemoveAge4 fires on entering Imperial (Age4), removes Industrial politicians
+       DERemoveAge5 fires on entering Revolution (Age5), removes Imperial politicians
+       ============================================================== -->
+
+  <tech name="DERemoveAge2" type="Normal">
+    <effects>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryColonial1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryColonial2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryColonial3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaColonial1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaColonial2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaColonial3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandColonial1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandColonial2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandColonial3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="DERemoveAge3" type="Normal">
+    <effects>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryFortress1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryFortress2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryFortress3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaFortress1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaFortress2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaFortress3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandFortress1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandFortress2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandFortress3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="DERemoveAge4" type="Normal">
+    <effects>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryIndustrial1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryIndustrial2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryIndustrial3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaIndustrial1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaIndustrial2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaIndustrial3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandIndustrial1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandIndustrial2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandIndustrial3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="DERemoveAge5" type="Normal">
+    <effects>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryImperial1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryImperial2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianHungaryImperial3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaImperial1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaImperial2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianRomaniaImperial3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandImperial1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandImperial2">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect mergeMode="add" type="CommandRemove" tech="EEXPoliticianFinlandImperial3">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+    </effects>
+  </tech>
+
+</techtreemods>

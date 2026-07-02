@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\grenadier\grenadier_age2_hat</file></assetreference></none><veteranmgrenadiers><assetreference type="GrannyModel"><file>units\infantry_ranged\grenadier\grenadier_age3_hat</file></assetreference></veteranmgrenadiers><guardmgrenadiers><assetreference type="GrannyModel"><file>units\infantry_ranged\grenadier\grenadier_age4_hat</file></assetreference></guardmgrenadiers></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

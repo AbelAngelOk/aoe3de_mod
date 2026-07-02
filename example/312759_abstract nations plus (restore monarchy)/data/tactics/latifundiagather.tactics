@@ -1,0 +1,14 @@
+<tactics>
+  <action>
+    <name stringid="68961">LatifundiaGather</name>
+    <type>AutoRangedModify</type>
+    <maxrange>2.0</maxrange>
+    <modifyprotoid>mmLatifundia</modifyprotoid>
+    <active>0</active>
+    <persistent>1</persistent>
+    <squareaura>1</squareaura>
+    <singleunit>1</singleunit>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.25</modifyamount>
+  </action>
+</tactics>

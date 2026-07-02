@@ -1,0 +1,12 @@
+<politicianmods>
+  <STARKPoliticianLogisticianPolish portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </STARKPoliticianLogisticianPolish>
+  <STARKPoliticianCavalierPolish portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </STARKPoliticianCavalierPolish>
+  <STARKPoliticianMarksmanPolish portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </STARKPoliticianMarksmanPolish>
+  <STARKPoliticianMusketeerPolish portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </STARKPoliticianMusketeerPolish>
+  <STARKPoliticianRoyalistPolish portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </STARKPoliticianRoyalistPolish>
+</politicianmods>

@@ -1,0 +1,6 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>buildings\armenian_grain_cart\armenian_grain_cart_mule</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\villagers\settler_wagon\settler_wagon_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>units\villagers\settler_wagon\settler_wagon_death</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\villagers\settler_wagon\settler_wagon_walk</file></assetreference><component>ModelComp</component></anim>
+</animfile>

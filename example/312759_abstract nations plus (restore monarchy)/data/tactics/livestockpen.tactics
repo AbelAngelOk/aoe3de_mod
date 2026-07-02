@@ -1,0 +1,37 @@
+<tactics>
+  <action>
+    <name stringid="7470623">MaintainGoat1</name>
+    <type>Maintain</type>
+    <rate type="ypGoat">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="7470623">MaintainGoat2</name>
+    <type>Maintain</type>
+    <rate type="ypGoat">2.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="7470623">MaintainGoat3</name>
+    <type>Maintain</type>
+    <rate type="ypGoat">3.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="7471486">SwissBoost</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>AbstractTownCenter</modifyabstracttype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.06</modifyamount>
+  </action>
+  <tactic>Normal<action>MaintainGoat1</action><action>MaintainGoat2</action><action>MaintainGoat3</action><action>SwissBoost</action></tactic>
+</tactics>

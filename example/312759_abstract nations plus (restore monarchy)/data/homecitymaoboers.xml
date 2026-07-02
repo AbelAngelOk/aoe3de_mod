@@ -1,0 +1,3321 @@
+<homecity>
+  <civ>MaoBoers</civ>
+  <name>$$7473219$$</name>
+  <heroname>$$43033$$</heroname>
+  <gatherpointunit>HomeCityGatherFlag</gatherpointunit>
+  <visual>german\german_homecity.xml</visual>
+  <watervisual>german\german_homecity_water.xml</watervisual>
+  <backgroundvisual>french\french_background.xml</backgroundvisual>
+  <pathdata>german\pathable_area_object.gr2</pathdata>
+  <camera>german\german_homecity_camera.cam</camera>
+  <widescreencamera>german\german_homecity_widescreencamera.cam</widescreencamera>
+  <transportroundtriptime>1</transportroundtriptime>
+  <transportactivationtime>0</transportactivationtime>
+  <level>1</level>
+  <maxcardsperdeck>21</maxcardsperdeck>
+  <skillpoints>9</skillpoints>
+  <lightset>Amsterdam</lightset>
+  <watertype>Berlin</watertype>
+  <numpropunlocksearned>0</numpropunlocksearned>
+  <ambientsounds>homecity\germanambientsounds.xml</ambientsounds>
+  <xsai>generic_city</xsai>
+  <heroprotounits>
+    <protounit>Explorer</protounit>
+  </heroprotounits>
+  <coffers>
+    <current>
+      <food>0</food>
+      <wood>0</wood>
+      <gold>0</gold>
+      <fame>0</fame>
+      <ships>0</ships>
+      <skillpoints>0</skillpoints>
+      <xp>0</xp>
+    </current>
+    <maximum>
+      <food>0</food>
+      <wood>0</wood>
+      <gold>0</gold>
+      <fame>0</fame>
+      <ships>0</ships>
+      <skillpoints>-1</skillpoints>
+      <xp>-1</xp>
+    </maximum>
+  </coffers>
+  <cards>
+    <card>
+      <name>mmFCVeerhuysenCav</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCVeerhuysenCavShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCVeerhuysenBarracks</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCVeerhuysenBarracksShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCDeforestation</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCDeforestationShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCExcessiveTaxation</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCExcessiveTaxationShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCKnighthood</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCKnighthoodShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCImmigrants</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCImmigrantsShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCLargeScaleAgriculture</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCLargeScaleAgricultureShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCPeerage</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCPeerageShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCArtilleryRegiments</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCArtilleryRegimentsShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCLegendaryNatives</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCLegendaryNativesShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCBlockade</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCBlockadeShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCSpies</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCSpiesShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCImperialRocket</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCImperialRocketShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCFactoryCannery</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCFactoryCanneryShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCFactoryWaterPower</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCFactoryWaterPowerShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCFactorySteamPower</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCFactorySteamPowerShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCFactoryMassProduction</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCFactoryMassProductionShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCFieldGun</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCFieldGunShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCImperialFieldGun</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCImperialFieldGunShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCGrapeShot</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCGrapeShotShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCImperialCulverin</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCImperialCulverinShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCHowitzer</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCHowitzerShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCImperialHowitzer</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCImperialHowitzerShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCRevetment</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCRevetmentShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCStarFort</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCStarFortShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCPillage</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCPillageShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCMilitaryDrummers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCMilitaryDrummersShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCBayonet</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCBayonetShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCIncendiaryGrenades</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCIncendiaryGrenadesShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCPaperCartridge</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCPaperCartridgeShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCRifling</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCRiflingShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCCavalryCuirass</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCCavalryCuirassShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCGunnersQuadrant</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCGunnersQuadrantShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCInfantryBreastplate</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCInfantryBreastplateShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCTrunion</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCTrunionShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCFlintlock</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCFlintlockShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCProfessionalGunners</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCProfessionalGunnersShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCHeatedShot</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCHeatedShotShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCCaracole</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCCaracoleShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCGillNets</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCGillNetsShadow</prereqtech>
+      <age>0</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCLongLines</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCLongLinesShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCArmorPlating</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCArmorPlatingShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCCarronade</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCCarronadeShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCPercussionLocks</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCPercussionLocksShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCShipHowitzers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCShipHowitzersShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCImperialManOWar</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCImperialManOWarShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCImperialMonitors</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCImperialMonitorsShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCSeedDrill</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCSeedDrillShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCArtificialFertilizer</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCArtificialFertilizerShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCBookkeeping</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCBookkeepingShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCHomesteading</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCHomesteadingShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCOreRefining</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCOreRefiningShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCSelectiveBreeding</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCSelectiveBreedingShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCSaloonWildWest</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCSaloonWildWestShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCFrontierOutpost</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCFrontierOutpostShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCFortifiedOutpost</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCFortifiedOutpostShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmVeteranRykburger</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmVeteranRykburgerShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmGuardRykburger</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmGuardRykburgerShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmImpRykburger</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmImpRykburgerShadow</prereqtech>
+      <age>4</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmVeteranSkeeps</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmVeteranSkeepsShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmGuardSkeeps</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmGuardSkeepsShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmImpSkeeps</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmImpSkeepsShadow</prereqtech>
+      <age>4</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmGuardKhoisan</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmGuardKhoisanShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmImpKhoisan</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmImpKhoisanShadow</prereqtech>
+      <age>4</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmVeteranVoortrekker</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmVeteranVoortrekkerShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmGuardVoortrekker</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmGuardVoortrekkerShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmImpVoortrekker</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmImpVoortrekkerShadow</prereqtech>
+      <age>4</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmVeteranKaapse</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmVeteranKaapseShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmGuardKaapse</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmGuardKaapseShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmImpKaapse</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmImpKaapseShadow</prereqtech>
+      <age>4</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmGuardBergenader</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmGuardBergenaderShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmImpBergenader</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmImpBergenaderShadow</prereqtech>
+      <age>4</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCRedoubts</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCRedoubtsShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCTownWatch</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCTownWatchShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCGasLighting</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCGasLightingShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCMercantilism</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCMercantilismShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCStandingArmy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCStandingArmyShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCMassCavalry</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCMassCavalryShadow</prereqtech>
+      <age>3</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCMissionFervor</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCMissionFervorShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCHuntingDogs</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCHuntingDogsShadow</prereqtech>
+      <age>0</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCSteelTraps</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCSteelTrapsShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCGangsaw</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCGangsawShadow</prereqtech>
+      <age>0</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCLogFlume</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCLogFlumeShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCCircularSaw</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCCircularSawShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCPlacerMines</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCPlacerMinesShadow</prereqtech>
+      <age>0</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCAmalgamation</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCAmalgamationShadow</prereqtech>
+      <age>1</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCFrontiersmen</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCFrontiersmenShadow</prereqtech>
+      <age>0</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCBuildingToBoersWagons</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCBoersPersecution1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCBoersPersecution1Shadow</prereqtech>
+      <age>0</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCBoersPersecution2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCBoersPersecution2Shadow</prereqtech>
+      <age>0</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCBoersPersecution3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCBoersPersecution3Shadow</prereqtech>
+      <age>0</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCBoersPersecution4</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCBoersPersecution4Shadow</prereqtech>
+      <age>0</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCBoersPersecution5</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCBoersPersecution5Shadow</prereqtech>
+      <age>0</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmFCBoersHomeland</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmFCBoersHomelandShadow</prereqtech>
+      <age>2</age>
+      <fakecard>
+      </fakecard>
+    </card>
+    <card>
+      <name>mmHCShipSettlers2Boers</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipSettlers3Boers</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>mmHCShipSettlers4Boers</prereqtech>
+      <age>0</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipSettlers4Boers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipSettlers5Boers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShepherdFamTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+    </card>
+	<card>
+      <name>mmHCFlorenceNightingaleBoers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+	<card>
+      <name>mmHCShipVeerhuysen1</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>1</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipVeerhuysen2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipFoodCrates1</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>300</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipFoodCrates2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipFoodCrates1</prereqtech>
+      <age>1</age>
+      <displayunitcount>600</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipFoodCrates3</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipFoodCrates2</prereqtech>
+      <age>1</age>
+      <displayunitcount>700</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCShipFoodCrates4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipFoodCrates3</prereqtech>
+      <age>2</age>
+      <infiniteinlastage>1</infiniteinlastage>
+      <displayunitcount>1000</displayunitcount>
+    </card>
+    <card>
+      <name>HCShipFoodCrates5</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipFoodCrates4</prereqtech>
+      <age>3</age>
+      <infiniteinlastage>1</infiniteinlastage>
+      <displayunitcount>1600</displayunitcount>
+    </card>
+	<card>
+      <name>HCShipWoodCrates1</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>300</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipWoodCrates2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipWoodCrates1</prereqtech>
+      <age>1</age>
+      <displayunitcount>600</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipWoodCrates3</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipwoodCrates2</prereqtech>
+      <age>1</age>
+      <displayunitcount>700</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipWoodCrates4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipwoodCrates3</prereqtech>
+      <age>2</age>
+      <displayunitcount>1000</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCShipWoodCrates5</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipWoodCrates4</prereqtech>
+      <age>3</age>
+      <infiniteinlastage>1</infiniteinlastage>
+      <displayunitcount>1600</displayunitcount>
+    </card>
+	<card>
+      <name>HCShipCoinCrates1</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>300</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipCoinCrates2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipCoinCrates1</prereqtech>
+      <age>1</age>
+      <displayunitcount>600</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipCoinCrates3</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipCoinCrates2</prereqtech>
+      <age>1</age>
+      <displayunitcount>700</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCShipCoinCrates4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipCoinCrates3</prereqtech>
+      <age>2</age>
+      <displayunitcount>1000</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCShipCoinCrates5</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipCoinCrates4</prereqtech>
+      <age>3</age>
+      <infiniteinlastage>1</infiniteinlastage>
+      <displayunitcount>1600</displayunitcount>
+    </card>
+	<card>
+      <name>mmHCShipSangaBoers1</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipSangaBoers2</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCTownCenterBoers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>mmHCShipBoersWagons</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
+      <name>mmHCInfantryDamageBoers</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>mmHCWildWarfareBoers</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>mmHCInfantryCombatBoers</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>mmHCImprovedRykburger</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>HCCavalryDamageBritish</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>mmHCCavalryHitpointsBoersTeam</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>DEHCRangedCavalryCombat</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>HCNativeCombatTeam</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>mmHCBattleExcitement</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+	<card>
+      <name>mmHCTrainPointsBoers</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+	<card>
+      <name>HCXPMasterSurgeons</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipSurgeons</prereqtech>
+      <bindtotech>HCXPMasterSurgeons</bindtotech>
+      <age>0</age>
+    </card>
+	<card>
+      <name>HCShipBalloons</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>mmHCTrojanLOSTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>mmHCVitvatersrandTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>mmHCOrangeRepublicans</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>mmHCTradingTrakPost</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>mmHCCallOfKruger</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>mmHCSupremacyClaimation</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>mmHCRangedWestley</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+	<card>
+      <name>HCXPAdvancedBalloon</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>mmHCShipFortBoersInf</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>1</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipStadswacht1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipStadswacht2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipStadswacht3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>11</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipStadswacht4</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>13</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipRedcoat1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipRedcoat2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipRedcoat3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipRedcoat4</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>14</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipRedcoat5</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>16</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipSkermutselaar1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipSkermutselaar2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipSkermutselaar3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipSkermutselaar4</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipSkermutselaar5</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>14</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipLifeGuard1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipLifeGuard2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipLifeGuard3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipLifeGuard4</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipLifeGuard5</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipCarabineer1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipCarabineer2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipCarabineer3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>11</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipCarabineer4</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>13</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipLegion1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipLegion3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipGrenadiers1</prereqtech>
+      <age>3</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipLegion2</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipGrenadiers2</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCShipLegion4</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipGrenadiers1</prereqtech>
+      <age>3</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>mmHCAubergesBoers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipGrenadiers1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>HCShipFalconets1</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>1</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipFalconets2</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipFalconets1</prereqtech>
+      <age>3</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipFalconets4</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech> </prereqtech>
+      <age>3</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCShipCulverins1</name>
+      <maxcount>-1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCXPShipCulverins2</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCShipRockets1</prereqtech>
+      <age>3</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCShipMortars1</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCShipRockets1</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipMortars2</prereqtech>
+      <age>3</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCXPShipPetards1</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCNativeLore</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HCNativeTreaties</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCNativeLore</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCXPWarHutTrainingIroquois</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCNativeTreaties</prereqtech>
+      <age>2</age>
+    </card>
+	<card>
+      <name>mmHCNativeWarriorsTeamAU</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>HCXPBloodBrothers</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCNativeWarriors</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>HCAdvancedTradingPost</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCNativeWarriors</prereqtech>
+      <age>0</age>
+      <bindtotech>HCAdvancedTradingPost</bindtotech>
+    </card>
+	<card>
+      <name>HCColonialMilitia</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmHCShipOutpostBoers1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HCPioneers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>mmHCShipOutpostBoers1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCPioneers</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>mmHCShipOutpostBoers1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>mmHCShipOutpostBoers3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>mmHCShipOutpostBoers2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>3</displayunitcount>
+    </card>
+    <card>
+      <name>mmAdvancedChurch</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>HCAdvancedMarket</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>HCAdvancedDock</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <bindtotech>HCAdvancedDock</bindtotech>
+    </card>
+	<card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>1</displayunitcount>
+      <bindtotech> </bindtotech>
+    </card>
+    <card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech> </prereqtech>
+      <age>3</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+	<card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HCXPShipSpies1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCXPShipSpies2</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCXPShipSpies1</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCXPShipSpies3</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCXPShipSpies2</prereqtech>
+      <age>3</age>
+      <displayunitcount>15</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCXPAgents</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCXPAssassins</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+	<card>
+      <name>HCFishMarket</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HCRenderingPlant</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCFishMarket</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCSchooners</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCFishMarket</prereqtech>
+      <age>0</age>
+    </card>
+	<card>
+      <name>HCXPWhaleOil</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>HCSpawnFishingBoats</prereqtech>
+      <age>0</age>
+    </card>
+	<card>
+      <name>HCSawmills</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HCSilversmith</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech> </prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCSilversmith</prereqtech>
+      <age>2</age>
+    </card>
+	<card>
+      <name>HCFoodSilosTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>mmHCSustainableAgricultureTeam</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCFoodSilosTeam</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>mmHCSustainableAgricultureTeam</prereqtech>
+      <age>2</age>
+    </card>
+	<card>
+      <name>HCFullingMills</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HCSpiceTrade</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <bindtotech>DEHCREVSpiceTrade</bindtotech>
+      <age>0</age>
+    </card>
+	<card>
+      <name>HCXPMedicineTeam</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+	<card>
+      <name>HCRumDistilleryTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>YPHCChonindoTeam</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech> </prereqtech>
+      <age>0</age>
+      <overrideicontech>mmHCTheoryTeam</overrideicontech>
+    </card>
+    <card>
+      <name>mmHCTextileMillsBoers</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech> </prereqtech>
+      <age>2</age>
+    </card>
+	<card>
+      <name>mmHCEnvironmentalismBoers</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+	<card>
+      <name>mmHCByproductBoers</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+	<card>
+      <name>HCStonemasons</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <bindtotech>HCStonemasons</bindtotech>
+    </card>
+    <card>
+      <name>HCNavalCombat</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipFrigates</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>HCNavalGunners</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCAdmirality</prereqtech>
+      <age>1</age>
+    </card>
+	<card>
+      <name>HCShipCaravels1</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>1</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipCaravels2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipCaravels1</prereqtech>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipFrigates</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech> </prereqtech>
+      <age>2</age>
+      <displayunitcount>1</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipCanoesBoers1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipCaravels1</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipCanoesBoers2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipCaravels1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipCanoesBoers3</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipCaravels1</prereqtech>
+      <age>3</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>DEHCShipFrigateRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipFrigates</prereqtech>
+      <age>3</age>
+      <displayunitcount>1</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCAdmirality</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+	<card>
+      <name>DEHCShipBattleshipRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+	<card>
+      <name>DEHCMercsIrishBrigadiers</name>
+      <maxcount>1</maxcount>
+      <age>1</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>DEHCMercsCannoneersEuropean</name>
+      <maxcount>1</maxcount>
+      <age>1</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCMercsSwissPikemen</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>12</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCMercsGiantGrenadiers</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCMercsHessians</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCMercsHessians</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCMercsSwissPikemen</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCMercsHighlanders</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCMercsBlackRiders</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech> </prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCMercsSwissPikemen</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCMercsBosniaks</name>
+      <maxcount>1</maxcount>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name> </name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCXPMercsElmeti</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech> </prereqtech>
+      <age>3</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCXPMercsGreatCannon</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>mmHCMercenaryLoyaltyBoers</prereqtech>
+      <age>3</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>DEHCMercsOttoman</name>
+      <maxcount>-1</maxcount>
+      <level>25</level>
+      <prereqtech>HCMercsBlackRiders</prereqtech>
+      <age>3</age>
+      <displayunitcount>13</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name> </name>
+      <maxcount>-1</maxcount>
+      <level>25</level>
+      <prereqtech> </prereqtech>
+      <age>3</age>
+      <displayunitcount>18</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCMercsMediterranean</name>
+      <maxcount>-1</maxcount>
+      <level>25</level>
+      <prereqtech>DEHCMercsGiantGrenadiers</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCMercsMamelukes</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>HCMercsCorsairs</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>DEHCMercsMamelukesSwedish</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>DEHCMercsZouaves</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	<card>
+      <name>DEHCMercsAskaris</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>11</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCIturbidePalace</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>DEHCAdvancedSaloon</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>DEHCShipDesertWarriors</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipDesertArchers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipDesertWarriors2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>18</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCShipDesertArchers2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>20</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipColonialSword0</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipColonialSword1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>12</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipColoRifle1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmHCShipColoRifle2</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>mmTheatersBalkans</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>mmHCMercenaryLoyaltyBoers</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCAkanAllies</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <bindtotech>DEHCAkanAllies</bindtotech>
+      <age>3</age>
+      <displayunitcount>24</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+	
+  </cards>
+  <decks>
+    <deck>
+      <name>$$71332$$Beginner</name>
+      <default>
+      </default>
+      <cards>
+				<card dbid="2183">mmHCShipSettlers3Boers</card>
+				<card dbid="2183">mmHCShipSettlers5Boers</card>
+				<card dbid="8322">mmHCShipVeerhuysen2</card>
+				<card dbid="2215">HCShipCoinCrates3</card>
+				<card dbid="2212">HCShipWoodCrates3</card>
+				<card dbid="8535">mmHCCallOfKruger</card>
+				<card dbid="2248">mmHCShipSkermutselaar1</card>
+				<card dbid="2187">mmHCShipRedcoat1</card>
+				<card dbid="2416">mmHCInfantryDamageBoers</card>
+				<card dbid="2085">HCCavalryDamageBritish</card>
+				<card dbid="2418">mmHCInfantryCombatBoers</card>
+				<card dbid="6390">DEHCRangedCavalryCombat</card>
+				<card dbid="7052">mmHCTrainPointsBoers</card>
+				<card dbid="6530">mmHCShipOutpostBoers3</card>
+				<card dbid="2248">mmHCShipSkermutselaar3</card>
+				<card dbid="2314">mmHCShipRedcoat3</card>
+				<card dbid="2102">mmHCTextileMillsBoers</card>
+				<card dbid="8333">mmHCByproductBoers</card>
+				<card dbid="2619">mmHCOrangeRepublicans</card>
+				<card dbid="10350">mmHCImprovedRykburger</card>
+				<card dbid="6394">mmHCVitvatersrandTeam</card>
+      </cards>
+    </deck>
+    <deck>
+      <name>$$22178$$Blank</name>
+      <default>
+      </default>
+      <cards>
+      </cards>
+    </deck>
+    <fakedeck>
+      <cards>
+        <card>mmVeteranRykburger</card>
+        <card>mmGuardRykburger</card>
+        <card>mmImpRykburger</card>
+        <card>mmVeteranSkeeps</card>
+        <card>mmGuardSkeeps</card>
+        <card>mmImpSkeeps</card>
+        <card>mmGuardKhoisan</card>
+        <card>mmImpKhoisan</card>
+        <card>mmVeteranVoortrekker</card>
+        <card>mmGuardVoortrekker</card>
+        <card>mmImpVoortrekker</card>
+        <card>mmVeteranKaapse</card>
+        <card>mmGuardKaapse</card>
+        <card>mmImpKaapse</card>
+        <card>mmGuardBergenader</card>
+        <card>mmImpBergenader</card>
+        <card>mmFCRedoubts</card>
+        <card>mmFCTownWatch</card>
+        <card>mmFCGasLighting</card>
+        <card>mmFCMercantilism</card>
+        <card>mmFCStandingArmy</card>
+        <card>mmFCMassCavalry</card>
+        <card>mmFCMissionFervor</card>
+        <card>mmFCHuntingDogs</card>
+        <card>mmFCSteelTraps</card>
+        <card>mmFCGangsaw</card>
+        <card>mmFCLogFlume</card>
+        <card>mmFCCircularSaw</card>
+        <card>mmFCAmalgamation</card>
+        <card>mmFCPlacerMines</card>
+        <card>mmFCBoersPersecution1</card>
+        <card>mmFCBoersPersecution2</card>
+        <card>mmFCBoersPersecution3</card>
+        <card>mmFCBoersPersecution4</card>
+        <card>mmFCBoersPersecution5</card>
+        <card>mmFCBoersHomeland</card>
+        <card>mmFCFrontiersmen</card>
+        <card>mmFCBuildingToBoersWagons</card>
+        <card>mmFCFrontierOutpost</card>
+        <card>mmFCFortifiedOutpost</card>
+        <card>mmFCSaloonWildWest</card>
+        <card>mmFCSelectiveBreeding</card>
+        <card>mmFCSeedDrill</card>
+        <card>mmFCArtificialFertilizer</card>
+        <card>mmFCBookkeeping</card>
+        <card>mmFCHomesteading</card>
+        <card>mmFCOreRefining</card>
+        <card>mmFCGillNets</card>
+        <card>mmFCLongLines</card>
+        <card>mmFCArmorPlating</card>
+        <card>mmFCCarronade</card>
+        <card>mmFCPercussionLocks</card>
+        <card>mmFCImperialManOWar</card>
+        <card>mmFCShipHowitzers</card>
+        <card>mmFCImperialMonitors</card>
+        <card>mmFCPillage</card>
+        <card>mmFCMilitaryDrummers</card>
+        <card>mmFCBayonet</card>
+        <card>mmFCIncendiaryGrenades</card>
+        <card>mmFCPaperCartridge</card>
+        <card>mmFCRifling</card>
+        <card>mmFCCavalryCuirass</card>
+        <card>mmFCGunnersQuadrant</card>
+        <card>mmFCInfantryBreastplate</card>
+        <card>mmFCTrunion</card>
+        <card>mmFCFlintlock</card>
+        <card>mmFCProfessionalGunners</card>
+        <card>mmFCHeatedShot</card>
+        <card>mmFCCaracole</card>
+        <card>mmFCImperialRocket</card>
+        <card>mmFCFactoryCannery</card>
+        <card>mmFCFactoryWaterPower</card>
+        <card>mmFCFactorySteamPower</card>
+        <card>mmFCFactoryMassProduction</card>
+        <card>mmFCFieldGun</card>
+        <card>mmFCImperialFieldGun</card>
+        <card>mmFCGrapeShot</card>
+        <card>mmFCImperialCulverin</card>
+        <card>mmFCHowitzer</card>
+        <card>mmFCImperialHowitzer</card>
+        <card>mmFCRevetment</card>
+        <card>mmFCStarFort</card>
+        <card>mmFCDeforestation</card>
+        <card>mmFCExcessiveTaxation</card>
+        <card>mmFCKnighthood</card>
+        <card>mmFCImmigrants</card>
+        <card>mmFCLargeScaleAgriculture</card>
+        <card>mmFCPeerage</card>
+        <card>mmFCArtilleryRegiments</card>
+        <card>mmFCLegendaryNatives</card>
+        <card>mmFCBlockade</card>
+        <card>mmFCSpies</card>
+        <card>mmFCVeerhuysenCav</card>
+        <card>mmFCVeerhuysenBarracks</card>
+      </cards>
+    </fakedeck>
+  </decks>
+  <building>
+    <name>Estate</name>
+    <visual>
+      <file>german\german estate.xml</file>
+      <bone>bone_estate</bone>
+    </visual>
+    <uix>150</uix>
+    <uiy>200</uiy>
+    <camera>german\germany_homecity_estate_camera.cam</camera>
+    <widescreencamera>german\germany_homecity_estate_camera.cam</widescreencamera>
+    <unlocklevel>0</unlocklevel>
+    <portrait>homecity\buildings_west\estate_icon</portrait>
+    <displaynamestringid>24968</displaynamestringid>
+    <rolloverstringid>25537</rolloverstringid>
+    <obtainabletechs>
+    </obtainabletechs>
+    <activetechs>
+    </activetechs>
+    <validunits>
+    </validunits>
+    <units>
+    </units>
+    <mercbuilding>1</mercbuilding>
+    <trainbuilding>1</trainbuilding>
+  </building>
+  <building>
+    <name>Market</name>
+    <visual>
+      <file>german\german_tradecenter.xml</file>
+      <bone>bone_market</bone>
+    </visual>
+    <uix>250</uix>
+    <uiy>375</uiy>
+    <camera>german\germany_homecity_market_camera.cam</camera>
+    <widescreencamera>german\germany_homecity_market_widescreencamera.cam</widescreencamera>
+    <unlocklevel>0</unlocklevel>
+    <portrait>homecity\buildings_west\market_icon</portrait>
+    <displaynamestringid>24970</displaynamestringid>
+    <rolloverstringid>25536</rolloverstringid>
+    <obtainabletechs>
+      <tech x="0.7" y="1.0">mmHCShipSettlers2Boers</tech>
+      <tech x="0.7" y="2.0">mmHCShipSettlers4Boers</tech>
+      <tech x="0.3" y="3.0">mmHCShipSettlers3Boers</tech>
+      <tech x="0.3" y="4.0">mmHCShipSettlers5Boers</tech>
+      <tech x="0.3" y="4.0">mmHCShepherdFamTeam</tech>
+      <tech x="0.3" y="7.0">mmHCShipVeerhuysen1</tech>
+      <tech x="0.3" y="7.0">mmHCShipVeerhuysen2</tech>
+      <tech x="2.0" y="1.0">HCShipFoodCrates1</tech>
+      <tech x="2.7" y="1.0">HCShipWoodCrates1</tech>
+      <tech x="3.4" y="1.0">HCShipCoinCrates1</tech>
+      <tech x="2.0" y="2.0">HCShipFoodCrates2</tech>
+      <tech x="2.7" y="2.0">HCShipWoodCrates2</tech>
+      <tech x="3.4" y="2.0">HCShipCoinCrates2</tech>
+      <tech x="2.0" y="3.0">HCShipFoodCrates3</tech>
+      <tech x="2.7" y="3.0">HCShipWoodCrates3</tech>
+      <tech x="3.4" y="3.0">HCShipCoinCrates3</tech>
+      <tech x="2.0" y="4.0">HCShipFoodCrates4</tech>
+      <tech x="2.7" y="4.0">HCShipWoodCrates4</tech>
+      <tech x="3.4" y="4.0">HCShipCoinCrates4</tech>
+      <tech x="2.0" y="5.0">HCShipFoodCrates5</tech>
+      <tech x="4.7" y="1.0">HCShipWoodCrates5</tech>
+      <tech x="4.4" y="2.0">HCShipCoinCrates5</tech>
+      <tech x="5.1" y="2.0">mmHCShipSangaBoers1</tech>
+      <tech x="5.8" y="1.0">mmHCShipSangaBoers2</tech>
+      <tech x="5.5" y="3.0"> </tech>
+      <tech x="6.3" y="2.0"> </tech>
+      <tech x="6.3" y="3.0">HCShipSurgeons</tech>
+      <tech x="6.3" y="4.0">HCXPShipSurgeons2</tech>
+      <tech x="7.0" y="1.0">HCXPMasterSurgeons</tech>
+      <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
+      <tech x="7.0" y="5.0">HCShipBalloons</tech>
+	  <tech x="7.0" y="5.0">mmHCTownCenterBoers</tech>
+	  <tech x="7.0" y="5.0">mmHCShipBoersWagons</tech>
+    </obtainabletechs>
+    <activetechs>
+      <tech x="0.7" y="1.0">mmHCShipSettlers2Boers</tech>
+      <tech x="0.7" y="2.0">mmHCShipSettlers4Boers</tech>
+      <tech x="0.3" y="3.0">mmHCShipSettlers3Boers</tech>
+      <tech x="0.3" y="4.0">mmHCShipSettlers5Boers</tech>
+      <tech x="0.3" y="4.0">mmHCShepherdFamTeam</tech>
+      <tech x="0.3" y="7.0">mmHCShipVeerhuysen1</tech>
+      <tech x="0.3" y="7.0">mmHCShipVeerhuysen2</tech>
+      <tech x="2.0" y="1.0">HCShipFoodCrates1</tech>
+      <tech x="2.7" y="1.0">HCShipWoodCrates1</tech>
+      <tech x="3.4" y="1.0">HCShipCoinCrates1</tech>
+      <tech x="2.0" y="2.0">HCShipFoodCrates2</tech>
+      <tech x="2.7" y="2.0">HCShipWoodCrates2</tech>
+      <tech x="3.4" y="2.0">HCShipCoinCrates2</tech>
+      <tech x="2.0" y="3.0">HCShipFoodCrates3</tech>
+      <tech x="2.7" y="3.0">HCShipWoodCrates3</tech>
+      <tech x="3.4" y="3.0">HCShipCoinCrates3</tech>
+      <tech x="2.0" y="4.0">HCShipFoodCrates4</tech>
+      <tech x="2.7" y="4.0">HCShipWoodCrates4</tech>
+      <tech x="3.4" y="4.0">HCShipCoinCrates4</tech>
+      <tech x="2.0" y="5.0">HCShipFoodCrates5</tech>
+      <tech x="4.7" y="1.0">HCShipWoodCrates5</tech>
+      <tech x="4.4" y="2.0">HCShipCoinCrates5</tech>
+      <tech x="5.1" y="2.0">mmHCShipSangaBoers1</tech>
+      <tech x="5.8" y="1.0">mmHCShipSangaBoers2</tech>
+      <tech x="5.5" y="3.0"> </tech>
+      <tech x="6.3" y="2.0"> </tech>
+      <tech x="6.3" y="3.0">HCShipSurgeons</tech>
+      <tech x="6.3" y="4.0">HCXPShipSurgeons2</tech>
+      <tech x="7.0" y="1.0">HCXPMasterSurgeons</tech>
+      <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
+      <tech x="7.0" y="5.0">HCShipBalloons</tech>
+	  <tech x="7.0" y="5.0">mmHCTownCenterBoers</tech>
+	  <tech x="7.0" y="5.0">mmHCShipBoersWagons</tech>
+    </activetechs>
+    <validunits>
+    </validunits>
+    <units>
+    </units>
+    <trainbuilding>1</trainbuilding>
+  </building>
+  <building>
+    <name>Academy</name>
+    <visual>
+      <file>german\german_academy.xml</file>
+      <bone>bone_academy</bone>
+    </visual>
+    <uix>460</uix>
+    <uiy>125</uiy>
+    <camera>german\germany_homecity_academy_camera.cam</camera>
+    <widescreencamera>german\germany_homecity_academy_widescreencamera.cam</widescreencamera>
+    <unlocklevel>0</unlocklevel>
+    <portrait>homecity\buildings_west\academy_icon</portrait>
+    <displaynamestringid>24965</displaynamestringid>
+    <rolloverstringid>25533</rolloverstringid>
+    <obtainabletechs>
+      <tech x="1.0" y="2.0">mmHCShipStadswacht1</tech>
+      <tech x="1.0" y="3.0">mmHCShipStadswacht2</tech>
+      <tech x="1.0" y="4.0">mmHCShipStadswacht3</tech>
+      <tech x="1.0" y="4.0">mmHCShipStadswacht4</tech>
+      <tech x="2.7" y="3.0">mmHCShipRedcoat1</tech>
+      <tech x="2.7" y="3.0">mmHCShipRedcoat2</tech>
+      <tech x="2.7" y="3.0">mmHCShipRedcoat3</tech>
+      <tech x="2.7" y="3.0">mmHCShipRedcoat4</tech>
+      <tech x="2.7" y="3.0">mmHCShipRedcoat5</tech>
+      <tech x="2.7" y="4.0">mmHCShipSkermutselaar1</tech>
+      <tech x="2.7" y="5.0">mmHCShipSkermutselaar2</tech>
+      <tech x="3.6" y="1.0">mmHCShipSkermutselaar3</tech>
+      <tech x="3.6" y="2.0">mmHCShipSkermutselaar4</tech>
+      <tech x="3.6" y="2.0">mmHCShipSkermutselaar5</tech>
+      <tech x="3.6" y="4.0">mmHCShipLifeGuard1</tech>
+      <tech x="3.6" y="4.0">mmHCShipLifeGuard2</tech>
+      <tech x="3.6" y="4.0">mmHCShipLifeGuard3</tech>
+      <tech x="3.6" y="4.0">mmHCShipLifeGuard4</tech>
+      <tech x="3.6" y="4.0">mmHCShipLifeGuard5</tech>
+      <tech x="4.9" y="3.0">mmHCShipCarabineer1</tech>
+      <tech x="4.9" y="3.0">mmHCShipCarabineer2</tech>
+      <tech x="4.9" y="3.0">mmHCShipCarabineer3</tech>
+      <tech x="4.9" y="3.0">mmHCShipCarabineer4</tech>
+      <tech x="6.4" y="2.0">mmHCShipLegion1</tech>
+      <tech x="6.4" y="2.0">mmHCShipLegion2</tech>
+      <tech x="6.4" y="2.0">mmHCShipLegion3</tech>
+      <tech x="6.4" y="2.0">mmHCShipLegion4</tech>
+      <tech x="6.4" y="2.0">mmHCAubergesBoers</tech>
+      <tech x="6.4" y="3.0">HCShipFalconets1</tech>
+      <tech x="6.4" y="4.0">HCShipFalconets2</tech>
+      <tech x="6.4" y="7.0"> </tech>
+      <tech x="7.1" y="1.0">HCShipFalconets4</tech>
+      <tech x="7.1" y="2.0">HCShipCulverins1</tech>
+      <tech x="7.1" y="3.0">HCXPShipCulverins2</tech>
+      <tech x="7.1" y="4.0">HCAdvancedArtillery</tech>
+      <tech x="7.1" y="7.0">HCShipMortars1</tech>
+      <tech x="7.2" y="7.0">HCShipMortars2</tech>
+      <tech x="7.2" y="7.1">HCXPShipHorseArtillery1</tech>
+	  <tech x="7.3" y="7.0">HCXPShipHorseArtillery2</tech>
+	  <tech x="7.3" y="7.1">HCShipRockets1</tech>
+	  <tech x="7.4" y="7.0">HCXPShipPetards1</tech>
+	  <tech x="7.4" y="7.0">mmHCCavalryHitpointsBoersTeam</tech>
+	  <tech x="7.4" y="7.0">HCCavalryDamageBritish</tech>
+	  <tech x="7.4" y="7.0">DEHCRangedCavalryCombat</tech>
+	  <tech x="7.4" y="7.0">mmHCBattleExcitement</tech>
+	  <tech x="7.4" y="7.0">mmHCLogisticsTeam</tech>
+	  <tech x="7.4" y="7.0">HCNativeCombatTeam</tech>
+	  <tech x="7.4" y="7.0">mmHCInfantryCombatBoers</tech>
+	  <tech x="7.4" y="7.0">mmHCInfantryDamageBoers</tech>
+	  <tech x="7.4" y="7.0">mmHCWildWarfareBoers</tech>
+	  <tech x="7.4" y="7.0">mmHCImprovedRykburger</tech>
+    </obtainabletechs>
+    <activetechs>
+      <tech x="1.0" y="2.0">mmHCShipStadswacht1</tech>
+      <tech x="1.0" y="3.0">mmHCShipStadswacht2</tech>
+      <tech x="1.0" y="4.0">mmHCShipStadswacht3</tech>
+      <tech x="1.0" y="4.0">mmHCShipStadswacht4</tech>
+      <tech x="2.7" y="3.0">mmHCShipRedcoat1</tech>
+      <tech x="2.7" y="3.0">mmHCShipRedcoat2</tech>
+      <tech x="2.7" y="3.0">mmHCShipRedcoat3</tech>
+      <tech x="2.7" y="3.0">mmHCShipRedcoat4</tech>
+      <tech x="2.7" y="3.0">mmHCShipRedcoat5</tech>
+      <tech x="2.7" y="4.0">mmHCShipSkermutselaar1</tech>
+      <tech x="2.7" y="5.0">mmHCShipSkermutselaar2</tech>
+      <tech x="3.6" y="1.0">mmHCShipSkermutselaar3</tech>
+      <tech x="3.6" y="2.0">mmHCShipSkermutselaar4</tech>
+      <tech x="3.6" y="2.0">mmHCShipSkermutselaar5</tech>
+      <tech x="3.6" y="4.0">mmHCShipLifeGuard1</tech>
+      <tech x="3.6" y="4.0">mmHCShipLifeGuard2</tech>
+      <tech x="3.6" y="4.0">mmHCShipLifeGuard3</tech>
+      <tech x="3.6" y="4.0">mmHCShipLifeGuard4</tech>
+      <tech x="3.6" y="4.0">mmHCShipLifeGuard5</tech>
+      <tech x="4.9" y="3.0">mmHCShipCarabineer1</tech>
+      <tech x="4.9" y="3.0">mmHCShipCarabineer2</tech>
+      <tech x="4.9" y="3.0">mmHCShipCarabineer3</tech>
+      <tech x="4.9" y="3.0">mmHCShipCarabineer4</tech>
+      <tech x="6.4" y="2.0">mmHCShipLegion1</tech>
+      <tech x="6.4" y="2.0">mmHCShipLegion2</tech>
+      <tech x="6.4" y="2.0">mmHCShipLegion3</tech>
+      <tech x="6.4" y="2.0">mmHCShipLegion4</tech>
+      <tech x="6.4" y="2.0">mmHCAubergesBoers</tech>
+      <tech x="6.4" y="3.0">HCShipFalconets1</tech>
+      <tech x="6.4" y="4.0">HCShipFalconets2</tech>
+      <tech x="6.4" y="7.0"> </tech>
+      <tech x="7.1" y="1.0">HCShipFalconets4</tech>
+      <tech x="7.1" y="2.0">HCShipCulverins1</tech>
+      <tech x="7.1" y="3.0">HCXPShipCulverins2</tech>
+      <tech x="7.1" y="4.0">HCAdvancedArtillery</tech>
+      <tech x="7.1" y="7.0">HCShipMortars1</tech>
+      <tech x="7.2" y="7.0">HCShipMortars2</tech>
+      <tech x="7.2" y="7.1">HCXPShipHorseArtillery1</tech>
+	  <tech x="7.3" y="7.0">HCXPShipHorseArtillery2</tech>
+	  <tech x="7.3" y="7.1">HCShipRockets1</tech>
+	  <tech x="7.4" y="7.0">HCXPShipPetards1</tech>
+	  <tech x="7.4" y="7.0">mmHCCavalryHitpointsBoersTeam</tech>
+	  <tech x="7.4" y="7.0">HCCavalryDamageBritish</tech>
+	  <tech x="7.4" y="7.0">DEHCRangedCavalryCombat</tech>
+	  <tech x="7.4" y="7.0">mmHCBattleExcitement</tech>
+	  <tech x="7.4" y="7.0">mmHCLogisticsTeam</tech>
+	  <tech x="7.4" y="7.0">HCNativeCombatTeam</tech>
+	  <tech x="7.4" y="7.0">mmHCInfantryCombatBoers</tech>
+	  <tech x="7.4" y="7.0">mmHCInfantryDamageBoers</tech>
+	  <tech x="7.4" y="7.0">mmHCWildWarfareBoers</tech>
+	  <tech x="7.4" y="7.0">mmHCImprovedRykburger</tech>
+    </activetechs>
+    <validunits>
+    </validunits>
+    <units>
+    </units>
+    <trainbuilding>1</trainbuilding>
+  </building>
+  <building>
+    <name>Cathedral</name>
+    <visual>
+      <file>german\german_cathedral.xml</file>
+      <bone>bone_cathedral</bone>
+    </visual>
+    <uix>80</uix>
+    <uiy>475</uiy>
+    <camera>german\germany_homecity_cathedral_camera.cam</camera>
+    <widescreencamera>german\germany_homecity_cathedral_widescreencamera.cam</widescreencamera>
+    <unlocklevel>0</unlocklevel>
+    <portrait>homecity\buildings_west\cathedral_icon</portrait>
+    <displaynamestringid>24969</displaynamestringid>
+    <rolloverstringid>25538</rolloverstringid>
+    <obtainabletechs>
+      <tech x="0.0" y="1.0">HCNativeLore</tech>
+      <tech x="0.0" y="2.0">HCNativeTreaties</tech>
+      <tech x="0.0" y="3.0">HCXPWarHutTrainingIroquois</tech>
+	  <tech x="7.4" y="7.1">mmHCNativeWarriorsTeamAU</tech>
+      <tech x="0.0" y="5.0">HCXPBloodBrothers</tech>
+      <tech x="0.0" y="7.0">HCAdvancedTradingPost</tech>
+      <tech x="1.6" y="1.0">HCColonialMilitia</tech>
+      <tech x="1.6" y="3.0">HCPioneers</tech>
+      <tech x="0.9" y="1.0">mmHCRangedWestley</tech>
+      <tech x="0.9" y="7.0">mmHCShipOutpostBoers1</tech>
+      <tech x="2.1" y="5.0">mmHCShipOutpostBoers2</tech>
+      <tech x="2.1" y="5.0">mmHCShipOutpostBoers3</tech>
+      <tech x="2.5" y="2.0">mmHCShipFortBoersInf</tech>
+      <tech x="2.5" y="5.0">mmAdvancedChurch</tech>
+      <tech x="3.0" y="5.0">mmHCCallOfKruger</tech>
+      <tech x="3.2" y="5.0">HCAdvancedMarket</tech>
+      <tech x="2.8" y="1.0">mmHCTradingTrakPost</tech>
+      <tech x="3.2" y="3.0">HCAdvancedDock</tech>
+      <tech x="3.5" y="1.0">mmHCSupremacyClaimation</tech>
+      <tech x="3.9" y="1.0">mmHCVitvatersrandTeam</tech>
+      <tech x="3.9" y="5.0">mmHCTrainPointsBoers</tech>
+      <tech x="4.8" y="1.0"> </tech>
+      <tech x="4.8" y="3.0">mmHCTrojanLOSTeam</tech>
+      <tech x="5.5" y="1.0">mmHCOrangeRepublicans</tech>
+      <tech x="5.5" y="5.0">HCXPShipSpies1</tech>
+      <tech x="6.2" y="1.0">HCXPShipSpies2</tech>
+      <tech x="6.2" y="5.0">HCXPShipSpies3</tech>
+      <tech x="6.2" y="3.0">HCXPAgents</tech>
+      <tech x="6.9" y="1.0">HCXPAssassins</tech>
+      <tech x="6.9" y="3.0"></tech>
+    </obtainabletechs>
+    <activetechs>
+      <tech x="0.0" y="1.0">HCNativeLore</tech>
+      <tech x="0.0" y="2.0">HCNativeTreaties</tech>
+      <tech x="0.0" y="3.0">HCXPWarHutTrainingIroquois</tech>
+	  <tech x="7.4" y="7.1">mmHCNativeWarriorsTeamAU</tech>
+      <tech x="0.0" y="5.0">HCXPBloodBrothers</tech>
+      <tech x="0.0" y="7.0">HCAdvancedTradingPost</tech>
+      <tech x="1.6" y="1.0">HCColonialMilitia</tech>
+      <tech x="1.6" y="3.0">HCPioneers</tech>
+      <tech x="0.9" y="1.0">mmHCRangedWestley</tech>
+      <tech x="0.9" y="7.0">mmHCShipOutpostBoers1</tech>
+      <tech x="2.1" y="5.0">mmHCShipOutpostBoers2</tech>
+      <tech x="2.1" y="5.0">mmHCShipOutpostBoers3</tech>
+      <tech x="2.5" y="2.0">mmHCShipFortBoersInf</tech>
+      <tech x="2.5" y="5.0">mmAdvancedChurch</tech>
+      <tech x="3.0" y="5.0">mmHCCallOfKruger</tech>
+      <tech x="3.2" y="5.0">HCAdvancedMarket</tech>
+      <tech x="2.8" y="1.0">mmHCTradingTrakPost</tech>
+      <tech x="3.2" y="3.0">HCAdvancedDock</tech>
+      <tech x="3.5" y="1.0">mmHCSupremacyClaimation</tech>
+      <tech x="3.9" y="1.0">mmHCVitvatersrandTeam</tech>
+      <tech x="3.9" y="5.0">mmHCTrainPointsBoers</tech>
+      <tech x="4.8" y="1.0"> </tech>
+      <tech x="4.8" y="3.0">mmHCTrojanLOSTeam</tech>
+      <tech x="5.5" y="1.0">mmHCOrangeRepublicans</tech>
+      <tech x="5.5" y="5.0">HCXPShipSpies1</tech>
+      <tech x="6.2" y="1.0">HCXPShipSpies2</tech>
+      <tech x="6.2" y="5.0">HCXPShipSpies3</tech>
+      <tech x="6.2" y="3.0">HCXPAgents</tech>
+      <tech x="6.9" y="1.0">HCXPAssassins</tech>
+      <tech x="6.9" y="3.0"></tech>
+    </activetechs>
+    <validunits>
+    </validunits>
+    <units>
+    </units>
+    <trainbuilding>1</trainbuilding>
+  </building>
+  <building>
+    <name>ManufacturingPlant</name>
+    <visual>
+      <file>german\german_manufacturingplant.xml</file>
+      <bone>bone_plant</bone>
+    </visual>
+    <uix>450</uix>
+    <uiy>275</uiy>
+    <camera>german\germany_homecity_manufacturing_plant_camera.cam</camera>
+    <widescreencamera>german\germany_homecity_plant_widescreencamera.cam</widescreencamera>
+    <unlocklevel>0</unlocklevel>
+    <portrait>homecity\buildings_west\manufacturing_plant_icon</portrait>
+    <displaynamestringid>24972</displaynamestringid>
+    <rolloverstringid>25535</rolloverstringid>
+    <obtainabletechs>
+      <tech x="0.0" y="3.0">HCFishMarket</tech>
+      <tech x="0.0" y="5.0">HCRenderingPlant</tech>
+      <tech x="0.0" y="6.0">HCSchooners</tech>
+      <tech x="0.0" y="7.0">HCXPWhaleOil</tech>
+      <tech x="0.9" y="1.0">HCSawmills</tech>
+      <tech x="0.9" y="3.0"> </tech>
+      <tech x="1.8" y="3.0"> </tech>
+      <tech x="1.8" y="5.0"> </tech>
+      <tech x="2.7" y="1.0">HCSilversmith</tech>
+      <tech x="2.7" y="3.0"> </tech>
+      <tech x="2.7" y="5.0"> </tech>
+      <tech x="2.7" y="7.0">HCFoodSilosTeam</tech>
+      <tech x="2.7" y="9.0">mmHCSustainableAgricultureTeam</tech>
+      <tech x="3.6" y="1.0"> </tech>
+      <tech x="3.6" y="3.0"> </tech>
+      <tech x="3.6" y="5.0">HCFullingMills</tech>
+      <tech x="3.6" y="7.0">mmHCFlorenceNightingaleBoers</tech>
+      <tech x="4.5" y="1.0">HCSpiceTrade</tech>
+      <tech x="5.4" y="1.0">mmHCByproductBoers</tech>
+      <tech x="5.4" y="3.0">HCRumDistilleryTeam</tech>
+      <tech x="5.4" y="3.0">YPHCChonindoTeam</tech>
+      <tech x="5.4" y="5.0">mmHCEnvironmentalismBoers</tech>
+      <tech x="6.3" y="1.0">mmHCTextileMillsBoers</tech>
+      <tech x="6.3" y="2.0">HCXPMedicineTeam</tech>
+      <tech x="6.3" y="3.0">HCStonemasons</tech>
+	  <tech x="6.3" y="3.1"> </tech>
+    </obtainabletechs>
+    <activetechs>
+      <tech x="0.0" y="3.0">HCFishMarket</tech>
+      <tech x="0.0" y="5.0">HCRenderingPlant</tech>
+      <tech x="0.0" y="6.0">HCSchooners</tech>
+      <tech x="0.0" y="7.0">HCXPWhaleOil</tech>
+      <tech x="0.9" y="1.0">HCSawmills</tech>
+      <tech x="0.9" y="3.0"> </tech>
+      <tech x="1.8" y="3.0"> </tech>
+      <tech x="1.8" y="5.0"> </tech>
+      <tech x="2.7" y="1.0">HCSilversmith</tech>
+      <tech x="2.7" y="3.0"> </tech>
+      <tech x="2.7" y="5.0"> </tech>
+      <tech x="2.7" y="7.0">HCFoodSilosTeam</tech>
+      <tech x="2.7" y="9.0">mmHCSustainableAgricultureTeam</tech>
+      <tech x="3.6" y="1.0"> </tech>
+      <tech x="3.6" y="3.0"> </tech>
+      <tech x="3.6" y="5.0">HCFullingMills</tech>
+      <tech x="3.6" y="7.0">mmHCByproductBoers</tech>
+      <tech x="4.5" y="1.0">HCSpiceTrade</tech>
+      <tech x="5.4" y="1.0">mmHCEnvironmentalismBoers</tech>
+      <tech x="5.4" y="3.0">HCRumDistilleryTeam</tech>
+      <tech x="5.4" y="3.0">YPHCChonindoTeam</tech>
+      <tech x="5.4" y="5.0">mmHCFlorenceNightingaleBoers</tech>
+      <tech x="6.3" y="1.0">mmHCTextileMillsBoers</tech>
+      <tech x="6.3" y="2.0">HCXPMedicineTeam</tech>
+      <tech x="6.3" y="3.0">HCStonemasons</tech>
+	  <tech x="6.3" y="3.1"> </tech>
+    </activetechs>
+    <validunits>
+    </validunits>
+    <trainbuilding>1</trainbuilding>
+  </building>
+  <building>
+    <name>Dock</name>
+    <visual>
+      <file>german\german_dock.xml</file>
+      <bone>bone_dock</bone>
+    </visual>
+    <uix>200</uix>
+    <uiy>250</uiy>
+    <camera>german\germany_homecity_dock_camera.cam</camera>
+    <widescreencamera>german\germany_homecity_dock_widescreencamera.cam</widescreencamera>
+    <unlocklevel>0</unlocklevel>
+    <portrait>homecity\buildings_west\dock_icon</portrait>
+    <displaynamestringid>35745</displaynamestringid>
+    <rolloverstringid>35746</rolloverstringid>
+    <obtainabletechs>
+      <tech x="1.3" y="1.0">HCShipCaravels1</tech>
+      <tech x="1.0" y="2.0">HCShipCaravels2</tech>
+      <tech x="1.7" y="2.0"> </tech>
+      <tech x="1.7" y="3.0">HCShipFrigates</tech>
+      <tech x="1.4" y="4.0">HCNavalCombat</tech>
+      <tech x="1.4" y="4.0">HCNavalGunners</tech>
+      <tech x="2.1" y="4.0"> </tech>
+      <tech x="2.1" y="7.0">DEHCShipFrigateRepeat</tech>
+      <tech x="2.8" y="1.0"> </tech>
+      <tech x="2.6" y="1.0"> </tech>
+      <tech x="4.7" y="1.0">HCAdmirality</tech>
+      <tech x="4.7" y="1.0">DEHCShipBattleshipRepeat</tech>
+      <tech x="4.7" y="1.0">DEHCMercsCannoneersEuropean</tech>
+      <tech x="4.7" y="1.0">DEHCMercsIrishBrigadiers</tech>
+      <tech x="4.7" y="3.0">HCMercsSwissPikemen</tech>
+      <tech x="4.0" y="3.0"> </tech>
+      <tech x="4.0" y="4.0">DEHCMercsGiantGrenadiers</tech>
+      <tech x="4.0" y="4.0">HCMercsHessians</tech>
+      <tech x="4.0" y="5.0"> </tech>
+      <tech x="4.7" y="5.0">HCMercsCorsairs</tech>
+      <tech x="4.7" y="7.0">HCMercsHighlanders</tech>
+      <tech x="4.7" y="9.0">DEHCMercsMamelukesSwedish</tech>
+      <tech x="5.4" y="3.0">HCMercsBlackRiders</tech>
+      <tech x="6.1" y="3.0">DEHCMercsBosniaks</tech>
+      <tech x="6.1" y="3.0">HCMercsMamelukes</tech>
+      <tech x="6.1" y="4.0">HCXPMercsElmeti</tech>
+      <tech x="6.1" y="5.0">HCXPMercsGreatCannon</tech>
+      <tech x="6.3" y="1.0">mmHCMercenaryLoyaltyBoers</tech>
+      <tech x="5.4" y="4.0">DEHCMercsZouaves</tech>
+      <tech x="5.4" y="5.0">DEHCIturbidePalace</tech>
+      <tech x="5.4" y="5.0">DEHCAdvancedSaloon</tech>
+      <tech x="6.1" y="7.0">mmTheatersBalkans</tech>
+      <tech x="6.1" y="7.0">HCMercsMediterranean</tech>
+      <tech x="6.1" y="1.0">DEHCMercsOttoman</tech>
+      <tech x="6.1" y="1.0">mmHCShipCanoesBoers1</tech>
+      <tech x="6.1" y="1.0">mmHCShipCanoesBoers2</tech>
+      <tech x="7.0" y="1.0">mmHCShipCanoesBoers3</tech>
+	  <tech x="7.0" y="1.0">DEHCMercsAskaris</tech>
+      <tech x="7.0" y="1.0">DEHCAkanAllies</tech>
+      <tech x="4.4" y="1.0">DEHCShipDesertWarriors</tech>
+      <tech x="4.4" y="1.0">DEHCShipDesertWarriors2</tech>
+      <tech x="4.4" y="1.0">DEHCShipDesertArchers</tech>
+      <tech x="4.4" y="1.0">DEHCShipDesertArchers2</tech>
+      <tech x="4.4" y="1.0">mmHCShipColonialSword0</tech>
+      <tech x="4.4" y="1.0">mmHCShipColonialSword1</tech>
+      <tech x="4.4" y="1.0">mmHCShipColoRifle1</tech>
+      <tech x="4.4" y="1.0">mmHCShipColoRifle2</tech>
+    </obtainabletechs>
+    <activetechs>
+      <tech x="1.3" y="1.0">HCShipCaravels1</tech>
+      <tech x="1.0" y="2.0">HCShipCaravels2</tech>
+      <tech x="1.7" y="2.0"> </tech>
+      <tech x="1.7" y="3.0">HCShipFrigates</tech>
+      <tech x="1.4" y="4.0">HCNavalCombat</tech>
+      <tech x="1.4" y="4.0">HCNavalGunners</tech>
+      <tech x="2.1" y="4.0"> </tech>
+      <tech x="2.1" y="7.0">DEHCShipFrigateRepeat</tech>
+      <tech x="2.1" y="7.0">DEHCMercsCannoneersEuropean</tech>
+      <tech x="2.8" y="1.0"> </tech>
+      <tech x="2.6" y="1.0"> </tech>
+      <tech x="4.7" y="1.0">HCAdmirality</tech>
+      <tech x="4.7" y="1.0">DEHCShipBattleshipRepeat</tech>
+      <tech x="4.7" y="1.0">DEHCMercsIrishBrigadiers</tech>
+      <tech x="4.7" y="3.0">HCMercsSwissPikemen</tech>
+      <tech x="4.0" y="3.0"> </tech>
+      <tech x="4.0" y="4.0">DEHCMercsGiantGrenadiers</tech>
+      <tech x="4.0" y="4.0">HCMercsHessians</tech>
+      <tech x="4.0" y="5.0"> </tech>
+      <tech x="4.7" y="5.0">HCMercsCorsairs</tech>
+      <tech x="4.7" y="7.0">HCMercsHighlanders</tech>
+      <tech x="4.7" y="9.0">DEHCMercsMamelukesSwedish</tech>
+      <tech x="5.4" y="3.0">HCMercsBlackRiders</tech>
+      <tech x="6.1" y="3.0">DEHCMercsBosniaks</tech>
+      <tech x="6.1" y="3.0">HCMercsMamelukes</tech>
+      <tech x="6.1" y="4.0">HCXPMercsElmeti</tech>
+      <tech x="6.1" y="5.0">HCXPMercsGreatCannon</tech>
+      <tech x="6.3" y="1.0">mmHCMercenaryLoyaltyBoers</tech>
+      <tech x="5.4" y="4.0">DEHCMercsZouaves</tech>
+      <tech x="5.4" y="5.0">DEHCIturbidePalace</tech>
+      <tech x="5.4" y="5.0">DEHCAdvancedSaloon</tech>
+      <tech x="6.1" y="7.0">mmTheatersBalkans</tech>
+      <tech x="6.1" y="7.0">HCMercsMediterranean</tech>
+      <tech x="6.1" y="1.0">DEHCMercsOttoman</tech>
+      <tech x="6.1" y="1.0">mmHCShipCanoesBoers1</tech>
+      <tech x="6.1" y="1.0">mmHCShipCanoesBoers2</tech>
+      <tech x="7.0" y="1.0">mmHCShipCanoesBoers3</tech>
+	  <tech x="7.0" y="1.0">DEHCMercsAskaris</tech>
+      <tech x="7.0" y="1.0">DEHCAkanAllies</tech>
+      <tech x="4.4" y="1.0">DEHCShipDesertWarriors</tech>
+      <tech x="4.4" y="1.0">DEHCShipDesertWarriors2</tech>
+      <tech x="4.4" y="1.0">DEHCShipDesertArchers</tech>
+      <tech x="4.4" y="1.0">DEHCShipDesertArchers2</tech>
+      <tech x="4.4" y="1.0">mmHCShipColonialSword0</tech>
+      <tech x="4.4" y="1.0">mmHCShipColonialSword1</tech>
+      <tech x="4.4" y="1.0">mmHCShipColoRifle1</tech>
+      <tech x="4.4" y="1.0">mmHCShipColoRifle2</tech>
+    </activetechs>
+    <validunits>
+    </validunits>
+    <units>
+    </units>
+    <trainbuilding>1</trainbuilding>
+    <mercbuilding>1</mercbuilding>
+  </building>
+  <building>
+    <name>Customization</name>
+    <camera>german\german_homecity_camera.cam</camera>
+    <widescreencamera>german\german_homecity_camera.cam</widescreencamera>
+    <unlocklevel>0</unlocklevel>
+    <portrait>homecity\buildings_west\dock_icon</portrait>
+    <displaynamestringid>24966</displaynamestringid>
+    <rolloverstringid>25540</rolloverstringid>
+    <customizationbuilding>1</customizationbuilding>
+  </building>
+  <waypoints>
+    <waypoint>
+      <bone>bone_pathnode_01</bone>
+      <exit>1</exit>
+      <vendorentry>1</vendorentry>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_02</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_03</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_04</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_05</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_06</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_07</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_08</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_09</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_10</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_11</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_12</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_14</bone>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_17</bone>
+      <exit>1</exit>
+      <vendorentry>1</vendorentry>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_18</bone>
+      <exit>1</exit>
+      <vendorentry>1</vendorentry>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_19</bone>
+      <exit>1</exit>
+      <vendorentry>1</vendorentry>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_20</bone>
+      <exit>1</exit>
+      <vendorentry>1</vendorentry>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_21</bone>
+      <exit>1</exit>
+      <vendorentry>1</vendorentry>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_22</bone>
+      <exit>1</exit>
+      <vendorentry>1</vendorentry>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_23</bone>
+      <exit>1</exit>
+      <vendorentry>1</vendorentry>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_24</bone>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_25</bone>
+      <exit>1</exit>
+      <vendorentry>1</vendorentry>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_26</bone>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_28</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_29</bone>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_30</bone>
+      <illreputearea>1</illreputearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_31</bone>
+      <exit>1</exit>
+      <vendorentry>1</vendorentry>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_32</bone>
+      <illreputearea>1</illreputearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_33</bone>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_34</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_35</bone>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_36</bone>
+      <dock>1</dock>
+    </waypoint>
+    <waypoint>
+      <bone>bone_pathnode_37</bone>
+      <performancearea>1</performancearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_fishing01</bone>
+      <fishingarea>1</fishingarea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_fishing02</bone>
+      <fishingarea>1</fishingarea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_fishing03</bone>
+      <fishingarea>1</fishingarea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_shipment_start</bone>
+      <shipmentstart>1</shipmentstart>
+    </waypoint>
+    <waypoint>
+      <bone>bone_shipment_end</bone>
+      <shipmentend>1</shipmentend>
+    </waypoint>
+    <waypoint>
+      <bone>bone_dregs01</bone>
+      <illreputearea>1</illreputearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_dregs02</bone>
+      <illreputearea>1</illreputearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_dregs03</bone>
+      <illreputearea>1</illreputearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_dregs04</bone>
+      <illreputearea>1</illreputearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_dregs05</bone>
+      <illreputearea>1</illreputearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_dregs06</bone>
+      <illreputearea>1</illreputearea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_vendor01</bone>
+      <vendorarea>1</vendorarea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_vendor02</bone>
+      <vendorarea>1</vendorarea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_vendor03</bone>
+      <vendorarea>1</vendorarea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_vendor04</bone>
+      <vendorarea>1</vendorarea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_vendor05</bone>
+      <vendorarea>1</vendorarea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_vendor06</bone>
+      <vendorarea>1</vendorarea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_vendor07</bone>
+      <vendorarea>1</vendorarea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_vendor08</bone>
+      <vendorarea>1</vendorarea>
+    </waypoint>
+    <waypoint>
+      <bone>bone_firework01</bone>
+      <fireworks>1</fireworks>
+    </waypoint>
+    <waypoint>
+      <bone>bone_firework02</bone>
+      <fireworks>1</fireworks>
+    </waypoint>
+    <waypoint>
+      <bone>bone_firework03</bone>
+      <fireworks>1</fireworks>
+    </waypoint>
+    <waypoint>
+      <bone>bone_firework04</bone>
+      <fireworks>1</fireworks>
+    </waypoint>
+    <waypoint>
+      <bone>bone_firework05</bone>
+      <fireworks>1</fireworks>
+    </waypoint>
+    <waypoint>
+      <bone>bone_firework06</bone>
+      <fireworks>1</fireworks>
+    </waypoint>
+  </waypoints>
+  <obtainableprops>
+    <prop>StageCoachRoyal</prop>
+    <prop>Torchy</prop>
+    <prop>Juggler</prop>
+    <prop>PeasantVendor</prop>
+    <prop>MiddleClassMusician</prop>
+    <prop>MiddleClassPreacher</prop>
+    <prop>PeasantPainter</prop>
+    <prop>Drunk</prop>
+    <prop>NiceLady</prop>
+    <prop>PeasantFisherman</prop>
+    <prop>Thug</prop>
+    <prop>UnitChats</prop>
+    <prop active="1">German_LightSet1</prop>
+    <prop>German_LightSet2</prop>
+    <prop>German_CathProp01</prop>
+    <prop>German_Market_Prop01</prop>
+    <prop>German_Market_Prop02</prop>
+    <prop>German_Market_Prop03</prop>
+    <prop>EE_Market_Prop01</prop>
+    <prop>EE_Market_Prop02</prop>
+    <prop>EE_Market_Prop03</prop>
+    <prop>German_DockProp05</prop>
+    <prop>German_DockProp01</prop>
+    <prop>German_DockProp02</prop>
+    <prop>German_DockProp03</prop>
+    <prop>German_DockProp04</prop>
+    <prop>Plant_RiderStatueProp</prop>
+    <prop>German_Plant_Prop04</prop>
+    <prop>German_Plant_Prop01</prop>
+    <prop>German_Plant_Prop02</prop>
+    <prop>German_Plant_Prop06</prop>
+    <prop>German_Plant_Prop07</prop>
+    <prop>German_Plant_Streetlamps</prop>
+    <prop>German_Plant_Prop03</prop>
+    <prop>German_Plant_Prop05</prop>
+    <prop>German_AcadProp01</prop>
+    <prop>German_AcadProp02</prop>
+    <prop>German_AcadProp03</prop>
+    <prop>Acad_KingStatueProp</prop>
+    <prop active="1">German_NWTCTexture0</prop>
+    <prop>German_NWTCTexture1</prop>
+    <prop>German_NWTCTexture2</prop>
+    <prop>German_NWTCTexture3</prop>
+    <prop>German_NWTCTexture4</prop>
+    <prop>German_NWTCModel0</prop>
+    <prop>German_NWTCModel1</prop>
+    <prop>German_NWTCModel2</prop>
+    <prop>German_NWTCModel3</prop>
+    <prop>German_NWTCModel4</prop>
+    <prop active="1">German_AcademyTexture0</prop>
+    <prop>German_AcademyTexture1</prop>
+    <prop>German_AcademyTexture2</prop>
+    <prop>German_AcademyTexture3</prop>
+    <prop>German_AcademyTexture4</prop>
+    <prop>German_AcademyModel0</prop>
+    <prop>German_AcademyModel1</prop>
+    <prop>German_AcademyModel2</prop>
+    <prop>German_AcademyModel3</prop>
+    <prop>German_AcademyModel4</prop>
+    <prop active="1">German_ManuPlantTexture0</prop>
+    <prop>German_ManuPlantTexture1</prop>
+    <prop>German_ManuPlantTexture2</prop>
+    <prop>German_ManuPlantTexture3</prop>
+    <prop>German_ManuPlantTexture4</prop>
+    <prop>German_ManuPlantModel0</prop>
+    <prop>German_ManuPlantModel1</prop>
+    <prop>German_ManuPlantModel2</prop>
+    <prop>German_ManuPlantModel3</prop>
+    <prop>German_ManuPlantModel4</prop>
+    <prop active="1">German_CathedralTexture0</prop>
+    <prop>German_CathedralTexture1</prop>
+    <prop>German_CathedralTexture2</prop>
+    <prop>German_CathedralTexture3</prop>
+    <prop>German_CathedralTexture4</prop>
+    <prop active="1">German_DockTexture0</prop>
+    <prop>German_DockTexture1</prop>
+    <prop>German_DockTexture2</prop>
+    <prop>German_DockTexture3</prop>
+    <prop>German_DockTexture4</prop>
+    <prop>German_DockModel0</prop>
+    <prop>German_DockModel1</prop>
+    <prop>German_DockModel2</prop>
+    <prop>German_DockModel3</prop>
+    <prop>German_DockModel4</prop>
+  </obtainableprops>
+</homecity>

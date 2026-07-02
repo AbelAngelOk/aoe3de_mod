@@ -1,0 +1,70 @@
+<tactics>
+  <action>
+    <name stringid="69158">SpawnTreeOnce</name>
+    <type>Spawn</type>
+    <rate type="TreeRockies">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="68971">MaintainTree</name>
+    <type>Maintain</type>
+    <rate type="TreeRockies">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherInfluence</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <active>1</active>
+  </action>
+  <action>
+    <name stringid="110152">AutoGatherBonus</name>
+    <type>LikeBonus</type>
+    <active>1</active>
+    <modifyratebytype>1</modifyratebytype>
+    <includegaia>1</includegaia>
+    <modifyabstracttype>Resource</modifyabstracttype>
+    <maxrange>16</maxrange>
+    <rate type="Tree">0.012</rate>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.75</modifyamount>
+  </action>
+  <action>
+    <name stringid="91720">AreaGatherTree</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Tree</modifyabstracttype>
+    <targetgaia>1</targetgaia>
+    <active>1</active>
+    <maxrange>6.2</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <forceupdatemode>1</forceupdatemode>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>0.05</modifyamount>
+    <modifytargetlimit>5</modifytargetlimit>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91720">AreaGatherTree2</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Tree</modifyabstracttype>
+    <targetgaia>1</targetgaia>
+    <active>0</active>
+    <maxrange>16</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <forceupdatemode>1</forceupdatemode>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>0.05</modifyamount>
+    <modifytargetlimit>14</modifytargetlimit>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Normal<action>AutoGatherInfluence</action><action>AutoGatherBonus</action><action>AreaGatherTree</action><action>AreaGatherTree2</action><action>MaintainTree</action></tactic>
+</tactics>

@@ -1,0 +1,566 @@
+<tactics>
+  <action>
+    <name stringid="38133">RangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <activeifcontainsunits>1</activeifcontainsunits>
+    <damagefactorcap>10</damagefactorcap>
+    <scalebycontainedunits>1</scalebycontainedunits>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <rate type="Unit">1.0</rate>
+    <instantballistics>1</instantballistics>
+    <perfectaccuracy>1</perfectaccuracy>
+  </action>
+  <action>
+    <name stringid="38121">AntiShipAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttackShip</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <perfectaccuracy>1</perfectaccuracy>
+    <rate type="Ship">1.0</rate>
+  </action>
+  <action>
+    <name stringid="68972">SpawnSaiga</name>
+    <type>Maintain</type>
+    <rate type="ypSaiga">5.0</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="68971">SpawnRefugees1</name>
+    <type>Maintain</type>
+    <rate type="ypMigrantArmySmall">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="68971">SpawnRefugees2</name>
+    <type>Maintain</type>
+    <rate type="ypMigrantArmySmall">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="68973">SpawnLivestock1</name>
+    <type>Maintain</type>
+    <rate type="ypMigrantGoats">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="68973">SpawnLivestock2</name>
+    <type>Maintain</type>
+    <rate type="ypMigrantOx">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="68973">SpawnLivestock3</name>
+    <type>Maintain</type>
+    <rate type="ypMigrantGoats">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="68971">SpawnMigrants3</name>
+    <type>Maintain</type>
+    <rate type="ypMigrantArmyLarge">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="68971">MaintainSettlersOttoman</name>
+    <type>Maintain</type>
+    <rate type="Settler">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="69776">SpawnSettlerOnce</name>
+    <type>Spawn</type>
+    <rate type="Settler">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">SpawnWallace</name>
+    <type>Maintain</type>
+    <rate type="mmScottMinuteman">10.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="68971">MaintainSettlersFedCalifornia</name>
+    <type>Maintain</type>
+    <rate type="deFedVillagerBatch">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="68971">MaintainPirateHaiti</name>
+    <type>Maintain</type>
+    <rate type="deREVPirateBatch">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="68938">MaintainVoluntarioBrazil</name>
+    <type>Maintain</type>
+    <rate type="deREVVoluntarioBatch">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnUSMinutemen</name>
+    <type>Maintain</type>
+    <rate type="deUSMinutemenBatch">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnFedImmigrants</name>
+    <type>Maintain</type>
+    <rate type="deFedImmigrantBatch">3</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnBison</name>
+    <type>Maintain</type>
+    <rate type="deFedBisonBatch">1</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69776">SpawnProspectorWagonOnce</name>
+    <type>Spawn</type>
+    <rate type="deProspectorWagonSilver">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="48954">UniversityAutoGatherBonus</name>
+    <type>AutoRangedModify</type>
+    <maxrange>30</maxrange>
+    <modifyprotoid>deUniversity</modifyprotoid>
+    <persistent>1</persistent>
+    <singleunit>1</singleunit>
+    <nostack>1</nostack>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.75</modifyamount>
+  </action>
+  <action>
+    <name stringid="38119">CannonAttack</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <scalebycontainedunittype>
+      <rate type="Unit">0.301</rate>
+    </scalebycontainedunittype>
+    <damagefactorcap>4</damagefactorcap>
+    <anim>RangedAttackShip</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <rate type="Unit">1.0</rate>
+    <perfectaccuracy>1</perfectaccuracy>
+    <throw>1</throw>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <areasortmode>directional</areasortmode>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <numberbounces>1</numberbounces>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="69158">SpawnFrontierWagon</name>
+    <type>Maintain</type>
+    <rate type="deFrontierWagon">1.0</rate>
+    <maintaintrainpoints>0.0000</maintaintrainpoints>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnREVMXMinutemenOnce</name>
+    <type>Maintain</type>
+    <rate type="deREVMXMinutemanBatch">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnREVNatVillager</name>
+    <type>Maintain</type>
+    <rate type="deREVNativeVillager">3</rate>
+    <maintaintrainpoints>0.0000</maintaintrainpoints>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnNapoleonGunOnce</name>
+    <type>Spawn</type>
+    <rate type="deMercNapoleonGun">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="48954">HPBoostFirstTC</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractTownCenter</modifyabstracttype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.5</modifymultiplier>
+    <modifyselfonly>1</modifyselfonly>
+    <firsttc>
+    </firsttc>
+  </action>
+  <action>
+    <name stringid="68961">OutpostTreeGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>40</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>TreeGatherRate</modifytype>
+    <modifymultiplier>1.20</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="68961">OutpostMineGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>40</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>MineGatherRate</modifytype>
+    <modifymultiplier>1.20</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="68961">OutpostNaturalFoodRateBonus</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <maxrange>40</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>NaturalFoodGatherRate</modifytype>
+    <modifymultiplier>1.20</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="68961">NativeWarriorDecay</name>
+    <type>AutoRangedModify</type>
+    <targetenemy>1</targetenemy>
+    <maxrange>65</maxrange>
+    <modifyprotoid>xpWarrior</modifyprotoid>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>UnitRegenRate</modifytype>
+    <modifymultiplier>3</modifymultiplier>
+    <modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherGold</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherFood</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherWood</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherXP</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="48958">CantonsExtraDamage</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>32</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyprotoid>Pikeman</modifyprotoid>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>2.0</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="48958">CantonsExtraHP</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>32</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifyprotoid>Pikeman</modifyprotoid>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>2.0</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="48943">ExtraBuildBounty</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>BuildingClass</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <targetunbuilt>1</targetunbuilt>
+    <modifytype>BuildBounty</modifytype>
+    <modifymultiplier>4</modifymultiplier>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="103418">BuildRateBonus</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>LogicalTypeLandEconomy</modifyabstracttype>
+    <maxrange>32</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>1.5</modifymultiplier>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="103418">BuildRateBonusSettler1</name>
+    <type>AutoRangedModify</type>
+    <modifyprotoid>Settler</modifyprotoid>
+    <maxrange>32</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>1.25</modifymultiplier>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="68961">EconomicAura1</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyprotoid>Settler</modifyprotoid>
+    <persistent>1</persistent>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="7472091">ExtraTrade1</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyprotoid>Settler</modifyprotoid>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.015</modifyamount>
+  </action>
+  <action>
+    <name stringid="103418">BuildRateBonusSettler2</name>
+    <type>AutoRangedModify</type>
+    <modifyprotoid>mmSettlerKurshi2</modifyprotoid>
+    <maxrange>32</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>1.25</modifymultiplier>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="68961">EconomicAura2</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyprotoid>mmSettlerKurshi2</modifyprotoid>
+    <persistent>1</persistent>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="7472091">ExtraTrade2</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyprotoid>mmSettlerKurshi2</modifyprotoid>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.015</modifyamount>
+  </action>
+  <action>
+    <name stringid="103418">BuildRateBonusSettler3</name>
+    <type>AutoRangedModify</type>
+    <modifyprotoid>mmSettlerKurshi3</modifyprotoid>
+    <maxrange>32</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>1.25</modifymultiplier>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="68961">EconomicAura3</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyprotoid>mmSettlerKurshi3</modifyprotoid>
+    <persistent>1</persistent>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="7472091">ExtraTrade3</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyprotoid>mmSettlerKurshi3</modifyprotoid>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.015</modifyamount>
+  </action>
+  <action>
+    <name stringid="103418">BuildRateBonusSettler4</name>
+    <type>AutoRangedModify</type>
+    <modifyprotoid>mmSettlerKurshi4</modifyprotoid>
+    <maxrange>32</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>1.25</modifymultiplier>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="68961">EconomicAura4</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyprotoid>mmSettlerKurshi4</modifyprotoid>
+    <persistent>1</persistent>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="7472091">ExtraTrade4</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyprotoid>mmSettlerKurshi4</modifyprotoid>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.015</modifyamount>
+  </action>
+  <action>
+    <name stringid="103418">BuildRateBonusSettler5</name>
+    <type>AutoRangedModify</type>
+    <modifyprotoid>mmSettlerKurshi5</modifyprotoid>
+    <maxrange>32</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>BuildRate</modifytype>
+    <modifymultiplier>1.25</modifymultiplier>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="68961">EconomicAura5</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyprotoid>mmSettlerKurshi5</modifyprotoid>
+    <persistent>1</persistent>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>1.10</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="7472091">ExtraTrade5</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyprotoid>mmSettlerKurshi5</modifyprotoid>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.015</modifyamount>
+  </action>
+  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="75">CannonAttack</action><action priority="75">RangedAttack</action><action priority="15">SpawnSaiga</action><action priority="15">SpawnRefugees1</action><action priority="15">SpawnRefugees2</action><action priority="15">SpawnMigrants3</action><action priority="15">SpawnLivestock1</action><action priority="15">SpawnLivestock2</action><action priority="15">SpawnLivestock3</action><action>MaintainSettlersOttoman</action><action>SpawnWallace</action><action>MaintainSettlersFedCalifornia</action><action>MaintainPirateHaiti</action><action>MaintainVoluntarioBrazil</action><action>SpawnBison</action><action>UniversityAutoGatherBonus</action><action>SpawnFrontierWagon</action><action>SpawnREVNatVillager</action><action>HPBoostFirstTC</action><action>OutpostTreeGatherRateBonus</action><action>OutpostMineGatherRateBonus</action><action>OutpostNaturalFoodRateBonus</action><action>NativeWarriorDecay</action><action>AutoGatherFood</action><action>AutoGatherWood</action><action>AutoGatherGold</action><action>AutoGatherXP</action><action>ExtraBuildBounty</action><action>BuildRateBonus</action><action>BuildRateBonusSettler1</action><action>EconomicAura1</action><action>ExtraTrade1</action><action>BuildRateBonusSettler2</action><action>EconomicAura2</action><action>ExtraTrade2</action><action>BuildRateBonusSettler3</action><action>EconomicAura3</action><action>ExtraTrade3</action><action>BuildRateBonusSettler4</action><action>EconomicAura4</action><action>ExtraTrade4</action><action>BuildRateBonusSettler5</action><action>EconomicAura5</action><action>ExtraTrade5</action></tactic>
+</tactics>

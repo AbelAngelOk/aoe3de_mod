@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  mod-minimal: techtreemods.xml — identidad de tech-tree propia para HUNHungarians
+
+  Cambio de enfoque: en vez de que civmods.xml apunte directamente a los nombres
+  de tech de Germans (Age0German, ColonializeGerman, etc. — lo que hacía que
+  HUNHungarians y Germans compartieran literalmente la misma instancia de tech
+  por nombre), cada age tech de Hungría es ahora un tech "envoltorio" propio y
+  con ID único que simplemente activa (TechStatus active) el tech real de
+  Germans. Esto da a la civ una identidad de tech-tree 100% propia ("solo
+  cambiale el id") sin transcribir el contenido completo (Age0German solo mide
+  ~225 líneas de efectos; Industrialize/ImperializeGerman miden miles). Todos
+  los efectos reales (enables, obtainables, políticos) siguen viniendo de los
+  techs de Germans ya validados en el juego base.
+
+  Mismo patrón de delegación que ya usan los políticos del mod completo (EEX):
+  "<effect type=TechStatus status=active>EEXColonializeHungary</effect>"
+  (ver docs/modding-reference.md).
+-->
+<techtreemods>
+  <tech name="HUNAge0" type="Normal">
+    <dbid>88881101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0German</effect>
+    </effects>
+  </tech>
+  <tech name="HUNColonialize" type="Normal">
+    <dbid>88881102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HUNAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HUNFortressize" type="Normal">
+    <dbid>88881103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HUNColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HUNIndustrialize" type="Normal">
+    <dbid>88881104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HUNFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialize" type="Normal">
+    <dbid>88881105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HUNIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HUNPostIndustrial" type="Normal">
+    <dbid>88881106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HUNPostImperial" type="Normal">
+    <dbid>88881107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialGerman</effect>
+    </effects>
+  </tech>
+</techtreemods>

@@ -1,0 +1,155 @@
+<tactics>
+  <action>
+    <name stringid="7470734">ChargeGrenadeAttack</name>
+    <type>Attack</type>
+    <chargeaction>1</chargeaction>
+    <active>1</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Charge_standing_attack</anim>
+    <idleanim>Charge_standing_idle</idleanim>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+    <projectile>Grenade</projectile>
+    <impacteffect>effects\impacts\grenade</impacteffect>
+    <minrange>2</minrange>
+    <rate type="Unit">1.0 </rate>
+    <throw>1</throw>
+    <impactforcemin>450.0</impactforcemin>
+    <impactforcemax>600.0</impactforcemax>
+    <impactlaunchangle>50.0</impactlaunchangle>
+    <areasortmode>Radial</areasortmode>
+    <targetground>1</targetground>
+    <basedamagecap>1</basedamagecap>
+    <perfectaccuracy>1</perfectaccuracy>
+  </action>
+  <action>
+    <name stringid="38127">RangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Volley_standing_attack</anim>
+    <reloadanim>Volley_standing_reload</reloadanim>
+    <accuracy>10</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>Thrombash</projectile>
+    <minrange>2</minrange>
+    <rate type="Unit">1.0 </rate>
+    <perfectaccuracy>1</perfectaccuracy>
+  </action>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <anim>charge_attack</anim>
+    <targetspeedboost>1</targetspeedboost>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_Attack</anim>
+    <idleanim>Raze_Idle</idleanim>
+    <projectile>Grenade</projectile>
+    <impacteffect>effects\impacts\grenade</impacteffect>
+  </action>
+  <action>
+    <name stringid="69147">Build</name>
+    <type>Build</type>
+    <anim>Build</anim>
+    <active>0</active>
+    <maxrange>0.2</maxrange>
+  </action>
+  <action>
+    <name stringid="42178">Gather</name>
+    <type>Gather</type>
+    <active>0</active>
+    <maxrange>0.5</maxrange>
+    <rate type="Tree">1.0</rate>
+    <rate type="AbstractMine">1.0</rate>
+    <rate type="AbstractInfiniteCrate">1.0</rate>
+  </action>
+  <action>
+    <name stringid="69150">CrateGather</name>
+    <anim>GatherCrate</anim>
+    <type>Gather</type>
+    <active>0</active>
+    <maxrange>0.5</maxrange>
+    <rate type="AbstractResourceCrate">1.0</rate>
+  </action>
+  <action>
+    <name stringid="69151">Hunting</name>
+    <type>Hunting</type>
+    <active>0</active>
+    <maxrange>0</maxrange>
+    <rate type="Tree">1.0</rate>
+    <rate type="AbstractMine">1.0</rate>
+    <rate type="AbstractInfiniteCrate">1.0</rate>
+  </action>
+  <action>
+    <name stringid="42136">ChopAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>GatherChop</anim>
+    <active>0</active>
+    <maxrange>2</maxrange>
+    <rate type="Tree">1.0</rate>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="69148">Discover</name>
+    <type>Discover</type>
+    <anim>Pickup</anim>
+    <active>0</active>
+    <maxrange>0.2</maxrange>
+    <rate type="AbstractNuggetLand">1.0</rate>
+  </action>
+  <action>
+    <name stringid="91782">HandAttackCrate</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="AbstractInfiniteCrate">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>GatherCrateAttack</anim>
+    <active>0</active>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="112710">ShieldAura</name>
+    <type>AutoRangedModify</type>
+    <maxrange>12</maxrange>
+    <modifyabstracttype>LogicalTypeValidSharpshoot</modifyabstracttype>
+    <forbidabstracttype>Guardian</forbidabstracttype>
+    <persistent>1</persistent>
+    <modifytype>Shield</modifytype>
+    <modifymultiplier>0.10</modifymultiplier>
+    <modelattachment>effects\ypack_auras\papal_guard_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Volley<action priority="100">ChargeGrenadeAttack</action><action priority="85">RangedAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><action>ShieldAura</action><action>ChopAttack</action><action>Build</action><action>Gather</action><action>Hunting</action><action>Discover</action><action>CrateGather</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><idleanim>Volley_standing_idle</idleanim><boredanim>Volley_standing_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Volley_walk</walkanim><joganim>Volley_jog</joganim><runanim>Volley_run</runanim></tactic>
+  <tactic>Defend<action priority="100">ChargeGrenadeAttack</action><action priority="85">RangedAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><action>ShieldAura</action><action>ChopAttack</action><action>Build</action><action>Gather</action><action>Hunting</action><action>Discover</action><action>CrateGather</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>Stagger<action priority="100">ChargeGrenadeAttack</action><action priority="85">RangedAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><action>ShieldAura</action><action>ChopAttack</action><action>Build</action><action>Gather</action><action>Hunting</action><action>Discover</action><action>CrateGather</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><idleanim>Cover_ranged_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>Melee<action priority="100">BuildingAttack</action><action priority="75">HandAttack</action><action>ShieldAura</action><action>ChopAttack</action><action>Build</action><action>Gather</action><action>Hunting</action><action>Discover</action><action>CrateGather</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  <tactic>StandGround<action priority="100">ChargeGrenadeAttack</action><action priority="85">RangedAttack</action><action priority="75">BuildingAttack</action><action priority="25">HandAttack</action><action>ShieldAura</action><action>ChopAttack</action><action>Build</action><action>Gather</action><action>Hunting</action><action>Discover</action><action>CrateGather</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+</tactics>

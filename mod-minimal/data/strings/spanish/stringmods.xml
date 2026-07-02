@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  mod-minimal: Strings en español para HUNHungarians
+  ID range: 88881xxx (mismo rango que strings/english/stringmods.xml)
+
+  El juego solo carga la carpeta de idioma que coincide con el locale activo
+  (confirmado con DebugOutputGameData: en locale Spanish, el dump fusionado
+  solo incluye strings/spanish/, nunca strings/english/). Sin este archivo,
+  el displaynameid/rollovernameid de la civ no resuelve a ningún texto en un
+  juego configurado en español, y la civ queda ausente de toda lista que
+  necesite mostrar su nombre (selector de Escaramuza, lista de Ciudades
+  Natales, etc.) aunque el resto de civmods.xml esté perfecto.
+-->
+<stringmods>
+  <stringtable>
+    <language name="">
+
+      <!-- Civilización -->
+      <string _locid="88881001">Húngaros</string>
+      <string _locid="88881002">Los húngaros traen las tradiciones de caballería del pueblo magiar al campo de batalla.</string>
+
+      <!-- Home City -->
+      <string _locid="88881003">Budapest</string>
+      <string _locid="88881004">El Caudillo Magiar</string>
+
+    </language>
+  </stringtable>
+</stringmods>

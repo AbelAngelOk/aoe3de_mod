@@ -1,0 +1,7 @@
+<statemachine>
+  <startstate>State_Standing</startstate>
+  <state>State_Standing<anim weight="100">Plaza_Standing_Idle</anim><event type="AnimLooped" count="1"><transition weight="75">State_Standing</transition><transition weight="25">State_StandingToSitting</transition></event></state>
+  <state>State_StandingToSitting<anim weight="100" loop="0">Plaza_Sit</anim><event type="AnimLooped" count="1"><transition weight="100">State_Sitting</transition></event></state>
+  <state>State_Sitting<anim weight="100">Plaza_Sitting_Idle</anim><event type="AnimLooped" count="1"><transition weight="75">State_Sitting</transition><transition weight="25">State_SittingToStanding</transition></event></state>
+  <state>State_SittingToStanding<anim weight="100" loop="0">Plaza_Stand</anim><event type="AnimLooped" count="1"><transition weight="100">State_Standing</transition></event></state>
+</statemachine>

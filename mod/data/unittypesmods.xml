@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Eastern European Expansion (EEX) - unittypesmods.xml
+     Registers new abstract unit type categories used by EEX units.
+     These mirror the pattern in the Poland reference mod.
+-->
+<unittypesmods>
+  <!-- Abstract types for EEX explorer categories -->
+  <unittype>EEXAbstractHungarianExplorer</unittype>
+  <unittype>EEXAbstractRomanianExplorer</unittype>
+  <unittype>EEXAbstractFinnishExplorer</unittype>
+
+  <!-- Abstract types for EEX infantry categories -->
+  <unittype>EEXAbstractHajduk</unittype>
+  <unittype>EEXAbstractPandur</unittype>
+  <unittype>EEXAbstractGrenz</unittype>
+  <unittype>EEXAbstractDorobant</unittype>
+  <unittype>EEXAbstractSeimeni</unittype>
+  <unittype>EEXAbstractRomanianPandur</unittype>
+  <unittype>EEXAbstractFinnishMusketeer</unittype>
+  <unittype>EEXAbstractJaeger</unittype>
+  <unittype>EEXAbstractKnekt</unittype>
+
+  <!-- Abstract types for EEX cavalry categories -->
+  <unittype>EEXAbstractMagyarHussar</unittype>
+  <unittype>EEXAbstractHungarianDragoon</unittype>
+  <unittype>EEXAbstractCurteni</unittype>
+  <unittype>EEXAbstractHakkapeliitta</unittype>
+  <unittype>EEXAbstractFinnishDragoon</unittype>
+</unittypesmods>

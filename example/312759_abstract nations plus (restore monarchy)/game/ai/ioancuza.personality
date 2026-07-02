@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>7469726</nameID>
+   <tooltipID>7469726</tooltipID>
+   <forcedciv>Balkans</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources\images\icons\mm_TAvatar.png</icon>
+   <chatset>Suleiman</chatset>
+   <playerNames>
+      <nameID>7469726<civ>Balkans</civ></nameID> 
+	</playerNames>
+</AI>

@@ -1,0 +1,314 @@
+<protounitsounddef>
+  <protounit name="mmRogueMDD">
+    <soundtype name="Select">
+      <soundset name="FrenchCulverinSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="FrenchCulverinAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="FrenchCulverinAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+  <protounit name="mmRogueRDD">
+    <soundtype name="Select">
+      <soundset name="FrenchCulverinSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="FrenchCulverinAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="FrenchCulverinAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+  <protounit name="mmPaladin">
+    <soundtype name="Select">
+      <soundset name="FrenchMortarSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="FrenchMortarAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="FrenchMortarAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+  <protounit name="mmXbowman">
+    <soundtype name="Select">
+      <soundset name="FrenchSkirmisherSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="FrenchSkirmisherAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="FrenchSkirmisherAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+  <protounit name="mmPriest">
+    <soundtype name="Select">
+      <soundset name="FrenchHeavyCavalrySelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="FrenchHeavyCavalryAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="FrenchHeavyCavalryAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+  <protounit name="mmBarbarian">
+    <soundtype name="Select">
+      <soundset name="FrenchGendarmeSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="FrenchGendarmeAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="FrenchGendarmeAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+  <protounit name="mmWarrior">
+    <soundtype name="Select">
+      <soundset name="FrenchMusketeerSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="FrenchMusketeerAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="FrenchMusketeerAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+  <protounit name="mmHeroArta">
+    <soundtype name="Select">
+      <soundset name="FrenchFalconetSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="FrenchFalconetAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="FrenchFalconetAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+	  <soundset name="FrenchExplorerClaim">
+	  </soundset>
+    </soundtype>
+    <soundtype name="Ransomed">
+	  <soundset name="FrenchExplorerRansomed">
+	  </soundset>
+    </soundtype>
+    <soundtype name="FrenchExplorerRevived">
+	  <soundset name="FrenchExplorerClaim">
+	  </soundset>
+    </soundtype>
+  </protounit>
+  <protounit name="mmHeroMortar">
+    <soundtype name="Select">
+      <soundset name="FrenchFalconetSelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="FrenchFalconetAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="FrenchFalconetAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+	  <soundset name="FrenchExplorerClaim">
+	  </soundset>
+    </soundtype>
+    <soundtype name="Ransomed">
+	  <soundset name="FrenchExplorerRansomed">
+	  </soundset>
+    </soundtype>
+    <soundtype name="FrenchExplorerRevived">
+	  <soundset name="FrenchExplorerClaim">
+	  </soundset>
+    </soundtype>
+  </protounit>
+  <protounit name="mmAutoBarracks">
+    <soundtype name="Select">
+      <soundset name="UI_Building_Military">
+      </soundset>
+    </soundtype>
+    <soundtype name="SelectSecondary">
+      <soundset name="UI_Select_Building_Barracks">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="BuildingDestruction">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="UI_Select_Building_Barracks">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

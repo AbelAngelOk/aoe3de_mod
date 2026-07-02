@@ -1,0 +1,6 @@
+<statemachine>
+  <startstate>Idling</startstate>
+  <state>Idling<anim weight="100">Idle1</anim><event type="AnimLooped" count="2"><transition weight="50">Idling</transition><transition weight="50">Loading</transition></event></state>
+  <state>Loading<anim weight="100" loop="0">Load</anim><event type="AnimLooped" count="1"><transition weight="100">Attacking</transition></event></state>
+  <state>Attacking<anim weight="100" loop="0">Attack</anim><event type="AnimLooped" count="1"><transition weight="100">Idling</transition></event></state>
+</statemachine>

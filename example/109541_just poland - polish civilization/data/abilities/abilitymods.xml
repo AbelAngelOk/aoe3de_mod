@@ -1,0 +1,36 @@
+<abilitymods>
+  <starkpolishexplorer>
+    <ability>PowerSharpshooter<rof>60</rof></ability>
+    <ability>PowerCrackshot<tech>Industrialize</tech><rof>90</rof></ability>
+    <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </starkpolishexplorer>
+  <starkpolishwingedhussar>
+    <ability>deChargeAbilityWingedHussarLance<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </starkpolishwingedhussar>
+  <starkhetman1>
+	<ability>STARKUnitHetmanAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </starkhetman1>
+  <starktarnowski>
+	<ability>STARKUnitHetmanAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </starktarnowski>
+  <starksobieski>
+	<ability>STARKUnitSobieskiAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </starksobieski>
+  <starklisowczyk>
+  	<ability>STARKLisowczykAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </starklisowczyk>
+  <starkwojtek>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </starkwojtek>
+  <starktabor>
+	<ability>STARKTaborAura<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </starktabor>
+  <starkwingedpistoleer>
+	<ability>deChargeAbilityChargedPistol<bindtochargeaction>true</bindtochargeaction><forceshowrollover>true</forceshowrollover></ability>
+  </starkwingedpistoleer>
+</abilitymods>

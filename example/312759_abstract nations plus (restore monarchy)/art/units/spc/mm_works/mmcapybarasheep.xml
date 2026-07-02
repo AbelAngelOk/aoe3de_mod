@@ -1,0 +1,8 @@
+<animfile>
+  <component>ModelComp<logic type="Inventory"><p0><assetreference type="GrannyModel"><file>units\animals\capybara\capybara_small</file></assetreference></p0><p50><assetreference type="GrannyModel"><file>units\animals\capybara\capybara_small</file></assetreference></p50><p100><assetreference type="GrannyModel"><file>units\animals\capybara\capybara</file></assetreference></p100></logic><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_64x64</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\quads\capybara_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\quads\capybara_boredA</file><weight>50</weight></assetreference><assetreference type="GrannyAnim"><file>animation_library\quads\capybara_graze</file><weight>50</weight></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\quads\capybara_walk</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\quads\capybara_death</file><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.73</tag></assetreference><component>ModelComp</component></anim>
+  <anim>GatherFarm<assetreference type="GrannyAnim"><file>animation_library\quads\capybara_boredA</file></assetreference><component>ModelComp</component></anim>
+</animfile>

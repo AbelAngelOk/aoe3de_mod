@@ -1,0 +1,134 @@
+<tactics>
+  <action>
+    <name stringid="68994">FrightenSpeed</name>
+    <type>AutoRangedModify</type>
+    <targetenemy>1</targetenemy>
+    <active>1</active>
+    <maxrange>18</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>0.95</modifymultiplier>
+    <modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="38134">MeleeHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Charge_attack</anim>
+    <idleanim>Charge_idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <targetspeedboost>1</targetspeedboost>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="38134">GuardianAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Guardian">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Charge_attack</anim>
+    <idleanim>Charge_idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <targetspeedboost>1</targetspeedboost>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="110171">ChargeCarbineAttack</name>
+    <type>Attack</type>
+    <active>1</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <chargeaction>1</chargeaction>
+    <anim>RangedAttackSharpshoot</anim>
+    <idleanim>SharpshootIdle</idleanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.001</accuracyreductionfactor>
+    <aimbonus>5</aimbonus>
+    <trackrating>120</trackrating>
+    <rate type="Unit">1.0</rate>
+    <minrange>2</minrange>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <projectile>InvisibleProjectile</projectile>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="38125">CrackshotAttack</name>
+    <type>Attack</type>
+    <active>0</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+	<auxchargeaction>1</auxchargeaction>
+    <anim>RangedAttackSharpshoot</anim>
+    <idleanim>SharpshootIdle</idleanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <perfectaccuracy>1</perfectaccuracy>
+    <aimbonus>5</aimbonus>
+    <trackrating>120</trackrating>
+    <rate type="LogicalTypeValidSharpshoot">1.0</rate>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <projectile>InvisibleProjectile</projectile>
+    <rof>1.000000</rof>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_attack</anim>
+    <idleanim>Raze_idle</idleanim>
+    <impacteffect>effects\impacts\torch</impacteffect>
+    <projectile>TorchProjectile</projectile>
+  </action>
+  <tactic>Melee
+  <action priority="100">ChargeCarbineAttack</action>
+  <action priority="90">GuardianAttack</action>
+  <action priority="80">MeleeHandAttack</action>
+  <action priority="50">BuildingAttack</action>
+  <action priority="99">FrightenSpeed</action>
+  <action>Build</action>
+  <action>Discover</action>
+  <action>CrateGather</action>
+  <action>Hunting</action>
+  <action>Gather</action>
+  <action>AutoGatherInfluence</action><speedmodifier>1.0</speedmodifier><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>1</runaway><transition><tactic>Defend</tactic><length>0</length><exit>1</exit></transition><transition><tactic>Stealth</tactic><length>2</length><anim>Cover_In</anim><exit>1</exit></transition><autoretarget>1</autoretarget>
+  <idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  <tactic>Defend
+  <action priority="100">ChargeCarbineAttack</action>
+  <action priority="90">GuardianAttack</action>
+  <action priority="80">MeleeHandAttack</action>
+  <action priority="50">BuildingAttack</action>
+  <action priority="99">FrightenSpeed</action>
+  <action>Build</action>
+  <action>CrateGather</action>
+  <action>Discover</action>
+  <action>Hunting</action>
+  <action>Gather</action>
+  <action>AutoGatherInfluence</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><transition><tactic>Stealth</tactic><length>2</length><anim>Cover_In</anim><exit>1</exit></transition>
+  <idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  <tactic>StandGround
+  <action priority="100">ChargeCarbineAttack</action>
+  <action priority="90">GuardianAttack</action>
+  <action priority="80">MeleeHandAttack</action>
+  <action priority="50">BuildingAttack</action>
+  <action priority="99">FrightenSpeed</action>
+  <action>Build</action>
+  <action>CrateGather</action>
+  <action>Discover</action>
+  <action>Hunting</action>
+  <action>Gather</action>
+  <action>AutoGatherInfluence</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Normal</tactic><length>0</length><exit>1</exit></transition><transition><tactic>Stealth</tactic><length>2</length><anim>Cover_In</anim><exit>1</exit></transition>
+  <idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  </tactics>

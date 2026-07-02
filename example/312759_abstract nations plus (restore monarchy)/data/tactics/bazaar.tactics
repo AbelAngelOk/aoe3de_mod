@@ -1,0 +1,47 @@
+<tactics>
+  <action>
+    <name stringid="43019">AutoGatherFoodInvestment</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <investmentresource>Food</investmentresource>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherWoodInvestment</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <investmentresource>Wood</investmentresource>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherCoinInvestment</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+    <investmentresource>Gold</investmentresource>
+  </action>
+  <action>
+    <name stringid="43019">AutoGather</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+    <autogatherifresourcesinvested>1</autogatherifresourcesinvested>
+  </action>
+  <action>
+    <name stringid="69157">SpawnSettler</name>
+    <type>Maintain</type>
+    <rate type="mmSettlerKongo">2.0</rate>
+    <active>1</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69157">SpawnCamp</name>
+    <type>Maintain</type>
+    <rate type="deCampWagon">1.0</rate>
+    <active>1</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <tactic>Normal<action>AutoGatherFoodInvestment</action><action>AutoGatherWoodInvestment</action><action>AutoGatherCoinInvestment</action><action>AutoGather</action></tactic>
+</tactics>

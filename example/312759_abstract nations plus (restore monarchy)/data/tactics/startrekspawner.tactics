@@ -1,0 +1,12 @@
+<tactics>
+  <action>
+    <name stringid="69158">Spawn</name>
+    <type>Spawn</type>
+    <rate type="mmBoersWagon">1.0</rate>
+    <singleuse>1</singleuse>
+    <active>1</active>
+    <persistent>1</persistent>
+    <selfdestruct>1</selfdestruct>
+  </action>
+  <tactic>Normal<action>Spawn</action></tactic>
+</tactics>

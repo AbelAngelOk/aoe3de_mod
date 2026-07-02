@@ -1,0 +1,339 @@
+<stringmods>
+<stringtable>
+  <language name="">
+    <string _locid="77092001">Polonais</string>
+    <string _locid="77092002">&lt;color=1.0, 1.0, 0.0&gt;Bonus de la civilisation:&lt;/color&gt;\nCommence avec un uhlan éclaireur et une vache. Les avant-postes et les forts peuvent envoyer des groupes d'unités militaires.\n&lt;color=1.0, 1.0, 0.0&gt;Unités de garde royale:&lt;/color&gt;\nUhlan éclaireur (krakus), faucheur (faucheur partisan)\n&lt;color=1.0, 1.0, 0.0&gt;Unités uniques:&lt;/color&gt;\nFaucheurs, Piechurs, Dziesietniks, Uhlans éclaireurs, Compagnons, Lisowczyky, Tabors\n&lt;color=1.0, 1.0, 0.0&gt;Bâtiments uniques:&lt;/color&gt;\nFolwarks, Écuries royales</string>
+    <string _locid="77092003">Varsovie</string>
+	<string _locid="77092004">Stanislas</string>
+	
+	<string _locid="77092010">Traité de Tilsit</string>
+	<string _locid="77092011">Légion de Dabrowski</string>
+	<string _locid="77092012">Légion du Danube</string>
+	<string _locid="77092013">Légion de la Vistule</string>
+	<string _locid="77092014">Constitution du duché de Varsovie</string>
+	<string _locid="77092015">La cavalerie se déplace plus vite, surtout les Uhlans éclaireurs</string>
+	<string _locid="77092018">Garde à pied</string>
+	<string _locid="77092019">Envoie un régiment de gardes à pied armés de mousquets.</string>
+	<string _locid="77092020">Offre à votre église des améliorations polonaises uniques.</string>
+	<string _locid="77092021">Envoie un régiment de gardes à pied armés de mousquets. Les gardes à pied peuvent être entrainés aux forts et aux casernes.</string>
+
+	<string _locid="77092022">Levée du lans et de la fumée</string>
+	<string _locid="77092023">Envoie 1 piechur pour chaque maison existante et 4 faucheurs pour chaque folwark et domaine existants. Jusqu'à un maximum de 15 de chaque. Toute l'infanterie s'entraine plus rapidemenet.</string>
+	<string _locid="77092024">Apparition de piechurs</string>
+	<string _locid="77092025">Intervention des Bourbons</string>
+	<string _locid="77092026">Tabors</string>
+	<string _locid="77092027">Envoie deux tabors, des chariots de guerre capables de transporter des unités et de fortifier des positions. Les débloque également à la fonderie d'artillerie.</string>
+	<string _locid="77092028">Force de secours de la Sainte Ligue</string>
+	<string _locid="77092029">Vous envoyez un détachement de 3 hussards ailés pour aider vos alliés assiégés ! Vous recevez personellement des forces auxilliaires de la Sainte Ligue, constituées de 3 hussards ailés, 3 doppelsöldners du Saint Empire Germanique et 3 pavoisiers de la République de Venise.</string>
+	<string _locid="77092030">Tactiques de Tarnowski</string>
+	<string _locid="77092031">Jan Tarnowski transforme tous vos fauconneaux existants en artillerie montée et fait en sorte que l'artillerie montée s'entraîne plus vite. Permet à Jan Tarnowski d'entraîner de l'artillerie montée.</string>	
+	<string _locid="77092032">Les Tactiques de Tarnowski sont mises en place.</string>
+	<string _locid="77092033">Réduction de la population de l'artillerie montée</string>
+	<string _locid="77092034">Envoie Stanislaw Zolkiewski, un puissant hetman qui peut recevoir des chargements de la métropole et peut entraîner des unités de l'Âge 2.</string>	
+	<string _locid="77092035">Hetman de la couronne et héros des guerres tatares. Permet d'entraîner les unités de l'âge 2 et inspire les unités proches.</string>			
+	<string _locid="77092036">Hetman Zolkiewski</string>
+	<string _locid="77092037">Envoie Jan Tarnowski,un puissant hetman qui peut recevoir des chargements de la métropole et débloque un assortiement de mercenaires à la taverne qu'il peut entraîner lui même.</string>	
+	<string _locid="77092038">Célèbre tacticien militaire et grand hetman. Capable d'entraîner des mercenaires et inspire les unités alliées proches.</string>
+	<string _locid="77092039">Grand Hetman Tarnowski</string>
+	<string _locid="77092040">Envoie le roi Jean III Sobieski, monarque de la république des deux nations, qui peut recevoir des chargements de la métropole et peut entraîner des unités de cavalerie. Compte comme un puissant hetman.</string>	
+	<string _locid="77092041">Roi de Pologne. Peut entraîner des unités et recevoir des chargements de la métropole. Donne également des points de vie supplémentaires aux unités à proximité. Compte comme un puissant hetman.</string>			
+	<string _locid="77092042">Vive le Roi !</string>
+	<string _locid="77092043">Obédience</string>
+	<string _locid="77092044">Compétence passive : Votre hetman améliore l'attaque des unités à proximité.</string>
+	<string _locid="77092045">Bravoure</string>
+	<string _locid="77092046">Compétence passive : Prouvez votre valeur au roi ! Augmente la vitesse de déplacement et d'attaque des unités alliées à proximité.</string>	
+
+	<string _locid="77092049">Folwark</string>
+	<string _locid="77092050">Bâtiment économique qui combine un moulin et un corral.</string>
+	
+	<string _locid="77092051">Uhlan éclaireur</string>
+	<string _locid="77092052">Uhlans éclaireurs vétérans</string>
+	<string _locid="77092053">Attaque et points de vie des uhlans éclaireurs accrus.</string>
+	<string _locid="77092054">Uhlan éclaireur vétéran</string>
+	<string _locid="77092055">Krakusi</string>
+	<string _locid="77092056">Attaque et points de vie des uhlans éclaireurs accrus.</string>
+	<string _locid="77092057">Krakus</string>
+	<string _locid="77092058">Krakusi impériaux</string>
+	<string _locid="77092059">Attaque et points de vie des uhlans éclaireurs accrus.</string>
+	<string _locid="77092060">Krakus impérial</string>
+	
+	<string _locid="77092061">Vasa et Jagellon vétérans</string>
+	<string _locid="77092062">Améliore les lipka tatars en vétéran ainsi que toutes les unités des maisons Vasa et Jagellon.</string>
+	<string _locid="77092063">Gardes Vasa et Jagellon</string>
+	<string _locid="77092064">Améliore les hussards ailéset les lipka tatars ainsi que toutes les unités des maisons Vasa et Jagellon.</string>
+	
+	<string _locid="77092065">Compagnon</string>
+	<string _locid="77092066">Gardes compagnons</string>
+	<string _locid="77092067">Attaque et points de vie des compagnons accrus.</string>
+	<string _locid="77092068">Garde compagnon</string>
+	<string _locid="77092069">Compagnons impériaux</string>
+	<string _locid="77092070">Attaque et points de vie des compagnons accrus.</string>
+	<string _locid="77092071">Compagnon impérial</string>
+	<string _locid="77092072">Cavalerie à distance puissante mais chère. Efficace contre la cavalerie.</string>
+	
+	<string _locid="77092075">Union de Lublin</string>
+	<string _locid="77092076">Débloque certaines unités et technologies des maisons Vasa et Jagellon dans l'écurie royale. Les hussards ailés et les lipka tatars entaînés à l'écurie royale prennent de la population.</string>
+	
+	<string _locid="77092077">Écurie royale</string>
+	<string _locid="77092078">Écurie avec des unités et technologies des maisons royales de Pologne-Lituanie. Abrite 5 unités de population.</string>
+	<string _locid="77092079">Bâtiment de cavalerie. Abrite 5 unités de population.</string>
+	
+	<string _locid="77092080">Faucheur</string>
+	<string _locid="77092081">Faucheurs vétérans</string>
+	<string _locid="77092082">Vitesse, attaque et points de vie des faucheur accrus.</string>
+	<string _locid="77092083">Faucheur vétéran</string>
+	<string _locid="77092084">Faucheurs partisans</string>
+	<string _locid="77092085">Vitesse, attaque, points de vie et dégât de zone des faucheur accrus.</string>
+	<string _locid="77092086">Faucheur partisan</string>
+	<string _locid="77092087">Partisans impériaux</string>
+	<string _locid="77092088">Vitesse, attaque et points de vie des faucheur accrus.</string>
+	<string _locid="77092089">Partisan impérial</string>
+	
+	<string _locid="77092090">Piechur</string>
+	<string _locid="77092091">Piechurs vétérans</string>
+	<string _locid="77092092">Attaque et points de vie des piechurs accrus.</string>
+	<string _locid="77092093">Piechur vétéran</string>
+	<string _locid="77092094">Gardes piechurs</string>
+	<string _locid="77092095">Attaque et points de vie des piechurs accrus.</string>
+	<string _locid="77092096">Garde piechur</string>
+	<string _locid="77092097">Piechur impériaux</string>
+	<string _locid="77092098">Attaque et points de vie des piechurs accrus.</string>
+	<string _locid="77092099">Piechur impérial</string>
+	
+	<string _locid="77092100">Contre Belliciste faible mais peu coûteux. Efficace contre tout type d'infanterie et contre la cavalerie à distance.</string>
+	<string _locid="77092101">Partisan avec peu de points de vie mais équipé avec une faux qui inflige des dégâts de zone. Gagne en vitesse avec les âges.</string>	
+	<string _locid="77092102">Hallebardier polonais. Infanterie lourde avec une bonne résistance.</string>
+	<string _locid="77092103">Lancier rapide avec un bon champ de vision. Efficace contre l'infanterie et l'artillerie.</string>
+	
+	<string _locid="77092110">Dziesietnik</string>
+	<string _locid="77092111">Dziesietniks vétérans</string>
+	<string _locid="77092112">Attaque et points de vie des dziesietnik accrus.</string>
+	<string _locid="77092113">Dziesietnik vétéran</string>	
+	<string _locid="77092114">Gardes dziesietniks</string>
+	<string _locid="77092115">Attaque et points de vie des dziesietnik accrus.</string>
+	<string _locid="77092116">Garde dziesietnik</string>
+	<string _locid="77092117">Dziesietniks impériaux</string>
+	<string _locid="77092118">Attaque et points de vie des dziesietnik accrus.</string>
+	<string _locid="77092119">Dziesietnik imperial</string>
+	
+	<string _locid="77092120">Défense de la frontière Est</string>
+	<string _locid="77092121">Envoie à votre point de rassemblement de la métropole 1 uhlan éclaireur et 2 piechurs pour chaque avant-poste en votre posession. Jusqu'à un maximum de 10 de chaque.</string>
+	
+	<string _locid="77092124">Défense de la frontière Sud</string>
+	<string _locid="77092125">Envoie à votre point de rassemblement de la métropole 1 compagnon et 2 dziesietniks pour chaque avant-poste en votre posession. Jusqu'à un maximum de 10 de chaque.</string>
+	
+	<string _locid="77092128">Défense de la frontière Nord</string>
+	<string _locid="77092129">Envoie à votre point de rassemblement de la métropole 4 uhlans éclaireurs et 4 compagnons pour chaque fort en votre posession. Jusqu'à un maximum de 12 de chaque.</string>
+	
+	<string _locid="77092130">Lisowczyk</string>
+	<string _locid="77092131">Pillard à cheval terrifiant qui sème la panique parmi les villageois.</string>
+	<string _locid="77092132">Cavaliers de l'Apocalypse</string>
+	<string _locid="77092133">La tristement célèbre bande de pillards se mobilise ! Envoie 5 Lisowczyky et transforme toute votre cavalerie à distance d'Europe de l'Est en Lisowczyky, des pillards à cheval assoiffés de sang, particulièrement efficaces pour détruire les bâtiments et semer la panique parmi les villageois ennemis. (Transforme : Compagnions, Tatars Lipka, Dragons, Archers de Cavalerie et Archers Tatars.)</string>
+	<string _locid="77092134">Terreur</string>
+	<string _locid="77092135">Compétence passive : Réduit la vitesse des villageois ennemis proches de 15%.</string>
+	
+	<string _locid="77092136">Tabor</string>
+	<string _locid="77092137">Chariot de guerre qui peut transporter de l'infanterie et fortifier des positions.</string>
+	<string _locid="77092138">Cavalerie légère</string>
+	<string _locid="77092139">Position fortifiée</string>
+	<string _locid="77092140">En mode Bombardement, le Tabor perd la majeure partie de son mouvement mais gagne Déflection (Absorbe 25% des dégâts causés aux alliés proches) et augmente la vitesse d'attaque des unités utilisant la poudre à canon de 5%.</string>
+	
+	<string _locid="77092145">Grande moisson</string>
+	<string _locid="77092150">Pistolier ailé</string>
+	<string _locid="77092151">Un hussard ailé avec une attaque de pistolet chargée.</string>
+	<string _locid="77092152">Pistolier ailé vétéran</string>
+	<string _locid="77092153">Garde pistolier ailé</string>
+	<string _locid="77092154">Pistolier ailé impérial</string>
+	
+	<!-- ### Politician description ###-->	
+	<string _locid="77092190">2 chariot militaire</string>
+	<string _locid="77092191">14 piechurs</string>
+	<string _locid="77092192">10 gardes à pied (mousquetaires)</string>
+	<string _locid="77092193">8 hussards ailés</string> 
+
+	<!-- ### Cards ###-->	
+	<string _locid="77092200">5 uhlans éclaireurs</string>
+	<string _locid="77092201">9 uhlans éclaireurs</string>
+	<string _locid="77092202">13 uhlans éclaireurs</string>
+	<string _locid="77092203">Grand Galop Militaire</string>
+	<string _locid="77092204">Envoie un certain nombre de uhlans éclaireurs et augmente leurs dégâts contre l'infanterie.</string>
+	
+	<string _locid="77092210">8 faucheurs</string>
+	<string _locid="77092211">12 faucheurs</string>
+	<string _locid="77092212">24 faucheurs</string>
+	
+	<string _locid="77092220">8 piechurs</string>
+	<string _locid="77092221">11 piechurs</string>
+	<string _locid="77092222">22 piechurs</string>
+	
+	<string _locid="77092223">Royal Foot Guards</string>
+	<string _locid="77092224">Envoie un régiment de gardes à pied armés de mousquets et les autorise dans les forts.</string>	
+		
+	<string _locid="77092225">5 lipka tatars</string>
+	<string _locid="77092226">8 lipka tatars</string>
+	<string _locid="77092227">9 lipka tatars</string>
+	
+	<string _locid="77092230">Grenier de l'Europe</string>
+	<string _locid="77092231">Accorde un revenu constant en nourriture. Les villageois amassent la nourriture du bétail et des folwarks plus vite.</string>
+	
+	<string _locid="77092233">Vous pouvez entraîner les vaches depuis les Folwarks.</string>
+	
+	<string _locid="77092234">Granges à dîmes</string>
+	<string _locid="77092235">Les folwarks, les vaches et les moutons fournissent un petit revenu constant en or.</string>
+	
+	<string _locid="77092236">ÉQUIPE 5 vaches semi-engraissées</string>
+	
+	<string _locid="77092237">Attaque des piechurs et des compagnons</string>
+	<string _locid="77092238">Attaque accrue pour les piechurs et les compagnons.</string>
+	
+	<string _locid="77092240">Mobilisation de masse</string>
+	<string _locid="77092241">Améliore la vitesse d'entraînement de la cavalerie et améliore légèrement celle de l'infanterie.</string>
+	
+	<string _locid="77092242">Bannière de hussard</string>
+	<string _locid="77092243">Envoie un hussard ailé et sa suite. Envoie à chaque fois des unités différentes dans l'ordre suivant:\n • 1 hussard ailé et 5 lipka tatars\n • 1 hussard ailé  et 6 uhlans éclaireurs\n • 1 hussard ailé et 4 compagnons</string>
+
+	<string _locid="77092250">Stanislaw Zolkiewski</string>
+	<string _locid="77092251">Jan Tarnowski</string>
+	<string _locid="77092252">Roi Jean III Sobieski</string>
+	
+	<string _locid="77092260">Infanterie hongroise</string>
+	<string _locid="77092261">Envoie 5 hajduks et 5 pandours. Les contre tirailleurs, et surtout les piechurs, font plus de dégâts et possèdent un plus grand champ de vision et une plus grande de portée.</string>
+	<string _locid="77092262">Contre tirailleur: Ajoute 1.00 de portée maximale et ajoute 2.00 de champ de vision.\n • Bonus étendus pour les piechurs</string>
+	
+	<string _locid="77092263">Magnats</string>
+	<string _locid="77092264">Améliore votre explorateur polonais et vos hetmans au combat. Les explorateurs et les hetmans fourissent un petit revenu constant en or.</string>
+	
+	<string _locid="77092265">Insurrection de Kościuszko</string>
+	<string _locid="77092266">Tous vos villageois deviennent des faucheurs. Supprime le coût en bois des faucheurs en échange d'un coût additionnel en nourriture. Améliore le temps d'entraînement des faucheurs.</string>
+	
+	<string _locid="77092268">Cosaques enregistrés</string>
+	<string _locid="77092269">Envoie 9 casse-cou cosaques. Permet d'enrôler des casse-cou cosaques à la taverne, aux avant-postes et aux écuries royales. Les casse-cou cosaques coûtent moins d'unités de population.</string>
+	
+	<string _locid="77092270">Armée privée</string>
+	<string _locid="77092271">Les hors-la-loi s'entraînent plus rapidement et coûtent moins d'unités de population.</string>
+	
+	<string _locid="77092272">10 crabats</string>
+	<string _locid="77092273">Envoie 10 crabats.</string>
+	
+	<string _locid="77092275">Wojtek</string>
+	<string _locid="77092276">Envoie un puissant ours héros qui devient de plus en plus fort quand vous progressez dans les âges.</string>
+	
+	<string _locid="77092278">Défense permanente</string>
+	<string _locid="77092279">Les avant-postes ont plus de points de vie et vous pouvez appeler une seconde fois les unités des défenses de la frontière Est et Sud mais pour un prix plus élevé.</string>
+	
+	<string _locid="77092280">Améliore l'attaque et les points de vie de toute la cavalerie.</string>
+	<string _locid="77092281">Attaque de la cavalerie à distance accrue.</string>
+	<string _locid="77092282">Attaque de la cavalerie de mêlée accrue.</string>  
+	<string _locid="77092283">ÉQUIPE: points de vie de la cavalerie de mêlée accrus.</string>
+	<string _locid="77092284">Attaque de l'infanterie de mêlée accrue.</string>
+	
+	<string _locid="77092290">Pâturages royaux</string>
+	<string _locid="77092291">Diminue le coût en nourriture de toutes les unités de cavalerie de l'écurie royale. Surtout la cavalerie d'élite.</string>
+	
+	<string _locid="77092292">Délégation étrangère</string>
+	<string _locid="77092293">Vous obtenez un chargement de guerriers indigènes de chaque tribu alliée. Les guerriers indigènes coûtent moins cher.</string>	
+	
+	<string _locid="77092294">15 Lisowczyky</string>	
+	<string _locid="77092295">Envoie 15 Lisowczyky, pillards à cheval assoiffés de sang, particulièrement efficaces pour détruire les bâtiments et semer la panique parmi les villageois ennemis.</string>	
+	
+	<string _locid="77092296">5 Lisowczyky</string>	
+	<string _locid="77092297">Envoie 5 Lisowczyky, pillards à cheval assoiffés de sang, particulièrement efficaces pour détruire les bâtiments et semer la panique parmi les villageois ennemis.</string>
+	
+	<string _locid="77092300">3 hussards ailés</string>
+	<string _locid="77092301">5 hussards ailés</string>
+	<string _locid="77092302">6 hussards ailés</string>
+	<string _locid="77092303">4 hussards ailés</string>
+	
+	<string _locid="77092305">3 compagnons</string>
+	<string _locid="77092306">5 compagnons</string>
+	<string _locid="77092307">6 compagnons</string>	
+	
+	<string _locid="77092308">Port aux corsaires</string>	
+	<string _locid="77092309">Envoie 3 corsaires et permet de les entraîner dans les ports.</string>
+
+	<string _locid="77092310">Terreur aux frontières</string>
+	<string _locid="77092311">Augmente l'attaque de siège des Uhlans éclaireurs et des Lisowczyky. Les uhlans éclaireurs infligent plus de dégâts aux villageois.</string>
+	
+	<string _locid="77092312">Maraudeurs des steppes</string>
+	<string _locid="77092313">L'attaque à distance des Lipka Tatars est plus efficace contre l'infanterie lourde.</string>
+
+	<string _locid="77092314">Intercepteurs</string>	
+	<string _locid="77092315">Les compagnons et les piechurs sont plus efficaces contre la cavalerie à distance.</string>
+	
+	<string _locid="77092316">Pistoliers ailés</string>
+	<string _locid="77092317">Envoie cinq pistoliers ailés et permet de les entraîner à l'écurie royale.</string>	
+	
+	<string _locid="77092318">Canons de cuir des Vasa</string>
+	<string _locid="77092319">Envoie deux canons de cuir bouilli et permet d'en entraîner un certain nombre à la fonderie d'artillerie.</string>
+	
+	<string _locid="77092320">Artillerie mobile avancée</string>
+	<string _locid="77092321">Artillerie mobile impériale</string>
+	<string _locid="77092322">Améliore les unités d'artillerie débloquées par la métropole et augmente leur limite d'entrainement.</string>
+	<string _locid="77092323">Tabor royal</string>
+	<string _locid="77092324">Tabor impérial</string>
+	
+	<!-- ### ############ ###-->
+	<!-- ### Editor names ###-->
+	<!-- ### ############ ###-->
+
+	<string _locid="77092500">POL Faucheur</string>	
+	<string _locid="77092501">POL Piechur</string>
+	<string _locid="77092504">POL Uhlan éclaireur</string>
+	<string _locid="77092505">POL Compagnon</string>
+
+	<string _locid="77092506">POL Garde à pied</string>
+	<string _locid="77092507">POL Explorateur</string>	
+	<string _locid="77092508">POL Écurie royale</string>
+	<string _locid="77092509">POL Folwark</string>
+	<string _locid="77092510">POL Wojtek</string>
+	
+	<string _locid="77092511">POL Stanislaw Zolkiewski</string>
+	<string _locid="77092512">POL Jan Tarnowski</string>
+	<string _locid="77092513">POL Roi Jean III Sobieski</string>
+	
+	<string _locid="77092514">POL Dziesietnik</string>	
+	<string _locid="77092515">POL Lisowczyk</string>
+	<string _locid="77092516">POL Tabor</string>
+	
+	<string _locid="77092517">POL Église</string>	
+	<string _locid="77092518">POL Pistolier ailé</string>
+	<string _locid="77092519">POL Canon de cuir bouilli</string>
+	
+	<!-- ### ############ ###-->
+	<!-- ### Random names ###-->
+	<!-- ### ############ ###-->
+	
+	<string _locid="77092600">Stanislaw Branicki</string>
+	<string _locid="77092601">Mikolaj Potocki</string>
+	<string _locid="77092602">Jan Kazanowski</string>
+	<string _locid="77092603">Jozef Kamieniecki</string>
+	<string _locid="77092604">Franciszek Potocki</string>
+
+	<string _locid="77092620">Deblin Fortress</string>
+	<string _locid="77092621">Modlin Fortress</string>
+	<string _locid="77092622">Wisloujscie Fortress</string>
+	<string _locid="77092623">Zamosc Fortress</string>
+	
+	<string _locid="77092640">Le Polonais</string>
+	<string _locid="77092641">Café Polska</string>
+	<string _locid="77092642">Czarna Kaczka</string>
+	<string _locid="77092643">Restauracja Rózana</string>
+	
+	<string _locid="77092661">Arka Noego</string>
+	<string _locid="77092662">Dar Pomorza</string>
+	<string _locid="77092663">Król Dawid</string>
+	<string _locid="77092664">Panna Wodna</string>
+	<string _locid="77092665">Zółty Lew</string>
+	
+	<!-- ### ## ###-->
+	<!-- ### IA ###-->
+	<!-- ### ## ###-->
+	
+	<string _locid="77093000">Jean Sobieski</string>
+	<string _locid="77093001">Roi de Pologne. Sobieski est un chef militaire compétent et célèbre pour sa victoire contre les ottomans à la bataille de Vienne.</string>
+	
+	<!-- ### Fix french winged hussar's description ###-->
+	<string _locid="122106">Cavalier lourd d'élite polonais rapide qui possède une attaque à distance supplémentaire et une puissante charge de lancier ailé.</string>
+  </language>
+</stringtable>
+</stringmods>

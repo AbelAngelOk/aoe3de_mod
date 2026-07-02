@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="buildings\moroccan_details\Moroccan_Invisible_BaseColor">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\villagers\settler_wagon\textures\settler_wagon_donkey_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\villagers\settler_wagon\textures\settler_wagon_donkey_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\villagers\settler_wagon\textures\settler_wagon_donkey_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="buildings\moroccan_details\Moroccan_Invisible_BaseColor">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

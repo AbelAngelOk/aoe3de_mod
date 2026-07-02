@@ -1,0 +1,383 @@
+<stringmods>
+  <stringtable>
+    <language name="">
+
+      <!-- ========================================================
+           CADENAS COMPARTIDAS (77180xxx)
+           ======================================================== -->
+
+      <!-- Nombres aleatorios de exploradores -->
+      <string _locid="77180500">Capitán Húngaro</string>
+      <string _locid="77180501">István</string>
+      <string _locid="77180502">László</string>
+      <string _locid="77180503">Mátyás</string>
+      <string _locid="77180504">Zoltán</string>
+      <string _locid="77180505">Béla</string>
+
+      <string _locid="77180510">Voivoda Rumano</string>
+      <string _locid="77180511">Vlad</string>
+      <string _locid="77180512">Mircea</string>
+      <string _locid="77180513">Ştefan</string>
+      <string _locid="77180514">Alexandru</string>
+      <string _locid="77180515">Radu</string>
+
+      <string _locid="77180520">Comandante Finlandés</string>
+      <string _locid="77180521">Mikael</string>
+      <string _locid="77180522">Paavo</string>
+      <string _locid="77180523">Erkki</string>
+      <string _locid="77180524">Juhani</string>
+      <string _locid="77180525">Olavi</string>
+
+      <!-- Nombres de fuertes húngaros -->
+      <string _locid="77180530">Fuerte Húngaro</string>
+      <string _locid="77180531">Buda</string>
+      <string _locid="77180532">Eger</string>
+      <string _locid="77180533">Komárom</string>
+
+      <!-- Nombres de fuertes rumanos -->
+      <string _locid="77180540">Fortaleza Rumana</string>
+      <string _locid="77180541">Poenari</string>
+      <string _locid="77180542">Suceava</string>
+      <string _locid="77180543">Târgovişte</string>
+
+      <!-- Nombres de fuertes finlandeses -->
+      <string _locid="77180550">Fortaleza Finlandesa</string>
+      <string _locid="77180551">Häme</string>
+      <string _locid="77180552">Viborg</string>
+      <string _locid="77180553">Olavinlinna</string>
+
+
+      <!-- ========================================================
+           HUNGRÍA (77181xxx)
+           ======================================================== -->
+
+      <!-- Nombre y descripción de la civilización -->
+      <string _locid="77181001">Húngaros</string>
+      <string _locid="77181002">Los Húngaros, herederos de los guerreros magiares, combinan las tradiciones del Este con el poderío del Imperio centroeuropeo. Sus Húsares Magiares son la mejor caballería del mundo, mientras que la infantería ligera Hajduk ofrece una fuerza de combate versátil y eficiente.</string>
+
+      <!-- Ciudad capital y héroe -->
+      <string _locid="77181003">Budapest</string>
+      <string _locid="77181004">El Jefe Magiar</string>
+
+      <!-- Explorador -->
+      <string _locid="77181010">Explorador Húngaro</string>
+      <string _locid="77181011">Un experimentado guerrero magiar que lidera las expediciones húngaras al Nuevo Mundo.</string>
+      <string _locid="77181012">Explorador Húngaro</string>
+
+      <!-- Hajduk -->
+      <string _locid="77181020">Hajduk</string>
+      <string _locid="77181021">Infantería ligera húngara armada con mosquetes. Los Hajduks eran soldados irregulares que combatieron tanto para los Habsburgo como para los nobles húngaros durante el siglo XVII. Rápidos de entrenar y económicos, pero con menos puntos de vida que los Mosqueteros estándar.</string>
+      <string _locid="77181022">Hajduk</string>
+
+      <!-- Pandur -->
+      <string _locid="77181030">Pandur</string>
+      <string _locid="77181031">Escaramuzador de infantería ligera húngara eficaz contra la caballería. Los Pandurs eran tropas fronterizas irregulares famosas por su capacidad para hostigar las formaciones enemigas. Disponible en la Era de la Fortaleza.</string>
+      <string _locid="77181032">Pandur</string>
+
+      <!-- Grenz -->
+      <string _locid="77181040">Infantería Grenz</string>
+      <string _locid="77181041">Infantería pesada húngara de frontera armada con pica. Los Grenz sirvieron como guardia de la frontera militar del Imperio Habsburgo, protegiéndola de las incursiones otomanas. Fuerte contra la caballería.</string>
+      <string _locid="77181042">Infantería Grenz</string>
+
+      <!-- Húsar Magiar -->
+      <string _locid="77181050">Húsar Magiar</string>
+      <string _locid="77181051">Caballería de choque de élite húngara. Los Húsares Magiares eran el orgullo del ejército húngaro, conocidos en toda Europa por su velocidad y ferocidad en batalla. Se pueden entrenar desde la Era de la Fortaleza.</string>
+      <string _locid="77181052">Húsar Magiar</string>
+
+      <!-- Dragón Húngaro -->
+      <string _locid="77181060">Dragón Húngaro</string>
+      <string _locid="77181061">Caballería de distancia que puede combatir tanto montada como a pie. Los dragones húngaros proporcionaban potencia de fuego móvil y flexible en el campo de batalla.</string>
+      <string _locid="77181062">Dragón Húngaro</string>
+
+      <!-- Nombres de políticos -->
+      <string _locid="77181100">El Logístico</string>
+      <string _locid="77181101">Envía una carreta cubierta para establecer un nuevo asentamiento. Una elección práctica para expandir el territorio húngaro.</string>
+      <string _locid="77181102">El Reclutador</string>
+      <string _locid="77181103">Envía colonos adicionales para reforzar la mano de obra.</string>
+      <string _locid="77181104">El Capitán Hajduk</string>
+      <string _locid="77181105">Envía un grupo de Hajduks para reforzar el ejército.</string>
+      <string _locid="77181110">El Tirador</string>
+      <string _locid="77181111">Envía Hajduks de élite entrenados para fuego de precisión.</string>
+      <string _locid="77181112">El Comandante de Caballería</string>
+      <string _locid="77181113">Envía Húsares Magiares para encabezar el asalto.</string>
+      <string _locid="77181114">El Ingeniero</string>
+      <string _locid="77181115">Envía un cañón Falconete para apoyar a las fuerzas.</string>
+      <string _locid="77181120">El Caballero</string>
+      <string _locid="77181121">Envía un poderoso destacamento de Húsares Magiares.</string>
+      <string _locid="77181122">El Capataz de Minas</string>
+      <string _locid="77181123">Envía un cargamento de monedas de las minas de plata húngaras.</string>
+      <string _locid="77181124">El Coronel de Milicias</string>
+      <string _locid="77181125">Moviliza una gran fuerza de Hajduks.</string>
+      <string _locid="77181130">El Monárquico</string>
+      <string _locid="77181131">Envía el mejor regimiento de Húsares Magiares.</string>
+      <string _locid="77181132">El Oficial Imperial</string>
+      <string _locid="77181133">Envía recursos sustanciales del tesoro de los Habsburgo.</string>
+      <string _locid="77181134">El Gran Mariscal</string>
+      <string _locid="77181135">Moviliza una leva masiva de Hajduks.</string>
+
+      <!-- Mejoras: Hajduk -->
+      <string _locid="77181200">Hajduks Veteranos</string>
+      <string _locid="77181201">Mejora los puntos de vida y el ataque de los Hajduks en un 25%.</string>
+      <string _locid="77181202">Hajduks de la Guardia</string>
+      <string _locid="77181203">Mejora adicionalmente los puntos de vida y el ataque de los Hajduks en un 25%.</string>
+      <string _locid="77181204">Hajduks Imperiales</string>
+      <string _locid="77181205">Maximiza la efectividad de combate de los Hajduks.</string>
+
+      <!-- Mejoras: Pandur -->
+      <string _locid="77181210">Pandurs Veteranos</string>
+      <string _locid="77181211">Mejora los puntos de vida y el ataque de los Pandurs en un 25%.</string>
+      <string _locid="77181212">Pandurs de la Guardia</string>
+      <string _locid="77181213">Mejora adicionalmente los puntos de vida y el ataque de los Pandurs en un 25%.</string>
+
+      <!-- Mejoras: Grenz -->
+      <string _locid="77181220">Infantería Grenz Veterana</string>
+      <string _locid="77181221">Mejora los puntos de vida y el ataque de la Infantería Grenz en un 25%.</string>
+      <string _locid="77181222">Infantería Grenz de la Guardia</string>
+      <string _locid="77181223">Mejora adicionalmente los puntos de vida y el ataque de la Infantería Grenz en un 25%.</string>
+
+      <!-- Mejoras: Húsar Magiar -->
+      <string _locid="77181230">Húsares Magiares Veteranos</string>
+      <string _locid="77181231">Mejora los puntos de vida y el ataque de los Húsares Magiares en un 25%.</string>
+      <string _locid="77181232">Húsares Magiares de la Guardia</string>
+      <string _locid="77181233">Mejora adicionalmente los puntos de vida y el ataque de los Húsares Magiares en un 25%.</string>
+      <string _locid="77181234">Húsares Magiares Imperiales</string>
+      <string _locid="77181235">Maximiza la efectividad de combate de los Húsares Magiares.</string>
+
+      <!-- Mejoras: Dragón Húngaro -->
+      <string _locid="77181240">Dragones Húngaros Veteranos</string>
+      <string _locid="77181241">Mejora los puntos de vida y el ataque de los Dragones Húngaros en un 25%.</string>
+      <string _locid="77181242">Dragones Húngaros de la Guardia</string>
+      <string _locid="77181243">Mejora adicionalmente los puntos de vida y el ataque de los Dragones Húngaros en un 25%.</string>
+
+      <!-- Cartas de envío -->
+      <string _locid="77181300">3 Hajduks</string>
+      <string _locid="77181301">Envía 3 Hajduks desde Budapest.</string>
+      <string _locid="77181302">4 Húsares Magiares</string>
+      <string _locid="77181303">Envía 4 Húsares Magiares desde Budapest.</string>
+      <string _locid="77181304">6 Hajduks</string>
+      <string _locid="77181305">Envía 6 Hajduks desde Budapest.</string>
+      <string _locid="77181306">4 Pandurs</string>
+      <string _locid="77181307">Envía 4 Pandurs desde Budapest.</string>
+      <string _locid="77181308">4 Infantería Grenz</string>
+      <string _locid="77181309">Envía 4 Infantería Grenz desde Budapest.</string>
+      <string _locid="77181310">6 Húsares Magiares</string>
+      <string _locid="77181311">Envía 6 Húsares Magiares desde Budapest.</string>
+      <string _locid="77181312">4 Dragones Húngaros</string>
+      <string _locid="77181313">Envía 4 Dragones Húngaros desde Budapest.</string>
+      <string _locid="77181314">8 Húsares Magiares</string>
+      <string _locid="77181315">Envía 8 Húsares Magiares desde Budapest.</string>
+      <string _locid="77181316">10 Hajduks</string>
+      <string _locid="77181317">Envía 10 Hajduks desde Budapest.</string>
+
+
+      <!-- ========================================================
+           RUMANÍA (77182xxx)
+           ======================================================== -->
+
+      <string _locid="77182001">Rumanos</string>
+      <string _locid="77182002">Los Rumanos, descendientes de colonos romanos y guerreros dacios, forjaron su identidad bajo siglos de suzeraneidad otomana. Su infantería de mosquete Dorobant y la caballería noble Curteni forman la columna vertebral de un ejército versátil que bebe de tradiciones militares tanto orientales como occidentales.</string>
+
+      <string _locid="77182003">Bucarest</string>
+      <string _locid="77182004">El Voivoda</string>
+
+      <!-- Explorador -->
+      <string _locid="77182010">Explorador Rumano</string>
+      <string _locid="77182011">Un noble rumano que lidera expediciones más allá de los Cárpatos.</string>
+      <string _locid="77182012">Explorador Rumano</string>
+
+      <!-- Dorobant -->
+      <string _locid="77182020">Dorobant</string>
+      <string _locid="77182021">Infantería de mosquete rumana. Los Dorobanţi eran soldados de infantería profesionales que servían a los príncipes valacos y moldavos. Algo más resistentes que los Mosqueteros estándar, reflejando la tradición rumana de guerreros fronterizos.</string>
+      <string _locid="77182022">Dorobant</string>
+
+      <!-- Pandur Rumano -->
+      <string _locid="77182030">Pandur Rumano</string>
+      <string _locid="77182031">Escaramuzador de infantería ligera rumana. Similar a los Pandurs húngaros pero adaptado a la guerra en los bosques rumanos. Eficaz contra unidades de caballería.</string>
+      <string _locid="77182032">Pandur Rumano</string>
+
+      <!-- Seimeni -->
+      <string _locid="77182040">Seimeni</string>
+      <string _locid="77182041">Infantería de pica rumana. Los Seimeni eran guardias de élite de los príncipes rumanos, armados con picas y entrenados para resistir las cargas de caballería. La infantería más resistente del ejército rumano.</string>
+      <string _locid="77182042">Seimeni</string>
+
+      <!-- Curteni -->
+      <string _locid="77182050">Curteni</string>
+      <string _locid="77182051">Caballería noble rumana. Los Curteni eran la caballería doméstica de los príncipes rumanos, equivalente a las unidades de tipo húsar pero con un estilo de combate marcadamente del Este de Europa.</string>
+      <string _locid="77182052">Curteni</string>
+
+      <!-- Nombres de políticos -->
+      <string _locid="77182100">El Boyardo</string>
+      <string _locid="77182101">Envía una carreta cubierta para establecer un asentamiento.</string>
+      <string _locid="77182102">El Reclutador</string>
+      <string _locid="77182103">Envía colonos adicionales.</string>
+      <string _locid="77182104">El Capitán Dorobant</string>
+      <string _locid="77182105">Envía un grupo de Dorobanţi para reforzar el ejército.</string>
+      <string _locid="77182110">El Voivoda</string>
+      <string _locid="77182111">Envía veteranos Dorobanţi al frente.</string>
+      <string _locid="77182112">El Señor Curteni</string>
+      <string _locid="77182113">Envía caballería Curteni para apoyar la campaña.</string>
+      <string _locid="77182114">El Ingeniero</string>
+      <string _locid="77182115">Envía un cañón Falconete.</string>
+      <string _locid="77182120">El Príncipe</string>
+      <string _locid="77182121">Envía un poderoso destacamento de Curteni.</string>
+      <string _locid="77182122">El Guardabosques</string>
+      <string _locid="77182123">Envía madera y monedas de los bosques rumanos.</string>
+      <string _locid="77182124">El Mariscal Seimeni</string>
+      <string _locid="77182125">Moviliza infantería de pica Seimeni.</string>
+      <string _locid="77182130">El Gran Príncipe</string>
+      <string _locid="77182131">Envía el mejor regimiento de Curteni.</string>
+      <string _locid="77182132">El Aliado Imperial</string>
+      <string _locid="77182133">Envía recursos de las haciendas rumanas.</string>
+      <string _locid="77182134">El Gran Voivoda</string>
+      <string _locid="77182135">Moviliza una leva masiva de Dorobanţi.</string>
+
+      <!-- Mejoras -->
+      <string _locid="77182200">Dorobanţi Veteranos</string>
+      <string _locid="77182201">Mejora los puntos de vida y el ataque de los Dorobanţi en un 25%.</string>
+      <string _locid="77182202">Dorobanţi de la Guardia</string>
+      <string _locid="77182203">Mejora adicionalmente los puntos de vida y el ataque de los Dorobanţi en un 25%.</string>
+      <string _locid="77182210">Pandurs Rumanos Veteranos</string>
+      <string _locid="77182211">Mejora los puntos de vida y el ataque de los Pandurs Rumanos en un 25%.</string>
+      <string _locid="77182212">Pandurs Rumanos de la Guardia</string>
+      <string _locid="77182213">Mejora adicionalmente los puntos de vida y el ataque de los Pandurs Rumanos en un 25%.</string>
+      <string _locid="77182220">Seimeni Veteranos</string>
+      <string _locid="77182221">Mejora los puntos de vida y el ataque de los Seimeni en un 25%.</string>
+      <string _locid="77182222">Seimeni de la Guardia</string>
+      <string _locid="77182223">Mejora adicionalmente los puntos de vida y el ataque de los Seimeni en un 25%.</string>
+      <string _locid="77182230">Curteni Veteranos</string>
+      <string _locid="77182231">Mejora los puntos de vida y el ataque de los Curteni en un 25%.</string>
+      <string _locid="77182232">Curteni de la Guardia</string>
+      <string _locid="77182233">Mejora adicionalmente los puntos de vida y el ataque de los Curteni en un 25%.</string>
+
+      <!-- Cartas de envío -->
+      <string _locid="77182300">3 Dorobanţi</string>
+      <string _locid="77182301">Envía 3 Dorobanţi desde Bucarest.</string>
+      <string _locid="77182302">4 Curteni</string>
+      <string _locid="77182303">Envía 4 Curteni desde Bucarest.</string>
+      <string _locid="77182304">6 Dorobanţi</string>
+      <string _locid="77182305">Envía 6 Dorobanţi desde Bucarest.</string>
+      <string _locid="77182306">4 Seimeni</string>
+      <string _locid="77182307">Envía 4 Seimeni desde Bucarest.</string>
+      <string _locid="77182308">4 Pandurs Rumanos</string>
+      <string _locid="77182309">Envía 4 Pandurs Rumanos desde Bucarest.</string>
+      <string _locid="77182310">6 Curteni</string>
+      <string _locid="77182311">Envía 6 Curteni desde Bucarest.</string>
+      <string _locid="77182312">10 Dorobanţi</string>
+      <string _locid="77182313">Envía 10 Dorobanţi desde Bucarest.</string>
+      <string _locid="77182314">8 Curteni</string>
+      <string _locid="77182315">Envía 8 Curteni desde Bucarest.</string>
+
+
+      <!-- ========================================================
+           FINLANDIA (77183xxx)
+           ======================================================== -->
+
+      <string _locid="77183001">Finlandeses</string>
+      <string _locid="77183002">Los Finlandeses, integrados desde hace mucho en el sistema militar sueco, contribuyeron con una de las caballerías más temidas de la historia europea: los Hakkapeliitta. Los guerreros finlandeses bebieron de las profundas tradiciones del bosque para convertirse en expertos escaramuzadores y tropas de choque bajo la corona sueca.</string>
+
+      <string _locid="77183003">Turku</string>
+      <string _locid="77183004">El Jefe Finlandés</string>
+
+      <!-- Explorador -->
+      <string _locid="77183010">Explorador Finlandés</string>
+      <string _locid="77183011">Un leñador y guerrero finlandés que lidera expediciones lejos de casa.</string>
+      <string _locid="77183012">Explorador Finlandés</string>
+
+      <!-- Mosquetero Finlandés -->
+      <string _locid="77183020">Mosquetero Finlandés</string>
+      <string _locid="77183021">Infantería de línea finlandesa estándar entrenada al estilo Carolino. Los mosqueteros finlandeses eran conocidos por su disciplina y resistencia en las duras condiciones del norte.</string>
+      <string _locid="77183022">Mosquetero Finlandés</string>
+
+      <!-- Jaeger -->
+      <string _locid="77183030">Jaeger</string>
+      <string _locid="77183031">Escaramuzador de bosque finlandés con alcance excepcional. Los Jaegers son cazadores ligeros que destacan en tender emboscadas a las formaciones enemigas y contrarrestar a la caballería. Más rápido que los escaramuzadores estándar.</string>
+      <string _locid="77183032">Jaeger</string>
+
+      <!-- Knekt -->
+      <string _locid="77183040">Knekt</string>
+      <string _locid="77183041">Infantería de pica finlandesa. Los Knekt eran soldados de infantería dentro del sistema militar sueco-finlandés, armados con picas para defenderse de las cargas de caballería.</string>
+      <string _locid="77183042">Knekt</string>
+
+      <!-- Hakkapeliitta -->
+      <string _locid="77183050">Hakkapeliitta</string>
+      <string _locid="77183051">Caballería de choque de élite finlandesa. Los Hakkapeliitta eran una de las caballerías más temidas de la Europa del siglo XVII, conocidos por su grito de guerra "Hakkaa Päälle!" (¡Córtalos!). La caballería más rápida del ejército EEX.</string>
+      <string _locid="77183052">Hakkapeliitta</string>
+
+      <!-- Dragón Finlandés -->
+      <string _locid="77183060">Dragón Finlandés</string>
+      <string _locid="77183061">Caballería de distancia finlandesa que proporciona apoyo de fuego móvil. Algo más barata que los dragones estándar, apoyándose en los recursos forestales.</string>
+      <string _locid="77183062">Dragón Finlandés</string>
+
+      <!-- Nombres de políticos -->
+      <string _locid="77183100">El Logístico</string>
+      <string _locid="77183101">Envía una carreta cubierta para establecer un asentamiento.</string>
+      <string _locid="77183102">El Reclutador</string>
+      <string _locid="77183103">Envía colonos adicionales.</string>
+      <string _locid="77183104">El Guardabosques</string>
+      <string _locid="77183105">Envía Mosqueteros Finlandeses para reforzar la colonia.</string>
+      <string _locid="77183110">El Capitán</string>
+      <string _locid="77183111">Envía Mosqueteros Finlandeses para encabezar el asalto.</string>
+      <string _locid="77183112">El Comandante de Caballería</string>
+      <string _locid="77183113">Envía caballería Hakkapeliitta para liderar la carga.</string>
+      <string _locid="77183114">El Ingeniero</string>
+      <string _locid="77183115">Envía un cañón Falconete.</string>
+      <string _locid="77183120">El Comandante</string>
+      <string _locid="77183121">Envía un regimiento de Hakkapeliitta.</string>
+      <string _locid="77183122">El Mercader de Madera</string>
+      <string _locid="77183123">Envía madera de los bosques finlandeses.</string>
+      <string _locid="77183124">El Coronel Jaeger</string>
+      <string _locid="77183125">Envía escaramuzadores Jaeger de bosque.</string>
+      <string _locid="77183130">El Mariscal</string>
+      <string _locid="77183131">Envía el mejor regimiento de Hakkapeliitta.</string>
+      <string _locid="77183132">El Oficial Imperial</string>
+      <string _locid="77183133">Envía recursos sustanciales.</string>
+      <string _locid="77183134">El Gran Jefe</string>
+      <string _locid="77183135">Moviliza una leva masiva de Mosqueteros Finlandeses.</string>
+
+      <!-- Mejoras -->
+      <string _locid="77183200">Mosqueteros Finlandeses Veteranos</string>
+      <string _locid="77183201">Mejora los puntos de vida y el ataque de los Mosqueteros Finlandeses en un 25%.</string>
+      <string _locid="77183202">Mosqueteros Finlandeses de la Guardia</string>
+      <string _locid="77183203">Mejora adicionalmente los puntos de vida y el ataque de los Mosqueteros Finlandeses en un 25%.</string>
+      <string _locid="77183210">Jaegers Veteranos</string>
+      <string _locid="77183211">Mejora los puntos de vida y el ataque de los Jaegers en un 25%.</string>
+      <string _locid="77183212">Jaegers de la Guardia</string>
+      <string _locid="77183213">Mejora adicionalmente los puntos de vida y el ataque de los Jaegers en un 25%.</string>
+      <string _locid="77183220">Knekts Veteranos</string>
+      <string _locid="77183221">Mejora los puntos de vida y el ataque de los Knekts en un 25%.</string>
+      <string _locid="77183222">Knekts de la Guardia</string>
+      <string _locid="77183223">Mejora adicionalmente los puntos de vida y el ataque de los Knekts en un 25%.</string>
+      <string _locid="77183230">Hakkapeliitta Veteranos</string>
+      <string _locid="77183231">Mejora los puntos de vida y el ataque de los Hakkapeliitta en un 25%.</string>
+      <string _locid="77183232">Hakkapeliitta de la Guardia</string>
+      <string _locid="77183233">Mejora adicionalmente los puntos de vida y el ataque de los Hakkapeliitta en un 25%.</string>
+      <string _locid="77183234">Hakkapeliitta Imperiales</string>
+      <string _locid="77183235">Maximiza la efectividad de combate de los Hakkapeliitta.</string>
+      <string _locid="77183240">Dragones Finlandeses Veteranos</string>
+      <string _locid="77183241">Mejora los puntos de vida y el ataque de los Dragones Finlandeses en un 25%.</string>
+      <string _locid="77183242">Dragones Finlandeses de la Guardia</string>
+      <string _locid="77183243">Mejora adicionalmente los puntos de vida y el ataque de los Dragones Finlandeses en un 25%.</string>
+
+      <!-- Cartas de envío -->
+      <string _locid="77183300">3 Mosqueteros Finlandeses</string>
+      <string _locid="77183301">Envía 3 Mosqueteros Finlandeses desde Turku.</string>
+      <string _locid="77183302">3 Hakkapeliitta</string>
+      <string _locid="77183303">Envía 3 Hakkapeliitta desde Turku.</string>
+      <string _locid="77183304">6 Mosqueteros Finlandeses</string>
+      <string _locid="77183305">Envía 6 Mosqueteros Finlandeses desde Turku.</string>
+      <string _locid="77183306">4 Jaegers</string>
+      <string _locid="77183307">Envía 4 Jaegers desde Turku.</string>
+      <string _locid="77183308">4 Knekts</string>
+      <string _locid="77183309">Envía 4 Knekts desde Turku.</string>
+      <string _locid="77183310">6 Hakkapeliitta</string>
+      <string _locid="77183311">Envía 6 Hakkapeliitta desde Turku.</string>
+      <string _locid="77183312">4 Dragones Finlandeses</string>
+      <string _locid="77183313">Envía 4 Dragones Finlandeses desde Turku.</string>
+      <string _locid="77183314">8 Hakkapeliitta</string>
+      <string _locid="77183315">Envía 8 Hakkapeliitta desde Turku.</string>
+      <string _locid="77183316">10 Mosqueteros Finlandeses</string>
+      <string _locid="77183317">Envía 10 Mosqueteros Finlandeses desde Turku.</string>
+
+    </language>
+  </stringtable>
+</stringmods>

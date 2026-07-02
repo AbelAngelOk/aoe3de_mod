@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  mod-minimal: Strings mínimos para HUNHungarians
+  ID range: 88881xxx (sin colisión con EEXHungary en 77181xxx)
+-->
+<stringmods>
+  <stringtable>
+    <language name="">
+
+      <!-- Civilización -->
+      <string _locid="88881001">Hungarians</string>
+      <string _locid="88881002">The Hungarians bring the cavalry traditions of the Magyar people to the battlefield.</string>
+
+      <!-- Home City -->
+      <string _locid="88881003">Budapest</string>
+      <string _locid="88881004">The Magyar Chieftain</string>
+
+    </language>
+  </stringtable>
+</stringmods>

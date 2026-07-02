@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_2age_hat</file></assetreference></none><STARKVeteranPolishMusketeer><assetreference type="GrannyModel"><file>units\infantry_ranged\musketeer\musketeer_3age_hat_new</file></assetreference></STARKVeteranPolishMusketeer><STARKGuardPolishMusketeer><assetreference type="GrannyModel"><file>units\poles\czapka_musk_hat_Model</file></assetreference></STARKGuardPolishMusketeer></logic></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

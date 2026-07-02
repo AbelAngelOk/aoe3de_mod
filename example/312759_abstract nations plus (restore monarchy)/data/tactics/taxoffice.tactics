@@ -1,0 +1,55 @@
+<tactics>
+  <action>
+    <name stringid="43019">AutoGatherGold</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="110152">AutoGatherBonus</name>
+    <type>LikeBonus</type>
+    <active>1</active>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <maxrange>32</maxrange>
+    <rate type="TradingPost">0.6</rate>
+    <includeally>0</includeally>
+    <includeenemy>1</includeenemy>
+    <includegaia>1</includegaia>
+    <targetenemy>1</targetenemy>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.75</modifyamount>
+  </action>
+  <action>
+    <name stringid="68778">EconomicDeAura</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <forbidunittype>AbstractFishingBoat</forbidunittype>
+    <active>1</active>
+    <maxrange>32</maxrange>
+    <includeally>0</includeally>
+    <includeenemy>1</includeenemy>
+    <includegaia>1</includegaia>
+    <targetenemy>1</targetenemy>
+    <persistent>1</persistent>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>0.0</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="48954">SpeedDeAura</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <forbidunittype>AbstractFishingBoat</forbidunittype>
+    <active>1</active>
+    <maxrange>32</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>0.8</modifymultiplier>
+    <includeally>0</includeally>
+    <includeenemy>1</includeenemy>
+    <includegaia>1</includegaia>
+    <targetenemy>1</targetenemy>
+  </action>
+  <tactic>Normal<action>AutoGatherGold</action><action>AutoGatherBonus</action><action>EconomicDeAura</action><action>SpeedDeAura</action></tactic>
+</tactics>

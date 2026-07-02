@@ -1,0 +1,28 @@
+<protounitsounddefmods>
+  <protounit name="Dragoon">
+    <soundtype name="Select">
+	  <civlogic>
+		<choice name="STARKPolish">
+          <soundset name="STARKPolishCompanionSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+		<civlogic>
+			<choice name="STARKPolish">
+			  <targetlogic>
+				<choice name="default">
+				  <soundset name="STARKPolishCompanionMove">
+				  </soundset>
+				</choice>
+				<choice name="enemy">
+				  <soundset name="STARKPolishCompanionAttack">
+				  </soundset>
+				</choice>
+			  </targetlogic>
+			</choice>
+		</civlogic> 
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

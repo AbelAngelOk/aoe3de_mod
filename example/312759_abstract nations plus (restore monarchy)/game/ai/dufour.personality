@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>7469859</nameID>
+   <tooltipID>7469859</tooltipID>
+   <forcedciv>MMSwiss</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources\images\icons\mm_SAvatar.png</icon>
+   <chatset>Garibaldi</chatset>
+   <playerNames>
+      <nameID>7469859<civ>MMSwiss</civ></nameID> 
+	</playerNames>
+</AI>

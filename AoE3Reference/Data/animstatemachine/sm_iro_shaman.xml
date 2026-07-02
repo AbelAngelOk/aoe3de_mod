@@ -1,0 +1,11 @@
+<statemachine>
+  <startstate>Idle</startstate>
+  <state>Idle<anim weight="100" loop="1">StateIdle1_Idle</anim><event type="AnimLooped" count="1"><transition weight="80">Idle</transition><transition weight="10">Idle2Dance</transition><namedtransition name="HCShipment">Shipment</namedtransition><namedtransition name="HCSelect">Idle2Ship</namedtransition></event></state>
+  <state>Idle2Dance<anim weight="100" loop="0">StateX_Idle2Dance</anim><event type="AnimLooped" count="1"><transition weight="100">Dance</transition></event></state>
+  <state>Dance<anim weight="100" loop="1">StateDance_Dance</anim><event type="AnimLooped" count="3"><transition weight="20">Dance2Idle</transition><transition weight="80">Dance</transition><namedtransition name="HCShipment">Shipment</namedtransition><namedtransition name="HCSelect">Idle2Ship</namedtransition></event></state>
+  <state>Dance2Idle<anim weight="100" loop="0">StateX_Dance2Idle</anim><event type="AnimLooped" count="1"><transition weight="100">Idle</transition></event></state>
+  <state>Idle2Ship<anim weight="100" loop="0">StateX_Idle2Ship</anim><event type="AnimLooped" count="1"><transition weight="100">Select</transition></event></state>
+  <state>Select<anim weight="100" loop="1">StateShip_Idle</anim><event type="AnimLooped" count="6"><transition weight="100">Ship2Idle</transition></event></state>
+  <state>Shipment<anim weight="100" loop="0">StateShip_Send</anim><event type="AnimLooped" count="1"><transition weight="100">Ship2Idle</transition></event></state>
+  <state>Ship2Idle<anim weight="100" loop="0">StateX_Ship2Idle</anim><event type="AnimLooped" count="1"><transition weight="100">Idle</transition></event></state>
+</statemachine>

@@ -1,0 +1,24 @@
+<randomnamemods>
+
+  <!-- Explorer names (Hungary) -->
+  <protounit>EEXHungarianExplorer<civ>EEXHungary<title>77180500</title><title>77180501</title><title>77180502</title><title>77180503</title><title>77180504</title><title>77180505</title></civ></protounit>
+
+  <!-- Explorer names (Romania) -->
+  <protounit>EEXRomanianExplorer<civ>EEXRomania<title>77180510</title><title>77180511</title><title>77180512</title><title>77180513</title><title>77180514</title><title>77180515</title></civ></protounit>
+
+  <!-- Explorer names (Finland) -->
+  <protounit>EEXFinnishExplorer<civ>EEXFinland<title>77180520</title><title>77180521</title><title>77180522</title><title>77180523</title><title>77180524</title><title>77180525</title></civ></protounit>
+
+  <!-- Fort names per civ -->
+  <protounit>FortFrontier<civ>EEXHungary<title>77180530</title><title>77180531</title><title>77180532</title><title>77180533</title></civ><civ>EEXRomania<title>77180540</title><title>77180541</title><title>77180542</title><title>77180543</title></civ><civ>EEXFinland<title>77180550</title><title>77180551</title><title>77180552</title><title>77180553</title></civ></protounit>
+
+  <!-- Ship names (shared across all EEX civs — same naval tradition as Europeans) -->
+  <protounit>Caravel<civ>EEXHungary<title>77180560</title><title>77180561</title><title>77180562</title></civ><civ>EEXRomania<title>77180560</title><title>77180561</title><title>77180562</title></civ><civ>EEXFinland<title>77180560</title><title>77180561</title><title>77180562</title></civ></protounit>
+  <protounit>Galleon<civ>EEXHungary<title>77180560</title><title>77180561</title><title>77180562</title></civ><civ>EEXRomania<title>77180560</title><title>77180561</title><title>77180562</title></civ><civ>EEXFinland<title>77180560</title><title>77180561</title><title>77180562</title></civ></protounit>
+  <protounit>Frigate<civ>EEXHungary<title>77180560</title><title>77180561</title><title>77180562</title></civ><civ>EEXRomania<title>77180560</title><title>77180561</title><title>77180562</title></civ><civ>EEXFinland<title>77180560</title><title>77180561</title><title>77180562</title></civ></protounit>
+  <protounit>Monitor<civ>EEXHungary<title>77180560</title><title>77180561</title><title>77180562</title></civ><civ>EEXRomania<title>77180560</title><title>77180561</title><title>77180562</title></civ><civ>EEXFinland<title>77180560</title><title>77180561</title><title>77180562</title></civ></protounit>
+
+  <!-- Tavern names per civ -->
+  <protounit>deTavern<civ>EEXHungary<title>77180570</title><title>77180571</title><title>77180572</title></civ><civ>EEXRomania<title>77180570</title><title>77180571</title><title>77180572</title></civ><civ>EEXFinland<title>77180570</title><title>77180571</title><title>77180572</title></civ></protounit>
+
+</randomnamemods>

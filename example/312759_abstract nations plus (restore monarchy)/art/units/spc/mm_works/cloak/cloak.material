@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\mm_works\cloak\cloak_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\jinhai\textures\jinhai_hp_0_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\jinhai\textures\jinhai_hp_0_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\mm_works\cloak\cloak_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

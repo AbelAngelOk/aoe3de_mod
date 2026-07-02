@@ -1,0 +1,28 @@
+<protounitsounddefmods>
+  <protounit name="Pikeman">
+    <soundtype name="Select">
+	  <civlogic>
+		<choice name="STARKPolish">
+          <soundset name="STARKPolishScythemanSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+		<civlogic>
+			<choice name="STARKPolish">
+			  <targetlogic>
+				<choice name="default">
+				  <soundset name="STARKPolishScythemanMove">
+				  </soundset>
+				</choice>
+				<choice name="enemy">
+				  <soundset name="STARKPolishScythemanAttack">
+				  </soundset>
+				</choice>
+			  </targetlogic>
+			</choice>
+		</civlogic> 
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

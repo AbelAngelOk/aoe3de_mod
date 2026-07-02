@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\victorian_british_grenadier\textures\soldado_age4_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\victorian_british_grenadier\textures\soldado_age4_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\victorian_british_grenadier\textures\soldado_age4_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\victorian_british_grenadier\textures\soldado_age4_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

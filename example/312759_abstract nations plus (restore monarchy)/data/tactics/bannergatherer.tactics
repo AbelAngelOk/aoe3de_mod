@@ -1,0 +1,17 @@
+<tactics>
+  <action>
+    <name stringid="43019">AutoGather</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="48943">ExtraBounty</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>Bounty</modifytype>
+    <modifymultiplier>2</modifymultiplier>
+  </action>
+  <tactic>Normal<action>ExtraBounty</action><action>AutoGather</action></tactic>
+</tactics>

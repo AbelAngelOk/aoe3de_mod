@@ -1,0 +1,4 @@
+<animfile>
+  <component>background<notshadowcaster></notshadowcaster><logic type="Variation"><variationid1><assetreference type="GrannyModel"><file>homecity\dutch\dutch_homecity_background\dutch_homecity_background</file></assetreference></variationid1><variationid0><assetreference type="GrannyModel"><file>homecity\dutch\dutch_homecity_background\dutch_homecity_background2</file></assetreference></variationid0></logic></component>
+  <anim>Idle<component>background</component></anim>
+</animfile>

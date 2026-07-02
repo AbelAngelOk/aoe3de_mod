@@ -1,0 +1,16 @@
+<tactics>
+  <action>
+    <name stringid="43294">ModifyGatherrTrade</name>
+    <type>ModifyGather</type>
+    <modifyamount>999.0</modifyamount>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43294">AutoGatherTrade</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<action>ModifyGatherrTrade</action><action>AutoGatherTrade</action></tactic>
+</tactics>

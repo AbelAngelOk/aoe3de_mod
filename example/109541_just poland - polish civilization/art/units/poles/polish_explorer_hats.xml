@@ -1,0 +1,4 @@
+<animfile>
+  <component>hat<logic type="Civ"><STARKPolish><assetreference type="GrannyModel"><file>units\natives\europeans\winged_hussar\winged_hussar_hat</file></assetreference></STARKPolish></logic></component>
+  <anim>Idle<component>hat</component></anim>
+</animfile>

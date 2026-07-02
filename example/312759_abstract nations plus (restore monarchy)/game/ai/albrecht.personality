@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>7469665</nameID>
+   <tooltipID>7469665</tooltipID>
+   <forcedciv>Teutonic</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources\images\icons\mm_TAvatar.png</icon>
+   <chatset>gustav</chatset>
+   <playerNames>
+      <nameID>7469665<civ>Teutonic</civ></nameID> 
+	</playerNames>
+</AI>

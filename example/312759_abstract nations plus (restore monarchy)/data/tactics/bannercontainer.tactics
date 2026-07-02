@@ -1,0 +1,12 @@
+<tactics>
+  <action>
+    <name stringid="7471486">BannerBoost</name>
+    <type>AutoRangedModify</type>
+    <modifyprotoid>mmMercenaryBanner</modifyprotoid>
+    <active>1</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.01</modifyamount>
+  </action>
+  <tactic>Normal<action>BannerBoost</action></tactic>
+</tactics>

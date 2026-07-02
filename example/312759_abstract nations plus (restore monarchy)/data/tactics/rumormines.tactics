@@ -1,0 +1,156 @@
+<tactics>
+  <action>
+    <name stringid="68971">MaintainXP</name>
+    <type>Maintain</type>
+    <rate type="deCrateofXP">1.0</rate>
+    <active>1</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="68971">MaintainInfluence</name>
+    <type>Maintain</type>
+    <rate type="deCrateofInfluence">1.0</rate>
+    <active>1</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="68971">MaintainDeer</name>
+    <type>Maintain</type>
+    <rate type="Moose">1.0</rate>
+    <active>1</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="68971">MaintainTree</name>
+    <type>Maintain</type>
+    <rate type="TreeRockies">1.0</rate>
+    <active>1</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="68971">MaintainBear</name>
+    <type>Maintain</type>
+    <rate type="PetGrizzly">1.0</rate>
+    <active>1</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="68938">MaintainMinuteman</name>
+    <type>Maintain</type>
+    <rate type="deREVVoluntarioBatch">1.0</rate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="72551">ResourceProxyMine</name>
+    <type>ResourceProxy</type>
+    <modifyabstracttype>AbstractMine</modifyabstracttype>
+    <active>1</active>
+    <maxrange>8</maxrange>
+    <persistent>1</persistent>
+    <gatherlinkedresource>1</gatherlinkedresource>
+    <dontkillwhenexpired>1</dontkillwhenexpired>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherGold100</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <gatherlinkedresource>1</gatherlinkedresource>
+    <autogatherinventoryifnotsocketed>1</autogatherinventoryifnotsocketed>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherGold100NoMine</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+    <donotautogatherifsocketed>1</donotautogatherifsocketed>
+  </action>
+  <action>
+    <name stringid="48954">InfluenceRate0</name>
+    <type>AutoRangedModify</type>
+    <maxrange>8</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>InfluenceRate</modifytype>
+    <modifymultiplier>0</modifymultiplier>
+    <restricttogatherers>1</restricttogatherers>
+  </action>
+  <action>
+    <name stringid="48954">InfluenceRate0Abun</name>
+    <type>AutoRangedModify</type>
+    <maxrange>8</maxrange>
+    <modifyprotoid>deAbun</modifyprotoid>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>InfluenceRate</modifytype>
+    <modifymultiplier>0</modifymultiplier>
+    <restricttogatherers>1</restricttogatherers>
+  </action>
+  <action>
+    <name stringid="112767">AreaHeal</name>
+    <type>AutoRangedModify</type>
+    <maxrange>26</maxrange>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <persistent>1</persistent>
+    <modifytype>HealRate</modifytype>
+    <modifyamount>0.5</modifyamount>
+    <modelattachment>effects\areaheal.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48954">BuildingHP</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <maxrange>38</maxrange>
+    <modifyabstracttype>Building</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+  </action>
+  <action>
+    <name stringid="48954">UnitHP</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <maxrange>38</maxrange>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <forbidabstracttype>Resource</forbidabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>MaxHP</modifytype>
+    <modifymultiplier>1.1</modifymultiplier>
+    <modelattachment>effects\chiefpower\chiefpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>RumorXP<action>MaintainXP</action><action>ResourceProxyMine</action><action>AutoGatherGold100</action><action>InfluenceRate0</action><action>InfluenceRate0Abun</action><action>AutoGatherGold100NoMine</action><action>AreaHeal</action><action>BuildingHP</action><action>UnitHP</action><protounitcommand>RumorTacticXP</protounitcommand><agerequirement>0</agerequirement>
+  <transition><tactic>Deer</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>Minuteman</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>RumorXP</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Influence<action>MaintainInfluence</action><action>ResourceProxyMine</action><action>AutoGatherGold100</action><action>InfluenceRate0</action><action>InfluenceRate0Abun</action><action>AutoGatherGold100NoMine</action><action>AreaHeal</action><action>BuildingHP</action><action>UnitHP</action><protounitcommand>RumorTacticInfluence</protounitcommand><agerequirement>0</agerequirement>
+  <transition><tactic>RumorXP</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>Minuteman</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>Deer</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Bear<active>0</active><action>MaintainBear</action><action>ResourceProxyMine</action><action>AutoGatherGold100</action><action>InfluenceRate0</action><action>InfluenceRate0Abun</action><action>AutoGatherGold100NoMine</action><action>AreaHeal</action><action>BuildingHP</action><action>UnitHP</action><protounitcommand>TacticBear</protounitcommand><agerequirement>0</agerequirement>
+  <transition><tactic>Tree</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>Minuteman</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>Deer</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Deer<action>MaintainDeer</action><action>ResourceProxyMine</action><action>AutoGatherGold100</action><action>InfluenceRate0</action><action>InfluenceRate0Abun</action><action>AutoGatherGold100NoMine</action><action>AreaHeal</action><action>BuildingHP</action><action>UnitHP</action><protounitcommand>TacticDeer</protounitcommand><agerequirement>0</agerequirement>
+  <transition><tactic>Minuteman</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>Influence</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>RumorXP</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Tree<active>0</active><action>MaintainTree</action><action>ResourceProxyMine</action><action>AutoGatherGold100</action><action>InfluenceRate0</action><action>InfluenceRate0Abun</action><action>AutoGatherGold100NoMine</action><action>AreaHeal</action><action>BuildingHP</action><action>UnitHP</action><protounitcommand>TacticTree</protounitcommand><agerequirement>0</agerequirement>
+  <transition><tactic>Deer</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>Minuteman</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>Bear</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Minuteman<active>0</active><action>MaintainMinuteman</action><action>ResourceProxyMine</action><action>AutoGatherGold100</action><action>InfluenceRate0</action><action>InfluenceRate0Abun</action><action>AutoGatherGold100NoMine</action><action>AreaHeal</action><action>BuildingHP</action><action>UnitHP</action><protounitcommand>TacticMinuteman</protounitcommand><agerequirement>0</agerequirement>
+  <transition><tactic>Deer</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>RumorXP</tactic><length>2</length><exit>1</exit></transition>
+  <transition><tactic>Influence</tactic><length>2</length><exit>1</exit></transition></tactic>
+  </tactics>

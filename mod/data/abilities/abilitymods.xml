@@ -1,0 +1,28 @@
+<abilitymods>
+  <!-- EEX Explorers: assign standard explorer abilities.
+       PowerSharpshooter and PowerCrackshot are standard European explorer abilities.
+       deUnitHealthRegen gives explorers the standard health regeneration.
+       PowerLOS and PowerBalloon are unlockable via standard techs (same as other European explorers).
+       Pattern mirrors STARKPolishExplorer in the Poland reference mod. -->
+  <eexhungarianexplorer>
+    <ability>PowerSharpshooter<rof>60</rof></ability>
+    <ability>PowerCrackshot<tech>Industrialize</tech><rof>90</rof></ability>
+    <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </eexhungarianexplorer>
+  <eexromanianexplorer>
+    <ability>PowerSharpshooter<rof>60</rof></ability>
+    <ability>PowerCrackshot<tech>Industrialize</tech><rof>90</rof></ability>
+    <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </eexromanianexplorer>
+  <eexfinnishexplorer>
+    <ability>PowerSharpshooter<rof>60</rof></ability>
+    <ability>PowerCrackshot<tech>Industrialize</tech><rof>90</rof></ability>
+    <ability>PowerLOS<tech>DESpyglassEnableShadow</tech><rof>90</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>PowerBalloon<tech>deEnableBalloonPower</tech><rof>240</rof><activetimecooldown>true</activetimecooldown></ability>
+    <ability>deUnitHealthRegen<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </eexfinnishexplorer>
+</abilitymods>

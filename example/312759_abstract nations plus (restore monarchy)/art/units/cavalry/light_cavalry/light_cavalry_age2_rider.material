@@ -1,0 +1,76 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\light_cavalry\textures\light_cavalry_age2_rider_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\light_cavalry\textures\light_cavalry_age2_rider_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\light_cavalry\textures\light_cavalry_age2_rider_mata_masks">
+      </texture>
+      <texture name="Details" override="units\cavalry\light_cavalry\textures\light_cavalry_age2_rider_mata_details">
+      </texture>
+      <float name="AO Intensity" override="0.0000">
+      </float>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\revolution\death_hussar\textures\death_hussar_rider_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\light_cavalry\textures\light_cavalry_age2_rider_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\light_cavalry\textures\light_cavalry_age2_rider_mata_masks">
+      </texture>
+      <texture name="Details" override="units\revolution\death_hussar\textures\death_hussar_rider_mata_details">
+      </texture>
+      <float name="AO Intensity" override="0.0000">
+      </float>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\spc\magyar\magyar_hussar_age2_rider_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\revolution\hungarian_hussar\textures\hungarian_hussar_rider_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\light_cavalry\textures\light_cavalry_age3_rider_mata_masks">
+      </texture>
+      <texture name="Details" override="units\spc\magyar\magyar_hussar_age2_rider_matA_Details">
+      </texture>
+      <float name="AO Intensity" override="0.0000">
+      </float>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\light_cavalry\textures\light_cavalry_age2_rider_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\light_cavalry\textures\light_cavalry_age2_rider_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\light_cavalry\textures\light_cavalry_age2_rider_mata_masks">
+      </texture>
+      <texture name="Details" override="units\cavalry\light_cavalry\textures\light_cavalry_age2_rider_mata_details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\revolution\death_hussar\textures\death_hussar_rider_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\revolution\death_hussar\textures\death_hussar_rider_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\light_cavalry\textures\light_cavalry_age2_rider_mata_masks">
+      </texture>
+      <texture name="Details" override="units\revolution\death_hussar\textures\death_hussar_rider_mata_details">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\spc\magyar\magyar_hussar_age2_rider_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\revolution\hungarian_hussar\textures\hungarian_hussar_rider_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\light_cavalry\textures\light_cavalry_age3_rider_mata_masks">
+      </texture>
+      <texture name="Details" override="units\spc\magyar\magyar_hussar_age2_rider_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

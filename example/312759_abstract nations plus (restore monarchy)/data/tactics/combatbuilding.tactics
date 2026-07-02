@@ -1,0 +1,465 @@
+<tactics>
+  <action>
+    <name stringid="38127">RangedAttack2</name>
+    <active>0</active>
+    <chargeaction>1</chargeaction>
+    <type>Attack</type>
+    <maxrange>50.00</maxrange>
+    <rate type="Ship">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Idle</anim>
+    <targetspeedboost>0</targetspeedboost>
+    <basedamagecap>0</basedamagecap>
+  </action>
+  <action>
+    <name stringid="38133">RangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.01</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <rate type="Unit">1.0</rate>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="38119">CannonAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttackShip</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <rate type="Unit">1.0</rate>
+    <active>0</active>
+    <throw>1</throw>
+    <outerdamageareadistance>.25</outerdamageareadistance>
+    <outerdamageareafactor>.20</outerdamageareafactor>
+    <areasortmode>Directional</areasortmode>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <numberbounces>1</numberbounces>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="38121">AntiShipAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttackShip</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>120</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>Cannonball</projectile>
+    <impacteffect>effects\impacts\cannon</impacteffect>
+    <perfectaccuracy>1</perfectaccuracy>
+    <rate type="AbstractWarship">1.0</rate>
+  </action>
+  <action>
+    <name stringid="69158">SpawnMagyarHussar</name>
+    <type>Spawn</type>
+    <rate type="Hussar">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnCavArcher</name>
+    <type>Spawn</type>
+    <rate type="deConsulateDvoryanin">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnGrenzer</name>
+    <type>Spawn</type>
+    <rate type="xpColonialMilitia">2.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnPandour</name>
+    <type>Spawn</type>
+    <rate type="deMercPandour">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnPandourOnce</name>
+    <type>Spawn</type>
+    <rate type="deMercPandour">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">SpawnCrabatOnce</name>
+    <type>Spawn</type>
+    <rate type="deSaloonCrabat">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">SpawnCossackOnce</name>
+    <type>Spawn</type>
+    <rate type="deSaloonOutlawCossackRider">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">SpawnMagyarGrenadier</name>
+    <type>Spawn</type>
+    <rate type="deNatHungarianGrenadier">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69776">SpawnMagyarGrenadierOnce</name>
+    <type>Spawn</type>
+    <rate type="deNatHungarianGrenadier">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnCavArcherOnce</name>
+    <type>Spawn</type>
+    <rate type="deConsulateDvoryanin">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnLegionMagyarOnce</name>
+    <type>Spawn</type>
+    <rate type="deLegionMagyarHussar">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnNeedleOnce</name>
+    <type>Spawn</type>
+    <rate type="ypConsulatePrussianNeedleGun">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnZweihanderOnce</name>
+    <type>Spawn</type>
+    <rate type="ypConsulateZweihander">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnGranaderoOnce</name>
+    <type>Spawn</type>
+    <rate type="deREVGranadero">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnSettlerOnce</name>
+    <type>Spawn</type>
+    <rate type="Settler">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnDorobantOnce</name>
+    <type>Spawn</type>
+    <rate type="mmDorobant">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnGrenzerOnce</name>
+    <type>Spawn</type>
+    <rate type="xpColonialMilitia">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69776">SpawnHajdukOnce</name>
+    <type>Spawn</type>
+    <rate type="deSaloonHajduk">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">SpawnRoshiorDragoon</name>
+    <type>Spawn</type>
+    <rate type="mmConsulateRoshior">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69776">SpawnHorseArcherOnce</name>
+    <type>Spawn</type>
+    <rate type="CavalryArcher">1</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">SpawnMagyarHussarOnce</name>
+    <type>Spawn</type>
+    <rate type="Hussar">1.0</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">SpawnRoshiorOnce</name>
+    <type>Spawn</type>
+    <rate type="mmConsulateRoshior">1.0</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">SpawnFedStateMilitiaBatch</name>
+    <type>Maintain</type>
+    <rate type="deFedStateMilitiaBatch">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnFedStateMilitiaThird</name>
+    <type>Spawn</type>
+    <rate type="deStateMilitia">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnFedStateMilitiaFourth</name>
+    <type>Spawn</type>
+    <rate type="deStateMilitia">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnREVMXMinutemenOnce</name>
+    <type>Maintain</type>
+    <rate type="deREVMXMinutemanBatch">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="68961">OutpostTreeGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>36</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>TreeGatherRate</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">OutpostMineGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>36</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>MineGatherRate</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">OutpostNaturalFoodRateBonus</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <maxrange>36</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>NaturalFoodGatherRate</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">WignacourtAuraRange</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <maxrange>35</maxrange>
+    <active>0</active>
+    <hidefromstats>1</hidefromstats>
+    <rangedlogic>1</rangedlogic>
+    <anim>RangedAttack</anim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.01</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="48955">SpeedBonus</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <maxrange>35</maxrange>
+    <modifyabstracttype>UnitClass</modifyabstracttype>
+    <forbidabstracttype>AbstractVillager</forbidabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>Speed</modifytype>
+    <includeally>1</includeally>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\speed_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48955">SpeedBonus2</name>
+    <active>0</active>
+    <type>AutoRangedModify</type>
+    <maxrange>35</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>Speed</modifytype>
+    <includeally>1</includeally>
+    <modifymultiplier>1.20</modifymultiplier>
+    <modelattachment>effects\ypack_auras\speed_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="69158">SpawnHajduk</name>
+    <type>Spawn</type>
+    <rate type="deSaloonHajduk">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnPistolier</name>
+    <type>Spawn</type>
+    <rate type="Musketeer">2.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnPistolier2</name>
+    <type>Spawn</type>
+    <rate type="Musketeer">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69776">SpawnMusketeerOnce</name>
+    <type>Spawn</type>
+    <rate type="Musketeer">2.0</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">SpawnBarbarian</name>
+    <type>Spawn</type>
+    <rate type="mmBarbarian">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="122315">FireAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>FireAttack</anim>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.01</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>FireBallGreat</projectile>
+    <impacteffect>effects\impacts\torch</impacteffect>
+    <rate type="Unit">1.0</rate>
+    <active>0</active>
+    <throw>1</throw>
+    <perfectaccuracy>1</perfectaccuracy>
+    <targetground>1</targetground>
+    <basedamagecap>1</basedamagecap>
+  </action>
+  <action>
+    <name stringid="7471486">SwissBoost</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>AbstractTownCenter</modifyabstracttype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.06</modifyamount>
+  </action>
+  <tactic>Normal<attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action><action priority="99">RangedAttack2</action><action priority="75">CannonAttack</action><action priority="25">RangedAttack</action><action priority="20">FireAttack</action><action priority="1">WignacourtAuraRange</action><action>Spawn</action><action>SpawnMagyarHussar</action><action>SpawnGrenzer</action><action>SpawnCavArcher</action><action>SpawnPandour</action><action>SpawnMagyarGrenadier</action><action>SpawnRoshiorDragoon</action><action>SpawnFedStateMilitiaBatch</action><action>SpawnFedStateMilitiaThird</action><action>SpawnFedStateMilitiaFourth</action><action>OutpostTreeGatherRateBonus</action><action>OutpostMineGatherRateBonus</action><action>SpeedBonus</action><action>SpeedBonus2</action><action>OutpostNaturalFoodRateBonus</action><action>SpawnBarbarian</action><action>SpawnHajduk</action><action>SpawnPistolier</action><action>SpawnPistolier2</action><action>SwissBoost</action></tactic>
+</tactics>

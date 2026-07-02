@@ -1,0 +1,337 @@
+<stringmods>
+<stringtable>
+  <language name="">
+    <string _locid="77092001">波兰人</string>
+    <string _locid="77092002">&lt;color=1.0, 1.0, 0.0&gt;文明优势：&lt;/color&gt;\n游戏开始时拥有 1 名斥候乌兰骑兵和 1 头牛。哨站和堡垒可以运送边防军。\n&lt;color=1.0, 1.0, 0.0&gt;皇家护卫单位：&lt;/color&gt;\n斥候乌兰骑兵 (克拉库斯骑兵)、镰刀手 (长柄刀手)\n&lt;color=1.0, 1.0, 0.0&gt;独特单位：&lt;/color&gt;\n镰刀手、农奴兵、什长、斥候乌兰骑兵、近侍骑兵、利索夫斯基骑兵、车垒\n&lt;color=1.0, 1.0, 0.0&gt;独特建筑：&lt;/color&gt;\n大庄园、王室马厩</string>
+    <string _locid="77092003">华沙</string>
+	<string _locid="77092004">史丹希</string>
+	
+	<string _locid="77092010">提尔西特条约</string>
+	<string _locid="77092011">东布罗夫斯基军团</string>
+	<string _locid="77092012">多瑙河军团</string>
+	<string _locid="77092013">维斯瓦军团</string>
+	<string _locid="77092014">华沙大公国宪法</string>
+	<string _locid="77092015">骑兵的移动速度加快，尤其是乌兰骑兵。</string>
+	<string _locid="77092018">禁宫卫士</string>
+	<string _locid="77092019">运送一个装备火枪的禁宫卫士军团。</string>
+	<string _locid="77092020">让您的教堂拥有波兰人独特的改良技术。</string>		
+	<string _locid="77092021">运送一个装备火枪的禁宫卫士军团，允许在堡垒和兵营中训练该兵种。</string>
+
+	<string _locid="77092022">强制征兵</string>
+	<string _locid="77092023">现有的每个房屋都会运送 1 名农奴兵，现有的每个大庄园和农庄都会运送 4 名镰刀手，每个兵种上限 15 名。加快所有步兵的训练速度。</string>
+	<string _locid="77092024">非正规部队集结</string>
+	<string _locid="77092025">波旁干涉</string>
+	<string _locid="77092026">车垒部队</string>
+	<string _locid="77092027">运送 2 辆可以运送单位和坚守阵地的车垒，并允许炮兵制造厂训练该兵种。</string>
+	<string _locid="77092028">神圣同盟援军</string>
+	<string _locid="77092029">派遣一支由 3 名翼骑兵组成的援军来帮助您被围困的盟友！您将收到神圣同盟派出的一支辅助部队，包括 3 名翼骑兵、来自神圣罗马帝国的 3 名双酬佣兵和来自威尼斯共和国的 3 名墙盾手。</string>
+	<string _locid="77092030">塔尔诺夫斯基战术</string>
+	<string _locid="77092031">扬·塔尔诺夫斯基将所有现有的隼炮变成骑兵炮，加快骑兵炮的训练速度。允许扬·塔尔诺夫斯基训练骑兵炮。</string>	
+	<string _locid="77092032">塔尔诺夫斯基的炮兵战术已经被执行。</string>
+	<string _locid="77092033">降低骑兵炮的人口成本</string>
+	<string _locid="77092034">运送斯坦尼斯瓦夫·若乌凯夫斯基。一名能接收船运，并训练商业时代单位的强大盖特曼。</string>	
+	<string _locid="77092035">鞑靼战争中的盖特曼英雄。能训练商业时代单位并鼓舞附近的盟友。</string>			
+	<string _locid="77092036">盖特曼若乌凯夫斯基</string>
+	<string _locid="77092037">运送扬·塔尔诺夫斯基。一名能接收船运，并在酒馆解锁特定类型雇佣兵的强大盖特曼，他也可以训练这些单位。</string>	
+	<string _locid="77092038">著名的军事战略家和大盖特曼。能训练雇佣兵并鼓舞附近的盟友。</string>			
+	<string _locid="77092039">大盖特曼塔尔诺夫斯基</string>
+	<string _locid="77092040">运送扬三世·索别斯基。波兰-立陶宛联邦的君主，能接收船运并训练骑兵部队的强大盖特曼。</string>	
+	<string _locid="77092041">波兰国王。能训练部队并接收船运，并且可以给附近的部队增加额外生命值的强大盖特曼。</string>			
+	<string _locid="77092042">吾王万岁！</string>
+	<string _locid="77092043">服从</string>
+	<string _locid="77092044">被动技能：盖特曼可增加附近单位的攻击力。</string>
+	<string _locid="77092045">勇气</string>
+	<string _locid="77092046">被动技能：向国王证明你的价值！加快所有附近单位的移动速度和攻击速度。</string>	
+
+	<string _locid="77092049">大庄园</string>
+	<string _locid="77092050">结合了磨坊和畜栏功能的经济建筑。</string>
+	
+	<string _locid="77092051">斥候乌兰骑兵</string>
+	<string _locid="77092052">【升级】老练斥候乌兰骑兵</string>
+	<string _locid="77092053">增加斥候乌兰骑兵的攻击力和生命值。</string>
+	<string _locid="77092054">老练斥候乌兰骑兵</string>
+	<string _locid="77092055">【升级】克拉库斯骑兵</string>
+	<string _locid="77092056">增加斥候乌兰骑兵的攻击力和生命值。</string>
+	<string _locid="77092057">克拉库斯骑兵</string>
+	<string _locid="77092058">【升级】帝国克拉库斯骑兵</string>
+	<string _locid="77092059">增加斥候乌兰骑兵的攻击力和生命值。</string>
+	<string _locid="77092060">帝国克拉库斯骑兵</string>
+	
+	<string _locid="77092061">【升级】老练瓦萨和雅盖隆部队</string>
+	<string _locid="77092062">将利普卡鞑靼人和其他瓦萨与雅盖隆单位升级至老练等级。</string>
+	<string _locid="77092063">【升级】护卫瓦萨和雅盖隆部队</string>
+	<string _locid="77092064">将翼骑兵、利普卡鞑靼人和其他瓦萨与雅盖隆单位升级至护卫等级。</string>
+	
+	<string _locid="77092065">近侍骑兵</string>
+	<string _locid="77092066">【升级】护卫近侍骑兵</string>
+	<string _locid="77092067">增加近侍骑兵的攻击力和生命值。</string>
+	<string _locid="77092068">护卫近侍骑兵</string>
+	<string _locid="77092069">【升级】帝国近侍骑兵</string>
+	<string _locid="77092070">增加近侍骑兵的攻击力和生命值。</string>
+	<string _locid="77092071">帝国近侍骑兵</string>
+	<string _locid="77092072">强大但训练成本较高的远程骑兵单位，擅长对付骑兵。</string>
+	
+	<string _locid="77092075">卢布林联合</string>
+	<string _locid="77092076">在王室马厩解锁部分瓦萨和雅盖隆单位和改良技术，王室马厩训练翼骑兵和利普卡鞑靼人需要占用人口。</string>
+	
+	<string _locid="77092077">王室马厩</string>
+	<string _locid="77092078">可以训练波兰-立陶宛王室家族单位，并研究波兰-立陶宛王室家族科技的马厩。提供的人口空间为 5 。</string>
+	<string _locid="77092079">骑兵建筑。提供的人口空间为 5 。</string>
+	
+	<string _locid="77092080">镰刀手</string>
+	<string _locid="77092081">【升级】老练镰刀手</string>
+	<string _locid="77092082">增加镰刀手的攻击力、生命值和移动速度。</string>
+	<string _locid="77092083">老练镰刀手</string>
+	<string _locid="77092084">【升级】长柄刀手</string>
+	<string _locid="77092085">增加镰刀手的攻击力、生命值、移动速度和区域伤害半径。</string>
+	<string _locid="77092086">长柄刀手</string>
+	<string _locid="77092087">【升级】帝国长柄刀手</string>
+	<string _locid="77092088">增加镰刀手的攻击力、生命值和移动速度。</string>
+	<string _locid="77092089">帝国长柄刀手</string>
+	
+	<string _locid="77092090">农奴兵</string>
+	<string _locid="77092091">【升级】老练农奴兵</string>
+	<string _locid="77092092">增加农奴兵的攻击力和生命值。</string>
+	<string _locid="77092093">老练农奴兵</string>	
+	<string _locid="77092094">【升级】护卫农奴兵</string>
+	<string _locid="77092095">增加农奴兵的攻击力和生命值。</string>
+	<string _locid="77092096">护卫农奴兵</string>	
+	<string _locid="77092097">【升级】帝国农奴兵</string>
+	<string _locid="77092098">增加农奴兵的攻击力和生命值。</string>
+	<string _locid="77092099">帝国农奴兵</string>
+	
+	<string _locid="77092100">攻击力较弱但是训练成本较低的散兵和反散兵单位，擅长对付远程骑兵和所有类型的步兵。</string>
+	<string _locid="77092101">生命值低但装备可以造成区域伤害的长柄刀的长刀手。</string>	
+	<string _locid="77092102">波兰长戟兵，有强大抵抗力的重装近战步兵单位。</string>
+	<string _locid="77092103">拥有良好视野的快速枪骑兵，擅长对付步兵和炮兵。</string>
+	
+	<string _locid="77092110">什长</string>
+	<string _locid="77092111">【升级】老练什长</string>
+	<string _locid="77092112">增加什长的攻击力和生命值。</string>
+	<string _locid="77092113">老练什长</string>	
+	<string _locid="77092114">【升级】护卫什长</string>
+	<string _locid="77092115">增加什长的攻击力和生命值。</string>
+	<string _locid="77092116">护卫什长</string>	
+	<string _locid="77092117">【升级】帝国什长</string>
+	<string _locid="77092118">增加什长的攻击力和生命值。</string>
+	<string _locid="77092119">帝国什长</string>
+	
+	<string _locid="77092120">东部边防军</string>
+	<string _locid="77092121">现有的每个哨站都会运送 1 名斥候乌兰骑兵和 2 名农奴兵，每个兵种上限 10 名。</string>
+	
+	<string _locid="77092124">南部边防军</string>
+	<string _locid="77092125">现有的每个哨站都会运送 1 名近侍骑兵和 2 名什长，每个兵种上限 10 名。</string>
+	
+	<string _locid="77092128">北部边防军</string>
+	<string _locid="77092129">现有的每个堡垒都会运送 4 名斥候乌兰骑兵和 4 名近侍骑兵，每个兵种上限 12 名。</string>
+	
+	<string _locid="77092130">利索夫斯基骑兵</string>
+	<string _locid="77092131">给村民带来极大恐惧的骑兵。</string>
+	<string _locid="77092132">天启骑兵</string>
+	<string _locid="77092133">声名狼藉的军团已经整装待发！运送 5 名利索夫斯基骑兵，并将您所有来自东欧的龙骑兵和骑射手变成利索夫斯基骑兵。他们是特别擅长攻击建筑和屠杀村民的嗜血突袭者，有一个特殊的恐惧光环 (转化兵种：近侍骑兵、利普卡鞑靼人、龙骑兵、骑射手和鞑靼弓手)。</string>
+	<string _locid="77092134">恐惧</string>
+	<string _locid="77092135">被动技能：降低附近敌方村民 15% 的移动速度。</string>
+	
+	<string _locid="77092136">车垒</string>
+	<string _locid="77092137">可以运送单位和坚守阵地的马拉战车。</string>
+	<string _locid="77092138">轻型骑兵</string>
+	<string _locid="77092139">坚守阵地</string>
+	<string _locid="77092140">当处于炮轰模式时，移动速度大幅降低但获得偏移能力 (吸收敌人对附近盟友造成的 25% 伤害)，并提升附近火药单位 5% 的攻击速度。</string>
+	
+	<string _locid="77092145">大丰收</string>	
+	<string _locid="77092150">手枪翼骑兵</string>
+	<string _locid="77092151">可以使用手枪攻击的翼骑兵。</string>
+	<string _locid="77092152">老练手枪翼骑兵</string>
+	<string _locid="77092153">护卫手枪翼骑兵</string>
+	<string _locid="77092154">帝国手枪翼骑兵</string>
+		
+	<!-- ### Politician description ###-->	
+	<string _locid="77092190">2 辆军事马车</string> 
+	<string _locid="77092191">14 名农奴兵</string> 
+	<string _locid="77092192">10 名禁宫卫士 (火枪兵)</string>
+	<string _locid="77092193">8 名翼骑兵</string> 
+
+	<!-- ### Cards ###-->	
+	<string _locid="77092200">5 名斥候乌兰骑兵</string>
+	<string _locid="77092201">9 名斥候乌兰骑兵</string>
+	<string _locid="77092202">13 名斥候乌兰骑兵</string>
+	<string _locid="77092203">乌兰骑兵冲锋</string>
+	<string _locid="77092204">运送一批斥候乌兰骑兵，并增加他们对步兵的攻击伤害。</string>
+	
+	<string _locid="77092210">8 名镰刀手</string>
+	<string _locid="77092211">12 名镰刀手</string>
+	<string _locid="77092212">24 名镰刀手</string>
+	
+	<string _locid="77092220">8 名农奴兵</string>
+	<string _locid="77092221">11 名农奴兵</string>
+	<string _locid="77092222">22 名农奴兵</string>
+	
+	<string _locid="77092223">王宫禁卫</string>
+	<string _locid="77092224">从祖国运送一个装备火枪的禁宫卫士军团，并允许在堡垒中训练该兵种。</string>	
+		
+	<string _locid="77092225">5 名利普卡鞑靼人</string>
+	<string _locid="77092226">8 名利普卡鞑靼人</string>
+	<string _locid="77092227">9 名利普卡鞑靼人</string>
+	
+	<string _locid="77092230">欧洲粮仓</string>
+	<string _locid="77092231">您会随着时间不断收到中量的食物，加快村民从大庄园和牲畜采集食物的速度。</string>
+	
+	<string _locid="77092233">您现在可以从大庄园中训练牛。</string>
+	
+	<string _locid="77092234">什一税谷仓</string>
+	<string _locid="77092235">大庄园、牛和羊可以生产少量钱币。</string>
+	
+	<string _locid="77092236">队伍：5 头半肥的牛</string>
+	
+	<string _locid="77092237">枪炮步兵 / 骑兵攻击力</string>
+	<string _locid="77092238">增加农奴兵和骑兵的攻击力。</string>
+	
+	<string _locid="77092240">动员民众</string>
+	<string _locid="77092241">加快骑兵的训练速度，并略微加快步兵的训练速度。</string>
+	
+	<string _locid="77092242">骠骑兵军团</string>
+	<string _locid="77092243">运送 1 名翼骑兵和他的侍从。每次运送不同的单位，顺序如下：\n • 1 名翼骑兵 和 5 名利普卡鞑靼人\n • 1 名翼骑兵 和 6 名斥候乌兰骑兵\n • 1 名翼骑兵 和 4 名近侍骑兵</string>
+
+	<string _locid="77092250">斯坦尼斯瓦夫·若乌凯夫斯基</string>
+	<string _locid="77092251">扬·塔尔诺夫斯基</string>
+	<string _locid="77092252">扬三世·索别斯基</string>
+	
+	<string _locid="77092260">马扎尔步兵</string>
+	<string _locid="77092261">运送 5 名黑盗客和 5 名驱逐兵。反散兵单位造成更多攻击伤害并增加射程和视野，尤其是农奴兵。</string>
+	<string _locid="77092262">反散兵单位 +1 射程并且 +2 视野。\n • 农奴兵拥有额外加成</string>
+	
+	<string _locid="77092263">权贵</string>
+	<string _locid="77092264">加强您的探险家和盖特曼的战斗力，探险家和盖特曼可以生产钱币。</string>
+	
+	<string _locid="77092265">科希丘什科起义</string>
+	<string _locid="77092266">您所有的村民都变成了镰刀手。镰刀手的木材成本替换为更多食物，并且加快训练速度。</string>
+	
+	<string _locid="77092268">招安哥萨克</string>
+	<string _locid="77092269">运送 9 名哥萨克蛮兵。允许酒馆、哨站和王室马厩训练哥萨克蛮兵，哥萨克蛮兵占用更少人口空间。</string>
+	
+	<string _locid="77092270">权贵私军</string>
+	<string _locid="77092271">亡命之徒类型单位占用更少人口空间，并且加快训练速度。</string>
+	
+	<string _locid="77092272">10 名克罗地亚骑兵</string>
+	<string _locid="77092273">运送 10 名克罗地亚骑兵。</string>
+	
+	<string _locid="77092275">沃伊泰克</string>
+	<string _locid="77092276">运送 1 只强大的棕熊英雄，它可以在接下来的时代中更加强大。</string>
+	
+	<string _locid="77092278">永备工事</string>
+	<string _locid="77092279">增加哨站的生命值，您可以再次召集东部和南部边防军。</string>	
+
+	<string _locid="77092280">增加所有骑兵的攻击力和生命值。</string>
+	<string _locid="77092281">增加远程骑兵的攻击力。</string>
+	<string _locid="77092282">增加近战骑兵的攻击力。</string>  
+	<string _locid="77092283">队伍：增加骑兵和近战突击步兵的生命值。</string>
+	<string _locid="77092284">增加近战步兵的攻击力。</string>
+	
+	<string _locid="77092290">王室牧马场</string>
+	<string _locid="77092291">减少王室马厩骑兵单位的食物成本，尤其是精锐骑兵。</string>
+	
+	<string _locid="77092292">外国代表团</string>	
+	<string _locid="77092293">您获得了来自每个不同联盟部落的船运，原住民战士变得更便宜。</string>
+	
+	<string _locid="77092294">15 名利索夫斯基骑兵</string>	
+	<string _locid="77092295">运送 15 名利索夫斯基骑兵，他们是特别擅长攻击建筑和屠杀村民的嗜血突袭者，有一个特殊的恐惧光环。</string>	
+	
+	<string _locid="77092296">5 名利索夫斯基骑兵</string>	
+	<string _locid="77092297">运送 5 名利索夫斯基骑兵，他们是特别擅长攻击建筑和屠杀村民的嗜血突袭者，有一个特殊的恐惧光环。</string>	
+	
+	<string _locid="77092300">3 名翼骑兵</string>
+	<string _locid="77092301">5 名翼骑兵</string>
+	<string _locid="77092302">6 名翼骑兵</string>	
+	<string _locid="77092303">4 名翼骑兵</string>	
+	
+	<string _locid="77092305">3 名近侍骑兵</string>
+	<string _locid="77092306">5 名近侍骑兵</string>
+	<string _locid="77092307">6 名近侍骑兵</string>
+	
+	<string _locid="77092308">私掠船港口</string>	
+	<string _locid="77092309">运送 3 艘私掠船，并允许码头训练该兵种。</string>
+
+	<string _locid="77092310">边境恐怖</string>
+	<string _locid="77092311">增加斥候乌兰骑兵和利索夫斯基骑兵的攻城伤害，斥候乌兰骑兵对村民造成更多攻击伤害。</string>
+	
+	<string _locid="77092312">草原突袭者</string>
+	<string _locid="77092313">增加利普卡鞑靼人对重装步兵的攻击伤害。</string>
+
+	<string _locid="77092314">截击部队</string>
+	<string _locid="77092315">增加近侍骑兵和农奴兵对远程骑兵和远程突击步兵的攻击伤害。</string>
+	
+	<string _locid="77092316">手枪翼骑兵团</string>
+	<string _locid="77092317">运送 5 名手枪翼骑兵，并允许王室马厩训练该兵种。</string>	
+	
+	<string _locid="77092318">瓦萨皮革加农炮技术</string>
+	<string _locid="77092319">运送 2 座皮革加农炮，并允许炮兵制造厂训练数量有限的皮革加农炮。</string>
+	
+	<string _locid="77092320">【升级】高级机动炮兵</string>
+	<string _locid="77092321">【升级】帝国机动炮兵</string>
+	<string _locid="77092322">升级从主城解锁而来的炮兵单位，并增加可训练的数量上限。</string>
+	<string _locid="77092323">王室车垒</string>
+	<string _locid="77092324">帝国车垒</string>
+	
+	<!-- ### ############ ###-->
+	<!-- ### Editor names ###-->
+	<!-- ### ############ ###-->
+
+	<string _locid="77092500">POL 镰刀手</string>	
+	<string _locid="77092501">POL 农奴兵</string>
+	<string _locid="77092504">POL 斥候乌兰骑兵</string>
+	<string _locid="77092505">POL 近侍骑兵</string>
+
+	<string _locid="77092506">POL 禁宫卫士</string>
+	<string _locid="77092507">POL 探险家</string>	
+	<string _locid="77092508">POL 王室马厩</string>
+	<string _locid="77092509">POL 大庄园</string>
+	<string _locid="77092510">POL 沃伊泰克</string>
+	
+	<string _locid="77092511">POL 斯坦尼斯瓦夫·若乌凯夫斯基</string>
+	<string _locid="77092512">POL 扬·塔尔诺夫斯基</string>
+	<string _locid="77092513">POL 扬三世·索别斯基</string>
+	
+	<string _locid="77092514">POL 什长</string>
+	<string _locid="77092515">POL 利索夫斯基骑兵</string>
+	<string _locid="77092516">POL 车垒</string>
+	
+	<string _locid="77092517">POL 教堂</string>	
+	<string _locid="77092518">POL 手枪翼骑兵</string>
+	<string _locid="77092519">POL 皮革加农炮</string>
+	
+	<!-- ### ############ ###-->
+	<!-- ### Random names ###-->
+	<!-- ### ############ ###-->
+	
+	<string _locid="77092600">斯坦尼斯拉夫·布拉尼茨基</string>
+	<string _locid="77092601">米科拉伊·波托茨基</string>
+	<string _locid="77092602">扬·卡扎诺夫斯基</string>
+	<string _locid="77092603">约瑟夫·卡米诺茨基</string>
+	<string _locid="77092604">弗朗西斯科·波托茨基</string>
+
+	<string _locid="77092620">德布林堡垒</string>
+	<string _locid="77092621">莫德林堡垒</string>
+	<string _locid="77092622">维斯卢伊斯特堡垒</string>
+	<string _locid="77092623">扎莫斯克堡垒</string>	
+	
+	<string _locid="77092640">波兰餐厅</string>
+	<string _locid="77092641">波兰咖啡馆</string>
+	<string _locid="77092642">黑鸭餐厅</string>
+	<string _locid="77092643">罗莎娜餐厅</string>
+	
+	<string _locid="77092661">诺亚方舟</string>
+	<string _locid="77092662">波美拉尼亚的礼物</string>
+	<string _locid="77092663">大卫王</string>
+	<string _locid="77092664">水之少女</string>
+	<string _locid="77092665">黄狮</string>
+	
+	<!-- ### ## ###-->
+	<!-- ### IA ###-->
+	<!-- ### ## ###-->
+	
+	<string _locid="77093000">扬·索别斯基</string>
+	<string _locid="77093001">波兰国王。索别斯基是一个出色的军事领袖，最为人所知的就是他在维也纳之战中战胜奥斯曼帝国。</string>
+	
+  </language>
+</stringtable>
+</stringmods>

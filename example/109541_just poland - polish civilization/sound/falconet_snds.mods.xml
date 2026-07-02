@@ -1,0 +1,28 @@
+<protounitsounddefmods>
+  <protounit name="Falconet">
+    <soundtype name="Select">
+	  <civlogic>
+		<choice name="STARKPolish">
+          <soundset name="STARKPolishFalconetSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+		<civlogic>
+			<choice name="STARKPolish">
+			  <targetlogic>
+				<choice name="default">
+				  <soundset name="STARKPolishFalconetMove">
+				  </soundset>
+				</choice>
+				<choice name="enemy">
+				  <soundset name="STARKPolishFalconetAttack">
+				  </soundset>
+				</choice>
+			  </targetlogic>
+			</choice>
+		</civlogic> 
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

@@ -1,0 +1,34 @@
+<tactics>
+  <action>
+    <name stringid="124988">IncreaseDamageWithEnemies</name>
+    <type>LikeBonus</type>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>Unit</modifyabstracttype>
+    <active>1</active>
+    <maxrange>34</maxrange>
+    <rate type="Military">0.02</rate>
+    <includeally>0</includeally>
+    <includeenemy>1</includeenemy>
+    <targetenemy>1</targetenemy>
+    <persistent>1</persistent>
+    <modifytype>Damage</modifytype>
+    <modifybase>1.0</modifybase>
+    <modifyratecap>1.3</modifyratecap>
+  </action>
+  <action>
+    <name stringid="124987">IncreaseHPWithEnemies</name>
+    <type>LikeBonus</type>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>Unit</modifyabstracttype>
+    <active>1</active>
+    <maxrange>34</maxrange>
+    <rate type="Military">0.02</rate>
+    <includeally>0</includeally>
+    <includeenemy>1</includeenemy>
+    <targetenemy>1</targetenemy>
+    <persistent>1</persistent>
+    <modifytype>MaxHP</modifytype>
+    <modifybase>1.0</modifybase>
+    <modifyratecap>1.3</modifyratecap>
+  </action>
+</tactics>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>hat<logic type="Tech"><none><assetreference></assetreference></none><mmCanadianSettlersVisual><assetreference type="GrannyModel"><file>units\infantry_ranged\coureur\coureur_du_bois_hat_milice</file></assetreference></mmCanadianSettlersVisual></logic></component>
+  <anim>Idle<component>hat</component></anim>
+</animfile>

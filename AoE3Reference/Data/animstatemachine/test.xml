@@ -1,0 +1,9 @@
+<statemachine>
+  <startstate>Idle</startstate>
+  <state>Idle<anim weight="100">Volley_standing_idle</anim><event type="Timer" count="2000"><transition weight="50">Idle</transition><transition weight="50">Laydown</transition><namedtransition name="HCShipment">Shipment</namedtransition><namedtransition name="HCSelect">Select</namedtransition></event></state>
+  <state>LayDown<anim weight="100" loop="0">Volley_standing_reload</anim><event type="AnimLooped" count="1"><transition weight="100">Rest</transition><namedtransition name="HCShipment">Shipment</namedtransition><namedtransition name="HCSelect">Select</namedtransition></event></state>
+  <state>Rest<anim weight="100">Volley_standing_attack</anim><event type="AnimLooped" count="5"><transition weight="100">GetUp</transition><namedtransition name="HCShipment">Shipment</namedtransition><namedtransition name="HCSelect">Select</namedtransition></event></state>
+  <state>GetUp<anim weight="100" loop="0">Volley_walk</anim><event type="AnimLooped" count="2"><transition weight="100">Idle</transition><namedtransition name="HCShipment">Shipment</namedtransition><namedtransition name="HCSelect">Select</namedtransition></event></state>
+  <state>Shipment<anim weight="100" loop="1">Death_havoc_flail</anim><event type="AnimLooped" count="3"><transition weight="100">Idle</transition></event></state>
+  <state>Select<anim weight="100" loop="1">CloseDoor</anim><event type="AnimLooped" count="3"><transition weight="100">Idle</transition></event></state>
+</statemachine>

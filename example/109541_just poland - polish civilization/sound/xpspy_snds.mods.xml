@@ -1,0 +1,28 @@
+<protounitsounddefmods>
+  <protounit name="xpSpy">
+    <soundtype name="Select">
+	  <civlogic>
+		<choice name="STARKPolish">
+          <soundset name="STARKPolishSpySelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+		<civlogic>
+			<choice name="STARKPolish">
+			  <targetlogic>
+				<choice name="default">
+				  <soundset name="STARKPolishSpyMove">
+				  </soundset>
+				</choice>
+				<choice name="enemy">
+				  <soundset name="STARKPolishSpyAttack">
+				  </soundset>
+				</choice>
+			  </targetlogic>
+			</choice>
+		</civlogic> 
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

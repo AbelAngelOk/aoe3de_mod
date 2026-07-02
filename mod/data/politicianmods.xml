@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Eastern European Expansion (EEX) - politicianmods.xml
+     Maps politician tech names to portrait images.
+     All portrait images reuse existing base-game assets.
+-->
+<politicianmods>
+
+  <!-- HUNGARY politicians -->
+  <!-- Colonial -->
+  <EEXPoliticianHungaryColonial1
+    portraitfilename="ui\ingame\politicians\politician_logistician"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </EEXPoliticianHungaryColonial1>
+
+  <EEXPoliticianHungaryColonial2
+    portraitfilename="ui\ingame\politicians\politician_scout"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </EEXPoliticianHungaryColonial2>
+
+  <EEXPoliticianHungaryColonial3
+    portraitfilename="ui\ingame\politicians\politician_mercenary_contractor"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </EEXPoliticianHungaryColonial3>
+
+  <!-- Fortress -->
+  <EEXPoliticianHungaryFortress1
+    portraitfilename="ui\ingame\politicians\politician_marksman"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </EEXPoliticianHungaryFortress1>
+
+  <EEXPoliticianHungaryFortress2
+    portraitfilename="ui\ingame\politicians\politician_knight"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_knight.png">
+  </EEXPoliticianHungaryFortress2>
+
+  <EEXPoliticianHungaryFortress3
+    portraitfilename="ui\ingame\politicians\politician_engineer"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_engineer.png">
+  </EEXPoliticianHungaryFortress3>
+
+  <!-- Industrial -->
+  <EEXPoliticianHungaryIndustrial1
+    portraitfilename="ui\ingame\politicians\politician_cavalier"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </EEXPoliticianHungaryIndustrial1>
+
+  <EEXPoliticianHungaryIndustrial2
+    portraitfilename="ui\ingame\politicians\politician_tycoon"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_tycoon.png">
+  </EEXPoliticianHungaryIndustrial2>
+
+  <EEXPoliticianHungaryIndustrial3
+    portraitfilename="ui\ingame\politicians\politician_sergeant_arms"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </EEXPoliticianHungaryIndustrial3>
+
+  <!-- Imperial -->
+  <EEXPoliticianHungaryImperial1
+    portraitfilename="ui\ingame\politicians\politician_royalist"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </EEXPoliticianHungaryImperial1>
+
+  <EEXPoliticianHungaryImperial2
+    portraitfilename="ui\ingame\politicians\politician_war_minister"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_war_minister.png">
+  </EEXPoliticianHungaryImperial2>
+
+  <EEXPoliticianHungaryImperial3
+    portraitfilename="ui\ingame\politicians\politician_sergeant_arms"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </EEXPoliticianHungaryImperial3>
+
+
+  <!-- ROMANIA politicians -->
+  <!-- Colonial -->
+  <EEXPoliticianRomaniaColonial1
+    portraitfilename="ui\ingame\politicians\politician_logistician"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </EEXPoliticianRomaniaColonial1>
+
+  <EEXPoliticianRomaniaColonial2
+    portraitfilename="ui\ingame\politicians\politician_scout"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </EEXPoliticianRomaniaColonial2>
+
+  <EEXPoliticianRomaniaColonial3
+    portraitfilename="ui\ingame\politicians\politician_mercenary_contractor"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </EEXPoliticianRomaniaColonial3>
+
+  <!-- Fortress -->
+  <EEXPoliticianRomaniaFortress1
+    portraitfilename="ui\ingame\politicians\politician_marksman"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </EEXPoliticianRomaniaFortress1>
+
+  <EEXPoliticianRomaniaFortress2
+    portraitfilename="ui\ingame\politicians\politician_knight"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_knight.png">
+  </EEXPoliticianRomaniaFortress2>
+
+  <EEXPoliticianRomaniaFortress3
+    portraitfilename="ui\ingame\politicians\politician_engineer"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_engineer.png">
+  </EEXPoliticianRomaniaFortress3>
+
+  <!-- Industrial -->
+  <EEXPoliticianRomaniaIndustrial1
+    portraitfilename="ui\ingame\politicians\politician_cavalier"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </EEXPoliticianRomaniaIndustrial1>
+
+  <EEXPoliticianRomaniaIndustrial2
+    portraitfilename="ui\ingame\politicians\politician_tycoon"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_tycoon.png">
+  </EEXPoliticianRomaniaIndustrial2>
+
+  <EEXPoliticianRomaniaIndustrial3
+    portraitfilename="ui\ingame\politicians\politician_sergeant_arms"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </EEXPoliticianRomaniaIndustrial3>
+
+  <!-- Imperial -->
+  <EEXPoliticianRomaniaImperial1
+    portraitfilename="ui\ingame\politicians\politician_royalist"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </EEXPoliticianRomaniaImperial1>
+
+  <EEXPoliticianRomaniaImperial2
+    portraitfilename="ui\ingame\politicians\politician_war_minister"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_war_minister.png">
+  </EEXPoliticianRomaniaImperial2>
+
+  <EEXPoliticianRomaniaImperial3
+    portraitfilename="ui\ingame\politicians\politician_sergeant_arms"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </EEXPoliticianRomaniaImperial3>
+
+
+  <!-- FINLAND politicians -->
+  <!-- Colonial -->
+  <EEXPoliticianFinlandColonial1
+    portraitfilename="ui\ingame\politicians\politician_logistician"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </EEXPoliticianFinlandColonial1>
+
+  <EEXPoliticianFinlandColonial2
+    portraitfilename="ui\ingame\politicians\politician_scout"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </EEXPoliticianFinlandColonial2>
+
+  <EEXPoliticianFinlandColonial3
+    portraitfilename="ui\ingame\politicians\politician_mercenary_contractor"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </EEXPoliticianFinlandColonial3>
+
+  <!-- Fortress -->
+  <EEXPoliticianFinlandFortress1
+    portraitfilename="ui\ingame\politicians\politician_marksman"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </EEXPoliticianFinlandFortress1>
+
+  <EEXPoliticianFinlandFortress2
+    portraitfilename="ui\ingame\politicians\politician_knight"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_knight.png">
+  </EEXPoliticianFinlandFortress2>
+
+  <EEXPoliticianFinlandFortress3
+    portraitfilename="ui\ingame\politicians\politician_engineer"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_engineer.png">
+  </EEXPoliticianFinlandFortress3>
+
+  <!-- Industrial -->
+  <EEXPoliticianFinlandIndustrial1
+    portraitfilename="ui\ingame\politicians\politician_cavalier"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </EEXPoliticianFinlandIndustrial1>
+
+  <EEXPoliticianFinlandIndustrial2
+    portraitfilename="ui\ingame\politicians\politician_tycoon"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_tycoon.png">
+  </EEXPoliticianFinlandIndustrial2>
+
+  <EEXPoliticianFinlandIndustrial3
+    portraitfilename="ui\ingame\politicians\politician_sergeant_arms"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </EEXPoliticianFinlandIndustrial3>
+
+  <!-- Imperial -->
+  <EEXPoliticianFinlandImperial1
+    portraitfilename="ui\ingame\politicians\politician_royalist"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </EEXPoliticianFinlandImperial1>
+
+  <EEXPoliticianFinlandImperial2
+    portraitfilename="ui\ingame\politicians\politician_war_minister"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_war_minister.png">
+  </EEXPoliticianFinlandImperial2>
+
+  <EEXPoliticianFinlandImperial3
+    portraitfilename="ui\ingame\politicians\politician_sergeant_arms"
+    portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </EEXPoliticianFinlandImperial3>
+
+</politicianmods>

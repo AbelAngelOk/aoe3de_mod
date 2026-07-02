@@ -1,0 +1,1058 @@
+<politicians>
+  <mmFEDHabsburgAge1Sicily portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_base.png" hccardtech1="mmHCFedShipMaskati" hccardtech2="mmHCFedSicilyGold">
+  </mmFEDHabsburgAge1Sicily>
+  <mmFEDHabsburgAge1Carniola portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Carniola.png" hccardtech1="mmHCFedShipSkirmisher" hccardtech2="mmHCFedCarniolaWood">
+  </mmFEDHabsburgAge1Carniola>
+  <mmFEDHabsburgAge1WestGalicia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_WestGalicia.png" hccardtech1="mmHCFedShipLisowczyks" hccardtech2="mmHCFedWestGaliciaFood">
+  </mmFEDHabsburgAge1WestGalicia>
+  <mmFEDHabsburgAge1Trieste portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Trieste.png" hccardtech1="mmHCFedShipDorobant" hccardtech2="mmHCFedTriesteFood">
+  </mmFEDHabsburgAge1Trieste>
+  <mmFEDHabsburgAge1Bosnia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Bosnia.png" hccardtech1="mmHCFedShipBosnian" hccardtech2="mmHCFedBosniaFood">
+  </mmFEDHabsburgAge1Bosnia>
+  <mmFEDHabsburgAge2Dutch portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/consulate_dutch.png" hccardtech1="mmHCFedShipBlueGuards" hccardtech2="mmHCFedDutchGold">
+  </mmFEDHabsburgAge2Dutch>
+  <mmFEDHabsburgAge2Austria portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Austria.png" hccardtech1="mmHCFedShipLineInfantry" hccardtech2="mmHCFedAustriaGold">
+  </mmFEDHabsburgAge2Austria>
+  <mmFEDHabsburgAge2Slovakia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Slovakia.png" hccardtech1="mmHCFedShipHorian" hccardtech2="mmHCFedSlovakiaWood">
+  </mmFEDHabsburgAge2Slovakia>
+  <mmFEDHabsburgAge2Transylvania portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Transylvania.png" hccardtech1="mmHCFedShipCavalryArcher" hccardtech2="mmHCFedTransylvaniaFood">
+  </mmFEDHabsburgAge2Transylvania>
+  <mmFEDHabsburgAge2Szekler portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Szekler.png" hccardtech1="mmHCFedShipKorucz" hccardtech2="mmHCFedSzeklerFood">
+  </mmFEDHabsburgAge2Szekler>
+  <mmFEDHabsburgAge3Portu portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/consulate_portuguese.png" hccardtech1="mmHCFedShipOrdenanca" hccardtech2="mmHCFedPortuWood">
+  </mmFEDHabsburgAge3Portu>
+  <mmFEDHabsburgAge3EastGalicia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_EastGalicia.png" hccardtech1="mmHCFedShipSerdiuk" hccardtech2="mmHCFedEastGaliciaFood">
+  </mmFEDHabsburgAge3EastGalicia>
+  <mmFEDHabsburgAge3Moravia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Moravia.png" hccardtech1="mmHCFedShipMoravian" hccardtech2="mmHCFedMoraviaGold">
+  </mmFEDHabsburgAge3Moravia>
+  <mmFEDHabsburgAge3Czech portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Czech.png" hccardtech1="mmHCFedShipHakovnik" hccardtech2="mmHCFedCzechGold">
+  </mmFEDHabsburgAge3Czech>
+  <mmFEDHabsburgAge3Trentino portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Trento.png" hccardtech1="mmHCFedShipNavalSentinel" hccardtech2="mmHCFedTrentinoFish">
+  </mmFEDHabsburgAge3Trentino>
+  <mmFEDHabsburgAge4Spanish portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/consulate_spanish.png" hccardtech1="mmHCFedShipLancer" hccardtech2="mmHCFedSpanishFish">
+  </mmFEDHabsburgAge4Spanish>
+  <mmFEDHabsburgAge4Vojvodina portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Serbia.png" hccardtech1="mmHCFedSwordsmen" hccardtech2="mmHCFedVojvodinaWood">
+  </mmFEDHabsburgAge4Vojvodina>
+  <mmFEDHabsburgAge4Bohemia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Bohemia.png" hccardtech1="mmHCFedShipWarWagon" hccardtech2="mmHCFedBohemiaGold">
+  </mmFEDHabsburgAge4Bohemia>
+  <mmFEDHabsburgAge4Hungary portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Hungary.png" hccardtech1="mmHCFedShipGrenadier" hccardtech2="mmHCFedHungaryGold">
+  </mmFEDHabsburgAge4Hungary>
+  <mmFEDHabsburgAge4Croatia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Crownland_Croatia.png" hccardtech1="mmHCFedShipUskok" hccardtech2="mmHCFedCroatiaFood">
+  </mmFEDHabsburgAge4Croatia>
+  <mmBoersPoliticianNaturalist portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </mmBoersPoliticianNaturalist>
+  <mmBoersPoliticianQuartermaster portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png">
+  </mmBoersPoliticianQuartermaster>
+  <mmBoersPoliticianBishop portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png">
+  </mmBoersPoliticianBishop>
+  <mmBoersPoliticianGovernor portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </mmBoersPoliticianGovernor>
+  <mmBoersPoliticianLogistician portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </mmBoersPoliticianLogistician>
+  <mmBoersPoliticianSergeant portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </mmBoersPoliticianSergeant>
+  <mmBoersPoliticianPirate portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_gentlemen_pirate.png">
+  </mmBoersPoliticianPirate>
+  <mmBoersPoliticianGovernorAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </mmBoersPoliticianGovernorAge3>
+  <mmBoersPoliticianEngineerAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_engineer.png">
+  </mmBoersPoliticianEngineerAge3>
+  <mmBoersPoliticianLogisticianAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </mmBoersPoliticianLogisticianAge4>
+  <mmBoersPoliticianWarMinister portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_war_minister.png">
+  </mmBoersPoliticianWarMinister>
+  <mmBoersPoliticianGeneral portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </mmBoersPoliticianGeneral>
+  <mmBoersPoliticianTycoon portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_tycoon.png">
+  </mmBoersPoliticianTycoon>
+  <mmBoersPoliticianNativeWarrior portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_morgan_black.png">
+  </mmBoersPoliticianNativeWarrior>
+  <mmBoersPoliticianExtraCap portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </mmBoersPoliticianExtraCap>
+  <mmBoersPoliticianAdmiral portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_admiral.png">
+  </mmBoersPoliticianAdmiral>
+  <mmBoersPoliticianGeneralAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </mmBoersPoliticianGeneralAge5>
+  <mmParliamentDepot4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_depot.png">
+  </mmParliamentDepot4>
+  <mmParliamentDepot5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_depot.png">
+  </mmParliamentDepot5>
+  <mmParliamentDock5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_dock.png">
+  </mmParliamentDock5>
+  <mmParliamentDock4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_dock.png">
+  </mmParliamentDock4>
+  <mmParliamentDock3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_dock.png">
+  </mmParliamentDock3>
+  <mmParliamentWall5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_wall.png">
+  </mmParliamentWall5>
+  <mmParliamentWall4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_wall.png">
+  </mmParliamentWall4>
+  <mmParliamentWall3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_wall.png">
+  </mmParliamentWall3>
+  <mmParliamentChurch5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_church.png">
+  </mmParliamentChurch5>
+  <mmParliamentChurch4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_church.png">
+  </mmParliamentChurch4>
+  <mmParliamentChurch3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_church.png">
+  </mmParliamentChurch3>
+  <mmParliamentCenter5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_center.png">
+  </mmParliamentCenter5>
+  <mmParliamentCenter4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_center.png">
+  </mmParliamentCenter4>
+  <mmParliamentCenter3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_center.png">
+  </mmParliamentCenter3>
+  <mmParliamentFort5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_fort.png">
+  </mmParliamentFort5>
+  <mmParliamentFort4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_fort.png">
+  </mmParliamentFort4>
+  <mmParliamentFort3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_fort.png">
+  </mmParliamentFort3>
+  <mmParliamentTax5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_tax.png">
+  </mmParliamentTax5>
+  <mmParliamentTax4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_tax.png">
+  </mmParliamentTax4>
+  <mmParliamentTax3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_tax.png">
+  </mmParliamentTax3>
+  <mmParliamentLatifundia5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_Latifundia.png">
+  </mmParliamentLatifundia5>
+  <mmParliamentLatifundia4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_Latifundia.png">
+  </mmParliamentLatifundia4>
+  <mmParliamentLatifundia3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_Latifundia.png">
+  </mmParliamentLatifundia3>
+  <mmParliamentStable5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_Stable.png">
+  </mmParliamentStable5>
+  <mmParliamentStable4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_Stable.png">
+  </mmParliamentStable4>
+  <mmParliamentStable3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_Stable.png">
+  </mmParliamentStable3>
+  <mmParliamentBarracks5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_barraks.png">
+  </mmParliamentBarracks5>
+  <mmParliamentBarracks4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_barraks.png">
+  </mmParliamentBarracks4>
+  <mmParliamentBarracks3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_barraks.png">
+  </mmParliamentBarracks3>
+  <mmParliamentNatives5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_embassy.png">
+  </mmParliamentNatives5>
+  <mmParliamentNatives4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_embassy.png">
+  </mmParliamentNatives4>
+  <mmParliamentNatives3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_embassy.png">
+  </mmParliamentNatives3>
+  <mmParliamentCharta5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_capitol.png">
+  </mmParliamentCharta5>
+  <mmParliamentCharta4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_capitol.png">
+  </mmParliamentCharta4>
+  <mmParliamentCharta3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_capitol.png">
+  </mmParliamentCharta3>
+  <mmParliamentLivestock5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_livestock.png">
+  </mmParliamentLivestock5>
+  <mmParliamentLivestock4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_livestock.png">
+  </mmParliamentLivestock4>
+  <mmParliamentLivestock3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_livestock.png">
+  </mmParliamentLivestock3>
+  <mmParliamentSettler4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_settler.png">
+  </mmParliamentSettler4>
+  <mmParliamentSettler4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_settler.png">
+  </mmParliamentSettler4>
+  <mmParliamentSettler3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_settler.png">
+  </mmParliamentSettler3>
+  <mmParliamentMarket5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_Market.png">
+  </mmParliamentMarket5>
+  <mmParliamentMarket4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_Market.png">
+  </mmParliamentMarket4>
+  <mmParliamentMarket3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_Market.png">
+  </mmParliamentMarket3>
+  <mmParliamentPalermo5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_base.png">
+  </mmParliamentPalermo5>
+  <mmParliamentPalermo4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_base.png">
+  </mmParliamentPalermo4>
+  <mmParliamentPalermo3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_base.png">
+  </mmParliamentPalermo3>
+  <mmParliamentPalermo2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Charta_base.png">
+  </mmParliamentPalermo2>
+  <mmBHAElmetiAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Elmeti.png">
+  </mmBHAElmetiAge5>
+  <mmBHAElmetiAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Elmeti.png">
+  </mmBHAElmetiAge4>
+  <mmBHAElmetiAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Elmeti.png">
+  </mmBHAElmetiAge3>
+  <mmBHAElmetiAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Elmeti.png">
+  </mmBHAElmetiAge2>
+  <mmBHAGrenadierAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_grenadier.png">
+  </mmBHAGrenadierAge5>
+  <mmBHAGrenadierAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_grenadier.png">
+  </mmBHAGrenadierAge4>
+  <mmBHAGrenadierAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_grenadier.png">
+  </mmBHAGrenadierAge3>
+  <mmBHAGrenadierAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_grenadier.png">
+  </mmBHAGrenadierAge2>
+  <mmBHAMountedRiflemanAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_MountedRifleman.png">
+  </mmBHAMountedRiflemanAge5>
+  <mmBHAMountedRiflemanAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_MountedRifleman.png">
+  </mmBHAMountedRiflemanAge4>
+  <mmBHAMountedRiflemanAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_MountedRifleman.png">
+  </mmBHAMountedRiflemanAge3>
+  <mmBHAMountedRiflemanAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_MountedRifleman.png">
+  </mmBHAMountedRiflemanAge2>
+  <mmBHAWaffenmannerAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Waffenmanner.png">
+  </mmBHAWaffenmannerAge5>
+  <mmBHAWaffenmannerAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Waffenmanner.png">
+  </mmBHAWaffenmannerAge4>
+  <mmBHAWaffenmannerAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Waffenmanner.png">
+  </mmBHAWaffenmannerAge3>
+  <mmBHAWaffenmannerAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Waffenmanner.png">
+  </mmBHAWaffenmannerAge2>
+  <mmBHACaballeroAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Caballero.png">
+  </mmBHACaballeroAge5>
+  <mmBHACaballeroAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Caballero.png">
+  </mmBHACaballeroAge4>
+  <mmBHACaballeroAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Caballero.png">
+  </mmBHACaballeroAge3>
+  <mmBHACaballeroAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Caballero.png">
+  </mmBHACaballeroAge2>
+  <mmBHARoyalHorsemanAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_RoyalHorseman.png">
+  </mmBHARoyalHorsemanAge5>
+  <mmBHARoyalHorsemanAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_RoyalHorseman.png">
+  </mmBHARoyalHorsemanAge4>
+  <mmBHARoyalHorsemanAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_RoyalHorseman.png">
+  </mmBHARoyalHorsemanAge3>
+  <mmBHARoyalHorsemanAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_RoyalHorseman.png">
+  </mmBHARoyalHorsemanAge2>
+  <mmBHAPistoleerAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_armored.png">
+  </mmBHAPistoleerAge5>
+  <mmBHAPistoleerAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_armored.png">
+  </mmBHAPistoleerAge4>
+  <mmBHAPistoleerAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_armored.png">
+  </mmBHAPistoleerAge3>
+  <mmBHAPistoleerAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_armored.png">
+  </mmBHAPistoleerAge2>
+  <mmBHAHarquebusierAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Harquebusier.png">
+  </mmBHAHarquebusierAge5>
+  <mmBHAHarquebusierAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Harquebusier.png">
+  </mmBHAHarquebusierAge4>
+  <mmBHAHarquebusierAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Harquebusier.png">
+  </mmBHAHarquebusierAge3>
+  <mmBHAHarquebusierAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Harquebusier.png">
+  </mmBHAHarquebusierAge2>
+  <mmBHABlackRiderAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_blackrider.png">
+  </mmBHABlackRiderAge5>
+  <mmBHABlackRiderAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_blackrider.png">
+  </mmBHABlackRiderAge4>
+  <mmBHABlackRiderAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_blackrider.png">
+  </mmBHABlackRiderAge3>
+  <mmBHABlackRiderAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_blackrider.png">
+  </mmBHABlackRiderAge2>
+  <mmBHAFusilierAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_fusilier.png">
+  </mmBHAFusilierAge5>
+  <mmBHAFusilierAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_fusilier.png">
+  </mmBHAFusilierAge4>
+  <mmBHAFusilierAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_fusilier.png">
+  </mmBHAFusilierAge3>
+  <mmBHAFusilierAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_fusilier.png">
+  </mmBHAFusilierAge2>
+  <mmBHAPaskaAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_paska.png">
+  </mmBHAPaskaAge5>
+  <mmBHAPaskaAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_paska.png">
+  </mmBHAPaskaAge4>
+  <mmBHAPaskaAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_paska.png">
+  </mmBHAPaskaAge3>
+  <mmBHAPaskaAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_paska.png">
+  </mmBHAPaskaAge2>
+  <mmBHAAtiradorAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_quadrille.png">
+  </mmBHAAtiradorAge5>
+  <mmBHAAtiradorAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_quadrille.png">
+  </mmBHAAtiradorAge4>
+  <mmBHAAtiradorAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_quadrille.png">
+  </mmBHAAtiradorAge3>
+  <mmBHAAtiradorAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_quadrille.png">
+  </mmBHAAtiradorAge2>
+  <mmBHAShockGrenadierAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_lazer.png">
+  </mmBHAShockGrenadierAge5>
+  <mmBHAShockGrenadierAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_lazer.png">
+  </mmBHAShockGrenadierAge4>
+  <mmBHAShockGrenadierAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_lazer.png">
+  </mmBHAShockGrenadierAge3>
+  <mmBHAShockGrenadierAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_lazer.png">
+  </mmBHAShockGrenadierAge2>
+  <mmBHAMusketierAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_boneguard.png">
+  </mmBHAMusketierAge5>
+  <mmBHAMusketierAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_boneguard.png">
+  </mmBHAMusketierAge4>
+  <mmBHAMusketierAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_boneguard.png">
+  </mmBHAMusketierAge3>
+  <mmBHAMusketierAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_boneguard.png">
+  </mmBHAMusketierAge2>
+  <mmBHAFernigAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Fernig.png">
+  </mmBHAFernigAge5>
+  <mmBHAFernigAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Fernig.png">
+  </mmBHAFernigAge4>
+  <mmBHAFernigAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Fernig.png">
+  </mmBHAFernigAge3>
+  <mmBHAFernigAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Fernig.png">
+  </mmBHAFernigAge2>
+  <mmBHAPandourAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_pandour.png">
+  </mmBHAPandourAge5>
+  <mmBHAPandourAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_pandour.png">
+  </mmBHAPandourAge4>
+  <mmBHAPandourAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_pandour.png">
+  </mmBHAPandourAge3>
+  <mmBHAPandourAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_pandour.png">
+  </mmBHAPandourAge2>
+  <mmBHABrigadierAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_irish.png">
+  </mmBHABrigadierAge5>
+  <mmBHABrigadierAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_irish.png">
+  </mmBHABrigadierAge4>
+  <mmBHABrigadierAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_irish.png">
+  </mmBHABrigadierAge3>
+  <mmBHABrigadierAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_irish.png">
+  </mmBHABrigadierAge2>
+  <mmBHASwissPikemanAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Swiss.png">
+  </mmBHASwissPikemanAge5>
+  <mmBHASwissPikemanAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Swiss.png">
+  </mmBHASwissPikemanAge4>
+  <mmBHASwissPikemanAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Swiss.png">
+  </mmBHASwissPikemanAge3>
+  <mmBHASwissPikemanAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Swiss.png">
+  </mmBHASwissPikemanAge2>
+  <mmBHACannoneerAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_cannoneer.png">
+  </mmBHACannoneerAge5>
+  <mmBHACannoneerAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_cannoneer.png">
+  </mmBHACannoneerAge4>
+  <mmBHACannoneerAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_cannoneer.png">
+  </mmBHACannoneerAge3>
+  <mmBHACannoneerAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_cannoneer.png">
+  </mmBHACannoneerAge2>
+  <mmBHAHighlanderAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Highlander.png">
+  </mmBHAHighlanderAge5>
+  <mmBHAHighlanderAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Highlander.png">
+  </mmBHAHighlanderAge4>
+  <mmBHAHighlanderAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Highlander.png">
+  </mmBHAHighlanderAge3>
+  <mmBHAHighlanderAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Highlander.png">
+  </mmBHAHighlanderAge2>
+  <mmBHAJaegerAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_jaeger.png">
+  </mmBHAJaegerAge5>
+  <mmBHAJaegerAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_jaeger.png">
+  </mmBHAJaegerAge4>
+  <mmBHAJaegerAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_jaeger.png">
+  </mmBHAJaegerAge3>
+  <mmBHAJaegerAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_jaeger.png">
+  </mmBHAJaegerAge2>
+  <mmBHALandsknechtAge5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Landsknecht.png">
+  </mmBHALandsknechtAge5>
+  <mmBHALandsknechtAge4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Landsknecht.png">
+  </mmBHALandsknechtAge4>
+  <mmBHALandsknechtAge3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Landsknecht.png">
+  </mmBHALandsknechtAge3>
+  <mmBHALandsknechtAge2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/BHA_Landsknecht.png">
+  </mmBHALandsknechtAge2>
+  <mmHetmanatBishop2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png">
+  </mmHetmanatBishop2>
+  <mmHetmanatBishop portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png">
+  </mmHetmanatBishop>
+  <mmHetmanatMarksman portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </mmHetmanatMarksman>
+  <mmHetmanatMusketeer portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </mmHetmanatMusketeer>
+  <mmHetmanatCavalier portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </mmHetmanatCavalier>
+  <mmHetmanatLogistician portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </mmHetmanatLogistician>
+  <mmBigConsulatePrussian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_prussians.png">
+  </mmBigConsulatePrussian>
+  <mmBigConsulatePoland portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Poland.png">
+  </mmBigConsulatePoland>
+  <mmBigConsulateGambia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Gambia.png">
+  </mmBigConsulateGambia>
+  <mmBigConsulateTobago portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/Tobago.png">
+  </mmBigConsulateTobago>
+  <mmShareholderAge1Vote5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age5.png">
+  </mmShareholderAge1Vote5>
+  <mmShareholderAge2Vote5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age5.png">
+  </mmShareholderAge2Vote5>
+  <mmShareholderAge3Vote5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age5.png">
+  </mmShareholderAge3Vote5>
+  <mmShareholderAge4Vote5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age5.png">
+  </mmShareholderAge4Vote5>
+  <mmShareholderAge1Vote4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age4.png">
+  </mmShareholderAge1Vote4>
+  <mmShareholderAge2Vote4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age4.png">
+  </mmShareholderAge2Vote4>
+  <mmShareholderAge3Vote4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age4.png">
+  </mmShareholderAge3Vote4>
+  <mmShareholderAge4Vote4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age4.png">
+  </mmShareholderAge4Vote4>
+  <mmShareholderAge1Vote3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age3.png">
+  </mmShareholderAge1Vote3>
+  <mmShareholderAge3Vote3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age3.png">
+  </mmShareholderAge3Vote3>
+  <mmShareholderAge4Vote3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age3.png">
+  </mmShareholderAge4Vote3>
+  <mmShareholderAge2Vote3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age3.png">
+  </mmShareholderAge2Vote3>
+  <mmShareholderAge1Vote2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age2.png">
+  </mmShareholderAge1Vote2>
+  <mmShareholderAge2Vote2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age2.png">
+  </mmShareholderAge2Vote2>
+  <mmShareholderAge3Vote2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age2.png">
+  </mmShareholderAge3Vote2>
+  <mmShareholderAge4Vote2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age2.png">
+  </mmShareholderAge4Vote2>
+  <mmShareholderAge1Vote1 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age1.png">
+  </mmShareholderAge1Vote1>
+  <mmShareholderAge2Vote1 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age1.png">
+  </mmShareholderAge2Vote1>
+  <mmShareholderAge3Vote1 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age1.png">
+  </mmShareholderAge3Vote1>
+  <mmShareholderAge4Vote1 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/voc_age1.png">
+  </mmShareholderAge4Vote1>
+  <mmBurgomasterLubeck portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_lubeck.png" hccardtech1="mmHCFedLubeckTradingPost" hccardtech2="mmHCFedLubeckSplitCost">
+  </mmBurgomasterLubeck>
+  <mmBurgomasterCologne portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_сologne.png" hccardtech1="mmHCMercsLandsknechtHansa" hccardtech2="mmHCFedCologneExchange">
+  </mmBurgomasterCologne>
+  <mmBurgomasterHamburg portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_hamburg.png" hccardtech1="mmHCFedHamburgCaravels" hccardtech2="HCFishMarket">
+  </mmBurgomasterHamburg>
+  <mmBurgomasterRostock portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_rostock.png" hccardtech1="mmHCFedRostockShipyard" hccardtech2="mmHCFedRostockCannons">
+  </mmBurgomasterRostock>
+  <mmBurgomasterBremen portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_riga.png" hccardtech1="DEHCIturbidePalace" hccardtech2="mmHCShipBarrackHouse">
+  </mmBurgomasterBremen>
+  <mmBurgomasterDanzig portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_danzig.png" hccardtech1="mmHCFedDanzigFluyt" hccardtech2="mmHCFedDanzigCaravel">
+  </mmBurgomasterDanzig>
+  <mmBurgomasterMagdeburg portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_magdeburg.png" hccardtech1="mmHCFedMagdeburgArtillery" hccardtech2="mmHCFedMagdeburgArmory">
+  </mmBurgomasterMagdeburg>
+  <mmBurgomasterBraunschweig portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_braunschweig.png" hccardtech1="mmHCFedBraunschweigCost" hccardtech2="mmHCFedBraunschweigBrunswicker">
+  </mmBurgomasterBraunschweig>
+  <mmBurgomasterGdansk portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_gdansk.png" hccardtech1="mmHCFedGdanskHorse" hccardtech2="mmHCFedGdanskFoodcost">
+  </mmBurgomasterGdansk>
+  <mmBurgomasterAugsburg portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_augsburg.png" hccardtech1="mmHCFedAugsburgLandsknecht" hccardtech2="mmHCFedAugsburgMercenary">
+  </mmBurgomasterAugsburg>
+  <mmBurgomasterAmsterdam portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_amsterdam.png" hccardtech1="mmHCFedAmsterdamMills" hccardtech2="mmHCFedAmsterdamBank">
+  </mmBurgomasterAmsterdam>
+  <mmBurgomasterLeipzig portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_Leipzig.png" hccardtech1="mmHCFedLeipzigLOS" hccardtech2="mmHCFedLeipzigChancery">
+  </mmBurgomasterLeipzig>
+  <mmBurgomasterKonigsberg portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_Konigsberg.png" hccardtech1="mmHCFedKonigsbergHandMortar" hccardtech2="mmHCFedKonigsbergPigs">
+  </mmBurgomasterKonigsberg>
+  <mmBurgomasterMunster portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_Munster.png" hccardtech1="mmHCFedMunsterMobilization" hccardtech2="mmHCFedMunsterChancery">
+  </mmBurgomasterMunster>
+  <mmBurgomasterHalle portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_Halle.png" hccardtech1="HCShipCannonsRepeat" hccardtech2="DEHCCaseShot">
+  </mmBurgomasterHalle>
+  <mmBurgomasterHighLubeck portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_lubeck.png" hccardtech1="mmHCFedOnlyteamTactic" hccardtech2="mmHCFedLubeckFriendship">
+  </mmBurgomasterHighLubeck>
+  <mmBurgomasterHighHamburg portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_hamburg.png" hccardtech1="DEHCREVShipPrivateers" hccardtech2="mmHCFedHighHamburgBattleship">
+  </mmBurgomasterHighHamburg>
+  <mmBurgomasterHighDanzig portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_danzig.png" hccardtech1="mmHCFedHighDanzigBattleship" hccardtech2="mmHCFedHighDanzigDelivery">
+  </mmBurgomasterHighDanzig>
+  <mmBurgomasterHighBruges portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_Bruge.png" hccardtech1="mmHCFedHighBrugesContracts" hccardtech2="mmHCFedHighBrugesMercs">
+  </mmBurgomasterHighBruges>
+  <mmBurgomasterHighCologne portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/burgomaster_сologne.png" hccardtech1="mmHCFedHighCologneMercs" hccardtech2="mmHCFedHighBrugesTP">
+  </mmBurgomasterHighCologne>
+  <mmKNGOvimbundu2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_akan.png" unlocktech1="mmKNGOvimbunduUnlock1" unlocktech2="mmKNGOvimbunduUnlock2" unlocktech3="-1">
+  </mmKNGOvimbundu2>
+  <mmKNGOvimbundu3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_akan.png" unlocktech1="mmKNGOvimbunduUnlock1" unlocktech2="mmKNGOvimbunduUnlock2" unlocktech3="-1">
+  </mmKNGOvimbundu3>
+  <mmKNGOvimbundu4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_akan.png" unlocktech1="mmKNGOvimbunduUnlock1" unlocktech2="mmKNGOvimbunduUnlock2" unlocktech3="-1">
+  </mmKNGOvimbundu4>
+  <mmKNGOvimbundu5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_akan.png" unlocktech1="mmKNGOvimbunduUnlock1" unlocktech2="mmKNGOvimbunduUnlock2" unlocktech3="-1">
+  </mmKNGOvimbundu5>
+  <mmKNGLunda2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_hausa.png" unlocktech1="mmKNGLundaUnlock1" unlocktech2="mmKNGLundaUnlock2" unlocktech3="-1">
+  </mmKNGLunda2>
+  <mmKNGLunda3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_hausa.png" unlocktech1="mmKNGLundaUnlock1" unlocktech2="mmKNGLundaUnlock2" unlocktech3="-1">
+  </mmKNGLunda3>
+  <mmKNGLunda4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_hausa.png" unlocktech1="mmKNGLundaUnlock1" unlocktech2="mmKNGLundaUnlock2" unlocktech3="-1">
+  </mmKNGLunda4>
+  <mmKNGLunda5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_hausa.png" unlocktech1="mmKNGLundaUnlock1" unlocktech2="mmKNGLundaUnlock2" unlocktech3="-1">
+  </mmKNGLunda5>
+  <mmKNGSongye2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_somali.png" unlocktech1="mmKNGSongyeUnlock1" unlocktech2="mmKNGSongyeUnlock2" unlocktech3="-1">
+  </mmKNGSongye2>
+  <mmKNGSongye3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_somali.png" unlocktech1="mmKNGSongyeUnlock1" unlocktech2="mmKNGSongyeUnlock2" unlocktech3="-1">
+  </mmKNGSongye3>
+  <mmKNGSongye4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_somali.png" unlocktech1="mmKNGSongyeUnlock1" unlocktech2="mmKNGSongyeUnlock2" unlocktech3="-1">
+  </mmKNGSongye4>
+  <mmKNGSongye5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_somali.png" unlocktech1="mmKNGSongyeUnlock1" unlocktech2="mmKNGSongyeUnlock2" unlocktech3="-1">
+  </mmKNGSongye5>
+  <mmKNGYaka2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_habesha.png" unlocktech1="mmKNGYakaUnlock1" unlocktech2="mmKNGYakaUnlock2" unlocktech3="-1">
+  </mmKNGYaka2>
+  <mmKNGYaka3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_habesha.png" unlocktech1="mmKNGYakaUnlock1" unlocktech2="mmKNGYakaUnlock2" unlocktech3="-1">
+  </mmKNGYaka3>
+  <mmKNGYaka4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_habesha.png" unlocktech1="mmKNGYakaUnlock1" unlocktech2="mmKNGYakaUnlock2" unlocktech3="-1">
+  </mmKNGYaka4>
+  <mmKNGYaka5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_habesha.png" unlocktech1="mmKNGYakaUnlock1" unlocktech2="mmKNGYakaUnlock2" unlocktech3="-1">
+  </mmKNGYaka5>
+  <mmKNGFulani3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_fulani.png" unlocktech1="mmKNGFulaniUnlock1" unlocktech2="mmKNGFulaniUnlock2" unlocktech3="-1">
+  </mmKNGFulani3>
+  <mmKNGFulani4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_fulani.png" unlocktech1="mmKNGFulaniUnlock1" unlocktech2="mmKNGFulaniUnlock2" unlocktech3="-1">
+  </mmKNGFulani4>
+  <mmKNGFulani5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_fulani.png" unlocktech1="mmKNGFulaniUnlock1" unlocktech2="mmKNGFulaniUnlock2" unlocktech3="-1">
+  </mmKNGFulani5>
+  <mmKNGYoruba4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_yoruba.png" unlocktech1="DEAllegianceYorubaUnlock1" unlocktech2="DEAllegianceYorubaUnlock2" unlocktech3="-1">
+  </mmKNGYoruba4>
+  <mmKNGYoruba5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_yoruba.png" unlocktech1="DEAllegianceYorubaUnlock1" unlocktech2="DEAllegianceYorubaUnlock2" unlocktech3="-1">
+  </mmKNGYoruba5>
+  <mmKNGKongo5 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_moroccan.png" unlocktech1="mmKNGKongoUnlock1" unlocktech2="mmKNGKongoUnlock2" unlocktech3="-1">
+  </mmKNGKongo5>
+  <MMRevolutionFrenchKongo portraitfilename="ui\ingame\politicians\consulate_french" portraitfilenamewpf="resources/images/icons/politicians/consulate_french.png">
+  </MMRevolutionFrenchKongo>
+  <mmSeasonAutoSettlers2 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Tatars" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_royal.png">
+  </mmSeasonAutoSettlers2>
+  <mmSeasonAutoSettlers3 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Tatars" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_royal.png">
+  </mmSeasonAutoSettlers3>
+  <mmSeasonAutoSettlers4 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Tatars" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_royal.png">
+  </mmSeasonAutoSettlers4>
+  <mmSeasonAutoSettlers5 portraitfilename="ui\ingame\politicians\politician_IR_chief" nativeciv="Tatars" techslot="3" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_royal.png">
+  </mmSeasonAutoSettlers5>
+  <mmSeasonTrainSpeed2 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Tatars" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_2.png">
+  </mmSeasonTrainSpeed2>
+  <mmSeasonTrainSpeed3 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Tatars" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_2.png">
+  </mmSeasonTrainSpeed3>
+  <mmSeasonTrainSpeed4 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Tatars" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_2.png">
+  </mmSeasonTrainSpeed4>
+  <mmSeasonTrainSpeed5 portraitfilename="ui\ingame\politicians\politician_IR_shaman" nativeciv="Tatars" techslot="1" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_2.png">
+  </mmSeasonTrainSpeed5>
+  <mmSeasonWoodSiege2 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Tatars" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_3.png">
+  </mmSeasonWoodSiege2>
+  <mmSeasonWoodSiege3 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Tatars" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_3.png">
+  </mmSeasonWoodSiege3>
+  <mmSeasonWoodSiege4 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Tatars" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_3.png">
+  </mmSeasonWoodSiege4>
+  <mmSeasonWoodSiege5 portraitfilename="ui\ingame\politicians\politician_IR_wisewoman" nativeciv="Tatars" techslot="4" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_3.png">
+  </mmSeasonWoodSiege5>
+  <mmSeasonFood2 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Tatars" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_settler.png">
+  </mmSeasonFood2>
+  <mmSeasonFood3 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Tatars" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_settler.png">
+  </mmSeasonFood3>
+  <mmSeasonFood4 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Tatars" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_settler.png">
+  </mmSeasonFood4>
+  <mmSeasonFood5 portraitfilename="ui\ingame\politicians\politician_IR_warleader" nativeciv="Tatars" techslot="0" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_settler.png">
+  </mmSeasonFood5>
+  <mmSeasonSettlerCost2 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Tatars" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_tengri.png">
+  </mmSeasonSettlerCost2>
+  <mmSeasonSettlerCost3 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Tatars" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_tengri.png">
+  </mmSeasonSettlerCost3>
+  <mmSeasonSettlerCost4 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Tatars" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_tengri.png">
+  </mmSeasonSettlerCost4>
+  <mmSeasonSettlerCost5 portraitfilename="ui\ingame\politicians\politician_IR_messenger" nativeciv="Tatars" techslot="2" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_tengri.png">
+  </mmSeasonSettlerCost5>
+  <mmClanGordon1 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_Gordon.png" hccardtech1="mmUnlockMusketeerCastle" hccardtech2="mmUnlockGordon" hccardtech3="mmUnlockMusketeerCastle">
+  </mmClanGordon1>
+  <mmClanGordon2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_Gordon.png" hccardtech1="mmUnlockMusketeerCastle" hccardtech2="mmUnlockGordon" hccardtech3="mmUnlockMusketeerCastle">
+  </mmClanGordon2>
+  <mmClanGordon3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_Gordon.png" hccardtech1="mmUnlockMusketeerCastle" hccardtech2="mmUnlockGordon" hccardtech3="mmUnlockMusketeerCastle">
+  </mmClanGordon3>
+  <mmClanGordon4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_Gordon.png" hccardtech1="mmUnlockMusketeerCastle" hccardtech2="mmUnlockGordon" hccardtech3="mmUnlockMusketeerCastle">
+  </mmClanGordon4>
+  <mmClanMacDonald1 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_MacDonald.png" hccardtech1="mmUnlockPikemanCastle" hccardtech2="mmUnlockMacDonal" hccardtech3="mmUnlockPikemanCastle">
+  </mmClanMacDonald1>
+  <mmClanMacDonald2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_MacDonald.png" hccardtech1="mmUnlockPikemanCastle" hccardtech2="mmUnlockMacDonal" hccardtech3="mmUnlockPikemanCastle">
+  </mmClanMacDonald2>
+  <mmClanMacDonald3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_MacDonald.png" hccardtech1="mmUnlockPikemanCastle" hccardtech2="mmUnlockMacDonal" hccardtech3="mmUnlockPikemanCastle">
+  </mmClanMacDonald3>
+  <mmClanMacDonald4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_MacDonald.png" hccardtech1="mmUnlockPikemanCastle" hccardtech2="mmUnlockMacDonal" hccardtech3="mmUnlockPikemanCastle">
+  </mmClanMacDonald4>
+  <mmClanMacLeod1 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_MacLeod.png" hccardtech1="mmUnlockRundashiriCastle" hccardtech2="mmUnlockMacLeod" hccardtech3="mmUnlockRundashiriCastle">
+  </mmClanMacLeod1>
+  <mmClanMacLeod2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_MacLeod.png" hccardtech1="mmUnlockRundashiriCastle" hccardtech2="mmUnlockMacLeod" hccardtech3="mmUnlockRundashiriCastle">
+  </mmClanMacLeod2>
+  <mmClanMacLeod3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_MacLeod.png" hccardtech1="mmUnlockRundashiriCastle" hccardtech2="mmUnlockMacLeod" hccardtech3="mmUnlockRundashiriCastle">
+  </mmClanMacLeod3>
+  <mmClanMacLeod4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_MacLeod.png" hccardtech1="mmUnlockRundashiriCastle" hccardtech2="mmUnlockMacLeod" hccardtech3="mmUnlockRundashiriCastle">
+  </mmClanMacLeod4>
+  <mmClanMacPherson1 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_macpherson.png" hccardtech1="mmUnlockHalberdierCastle" hccardtech2="mmUnlockMacPherson" hccardtech3="mmUnlockHalberdierCastle">
+  </mmClanMacPherson1>
+  <mmClanMacPherson2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_macpherson.png" hccardtech1="mmUnlockHalberdierCastle" hccardtech2="mmUnlockMacPherson" hccardtech3="mmUnlockHalberdierCastle">
+  </mmClanMacPherson2>
+  <mmClanMacPherson3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_macpherson.png" hccardtech1="mmUnlockHalberdierCastle" hccardtech2="mmUnlockMacPherson" hccardtech3="mmUnlockHalberdierCastle">
+  </mmClanMacPherson3>
+  <mmClanMacPherson4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_macpherson.png" hccardtech1="mmUnlockHalberdierCastle" hccardtech2="mmUnlockMacPherson" hccardtech3="mmUnlockHalberdierCastle">
+  </mmClanMacPherson4>
+  <mmClanMacCoinnich1 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_mackenzie.png" hccardtech1="mmUnlockSkirmisherCastle" hccardtech2="mmUnlockMacCoinnich" hccardtech3="mmUnlockSkirmisherCastle">
+  </mmClanMacCoinnich1>
+  <mmClanMacCoinnich2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_mackenzie.png" hccardtech1="mmUnlockSkirmisherCastle" hccardtech2="mmUnlockMacCoinnich" hccardtech3="mmUnlockSkirmisherCastle">
+  </mmClanMacCoinnich2>
+  <mmClanMacCoinnich3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_mackenzie.png" hccardtech1="mmUnlockSkirmisherCastle" hccardtech2="mmUnlockMacCoinnich" hccardtech3="mmUnlockSkirmisherCastle">
+  </mmClanMacCoinnich3>
+  <mmClanMacCoinnich4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_mackenzie.png" hccardtech1="mmUnlockSkirmisherCastle" hccardtech2="mmUnlockMacCoinnich" hccardtech0="mmUnlockSkirmisherCastle">
+  </mmClanMacCoinnich4>
+  <mmClanDouglas2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_Douglas.png" hccardtech1="mmUnlockHussarCastle" hccardtech2="mmUnlockDouglas" hccardtech3="mmUnlockHussarCastle">
+  </mmClanDouglas2>
+  <mmClanDouglas3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_Douglas.png" hccardtech1="mmUnlockHussarCastle" hccardtech2="mmUnlockDouglas" hccardtech3="mmUnlockHussarCastle">
+  </mmClanDouglas3>
+  <mmClanDouglas4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_Douglas.png" hccardtech1="mmUnlockHussarCastle" hccardtech2="mmUnlockDouglas" hccardtech3="mmUnlockHussarCastle">
+  </mmClanDouglas4>
+  <mmClanCampbell3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_Campbell.png" hccardtech1="mmUnlockDragoonCastle" hccardtech2="mmUnlocknCampbell" hccardtech3="mmUnlockDragoonCastle">
+  </mmClanCampbell3>
+  <mmClanCampbell4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_Campbell.png" hccardtech1="mmUnlockDragoonCastle" hccardtech2="mmUnlocknCampbell" hccardtech3="mmUnlockDragoonCastle">
+  </mmClanCampbell4>
+  <mmClanStuart4 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/scottish_Stuart.png" hccardtech1="mmUnlockCuirassierCastle" hccardtech2="mmUnlocknStuart" hccardtech3="mmUnlockCuirassierCastle">
+  </mmClanStuart4>
+  <mmDogeVilla4 portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </mmDogeVilla4>
+  <mmDogeVilla3 portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png">
+  </mmDogeVilla3>
+  <mmDogeVilla2 portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png">
+  </mmDogeVilla2>
+  <mmDogeVilla1 portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png">
+  </mmDogeVilla1>
+  <mmDogeMilitary4 portraitfilename="ui\ingame\politicians\politician_general" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </mmDogeMilitary4>
+  <mmDogeMilitary3 portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </mmDogeMilitary3>
+  <mmDogeMilitary2 portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </mmDogeMilitary2>
+  <mmDogeMilitary1 portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </mmDogeMilitary1>
+  <mmDogeMercenary1 portraitfilename="ui\ingame\politicians\politician_mercenary_contractor" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png" unlocktech1="mmNorthCheaperInfantry" unlocktech2="mmNorthMercs" unlocktech3="-1">
+  </mmDogeMercenary1>
+  <mmDogeMercenary2 portraitfilename="ui\ingame\politicians\politician_mercenary_contractor" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png" unlocktech1="mmNorthCheaperInfantry" unlocktech2="mmNorthMercs" unlocktech3="-1">
+  </mmDogeMercenary2>
+  <mmDogeMercenary3 portraitfilename="ui\ingame\politicians\politician_mercenary_contractor" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png" unlocktech1="mmNorthCheaperInfantry" unlocktech2="mmNorthMercs" unlocktech3="-1">
+  </mmDogeMercenary3>
+  <mmDogeMercenary4 portraitfilename="ui\ingame\politicians\politician_mercenary_contractor" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png" unlocktech1="mmNorthCheaperInfantry" unlocktech2="mmNorthMercs" unlocktech3="-1">
+  </mmDogeMercenary4>
+  <mmDogeEconomic1 portraitfilename="ui\ingame\politicians\politician_governor" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </mmDogeEconomic1>
+  <mmDogeEconomic2 portraitfilename="ui\ingame\politicians\politician_governor" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </mmDogeEconomic2>
+  <mmDogeEconomic3 portraitfilename="ui\ingame\politicians\politician_governor" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </mmDogeEconomic3>
+  <mmDogeEconomic4 portraitfilename="ui\ingame\politicians\politician_governor" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </mmDogeEconomic4>
+  <mmDogeNaval1 portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_gentlemen_pirate.png">
+  </mmDogeNaval1>
+  <mmDogeNaval2 portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_gentlemen_pirate.png">
+  </mmDogeNaval2>
+  <mmDogeNaval3 portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_gentlemen_pirate.png">
+  </mmDogeNaval3>
+  <mmDogeNaval4 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/politician_admiral.png">
+  </mmDogeNaval4>
+  <mmNorthMerc5 portraitfilename="ui\ingame\politicians\politician_mercenary_contractor" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png" unlocktech1="mmNorthCheaperInfantry" unlocktech2="mmNorthMercs" unlocktech3="-1">
+  </mmNorthMerc5>
+  <mmNorthAdventurer5 portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_adventurer.png" unlocktech1="mmNorthMines" unlocktech2="mmNorthFilibusters" unlocktech3="-1">
+  </mmNorthAdventurer5>
+  <mmNorthAdventurer4 portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_adventurer.png" unlocktech1="mmNorthMines" unlocktech2="mmNorthFilibusters" unlocktech3="-1">
+  </mmNorthAdventurer4>
+  <mmNorthNaturalist5 portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png" unlocktech1="mmNorthFasterTrees" unlocktech2="mmNorthHitpoints" unlocktech3="-1">
+  </mmNorthNaturalist5>
+  <mmNorthNaturalist4 portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png" unlocktech1="mmNorthFasterTrees" unlocktech2="mmNorthHitpoints" unlocktech3="-1">
+  </mmNorthNaturalist4>
+  <mmNorthNaturalist3 portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png" unlocktech1="mmNorthFasterTrees" unlocktech2="mmNorthHitpoints" unlocktech3="-1">
+  </mmNorthNaturalist3>
+  <mmNorthCavalier2 portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png" unlocktech1="mmNorthHussars" unlocktech2="mmNorthCheaperCavalry" unlocktech3="-1">
+  </mmNorthCavalier2>
+  <mmNorthCavalier3 portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png" unlocktech1="mmNorthHussars" unlocktech2="mmNorthCheaperCavalry" unlocktech3="-1">
+  </mmNorthCavalier3>
+  <mmNorthCavalier4 portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png" unlocktech1="mmNorthHussars" unlocktech2="mmNorthCheaperCavalry" unlocktech3="-1">
+  </mmNorthCavalier4>
+  <mmNorthCavalier5 portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png" unlocktech1="mmNorthHussars" unlocktech2="mmNorthCheaperCavalry" unlocktech3="-1">
+  </mmNorthCavalier5>
+  <mmNorthQuartermaster5 portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png" unlocktech1="mmNorthCheaperFarms" unlocktech2="mmNorthGatherBuilding" unlocktech3="-1">
+  </mmNorthQuartermaster5>
+  <mmNorthQuartermaster4 portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png" unlocktech1="mmNorthCheaperFarms" unlocktech2="mmNorthGatherBuilding" unlocktech3="-1">
+  </mmNorthQuartermaster4>
+  <mmNorthQuartermaster3 portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png" unlocktech1="mmNorthCheaperFarms" unlocktech2="mmNorthGatherBuilding" unlocktech3="-1">
+  </mmNorthQuartermaster3>
+  <mmNorthQuartermaster2 portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png" unlocktech1="mmNorthCheaperFarms" unlocktech2="mmNorthGatherBuilding" unlocktech3="-1">
+  </mmNorthQuartermaster2>
+  <mmNorthBishop2 portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png" unlocktech1="mmNorthAdvancedChurch" unlocktech2="mmNorthCheaperSettlers" unlocktech3="-1">
+  </mmNorthBishop2>
+  <mmNorthBishop3 portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png" unlocktech1="mmNorthAdvancedChurch" unlocktech2="mmNorthCheaperSettlers" unlocktech3="-1">
+  </mmNorthBishop3>
+  <mmNorthBishop4 portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png" unlocktech1="mmNorthAdvancedChurch" unlocktech2="mmNorthCheaperSettlers" unlocktech3="-1">
+  </mmNorthBishop4>
+  <mmNorthBishop5 portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png" unlocktech1="mmNorthAdvancedChurch" unlocktech2="mmNorthCheaperSettlers" unlocktech3="-1">
+  </mmNorthBishop5>
+  <mmNorthScout2 portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png" unlocktech1="mmNorthLOS" unlocktech2="mmNorthCheaperBarracks" unlocktech3="-1">
+  </mmNorthScout2>
+  <mmNorthScout3 portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png" unlocktech1="mmNorthLOS" unlocktech2="mmNorthCheaperBarracks" unlocktech3="-1">
+  </mmNorthScout3>
+  <mmNorthScout4 portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png" unlocktech1="mmNorthLOS" unlocktech2="mmNorthCheaperBarracks" unlocktech3="-1">
+  </mmNorthScout4>
+  <mmNorthScout5 portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png" unlocktech1="mmNorthLOS" unlocktech2="mmNorthCheaperBarracks" unlocktech3="-1">
+  </mmNorthScout5>
+  <mmNorthViceroy2 portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png" unlocktech1="mmNorthFasterSettler" unlocktech2="mmNorthImmigrants" unlocktech3="-1">
+  </mmNorthViceroy2>
+  <mmNorthViceroy3 portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png" unlocktech1="mmNorthFasterSettler" unlocktech2="mmNorthImmigrants" unlocktech3="-1">
+  </mmNorthViceroy3>
+  <mmNorthViceroy4 portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png" unlocktech1="mmNorthFasterSettler" unlocktech2="mmNorthImmigrants" unlocktech3="-1">
+  </mmNorthViceroy4>
+  <mmNorthViceroy5 portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png" unlocktech1="mmNorthFasterSettler" unlocktech2="mmNorthImmigrants" unlocktech3="-1">
+  </mmNorthViceroy5>
+  <mmPoliticianInventorColonialItalian portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_inventor.png" unlocktech1="mmHCPostImperitalsFinnish" unlocktech2="-1" unlocktech3="-1">
+  </mmPoliticianInventorColonialItalian>
+  <mmPoliticianNativeWarriorLimit portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_black_duke.png">
+  </mmPoliticianNativeWarriorLimit>
+  <mmDEPoliticianTeutonKnight portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_morgan_black.png">
+  </mmDEPoliticianTeutonKnight>
+  <mmPoliticianSergeant portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </mmPoliticianSergeant>
+  <mmPoliticianPrinceShip portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_philosopher_prince.png">
+  </mmPoliticianPrinceShip>
+  <mmPoliticianQuarterPrussian4 portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png">
+  </mmPoliticianQuarterPrussian4>
+  <mmPoliticianQuarterPrussian3 portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png">
+  </mmPoliticianQuarterPrussian3>
+  <mmPoliticianQuarterPrussian2 portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png">
+  </mmPoliticianQuarterPrussian2>
+  <mmPoliticianMercContractorPrussian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </mmPoliticianMercContractorPrussian>
+  <mmPoliticianPrussianWood portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </mmPoliticianPrussianWood>
+  <mmPoliticianPrussianPig portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </mmPoliticianPrussianPig>
+  <mmPoliticianPrussianSettler portraitfilename="ui\ingame\politicians\politician_governor" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </mmPoliticianPrussianSettler>
+  <mmPoliticianMusketeerBelgian portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </mmPoliticianMusketeerBelgian>
+  <mmPoliticianLogisticianBelgian portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </mmPoliticianLogisticianBelgian>
+  <mmPoliticianMilitaryIt portraitfilename="ui\ingame\politicians\politician_governor" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </mmPoliticianMilitaryIt>
+  <mmPoliticianLombardIt portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_medici.png">
+  </mmPoliticianLombardIt>
+  <mmPoliticianSettlerIt portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_philosopher_prince.png">
+  </mmPoliticianSettlerIt>
+  <mmPoliticianOutpostIt portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </mmPoliticianOutpostIt>
+    <!--
+  <mmPoliticianAdventurerAU portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_adventurer.png">
+  </mmPoliticianAdventurerAU>
+  <mmPoliticianOverfieldAU portraitfilename="ui\ingame\politicians\politician_governor" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </mmPoliticianOverfieldAU>
+  <mmPoliticianMercContractorAU4 portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </mmPoliticianMercContractorAU4>
+  <mmPoliticianMercContractorAU3 portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </mmPoliticianMercContractorAU3>
+  <mmPoliticianMercContractorAU2 portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </mmPoliticianMercContractorAU2>
+  <mmPoliticianMercContractorAU1 portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </mmPoliticianMercContractorAU1>
+    -->
+  <mmReturnAustrianAge3 portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/Habsburg.png">
+  </mmReturnAustrianAge3>
+  <mmReturnHungaryAge3 portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/Habsburg.png">
+  </mmReturnHungaryAge3>
+  <mmReturnAustrianAge2 portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/Habsburg.png">
+  </mmReturnAustrianAge2>
+  <mmReturnHungaryAge2 portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/Habsburg.png">
+  </mmReturnHungaryAge2>
+  <mmRevolutionSubAuAushun portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/AusHun.png">
+  </mmRevolutionSubAuAushun>
+  <mmRevolutionSubHuAushun portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/AusHun.png">
+  </mmRevolutionSubHuAushun>
+  <mmRevolutionSubAushun portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/AusHun.png">
+  </mmRevolutionSubAushun>
+  <mmRevolutionAushun portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/AusHun.png">
+  </mmRevolutionAushun>
+  <mmRevolutionAustriaAge2 portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/Austria.png">
+  </mmRevolutionAustriaAge2>
+  <mmRevolutionAustriaAge3 portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/Austria.png">
+  </mmRevolutionAustriaAge3>
+  <mmRevolutionHungaryAge2 portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_hungarians.png">
+  </mmRevolutionHungaryAge2>
+  <mmRevolutionHungaryAge3 portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_hungarians.png">
+  </mmRevolutionHungaryAge3>
+  <mmPoliticianAge4Bashkir portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_manchukuo.png">
+  </mmPoliticianAge4Bashkir>
+  <mmPoliticianAge3Bashkir portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_manchukuo.png">
+  </mmPoliticianAge3Bashkir>
+  <mmPoliticianAge4Manchu portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_manchukuo.png">
+  </mmPoliticianAge4Manchu>
+  <mmPoliticianAge4IronTroop portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_manchukuo.png">
+  </mmPoliticianAge4IronTroop>
+  <mmPoliticianAge2Horse portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_2.png">
+  </mmPoliticianAge2Horse>
+  <mmPoliticianAge2Settler portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_settler.png">
+  </mmPoliticianAge2Settler>
+  <mmPoliticianAge2Keshik portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_5.png">
+  </mmPoliticianAge2Keshik>
+  <mmPoliticianAge2SteppeRider portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_4.png">
+  </mmPoliticianAge2SteppeRider>
+  <mmPoliticianAge2SteppeLancer portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_3.png">
+  </mmPoliticianAge2SteppeLancer>
+  <mmPoliticianAge3MangudaiLimit portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_5.png">
+  </mmPoliticianAge3MangudaiLimit>
+  <mmPoliticianAge3Boat portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_1.png">
+  </mmPoliticianAge3Boat>
+  <mmPoliticianAge3Cavarcher portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_2.png">
+  </mmPoliticianAge3Cavarcher>
+  <mmPoliticianAge3IronFlail portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_3.png">
+  </mmPoliticianAge3IronFlail>
+  <mmPoliticianAge3MeteorHammer portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_4.png">
+  </mmPoliticianAge3MeteorHammer>
+  <mmPoliticianAge4HeavyBowCavalry portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_4.png">
+  </mmPoliticianAge4HeavyBowCavalry>
+  <mmPoliticianAge4Mangudai portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_3.png">
+  </mmPoliticianAge4Mangudai>
+  <mmPoliticianAge4SiegeRaider portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_tatar_5.png">
+  </mmPoliticianAge4SiegeRaider>
+  <mmPoliticianAge5Economic portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_5.png">
+  </mmPoliticianAge5Economic>
+  <mmPoliticianAge5ExtraCap portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_manchukuo.png">
+  </mmPoliticianAge5ExtraCap>
+  <mmPoliticianAge5Merc portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_1.png">
+  </mmPoliticianAge5Merc>
+  <mmPoliticianAge5Native portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_2.png">
+  </mmPoliticianAge5Native>
+  <mmPoliticianAge5Naval portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_4.png">
+  </mmPoliticianAge5Naval>
+  <mmPoliticianBosnia2 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/Bosnia.png" hccardtech1="mmFedBalkanPalace" hccardtech2="mmShipFedBosniaMusket">
+  </mmPoliticianBosnia2>
+  <mmPoliticianBosnia3 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/Bosnia.png" hccardtech1="mmFedBalkanPalace" hccardtech2="mmShipFedBosniaMusket">
+  </mmPoliticianBosnia3>
+  <mmPoliticianBosnia4 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/Bosnia.png" hccardtech1="mmFedBalkanPalace" hccardtech2="mmShipFedBosniaMusket">
+  </mmPoliticianBosnia4>
+  <mmPoliticianBosnia5 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/Bosnia.png" hccardtech1="mmFedBalkanPalace" hccardtech2="mmShipFedBosniaMusket">
+  </mmPoliticianBosnia5>
+  <mmPoliticianAlbania3 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/albania.png" hccardtech1="mmFedPromFalconet" hccardtech2="mmShipFedAbusGun">
+  </mmPoliticianAlbania3>
+  <mmPoliticianAlbania4 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/albania.png" hccardtech1="mmFedPromFalconet" hccardtech2="mmShipFedAbusGun">
+  </mmPoliticianAlbania4>
+  <mmPoliticianAlbania5 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/albania.png" hccardtech1="mmFedPromFalconet" hccardtech2="mmShipFedAbusGun">
+  </mmPoliticianAlbania5>
+  <mmPoliticianCroatia5 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/Croatia.png" hccardtech1="mmMercenaryBalkans" hccardtech2="mmShipFedMountedCounterJaeger">
+  </mmPoliticianCroatia5>
+  <mmbigconsulateMERCindia portraitfilename="ui\ingame\politicians\consulate_india" portraitfilenamewpf="resources/images/icons/politicians/consulate_india.png">
+  </mmbigconsulateMERCindia>
+  <mmbigconsulateMERCchina portraitfilename="ui\ingame\politicians\consulate_chinese" portraitfilenamewpf="resources/images/icons/politicians/consulate_chinese.png">
+  </mmbigconsulateMERCchina>
+  <mmBigCanadianLakota portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_canadian.png">
+  </mmBigCanadianLakota>
+  <mmBigCanadianIroquois portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_canadian.png">
+  </mmBigCanadianIroquois>
+  <mmBigCanadianBritish portraitfilename="ui\ingame\politicians\consulate_british" portraitfilenamewpf="resources/images/icons/politicians/consulate_british.png">
+  </mmBigCanadianBritish>
+  <mmBigCanadianFrench portraitfilename="ui\ingame\politicians\consulate_french" portraitfilenamewpf="resources/images/icons/politicians/consulate_french.png">
+  </mmBigCanadianFrench>
+  <mmBigCanadianUSA portraitfilename="ui\ingame\politicians\consulate_US" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_usa.png">
+  </mmBigCanadianUSA>
+  <mmCPBishop2 portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png">
+  </mmCPBishop2>
+  <mmCPNaturalist2 portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </mmCPNaturalist2>
+  <mmCPGovernor2 portraitfilename="ui\ingame\politicians\politician_governor" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png">
+  </mmCPGovernor2>
+  <mmCPScout2 portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </mmCPScout2>
+  <mmCPAdventurer3 portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_adventurer.png">
+  </mmCPAdventurer3>
+  <mmCPNaturalist3 portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </mmCPNaturalist3>
+  <mmCPCavalier3 portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </mmCPCavalier3>
+  <mmCPTycoon4 portraitfilename="ui\ingame\politicians\politician_tycoon" portraitfilenamewpf="resources/images/icons/politicians/politician_tycoon.png">
+  </mmCPTycoon4>
+  <mmCPMusketeer4 portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </mmCPMusketeer4>
+  <mmCPCavalier4 portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </mmCPCavalier4>
+  <mmCPStats5 portraitfilename="ui\ingame\politicians\politician_general" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </mmCPStats5>
+  <mmCPPresidente5 portraitfilename="ui\ingame\politicians\politician_el_presidente" portraitfilenamewpf="resources/images/icons/politicians/politician_el_presidente.png">
+  </mmCPPresidente5>
+  <mmCPCrates2 portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png">
+  </mmCPCrates2>
+  <mmCPCrates3 portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png">
+  </mmCPCrates3>
+  <mmCPCrates4 portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png">
+  </mmCPCrates4>
+  <mmCPCrates5 portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png">
+  </mmCPCrates5>
+  <mmBPScout portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </mmBPScout>
+  <mmBPEngineer portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_engineer.png">
+  </mmBPEngineer>
+  <mmPoliticianBishopBavarian portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png">
+  </mmPoliticianBishopBavarian>
+  <mmDEPoliticianRoyalistBelgian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </mmDEPoliticianRoyalistBelgian>
+  <MMFNa1TowerGold portraitfilename="ui\ingame\politicians\politician_governor" portraitfilenamewpf="resources/images/icons/politicians/politician_governor.png" unlocktech1="mmHCShipFoodCratesFinnish" unlocktech2="mmHCShipWoodCratesFinnish" unlocktech3="mmHCShipGoldCratesFinnish">
+  </MMFNa1TowerGold>
+  <MMFNa2CounterJ6 portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png" unlocktech1="DEHCREVTreeSpawn" unlocktech2="mmFedFinnishElk" unlocktech3="DEHCShipMineWagon3">
+  </MMFNa2CounterJ6>
+  <MMFNa2CounterD4 portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png" unlocktech1="DEHCREVTreeSpawn" unlocktech2="mmFedFinnishElk" unlocktech3="DEHCShipMineWagon3">
+  </MMFNa2CounterD4>
+  <MMFNa2CaravelWood portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/politician_admiral.png" unlocktech1="DEHCREVTreeSpawn" unlocktech2="mmFedFinnishElk" unlocktech3="DEHCShipMineWagon3">
+  </MMFNa2CaravelWood>
+  <MMFNa1Boats portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/politician_admiral.png" unlocktech1="mmHCShipFoodCratesFinnish" unlocktech2="mmHCShipWoodCratesFinnish" unlocktech3="mmHCShipGoldCratesFinnish">
+  </MMFNa1Boats>
+  <MMFNa2Fast portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_philosopher_prince.png" unlocktech1="DEHCREVTreeSpawn" unlocktech2="mmFedFinnishElk" unlocktech3="DEHCShipMineWagon3">
+  </MMFNa2Fast>
+  <MMFNa2Covered portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png" unlocktech1="DEHCREVTreeSpawn" unlocktech2="mmFedFinnishElk" unlocktech3="DEHCShipMineWagon3">
+  </MMFNa2Covered>
+  <MMFNa3FrigateMonitor portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/politician_admiral.png" unlocktech1="mHCFINHouseEstates" unlocktech2="-1" unlocktech3="-1">
+  </MMFNa3FrigateMonitor>
+  <MMFNa3Gold portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_tycoon.png" unlocktech1="mHCFINHouseEstates" unlocktech2="-1" unlocktech3="-1">
+  </MMFNa3Gold>
+  <MMFNa3CounterD7 portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png" unlocktech1="mHCFINHouseEstates" unlocktech2="-1" unlocktech3="-1">
+  </MMFNa3CounterD7>
+  <MMFNa3Falconet portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_engineer.png" unlocktech1="mHCFINHouseEstates" unlocktech2="-1" unlocktech3="-1">
+  </MMFNa3Falconet>
+  <MMFNa3Fort portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png" unlocktech1="mHCFINHouseEstates" unlocktech2="-1" unlocktech3="-1">
+  </MMFNa3Fort>
+  <MMFNa4Gold portraitfilename="ui\ingame\politicians\politician_el_presidente" portraitfilenamewpf="resources/images/icons/politicians/politician_el_presidente.png" unlocktech1="mmHCPostImperitalsFinnish" unlocktech2="-1" unlocktech3="-1">
+  </MMFNa4Gold>
+  <MMFNa4Cannon portraitfilename="ui\ingame\politicians\politician_general" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png" unlocktech1="-1" unlocktech2="mmHCPostImperitalsFinnish" unlocktech3="-1">
+  </MMFNa4Cannon>
+  <MMFNa4Merc portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png" unlocktech1="mmHCPostImperitalsFinnish" unlocktech2="-1" unlocktech3="-1">
+  </MMFNa4Merc>
+  <MMFNa4Oldenburg portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png" unlocktech1="mmHCPostImperitalsFinnish" unlocktech2="-1" unlocktech3="-1">
+  </MMFNa4Oldenburg>
+  <MMFNa4Ballon portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_inventor.png" unlocktech1="mmHCPostImperitalsFinnish" unlocktech2="-1" unlocktech3="-1">
+  </MMFNa4Ballon>
+  <MMFNa1Wood portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png" unlocktech1="mmHCShipFoodCratesFinnish" unlocktech2="mmHCShipWoodCratesFinnish" unlocktech3="mmHCShipGoldCratesFinnish">
+  </MMFNa1Wood>
+  <MMFNa1Block portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png" unlocktech1="mmHCShipFoodCratesFinnish" unlocktech2="mmHCShipWoodCratesFinnish" unlocktech3="mmHCShipGoldCratesFinnish">
+  </MMFNa1Block>
+  <MMFNa1Food portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_philosopher_prince.png" unlocktech1="mmHCShipFoodCratesFinnish" unlocktech2="mmHCShipWoodCratesFinnish" unlocktech3="mmHCShipGoldCratesFinnish">
+  </MMFNa1Food>
+  <mmPoliticianShipWagon portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_gentlemen_pirate.png">
+  </mmPoliticianShipWagon>
+  <mmPoliticianMarksman portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </mmPoliticianMarksman>
+  <mmPoliticianMercContractorSwissALT portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor_alt.png">
+  </mmPoliticianMercContractorSwissALT>
+  <mmPoliticianMercContractorSwiss portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </mmPoliticianMercContractorSwiss>
+  <mmPoliticianShip portraitfilename="ui\ingame\politicians\politician_exiled_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_exiled_prince.png">
+  </mmPoliticianShip>
+  <mmPoliticianArcher portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_inventor.png">
+  </mmPoliticianArcher>
+  <mmPoliticianHorse portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </mmPoliticianHorse>
+  <mmPoliticianSkirmisher portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </mmPoliticianSkirmisher>
+  <mmPoliticianDragoon portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </mmPoliticianDragoon>
+  <mmPoliticianNativeWarrior portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_morgan_black.png">
+  </mmPoliticianNativeWarrior>
+  <mmPoliticianExtraCap portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </mmPoliticianExtraCap>
+  <mmdepoliticianmerccontractor portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </mmdepoliticianmerccontractor>
+  <mmdepoliticianinventor portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_inventor.png">
+  </mmdepoliticianinventor>
+  <mmPoliticianWoodFood1 portraitfilename="ui\ingame\politicians\politician_tycoon" portraitfilenamewpf="resources/images/icons/politicians/politician_tycoon.png">
+  </mmPoliticianWoodFood1>
+  <mmPoliticianWoodFood2 portraitfilename="ui\ingame\politicians\politician_tycoon" portraitfilenamewpf="resources/images/icons/politicians/politician_tycoon.png">
+  </mmPoliticianWoodFood2>
+  <mmPoliticianslovenian2 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/slovenian.png" hccardtech1="mmFedBlockhouse" hccardtech2="mmShipFedSkirmisher">
+  </mmPoliticianslovenian2>
+  <mmPoliticianslovenian3 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/slovenian.png" hccardtech1="mmFedBlockhouse" hccardtech2="mmShipFedSkirmisher">
+  </mmPoliticianslovenian3>
+  <mmPoliticianslovenian4 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/slovenian.png" hccardtech1="mmFedBlockhouse" hccardtech2="mmShipFedSkirmisher">
+  </mmPoliticianslovenian4>
+  <mmPoliticianslovenian5 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/slovenian.png" hccardtech1="mmFedBlockhouse" hccardtech2="mmShipFedSkirmisher">
+  </mmPoliticianslovenian5>
+  <mmPoliticianbulgarian2 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/bulgarian.png" hccardtech1="mmFedCavalryCost" hccardtech2="mmShipFedRosior">
+  </mmPoliticianbulgarian2>
+  <mmPoliticianbulgarian3 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/bulgarian.png" hccardtech1="mmFedCavalryCost" hccardtech2="mmShipFedRosior">
+  </mmPoliticianbulgarian3>
+  <mmPoliticianbulgarian4 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/bulgarian.png" hccardtech1="mmFedCavalryCost" hccardtech2="mmShipFedRosior">
+  </mmPoliticianbulgarian4>
+  <mmPoliticianbulgarian5 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/bulgarian.png" hccardtech1="mmFedCavalryCost" hccardtech2="mmShipFedRosior">
+  </mmPoliticianbulgarian5>
+  <mmPoliticianmontenegrin2 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/montenegrin.png" hccardtech1="DEHCLiberationMarch" hccardtech2="mmShipFedDorobant">
+  </mmPoliticianmontenegrin2>
+  <mmPoliticianmontenegrin3 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/montenegrin.png" hccardtech1="DEHCLiberationMarch" hccardtech2="mmShipFedDorobant">
+  </mmPoliticianmontenegrin3>
+  <mmPoliticianmontenegrin4 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/montenegrin.png" hccardtech1="DEHCLiberationMarch" hccardtech2="mmShipFedDorobant">
+  </mmPoliticianmontenegrin4>
+  <mmPoliticianmontenegrin5 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/montenegrin.png" hccardtech1="DEHCLiberationMarch" hccardtech2="mmShipFedDorobant">
+  </mmPoliticianmontenegrin5>
+  <mmPoliticianmacedonian2 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/macedonian.png" hccardtech1="mmHCHandMortarBalkans" hccardtech2="mmShipFedSwordsmen">
+  </mmPoliticianmacedonian2>
+  <mmPoliticianmacedonian3 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/macedonian.png" hccardtech1="mmHCHandMortarBalkans" hccardtech2="mmShipFedSwordsmen">
+  </mmPoliticianmacedonian3>
+  <mmPoliticianmacedonian4 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/macedonian.png" hccardtech1="mmHCHandMortarBalkans" hccardtech2="mmShipFedSwordsmen">
+  </mmPoliticianmacedonian4>
+  <mmPoliticianmacedonian5 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/macedonian.png" hccardtech1="mmHCHandMortarBalkans" hccardtech2="mmShipFedSwordsmen">
+  </mmPoliticianmacedonian5>
+  <mmPoliticianWallachia2 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/Wallachia.png" hccardtech1="HCAdvancedArsenal" hccardtech2="mmShipFedCavalryArcher">
+  </mmPoliticianWallachia2>
+  <mmPoliticianWallachia3 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/Wallachia.png" hccardtech1="HCAdvancedArsenal" hccardtech2="mmShipFedCavalryArcher">
+  </mmPoliticianWallachia3>
+  <mmPoliticianWallachia4 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/Wallachia.png" hccardtech1="HCAdvancedArsenal" hccardtech2="mmShipFedCavalryArcher">
+  </mmPoliticianWallachia4>
+  <mmPoliticianWallachia5 portraitfilename="ui\ingame\politicians\politician_admiral" portraitfilenamewpf="resources/images/icons/politicians/Wallachia.png" hccardtech1="HCAdvancedArsenal" hccardtech2="mmShipFedCavalryArcher">
+  </mmPoliticianWallachia5>
+  <mmPoliticianFoodSwiss portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </mmPoliticianFoodSwiss>
+  <mmPoliticianWoodSwiss portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png">
+  </mmPoliticianWoodSwiss>
+  <mmPoliticianHomesteadSwiss portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png">
+  </mmPoliticianHomesteadSwiss>
+  <mmPoliticianBishopCovered portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png">
+  </mmPoliticianBishopCovered>
+  <mmPoliticianHalberdierSwiss portraitfilename="ui\ingame\politicians\politician_knight" portraitfilenamewpf="resources/images/icons/politicians/politician_knight.png">
+  </mmPoliticianHalberdierSwiss>
+  <mmPoliticianCrossbowhorseSwiss portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </mmPoliticianCrossbowhorseSwiss>
+  <mmBigFinnishRussians portraitfilename="ui\ingame\politicians\consulate_russians" portraitfilenamewpf="resources/images/icons/politicians/consulate_russians.png">
+  </mmBigFinnishRussians>
+  <mmBigFinnishGermans portraitfilename="ui\ingame\politicians\consulate_germans" portraitfilenamewpf="resources/images/icons/politicians/consulate_germans.png">
+  </mmBigFinnishGermans>
+  <mmBigFinnishSweden portraitfilename="ui\ingame\politicians\consulate_germans" portraitfilenamewpf="resources/images/icons/politicians/Swedens.png">
+  </mmBigFinnishSweden>
+  <mmConsulateFinnishToRussian portraitfilename="ui\ingame\politicians\consulate_russians" portraitfilenamewpf="resources/images/icons/politicians/consulate_russians.png">
+  </mmConsulateFinnishToRussian>
+  <mmConsulateFinnishToGerman portraitfilename="ui\ingame\politicians\consulate_germans" portraitfilenamewpf="resources/images/icons/politicians/consulate_germans.png">
+  </mmConsulateFinnishToGerman>
+  <mmConsulateFinnishToSweden portraitfilename="ui\ingame\politicians\consulate_germans" portraitfilenamewpf="resources/images/icons/politicians/Swedens.png">
+  </mmConsulateFinnishToSweden>
+  <mmrevoltreturn portraitfilename="ui\ingame\politicians\consulate_spanish" portraitfilenamewpf="resources/images/icons/politicians/consulate_spanish.png">
+  </mmrevoltreturn>
+  <mmrevolutiongreeks portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources\images\icons\politicians\politician_rev_greeks.png">
+  </mmrevolutiongreeks>
+  <mmrevolutionbelgian portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources\images\icons\politicians\politician_rev_belgian.png">
+  </mmrevolutionbelgian>
+  <mmrevolutionmanchukuo portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_manchukuo.png">
+  </mmrevolutionmanchukuo>
+  <mmrevolutionireland portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_irish.png">
+  </mmrevolutionireland>
+  <mmRevolutionPrussia portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_prussians.png">
+  </mmRevolutionPrussia>
+  <mmPoliticianSpy portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </mmPoliticianSpy>
+  <mmBigConsulateUSA portraitfilename="ui\ingame\politicians\consulate_US" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_usa.png">
+  </mmBigConsulateUSA>
+      <!--
+  <mmPoliticianTeutonicTP1 portraitfilename="ui\ingame\politicians\politician_logistician" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </mmPoliticianTeutonicTP1>
+  <mmPoliticianTeutonicMV1 portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </mmPoliticianTeutonicMV1>
+  <mmPoliticianTeutonicHP1 portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_sergeant_arms.png">
+  </mmPoliticianTeutonicHP1>
+  <mmPoliticianTeutonicHD1 portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_papal_guard.png">
+  </mmPoliticianTeutonicHD1>
+  <mmPoliticianTeutonicRD1 portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </mmPoliticianTeutonicRD1>
+  <mmPoliticianTeutonicTP2 portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_engineer.png">
+  </mmPoliticianTeutonicTP2>
+  <mmPoliticianTeutonicMV2 portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </mmPoliticianTeutonicMV2>
+  <mmPoliticianTeutonicHP2 portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
+  </mmPoliticianTeutonicHP2>
+  <mmPoliticianTeutonicHD2 portraitfilename="ui\ingame\politicians\politician_knight" portraitfilenamewpf="resources/images/icons/politicians/politician_knight.png">
+  </mmPoliticianTeutonicHD2>
+  <mmPoliticianTeutonicRD2 portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </mmPoliticianTeutonicRD2>
+  <mmPoliticianTeutonicTP3 portraitfilename="ui\ingame\politicians\politician_tycoon" portraitfilenamewpf="resources/images/icons/politicians/politician_tycoon.png">
+  </mmPoliticianTeutonicTP3>
+  <mmPoliticianTeutonicMV3 portraitfilename="ui\ingame\politicians\politician_mercenary_contractor" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </mmPoliticianTeutonicMV3>
+  <mmPoliticianTeutonicHP3 portraitfilename="ui\ingame\politicians\politician_el_presidente" portraitfilenamewpf="resources/images/icons/politicians/politician_el_presidente.png">
+  </mmPoliticianTeutonicHP3>
+  <mmPoliticianTeutonicHD3 portraitfilename="resources/images/icons/politicians/politician_black_duke.png" portraitfilenamewpf="resources/images/icons/politicians/politician_black_duke.png">
+  </mmPoliticianTeutonicHD3>
+  <mmPoliticianTeutonicRD3 portraitfilename="ui\ingame\politicians\politician_general" portraitfilenamewpf="resources/images/icons/politicians/politician_general.png">
+  </mmPoliticianTeutonicRD3>
+  <mmPoliticianTeutonicFood portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </mmPoliticianTeutonicFood>
+  <mmPoliticianTeutonicWood portraitfilename="ui\ingame\politicians\politician_quarter_master" portraitfilenamewpf="resources/images/icons/politicians/politician_quarter_master.png">
+  </mmPoliticianTeutonicWood>
+  <mmPoliticianTeutonicGold portraitfilename="ui\ingame\politicians\politician_exiled_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_exiled_prince.png">
+  </mmPoliticianTeutonicGold>
+  <mmPoliticianTeutonicXP portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_philosopher_prince.png">
+  </mmPoliticianTeutonicXP>
+  <mmPoliticianTeutonicTP0 portraitfilename="ui\ingame\politicians\politician_bishop" portraitfilenamewpf="resources/images/icons/politicians/politician_bishop.png">
+  </mmPoliticianTeutonicTP0>
+  -->
+</politicians>

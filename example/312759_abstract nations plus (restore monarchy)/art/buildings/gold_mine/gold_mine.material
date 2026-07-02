@@ -1,0 +1,34 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="buildings\gold_mine\gold_mine\textures\gold_mine_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="buildings\gold_mine\gold_mine\textures\gold_mine_mata_normals">
+      </texture>
+      <texture name="Masks" override="buildings\gold_mine\gold_mine\textures\gold_mine_mata_masks">
+      </texture>
+      <float name="Roughness Min" override="0.5000">
+      </float>
+      <float name="Roughness Metallic Min" override="0.0570">
+      </float>
+      <float name="Metallic Min" override="0.0390">
+      </float>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="buildings\gold_mine\gold_mine\textures\Gold_Mine_matL_BaseColor">
+      </texture>
+      <texture name="Normals" override="buildings\gold_mine\gold_mine\textures\gold_mine_mata_normals">
+      </texture>
+      <texture name="Masks" override="buildings\gold_mine\gold_mine\textures\gold_mine_mata_masks">
+      </texture>
+      <float name="Roughness Min" override="0.5000">
+      </float>
+      <float name="Roughness Metallic Min" override="0.0570">
+      </float>
+      <float name="Metallic Min" override="0.0390">
+      </float>
+    </parameters>
+  </submaterial>
+</material>

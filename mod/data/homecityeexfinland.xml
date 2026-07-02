@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Finland Home City - EEX Eastern European Expansion
+     Visual: Swedish (Finland was part of Sweden 1249-1809)
+     All cards reference existing game techs or EEX techs.
+-->
+<homecity>
+  <civ>EEXFinland</civ>
+  <name>$$77183003$$</name>
+  <heroname>$$77183004$$</heroname>
+  <gatherpointunit>HomeCityGatherFlag</gatherpointunit>
+  <transportroundtriptime>1</transportroundtriptime>
+  <transportactivationtime>0</transportactivationtime>
+  <level>1</level>
+  <skillpoints>9</skillpoints>
+  <numpropunlocksearned>0</numpropunlocksearned>
+  <xsai>generic_city</xsai>
+
+  <!-- Reuse Swedish home city visuals (no new assets) -->
+  <visual>swedish\swedish_homecity.xml</visual>
+  <watervisual>swedish\swedish_homecity_water.xml</watervisual>
+  <backgroundvisual>swedish\swedish_background.xml</backgroundvisual>
+  <pathdata>swedish\pathable_area_object.gr2</pathdata>
+  <camera>swedish\swedish_homecity_camera.cam</camera>
+  <widescreencamera>swedish\swedish_homecity_widescreencamera.cam</widescreencamera>
+  <lightset>Stockholm</lightset>
+  <watertype>Stockholm</watertype>
+  <ambientsounds>homecity\swedishambientsounds.xml</ambientsounds>
+
+  <heroprotounits>
+    <protounit>EEXFinnishExplorer</protounit>
+  </heroprotounits>
+
+  <cards>
+    <!-- === AGE 0 (Discovery) === -->
+
+    <card>
+      <name>HCShipSettlers1</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipFood1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HCShipWood1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HCShipCoin1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>EEXHCShipFinnishMusketeer3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+
+    <!-- === AGE 1 (Colonial) === -->
+
+    <card>
+      <name>HCShipSettlers2</name>
+      <maxcount>1</maxcount>
+      <level>1</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCShipFood2</name>
+      <maxcount>1</maxcount>
+      <level>1</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCShipWood2</name>
+      <maxcount>1</maxcount>
+      <level>1</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCShipMilitaryWagon1</name>
+      <maxcount>1</maxcount>
+      <level>1</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+
+    <!-- Hakkapeliitta available from Colonial age -->
+    <card>
+      <name>EEXHCShipHakkapeliitta3</name>
+      <maxcount>1</maxcount>
+      <level>1</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCImproveWoodGathering1</name>
+      <maxcount>1</maxcount>
+      <level>1</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>HCImproveFoodGathering1</name>
+      <maxcount>1</maxcount>
+      <level>1</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+
+    <!-- === AGE 2 (Fortress) === -->
+
+    <card>
+      <name>HCShipSettlers3</name>
+      <maxcount>1</maxcount>
+      <level>2</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>HCShipWood3</name>
+      <maxcount>1</maxcount>
+      <level>2</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>EEXHCShipFinnishMusketeer6</name>
+      <maxcount>1</maxcount>
+      <level>2</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>EEXHCShipJaeger4</name>
+      <maxcount>1</maxcount>
+      <level>2</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>EEXHCShipKnekt4</name>
+      <maxcount>1</maxcount>
+      <level>2</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>HCShipFalconet1</name>
+      <maxcount>1</maxcount>
+      <level>2</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>HCImproveInfantry1</name>
+      <maxcount>1</maxcount>
+      <level>2</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+
+    <!-- === AGE 3 (Industrial) === -->
+
+    <card>
+      <name>EEXHCShipHakkapeliitta6</name>
+      <maxcount>1</maxcount>
+      <level>3</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>EEXHCShipFinnishDragoon4</name>
+      <maxcount>1</maxcount>
+      <level>3</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>HCShipFalconet2</name>
+      <maxcount>1</maxcount>
+      <level>3</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>HCImproveCavalry1</name>
+      <maxcount>1</maxcount>
+      <level>3</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>HCShipWood4</name>
+      <maxcount>1</maxcount>
+      <level>3</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+
+    <!-- === AGE 4 (Imperial) === -->
+
+    <card>
+      <name>EEXHCShipHakkapeliitta8</name>
+      <maxcount>1</maxcount>
+      <level>4</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>EEXHCShipFinnishMusketeer10</name>
+      <maxcount>1</maxcount>
+      <level>4</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipCulverin1</name>
+      <maxcount>1</maxcount>
+      <level>4</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
+    </card>
+    <card>
+      <name>HCShipCoin5</name>
+      <maxcount>1</maxcount>
+      <level>4</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
+    </card>
+  </cards>
+</homecity>

@@ -1,0 +1,1680 @@
+<protomods>
+
+  <unit name="mmSettlerKongo">
+    <protoaction mergeMode='add'>
+      <name>Gather</name>
+	  <rate type="mmLatifundia">0.200000</rate>
+	  <rate type="mmLatifundia" resource="Food">0.200000</rate>
+      <rate type="mmLatifundia" resource="Gold">0.200000</rate>
+      <rate type="mmLatifundia" resource="Wood">0.200000</rate>
+	  <rate type="mmVeerhuysen">0.40000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.400000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.272000</rate>
+    </protoaction>
+  </unit>
+  
+  <unit name="Settler">
+    <protoaction mergeMode='add'>
+      <name>Gather</name>
+	  <rate type="mmLatifundia">0.250000</rate>
+	  <rate type="mmLatifundia" resource="Food">0.250000</rate>
+      <rate type="mmLatifundia" resource="Gold">0.250000</rate>
+      <rate type="mmLatifundia" resource="Wood">0.250000</rate>
+	  <rate type="mmVeerhuysen">0.50000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.500000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.340000</rate>
+    </protoaction>
+  </unit>
+
+  <unit name="deNatNomad">
+    <protoaction mergeMode='add'>
+      <name>Gather</name>
+	  <rate type="mmLatifundia">0.250000</rate>
+	  <rate type="mmLatifundia" resource="Food">0.250000</rate>
+      <rate type="mmLatifundia" resource="Gold">0.250000</rate>
+      <rate type="mmLatifundia" resource="Wood">0.250000</rate>
+	  <rate type="mmVeerhuysen">0.50000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.500000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.340000</rate>
+    </protoaction>
+  </unit>
+
+  <unit name="Pilgrim">
+    <protoaction mergeMode='add'>
+      <name>Gather</name>
+	  <rate type="mmLatifundia">0.2750000</rate>
+	  <rate type="mmLatifundia" resource="Food">0.2750000</rate>
+      <rate type="mmLatifundia" resource="Gold">0.2750000</rate>
+      <rate type="mmLatifundia" resource="Wood">0.2750000</rate>
+	  <rate type="mmVeerhuysen">0.55000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.550000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.370000</rate>
+    </protoaction>
+  </unit>
+
+  <unit name="CoureurCree">
+    <protoaction mergeMode='add'>
+      <name>Gather</name>
+	  <rate type="mmLatifundia">0.320000</rate>
+	  <rate type="mmLatifundia" resource="Food">0.320000</rate>
+      <rate type="mmLatifundia" resource="Gold">0.320000</rate>
+      <rate type="mmLatifundia" resource="Wood">0.320000</rate>
+	  <rate type="mmVeerhuysen">0.63000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.630000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.430000</rate>
+    </protoaction>
+  </unit>
+
+  <unit name="Coureur">
+    <protoaction mergeMode='add'>
+      <name>Gather</name>
+	  <rate type="mmLatifundia">0.320000</rate>
+	  <rate type="mmLatifundia" resource="Food">0.320000</rate>
+      <rate type="mmLatifundia" resource="Gold">0.320000</rate>
+      <rate type="mmLatifundia" resource="Wood">0.320000</rate>
+	  <rate type="mmVeerhuysen">0.63000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.630000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.430000</rate>
+    </protoaction>
+  </unit>
+
+  <unit name="mmSettlerMadosa">
+    <protoaction mergeMode='add'>
+      <name>Gather</name>
+	  <rate type="mmLatifundia">0.320000</rate>
+	  <rate type="mmLatifundia" resource="Food">0.320000</rate>
+      <rate type="mmLatifundia" resource="Gold">0.320000</rate>
+      <rate type="mmLatifundia" resource="Wood">0.320000</rate>
+	  <rate type="mmVeerhuysen">0.63000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.630000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.430000</rate>
+    </protoaction>
+  </unit>
+  
+  <unit name="mmMerchant">
+    <protoaction mergeMode='add'>
+      <name>Gather</name>
+	  <rate type="mmLatifundia">0.320000</rate>
+	  <rate type="mmLatifundia" resource="Food">0.320000</rate>
+      <rate type="mmLatifundia" resource="Gold">0.320000</rate>
+      <rate type="mmLatifundia" resource="Wood">0.320000</rate>
+	  <rate type="mmVeerhuysen">0.63000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.630000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.430000</rate>
+    </protoaction>
+  </unit>
+
+  <unit name="SettlerWagon">
+    <protoaction mergeMode='add'>
+      <name>Gather</name>
+	  <rate type="mmLatifundia">0.50000</rate>
+	  <rate type="mmLatifundia" resource="Food">0.50000</rate>
+      <rate type="mmLatifundia" resource="Gold">0.50000</rate>
+      <rate type="mmLatifundia" resource="Wood">0.50000</rate>
+	  <rate type="mmVeerhuysen">1.0000</rate>
+      <rate type="mmVeerhuysen" resource="Food">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.680000</rate>
+    </protoaction>
+  </unit>
+
+  <unit name="mmBearGrylls">
+    <protoaction mergeMode='add'>
+      <name>Gather</name>
+	  <rate type="mmLatifundia">0.640000</rate>
+	  <rate type="mmLatifundia" resource="Food">0.640000</rate>
+      <rate type="mmLatifundia" resource="Gold">0.640000</rate>
+      <rate type="mmLatifundia" resource="Wood">0.640000</rate>
+	  <rate type="mmVeerhuysen">1.26000</rate>
+      <rate type="mmVeerhuysen" resource="Food">1.260000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.860000</rate>
+    </protoaction>
+  </unit>
+
+  <unit name="mmHansaMerchant">
+    <protoaction mergeMode='add'>
+      <name>Gather</name>
+	  <rate type="mmLatifundia">1.00000</rate>
+	  <rate type="mmLatifundia" resource="Food">1.00000</rate>
+      <rate type="mmLatifundia" resource="Gold">1.00000</rate>
+      <rate type="mmLatifundia" resource="Wood">1.00000</rate>
+	  <rate type="mmVeerhuysen">2.0000</rate>
+      <rate type="mmVeerhuysen" resource="Food">2.000000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">1.360000</rate>
+    </protoaction>
+  </unit>
+  <unit id="968" name="ypNatMercRattanShield">
+    <sharedselectionunittypes>
+      <unittype>ypNatRattanShield</unittype>
+    </sharedselectionunittypes>
+  </unit>
+  
+  <unit id="968" name="ypNatRattanShield">
+    <sharedselectionunittypes>
+      <unittype>ypNatMercRattanShield</unittype>
+    </sharedselectionunittypes>
+  </unit>
+
+  <unit id="305" name="Cannon">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="318" name="Mortar">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+	
+	
+  <unit id="434" name="Market">
+    <tech row="0" page="1" column="1">Gangsaw</tech>
+	</unit>
+
+  <unit id="1285" name="ypMorutaru">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="916" name="ypHandMortar">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1228" name="ypConsulateMortar">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1746" name="deQuakerGun">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1752" name="deMercCapturedMortar">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1843" name="deSebastopolMortar">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1648" name="deLeatherCannon">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="842" name="xpHorseArtillery">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1272" name="ypConsulateCannon">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="341" name="GreatBombard">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1229" name="ypConsulateGreatBombard">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="514" name="RussianCannon">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="310" name="Falconet">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1226" name="ypConsulateMediocreBombard">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="309" name="Culverin">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="309" name="MediocreBombard">
+    <displaynameid>24368</displaynameid>
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1227" name="ypConsulateCulverin">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+	
+  <unit id="1403" name="ypRepentantGreatCannon">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1230" name="ypConsulateHorseArtillery">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="981" name="ypSiegeElephant">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1280" name="ypSiegeElephantMansabdar">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="917" name="ypFlyingCrow">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="1284" name="ypFlamingArrow">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="930" name="ypFlameThrower">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="774" name="xpGatlingGun">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="711" name="xpLightCannon">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="833" name="MercGreatCannon">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="345" name="OrganGun">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="349" name="Rocket">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+
+  <unit id="2663" name="ypConsulateRocket">
+	<buildlimit>2</buildlimit>
+    <sharedbuildlimitunit>MediocreBombard</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractArtillery</unittype>
+    </sharedbuildlimitunittypes>
+    <flag>UseSharedBuildLimit</flag>
+	</unit>
+	  <!--HERDABLES-->
+
+<unit name="ypSacredCow">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+</unit>
+<unit name="ypGoatFat">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.100000</rate>
+      <rate type="deHacienda" resource="Gold">0.068004</rate>
+      <rate type="deHacienda" resource="Wood">0.150000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.100000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.068004</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.150000</rate>
+    </protoaction>
+</unit>
+<unit name="ypYak">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.100000</rate>
+      <rate type="deHacienda" resource="Gold">0.068004</rate>
+      <rate type="deHacienda" resource="Wood">0.150000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.100000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.068004</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.150000</rate>
+    </protoaction>
+</unit>
+<unit name="ypGoat">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+</unit>
+<unit name="ypWaterBuffalo">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+</unit>
+<unit name="Llama">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+</unit>
+<unit name="Cow">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+</unit>
+<unit name="Sheep">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.100000</rate>
+      <rate type="deHacienda" resource="Gold">0.068004</rate>
+      <rate type="deHacienda" resource="Wood">0.150000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.100000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.068004</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.150000</rate>
+    </protoaction>
+</unit>
+<unit name="deEggWoodCattle">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+</unit>
+<unit name="deChonkyCattle">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherField</name>
+      <rate type="deField" resource="Food">0.250000</rate>
+      <rate type="deField" resource="Gold">0.188500</rate>
+      <rate type="deField" resource="Wood">0.17000</rate>
+      <rate type="deField" resource="Influence">0.170000</rate>
+      <rate type="EgyptianField" resource="Food">0.250000</rate>
+      <rate type="EgyptianField" resource="Gold">0.188500</rate>
+      <rate type="EgyptianField" resource="Wood">0.17000</rate>
+      <rate type="EgyptianField" resource="Influence">0.170000</rate>
+      <rate type="YorubaField" resource="Food">0.250000</rate>
+      <rate type="YorubaField" resource="Gold">0.188500</rate>
+      <rate type="YorubaField" resource="Wood">0.17000</rate>
+      <rate type="YorubaField" resource="Influence">0.170000</rate>
+    </protoaction>
+</unit>
+<unit name="deZebuCattle">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherField</name>
+      <rate type="deField" resource="Food">0.250000</rate>
+      <rate type="deField" resource="Gold">0.188500</rate>
+      <rate type="deField" resource="Wood">0.17000</rate>
+      <rate type="deField" resource="Influence">0.170000</rate>
+      <rate type="EgyptianField" resource="Food">0.250000</rate>
+      <rate type="EgyptianField" resource="Gold">0.188500</rate>
+      <rate type="EgyptianField" resource="Wood">0.17000</rate>
+      <rate type="EgyptianField" resource="Influence">0.170000</rate>
+      <rate type="YorubaField" resource="Food">0.250000</rate>
+      <rate type="YorubaField" resource="Gold">0.188500</rate>
+      <rate type="YorubaField" resource="Wood">0.17000</rate>
+      <rate type="YorubaField" resource="Influence">0.170000</rate>
+    </protoaction>
+</unit>
+<unit name="deSangaCattle">
+    <protoaction mergeMode='replace'>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherField</name>
+      <rate type="deField" resource="Food">0.250000</rate>
+      <rate type="deField" resource="Gold">0.188500</rate>
+      <rate type="deField" resource="Wood">0.17000</rate>
+      <rate type="deField" resource="Influence">0.170000</rate>
+      <rate type="EgyptianField" resource="Food">0.250000</rate>
+      <rate type="EgyptianField" resource="Gold">0.188500</rate>
+      <rate type="EgyptianField" resource="Wood">0.17000</rate>
+      <rate type="EgyptianField" resource="Influence">0.170000</rate>
+      <rate type="YorubaField" resource="Food">0.250000</rate>
+      <rate type="YorubaField" resource="Gold">0.188500</rate>
+      <rate type="YorubaField" resource="Wood">0.17000</rate>
+      <rate type="YorubaField" resource="Influence">0.170000</rate>
+    </protoaction>
+</unit>
+  <unit id="6034" name="TurkeyHerdable">
+    <dbid>10034</dbid>
+    <displaynameid>27054</displaynameid>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <idletimeout>3.0000</idletimeout>
+    <maxvelocity>4.0000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <wanderdistance>4</wanderdistance>
+    <animfile>units\animals\turkey\turkey_herdable.xml</animfile>
+    <impacttype>Animal</impacttype>
+    <icon>resources\art\units\turkey_icon.png</icon>
+    <portraiticon>resources\art\units\animals\turkey\turkey_portrait.png</portraiticon>
+    <rollovertextid>22828</rollovertextid>
+    <shortrollovertextid>25709</shortrollovertextid>
+    <initialhitpoints>20.0000</initialhitpoints>
+    <maxhitpoints>20.0000</maxhitpoints>
+    <los>9.0000</los>
+    <unitaitype>HerdAnimal</unitaitype>
+    <trainpoints>10.0000</trainpoints>
+    <buildlimit>30</buildlimit>
+    <bounty>0.0000</bounty>
+    <cost resourcetype="Food">100.0000</cost>
+    <carrycapacity resourcetype="Food">300.0000</carrycapacity>
+    <initialresource resourcetype="Food">50.0000</initialresource>
+    <resourcedecay>0.7500</resourcedecay>
+    <resourcesubtype>meat</resourcesubtype>
+    <allowedage>0</allowedage>
+    <decay delay="0.0000" duration="0.0000">
+    </decay>
+    <minimapcolor red="1.0000" blue="1.0000" green="1.0000">
+    </minimapcolor>
+    <gathererlimit>8</gathererlimit>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeEasySelectAvoid</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Resource</unittype>
+    <unittype>HuntedResource</unittype>
+    <unittype>AnimalPrey</unittype>
+    <unittype>Herdable</unittype>
+    <unittype>NatureClass</unittype>
+    <unittype>Food</unittype>
+    <unittype>AbstractCaprine</unittype>
+    <flag>CivSpecificText</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>InvulnerableIfGaia</flag>
+    <flag>ColorTransformNonGaia</flag>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ConstrainOrientation</flag>
+    <flag>CorpseDecays</flag>
+    <flag>DieAtZeroResources</flag>
+    <flag>DoNotDieAtZeroHitpoints</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>DoppleOnlyWhenDead</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>OrientUnitWithGround</flag>
+    <flag>RMCanRotate</flag>
+    <flag>Wanders</flag>
+    <flag>Tracked</flag>
+    <flag>UseSharedBuildLimit</flag>
+    <flag>ApplyResourceReturnIfDeleted</flag>
+    <flag>InvulnerableToAreaDamage</flag>
+    <command page="0" column="0">deSellLivestockForWood</command>
+    <command page="0" column="1">deSellLivestockForCoin</command>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <tactics>herd.tactics</tactics>
+    <protoaction>
+      <name>AutoGatherFood</name>
+      <rate type="Food">0.200000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherFood2</name>
+      <rate type="Food">0.200000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherXP</name>
+      <rate type="XP">0.080000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherInfluence</name>
+      <rate type="Influence">0.050000</rate>
+      <fullcapacitymultiplier>3.0</fullcapacitymultiplier>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.100000</rate>
+      <rate type="deHacienda" resource="Gold">0.068004</rate>
+      <rate type="deHacienda" resource="Wood">0.150000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.100000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.068004</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.150000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherXP</name>
+      <rate type="ypSacredField">0.140000</rate>
+    </protoaction>
+    <protoaction>
+      <name>ShrineGather</name>
+      <rate type="AbstractShrine">0.110000</rate>
+    </protoaction>
+  </unit>
+  <unit id="6196" name="HerdableBison">
+    <dbid>10196</dbid>
+    <displaynameid>22832</displaynameid>
+    <obstructionradiusx>0.7900</obstructionradiusx>
+    <obstructionradiusz>0.8900</obstructionradiusz>
+    <idletimeout>3.0000</idletimeout>
+    <maxvelocity>4.0000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <wanderdistance>4</wanderdistance>
+    <animfile>units\animals\bison\herdable_bison.xml</animfile>
+    <impacttype>Animal</impacttype>
+    <icon>resources\art\units\animals\bison\bison_icon_64.png</icon>
+    <portraiticon>resources\art\units\animals\bison\bison_icon_portrait.png</portraiticon>
+    <rollovertextid>28185</rollovertextid>
+    <shortrollovertextid>28184</shortrollovertextid>
+    <initialhitpoints>20.0000</initialhitpoints>
+    <maxhitpoints>20.0000</maxhitpoints>
+    <los>9.0000</los>
+    <unitaitype>HerdAnimal</unitaitype>
+    <trainpoints>15.0000</trainpoints>
+    <buildlimit>20</buildlimit>
+    <sharedbuildlimitunit>Cow</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractBovine</unittype>
+    </sharedbuildlimitunittypes>
+    <bounty>0.0000</bounty>
+    <cost resourcetype="Food">80.0000</cost>
+    <carrycapacity resourcetype="Food">500.0000</carrycapacity>
+    <initialresource resourcetype="Food">50.0000</initialresource>
+    <resourcedecay>0.7500</resourcedecay>
+    <resourcesubtype>meat</resourcesubtype>
+    <allowedage>0</allowedage>
+    <decay delay="0.0000" duration="0.0000">
+    </decay>
+    <minimapcolor red="1.0000" blue="1.0000" green="1.0000">
+    </minimapcolor>
+    <gathererlimit>8</gathererlimit>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeEasySelectAvoid</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Resource</unittype>
+    <unittype>HuntedResource</unittype>
+    <unittype>AnimalPrey</unittype>
+    <unittype>Herdable</unittype>
+    <unittype>Food</unittype>
+    <unittype>NatureClass</unittype>
+    <unittype>AbstractBovine</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ConstrainOrientation</flag>
+    <flag>CorpseDecays</flag>
+    <flag>DieAtZeroResources</flag>
+    <flag>DoNotDieAtZeroHitpoints</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>DoppleOnlyWhenDead</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>OrientUnitWithGround</flag>
+    <flag>RMCanRotate</flag>
+    <flag>Wanders</flag>
+    <flag>ColorTransformNonGaia</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>InvulnerableIfGaia</flag>
+    <flag>CivSpecificText</flag>
+    <flag>Tracked</flag>
+    <flag>UseSharedBuildLimit</flag>
+    <flag>ApplyResourceReturnIfDeleted</flag>
+    <command page="0" column="0">deSellLivestockForWood</command>
+    <command page="0" column="1">deSellLivestockForCoin</command>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <tactics>herd.tactics</tactics>
+    <protoaction>
+      <name>AutoGatherFood</name>
+      <rate type="Food">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherFood2</name>
+      <rate type="Food">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherXP</name>
+      <rate type="XP">0.100000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherInfluence</name>
+      <rate type="Influence">0.080000</rate>
+      <fullcapacitymultiplier>3.75</fullcapacitymultiplier>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherXP</name>
+      <rate type="ypSacredField">0.200000</rate>
+    </protoaction>
+    <protoaction>
+      <name>ShrineGather</name>
+      <rate type="AbstractShrine">0.140000</rate>
+    </protoaction>
+  </unit>
+  <unit id="6349" name="NguniCow">
+    <dbid>10349</dbid>
+	<displaynameid>600567</displaynameid>
+    <obstructionradiusx>0.7900</obstructionradiusx>
+    <obstructionradiusz>0.8900</obstructionradiusz>
+    <idletimeout>3.0000</idletimeout>
+    <maxvelocity>4.0000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <wanderdistance>4</wanderdistance>
+    <animfile>units\animals\nguni_cow\nguni_cow.xml</animfile>
+    <impacttype>Animal</impacttype>
+    <icon>resources\art\units\ngunicow_icon.png</icon>
+    <portraiticon>resources\art\units\ngunicow_portrait.png</portraiticon>
+    <rollovertextid>28185</rollovertextid>
+    <shortrollovertextid>28184</shortrollovertextid>
+    <initialhitpoints>20.0000</initialhitpoints>
+    <maxhitpoints>20.0000</maxhitpoints>
+    <los>9.0000</los>
+    <unitaitype>HerdAnimal</unitaitype>
+    <trainpoints>15.0000</trainpoints>
+    <bounty>0.0000</bounty>
+    <cost resourcetype="Gold">100.0000</cost>
+    <carrycapacity resourcetype="Food">500.0000</carrycapacity>
+    <initialresource resourcetype="Food">100.0000</initialresource>
+    <gatherratemultiplier>1.0000</gatherratemultiplier>
+    <resourcedecay>0.7500</resourcedecay>
+    <resourcesubtype>meat</resourcesubtype>
+    <allowedage>0</allowedage>
+    <decay delay="0.0000" duration="0.0000">
+    </decay>
+    <minimapcolor red="1.0000" blue="1.0000" green="1.0000">
+    </minimapcolor>
+    <gathererlimit>8</gathererlimit>
+    <sharedselectionunittypes>
+      <unittype>deAutoZebuCattle</unittype>
+    </sharedselectionunittypes>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeEasySelectAvoid</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Resource</unittype>
+    <unittype>HuntedResource</unittype>
+    <unittype>AnimalPrey</unittype>
+    <unittype>Herdable</unittype>
+    <unittype>Food</unittype>
+    <unittype>NatureClass</unittype>
+    <unittype>AbstractBovine</unittype>
+    <unittype>CountsTowardEconomicScore</unittype>
+    <unittype>CountsTowardEconomyModeScore</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ConstrainOrientation</flag>
+    <flag>CorpseDecays</flag>
+    <flag>DieAtZeroResources</flag>
+    <flag>DoNotDieAtZeroHitpoints</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>DoppleOnlyWhenDead</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>OrientUnitWithGround</flag>
+    <flag>RMCanRotate</flag>
+    <flag>Wanders</flag>
+    <flag>ColorTransformNonGaia</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>InvulnerableIfGaia</flag>
+    <flag>CivSpecificText</flag>
+    <flag>Tracked</flag>
+    <flag>ApplyResourceReturnIfDeleted</flag>
+    <flag>InvulnerableToAreaDamage</flag>
+    <command page="0" column="0">deSellLivestockForWood</command>
+    <command page="0" column="1">deSellLivestockForCoin</command>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <tactics>herd.tactics</tactics>
+    <protoaction>
+      <name>AutoGatherFood</name>
+      <rate type="Food">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherFood2</name>
+      <rate type="Food">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherXP</name>
+      <rate type="XP">0.120000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherInfluence</name>
+      <rate type="Influence">0.150000</rate>
+      <fullcapacitymultiplier>3.334</fullcapacitymultiplier>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherField</name>
+      <rate type="deField" resource="Food">0.250000</rate>
+      <rate type="deField" resource="Gold">0.188500</rate>
+      <rate type="deField" resource="Wood">0.17000</rate>
+      <rate type="deField" resource="Influence">0.170000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherXP</name>
+      <rate type="ypSacredField">0.210000</rate>
+    </protoaction>
+    <protoaction>
+      <name>ShrineGather</name>
+      <rate type="AbstractShrine">0.150000</rate>
+    </protoaction>
+  </unit>
+  <unit id="6366" name="Pig">
+    <dbid>10366</dbid>
+    <displaynameid>7470657</displaynameid>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <idletimeout>3.0000</idletimeout>
+    <maxvelocity>4.0000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <wanderdistance>4</wanderdistance>
+    <animfile>units\animals\pig\pig.xml</animfile>
+    <impacttype>Animal</impacttype>
+    <icon>resources\images\icons\pig_icon.png</icon>
+    <portraiticon>resources\images\icons\pig_portrait.png</portraiticon>
+    <rollovertextid>22828</rollovertextid>
+    <shortrollovertextid>25709</shortrollovertextid>
+    <initialhitpoints>20.0000</initialhitpoints>
+    <maxhitpoints>20.0000</maxhitpoints>
+    <los>9.0000</los>
+    <unitaitype>HerdAnimal</unitaitype>
+    <trainpoints>10.0000</trainpoints>
+    <buildlimit>30</buildlimit>
+    <sharedbuildlimitunit>Sheep</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>AbstractCaprine</unittype>
+    </sharedbuildlimitunittypes>
+    <bounty>0.0000</bounty>
+    <cost resourcetype="Food">100.0000</cost>
+    <carrycapacity resourcetype="Food">400.0000</carrycapacity>
+    <initialresource resourcetype="Food">50.0000</initialresource>
+    <resourcedecay>0.7500</resourcedecay>
+    <resourcesubtype>meat</resourcesubtype>
+    <allowedage>0</allowedage>
+    <decay delay="0.0000" duration="0.0000">
+    </decay>
+    <minimapcolor red="1.0000" blue="1.0000" green="1.0000">
+    </minimapcolor>
+    <gathererlimit>8</gathererlimit>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeEasySelectAvoid</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Resource</unittype>
+    <unittype>HuntedResource</unittype>
+    <unittype>AnimalPrey</unittype>
+    <unittype>Herdable</unittype>
+    <unittype>NatureClass</unittype>
+    <unittype>Food</unittype>
+    <unittype>AbstractCaprine</unittype>
+    <flag>CivSpecificText</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>InvulnerableIfGaia</flag>
+    <flag>ColorTransformNonGaia</flag>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ConstrainOrientation</flag>
+    <flag>CorpseDecays</flag>
+    <flag>DieAtZeroResources</flag>
+    <flag>DoNotDieAtZeroHitpoints</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>DoppleOnlyWhenDead</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>OrientUnitWithGround</flag>
+    <flag>RMCanRotate</flag>
+    <flag>Wanders</flag>
+    <flag>Tracked</flag>
+    <flag>UseSharedBuildLimit</flag>
+    <flag>ApplyResourceReturnIfDeleted</flag>
+    <flag>InvulnerableToAreaDamage</flag>
+    <command page="0" column="0">deSellLivestockForWood</command>
+    <command page="0" column="1">deSellLivestockForCoin</command>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <tactics>herd.tactics</tactics>
+    <protoaction>
+      <name>AutoGatherFood</name>
+      <rate type="Food">0.200000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherFood2</name>
+      <rate type="Food">0.200000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherXP</name>
+      <rate type="XP">0.080000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherInfluence</name>
+      <rate type="Influence">0.050000</rate>
+      <fullcapacitymultiplier>3.0</fullcapacitymultiplier>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.100000</rate>
+      <rate type="deHacienda" resource="Gold">0.068004</rate>
+      <rate type="deHacienda" resource="Wood">0.150000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.100000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.068004</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.150000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherXP</name>
+      <rate type="ypSacredField">0.140000</rate>
+    </protoaction>
+    <protoaction>
+      <name>ShrineGather</name>
+      <rate type="AbstractShrine">0.110000</rate>
+    </protoaction>
+  </unit>
+  <unit id="6410" name="ReindeerHerdable">
+    <dbid>10410</dbid>
+    <displaynameid>600789</displaynameid>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <idletimeout>3.0000</idletimeout>
+    <maxvelocity>4.0000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <wanderdistance>4</wanderdistance>
+    <animfile>units\animals\reindeer\reindeer.xml</animfile>
+    <impacttype>Animal</impacttype>
+    <icon>resources\art\units\reindeer_icon.png</icon>
+    <portraiticon>resources\art\units\reindeer_portrait.png</portraiticon>
+    <rollovertextid>28185</rollovertextid>
+    <shortrollovertextid>28184</shortrollovertextid>
+    <initialhitpoints>20.0000</initialhitpoints>
+    <maxhitpoints>20.0000</maxhitpoints>
+    <los>9.0000</los>
+    <unitaitype>HerdAnimal</unitaitype>
+    <trainpoints>25.0000</trainpoints>
+    <buildlimit>15</buildlimit>
+    <bounty>0.0000</bounty>
+    <cost resourcetype="Food">100.0000</cost>
+    <carrycapacity resourcetype="Food">500.0000</carrycapacity>
+    <initialresource resourcetype="Food">100.0000</initialresource>
+    <resourcedecay>0.7500</resourcedecay>
+    <resourcesubtype>meat</resourcesubtype>
+    <allowedage>0</allowedage>
+    <decay delay="0.0000" duration="0.0000">
+    </decay>
+    <minimapcolor red="1.0000" blue="1.0000" green="1.0000">
+    </minimapcolor>
+    <gathererlimit>8</gathererlimit>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeEasySelectAvoid</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Resource</unittype>
+    <unittype>HuntedResource</unittype>
+    <unittype>AnimalPrey</unittype>
+    <unittype>Herdable</unittype>
+    <unittype>Food</unittype>
+    <unittype>NatureClass</unittype>
+    <unittype>AbstractBovine</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ConstrainOrientation</flag>
+    <flag>CorpseDecays</flag>
+    <flag>DieAtZeroResources</flag>
+    <flag>DoNotDieAtZeroHitpoints</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>DoppleOnlyWhenDead</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>OrientUnitWithGround</flag>
+    <flag>RMCanRotate</flag>
+    <flag>Wanders</flag>
+    <flag>ColorTransformNonGaia</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>InvulnerableIfGaia</flag>
+    <flag>CivSpecificText</flag>
+    <flag>Tracked</flag>
+    <flag>ApplyResourceReturnIfDeleted</flag>
+    <flag>InvulnerableToAreaDamage</flag>
+    <command page="0" column="0">deSellLivestockForWood</command>
+    <command page="0" column="1">deSellLivestockForCoin</command>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <tactics>herd.tactics</tactics>
+    <protoaction>
+      <name>AutoGatherFood</name>
+      <rate type="Food">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherFood2</name>
+      <rate type="Food">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherXP</name>
+      <rate type="XP">0.100000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherInfluence</name>
+      <rate type="Influence">0.080000</rate>
+      <fullcapacitymultiplier>3.75</fullcapacitymultiplier>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.166667</rate>
+      <rate type="deHacienda" resource="Gold">0.113334</rate>
+      <rate type="deHacienda" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.166667</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.113334</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherXP</name>
+      <rate type="ypSacredField">0.200000</rate>
+    </protoaction>
+    <protoaction>
+      <name>ShrineGather</name>
+      <rate type="AbstractShrine">0.140000</rate>
+    </protoaction>
+  </unit>
+  <unit id="6474" name="NguniPrizeBull">
+    <dbid>10474</dbid>
+    <displaynameid>601710</displaynameid>
+    <obstructionradiusx>0.8900</obstructionradiusx>
+    <obstructionradiusz>1.2900</obstructionradiusz>
+    <idletimeout>3.0000</idletimeout>
+    <maxvelocity>2.5000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <wanderdistance>4</wanderdistance>
+    <animfile>units\animals\nguni_prize_bull\nguni_prize_bull.xml</animfile>
+    <impacttype>Animal</impacttype>
+    <icon>resources\art\units\nguniprizebull_icon.png</icon>
+    <portraiticon>resources\art\units\nguniprizebull_portrait.png</portraiticon>
+    <rollovertextid>28185</rollovertextid>
+    <shortrollovertextid>104552</shortrollovertextid>
+    <initialhitpoints>30.0000</initialhitpoints>
+    <maxhitpoints>30.0000</maxhitpoints>
+    <los>9.0000</los>
+	<buildlimit>3</buildlimit>
+    <unitaitype>HerdAnimal</unitaitype>
+    <trainpoints>15.0000</trainpoints>
+    <bounty>50.0000</bounty>
+    <cost resourcetype="Gold">300.0000</cost>
+    <carrycapacity resourcetype="Food">1000.0000</carrycapacity>
+    <initialresource resourcetype="Food">500.0000</initialresource>
+    <gatherratemultiplier>2.500</gatherratemultiplier>
+    <resourcedecay>0.7500</resourcedecay>
+    <resourcesubtype>meat</resourcesubtype>
+    <allowedage>0</allowedage>
+    <decay delay="0.0000" duration="0.0000">
+    </decay>
+    <minimapcolor red="1.0000" blue="1.0000" green="1.0000">
+    </minimapcolor>
+    <gathererlimit>8</gathererlimit>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeEasySelectAvoid</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Resource</unittype>
+    <unittype>HuntedResource</unittype>
+    <unittype>AnimalPrey</unittype>
+    <unittype>Herdable</unittype>
+    <unittype>Food</unittype>
+    <unittype>NatureClass</unittype>
+    <unittype>AbstractBovine</unittype>
+    <unittype>ValidIdleVillager</unittype>
+    <unittype>CountsTowardEconomicScore</unittype>
+    <unittype>CountsTowardEconomyModeScore</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ConstrainOrientation</flag>
+    <flag>CorpseDecays</flag>
+    <flag>DieAtZeroResources</flag>
+    <flag>DoNotDieAtZeroHitpoints</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>DoppleOnlyWhenDead</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>OrientUnitWithGround</flag>
+    <flag>RMCanRotate</flag>
+    <flag>Wanders</flag>
+    <flag>ColorTransformNonGaia</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>InvulnerableIfGaia</flag>
+    <flag>CivSpecificText</flag>
+    <flag>Tracked</flag>
+    <flag>ApplyResourceReturnIfDeleted</flag>
+    <flag>InvulnerableToAreaDamage</flag>
+    <command page="0" column="0">deSellLivestockForWood</command>
+    <command page="0" column="1">deSellLivestockForCoin</command>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <tactics>herd.tactics</tactics>
+    <protoaction>
+      <name>AutoGatherFood</name>
+      <rate type="Food">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherFood2</name>
+      <rate type="Food">0.250000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherXP</name>
+      <rate type="XP">0.200000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherInfluence</name>
+      <rate type="Influence">0.250000</rate>
+      <fullcapacitymultiplier>3.0</fullcapacitymultiplier>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.300000</rate>
+      <rate type="deHacienda" resource="Gold">0.204012</rate>
+      <rate type="deHacienda" resource="Wood">0.450000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.300000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.204012</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.450000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherField</name>
+      <rate type="deField" resource="Food">0.250000</rate>
+      <rate type="deField" resource="Gold">0.188500</rate>
+      <rate type="deField" resource="Wood">0.17000</rate>
+      <rate type="deField" resource="Influence">0.170000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherXP</name>
+      <rate type="ypSacredField">0.350000</rate>
+    </protoaction>
+    <protoaction>
+      <name>ShrineGather</name>
+      <rate type="AbstractShrine">0.230000</rate>
+    </protoaction>
+  </unit>
+  <unit id="6557" name="Chicken">
+    <dbid>10557</dbid>
+    <displaynameid>602710</displaynameid>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <idletimeout>3.0000</idletimeout>
+    <maxvelocity>4.0000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <wanderdistance>4</wanderdistance>
+    <animfile>units\animals\chicken_herdable\chicken.xml</animfile>
+    <impacttype>Animal</impacttype>
+    <icon>resources\art\units\chicken_icon.png</icon>
+    <portraiticon>resources\art\units\chicken_portrait.png</portraiticon>
+    <rollovertextid>22828</rollovertextid>
+    <shortrollovertextid>25709</shortrollovertextid>
+    <initialhitpoints>20.0000</initialhitpoints>
+    <maxhitpoints>20.0000</maxhitpoints>
+    <los>9.0000</los>
+    <unitaitype>HerdAnimal</unitaitype>
+    <trainpoints>10.0000</trainpoints>
+    <buildlimit>30</buildlimit>
+    <bounty>0.0000</bounty>
+    <cost resourcetype="Food">100.0000</cost>
+    <carrycapacity resourcetype="Food">300.0000</carrycapacity>
+    <initialresource resourcetype="Food">50.0000</initialresource>
+    <resourcedecay>0.7500</resourcedecay>
+    <resourcesubtype>meat</resourcesubtype>
+    <allowedage>0</allowedage>
+    <decay delay="0.0000" duration="0.0000">
+    </decay>
+    <minimapcolor red="1.0000" blue="1.0000" green="1.0000">
+    </minimapcolor>
+    <gathererlimit>8</gathererlimit>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeEasySelectAvoid</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Resource</unittype>
+    <unittype>HuntedResource</unittype>
+    <unittype>AnimalPrey</unittype>
+    <unittype>Herdable</unittype>
+    <unittype>NatureClass</unittype>
+    <unittype>Food</unittype>
+    <unittype>AbstractCaprine</unittype>
+    <flag>CivSpecificText</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>InvulnerableIfGaia</flag>
+    <flag>ColorTransformNonGaia</flag>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ConstrainOrientation</flag>
+    <flag>CorpseDecays</flag>
+    <flag>DieAtZeroResources</flag>
+    <flag>DoNotDieAtZeroHitpoints</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>DoppleOnlyWhenDead</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>OrientUnitWithGround</flag>
+    <flag>RMCanRotate</flag>
+    <flag>Wanders</flag>
+    <flag>Tracked</flag>
+    <flag>UseSharedBuildLimit</flag>
+    <flag>ApplyResourceReturnIfDeleted</flag>
+    <flag>InvulnerableToAreaDamage</flag>
+    <command page="0" column="0">deSellLivestockForWood</command>
+    <command page="0" column="1">deSellLivestockForCoin</command>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <tactics>herd.tactics</tactics>
+    <protoaction>
+      <name>AutoGatherFood</name>
+      <rate type="Food">0.200000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherFood2</name>
+      <rate type="Food">0.200000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherXP</name>
+      <rate type="XP">0.080000</rate>
+    </protoaction>
+    <protoaction>
+      <name>AutoGatherInfluence</name>
+      <rate type="Influence">0.050000</rate>
+      <fullcapacitymultiplier>3.0</fullcapacitymultiplier>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="LivestockPen">1.000000</rate>
+      <rate type="AbstractLivestockBuilding">1.000000</rate>
+      <rate type="Farm">1.000000</rate>
+      <rate type="ypVillage">1.000000</rate>
+      <rate type="YPLivestockPenAsian">1.000000</rate>
+      <rate type="deLivestockMarket">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherHacienda</name>
+      <rate type="deHacienda" inventoryrate="1.000000">1.000000</rate>
+      <rate type="deHacienda" resource="Food">0.100000</rate>
+      <rate type="deHacienda" resource="Gold">0.068004</rate>
+      <rate type="deHacienda" resource="Wood">0.150000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherVeerhuysen</name>
+      <rate type="mmVeerhuysen" inventoryrate="1.000000">1.000000</rate>
+      <rate type="mmVeerhuysen" resource="Food">0.100000</rate>
+      <rate type="mmVeerhuysen" resource="Gold">0.068004</rate>
+      <rate type="mmVeerhuysen" resource="Wood">0.150000</rate>
+    </protoaction>
+    <protoaction>
+      <name>GatherXP</name>
+      <rate type="ypSacredField">0.140000</rate>
+    </protoaction>
+    <protoaction>
+      <name>ShrineGather</name>
+      <rate type="AbstractShrine">0.110000</rate>
+    </protoaction>
+  </unit>
+  
+  <!--HERDABLES-->
+</protomods>

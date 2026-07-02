@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>80807</nameID>
+   <tooltipID>80807</tooltipID>
+   <forcedciv>oCanada</forcedciv>
+   <rushboom>0</rushboom>
+    <icon>resources\images\icons\techs\revolution\fencibles.png</icon>
+   <chatset>Washington</chatset>
+   <playerNames>
+      <nameID>80807<civ>oCanada</civ></nameID> 
+	</playerNames>
+</AI>

@@ -1,0 +1,98 @@
+<tactics>
+  <action>
+    <name stringid="43294">ModifyGatherWood</name>
+    <type>ModifyGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43294">ModifyGatherCoin</name>
+    <type>ModifyGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">ModifyGatherFood</name>
+    <type>ModifyGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="68994">FarmSlowEnemyMilitary</name>
+    <type>AutoRangedModify</type>
+    <targetenemy>1</targetenemy>
+    <active>0</active>
+    <maxrange>5</maxrange>
+    <persistent>1</persistent>
+    <squareaura>1</squareaura>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>0.70</modifymultiplier>
+    <modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="69149">AutoGatherFood</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69149">AutoGatherWood</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69149">AutoGatherGold</name>
+    <type>AutoGather</type>
+    <active>1</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>VillaFoodCoin<protounitcommand>VillaFoodCoin</protounitcommand>
+  <action>ModifyGatherFood</action>
+  <action>AutoGatherGold</action>
+  <action>FarmSlowEnemyMilitary</action>
+  <transition>
+  <tactic>VillaWoodFood</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  <transition>
+  <tactic>VillaCoinWood</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  </tactic>
+  <tactic>VillaWoodFood<protounitcommand>VillaWoodFood</protounitcommand>
+  <action>ModifyGatherWood</action>
+  <action>AutoGatherFood</action>
+  <action>FarmSlowEnemyMilitary</action>
+  <transition>
+  <tactic>VillaFoodCoin</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  <transition>
+  <tactic>VillaCoinWood</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  </tactic>
+  <tactic>VillaCoinWood<protounitcommand>VillaCoinWood</protounitcommand>
+  <action>ModifyGatherCoin</action>
+  <action>AutoGatherWood</action>
+  <action>FarmSlowEnemyMilitary</action>
+  <transition>
+  <tactic>VillaFoodCoin</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  <transition>
+  <tactic>VillaWoodFood</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  </tactic>
+</tactics>

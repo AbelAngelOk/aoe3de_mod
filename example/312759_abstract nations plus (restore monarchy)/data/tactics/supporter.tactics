@@ -1,0 +1,85 @@
+<tactics>
+  <action>
+    <name stringid="68961">OutpostTreeGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <squareaura>1</squareaura>
+    <active>0</active>
+    <maxrange>17</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>TreeGatherRate</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">OutpostMineGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <squareaura>1</squareaura>
+    <active>0</active>
+    <maxrange>17</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>MineGatherRate</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">OutpostNaturalFoodRateBonus</name>
+    <active>0</active>
+    <squareaura>1</squareaura>
+    <type>AutoRangedModify</type>
+    <maxrange>17</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>NaturalFoodGatherRate</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">EconomicAura</name>
+    <type>AutoRangedModify</type>
+    <squareaura>1</squareaura>
+    <active>0</active>
+    <maxrange>23</maxrange>
+    <nostack>1</nostack>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <modifytype>GatherRate</modifytype>
+    <modifymultiplier>1.15</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="112436">MilitaryBuildingWorkRateBonus</name>
+    <type>AutoRangedModify</type>
+    <squareaura>1</squareaura>
+    <active>0</active>
+    <maxrange>17</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifyself>1</modifyself>
+    <modifytype>BuildingWorkRate</modifytype>
+    <modifyabstracttype>MilitaryBuilding</modifyabstracttype>
+    <modifymultiplier>1.60</modifymultiplier>
+    <modifybase>1.0</modifybase>
+  </action>
+  <action>
+    <name stringid="69147">Build</name>
+    <type>Build</type>
+    <anim>Build</anim>
+    <maxrange>0.5</maxrange>
+    <rate type="Building">1.0</rate>
+    <freebuildrate type="Building">1.0</freebuildrate>
+    <singleuse>1</singleuse>
+  </action>
+  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>Build</action><action>MilitaryBuildingWorkRateBonus</action><action>EconomicAura</action><action>OutpostTreeGatherRateBonus</action><action>OutpostMineGatherRateBonus</action><action>OutpostNaturalFoodRateBonus</action></tactic>
+</tactics>

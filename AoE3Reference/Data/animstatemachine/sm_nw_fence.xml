@@ -1,0 +1,7 @@
+<statemachine>
+  <startstate>Mode1Idle</startstate>
+  <state>Mode1Idle<anim weight="100">Mode1_Idle</anim><event type="AnimLooped" count="2"><transition weight="50">Mode1Idle</transition><transition weight="50">Mode1To2</transition></event></state>
+  <state>Mode1To2<anim weight="100" loop="0">Mode1_Mode2</anim><event type="AnimLooped" count="1"><transition weight="100">Mode2Idle</transition></event></state>
+  <state>Mode2Idle<anim weight="100">Mode2_Idle</anim><event type="AnimLooped" count="2"><transition weight="50">Mode2Idle</transition><transition weight="50">Mode2To1</transition></event></state>
+  <state>Mode2To1<anim weight="100" loop="0">Mode2_Mode1</anim><event type="AnimLooped" count="1"><transition weight="100">Mode1Idle</transition></event></state>
+</statemachine>

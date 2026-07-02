@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Eastern European Expansion (EEX) - stringmods.xml (English)
+     All localized display strings for EEX civilizations, units, and techs.
+
+     String ID ranges:
+       77180xxx = Shared/common strings (random names: 77180500-77180599)
+       77181xxx = Hungary
+       77182xxx = Romania
+       77183xxx = Finland
+-->
+<stringmods>
+  <stringtable>
+    <language name="">
+
+      <!-- ========================================================
+           SHARED STRINGS (77180xxx)
+           ======================================================== -->
+
+      <!-- Random name titles -->
+      <string _locid="77180500">Hungarian Captain</string>
+      <string _locid="77180501">István</string>
+      <string _locid="77180502">László</string>
+      <string _locid="77180503">Mátyás</string>
+      <string _locid="77180504">Zoltán</string>
+      <string _locid="77180505">Béla</string>
+
+      <string _locid="77180510">Romanian Voivode</string>
+      <string _locid="77180511">Vlad</string>
+      <string _locid="77180512">Mircea</string>
+      <string _locid="77180513">Stefan</string>
+      <string _locid="77180514">Alexandru</string>
+      <string _locid="77180515">Radu</string>
+
+      <string _locid="77180520">Finnish Commander</string>
+      <string _locid="77180521">Mikael</string>
+      <string _locid="77180522">Paavo</string>
+      <string _locid="77180523">Erkki</string>
+      <string _locid="77180524">Juhani</string>
+      <string _locid="77180525">Olavi</string>
+
+      <!-- Hungary fort names -->
+      <string _locid="77180530">Hungarian Fort</string>
+      <string _locid="77180531">Buda</string>
+      <string _locid="77180532">Eger</string>
+      <string _locid="77180533">Komárom</string>
+
+      <!-- Romania fort names -->
+      <string _locid="77180540">Romanian Fortress</string>
+      <string _locid="77180541">Poenari</string>
+      <string _locid="77180542">Suceava</string>
+      <string _locid="77180543">Targoviste</string>
+
+      <!-- Finland fort names -->
+      <string _locid="77180550">Finnish Fortress</string>
+      <string _locid="77180551">Häme</string>
+      <string _locid="77180552">Viborg</string>
+      <string _locid="77180553">Olavinlinna</string>
+
+
+      <!-- ========================================================
+           HUNGARY STRINGS (77181xxx)
+           ======================================================== -->
+
+      <!-- Civ name and description -->
+      <string _locid="77181001">Hungarians</string>
+      <string _locid="77181002">The Hungarians, heirs to the Magyar warriors, combine the traditions of the East with the might of Central European empire. Their Magyar Hussars are among the finest cavalry in the world, while Hajduk light infantry provide a versatile and cost-effective fighting force.</string>
+
+      <!-- Home city and hero -->
+      <string _locid="77181003">Budapest</string>
+      <string _locid="77181004">The Magyar Chieftain</string>
+
+      <!-- Explorer -->
+      <string _locid="77181010">Hungarian Explorer</string>
+      <string _locid="77181011">A seasoned Magyar warrior who leads Hungarian expeditions into the New World.</string>
+      <string _locid="77181012">Hungarian Explorer</string>
+
+      <!-- Hajduk -->
+      <string _locid="77181020">Hajduk</string>
+      <string _locid="77181021">Hungarian light infantry armed with muskets. The Hajduks were irregular soldiers who fought for both the Habsburgs and Hungarian nobles throughout the 17th century. Fast to train and cost-effective, but with lower hit points than standard Musketeers.</string>
+      <string _locid="77181022">Hajduk</string>
+
+      <!-- Pandur -->
+      <string _locid="77181030">Pandur</string>
+      <string _locid="77181031">Hungarian light infantry skirmisher effective against cavalry. The Pandurs were irregular border troops famous for their ability to harass enemy formations. Available in Fortress Age.</string>
+      <string _locid="77181032">Pandur</string>
+
+      <!-- Grenz -->
+      <string _locid="77181040">Grenz Infantry</string>
+      <string _locid="77181041">Heavy Hungarian border infantry armed with a pike. The Grenzer served as the military frontier guard of the Habsburg Empire, protecting against Ottoman raids. Strong against cavalry.</string>
+      <string _locid="77181042">Grenz Infantry</string>
+
+      <!-- Magyar Hussar -->
+      <string _locid="77181050">Magyar Hussar</string>
+      <string _locid="77181051">Elite Hungarian shock cavalry. The Magyar Hussars were the pride of the Hungarian military, known throughout Europe for their speed and ferocity in battle. Can be trained from Fortress Age.</string>
+      <string _locid="77181052">Magyar Hussar</string>
+
+      <!-- Hungarian Dragoon -->
+      <string _locid="77181060">Hungarian Dragoon</string>
+      <string _locid="77181061">Ranged cavalry that can fight both mounted and on foot. Hungarian dragoons provided flexible mobile firepower on the battlefield.</string>
+      <string _locid="77181062">Hungarian Dragoon</string>
+
+      <!-- Politician names -->
+      <string _locid="77181100">The Logistician</string>
+      <string _locid="77181101">Sends a covered wagon to establish a new settlement. A practical choice for expanding Hungarian territory.</string>
+      <string _locid="77181102">The Recruiter</string>
+      <string _locid="77181103">Sends additional settlers to bolster the workforce.</string>
+      <string _locid="77181104">The Hajduk Captain</string>
+      <string _locid="77181105">Sends a group of Hajduks to reinforce your army.</string>
+      <string _locid="77181110">The Marksman</string>
+      <string _locid="77181111">Sends elite Hajduks trained for precision fire.</string>
+      <string _locid="77181112">The Cavalry Commander</string>
+      <string _locid="77181113">Sends Magyar Hussars to spearhead the assault.</string>
+      <string _locid="77181114">The Engineer</string>
+      <string _locid="77181115">Sends a Falconet cannon to support your forces.</string>
+      <string _locid="77181120">The Cavalier</string>
+      <string _locid="77181121">Sends a powerful Magyar Hussar detachment.</string>
+      <string _locid="77181122">The Mine Foreman</string>
+      <string _locid="77181123">Sends a shipment of coin from Hungarian silver mines.</string>
+      <string _locid="77181124">The Militia Colonel</string>
+      <string _locid="77181125">Mobilizes a large force of Hajduks.</string>
+      <string _locid="77181130">The Royalist</string>
+      <string _locid="77181131">Sends the finest Magyar Hussar regiment.</string>
+      <string _locid="77181132">The Imperial Officer</string>
+      <string _locid="77181133">Sends substantial resources from the Habsburg treasury.</string>
+      <string _locid="77181134">The Grand Marshal</string>
+      <string _locid="77181135">Mobilizes a massive Hajduk levy.</string>
+
+      <!-- Upgrade techs: Hajduk -->
+      <string _locid="77181200">Veteran Hajduks</string>
+      <string _locid="77181201">Improves Hajduk hit points and attack by 25%.</string>
+      <string _locid="77181202">Guard Hajduks</string>
+      <string _locid="77181203">Further improves Hajduk hit points and attack by 25%.</string>
+      <string _locid="77181204">Imperial Hajduks</string>
+      <string _locid="77181205">Maximizes Hajduk combat effectiveness.</string>
+
+      <!-- Upgrade techs: Pandur -->
+      <string _locid="77181210">Veteran Pandurs</string>
+      <string _locid="77181211">Improves Pandur hit points and attack by 25%.</string>
+      <string _locid="77181212">Guard Pandurs</string>
+      <string _locid="77181213">Further improves Pandur hit points and attack by 25%.</string>
+
+      <!-- Upgrade techs: Grenz -->
+      <string _locid="77181220">Veteran Grenz Infantry</string>
+      <string _locid="77181221">Improves Grenz hit points and attack by 25%.</string>
+      <string _locid="77181222">Guard Grenz Infantry</string>
+      <string _locid="77181223">Further improves Grenz hit points and attack by 25%.</string>
+
+      <!-- Upgrade techs: Magyar Hussar -->
+      <string _locid="77181230">Veteran Magyar Hussars</string>
+      <string _locid="77181231">Improves Magyar Hussar hit points and attack by 25%.</string>
+      <string _locid="77181232">Guard Magyar Hussars</string>
+      <string _locid="77181233">Further improves Magyar Hussar hit points and attack by 25%.</string>
+      <string _locid="77181234">Imperial Magyar Hussars</string>
+      <string _locid="77181235">Maximizes Magyar Hussar combat effectiveness.</string>
+
+      <!-- Upgrade techs: Hungarian Dragoon -->
+      <string _locid="77181240">Veteran Hungarian Dragoons</string>
+      <string _locid="77181241">Improves Hungarian Dragoon hit points and attack by 25%.</string>
+      <string _locid="77181242">Guard Hungarian Dragoons</string>
+      <string _locid="77181243">Further improves Hungarian Dragoon hit points and attack by 25%.</string>
+
+      <!-- Shipment cards -->
+      <string _locid="77181300">3 Hajduks</string>
+      <string _locid="77181301">Ships 3 Hajduks from Budapest.</string>
+      <string _locid="77181302">4 Magyar Hussars</string>
+      <string _locid="77181303">Ships 4 Magyar Hussars from Budapest.</string>
+      <string _locid="77181304">6 Hajduks</string>
+      <string _locid="77181305">Ships 6 Hajduks from Budapest.</string>
+      <string _locid="77181306">4 Pandurs</string>
+      <string _locid="77181307">Ships 4 Pandurs from Budapest.</string>
+      <string _locid="77181308">4 Grenz Infantry</string>
+      <string _locid="77181309">Ships 4 Grenz Infantry from Budapest.</string>
+      <string _locid="77181310">6 Magyar Hussars</string>
+      <string _locid="77181311">Ships 6 Magyar Hussars from Budapest.</string>
+      <string _locid="77181312">4 Hungarian Dragoons</string>
+      <string _locid="77181313">Ships 4 Hungarian Dragoons from Budapest.</string>
+      <string _locid="77181314">8 Magyar Hussars</string>
+      <string _locid="77181315">Ships 8 Magyar Hussars from Budapest.</string>
+      <string _locid="77181316">10 Hajduks</string>
+      <string _locid="77181317">Ships 10 Hajduks from Budapest.</string>
+
+
+      <!-- ========================================================
+           ROMANIA STRINGS (77182xxx)
+           ======================================================== -->
+
+      <string _locid="77182001">Romanians</string>
+      <string _locid="77182002">The Romanians, descendants of Roman settlers and Dacian warriors, forged their identity under centuries of Ottoman suzerainty. Their Dorobant musket infantry and Curteni noble cavalry form the backbone of a versatile army that draws from both Eastern and Western military traditions.</string>
+
+      <string _locid="77182003">Bucharest</string>
+      <string _locid="77182004">The Voivode</string>
+
+      <!-- Explorer -->
+      <string _locid="77182010">Romanian Explorer</string>
+      <string _locid="77182011">A Romanian noble leading expeditions beyond the Carpathians.</string>
+      <string _locid="77182012">Romanian Explorer</string>
+
+      <!-- Dorobant -->
+      <string _locid="77182020">Dorobant</string>
+      <string _locid="77182021">Romanian musket infantry. The Dorobanți were professional foot soldiers who served the Wallachian and Moldavian princes. Slightly tougher than standard Musketeers, reflecting Romania's tradition of resilient frontier warriors.</string>
+      <string _locid="77182022">Dorobant</string>
+
+      <!-- Romanian Pandur -->
+      <string _locid="77182030">Romanian Pandur</string>
+      <string _locid="77182031">Romanian light skirmisher infantry. Similar to Hungarian Pandurs but adapted to Romanian forest warfare. Effective against cavalry units.</string>
+      <string _locid="77182032">Romanian Pandur</string>
+
+      <!-- Seimeni -->
+      <string _locid="77182040">Seimeni</string>
+      <string _locid="77182041">Romanian pike infantry. The Seimeni were elite infantry guards of the Romanian princes, armed with pikes and trained to resist cavalry charges. The toughest infantry in the Romanian roster.</string>
+      <string _locid="77182042">Seimeni</string>
+
+      <!-- Curteni -->
+      <string _locid="77182050">Curteni</string>
+      <string _locid="77182051">Romanian noble cavalry. The Curteni were the household cavalry of Romanian princes, equivalent to hussar-type units but with a distinctly Eastern European fighting style.</string>
+      <string _locid="77182052">Curteni</string>
+
+      <!-- Politician names -->
+      <string _locid="77182100">The Boyar</string>
+      <string _locid="77182101">Sends a covered wagon to establish a settlement.</string>
+      <string _locid="77182102">The Recruiter</string>
+      <string _locid="77182103">Sends additional settlers.</string>
+      <string _locid="77182104">The Dorobant Captain</string>
+      <string _locid="77182105">Sends a group of Dorobanți to reinforce the army.</string>
+      <string _locid="77182110">The Voivode</string>
+      <string _locid="77182111">Sends Dorobanți veterans to the front.</string>
+      <string _locid="77182112">The Curteni Lord</string>
+      <string _locid="77182113">Sends Curteni cavalry to support the campaign.</string>
+      <string _locid="77182114">The Engineer</string>
+      <string _locid="77182115">Sends a Falconet cannon.</string>
+      <string _locid="77182120">The Prince</string>
+      <string _locid="77182121">Sends a powerful Curteni detachment.</string>
+      <string _locid="77182122">The Forest Warden</string>
+      <string _locid="77182123">Sends timber and coin from Romanian forests.</string>
+      <string _locid="77182124">The Seimeni Marshal</string>
+      <string _locid="77182125">Mobilizes Seimeni pike infantry.</string>
+      <string _locid="77182130">The Grand Prince</string>
+      <string _locid="77182131">Sends the finest Curteni regiment.</string>
+      <string _locid="77182132">The Imperial Ally</string>
+      <string _locid="77182133">Sends resources from Romanian estates.</string>
+      <string _locid="77182134">The Grand Voivode</string>
+      <string _locid="77182135">Mobilizes a massive Dorobant levy.</string>
+
+      <!-- Upgrade techs -->
+      <string _locid="77182200">Veteran Dorobanți</string>
+      <string _locid="77182201">Improves Dorobant hit points and attack by 25%.</string>
+      <string _locid="77182202">Guard Dorobanți</string>
+      <string _locid="77182203">Further improves Dorobant hit points and attack by 25%.</string>
+      <string _locid="77182210">Veteran Romanian Pandurs</string>
+      <string _locid="77182211">Improves Romanian Pandur hit points and attack by 25%.</string>
+      <string _locid="77182212">Guard Romanian Pandurs</string>
+      <string _locid="77182213">Further improves Romanian Pandur hit points and attack by 25%.</string>
+      <string _locid="77182220">Veteran Seimeni</string>
+      <string _locid="77182221">Improves Seimeni hit points and attack by 25%.</string>
+      <string _locid="77182222">Guard Seimeni</string>
+      <string _locid="77182223">Further improves Seimeni hit points and attack by 25%.</string>
+      <string _locid="77182230">Veteran Curteni</string>
+      <string _locid="77182231">Improves Curteni hit points and attack by 25%.</string>
+      <string _locid="77182232">Guard Curteni</string>
+      <string _locid="77182233">Further improves Curteni hit points and attack by 25%.</string>
+
+      <!-- Shipment cards -->
+      <string _locid="77182300">3 Dorobanți</string>
+      <string _locid="77182301">Ships 3 Dorobanți from Bucharest.</string>
+      <string _locid="77182302">4 Curteni</string>
+      <string _locid="77182303">Ships 4 Curteni from Bucharest.</string>
+      <string _locid="77182304">6 Dorobanți</string>
+      <string _locid="77182305">Ships 6 Dorobanți from Bucharest.</string>
+      <string _locid="77182306">4 Seimeni</string>
+      <string _locid="77182307">Ships 4 Seimeni from Bucharest.</string>
+      <string _locid="77182308">4 Romanian Pandurs</string>
+      <string _locid="77182309">Ships 4 Romanian Pandurs from Bucharest.</string>
+      <string _locid="77182310">6 Curteni</string>
+      <string _locid="77182311">Ships 6 Curteni from Bucharest.</string>
+      <string _locid="77182312">10 Dorobanți</string>
+      <string _locid="77182313">Ships 10 Dorobanți from Bucharest.</string>
+      <string _locid="77182314">8 Curteni</string>
+      <string _locid="77182315">Ships 8 Curteni from Bucharest.</string>
+
+
+      <!-- ========================================================
+           FINLAND STRINGS (77183xxx)
+           ======================================================== -->
+
+      <string _locid="77183001">Finns</string>
+      <string _locid="77183002">The Finns, long integrated into the Swedish military system, contributed some of the most feared cavalry in European history: the Hakkapeliitta. Finland's warriors drew on deep forest traditions to become expert skirmishers and shock troops under the Swedish crown.</string>
+
+      <string _locid="77183003">Turku</string>
+      <string _locid="77183004">The Finnish Chieftain</string>
+
+      <!-- Explorer -->
+      <string _locid="77183010">Finnish Explorer</string>
+      <string _locid="77183011">A Finnish woodsman and warrior leading expeditions far from home.</string>
+      <string _locid="77183012">Finnish Explorer</string>
+
+      <!-- Finnish Musketeer -->
+      <string _locid="77183020">Finnish Musketeer</string>
+      <string _locid="77183021">Standard Finnish line infantry trained in the Carolian style. Finnish musketeers were known for their discipline and endurance in harsh northern conditions.</string>
+      <string _locid="77183022">Finnish Musketeer</string>
+
+      <!-- Jaeger -->
+      <string _locid="77183030">Jaeger</string>
+      <string _locid="77183031">Finnish forest skirmisher with exceptional range. Jaegers are light hunters who excel at ambushing enemy formations and countering cavalry. Faster than standard skirmishers.</string>
+      <string _locid="77183032">Jaeger</string>
+
+      <!-- Knekt -->
+      <string _locid="77183040">Knekt</string>
+      <string _locid="77183041">Finnish pike infantry. The Knekt were foot soldiers in the Swedish-Finnish military system, armed with pikes to defend against cavalry charges.</string>
+      <string _locid="77183042">Knekt</string>
+
+      <!-- Hakkapeliitta -->
+      <string _locid="77183050">Hakkapeliitta</string>
+      <string _locid="77183051">Elite Finnish shock cavalry. The Hakkapeliitta were among the most feared cavalry in 17th-century Europe, known for their battle cry "Hakkaa Päälle!" (Cut them down!). Fastest cavalry in the EEX roster.</string>
+      <string _locid="77183052">Hakkapeliitta</string>
+
+      <!-- Finnish Dragoon -->
+      <string _locid="77183060">Finnish Dragoon</string>
+      <string _locid="77183061">Finnish ranged cavalry providing mobile fire support. Slightly cheaper than standard dragoons, relying on forest resources.</string>
+      <string _locid="77183062">Finnish Dragoon</string>
+
+      <!-- Politician names -->
+      <string _locid="77183100">The Logistician</string>
+      <string _locid="77183101">Sends a covered wagon to establish a settlement.</string>
+      <string _locid="77183102">The Recruiter</string>
+      <string _locid="77183103">Sends additional settlers.</string>
+      <string _locid="77183104">The Forest Guard</string>
+      <string _locid="77183105">Sends Finnish Musketeers to reinforce the colony.</string>
+      <string _locid="77183110">The Captain</string>
+      <string _locid="77183111">Sends Finnish Musketeers to spearhead the assault.</string>
+      <string _locid="77183112">The Cavalry Commander</string>
+      <string _locid="77183113">Sends Hakkapeliitta cavalry to lead the charge.</string>
+      <string _locid="77183114">The Engineer</string>
+      <string _locid="77183115">Sends a Falconet cannon.</string>
+      <string _locid="77183120">The Commander</string>
+      <string _locid="77183121">Sends a Hakkapeliitta regiment.</string>
+      <string _locid="77183122">The Timber Merchant</string>
+      <string _locid="77183123">Sends wood from Finnish forests.</string>
+      <string _locid="77183124">The Jaeger Colonel</string>
+      <string _locid="77183125">Sends Jaeger forest skirmishers.</string>
+      <string _locid="77183130">The Marshal</string>
+      <string _locid="77183131">Sends the finest Hakkapeliitta regiment.</string>
+      <string _locid="77183132">The Imperial Officer</string>
+      <string _locid="77183133">Sends substantial resources.</string>
+      <string _locid="77183134">The Grand Chieftain</string>
+      <string _locid="77183135">Mobilizes a massive Finnish Musketeer levy.</string>
+
+      <!-- Upgrade techs -->
+      <string _locid="77183200">Veteran Finnish Musketeers</string>
+      <string _locid="77183201">Improves Finnish Musketeer hit points and attack by 25%.</string>
+      <string _locid="77183202">Guard Finnish Musketeers</string>
+      <string _locid="77183203">Further improves Finnish Musketeer hit points and attack by 25%.</string>
+      <string _locid="77183210">Veteran Jaegers</string>
+      <string _locid="77183211">Improves Jaeger hit points and attack by 25%.</string>
+      <string _locid="77183212">Guard Jaegers</string>
+      <string _locid="77183213">Further improves Jaeger hit points and attack by 25%.</string>
+      <string _locid="77183220">Veteran Knekts</string>
+      <string _locid="77183221">Improves Knekt hit points and attack by 25%.</string>
+      <string _locid="77183222">Guard Knekts</string>
+      <string _locid="77183223">Further improves Knekt hit points and attack by 25%.</string>
+      <string _locid="77183230">Veteran Hakkapeliitta</string>
+      <string _locid="77183231">Improves Hakkapeliitta hit points and attack by 25%.</string>
+      <string _locid="77183232">Guard Hakkapeliitta</string>
+      <string _locid="77183233">Further improves Hakkapeliitta hit points and attack by 25%.</string>
+      <string _locid="77183234">Imperial Hakkapeliitta</string>
+      <string _locid="77183235">Maximizes Hakkapeliitta combat effectiveness.</string>
+      <string _locid="77183240">Veteran Finnish Dragoons</string>
+      <string _locid="77183241">Improves Finnish Dragoon hit points and attack by 25%.</string>
+      <string _locid="77183242">Guard Finnish Dragoons</string>
+      <string _locid="77183243">Further improves Finnish Dragoon hit points and attack by 25%.</string>
+
+      <!-- Shipment cards -->
+      <string _locid="77183300">3 Finnish Musketeers</string>
+      <string _locid="77183301">Ships 3 Finnish Musketeers from Turku.</string>
+      <string _locid="77183302">3 Hakkapeliitta</string>
+      <string _locid="77183303">Ships 3 Hakkapeliitta from Turku.</string>
+      <string _locid="77183304">6 Finnish Musketeers</string>
+      <string _locid="77183305">Ships 6 Finnish Musketeers from Turku.</string>
+      <string _locid="77183306">4 Jaegers</string>
+      <string _locid="77183307">Ships 4 Jaegers from Turku.</string>
+      <string _locid="77183308">4 Knekts</string>
+      <string _locid="77183309">Ships 4 Knekts from Turku.</string>
+      <string _locid="77183310">6 Hakkapeliitta</string>
+      <string _locid="77183311">Ships 6 Hakkapeliitta from Turku.</string>
+      <string _locid="77183312">4 Finnish Dragoons</string>
+      <string _locid="77183313">Ships 4 Finnish Dragoons from Turku.</string>
+      <string _locid="77183314">8 Hakkapeliitta</string>
+      <string _locid="77183315">Ships 8 Hakkapeliitta from Turku.</string>
+      <string _locid="77183316">10 Finnish Musketeers</string>
+      <string _locid="77183317">Ships 10 Finnish Musketeers from Turku.</string>
+
+    </language>
+  </stringtable>
+</stringmods>

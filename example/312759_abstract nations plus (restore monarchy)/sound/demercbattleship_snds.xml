@@ -1,0 +1,248 @@
+<protounitsounddef>
+  <protounit name="deMercBattleship">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="British">
+          <soundset name="BritishRocketSelect">
+          </soundset>
+        </choice>
+        <choice name="Spanish">
+          <soundset name="SpanishMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="French">
+          <soundset name="FrenchMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="MaoOutremer">
+          <soundset name="FrenchMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="Portuguese">
+          <soundset name="PortugueseMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="Dutch">
+          <soundset name="DutchMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="MaoBelgian">
+          <soundset name="DutchMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="Russians">
+          <soundset name="RussianMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="Germans">
+          <soundset name="GermanMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="MaoAustrians">
+          <soundset name="GermanMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="MaoBavarians">
+          <soundset name="GermanMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="MaoBalkans">
+          <soundset name="RussianMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="MaoSwiss">
+          <soundset name="GermanMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="MaoTeutonic">
+          <soundset name="GermanMonitorSelect">
+          </soundset>
+        </choice>
+		<choice name="Prussians">
+          <soundset name="GermanMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="Ottomans">
+          <soundset name="OttomanMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="DESwedish">
+          <soundset name="DESwedishMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="MaoFinlands">
+          <soundset name="DESwedishMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="DEItalians">
+          <soundset name="DEItalianMortarSelect">
+          </soundset>
+        </choice>
+        <choice name="DEMaltese">
+          <soundset name="FrenchMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="Chinese">
+          <soundset name="FrenchMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="MaoTatars">
+          <soundset name="ChineseShipsSelect">
+          </soundset>
+        </choice>
+        <choice name="Japanese">
+          <soundset name="FrenchMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="Indians">
+          <soundset name="FrenchMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="DEEthiopians">
+          <soundset name="FrenchMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="DEHausa">
+          <soundset name="FrenchMonitorSelect">
+          </soundset>
+        </choice>
+        <choice name="DEAmericans">
+          <soundset name="CusterSelect">
+          </soundset>
+        </choice>
+        <choice name="MaoCanadian">
+          <soundset name="CusterSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="ShipDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="British">
+          <soundset name="BritishBattleshipAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Spanish">
+          <soundset name="SpanishMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="French">
+          <soundset name="FrenchMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="MaoOutremer">
+          <soundset name="FrenchMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Portuguese">
+          <soundset name="PortugueseMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Dutch">
+          <soundset name="DutchMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="MaoBelgian">
+          <soundset name="DutchMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Russians">
+          <soundset name="RussianMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Germans">
+          <soundset name="GermanMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="MaoAustrians">
+          <soundset name="GermanMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="MaoBavarians">
+          <soundset name="GermanMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="MaoBalkans">
+          <soundset name="RussianMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="MaoSwiss">
+          <soundset name="GermanMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="MaoTeutonic">
+          <soundset name="GermanMonitorAcknowledge">
+          </soundset>
+        </choice>
+		<choice name="Prussians">
+          <soundset name="GermanMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Ottomans">
+          <soundset name="OttomanMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DESwedish">
+          <soundset name="DESwedishMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="MaoFinlands">
+          <soundset name="DESwedishMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DEItalians">
+          <soundset name="DEItalianMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DEMaltese">
+          <soundset name="FrenchMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Chinese">
+          <soundset name="FrenchMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="MaoTatars">
+          <soundset name="ChineseShipsAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Japanese">
+          <soundset name="FrenchMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="Indians">
+          <soundset name="FrenchMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DEEthiopians">
+          <soundset name="FrenchMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DEHausa">
+          <soundset name="FrenchMonitorAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="DEAmericans">
+          <soundset name="CusterAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="MaoCanadian">
+          <soundset name="CusterAcknowledge">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<submodel>
+		lumber_mill_con1
+		<component>
+			base_con
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x3_stage1</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\market\market_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>8.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>base_con</component>
+		</anim>
+	</submodel>
+	<submodel>
+		lumber_mill_con2
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\sawmill\lumbermill</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			base_con
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x3_stage2</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\market\market_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>8.00</width>
+				<height>8.00</height>
+			</decal>
+			<attach a="con" frombone="Attachpoint" tobone="Attachpoint" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>base_con</component>
+		</anim>
+	</submodel>
+	<submodel>
+		lumber_mill_con3
+		<attachment>
+			con
+			<component>
+				scaffolding
+				<assetreference type="GrannyModel">
+					<file>buildings\sawmill\lumbermill</file>
+				</assetreference>
+			</component>
+			<anim>
+				Idle
+				<component>scaffolding</component>
+			</anim>
+		</attachment>
+		<component>
+			base_con
+			<assetreference type="GrannyModel">
+				<file>buildings\constructions\3x3_stage3</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\market\market_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>8.00</width>
+				<height>8.00</height>
+			</decal>
+			<attach a="con" frombone="Attachpoint" tobone="Attachpoint" syncanims="0"/>
+		</component>
+		<anim>
+			Idle
+			<component>base_con</component>
+		</anim>
+	</submodel>
+	<submodel>
+		lumber_mill_done
+		<component>
+			lumber_mill
+			<assetreference type="GrannyModel">
+				<file>buildings\sawmill\lumbermill</file>
+			</assetreference>
+			<decal>
+				<effecttype>bump</effecttype>
+				<texture>buildings\market\market_ground</texture>
+				<selectedtexture>shadows_selections\selection_square_128x128</selectedtexture>
+				<bumptexture>shadows_selections\flat_normal_black_spec</bumptexture>
+				<width>8.00</width>
+				<height>8.00</height>
+			</decal>
+		</component>
+		<anim>
+			Idle
+			<component>lumber_mill</component>
+		</anim>
+	</submodel>
+	<component>
+		Lumber Mill
+		<logic type="BuildingCompletion">
+			<p0>
+				<submodelref ref="lumber_mill_con1"/>
+			</p0>
+			<p50>
+				<submodelref ref="lumber_mill_con2"/>
+			</p50>
+			<p80>
+				<submodelref ref="lumber_mill_con3"/>
+			</p80>
+			<p100>
+				<submodelref ref="lumber_mill_done"/>
+			</p100>
+		</logic>
+	</component>
+</animfile>

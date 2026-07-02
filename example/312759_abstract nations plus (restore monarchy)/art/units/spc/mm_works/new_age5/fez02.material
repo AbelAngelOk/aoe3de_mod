@@ -1,0 +1,44 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\sultan_mohammed\textures\sultan_mohammed_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\sultan_mohammed\textures\sultan_mohammed_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\sultan_mohammed\textures\sultan_mohammed_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\sultan_mohammed\textures\sultan_mohammed_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\colonial_militia\textures\egyptian_nizam_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\colonial_militia\textures\egyptian_nizam_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\colonial_militia\textures\egyptian_nizam_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\colonial_militia\textures\egyptian_nizam_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="UN_Costom\Blank_image">
+      </texture>
+      <texture name="Normals" override="units\spc\outlaws\textures\hajduk_matc_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\outlaws\textures\hajduk_matc_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\outlaws\textures\hajduk_matc_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="pig">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\pig\pig_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\pig\pig_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\pig\pig_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

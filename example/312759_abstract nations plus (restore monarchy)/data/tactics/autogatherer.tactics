@@ -1,0 +1,34 @@
+<tactics>
+  <action>
+    <name stringid="43019">AutoGather</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherTeam</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <autogatherteam>1</autogatherteam>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="7471486">SwissBoost</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>AbstractTownCenter</modifyabstracttype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.06</modifyamount>
+  </action>
+  <action>
+    <name stringid="68971">MaintainHCPadre</name>
+    <type>Maintain</type>
+    <rate type="mmLandsknechtHero">1.0</rate>
+    <maintainworkratemultiplier>0.5</maintainworkratemultiplier>
+    <usehcgatherpoint>1</usehcgatherpoint>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<action>MaintainHCPadre</action><action>AutoGather</action><action>AutoGatherTeam</action><action>SwissBoost</action></tactic>
+</tactics>

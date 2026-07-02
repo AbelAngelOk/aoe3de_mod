@@ -1,0 +1,66 @@
+<tactics>
+  <action>
+    <name stringid="43294">AutoGatherCoin</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">AutoGatherFood</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43296">AutoGatherWood</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43297">SpawnCannon</name>
+    <type>Maintain</type>
+    <rate type="Cannon">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43298">SpawnRocket</name>
+    <type>Maintain</type>
+    <rate type="Rocket">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">SpawnBombard</name>
+    <type>Maintain</type>
+    <rate type="GreatBombard">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">SpawnPapalBombard</name>
+    <type>Maintain</type>
+    <rate type="deNMPapalBombard">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">SpawnMercBombard</name>
+    <type>Maintain</type>
+    <rate type="MercGreatCannon">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="7471486">SwissBoost</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>AbstractTownCenter</modifyabstracttype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.06</modifyamount>
+  </action>
+  <tactic>Normal<protounitcommand>Tactic10</protounitcommand><action>AutoGatherCoin</action><transition><tactic>Food<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><transition><tactic>Wood<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><transition><tactic>Cannon<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><action>SwissBoost</action></tactic>
+  <tactic>Food<protounitcommand>Tactic11</protounitcommand><action>AutoGatherFood</action><transition><tactic>Normal<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><transition><tactic>Wood<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><transition><tactic>Cannon<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><action>SwissBoost</action></tactic>
+  <tactic>Wood<protounitcommand>Tactic12</protounitcommand><action>AutoGatherWood</action><transition><tactic>Normal<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><transition><tactic>Food<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><transition><tactic>Cannon<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><action>SwissBoost</action></tactic>
+  <tactic>Cannon<protounitcommand>Tactic13</protounitcommand><action>SpawnCannon</action><action>SpawnRocket</action><action>SpawnBombard</action><action>SpawnPapalBombard</action><action>SpawnMercBombard</action><transition><tactic>Normal<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><transition><tactic>Food<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><transition><tactic>Wood<action>SwissBoost</action></tactic><length>2</length><exit>1</exit></transition><action>SwissBoost</action></tactic>
+</tactics>

@@ -1,0 +1,87 @@
+<tactics>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>HandAttack</type>
+    <maxrange>1.0</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack</anim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+  </action>
+  <action>
+    <name stringid="69155">Convert</name>
+    <type>Convert</type>
+    <active>1</active>
+    <maxrange>12</maxrange>
+    <anim>Convert</anim>
+    <rof>1.000000</rof>
+    <conversiondelay>6.000000</conversiondelay>
+  </action>
+  <action>
+    <name stringid="69155">Heal</name>
+    <type>Heal</type>
+    <maxrange>12</maxrange>
+    <rate type="AbstractArtillery">20.0</rate>
+    <anim>Heal</anim>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="69155">HealAreaAux</name>
+    <type>Heal</type>
+    <active>1</active>
+    <maxrange>12</maxrange>
+    <rate type="LogicalTypeHealed">2.5</rate>
+    <anim>Heal</anim>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_Attack</anim>
+    <idleanim>Raze_Idle</idleanim>
+    <impacteffect>effects\impacts\torch</impacteffect>
+    <projectile>TorchProjectile</projectile>
+  </action>
+  <action>
+    <name stringid="69147">Build</name>
+    <type>Build</type>
+    <anim>Build</anim>
+    <maxrange>0.2</maxrange>
+  </action>
+  <action>
+    <name stringid="48958">ExtraDamage</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractArtillery</modifyabstracttype>
+    <active>1</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <modifytype>Armor</modifytype>
+    <modifymultiplier>1.2</modifymultiplier>
+    <modelattachment>effects\ypack_auras\malta_power.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+    <nostack>1</nostack>
+  </action>
+  <action>
+    <name stringid="69742">SabotageAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Sabotage_Attack</anim>
+    <idleanim>Sabotage_Idle</idleanim>
+    <maxheight>2.0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.001</accuracyreductionfactor>
+    <aimbonus>5</aimbonus>
+    <trackrating>12</trackrating>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+    <impacteffect>effects\impacts\sabotage</impacteffect>
+    <rof>1.000000</rof>
+    <instantballistics>0</instantballistics>
+  </action>
+  <tactic>Normal<action>Build</action><action>HealAreaAux</action><action>ExtraDamage</action><action>Heal</action><action priority="100">BuildingAttack</action><action>HandAttack</action><action priority="2">SabotageAttack</action><action>Convert</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+</tactics>

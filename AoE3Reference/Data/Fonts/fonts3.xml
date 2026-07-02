@@ -1,0 +1,4666 @@
+<fonts>
+  <font name="Arial 10">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="10">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="1280">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial 12">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial 14">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial 16">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial 32">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="32">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial 48">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="48">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial Outlined 12">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="1.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial Nobold Nodrop 12">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial Nodrop 12">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial Nodrop For Cards 12">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial Nodrop for SE 12">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial Nodrop 14">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Arial Nodrop 16">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="ButtonFont 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PostgameColumnHeadings 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="FieldLabels 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="EntryFields 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="ChatOutput 12">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="SmallLabels 12">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="HelpTitle 18">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="HelpText 14">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Watermark 10">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="10">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="SmallOnScreenHelp 10">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="10">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="ImeIndicator 20">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="20">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="11">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1024">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="IPAddy 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="11">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="HistoryTitle 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="11">
+      </param>
+      <param backgroundshadow="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="HistoryText 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="StatUnitName 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="28">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="StatUnitNameSmall 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="StatText 12">
+    <param typeface="Franklin Gothic Medium">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="TooltipText 18">
+    <param typeface="Franklin Gothic Medium">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <linearscaledsize basesize1080p="22" minsize="18">
+    </linearscaledsize>
+  </font>
+  <font name="IngameButtons 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param backgroundshadow="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="ScenarioTitle 24">
+    <param typeface="Monotype Corsiva">
+    </param>
+    <param ascentheight="30">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="32">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="34">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="GoalText 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="28">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="ObjectivesText 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="28">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="TeamText 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="NewDescriptions 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="28">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="LargeIngame 24">
+    <param typeface="Monotype Corsiva">
+    </param>
+    <param ascentheight="46">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="28">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="30">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="38">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="42">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="RegularIngame 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="SmallIngame 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="10">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="8">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="VoteIngame 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="10">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="7">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="InGameLabels 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="InGameDialogs 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="TimerDisplays 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="1.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="TimerDisplays 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="11">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="TimerDisplays 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="28">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="ScoreFont 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="1.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="FloatyText 20">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="20">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="1.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="18">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="20">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="NumbersFont 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="SmallButtonFont 10">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="10">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="8">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="8">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="AgeText 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="ChatInput 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="0.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="ChatOutline 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="1.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="ChatOutlineY 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="11">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="1.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="8">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="RolloverFont 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="SmallNumbers 10">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="10">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="OverlayNumbers 10">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Tooltips_UI">
+    <param typeface="Franklin Gothic Medium">
+    </param>
+    <param ascentheight="11">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="11">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="13">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="17">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="21">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Tooltips_GameUI">
+    <param typeface="Franklin Gothic Medium">
+    </param>
+    <param ascentheight="11">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="11">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="13">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="17">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="21">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Tooltips_World">
+    <param typeface="Franklin Gothic Medium">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Tooltips_HomeCity">
+    <param typeface="Franklin Gothic Medium">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="StatAreaText 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="0">
+    </param>
+    <param backgroundalpha="1.0">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="InGameTabs 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="TechTree 11">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="11">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="6">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="8">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+      <param bold="true">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="16">
+      </param>
+      <param bold="true">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="TechTreeRollover 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param typeface="Formal436 BT">
+      </param>
+      <param ascentheight="8">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="11">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="TechTreeLargeLabels 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="AgeUpgradeLarge 26">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="26">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="30">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="32">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="AgeUpgradeMedium 17">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="17">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="11">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="AgeUpgradeSmall 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="InGameDialogsLarge 30">
+    <param typeface="Monotype Corsiva">
+    </param>
+    <param ascentheight="32">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="32">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="34">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="VictoryPointUI 30">
+    <param typeface="Monotype Corsiva">
+    </param>
+    <param ascentheight="30">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="true">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="30">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="32">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="ScenarioTitleLarge 26">
+    <param typeface="Monotype Corsiva">
+    </param>
+    <param ascentheight="26">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="30">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="34">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="SPCLoadingTitle 40">
+    <param typeface="Monotype Corsiva">
+    </param>
+    <param ascentheight="40">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="30">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="40">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="44">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="SPLoadingScreenText 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Subtitles 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="SubtitleName 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="SubtitleNameNew 20">
+    <param typeface="Monotype Corsiva">
+    </param>
+    <param ascentheight="20">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="800">
+      <param ascentheight="16">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="32">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="RecordGame 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="StatsLabels 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Stats 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="UnitName 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="28">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="SmallIngame 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="History 12">
+    <param typeface="Arial">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="bold">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="8">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="HelpHelp 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="HelpLabel 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="HelpTitleText 20">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PostgameTableEntry 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PostgameTableEntryShadow 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PostgameTableEntrySmall 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="8">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PostgameColumnHeader 12">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="8">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PostgameTab 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PostgameLabel 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PostgameButton 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="11">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PostgameRollover 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PickerTitle 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param typeface="Formal436 BT">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="GodPickerTitles 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PregameHeaders 22">
+    <param typeface="Monotype Corsiva">
+    </param>
+    <param ascentheight="28">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="30">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="34">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PregameLarge 30">
+    <param typeface="Monotype Corsiva">
+    </param>
+    <param ascentheight="34">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="30">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="42">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="44">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="ScrollFont 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="15">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha=".5">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param typeface="Formal436 BT">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PlayerNames 15">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="15">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param typeface="Formal436 BT">
+      </param>
+      <param ascentheight="9">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="TabFont 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="RadioButtons 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="0.5">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="MainMenuButtons 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="11">
+      </param>
+      <param backgroundshadow="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PregameButtons 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="11">
+      </param>
+      <param backgroundshadow="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="16">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PregameButtonsSmall 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PregameSmallLabels 15">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="15">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PregameEntry 15">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="15">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PregameRollover 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param typeface="Formal436 BT">
+      </param>
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="11">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PregameChat 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="MotD 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PregameErrorText 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PregameLabels 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="13">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="26">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="PeopleListItems 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param typeface="Formal436 BT">
+      </param>
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="CampaignListItem 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+      <param typeface="Formal436 BT">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="GamesListSmallLabels 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <param spacingadjustment="0">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="9">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="14">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="GamesListMediumLabels 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="true">
+    </param>
+    <param backgroundoffset="1">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="GamesListGameName 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="GamesListNumberPlayers 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="GamesListGameSetting 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="GamesListPlayerName 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="14">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="AboutBoxVersion 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="true">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="12">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="14">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="AboutBoxCopyright 18">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="18">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="14">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="AboutBoxWarning 16">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="14">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="AboutBoxEntry 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="14">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="AboutBoxPID 14">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="16">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="14">
+      </param>
+      <param bold="false">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="20">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="24">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="CampaignDescription 15">
+    <param typeface="Formal436 BT">
+    </param>
+    <param ascentheight="15">
+    </param>
+    <param antialiased="true">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+    <param backgroundoffset="2">
+    </param>
+    <param backgroundalpha="1">
+    </param>
+    <resolutionoverride resx="640">
+      <param ascentheight="10">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="800">
+      <param ascentheight="12">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1280">
+      <param ascentheight="18">
+      </param>
+    </resolutionoverride>
+    <resolutionoverride resx="1600">
+      <param ascentheight="22">
+      </param>
+    </resolutionoverride>
+  </font>
+  <font name="Courier 12">
+    <param typeface="Courier New">
+    </param>
+    <param ascentheight="12">
+    </param>
+    <param antialiased="false">
+    </param>
+    <param bold="false">
+    </param>
+    <param italic="false">
+    </param>
+    <param backgroundoutline="false">
+    </param>
+    <param backgroundshadow="false">
+    </param>
+  </font>
+</fonts>

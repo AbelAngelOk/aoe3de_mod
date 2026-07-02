@@ -1,0 +1,127 @@
+<tactics>
+  <action>
+    <name stringid="68971">MaintainSettlersOttoman</name>
+    <type>Maintain</type>
+    <rate type="mmMerchant">1.0</rate>
+    <active>1</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="43294">AutoGatherCoin</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43295">AutoGatherFood</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43296">AutoGatherWood</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43296">AutoGatherXP</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">SpawnFood1</name>
+    <type>Maintain</type>
+    <rate type="CrateofFood">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">SpawnWood1</name>
+    <type>Maintain</type>
+    <rate type="CrateofWood">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43299">SpawnGold1</name>
+    <type>Maintain</type>
+    <rate type="CrateofCoin">1.0 </rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<protounitcommand>Tactic10</protounitcommand>
+  <action>AutoGatherCoin</action>
+  <action>SpawnGold1</action>
+  <transition>
+  <tactic>Food</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  <transition>
+  <tactic>Wood</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  <transition>
+  <tactic>MerceriaSettler</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  </tactic>
+  <tactic>Food<protounitcommand>Tactic11</protounitcommand>
+  <action>AutoGatherFood</action>
+  <action>SpawnFood1</action>
+  <transition>
+  <tactic>Normal</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  <transition>
+  <tactic>Wood</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  <transition>
+  <tactic>MerceriaSettler</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  </tactic>
+  <tactic>Wood<protounitcommand>Tactic12</protounitcommand>
+  <action>AutoGatherWood</action>
+  <action>SpawnWood1</action>
+  <transition>
+  <tactic>Normal</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  <transition>
+  <tactic>Food</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  <transition>
+  <tactic>MerceriaSettler</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  </tactic>
+  <tactic>MerceriaSettler<protounitcommand>deMerceriaSettler</protounitcommand>
+  <action>AutoGatherXP</action>
+  <action>MaintainSettlersOttoman</action>
+  <transition>
+  <tactic>Normal</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  <transition>
+  <tactic>Food</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  <transition>
+  <tactic>Wood</tactic>
+  <length>2</length>
+  <exit>1</exit>
+  </transition>
+  </tactic>
+  </tactics>

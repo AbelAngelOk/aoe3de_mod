@@ -1,0 +1,196 @@
+<tactics>
+  <action>
+    <name stringid="69158">Spawn2</name>
+    <type>Spawn</type>
+    <rate type="ypKensei">1.0 </rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnLandwehr</name>
+    <type>Spawn</type>
+    <rate type="deLandwehr">2.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnLandwehr2</name>
+    <type>Spawn</type>
+    <rate type="deLandwehr">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69776">SpawnLandwehrOnce</name>
+    <type>Spawn</type>
+    <rate type="deLandwehr">2.0</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">SpawnUhlan</name>
+    <type>Spawn</type>
+    <rate type="Uhlan">2.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnUhlan2</name>
+    <type>Spawn</type>
+    <rate type="Uhlan">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69776">SpawnUhlanOnce</name>
+    <type>Spawn</type>
+    <rate type="Uhlan">2.0</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">SpawnLangeKerls</name>
+    <type>Spawn</type>
+    <rate type="mmStatGrenadier">2.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69158">SpawnLangeKerls2</name>
+    <type>Spawn</type>
+    <rate type="mmStatGrenadier">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="69776">SpawnLangeKerlsOnce</name>
+    <type>Spawn</type>
+    <rate type="mmStatGrenadier">2.0</rate>
+    <active>1</active>
+    <persistent>0</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69158">Spawn</name>
+    <type>Spawn</type>
+    <rate type="Halberdier">10.0 </rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="68971">MaintainPirateHaiti</name>
+    <type>Maintain</type>
+    <rate type="deREVPirateBatch">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGather</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherTrade</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherXP</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherGold</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherFood</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherWood</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="112252">AreaHeal</name>
+    <type>AutoRangedModify</type>
+    <maxrange>18</maxrange>
+    <active>0</active>
+    <modifyabstracttype>LogicalTypeHealed</modifyabstracttype>
+    <persistent>1</persistent>
+    <modifytype>HealRate</modifytype>
+    <modifyamount>10</modifyamount>
+    <modifytargetlimit>25</modifytargetlimit>
+    <restricttoidleunits>1</restricttoidleunits>
+    <modelattachment>effects\areaheal.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="69155">Heal</name>
+    <active>0</active>
+    <type>Heal</type>
+    <maxrange>18</maxrange>
+    <rate type="LogicalTypeHealed">5.0</rate>
+    <anim>Heal</anim>
+  </action>
+  <action>
+    <name stringid="69180">deSpawnSettlerWagon</name>
+    <type>Spawn</type>
+    <rate type="SettlerWagon">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="112436">MilitaryBuildingWorkRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>24</maxrange>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifyself>1</modifyself>
+    <modifytype>BuildingWorkRate</modifytype>
+    <modifyabstracttype>AbstractOutpost</modifyabstracttype>
+    <forbidabstracttype>AbstractTownCenter</forbidabstracttype>
+    <modifymultiplier>1.450</modifymultiplier>
+    <modifybase>1.0</modifybase>
+  </action>
+  <action>
+    <name stringid="7471486">SwissBoost</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>AbstractTownCenter</modifyabstracttype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.06</modifyamount>
+  </action>
+  <tactic>Normal<action>Heal</action><action>AreaHeal</action><action>deSpawnSettlerWagon</action><action>AutoGather</action><action>AutoGatherTrade</action><action>AutoGatherXP</action><action>AutoGatherGold</action><action>AutoGatherFood</action><action>AutoGatherWood</action><action>SpawnLandwehr</action><action>SpawnLandwehr2</action><action>SpawnUhlan</action><action>SpawnUhlan2</action><action>SpawnLangeKerls</action><action>SpawnLangeKerls2</action><action>Spawn</action><action>Spawn2</action><action>MaintainPirateHaiti</action><action>MilitaryBuildingWorkRateBonus</action><action>SwissBoost</action></tactic>
+</tactics>

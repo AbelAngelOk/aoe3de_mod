@@ -1,0 +1,568 @@
+<tactics>
+  <action>
+    <name stringid="38127">VolleyRangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Volley_standing_attack</anim>
+    <reloadanim>Volley_standing_reload</reloadanim>
+    <idleanim>Volley_standing_idle</idleanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>1.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <minrange>2</minrange>
+    <rate type="Unit">1.0</rate>
+    <throw>1</throw>
+    <damage>13.000000</damage>
+    <maxrange>12.000000</maxrange>
+    <rof>2.000000</rof>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="38130">VolleyHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Charge_attack</anim>
+    <idleanim>Charge_idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+  </action>
+  <action>
+    <name stringid="38136">DefendRangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Defend_kneeling_attack</anim>
+    <reloadanim>Defend_kneeling_reload</reloadanim>
+    <idleanim>Defend_idle</idleanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>1.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <minrange>2</minrange>
+    <rate type="Unit">1.0</rate>
+    <throw>1</throw>
+    <damage>13.000000</damage>
+    <maxrange>12.000000</maxrange>
+    <rof>2.000000</rof>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="38137">DefendHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Charge_attack</anim>
+    <idleanim>Charge_idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <damage>6.5</damage>
+    <rof>1.0</rof>
+  </action>
+  <action>
+    <name stringid="38129">StaggerRangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Volley_standing_attack</anim>
+    <reloadanim>Volley_standing_reload</reloadanim>
+    <idleanim>Volley_standing_idle</idleanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>1.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <minrange>2</minrange>
+    <rate type="Unit">1.0</rate>
+    <throw>1</throw>
+    <damage>13.000000</damage>
+    <maxrange>12.000000</maxrange>
+    <rof>2.000000</rof>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="38129">StandGroundRangedAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Volley_standing_attack</anim>
+    <reloadanim>Volley_standing_reload</reloadanim>
+    <idleanim>Volley_standing_idle</idleanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>1.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>5</maxspread>
+    <spreadfactor>0.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <minrange>2</minrange>
+    <rate type="Unit">1.0</rate>
+    <throw>1</throw>
+    <damage>13.000000</damage>
+    <maxrange>12.000000</maxrange>
+    <rof>2.000000</rof>
+    <instantballistics>1</instantballistics>
+  </action>
+  <action>
+    <name stringid="38132">StaggerHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Charge_attack</anim>
+    <idleanim>Charge_idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <damage>6.5</damage>
+    <rof>1.0</rof>
+  </action>
+  <action>
+    <name stringid="38135">MeleeHandAttack</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="Unit">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>Charge_attack</anim>
+    <idleanim>Charge_idle</idleanim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <damage>6.5</damage>
+    <rof>1.0</rof>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_attack</anim>
+    <idleanim>Raze_idle</idleanim>
+    <impacteffect>effects\impacts\torch</impacteffect>
+    <projectile>TorchProjectile</projectile>
+  </action>
+  <action>
+    <name stringid="69147">Build</name>
+    <type>Build</type>
+    <anim>Build</anim>
+    <active>1</active>
+    <maxrange>0.2</maxrange>
+  </action>
+  <action>
+    <name stringid="42178">Gather</name>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+    <active>1</active>
+    <typedanim type="deFurTrade">GatherBush</typedanim>
+    <rate type="Plantation">0.0</rate>
+    <rate type="AbstractMine">1.0</rate>
+    <rate type="SPCSpanishShipRuins">1.0</rate>
+    <rate type="Farm">0.0</rate>
+    <rate type="Mill">0.0</rate>
+    <rate type="CommunityPlaza">0.0</rate>
+    <rate type="AbstractBerryBush">1.0</rate>
+    <rate type="Tree">1.0</rate>
+    <rate type="Herdable">1.0</rate>
+    <rate type="AbstractInfiniteCrate">1.0</rate>
+    <rate type="Huntable">1.0</rate>
+    <rate type="ypBerryBuilding">1.0</rate>
+    <rate type="ypGroveBuilding">1.0</rate>
+  </action>
+  <action>
+    <name stringid="69151">Hunting</name>
+    <type>Hunting</type>
+    <maxrange>10</maxrange>
+    <active>1</active>
+    <rate type="Herdable">1.0</rate>
+    <rate type="Huntable">1.0</rate>
+    <rate type="AbstractInfiniteCrate">1.0</rate>
+    <rate type="Tree">1.0</rate>
+    <typedmaxrange type="Herdable">0</typedmaxrange>
+    <typedmaxrange type="Huntable">10</typedmaxrange>
+    <typedmaxrange type="AbstractInfiniteCrate">0</typedmaxrange>
+    <typedmaxrange type="Tree">0</typedmaxrange>
+  </action>
+  <action>
+    <name stringid="69150">CrateGather</name>
+    <anim>GatherCrate</anim>
+    <active>1</active>
+    <type>Gather</type>
+    <maxrange>0.5</maxrange>
+    <rate type="AbstractResourceCrate">1.0</rate>
+  </action>
+  <action>
+    <name stringid="42136">ChopAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>GatherChop</anim>
+    <active>1</active>
+    <maxrange>2</maxrange>
+    <rate type="Tree">1.0</rate>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="69148">Discover</name>
+    <type>Discover</type>
+    <anim>Pickup</anim>
+    <active>1</active>
+    <maxrange>0.2</maxrange>
+    <rate type="AbstractNuggetLand">1.0</rate>
+  </action>
+  <action>
+    <name stringid="91782">HandAttackCrate</name>
+    <type>Attack</type>
+    <maxrange>1.75</maxrange>
+    <rate type="AbstractInfiniteCrate">1.0</rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>GatherCrateAttack</anim>
+    <active>1</active>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <hidefromstats>1</hidefromstats>
+  </action>
+  <action>
+    <name stringid="110085">BuckshotChargeAttack</name>
+    <type>Attack</type>
+    <active>1</active>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <chargeaction>1</chargeaction>
+    <anim>RangedAttackSpecial</anim>
+    <idleanim>Idle</idleanim>
+    <maxheight>0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.5</accuracyreductionfactor>
+    <aimbonus>0</aimbonus>
+    <maxspread>35</maxspread>
+    <spreadfactor>5.25</spreadfactor>
+    <trackrating>12</trackrating>
+    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
+    <projectile>InvisibleProjectile</projectile>
+    <impacteffect>effects\impacts\gun</impacteffect>
+    <minrange>2</minrange>
+    <rate type="Military">1.0 </rate>
+    <forbidabstracttype>Huntable</forbidabstracttype>
+    <forbidabstracttype>AbstractArtillery</forbidabstracttype>
+    <instantballistics>1</instantballistics>
+    <basedamagecap>1</basedamagecap>
+    <displayednumberprojectiles>6</displayednumberprojectiles>
+  </action>
+  <action>
+    <name stringid="43019">NATAutoGatherCoinAnimal</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <donotautogatherunlessgatheringtypes>
+      <unittype>Huntable</unittype>
+      <unittype>Herdable</unittype>
+      <unittype>AbstractBerryBush</unittype>
+    </donotautogatherunlessgatheringtypes>
+    <persistent>1</persistent>
+    <rate type="Food">0.150000</rate>
+  </action>
+  <action>
+    <name stringid="43019">NATAutoGatherCoinPlant</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <donotautogatherunlessgatheringtypes>
+      <unittype>Tree</unittype>
+    </donotautogatherunlessgatheringtypes>
+    <persistent>1</persistent>
+    <rate type="Wood">0.150000</rate>
+  </action>
+  <action>
+    <name stringid="43019">NATAutoGatherCoinMine</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <donotautogatherunlessgatheringtypes>
+      <unittype>AbstractMine</unittype>
+    </donotautogatherunlessgatheringtypes>
+    <persistent>1</persistent>
+    <rate type="Gold">0.150000</rate>
+  </action>
+  <action>
+    <name stringid="91720">AreaGatherMine</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractMine</modifyabstracttype>
+    <forbidunittype>Plantation</forbidunittype>
+    <includegaia>1</includegaia>
+    <active>0</active>
+    <maxrange>6.1</maxrange>
+    <persistent>1</persistent>
+    <singleunit>1</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>0.54</modifyamount>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91720">AreaGatherTree2</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Tree</modifyabstracttype>
+    <targetgaia>1</targetgaia>
+    <active>0</active>
+    <maxrange>6.2</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <forceupdatemode>1</forceupdatemode>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>0.1</modifyamount>
+    <modifytargetlimit>5</modifytargetlimit>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91720">AreaGatherTree</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Tree</modifyabstracttype>
+    <targetgaia>1</targetgaia>
+    <active>1</active>
+    <maxrange>6.2</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <forceupdatemode>1</forceupdatemode>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>0.05</modifyamount>
+    <modifytargetlimit>5</modifytargetlimit>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="113171">AreaGatherHerdable</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Herdable</modifyabstracttype>
+    <targetgaia>1</targetgaia>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <deadexclusive>1</deadexclusive>
+    <singleunit>1</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>1.0</modifyamount>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91720">AreaGatherHuntable</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Huntable</modifyabstracttype>
+    <targetgaia>1</targetgaia>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <deadexclusive>1</deadexclusive>
+    <singleunit>1</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>0.82</modifyamount>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91720">AreaGatherBerryBush</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractBerryBush</modifyabstracttype>
+    <includegaia>1</includegaia>
+    <active>0</active>
+    <maxrange>6.1</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <singleunit>1</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>0.5</modifyamount>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91720">AreaGatherBerryBuilding</name>
+    <type>AutoRangedModify</type>
+    <modifyprotoid>ypBerryBuilding</modifyprotoid>
+    <active>0</active>
+    <maxrange>6.1</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <singleunit>1</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>0.535</modifyamount>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91720">AreaGatherGroveBuilding</name>
+    <type>AutoRangedModify</type>
+    <modifyprotoid>ypGroveBuilding</modifyprotoid>
+    <active>0</active>
+    <maxrange>6.1</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <singleunit>0</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>0.1</modifyamount>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91721">AreaGatherCrate</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractResourceCrate</modifyabstracttype>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <singleunit>1</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>4.0</modifyamount>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Volley
+  <action priority="90">VolleyRangedAttack</action>
+  <action priority="75">BuildingAttack</action>
+  <action priority="50">ChopAttack</action>
+  <action priority="40">HandAttackCrate</action>
+  <action priority="25">VolleyHandAttack</action>
+  <action priority="100">BuckshotChargeAttack</action>
+  <action>Build</action><action>NATAutoGatherCoinAnimal</action><action>NATAutoGatherCoinPlant</action><action>NATAutoGatherCoinMine</action>
+  <action>Gather</action>
+  <action>CrateGather</action>
+  <action>Hunting</action>
+  <action>Discover</action>
+  <action>AreaGatherMine</action>
+  <action>AreaGatherTree</action>
+  <action>AreaGatherTree2</action>
+  <action>AreaGatherHerdable</action>
+  <action>AreaGatherHuntable</action>
+  <action>AreaGatherBerryBush</action>
+  <action>AreaGatherBerryBuilding</action>
+  <action>AreaGatherGroveBuilding</action>
+  <action>AreaGatherCrate</action>
+  <action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget><transition><tactic>Stealth</tactic><length>2</length>
+  <anim>Cover_In</anim><exit>1</exit></transition><idleanim>Volley_standing_idle</idleanim><boredanim>Volley_standing_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Volley_walk</walkanim><joganim>Volley_jog</joganim><runanim>Volley_run</runanim></tactic>
+  <tactic>Defend
+  <action priority="90">DefendRangedAttack</action>
+  <action priority="75">BuildingAttack</action>
+  <action priority="50">ChopAttack</action>
+  <action priority="40">HandAttackCrate</action>
+  <action priority="25">DefendHandAttack</action>
+  <action priority="100">BuckshotChargeAttack</action>
+  <action>Build</action><action>NATAutoGatherCoinAnimal</action><action>NATAutoGatherCoinPlant</action><action>NATAutoGatherCoinMine</action>
+  <action>Gather</action>
+  <action>CrateGather</action>
+  <action>Hunting</action>
+  <action>Discover</action>
+  <action>AreaGatherMine</action>
+  <action>AreaGatherTree</action>
+  <action>AreaGatherTree2</action>
+  <action>AreaGatherHerdable</action>
+  <action>AreaGatherHuntable</action>
+  <action>AreaGatherBerryBush</action>
+  <action>AreaGatherBerryBuilding</action>
+  <action>AreaGatherGroveBuilding</action>
+  <action>AreaGatherCrate</action>
+  <action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Stealth</tactic><length>2</length>
+  <anim>Cover_In</anim><exit>1</exit></transition><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Defend_walk</walkanim><joganim>Defend_jog</joganim><runanim>Defend_run</runanim></tactic>
+  <tactic>Stagger
+  <action priority="90">StaggerRangedAttack</action>
+  <action priority="75">BuildingAttack</action>
+  <action priority="50">ChopAttack</action>
+  <action priority="40">HandAttackCrate</action>
+  <action priority="25">StaggerHandAttack</action>
+  <action priority="100">BuckshotChargeAttack</action>
+  <action>Build</action><action>NATAutoGatherCoinAnimal</action><action>NATAutoGatherCoinPlant</action><action>NATAutoGatherCoinMine</action>
+  <action>Gather</action>
+  <action>CrateGather</action>
+  <action>Hunting</action>
+  <action>Discover</action>
+  <action>AreaGatherMine</action>
+  <action>AreaGatherTree</action>
+  <action>AreaGatherTree2</action>
+  <action>AreaGatherHerdable</action>
+  <action>AreaGatherHuntable</action>
+  <action>AreaGatherBerryBush</action>
+  <action>AreaGatherBerryBuilding</action>
+  <action>AreaGatherGroveBuilding</action>
+  <action>AreaGatherCrate</action>
+  <action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Stealth</tactic><length>2</length>
+  <anim>Cover_In</anim><exit>1</exit></transition><idleanim>Cover_ranged_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+  <tactic>Melee
+  <action priority="90">BuildingAttack</action>
+  <action priority="50">ChopAttack</action>
+  <action priority="40">HandAttackCrate</action>
+  <action priority="25">MeleeHandAttack</action>
+  <action priority="100">BuckshotChargeAttack</action>
+  <action>Build</action><action>NATAutoGatherCoinAnimal</action><action>NATAutoGatherCoinPlant</action><action>NATAutoGatherCoinMine</action>
+  <action>Gather</action>
+  <action>CrateGather</action>
+  <action>Hunting</action>
+  <action>Discover</action>
+  <action>AreaGatherMine</action>
+  <action>AreaGatherTree</action>
+  <action>AreaGatherTree2</action>
+  <action>AreaGatherHerdable</action>
+  <action>AreaGatherHuntable</action>
+  <action>AreaGatherBerryBush</action>
+  <action>AreaGatherBerryBuilding</action>
+  <action>AreaGatherGroveBuilding</action>
+  <action>AreaGatherCrate</action>
+  <action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Stealth</tactic><length>2</length>
+  <anim>Cover_In</anim><exit>1</exit></transition><idleanim>Charge_idle</idleanim><boredanim>Charge_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Charge_walk</walkanim><joganim>Charge_jog</joganim><runanim>Charge_run</runanim></tactic>
+  <tactic>StandGround
+  <action priority="90">StandGroundRangedAttack</action>
+  <action priority="75">BuildingAttack</action>
+  <action priority="50">ChopAttack</action>
+  <action priority="40">HandAttackCrate</action>
+  <action priority="25">DefendHandAttack</action>
+  <action priority="100">BuckshotChargeAttack</action>
+  <action>Build</action><action>NATAutoGatherCoinAnimal</action><action>NATAutoGatherCoinPlant</action><action>NATAutoGatherCoinMine</action>
+  <action>Gather</action>
+  <action>CrateGather</action>
+  <action>Hunting</action>
+  <action>Discover</action>
+  <action>AreaGatherMine</action>
+  <action>AreaGatherTree</action>
+  <action>AreaGatherTree2</action>
+  <action>AreaGatherHerdable</action>
+  <action>AreaGatherHuntable</action>
+  <action>AreaGatherBerryBush</action>
+  <action>AreaGatherBerryBuilding</action>
+  <action>AreaGatherGroveBuilding</action>
+  <action>AreaGatherCrate</action>
+  <action>AutoGatherInfluence</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget><transition><tactic>Stealth</tactic><length>2</length>
+  <anim>Cover_In</anim><exit>1</exit></transition><idleanim>Defend_idle</idleanim><boredanim>Defend_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Defend_walk</walkanim><joganim>Defend_jog</joganim><runanim>Defend_run</runanim></tactic>
+  <tactic>Stealth<action>Stealth</action><active>0</active><checkifcanstealth range="25.0">1</checkifcanstealth><speedmodifier>0.5</speedmodifier><attacktype>LogicalTypeHandUnitsAttack</attacktype><transition><tactic>Melee</tactic><length>0.3</length>
+  <anim>Cover_Out</anim><exit>1</exit><automatic>1</automatic><commandautomatic>1</commandautomatic></transition><transition><tactic>Stagger</tactic><length>0.3</length>
+  <anim>Cover_Out</anim><exit>1</exit><automatic>1</automatic><commandautomatic>1</commandautomatic></transition><transition><tactic>Defend</tactic><length>0.3</length>
+  <anim>Cover_Out</anim><exit>1</exit><automatic>1</automatic><commandautomatic>1</commandautomatic></transition><transition><tactic>Volley</tactic><length>0.3</length>
+  <anim>Cover_Out</anim><exit>1</exit><automatic>1</automatic><commandautomatic>1</commandautomatic></transition><transition><tactic>StandGround</tactic><length>0.3</length>
+  <anim>Cover_Out</anim><exit>1</exit><automatic>1</automatic><commandautomatic>1</commandautomatic></transition><autoretarget>0</autoretarget><idleanim>Cover_ranged_idle</idleanim><boredanim>Cover_bored</boredanim><deathanim>Death_by_melee</deathanim><walkanim>Cover_walk</walkanim><joganim>Cover_jog</joganim><runanim>Cover_run</runanim></tactic>
+</tactics>

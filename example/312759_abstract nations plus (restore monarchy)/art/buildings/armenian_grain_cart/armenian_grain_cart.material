@@ -1,0 +1,40 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="patch\plymouth\pumpkins_bundle1\textures\pumpkins_bundle_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="patch\plymouth\pumpkins_bundle1\textures\pumpkins_bundle_matA_Normals">
+      </texture>
+      <texture name="Masks" override="patch\plymouth\pumpkins_bundle1\textures\pumpkins_bundle_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\villagers\settler_wagon\textures\settler_wagon_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\villagers\settler_wagon\textures\settler_wagon_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\villagers\settler_wagon\textures\settler_wagon_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\villagers\settler_wagon\textures\settler_wagon_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="buildings\armenian_grain_cart\textures\armenian_grain_cart_matc_BaseColor">
+      </texture>
+      <texture name="Normals" override="buildings\armenian_grain_cart\textures\armenian_grain_cart_matc_Normals">
+      </texture>
+      <texture name="Masks" override="buildings\armenian_grain_cart\textures\armenian_grain_cart_matc_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

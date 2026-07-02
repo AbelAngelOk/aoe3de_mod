@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\natives\sepoy\textures\sepoy_mansabdar_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\natives\sepoy\textures\sepoy_mansabdar_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\natives\sepoy\textures\sepoy_mansabdar_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\natives\sepoy\textures\sepoy_mansabdar_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\asians\natives\sepoy\textures\sepoy_mansabdar_matS_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\natives\sepoy\textures\sepoy_mansabdar_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\natives\sepoy\textures\sepoy_mansabdar_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\natives\sepoy\textures\sepoy_mansabdar_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

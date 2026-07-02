@@ -1,0 +1,11 @@
+<statemachine>
+  <startstate>Idle</startstate>
+  <state>Idle<anim weight="100">Idle</anim><event type="AnimLooped" count="1"><transition weight="5">Idle</transition><transition weight="10">Graze_1</transition><transition weight="10">Graze_2</transition><transition weight="80">Bored</transition><transition weight="5">Lie_Down</transition></event></state>
+  <state>Bored<anim weight="100">Bored</anim><event type="AnimLooped" count="1"><transition weight="25">Bored</transition><transition weight="45">Idle</transition><transition weight="15">Graze_1</transition><transition weight="15">Graze_2</transition><transition weight="10">Lie_Down</transition></event></state>
+  <state>Graze_1<anim weight="100">Graze_1</anim><event type="AnimLooped" count="1"><transition weight="10">Graze_1</transition><transition weight="20">Bored</transition><transition weight="40">Idle</transition><transition weight="35">Graze_2</transition><transition weight="5">Lie_Down</transition></event></state>
+  <state>Graze_2<anim weight="100">Graze_2</anim><event type="AnimLooped" count="1"><transition weight="5">Graze_2</transition><transition weight="50">Bored</transition><transition weight="40">Idle</transition><transition weight="10">Graze_1</transition><transition weight="5">Lie_Down</transition></event></state>
+  <state>Lie_Down<anim weight="100" loop="0">LayDown</anim><event type="AnimLooped" count="1"><transition weight="95">Down_Idle</transition><transition weight="15">Down_Bored</transition></event></state>
+  <state>Down_Idle<anim weight="100">LayDownIdle</anim><event type="AnimLooped" count="1"><transition weight="90">Down_Idle</transition><transition weight="15">Down_Bored</transition><transition weight="5">Get_Up</transition></event></state>
+  <state>Down_Bored<anim weight="100">LayDownBored</anim><event type="AnimLooped" count="2"><transition weight="75">Down_Idle</transition><transition weight="20">Down_Bored</transition><transition weight="15">Get_Up</transition></event></state>
+  <state>Get_Up<anim weight="100" loop="0">GetUp</anim><event type="AnimLooped" count="1"><transition weight="65">Idle</transition><transition weight="10">Graze_1</transition><transition weight="25">Graze_2</transition><transition weight="10">Bored</transition></event></state>
+</statemachine>

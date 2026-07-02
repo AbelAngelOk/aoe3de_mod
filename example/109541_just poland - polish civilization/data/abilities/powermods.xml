@@ -1,0 +1,34 @@
+<powermods>
+  <power name="STARKUnitHetmanAura" type="UnitAction">
+    <displaynameid>77092043</displaynameid>
+    <rolloverid>77092044</rolloverid>
+    <icon>resources\images\icons\poles\tech_passive_obedience_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="STARKUnitSobieskiAura" type="UnitAction">
+    <displaynameid>77092045</displaynameid>
+    <rolloverid>77092046</rolloverid>
+    <icon>resources\images\icons\poles\tech_passive_speed_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="STARKLisowczykAura" type="UnitAction">
+    <displaynameid>77092134</displaynameid>
+    <rolloverid>77092135</rolloverid>
+    <icon>resources\images\icons\poles\lisowczyk_fear_aura.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="STARKTaborAura" type="UnitAction">
+    <displaynameid>77092139</displaynameid>
+    <rolloverid>77092140</rolloverid>
+    <icon>resources\images\icons\poles\tabor_boost_icon.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="STARKChargeOfTheUhlansSound" type="GeneralEffect">
+    <activetime>10</activetime>
+    <soundset type="StartSound" listenertype="Caster">STARKChargeOfTheUhlans</soundset>
+  </power>
+  <power name="STARKWingedHussarsArrivedSound" type="GeneralEffect">
+    <activetime>10</activetime>
+    <soundset type="StartSound" listenertype="Caster">STARKWingedHussarsArrived</soundset>
+  </power>
+</powermods>

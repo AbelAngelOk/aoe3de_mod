@@ -1,0 +1,337 @@
+<stringmods>
+<stringtable>
+  <language name="">
+    <string _locid="77092001">Poles</string>
+    <string _locid="77092002">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nStart with a Scout Uhlan and a Cow. Outposts and forts can ship a group of military units.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;\nScout Uhlan (Krakus), Scytheman (Partisan Scytheman)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nScythemen, Piechurs, Dziesietniks, Scout Uhlans, Companions, Lisowczyky, Tabors\n&lt;color=1.0, 1.0, 0.0&gt;Unique buildings:&lt;/color&gt;\nFolwarks, Royal Stables</string>
+    <string _locid="77092003">Warszawa</string>
+	<string _locid="77092004">Stanislas</string>
+	
+	<string _locid="77092010">Treaties of Tilsit</string>
+	<string _locid="77092011">Dabrowski's Legion</string>
+	<string _locid="77092012">Danube Legion</string>
+	<string _locid="77092013">Vistula Legion</string>
+	<string _locid="77092014">Constitution of the Duchy of Warsaw</string>
+	<string _locid="77092015">Cavalry moves faster, especially Uhlans</string>
+	<string _locid="77092018">Foot Guard</string>
+	<string _locid="77092019">Ships a regiment of musket-armed Foot Guards.</string>
+	<string _locid="77092020">Provides your Church with unique Polish improvements.</string>		
+	<string _locid="77092021">Ships a regiment of musket-armed Foot Guards. Foot Guards can be trained at Forts and Barracks.</string>
+
+	<string _locid="77092022">Smoke and Lans Levy</string>
+	<string _locid="77092023">Sends 1 Piechur for each existing house and 4 Scythemen for each existing folwark and estate. Up to a maximum of 15 of each. All Infantry train faster.</string>
+	<string _locid="77092024">Piechur Spawn</string>
+	<string _locid="77092025">Bourbon Intervention</string>
+	<string _locid="77092026">Tabors</string>
+	<string _locid="77092027">Ships 2 Tabors, war wagons able to transport units and fortify positions, and unlocks them at the Artillery Foundry.</string>
+	<string _locid="77092028">Holy League relief force</string>
+	<string _locid="77092029">You send a detachment of 3 winged hussars to help your besieged allies ! You personally receive an auxiliary force sent by the Holy League, consisting of 3 Winged Hussars, 3 Doppelsoldners of the Holy Roman Empire and 3 Pavisiers from the Republic of Venice.</string>
+	<string _locid="77092030">Tarnowski Tactics</string>
+	<string _locid="77092031">Jan Tarnowski turns all existing Falconets into Horse Artillery and makes Horse Artillery train faster. Allows Jan Tarnowski to train Horse Artillery.</string>	
+	<string _locid="77092032">Tarnowski's artillery tactics have been implemented.</string>
+	<string _locid="77092033">Horse artillery Pop Reduction</string>
+	<string _locid="77092034">Ships Stanislaw Zolkiewski, a powerful hetman who can receive Shipments and train Age 2 units.</string>	
+	<string _locid="77092035">Crown Hetman and hero of the tatar wars. Able to train your Age 2 units and inspire nearby allies.</string>			
+	<string _locid="77092036">Hetman Zolkiewski</string>
+	<string _locid="77092037">Ships Jan Tarnowski, a powerful hetman who can receive Shipments and unlocks a fixed assortment of Mercenaries at the Tavern, which he can also train himself.</string>	
+	<string _locid="77092038">Famed military tactician and Grand Hetman. Able to train Mercenaries and inspire nearby allies.</string>			
+	<string _locid="77092039">Grand Hetman Tarnowski</string>
+	<string _locid="77092040">Ships King John III Sobieski, monarch of the Polish–Lithuanian Commonwealth, who can receive Shipments and train cavalry units. Counts as a powerful hetman.</string>	
+	<string _locid="77092041">King of Poland. Can train troops and receive Shipments. Also gives nearby troops extra hitpoints. Counts as a powerful hetman.</string>			
+	<string _locid="77092042">All hail the King !</string>
+	<string _locid="77092043">Obedience</string>
+	<string _locid="77092044">Passive Ability: Your Hetman increases the attack of nearby units.</string>
+	<string _locid="77092045">Bravery</string>
+	<string _locid="77092046">Passive Ability: Prove your worth to the king ! All nearby units gain extra speed and attack faster.</string>	
+
+	<string _locid="77092049">Folwark</string>
+	<string _locid="77092050">Economic building that combines Mill and Livestock Pen.</string>
+	
+	<string _locid="77092051">Scout Uhlan</string>
+	<string _locid="77092052">Veteran Scout Uhlans</string>
+	<string _locid="77092053">Scout Uhlan attack and hitpoints increased.</string>
+	<string _locid="77092054">Veteran Scout Uhlan</string>
+	<string _locid="77092055">Krakusi</string>
+	<string _locid="77092056">Scout Uhlan attack and hitpoints increased.</string>
+	<string _locid="77092057">Krakus</string>
+	<string _locid="77092058">Imperial Krakusi</string>
+	<string _locid="77092059">Scout Uhlan attack and hitpoints increased.</string>
+	<string _locid="77092060">Imperial Krakus</string>
+	
+	<string _locid="77092061">Veteran Vasa and Jagiellonians</string>
+	<string _locid="77092062">Upgrades Lipka Tatars to Veteran as well as units of the House of Vasa and Jagiellon</string>
+	<string _locid="77092063">Guard Vasa and Jagiellonians</string>
+	<string _locid="77092064">Upgrades Winged Hussars and Lipka Tatars to Guard as well as units of the House of Vasa and Jagiellon</string>
+	
+	<string _locid="77092065">Companion</string>
+	<string _locid="77092066">Guard Companions</string>
+	<string _locid="77092067">Companion attack and hitpoints increased.</string>
+	<string _locid="77092068">Guard Companion</string>
+	<string _locid="77092069">Imperial Companions</string>
+	<string _locid="77092070">Companion attack and hitpoints increased.</string>
+	<string _locid="77092071">Imperial Companion</string>
+	<string _locid="77092072">Powerful but expensive ranged cavalry. Good again cavalry.</string>
+	
+	<string _locid="77092075">Union of Lublin</string>
+	<string _locid="77092076">Unlocks some units and technologies from the Vasa and Jagiellon houses in the royal stable. Winged Hussars and Lipka Tatars cost population when acquired from the Royal Stable.</string>
+	
+	<string _locid="77092077">Royal Stable</string>
+	<string _locid="77092078">Stable with units and technologies from the royal houses of Poland-Lithuania. Supports 5 population.</string>
+	<string _locid="77092079">Cavalry building. Supports 5 population.</string>
+	
+	<string _locid="77092080">Scytheman</string>
+	<string _locid="77092081">Veteran Scythemen</string>
+	<string _locid="77092082">Scytheman attack, hitpoints and speed increased.</string>
+	<string _locid="77092083">Veteran Scytheman</string>
+	<string _locid="77092084">Partisan Scythemen</string>
+	<string _locid="77092085">Scytheman attack, hitpoints, speed and damage area increased.</string>
+	<string _locid="77092086">Partisan Scytheman</string>
+	<string _locid="77092087">Imperial Partisans</string>
+	<string _locid="77092088">Scytheman attack, hitpoints and speed increased.</string>
+	<string _locid="77092089">Imperial Partisan</string>
+	
+	<string _locid="77092090">Piechur</string>
+	<string _locid="77092091">Veteran Piechurs</string>
+	<string _locid="77092092">Piechur attack and hitpoints increased.</string>
+	<string _locid="77092093">Veteran Piechur</string>	
+	<string _locid="77092094">Guard Piechurs</string>
+	<string _locid="77092095">Piechur attack and hitpoints increased.</string>
+	<string _locid="77092096">Guard Piechur</string>	
+	<string _locid="77092097">Imperial Piechurs</string>
+	<string _locid="77092098">Piechur attack and hitpoints increased.</string>
+	<string _locid="77092099">Imperial Piechur</string>
+	
+	<string _locid="77092100">Weak but cheap skirmisher and counter skirmisher. Good against ranged cavalry and all types of infantry.</string>
+	<string _locid="77092101">Partisan with low hitpoints but equipped with a scythe which deal area damage.</string>	
+	<string _locid="77092102">Polish halberdier. Heavy hand infantry with a good resistance.</string>
+	<string _locid="77092103">Fast lancer with a good line of sight. Good against infantry and artillery.</string>
+	
+	<string _locid="77092110">Dziesietnik</string>
+	<string _locid="77092111">Veteran Dziesietniks</string>
+	<string _locid="77092112">Dziesietnik attack and hitpoints increased.</string>
+	<string _locid="77092113">Veteran Dziesietnik</string>	
+	<string _locid="77092114">Guard Dziesietniks</string>
+	<string _locid="77092115">Dziesietnik attack and hitpoints increased.</string>
+	<string _locid="77092116">Guard Dziesietnik</string>	
+	<string _locid="77092117">Imperial Dziesietniks</string>
+	<string _locid="77092118">Dziesietnik attack and hitpoints increased.</string>
+	<string _locid="77092119">Imperial Dziesietnik</string>
+	
+	<string _locid="77092120">Eastern Border Defense</string>
+	<string _locid="77092121">Sends to your Home City Gather Point 1 Scout Uhlan and 2 Piechurs for each Outpost you own. Up to a maximum of 10 of each.</string>
+	
+	<string _locid="77092124">Southern Border Defense</string>
+	<string _locid="77092125">Sends to your Home City Gather Point 1 Compagnon and 2 Dziesietniks for each Outpost you own. Up to a maximum of 10 of each.</string>
+	
+	<string _locid="77092128">Northern Border Defense</string>
+	<string _locid="77092129">Sends to your Home City Gather Point 4 Scout Uhlans and 4 Companions for each Fort you own. Up to a maximum of 12 of each.</string>
+	
+	<string _locid="77092130">Lisowczyk</string>
+	<string _locid="77092131">A powerful raider that strikes fear into villagers.</string>
+	<string _locid="77092132">Riders of the Apocalypse</string>
+	<string _locid="77092133">The infamous warband takes up arms ! Ships 5 Lisowczyky and turns all your Dragoons and Cavalry Archers from Eastern Europe into Lisowczyky, bloodthirsty raiders especially good at sieging buildings and killing villagers, with a special fear aura. (Transforms : Companion, Lipka Tatar, Dragoon, Cavalry Archer and Tatar Archer.)</string>
+	<string _locid="77092134">Terror</string>
+	<string _locid="77092135">Passive Ability: Reduces the speed of nearby enemy villagers by 15%.</string>
+	
+	<string _locid="77092136">Tabor</string>
+	<string _locid="77092137">War wagon that can transport infantry and fortify positions.</string>
+	<string _locid="77092138">Light Cavalry</string>
+	<string _locid="77092139">Fortified Position</string>
+	<string _locid="77092140">When in Bombard mode, loses most of its movement but gains Deflection (Absorbs 25% of the damage caused to nearby allies) and increases nearby blackpowder units' attack speed by 5%.</string>
+	
+	<string _locid="77092145">Great harvest</string>	
+	<string _locid="77092150">Winged Pistoleer</string>
+	<string _locid="77092151">A Winged Hussar with a charged pistol attack.</string>
+	<string _locid="77092152">Veteran Winged Pistoleer</string>
+	<string _locid="77092153">Guard Winged Pistoleer</string>
+	<string _locid="77092154">Imperial Winged Pistoleer</string>
+		
+	<!-- ### Politician description ###-->	
+	<string _locid="77092190">2 Military Wagons</string> 
+	<string _locid="77092191">14 Piechurs</string> 
+	<string _locid="77092192">10 Foot Guards (Musketeers)</string>
+	<string _locid="77092193">8 Winged Hussars</string> 
+
+	<!-- ### Cards ###-->	
+	<string _locid="77092200">5 Scout Uhlans</string>
+	<string _locid="77092201">9 Scout Uhlans</string>
+	<string _locid="77092202">13 Scout Uhlans</string>
+	<string _locid="77092203">Charge of the Uhlans</string>
+	<string _locid="77092204">Ships a number of Scout Uhlans and increases their damage against infantry.</string>
+	
+	<string _locid="77092210">8 Scythemen</string>
+	<string _locid="77092211">12 Scythemen</string>
+	<string _locid="77092212">24 Scythemen</string>
+	
+	<string _locid="77092220">8 Piechurs</string>
+	<string _locid="77092221">11 Piechurs</string>
+	<string _locid="77092222">22 Piechurs</string>
+	
+	<string _locid="77092223">Royal Foot Guards</string>
+	<string _locid="77092224">Ships a regiment of musket-armed Foot Guards from the homeland and enables them in Forts.</string>	
+		
+	<string _locid="77092225">5 Lipka Tatars</string>
+	<string _locid="77092226">8 Lipka Tatars</string>
+	<string _locid="77092227">9 Lipka Tatars</string>
+	
+	<string _locid="77092230">Europe's granary</string>
+	<string _locid="77092231">Grants a steady trickle of food. Villagers gather food faster from Folwarks and Herdables.</string>
+	
+	<string _locid="77092233">You can now train cows from Folwarks.</string>
+	
+	<string _locid="77092234">Tithe Barns</string>
+	<string _locid="77092235">Folwarks, cows and sheeps trickle a small amount of Gold.</string>
+	
+	<string _locid="77092236">TEAM 5 Semi-fattened Cows</string>
+	
+	<string _locid="77092237">Gunpowder Infantry / Cavalry Attack</string>
+	<string _locid="77092238">Attack increased for Piechurs and Companions.</string>
+	
+	<string _locid="77092240">Mass Mobilization</string>
+	<string _locid="77092241">Improves cavalry train time and slightly improves infantry train time.</string>
+	
+	<string _locid="77092242">Hussar Banner</string>
+	<string _locid="77092243">Ships a Winged Hussar and his retinue. Ships different units each time in the following order:\n • 1 Winged Hussar and 5 Lipka Tatars\n • 1 Winged Hussar and 6 Scout Uhlans\n • 1 Winged Hussar and 4 Companions</string>
+
+	<string _locid="77092250">Stanislaw Zolkiewski</string>
+	<string _locid="77092251">Jan Tarnowski</string>
+	<string _locid="77092252">King John III Sobieski</string>
+	
+	<string _locid="77092260">Magyar Infantry</string>
+	<string _locid="77092261">Ships 5 Hajduks and 5 Pandours. Counter skimishers, especially Piechurs, do more damage and have more range and line-of-sight.</string>
+	<string _locid="77092262">Counter Skirmisher +1 Range and +2 Line-of-sight.\n • Extended bonuses for Piechurs</string>
+	
+	<string _locid="77092263">Magnates</string>
+	<string _locid="77092264">Improves your Polish Explorer and your Hetmans in combat. Explorers and Hetmans trickle a small amount of Gold.</string>
+	
+	<string _locid="77092265">Kosciuszko Uprising</string>
+	<string _locid="77092266">All your Villagers turn into Scythemen. Removes the wood cost of Scythemen in exchange for an additional food cost. Improves Scythemen train time.</string>
+	
+	<string _locid="77092268">Registered Cossacks</string>
+	<string _locid="77092269">Delivers 9 Cossack Daredevils. Enable Cossack Daredevils hiring at Taverns, Outposts and Royal Stables. Cossack Daredevils cost less population.</string>
+	
+	<string _locid="77092270">Private Army</string>
+	<string _locid="77092271">Outlaw-type units cost less population and train faster.</string>
+	
+	<string _locid="77092272">10 Crabats</string>
+	<string _locid="77092273">Ships 10 Crabats.</string>
+	
+	<string _locid="77092275">Wojtek</string>
+	<string _locid="77092276">Ships a powerful bear hero which becomes more powerful at the following ages.</string>
+	
+	<string _locid="77092278">Permanent Defense</string>
+	<string _locid="77092279">Outposts have more hitpoints, and you can call out Eastern and Southern Border Defense Units a second time.</string>	
+
+	<string _locid="77092280">All cavalry attack and hitpoints increased.</string>
+	<string _locid="77092281">Ranged cavalry attack increased.</string>
+	<string _locid="77092282">Hand cavalry attack increased.</string>  
+	<string _locid="77092283">TEAM Hand cavalry hitpoints increased.</string>
+	<string _locid="77092284">Hand infantry damage increased.</string>
+	
+	<string _locid="77092290">Royal pastures</string>
+	<string _locid="77092291">Reduces food costs for all cavalry units in the royal stable. Especially elite cavalry.</string>
+	
+	<string _locid="77092292">Foreign delegation</string>	
+	<string _locid="77092293">You get a Shipment of Native Warriors from each different allied tribe. Native warriors are less expensive.</string>
+	
+	<string _locid="77092294">15 Lisowczyky</string>	
+	<string _locid="77092295">Ships 15 Lisowczyky, bloodthirsty raiders especially good at sieging buildings and killing villagers, with a special fear aura.</string>	
+	
+	<string _locid="77092296">5 Lisowczyky</string>	
+	<string _locid="77092297">Ships 5 Lisowczyky, bloodthirsty raiders especially good at sieging buildings and killing villagers, with a special fear aura.</string>	
+	
+	<string _locid="77092300">3 Winged Hussars</string>
+	<string _locid="77092301">5 Winged Hussars</string>
+	<string _locid="77092302">6 Winged Hussars</string>	
+	<string _locid="77092303">4 Winged Hussars</string>	
+	
+	<string _locid="77092305">3 Companions</string>
+	<string _locid="77092306">5 Companions</string>
+	<string _locid="77092307">6 Companions</string>
+	
+	<string _locid="77092308">Privateer Port</string>	
+	<string _locid="77092309">Ships 3 Privateers and enables them to be trained at the dock.</string>
+
+	<string _locid="77092310">Terror of the Borderlands</string>
+	<string _locid="77092311">Increases Scout Uhlan and Lisowczyky siege damage. Scout Uhlans also deal more damage to villagers.</string>
+	
+	<string _locid="77092312">Steppe Raiders</string>
+	<string _locid="77092313">Lipka Tatars' ranged attack gains a bonus against Heavy Infantry.</string>
+
+	<string _locid="77092314">Interceptors</string>
+	<string _locid="77092315">Companions and Piechurs gain a bonus against Ranged Cavalry.</string>
+	
+	<string _locid="77092316">Winged Pistoleers</string>
+	<string _locid="77092317">Ships 5 Winged Pistoleers and enables them in Royal Stables.</string>	
+	
+	<string _locid="77092318">Vasa Leather Cannons</string>
+	<string _locid="77092319">Ships two Leather Cannons and enables them to be trained in limited numbers at the Artillery Foundry.</string>
+	
+	<string _locid="77092320">Advanced Mobile Artillery</string>
+	<string _locid="77092321">Imperial Mobile Artillery</string>
+	<string _locid="77092322">Improves artillery units unlocked by the home city and increase their train limit.</string>
+	<string _locid="77092323">Royal Tabor</string>
+	<string _locid="77092324">Imperial Tabor</string>
+	
+	<!-- ### ############ ###-->
+	<!-- ### Editor names ###-->
+	<!-- ### ############ ###-->
+
+	<string _locid="77092500">POL Scytheman</string>	
+	<string _locid="77092501">POL Piechur</string>
+	<string _locid="77092504">POL Scout Uhlan</string>
+	<string _locid="77092505">POL Companion</string>
+
+	<string _locid="77092506">POL Foot Guard</string>
+	<string _locid="77092507">POL Explorer</string>	
+	<string _locid="77092508">POL Royal Stable</string>
+	<string _locid="77092509">POL Folwark</string>
+	<string _locid="77092510">POL Wojtek</string>
+	
+	<string _locid="77092511">POL Stanislaw Zolkiewski</string>
+	<string _locid="77092512">POL Jan Tarnowski</string>
+	<string _locid="77092513">POL King John III Sobieski</string>
+	
+	<string _locid="77092514">POL Dziesietnik</string>
+	<string _locid="77092515">POL Lisowczyk</string>
+	<string _locid="77092516">POL Tabor</string>
+	
+	<string _locid="77092517">POL Church</string>	
+	<string _locid="77092518">POL Winged Pistoleer</string>
+	<string _locid="77092519">POL Leather Cannon</string>
+	
+	<!-- ### ############ ###-->
+	<!-- ### Random names ###-->
+	<!-- ### ############ ###-->
+	
+	<string _locid="77092600">Stanislaw Branicki</string>
+	<string _locid="77092601">Mikolaj Potocki</string>
+	<string _locid="77092602">Jan Kazanowski</string>
+	<string _locid="77092603">Jozef Kamieniecki</string>
+	<string _locid="77092604">Franciszek Potocki</string>
+
+	<string _locid="77092620">Deblin Fortress</string>
+	<string _locid="77092621">Modlin Fortress</string>
+	<string _locid="77092622">Wisloujscie Fortress</string>
+	<string _locid="77092623">Zamosc Fortress</string>	
+	
+	<string _locid="77092640">Le Polonais</string>
+	<string _locid="77092641">Café Polska</string>
+	<string _locid="77092642">Czarna Kaczka</string>
+	<string _locid="77092643">Restauracja Rózana</string>
+	
+	<string _locid="77092661">Arka Noego</string>
+	<string _locid="77092662">Dar Pomorza</string>
+	<string _locid="77092663">Król Dawid</string>
+	<string _locid="77092664">Panna Wodna</string>
+	<string _locid="77092665">Zółty Lew</string>
+	
+	<!-- ### ## ###-->
+	<!-- ### IA ###-->
+	<!-- ### ## ###-->
+	
+	<string _locid="77093000">John Sobieski</string>
+	<string _locid="77093001">King of Poland. Sobieski is an able military leader, most famously for his victory over the Ottoman Empire at the Battle of Vienna.</string>
+	
+  </language>
+</stringtable>
+</stringmods>

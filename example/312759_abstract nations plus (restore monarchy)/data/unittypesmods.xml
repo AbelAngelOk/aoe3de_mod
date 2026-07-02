@@ -1,0 +1,17 @@
+<unittypesmods>
+  <unittype>AbstractBowCavalry</unittype>
+  <unittype>AbstractJavelineer</unittype>
+  <unittype>AbstractSheriff</unittype>
+  <unittype>AbstractWarMonger</unittype>
+  <unittype>AbstractPrussianMilitaryBuilding</unittype>
+  <unittype>AbstractLivestockBuilding</unittype>
+  <unittype>AbstractMiddleCavalry</unittype>
+  <unittype>AbstractNavalInfantry</unittype>
+  <unittype>AbstractAmberGuard</unittype>
+  <unittype>LogicalTypeBurgundyCivBonus</unittype>
+  <unittype>AbstractSaintJoseph</unittype>
+  <unittype>AbstractSicilianInfantry</unittype>
+  <unittype>AbstractSicilianCavalry</unittype>
+  <unittype>AbstractRepublicans</unittype>
+  <unittype>AbstractCrownlandUnit</unittype>
+</unittypesmods>

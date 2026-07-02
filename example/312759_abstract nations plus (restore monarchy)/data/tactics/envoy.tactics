@@ -1,0 +1,59 @@
+<tactics>
+  <action>
+    <name stringid="38134">HandAttack</name>
+    <type>HandAttack</type>
+    <maxrange>1.0</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <anim>Attack</anim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+  </action>
+  <action>
+    <name stringid="70488">Heal</name>
+    <type>Heal</type>
+    <maxrange>12</maxrange>
+    <rate type="LogicalTypeHealed">10.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <anim>Heal</anim>
+  </action>
+  <action>
+    <name stringid="69147">Build</name>
+    <type>Build</type>
+    <anim>Build</anim>
+    <maxrange>0.2</maxrange>
+  </action>
+  <action>
+    <name stringid="38118">BuildingAttack</name>
+    <type>Attack</type>
+    <rangedlogic>1</rangedlogic>
+    <maxrange>6</maxrange>
+    <rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+    <attackaction>1</attackaction>
+    <speedboost>1</speedboost>
+    <anim>Raze_Attack</anim>
+    <idleanim>Raze_Idle</idleanim>
+    <impacteffect>effects\impacts\torch</impacteffect>
+    <projectile>TorchProjectile</projectile>
+  </action>
+  <action>
+    <name stringid="69742">SabotageAttack</name>
+    <type>Attack</type>
+    <attackaction>1</attackaction>
+    <rangedlogic>1</rangedlogic>
+    <anim>Sabotage_Attack</anim>
+    <idleanim>Sabotage_Idle</idleanim>
+    <maxheight>2.0</maxheight>
+    <accuracy>1.0</accuracy>
+    <accuracyreductionfactor>0.001</accuracyreductionfactor>
+    <aimbonus>5</aimbonus>
+    <trackrating>12</trackrating>
+    <rate type="LogicalTypeShipsAndBuildings">1.0</rate>
+    <impacteffect>effects\impacts\sabotage</impacteffect>
+    <rof>1.000000</rof>
+    <hidefromstats>1</hidefromstats>
+    <instantballistics>0</instantballistics>
+  </action>
+  <tactic>Normal<action priority="100">BuildingAttack</action><action priority="75">HandAttack</action><action priority="2">SabotageAttack</action><action>Build</action><action>Heal</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+</tactics>

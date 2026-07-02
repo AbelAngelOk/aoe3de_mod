@@ -1,0 +1,469 @@
+<soundsetdefmods>
+
+  <!-- Power jingles -->
+  <soundset name="STARKChargeOfTheUhlans" volume="1.2500" maxnum="1" distance="1.0000">
+    <sound filename="starkpolish\powers\chargeoftheuhlans.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <soundset name="STARKWingedHussarsArrived" volume="1.5000" maxnum="1" distance="1.0000">
+    <sound filename="starkpolish\powers\wingedhussarsarrived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Villagers -->
+  <soundset name="STARKPolishFSettlerSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Female_Select_1_AoE2.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\settler\Poles_Villager_Female_Select_2_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\settler\Poles_Villager_Female_Select_3_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\settler\Poles_Villager_Female_Select_4_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishFSettlerMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Female_Task_1_AoE2.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\settler\Poles_Villager_Female_Task_2_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\settler\Poles_Villager_Female_Task_3_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\settler\Poles_Villager_Female_Task_4_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishFSettlerAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Female_Task_3_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishFSettlerBerry" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Female_Forage_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishFSettlerBuild" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Female_Build_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishFSettlerFarmer" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Female_Farm_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishFSettlerHunter" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Female_Hunt_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishFSettlerLumber" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Female_Chop_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishFSettlerMiner" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Female_Mine_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <soundset name="STARKPolishMSettlerSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Male_Select_1_AoE2.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\settler\Poles_Villager_Male_Select_2_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\settler\Poles_Villager_Male_Select_3_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\settler\Poles_Villager_Male_Select_4_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMSettlerMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Male_Task_1_AoE2.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\settler\Poles_Villager_Male_Task_2_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\settler\Poles_Villager_Male_Task_3_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\settler\Poles_Villager_Male_Task_4_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMSettlerAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Male_Task_3_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMSettlerBerry" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Male_Forage_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMSettlerBuild" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Male_Build_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMSettlerFarmer" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Male_Farm_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMSettlerHunter" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Male_Hunt_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMSettlerLumber" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Male_Chop_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMSettlerMiner" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\settler\Poles_Villager_Male_Mine_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Ships -->
+  <soundset name="STARKPolishShipSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\ships\select1.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\ships\select2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\ships\select3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishShipMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\ships\move1.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\ships\move2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\ships\move3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Piechur -->
+  <soundset name="STARKPolishPiechurSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishHandCannoneerSelect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishHandCannoneerSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishPiechurMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishHandCannoneerMove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishHandCannoneerMove2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishHandCannoneerMove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishPiechurAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishHandCannoneerAttack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishHandCannoneerAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Scytheman -->
+  <soundset name="STARKPolishScythemanSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishPikemanSelect2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishPikemanSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishScythemanMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishPikemanMove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishPikemanMove2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishScythemanAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishSzlachcicAttack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishPikemanAttack1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Dziesietnik -->
+  <soundset name="STARKPolishDziesietnikSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishPartyzantSelect1.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishPartyzantSelect2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishPartyzantSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishDziesietnikMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishTaborMove3.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishPartyzantMove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishDziesietnikAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishPartyzantAttack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishPartyzantAttack2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishPartyzantAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Hetman -->
+  <soundset name="STARKPolishHetmanSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishSzlachcicSelect1.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishSzlachcicSelect2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishHetmanMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishSzlachcicMove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishSzlachcicMove2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishHetmanAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishSzlachcicAttack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishSzlachcicAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- King -->
+  <soundset name="STARKPolishKingSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\Poles_King_Select_1_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\Poles_King_Select_3_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\Poles_King_Select_4_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishKingMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\Poles_King_Move_2_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\Poles_King_Move_3_AoE2.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\Poles_King_Move_4_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishKingAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\Poles_King_Move_2_AoE2.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\Poles_King_Move_4_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Polish Uhlan -->
+  <soundset name="STARKPolishUhlanSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishLisowczykSelect1.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishLisowczykSelect2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishLisowczykSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishUhlanMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishLisowczykMove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishLisowczykMove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishUhlanAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishLisowczykAttack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishLisowczykAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Companion -->
+  <soundset name="STARKPolishCompanionSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishPancerniSelect2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishPancerniSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishCompanionMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishSzlachcicMove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishSzlachcicMove2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishCompanionAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishPancerniAttack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="starkpolish\military\PolishPancerniAttack2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishPancerniAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Falconets-->
+  <soundset name="STARKPolishFalconetSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFalconetSelect1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishFalconetMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFalconetMove1.wav" volume="1.0000">
+    </sound>
+
+  </soundset>
+  <soundset name="STARKPolishFalconetAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFalconetAttack1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Culverin-->
+  <soundset name="STARKPolishCulverinSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFalconetSelect2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishCulverinMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFalconetMove2.wav" volume="1.0000">
+    </sound>
+
+  </soundset>
+  <soundset name="STARKPolishCulverinAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFalconetAttack2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Horse Artillery-->
+  <soundset name="STARKPolishHorseArtillerySelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFalconetSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishHorseArtilleryMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishMortarMove3.wav" volume="1.0000">
+    </sound>
+
+  </soundset>
+  <soundset name="STARKPolishHorseArtilleryAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFalconetAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Mortar -->
+  <soundset name="STARKPolishMortarSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishMortarSelect2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishMortarSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMortarMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishMortarMove1.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishMortarMove2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMortarAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishMortarAttack2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishMortarAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Grenadier and petards -->
+  <soundset name="STARKPolishGrenadierSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFusilierSelect2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishGrenadierMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFusilierMove1.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishFusilierMove2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishGrenadierAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFusilierAttack1.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishFusilierAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Foot Guard -->
+  <soundset name="STARKPolishMusketeerSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFusilierSelect2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMusketeerMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFusilierMove1.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishFusilierMove2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishMusketeerAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishFusilierAttack1.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishFusilierAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Spy -->
+  <soundset name="STARKPolishSpySelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\churchunits\PolishSpySelect2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\churchunits\PolishSpySelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishSpyMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\churchunits\PolishSpyMove1.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\churchunits\PolishSpyMove2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishSpyAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\churchunits\PolishSpyAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Surgeon -->
+  <soundset name="STARKPolishSurgeonSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\churchunits\PolishSurgeonSelect1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishSurgeonMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\churchunits\PolishSurgeonMove1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishSurgeonAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\churchunits\PolishSurgeonAttack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Priest -->
+  <soundset name="STARKPolishPriestSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\churchunits\Poles_Monk_Select_2_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\churchunits\Poles_Monk_Select_3_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\churchunits\Poles_Monk_Select_4_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishPriestMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\churchunits\Poles_Monk_Move_1_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\churchunits\Poles_Monk_Move_2_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\churchunits\Poles_Monk_Move_4_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishPriestAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\churchunits\Poles_Monk_Move_1_AoE2.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\churchunits\Poles_Monk_Move_2_AoE2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Wagon -->
+  <soundset name="STARKPolishWagonSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishTaborSelect3.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishPartyzantSelect1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishWagonMove" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\military\PolishTaborMove1.wav" volume="1.0000">
+    </sound>
+	<sound filename="starkpolish\military\PolishTaborMove2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+  <!-- Explorer -->
+  <soundset name="STARKPolishExplorerDisabled" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\explorer\ExplorerDisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishExplorerClaim" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="starkpolish\EmptySound.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="STARKPolishExplorerRevived" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="DE\PolishMilitarySelect2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+</soundsetdefmods>

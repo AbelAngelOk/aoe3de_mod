@@ -1,0 +1,69 @@
+<tactics>
+  <action>
+    <name stringid="69158">SpawnPig</name>
+    <type>Spawn</type>
+    <rate type="Pig">2.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="68994">FarmSlowEnemyMilitary</name>
+    <type>AutoRangedModify</type>
+    <targetenemy>1</targetenemy>
+    <active>0</active>
+    <maxrange>9.5</maxrange>
+    <persistent>1</persistent>
+    <squareaura>1</squareaura>
+    <nostack>1</nostack>
+    <nostackignorepuid>1</nostackignorepuid>
+    <modifytype>Speed</modifytype>
+    <modifymultiplier>0.70</modifymultiplier>
+    <modelattachment>effects\ypack_auras\frightpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="113171">AreaGatherHerdable</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Herdable</modifyabstracttype>
+    <includegaia>1</includegaia>
+    <active>0</active>
+    <maxrange>16</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>1.0</modifyamount>
+    <modifytargetlimit>1</modifytargetlimit>
+    <restricttofullcapacitygatherers>1</restricttofullcapacitygatherers>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="113171">AreaGatherHerdable2</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Herdable</modifyabstracttype>
+    <includegaia>1</includegaia>
+    <active>0</active>
+    <maxrange>16</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>1.250</modifyamount>
+    <modifytargetlimit>2</modifytargetlimit>
+    <restricttofullcapacitygatherers>1</restricttofullcapacitygatherers>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="7471486">SwissBoost</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>AbstractTownCenter</modifyabstracttype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.06</modifyamount>
+  </action>
+  <tactic>Normal<action>FarmSlowEnemyMilitary</action><action>SpawnPig</action><action>AreaGatherHerdable2</action><action>AreaGatherHerdable</action><action>SwissBoost</action></tactic>
+</tactics>

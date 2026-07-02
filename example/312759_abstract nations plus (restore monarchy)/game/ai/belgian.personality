@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>7469330</nameID>
+   <tooltipID>7469330</tooltipID>
+   <forcedciv>Belgian</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources\images\icons\mm_TAvatar.png</icon>
+   <chatset>Maurice</chatset>
+   <playerNames>
+      <nameID>7469330<civ>Belgian</civ></nameID> 
+	</playerNames>
+</AI>

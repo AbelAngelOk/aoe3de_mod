@@ -1,0 +1,160 @@
+<tactics>
+  <action>
+    <name stringid="49015">MaintainSheepScottish</name>
+    <type>Maintain</type>
+    <rate type="Sheep">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <buildlimitsuspend>1</buildlimitsuspend>
+  </action>
+  <action>
+    <name stringid="43294">AutoGatherCoin</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <active>1</active>
+  </action>
+  <action>
+    <name stringid="43295">AutoGatherFood</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <active>1</active>
+  </action>
+  <action>
+    <name stringid="43296">AutoGatherWood</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <active>1</active>
+  </action>
+  <action>
+    <name stringid="43296">AutoGatherXP</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="113171">AreaGatherHerdable</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Herdable</modifyabstracttype>
+    <targetgaia>1</targetgaia>
+    <active>1</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <deadexclusive>1</deadexclusive>
+    <singleunit>1</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>1.0</modifyamount>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="113171">AreaGatherHerdable2</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Herdable</modifyabstracttype>
+    <targetgaia>1</targetgaia>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <deadexclusive>1</deadexclusive>
+    <modifytargetlimit>2</modifytargetlimit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>1.0</modifyamount>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="113171">AreaGatherHerdable3</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>Herdable</modifyabstracttype>
+    <targetgaia>1</targetgaia>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <deadexclusive>1</deadexclusive>
+    <modifytargetlimit>5</modifytargetlimit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>1.0</modifyamount>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91721">AreaGatherFoodCrate</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractFoodCrate</modifyabstracttype>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <singleunit>0</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>4.0</modifyamount>
+    <modifytargetlimit>20</modifytargetlimit>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91721">AreaGatherWoodCrate</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractWoodCrate</modifyabstracttype>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <singleunit>0</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>4.0</modifyamount>
+    <modifytargetlimit>20</modifytargetlimit>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91721">AreaGatherCoinCrate</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractCoinCrate</modifyabstracttype>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <singleunit>0</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>4.0</modifyamount>
+    <modifytargetlimit>20</modifytargetlimit>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91721">AreaGatherCoinXp</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractXPCrate</modifyabstracttype>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <donotignoredead>1</donotignoredead>
+    <singleunit>0</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>4.0</modifyamount>
+    <modifytargetlimit>20</modifytargetlimit>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="91721">AreaGatherInfiniteCrate</name>
+    <type>AutoRangedModify</type>
+    <modifyabstracttype>AbstractInfiniteCrate</modifyabstracttype>
+    <active>0</active>
+    <maxrange>14</maxrange>
+    <persistent>1</persistent>
+    <targetgaia>1</targetgaia>
+    <donotignoredead>1</donotignoredead>
+    <deadexclusive>1</deadexclusive>
+    <singleunit>0</singleunit>
+    <modifytype>UnitResource</modifytype>
+    <modifyamount>4.0</modifyamount>
+    <modifytargetlimit>20</modifytargetlimit>
+    <modelattachment>effects\ypack_auras\torpgatherpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>AreaGatherHerdable3</action><action>AreaGatherHerdable2</action><action>AreaGatherHerdable</action><action>AreaGatherFoodCrate</action><action>AreaGatherWoodCrate</action><action>AreaGatherCoinCrate</action><action>AreaGatherCoinXp</action><action>AreaGatherInfiniteCrate</action><action>AutoGatherFood</action><action>AutoGatherWood</action><action>AutoGatherCoin</action><action>AutoGatherXP</action><action>MaintainSheepScottish</action></tactic>
+</tactics>

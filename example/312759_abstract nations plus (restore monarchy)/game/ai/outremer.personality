@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>7470036</nameID>
+   <tooltipID>7470036</tooltipID>
+   <forcedciv>Outremer</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources\images\icons\mm_Regnum_Dei.png</icon>
+   <chatset>Jean</chatset>
+   <playerNames>
+      <nameID>7470036<civ>Outremer</civ></nameID> 
+	</playerNames>
+</AI>

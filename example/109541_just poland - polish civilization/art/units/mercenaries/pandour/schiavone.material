@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\mercenaries\pandour\textures\schiavone_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\mercenaries\pandour\textures\schiavone_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\mercenaries\pandour\textures\schiavone_mata_masks">
+      </texture>
+      <texture name="Details" override="units\mercenaries\pandour\textures\schiavone_mata_details">
+      </texture>
+      <float name="AO Intensity" override="1.2000">
+      </float>
+    </parameters>
+	<parameters variant="1">
+      <texture name="BaseColor" override="units\mercenaries\pandour\textures\piechur_4age_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\mercenaries\pandour\textures\schiavone_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\mercenaries\pandour\textures\schiavone_mata_masks">
+      </texture>
+      <texture name="Details" override="units\mercenaries\pandour\textures\schiavone_mata_details">
+      </texture>
+      <float name="AO Intensity" override="1.2000">
+      </float>
+    </parameters>
+  </submaterial>
+</material>

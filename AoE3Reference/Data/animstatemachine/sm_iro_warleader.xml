@@ -1,0 +1,7 @@
+<statemachine>
+  <startstate>Idle</startstate>
+  <state>Idle<anim weight="100" loop="0">StateIdle1_Idle</anim><event type="AnimLooped" count="1"><transition weight="90">Idle</transition><transition weight="10">Idle2</transition><namedtransition name="HCShipment">Shipment</namedtransition><namedtransition name="HCSelect">Select</namedtransition></event></state>
+  <state>Idle2<anim weight="100" loop="0">StateIdle1_Idle2</anim><event type="AnimLooped" count="1"><transition weight="90">Idle</transition><transition weight="10">Idle2</transition><namedtransition name="HCShipment">Shipment</namedtransition><namedtransition name="HCSelect">Select</namedtransition></event></state>
+  <state>Select<anim weight="100" loop="0">StateShip_Idle</anim><event type="AnimLooped" count="3"><transition weight="100">Idle</transition></event></state>
+  <state>Shipment<anim weight="100" loop="0">StateShip_Send</anim><event type="AnimLooped" count="1"><transition weight="100">Idle</transition></event></state>
+</statemachine>

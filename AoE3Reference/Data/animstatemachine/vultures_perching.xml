@@ -1,0 +1,12 @@
+<statemachine>
+  <startstate>Mode1Idle</startstate>
+  <state>Mode1Idle<anim weight="100">Mode1_Idle</anim><event type="AnimLooped" count="3"><transition weight="50">Mode1Idle</transition><transition weight="15">Mode1To2</transition><transition weight="15">Mode1To3</transition><transition weight="20">Mode1Bored</transition></event></state>
+  <state>Mode1Bored<anim weight="100" loop="0">Mode1_Bored</anim><event type="AnimLooped" count="1"><transition weight="100">Mode1Idle</transition></event></state>
+  <state>Mode1To2<anim weight="100" loop="0">Mode1_Mode2</anim><event type="AnimLooped" count="1"><transition weight="100">Mode2Idle</transition></event></state>
+  <state>Mode2Idle<anim weight="100">Mode2_Idle</anim><event type="AnimLooped" count="3"><transition weight="60">Mode2Idle</transition><transition weight="20">Mode2To1</transition><transition weight="20">Mode2Bored</transition></event></state>
+  <state>Mode2Bored<anim weight="100" loop="0">Mode2_Bored</anim><event type="AnimLooped" count="1"><transition weight="100">Mode2Idle</transition></event></state>
+  <state>Mode2To1<anim weight="100" loop="0">Mode2_Mode1</anim><event type="AnimLooped" count="1"><transition weight="100">Mode1Idle</transition></event></state>
+  <state>Mode1To3<anim weight="100" loop="0">Mode1_Mode3</anim><event type="AnimLooped" count="1"><transition weight="100">Mode3Idle</transition></event></state>
+  <state>Mode3Idle<anim weight="100">Mode3_Idle</anim><event type="AnimLooped" count="3"><transition weight="75">Mode3Idle</transition><transition weight="25">Mode3To1</transition></event></state>
+  <state>Mode3To1<anim weight="100" loop="0">Mode3_Mode1</anim><event type="AnimLooped" count="1"><transition weight="100">Mode1Idle</transition></event></state>
+</statemachine>

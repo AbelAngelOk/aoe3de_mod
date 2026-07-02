@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>7470181</nameID>
+   <tooltipID>7470181</tooltipID>
+   <forcedciv>Bavarians</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources/images/icons/flags/Flag_Bavarians.png</icon>
+   <chatset>Frederick</chatset>
+   <playerNames>
+      <nameID>7470181<civ>Belgian</civ></nameID> 
+	</playerNames>
+</AI>

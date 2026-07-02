@@ -1,0 +1,50 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\musketeer\textures\blue_guard_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\musketeer\textures\blue_guard_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\musketeer\textures\blue_guard_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\musketeer\textures\blue_guard_matA_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\infantry_ranged\musketeer\textures\blue_guard_matO_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\musketeer\textures\blue_guard_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\musketeer\textures\blue_guard_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\musketeer\textures\blue_guard_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\musketeer\textures\blue_guard_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\musketeer\textures\blue_guard_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\musketeer\textures\blue_guard_matb_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\musketeer\textures\blue_guard_matb_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\infantry_ranged\musketeer\textures\blue_guard_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\musketeer\textures\blue_guard_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\musketeer\textures\blue_guard_matb_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\musketeer\textures\blue_guard_matb_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

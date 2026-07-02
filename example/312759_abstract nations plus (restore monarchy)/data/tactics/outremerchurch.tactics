@@ -1,0 +1,62 @@
+<tactics>
+  <action>
+    <name stringid="43019">AutoGather</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="68961">TreeGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>38</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>TreeGatherRate</modifytype>
+    <modifymultiplier>1.30</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="68961">MineGatherRateBonus</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>38</maxrange>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <persistent>1</persistent>
+    <nostack>1</nostack>
+    <modifytype>MineGatherRate</modifytype>
+    <modifymultiplier>1.30</modifymultiplier>
+    <modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="69158">SpawnPriest</name>
+    <type>Spawn</type>
+    <rate type="mmPriest">1.0</rate>
+    <singleuse>1</singleuse>
+    <animationrate>1</animationrate>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="43019">AutoGatherGold</name>
+    <type>AutoGather</type>
+    <active>0</active>
+	<rate type="Gold">0.600000</rate>
+    <persistent>1</persistent>
+  </action>
+  <action>
+    <name stringid="110152">AutoGatherBonus</name>
+    <type>LikeBonus</type>
+    <active>0</active>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>AbstractVillager</modifyabstracttype>
+    <maxrange>32</maxrange>
+    <rate type="AbstractVillager">0.017</rate>
+    <rate type="AbstractDoubleVillager">0.034</rate>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <persistent>1</persistent>
+  </action>
+  <tactic>Normal<action>AutoGather</action><action>AutoGatherGold</action><action>AutoGatherBonus</action><action>SpawnPriest</action><action>TreeGatherRateBonus</action><action>MineGatherRateBonus</action></tactic>
+</tactics>

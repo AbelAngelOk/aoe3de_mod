@@ -1,0 +1,122 @@
+<soundsetmods>
+  <soundset mergeMode="add" name="mmGreeceOrder" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="ui\greek\greeceorder-000.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceorder-001.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceorder-002.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceorder-003.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceorder-004.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceorder-005.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceorder-006.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceorder-007.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceorder-008.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceorder-009.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset mergeMode="add" name="mmGreeceSelect" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="ui\greek\greeceselect-000.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceselect-001.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceselect-002.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceselect-003.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceselect-004.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceselect-005.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceselect-006.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceselect-007.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceselect-008.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\greek\greeceselect-009.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset mergeMode="add" name="swisshighattack" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="ui\NE\swisshighattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisshighattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisshighattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset mergeMode="add" name="swisshighmove" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="ui\NE\swisshighmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisshighmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisshighmove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset mergeMode="add" name="swisshighselect" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="ui\NE\swisshighselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisshighselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisshighselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset mergeMode="add" name="swisslowattack" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="ui\NE\swisslowattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisslowattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisslowattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset mergeMode="add" name="swisslowmove" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="ui\NE\swisslowmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisslowmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisslowmove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset mergeMode="add" name="swisslowselect" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="ui\NE\swisslowselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisslowselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swisslowselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset mergeMode="add" name="swissmedattack" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="ui\NE\swissmedattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swissmedattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swissmedattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset mergeMode="add" name="swissmedmove" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="ui\NE\swissmedmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swissmedmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swissmedmove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset mergeMode="add" name="swissmedselect" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="ui\NE\swissmedselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swissmedselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="ui\NE\swissmedselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset mergeMode="add" name="VinePower" volume="1.0000" maxnum="3" distance="1.0000">
+    <sound filename="DE\wine.wav" volume="0.9500">
+    </sound>
+  </soundset>
+</soundsetmods>

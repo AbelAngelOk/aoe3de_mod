@@ -1,0 +1,4 @@
+<animfile>
+  <component>crossbows<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\infantry_ranged\crossbow\crossbow_4age_crossbow</file></assetreference></none><Age0Teutonic><assetreference type="GrannyModel"><file>units\infantry_ranged\crossbow\crossbow_1age_crossbow</file></assetreference></Age0Teutonic></logic></component>
+  <anim>Idle<component>crossbows</component></anim>
+</animfile>

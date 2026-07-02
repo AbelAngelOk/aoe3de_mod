@@ -1,0 +1,47 @@
+<tactics>
+  <action>
+    <name stringid="43019">AutoGather</name>
+    <type>AutoGather</type>
+    <persistent>1</persistent>
+    <active>0</active>
+  </action>
+  <action>
+    <name stringid="7471000">AutoGatherLike</name>
+    <type>LikeBonus</type>
+    <active>0</active>
+    <modifyratebytype>1</modifyratebytype>
+    <modifyabstracttype>Unit</modifyabstracttype>
+    <maxrange>24</maxrange>
+    <rate type="Unit">0.003</rate>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.75</modifyamount>
+  </action>
+  <action>
+    <name stringid="7471486">SwissBoost</name>
+    <type>AutoRangedModify</type>
+    <maxrange>32</maxrange>
+    <modifyabstracttype>AbstractTownCenter</modifyabstracttype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifytype>AutoGatherAbsolute</modifytype>
+    <modifyamount>0.06</modifyamount>
+  </action>
+  <action>
+    <name stringid="69157">SpawnSettlerOnce</name>
+    <type>Maintain</type>
+    <rate type="Settler">2.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <action>
+    <name stringid="69157">MaintainSettlerSicilly</name>
+    <type>Maintain</type>
+    <rate type="Settler">1.0</rate>
+    <active>0</active>
+    <persistent>1</persistent>
+    <singleuse>1</singleuse>
+  </action>
+  <tactic>Normal<action>MaintainSettlerSicilly</action><action>SpawnSettlerOnce</action><action>AutoGather</action><action>AutoGatherLike</action><action>SwissBoost</action></tactic>
+</tactics>

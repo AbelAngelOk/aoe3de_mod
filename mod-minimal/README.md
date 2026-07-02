@@ -39,6 +39,7 @@ mod-minimal/
   data/
     civmods.xml                                ← registro de la civilización (aditivo sobre civs.xml)
     techtreemods.xml                           ← 7 techs de edad propios (aditivo sobre techtreey.xml)
+    protomods.xml                              ← unidades/edificios propios (aditivo sobre protoy.xml)
     homecityhungarymin.xml                     ← metrópoli completa (211 cartas, 6 barajas)
     uitechtree/
       techtreedata_hunhungarians.xml           ← layout del árbol de tecnología (UI)
@@ -107,6 +108,42 @@ miles de líneas de efectos:
 Así, todos los edificios, unidades estándar, políticos y upgrades vienen de los
 techs de Germans ya validados por el juego base, pero la civ tiene sus propios
 identificadores de tech-tree (no comparte literalmente los nombres de Germans).
+
+**`HUNAge0` además aplica los cambios de gameplay civ-específicos** (ver Cambio 1
+abajo), que solo afectan a Hungría porque el Age0 tech solo lo corre el jugador
+húngaro:
+- Deshabilita `Settler` (`Enable` con `amount=0`, `relativity="Assign"`).
+- Habilita `HUNSettlerWagon`.
+- Fija el `BuildLimit` de `FishingBoat` en 50 (`relativity="Assign"`).
+
+### 2b. `data/protomods.xml` — Unidades y edificios propios
+
+Nodo raíz `<protomods>`, se fusiona sobre `protoy.xml`. Contiene:
+
+- **`HUNSettlerWagon`** (id/dbid `88881201`): copia exacta del proto base
+  `SettlerWagon` (mismas tactics, gather rates, `unittype`s y lista de edificios
+  construibles), con `<buildlimit>50</buildlimit>` (el base es 20). Es un proto
+  **propio de Hungría** para no afectar a Alemania, que sigue usando el
+  `SettlerWagon` base. Cuesta 100 alimento + 100 madera (igual que el base) y es
+  `populationcount=2` (cada carretón vale por 2 colonos). Reutiliza los strings del
+  `SettlerWagon` base, así que se muestra como "Settler Wagon / Carretón de colonos".
+- **`TownCenter`** (`mergeMode='modify'`): se le agrega el botón de train de
+  `HUNSettlerWagon` en el slot del colono (page 0, col 0). El cambio al train list
+  es global, pero el botón **solo aparece para quien tenga `HUNSettlerWagon`
+  habilitado** — es decir, solo Hungría (vía `HUNAge0`). Alemania y las demás civs
+  no lo ven.
+
+#### Cambio 1 (2026-07-01): "Colonos → Carretones de colonos"
+
+Diseño económico propio de Hungría, sin unidades ni assets nuevos:
+
+| Regla | Implementación |
+|---|---|
+| El Town Center crea carretones de colonos (no colonos) | `Settler` deshabilitado + `HUNSettlerWagon` habilitado en `HUNAge0`; botón en el TC vía `protomods.xml` |
+| Coste 100 alimento + 100 madera | Ya es el coste base del `SettlerWagon` (heredado) |
+| Máximo 50 carretones | `<buildlimit>50</buildlimit>` en el proto `HUNSettlerWagon` |
+| No limitan la construcción de barcos; máx. 50 barcos pesqueros | `FishingBoat` `BuildLimit=50` civ-específico en `HUNAge0` (cap independiente del de carretones) |
+| Unidades iniciales coherentes | `townstartingunit` / `empirewarsstartingunit` cambiados de `SettlerWagon` a `HUNSettlerWagon` en `civmods.xml` |
 
 ### 3. `data/homecityhungarymin.xml` — Metrópoli (Home City)
 

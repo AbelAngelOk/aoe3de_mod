@@ -24,6 +24,19 @@
     <flag>Shadow</flag>
     <effects>
       <effect type="TechStatus" status="active">Age0German</effect>
+      <!-- Cambio 1: colonos -> carretones de colonos (civ-específico) -->
+      <!-- Age0German habilita Settler; aquí lo deshabilitamos solo para Hungría -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <!-- Habilitar el carretón propio de Hungría (buildlimit 50 viene del proto) -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNSettlerWagon</target>
+      </effect>
+      <!-- Barcos pesqueros: límite propio de 50 (base es 99); civ-específico -->
+      <effect type="Data" amount="50.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNColonialize" type="Normal">

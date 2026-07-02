@@ -1,5 +1,28 @@
 # Changelog — Eastern European Expansion (EEX)
 
+## [mod-minimal 1.1] — 2026-07-01 (Cambio 1 de gameplay: colonos → carretones)
+
+Primer cambio de jugabilidad propia de Hungría, sin assets nuevos y sin afectar a
+Alemania ni a otras civs. Detalle en `mod-minimal/README.md` (sección "Cambio 1").
+
+### Agregado
+- **`protomods.xml`** (nuevo): `HUNSettlerWagon`, copia civ-específica del proto
+  base `SettlerWagon` (id/dbid 88881201) con `buildlimit=50`. Modificación del
+  `TownCenter` (`mergeMode='modify'`) para agregar su botón de train.
+
+### Cambiado
+- Hungría entrena **carretones de colonos** (`HUNSettlerWagon`, 100 alimento + 100
+  madera, máx. 50) en lugar de colonos: `Settler` deshabilitado y `HUNSettlerWagon`
+  habilitado en el tech `HUNAge0` (civ-específico).
+- **Barcos pesqueros** con límite propio de 50 (`FishingBoat BuildLimit=50` en
+  `HUNAge0`), como cap independiente del de carretones.
+- Unidades iniciales de `civmods.xml` (`townstartingunit` / `empirewarsstartingunit`)
+  cambiadas de `SettlerWagon` a `HUNSettlerWagon`.
+- `uitechtree/techtreedata_hunhungarians.xml`: la ficha de `Settler` del diagrama
+  reemplazada por `HUNSettlerWagon`.
+
+---
+
 ## [mod-minimal 1.0] — 2026-07-01 (✅ Civilización funcional confirmada en juego)
 
 MRE (`mod-minimal`) — civilización **Hungría (`HUNHungarians`)** seleccionable y

@@ -69,19 +69,19 @@
     <food>0</food>
     <wood>0</wood>
     <startingunit>Explorer</startingunit>
-    <townstartingunit>SettlerWagon</townstartingunit>
-    <townstartingunit>SettlerWagon</townstartingunit>
-    <townstartingunit>SettlerWagon</townstartingunit>
+    <townstartingunit>HUNSettlerWagon</townstartingunit>
+    <townstartingunit>HUNSettlerWagon</townstartingunit>
+    <townstartingunit>HUNSettlerWagon</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
-    <empirewarsstartingunit>SettlerWagon</empirewarsstartingunit>
-    <empirewarsstartingunit>SettlerWagon</empirewarsstartingunit>
-    <empirewarsstartingunit>SettlerWagon</empirewarsstartingunit>
-    <empirewarsstartingunit>SettlerWagon</empirewarsstartingunit>
-    <empirewarsstartingunit>SettlerWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>HUNSettlerWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>HUNSettlerWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>HUNSettlerWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>HUNSettlerWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>HUNSettlerWagon</empirewarsstartingunit>
     <empirewarsstartingunit>OutpostWagon</empirewarsstartingunit>
     <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
     <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>

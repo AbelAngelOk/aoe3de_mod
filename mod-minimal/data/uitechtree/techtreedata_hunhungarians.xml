@@ -8,7 +8,7 @@
     </tech>
     <proto name="xpColonialMilitia" banner="unit" icon="resources/images/icons/portraits/units/colonial_militia_portrait.png" row="7" col="1">
     </proto>
-    <proto name="Settler" banner="unit" icon="resources/art/units/villagers/villager_portrait.png" row="1" col="2">
+    <proto name="HUNSettlerWagon" banner="unit" icon="resources/art/units/villagers/settler_wagon/settler_wagon_portrait.png" row="1" col="2">
     </proto>
     <proto name="ArtilleryDepot" banner="building" icon="resources/art/buildings/artillery_depot/artillery_depot_portrait.png" row="6" col="6">
     </proto>

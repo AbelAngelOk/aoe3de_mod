@@ -47,6 +47,23 @@
       <string _locid="88881034">Mejora los Hajduk a Guardia (+20% vida y ataque, +0.10 velocidad).</string>
       <string _locid="88881035">Mejora los Hajduk a Imperial (+50% vida y ataque, +0.10 velocidad).</string>
 
+      <!-- Caballería: unidades -->
+      <string _locid="88881040">Húsar Magiar</string>
+      <string _locid="88881041">Caballería de choque húngara de élite, potente en cuerpo a cuerpo.</string>
+      <string _locid="88881042">Caballería de choque de élite</string>
+      <string _locid="88881043">Crabat</string>
+      <string _locid="88881044">Caballería croata: ataque a distancia fuerte vs caballería (x3) y artillería (x2); cuerpo a cuerpo fuerte vs infantería (x3).</string>
+      <string _locid="88881045">Caballería anti-caballería / anti-infantería</string>
+      <!-- Caballería: mejoras -->
+      <string _locid="88881050">Húsar Magiar de la Guardia</string>
+      <string _locid="88881051">Húsar Magiar Imperial</string>
+      <string _locid="88881052">Crabat de la Guardia</string>
+      <string _locid="88881053">Crabat Imperial</string>
+      <string _locid="88881060">Mejora los Húsares Magiares a Guardia (+20% vida y ataque).</string>
+      <string _locid="88881061">Mejora los Húsares Magiares a Imperial (+50% vida y ataque).</string>
+      <string _locid="88881062">Mejora los Crabats a Guardia (+20% vida y ataque).</string>
+      <string _locid="88881063">Mejora los Crabats a Imperial (+50% vida y ataque).</string>
+
     </language>
   </stringtable>
 </stringmods>

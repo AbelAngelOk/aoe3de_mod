@@ -187,22 +187,17 @@
   <group name="Stable">
     <proto name="Stable" banner="building" icon="resources/art/buildings/stables/stables_portrait.png" row="2" col="124">
     </proto>
-    <proto name="Uhlan" banner="unit" icon="resources/art/units/cavalry/uhlan/uhlan_portrait.png" row="3" col="124">
+    <proto name="HUNMagyarHussar" banner="unit" icon="resources/art/units/revolution/hungarian_hussar_portrait.png" row="3" col="124">
     </proto>
-    <tech name="VeteranUhlans" banner="improvement" icon="resources/images/icons/techs/veteran_cavalry/veteran_cavalry.png" row="4" col="124">
+    <tech name="HUNGuardMagyarHussar" banner="improvement" icon="resources/images/icons/techs/guard_cavalry/guard_cavalry.png" row="6" col="124">
     </tech>
-    <tech name="RGCzapkaUhlans" banner="improvement" icon="resources/images/icons/techs/guard_cavalry/guard_cavalry.png" row="6" col="124">
+    <tech name="HUNImperialMagyarHussar" banner="improvement" icon="resources/images/icons/techs/imperial_cavalry/imperial_cavalry.png" row="8" col="124">
     </tech>
-    <tech name="ImperialCzapkaUhlans" banner="improvement" icon="resources/images/icons/techs/imperial_cavalry/imperial_cavalry.png" row="8" col="124">
-    </tech>
-    <proto name="WarWagon" banner="unit" icon="resources/art/units/cavalry/war_wagon/war_wagon_icon_portrait.png" row="4" col="129">
-      <override>
-        <nameoverride>24081</nameoverride>
-      </override>
+    <proto name="HUNCrabat" banner="unit" icon="resources/art/units/natives/europeans/crabat_portrait.png" row="3" col="129">
     </proto>
-    <tech name="GuardWarWagons" banner="improvement" icon="resources/images/icons/techs/guard_cavalry/guard_cavalry.png" row="6" col="129">
+    <tech name="HUNGuardCrabat" banner="improvement" icon="resources/images/icons/techs/guard_cavalry/guard_cavalry.png" row="6" col="129">
     </tech>
-    <tech name="ImperialWarWagons" banner="improvement" icon="resources/images/icons/techs/imperial_cavalry/imperial_cavalry.png" row="8" col="129">
+    <tech name="HUNImperialCrabat" banner="improvement" icon="resources/images/icons/techs/imperial_cavalry/imperial_cavalry.png" row="8" col="129">
     </tech>
   </group>
   <group name="Artillery Foundry">

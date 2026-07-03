@@ -214,13 +214,37 @@ Hungría (sin afectar a Alemania).
   base); `MaximumVelocity` en `Absolute` (+0.10 plano).
 - **Renombrado**: cada nivel aplica `SetName` a la unidad → pasa a llamarse
   "Honvéd/Hajduk Veterano" → "de la Guardia" → "Imperial" (ya no queda a secas).
-- Gating (prereqs): Veterano→`FortressizeGerman` (III edad); Guardia→`IndustrializeGerman`
-  (IV) + Veterano; Imperial→`ImperializeGerman` (V) + Guardia (progresión acumulativa).
-- **Visible pero bloqueada**: las 3 comparten slot y son `obtainable` desde el inicio,
-  así que se ve solo la siguiente de la cadena, en gris/bloqueada por edad hasta poder
-  investigarla (patrón estándar de mejoras de AoE3).
+- Gating (prereqs de edad): Veterano→`Fortressize` (III edad); Guardia→`Industrialize`
+  (IV) + Veterano; Imperial→`Imperialize` (V) + Guardia (progresión acumulativa).
+- **Visible pero bloqueada**: se usan los marcadores de edad **genéricos**
+  (`Fortressize`/`Industrialize`/`Imperialize`), no los alemanes — el juego los
+  reconoce como "requisito de edad" y muestra la mejora en gris/bloqueada antes de la
+  edad (igual que las mejoras base). Las 3 comparten slot, así que se ve solo la
+  siguiente de la cadena. Hungría activa esos genéricos vía la cadena alemana.
 - Nombres estilo estándar del juego (Veterano / de la Guardia / Imperial), strings
   `88881020`–`88881025` (+ rollovers `88881030`–`88881035`).
+
+#### Cambio 6 (2026-07-02): Caballería propia (Establo)
+
+Se quita la caballería alemana (`Uhlan`, `WarWagon` + sus mejoras) para Hungría
+(`unobtainable`/disable en `HUNAge0`) y el Establo entrena dos unidades propias:
+
+| Unidad | Base reutilizada | Pop | Notas |
+|---|---|---|---|
+| **Húsar Magiar** (`HUNMagyarHussar`) | `deLegionMagyarHussar` (modelo/stats/audio) | 3 | Copia directa, solo cambia id/strings |
+| **Crabat** (`HUNCrabat`) | `deSaloonCrabat` (mercenario) | 2 | **No** mercenario (quitados tags outlaw), **sin ascensos** (sin `veterancybonus` ni `ExperienceUnit`), multiplicadores nuevos |
+
+Multiplicadores del Crabat: cuerpo a cuerpo **x3 vs Infantería**; a distancia **x3 vs
+Caballería** y **x2 vs Artillería**.
+
+Mejoras de caballería (2 niveles, **nada en III**): Guardia en **IV** (+20% vida y
+ataque), Imperial en **V** (+50%). Mismo patrón que las de infantería (prereqs de edad
+genéricos → visible/bloqueada; `SetName` renombra la unidad). Sin cambio de velocidad.
+`HUNGuard/ImperialMagyarHussar` y `HUNGuard/ImperialCrabat` (dbids 88881307–88881310),
+strings 88881040–88881063.
+
+> "Defensa" se interpretó como **vida (HP)** (como en infantería). Si se prefería
+> armadura, es un cambio menor en el efecto de las techs.
 
 ### 3. `data/homecityhungarymin.xml` — Metrópoli (Home City)
 

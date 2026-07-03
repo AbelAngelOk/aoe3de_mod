@@ -82,6 +82,29 @@
       <effect type="TechStatus" status="obtainable">HUNVeteranHajduk</effect>
       <effect type="TechStatus" status="obtainable">HUNGuardHajduk</effect>
       <effect type="TechStatus" status="obtainable">HUNImperialHajduk</effect>
+      <!-- Cambio 6: caballería. Deshabilitar la del Establo alemán (Uhlan, WarWagon)
+           y sus mejoras; habilitar Magyar Hussar + Crabat propios. -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Uhlan</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">WarWagon</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">RGCzapkaUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCzapkaUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialWarWagons</effect>
+      <effect type="TechStatus" status="unobtainable">GuardWarWagons</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardMagyarHussar</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialMagyarHussar</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardCrabat</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialCrabat</effect>
     </effects>
   </tech>
   <tech name="HUNColonialize" type="Normal">
@@ -142,7 +165,11 @@
        Cada nivel: +20% vida, +20% ataque (todas las acciones), +0.10 velocidad.
        Excepción: el nivel Imperial (3º) sube +50% vida y ataque (velocidad +0.10).
        Cada nivel RENOMBRA la unidad (SetName) a su rango (ej. "Hajduk Veterano").
-       Prereqs (visibles desde el inicio, bloqueadas hasta la edad):
+       Prereqs de EDAD usan los marcadores GENÉRICOS (Fortressize/Industrialize/
+       Imperialize), no los alemanes: el juego los reconoce como "requisito de edad"
+       y muestra la mejora en GRIS/bloqueada antes de cumplir la edad (igual que las
+       mejoras base, p.ej. VeteranMusketeers de españoles/británicos usa el genérico).
+       Hungría activa esos genéricos vía FortressizeGerman→Fortressize, etc.
          Veterano → Fortaleza (III edad)
          Guardia  → Industrial (IV edad) + Veterano investigado
          Imperial → Imperial (V edad) + Guardia investigado
@@ -163,7 +190,7 @@
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
-      <techstatus status="Active">FortressizeGerman</techstatus>
+      <techstatus status="Active">Fortressize</techstatus>
     </prereqs>
     <effects>
       <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
@@ -191,7 +218,7 @@
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
-      <techstatus status="Active">IndustrializeGerman</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
       <techstatus status="Active">HUNVeteranHonved</techstatus>
     </prereqs>
     <effects>
@@ -220,7 +247,7 @@
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
-      <techstatus status="Active">ImperializeGerman</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
       <techstatus status="Active">HUNGuardHonved</techstatus>
     </prereqs>
     <effects>
@@ -251,7 +278,7 @@
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
-      <techstatus status="Active">FortressizeGerman</techstatus>
+      <techstatus status="Active">Fortressize</techstatus>
     </prereqs>
     <effects>
       <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
@@ -279,7 +306,7 @@
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
-      <techstatus status="Active">IndustrializeGerman</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
       <techstatus status="Active">HUNVeteranHajduk</techstatus>
     </prereqs>
     <effects>
@@ -308,7 +335,7 @@
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
-      <techstatus status="Active">ImperializeGerman</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
       <techstatus status="Active">HUNGuardHajduk</techstatus>
     </prereqs>
     <effects>
@@ -323,6 +350,111 @@
       </effect>
       <!-- Renombra la unidad a su nivel (ej. "HUNHajduk Veterano") -->
       <effect type="SetName" proto="HUNHajduk" culture="none" newname="88881025"></effect>
+    </effects>
+  </tech>
+
+  <!-- ============================================================
+       Cambio 6: mejoras de caballería (2 unidades × 2 niveles).
+       NADA en III. Guardia en IV (+20% vida y ataque), Imperial en V (+50%).
+       Prereqs de edad GENÉRICOS (Industrialize/Imperialize) para verse en gris.
+       Cada nivel renombra la unidad (SetName). Sin cambio de velocidad.
+       ============================================================ -->
+  <tech name="HUNGuardMagyarHussar" type="Normal">
+    <dbid>88881307</dbid>
+    <displaynameid>88881050</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">400.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <rollovertextid>88881060</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="SetName" proto="HUNMagyarHussar" culture="none" newname="88881050"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialMagyarHussar" type="Normal">
+    <dbid>88881308</dbid>
+    <displaynameid>88881051</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <cost resourcetype="Gold">800.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <rollovertextid>88881061</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardMagyarHussar</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="SetName" proto="HUNMagyarHussar" culture="none" newname="88881051"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNGuardCrabat" type="Normal">
+    <dbid>88881309</dbid>
+    <displaynameid>88881052</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">400.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <rollovertextid>88881062</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="SetName" proto="HUNCrabat" culture="none" newname="88881052"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialCrabat" type="Normal">
+    <dbid>88881310</dbid>
+    <displaynameid>88881053</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <cost resourcetype="Gold">800.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <rollovertextid>88881063</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardCrabat</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="SetName" proto="HUNCrabat" culture="none" newname="88881053"></effect>
     </effects>
   </tech>
 </techtreemods>

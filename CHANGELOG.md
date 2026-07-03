@@ -1,5 +1,47 @@
 # Changelog — Eastern European Expansion (EEX)
 
+## [mod-minimal 2.0] — 2026-07-02 (Cambio 6: Caballería propia — Establo)
+
+Roster de caballería propio de Hungría en el Establo.
+
+### Quitado (civ-específico, en `HUNAge0`)
+- Caballería alemana del Establo: `Uhlan`, `WarWagon` (deshabilitadas) y sus mejoras
+  (`VeteranUhlans`, `RGCzapkaUhlans`, `ImperialCzapkaUhlans`, `ImperialWarWagons`,
+  `GuardWarWagons`) → `unobtainable`.
+
+### Agregado (`protomods.xml`)
+- **`HUNMagyarHussar`** (id/dbid 88881204): copia del Húsar Magiar base
+  (`deLegionMagyarHussar`) — modelo, stats, audio, tactics. **3 de población** (ya lo era).
+- **`HUNCrabat`** (id/dbid 88881205): copia del Crabat mercenario (`deSaloonCrabat`)
+  **sin** el atributo mercenario/outlaw, **2 de población** (antes 4), **sin ascensos**
+  (quitados `<veterancybonus>` y `<flag>ExperienceUnit</flag>`). Multiplicadores nuevos:
+  cuerpo a cuerpo **x3 vs Infantería**; a distancia **x3 vs Caballería** y **x2 vs Artillería**.
+- Establo (`mergeMode='modify'`): botones de train (Húsar Magiar col 0, Crabat col 1)
+  + botones de mejora (página 1).
+- **4 mejoras de caballería** (`techtreemods.xml`, dbids 88881307–88881310), 2 niveles
+  cada unidad: Guardia en **IV** (+20% vida y ataque) e Imperial en **V** (+50%). **Nada
+  en III.** Prereqs de edad genéricos (visible/bloqueada), renombran la unidad (`SetName`).
+  Sin cambio de velocidad. Strings 88881040–88881063.
+
+> Nota: "defensa" se interpretó como **vida (HP)**, igual que las mejoras de infantería.
+
+---
+
+## [mod-minimal 1.9] — 2026-07-02 (Retrato 256×256 + fix gating "visible/bloqueada")
+
+### Cambiado
+- **Retrato del Honvéd** (`honved.png`): **256×256** llenando todo el marco, mejor
+  calidad (antes 64×64).
+- **Gating de mejoras** — fix del "visible pero bloqueada": los prereqs de EDAD de
+  las 6 mejoras pasan de los marcadores alemanes (`FortressizeGerman`, etc.) a los
+  **genéricos** (`Fortressize`/`Industrialize`/`Imperialize`). El juego reconoce los
+  genéricos como "requisito de edad" y muestra la mejora en gris/bloqueada antes de
+  la edad (como las mejoras base). Hungría los activa vía la cadena alemana, así que
+  el gating por edad sigue igual. Los prereqs de cadena (Veterano→Guardia→Imperial)
+  se mantienen. **A confirmar en juego.**
+
+---
+
 ## [mod-minimal 1.8] — 2026-07-02 (Ajustes de mejoras + retrato Honvéd)
 
 ### Cambiado

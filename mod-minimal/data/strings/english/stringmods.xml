@@ -39,6 +39,23 @@
       <string _locid="88881034">Upgrades Hajduks to Guard (+20% hitpoints and attack, +0.10 speed).</string>
       <string _locid="88881035">Upgrades Hajduks to Imperial (+50% hitpoints and attack, +0.10 speed).</string>
 
+      <!-- Caballería: unidades -->
+      <string _locid="88881040">Magyar Hussar</string>
+      <string _locid="88881041">Elite Hungarian shock cavalry, powerful in melee.</string>
+      <string _locid="88881042">Elite shock cavalry</string>
+      <string _locid="88881043">Crabat</string>
+      <string _locid="88881044">Croatian cavalry: ranged attack strong vs cavalry (x3) and artillery (x2); melee strong vs infantry (x3).</string>
+      <string _locid="88881045">Anti-cavalry / anti-infantry cavalry</string>
+      <!-- Caballería: mejoras (singular, sirve de nombre de unidad) -->
+      <string _locid="88881050">Guard Magyar Hussar</string>
+      <string _locid="88881051">Imperial Magyar Hussar</string>
+      <string _locid="88881052">Guard Crabat</string>
+      <string _locid="88881053">Imperial Crabat</string>
+      <string _locid="88881060">Upgrades Magyar Hussars to Guard (+20% hitpoints and attack).</string>
+      <string _locid="88881061">Upgrades Magyar Hussars to Imperial (+50% hitpoints and attack).</string>
+      <string _locid="88881062">Upgrades Crabats to Guard (+20% hitpoints and attack).</string>
+      <string _locid="88881063">Upgrades Crabats to Imperial (+50% hitpoints and attack).</string>
+
     </language>
   </stringtable>
 </stringmods>

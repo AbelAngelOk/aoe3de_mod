@@ -43,10 +43,18 @@ mod-minimal/
     homecityhungarymin.xml                     ← metrópoli completa (211 cartas, 6 barajas)
     uitechtree/
       techtreedata_hunhungarians.xml           ← layout del árbol de tecnología (UI)
+    wpfg/resources/images/icons/hungary/
+      honved.png                               ← retrato del Honvéd (portraiticon; 64×64, marco completo)
+      honved64.png                             ← icono del botón del cuartel (64×64, con marco UI)
     strings/
       english/stringmods.xml                   ← nombres en inglés
       spanish/stringmods.xml                   ← nombres en español
 ```
+
+> **Iconos personalizados**: los PNG propios van bajo `data/wpfg/resources/images/icons/…`
+> y se referencian en el proto sin el prefijo `data\wpfg\` (p. ej.
+> `<icon>resources\images\icons\hungary\honved.png</icon>`). Es la misma convención que
+> usan los mods de referencia (Polonia, Abstract Nations).
 
 Los archivos `*mods.xml` son **aditivos** (`mergeMode`): se fusionan sobre los
 datos base del juego sin sobreescribir el archivo completo, por lo que son
@@ -145,6 +153,75 @@ Diseño económico propio de Hungría, sin unidades ni assets nuevos:
 | No limitan la construcción de barcos; máx. 50 barcos pesqueros | `FishingBoat` `BuildLimit=50` civ-específico en `HUNAge0` (cap independiente del de carretones) |
 | Unidades iniciales coherentes | `townstartingunit` / `empirewarsstartingunit` cambiados de `SettlerWagon` a `HUNSettlerWagon` en `civmods.xml` |
 
+#### Cambio 2 (2026-07-01): "El cuartel produce solo mosqueteros y hajduks"
+
+Roster de infantería propio de Hungría. El cuartel muestra **solo** dos unidades:
+el **Honvéd** (mosquetero) y el **Hajduk**. En `HUNAge0` se deshabilita la
+infantería alemana que activaba `Age0German` (`Crossbowman`, `Skirmisher`,
+`Pikeman`, `Dopplesoldner`) y se habilitan `HUNHonved` + `HUNHajduk`, ambos con su
+botón agregado al `Barracks` en `protomods.xml`.
+
+#### Cambio 3 (2026-07-01): Honvéd (fusilero de aguja) y Hajduk (con stats del mercenario)
+
+**Honvéd** (`HUNHonved`, id/dbid 88881203) — el "mosquetero" de Hungría:
+
+| Regla | Implementación |
+|---|---|
+| Stats de mosquetero | Copia **exacta** del proto `Musketeer` base (todas sus stats/multiplicadores) |
+| Modelo "camisa roja" | Redshirt / Garibaldini (`deColonialMilitia`): `animfile` → `units\infantry_ranged\colonial_militia\redshirt.xml` (animfile de **mosquetero**, acorde al rol; unidad que en el juego base solo aparece en el editor) |
+| Icono del botón del cuartel | `honved64.png` (64×64, **con marco UI**) → `<icon>` |
+| Retrato (al seleccionar) | `honved.png` (64×64, marco completo) → `<portraiticon>` |
+| Nombre "Honvéd" | Strings `88881013`–`88881015` |
+
+**Hajduk** (`HUNHajduk`, id/dbid 88881202) — copia del Hajduk mercenario del juego
+base (`deSaloonHajduk`) con **todas** sus stats (modelo `units\spc\outlaws\hajduk.xml`,
+iconos de revolución, 110 HP, carga cuerpo a cuerpo, y todos los `damagebonus` vs
+infantería pesada / skirmisher / caballería), **excepto**:
+
+| Excepción pedida | Implementación |
+|---|---|
+| No debe ser unidad mercenaria/outlaw | Se eliminan los `unittype` `AbstractOutlaw`, `LogicalTypePickableOutlaw`, `LogicalTypePickableMercOutlaw` |
+| Coste 60 alimento + 60 oro (original: 110 oro) | `<cost>` Food 60 + Gold 60 |
+| Coste 1 de población (original: 3) | `<populationcount>1</populationcount>` |
+| No se beneficia por ascenso (ni muestra la UI de ascenso) | Se eliminan el bloque `<veterancybonus>` (bonus de stats por rango) **y** el `<flag>ExperienceUnit</flag>` (el que hace acumular XP / ascender y mostrar la UI). Ambos se recuperarán a futuro con una carta |
+
+> **Nota de arte**: el juego de referencia (`AoE3Reference`) solo contiene datos XML,
+> no los assets 3D, así que el modelo 3D se elige entre los `animfile` existentes. Se
+> usa el de la "camisa roja" (Redshirt/Garibaldini = `deColonialMilitia`), un animfile
+> de mosquetero acorde al rol del Honvéd. Las **imágenes** de la unidad sí son propias:
+> `honved64.png` (con marco) para el botón del cuartel y `honved.png` (sin marco) para
+> el retrato grande. Para otro modelo 3D basta cambiar el `<animfile>` del proto.
+
+#### Cambio 4 (2026-07-02): Mejoras de cuartel propias + orden + limpieza
+
+**Orden del cuartel**: Honvéd primero (`train` col 0), Hajduk segundo (col 1).
+
+**Mejoras alemanas quitadas**: las mejoras del cuartel que traía `Age0German`
+(Veteran/Guard/Imperial de Crossbowman, Skirmisher, Pikeman, Dopplesoldner + Needle
+Gun — p. ej. "Ballesteros veteranos") ya no corresponden a ninguna unidad húngara.
+Se marcan **`unobtainable` en `HUNAge0`** (14 techs) → desaparecen del cuartel de
+Hungría (sin afectar a Alemania).
+
+**6 mejoras propias** (2 ramas × 3 niveles), en `techtreemods.xml`, con botón en el
+`Barracks` (página 1) y en el diagrama del árbol de tecnología:
+
+| Rama | Niveles (tech) | Efecto por nivel |
+|---|---|---|
+| Honvéd | `HUNVeteranHonved` → `HUNGuardHonved` → `HUNImperialHonved` | +20% / +20% / **+50%** vida y ataque; **+0.10** velocidad en los tres |
+| Hajduk | `HUNVeteranHajduk` → `HUNGuardHajduk` → `HUNImperialHajduk` | idem |
+
+- Efectos: `Hitpoints` y `Damage allactions` en `BasePercent` (acumulativo sobre la
+  base); `MaximumVelocity` en `Absolute` (+0.10 plano).
+- **Renombrado**: cada nivel aplica `SetName` a la unidad → pasa a llamarse
+  "Honvéd/Hajduk Veterano" → "de la Guardia" → "Imperial" (ya no queda a secas).
+- Gating (prereqs): Veterano→`FortressizeGerman` (III edad); Guardia→`IndustrializeGerman`
+  (IV) + Veterano; Imperial→`ImperializeGerman` (V) + Guardia (progresión acumulativa).
+- **Visible pero bloqueada**: las 3 comparten slot y son `obtainable` desde el inicio,
+  así que se ve solo la siguiente de la cadena, en gris/bloqueada por edad hasta poder
+  investigarla (patrón estándar de mejoras de AoE3).
+- Nombres estilo estándar del juego (Veterano / de la Guardia / Imperial), strings
+  `88881020`–`88881025` (+ rollovers `88881030`–`88881035`).
+
 ### 3. `data/homecityhungarymin.xml` — Metrópoli (Home City)
 
 Nodo raíz `<homecity>` (archivo completo, **no** aditivo). Copia exacta de
@@ -189,7 +266,11 @@ Definen los mismos 4 strings en cada idioma:
 | Rango | Uso |
 |---|---|
 | `88881001`–`88881004` | Strings (nombre, tooltip, ciudad, héroe) |
+| `88881010`–`88881015` | Strings de unidades (Hajduk, Honvéd) |
+| `88881020`–`88881035` | Strings de mejoras de cuartel (nombres + rollovers) |
 | `88881101`–`88881107` | dbids de los 7 techs de edad propios |
+| `88881201`–`88881203` | ids/dbids de protos propios (`HUNSettlerWagon`, `HUNHajduk`, `HUNHonved`) |
+| `88881301`–`88881306` | dbids de las 6 mejoras de cuartel |
 | `HM` | statsid |
 
 Elegido para no colisionar con el mod EEX (`77181xxx`) ni con el mod de Polonia
@@ -197,11 +278,14 @@ Elegido para no colisionar con el mod EEX (`77181xxx`) ni con el mod de Polonia
 
 ---
 
-## Lo que este mod **NO** incluye (todo se hereda de Germans)
+## Lo que este mod **NO** incluye (el resto se hereda de Germans)
 
-Al ser un clon de Germans, Hungría **no** tiene todavía contenido propio:
+Hungría partió como clon de Germans y ya tiene algunos elementos propios
+(`HUNSettlerWagon`, `HUNHajduk`, roster de cuartel propio). Lo que **todavía** no
+tiene contenido propio:
 
-- ❌ Unidades únicas (usa Uhlan, Doppelsöldner, War Wagon, etc. alemanes)
+- ⚠️ Unidades propias: solo `HUNSettlerWagon` (carretón), `HUNHonved` y `HUNHajduk`
+  (cuartel). La caballería (Establo), artillería, etc. siguen siendo las alemanas.
 - ❌ Explorador propio (usa el `Explorer` estándar)
 - ❌ Políticos propios (usa los de Germans)
 - ❌ Bonos de civilización propios

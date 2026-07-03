@@ -23,6 +23,30 @@
       <string _locid="88881003">Budapest</string>
       <string _locid="88881004">El Caudillo Magiar</string>
 
+      <!-- Unidades -->
+      <string _locid="88881010">Hajduk</string>
+      <string _locid="88881011">Infantería húngara con una fuerte carga cuerpo a cuerpo y daño extra contra escaramuzadores e infantería pesada. No obtiene ascensos de rango.</string>
+      <string _locid="88881012">Infantería de choque</string>
+      <string _locid="88881013">Honvéd</string>
+      <string _locid="88881014">Infantería de línea húngara armada con un fusil de aguja. Buena contra caballería y otra infantería.</string>
+      <string _locid="88881015">Infantería de línea, buena vs caballería</string>
+
+      <!-- Mejoras de cuartel (Honvéd) -->
+      <string _locid="88881020">Honvéd Veterano</string>
+      <string _locid="88881021">Honvéd de la Guardia</string>
+      <string _locid="88881022">Honvéd Imperial</string>
+      <!-- Mejoras de cuartel (Hajduk) -->
+      <string _locid="88881023">Hajduk Veterano</string>
+      <string _locid="88881024">Hajduk de la Guardia</string>
+      <string _locid="88881025">Hajduk Imperial</string>
+      <!-- Rollovers de mejoras -->
+      <string _locid="88881030">Mejora los Honvéd a Veterano (+20% vida y ataque, +0.10 velocidad).</string>
+      <string _locid="88881031">Mejora los Honvéd a Guardia (+20% vida y ataque, +0.10 velocidad).</string>
+      <string _locid="88881032">Mejora los Honvéd a Imperial (+50% vida y ataque, +0.10 velocidad).</string>
+      <string _locid="88881033">Mejora los Hajduk a Veterano (+20% vida y ataque, +0.10 velocidad).</string>
+      <string _locid="88881034">Mejora los Hajduk a Guardia (+20% vida y ataque, +0.10 velocidad).</string>
+      <string _locid="88881035">Mejora los Hajduk a Imperial (+50% vida y ataque, +0.10 velocidad).</string>
+
     </language>
   </stringtable>
 </stringmods>

@@ -167,30 +167,21 @@
   <group name="Barracks">
     <proto name="Barracks" banner="building" icon="resources/art/buildings/barracks/barracks_portraits.png" row="2" col="103">
     </proto>
-    <proto name="Dopplesoldner" banner="unit" icon="resources/art/units/infantry/dopplesoldner/dopplesoldner_portrait.png" row="3" col="103">
+    <proto name="HUNHonved" banner="unit" icon="resources/images/icons/hungary/honved.png" row="3" col="103">
     </proto>
-    <tech name="VeteranDopplesoldners" banner="improvement" icon="resources/images/icons/techs/veteran_sword_infantry/veteran_sword_infantry.png" row="4" col="103">
+    <tech name="HUNVeteranHonved" banner="improvement" icon="resources/images/icons/techs/veteran_infantry/veteran_infantry.png" row="4" col="103">
     </tech>
-    <tech name="GuardDopplesoldners" banner="improvement" icon="resources/images/icons/techs/guard_sword_infantry/guard_sword_infantry.png" row="6" col="103">
+    <tech name="HUNGuardHonved" banner="improvement" icon="resources/images/icons/techs/guard_infantry/guard_infantry.png" row="6" col="103">
     </tech>
-    <tech name="ImperialDopplesoldner" banner="improvement" icon="resources/images/icons/techs/imperial_sword_infantry/imperial_sword_infantry.png" row="8" col="103">
+    <tech name="HUNImperialHonved" banner="improvement" icon="resources/images/icons/techs/imperial_infantry/imperial_infantry.png" row="8" col="103">
     </tech>
-    <proto name="Pikeman" banner="unit" icon="resources/art/units/infantry/pikeman/pikeman_portrait.png" row="3" col="108">
+    <proto name="HUNHajduk" banner="unit" icon="resources/art/units/revolution/hajduk_portrait.png" row="3" col="108">
     </proto>
-    <tech name="VeteranPikemen" banner="improvement" icon="resources/images/icons/techs/veteran_spear_infantry/veteran_spear_infantry.png" row="4" col="108">
+    <tech name="HUNVeteranHajduk" banner="improvement" icon="resources/images/icons/techs/veteran_infantry/veteran_infantry.png" row="4" col="108">
     </tech>
-    <proto name="Crossbowman" banner="unit" icon="resources/art/units/infantry_ranged/crossbow/crossbow_portrait.png" row="3" col="113">
-    </proto>
-    <tech name="VeteranCrossbowmen" banner="improvement" icon="resources/images/icons/techs/veteran_archer_infantry/veteran_archer_infantry.png" row="4" col="113">
+    <tech name="HUNGuardHajduk" banner="improvement" icon="resources/images/icons/techs/guard_infantry/guard_infantry.png" row="6" col="108">
     </tech>
-    <proto name="Skirmisher" banner="unit" icon="resources/art/units/infantry_ranged/skirmisher/skirmisher_portrait.png" row="4" col="118">
-      <override>
-        <nameoverride>28163</nameoverride>
-      </override>
-    </proto>
-    <tech name="RGPrussianNeedleGun" banner="improvement" icon="resources/images/icons/techs/guard_infantry/guard_infantry.png" row="6" col="118">
-    </tech>
-    <tech name="ImperialNeedleGun" banner="improvement" icon="resources/images/icons/techs/imperial_infantry/imperial_infantry.png" row="8" col="118">
+    <tech name="HUNImperialHajduk" banner="improvement" icon="resources/images/icons/techs/imperial_infantry/imperial_infantry.png" row="8" col="108">
     </tech>
   </group>
   <group name="Stable">

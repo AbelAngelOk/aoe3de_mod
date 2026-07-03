@@ -15,10 +15,38 @@
       techtreemods.xml (HUNAge0).
   El límite de barcos pesqueros (FishingBoat a 50) también se aplica civ-específico
   en HUNAge0, no aquí, porque FishingBoat es un proto compartido.
+
+  Cambio 2/3 (2026-07-01): "el cuartel produce solo Honvéd (mosquetero) y Hajduk".
+    - El cuartel de Hungría muestra solo HUNHonved + HUNHajduk. La infantería alemana
+      (Crossbowman, Skirmisher, Pikeman, Dopplesoldner) se deshabilita para Hungría en
+      HUNAge0. HUNHonved y HUNHajduk se agregan al train del Barracks y se habilitan
+      en HUNAge0.
+    - HUNHonved: el "mosquetero" de Hungría. Copia exacta del proto Musketeer base
+      (todas sus stats) con el modelo de la "camisa roja" (Redshirt/Garibaldini =
+      deColonialMilitia, animfile units\infantry_ranged\colonial_militia\redshirt.xml),
+      nombre "Honvéd", e imágenes propias:
+        - <icon> (botón del cuartel, 64x64 con marco): honved64.png
+        - <portraiticon> (retrato grande al seleccionar): honved.png (sin marco)
+    - HUNHajduk: copia del Hajduk mercenario (deSaloonHajduk) con sus stats y
+      multiplicadores, pero SIN ser mercenario/outlaw, coste 60 alimento + 60 oro,
+      pop 1 y sin veterancía (ver detalle en el propio proto abajo).
 -->
 <protomods>
   <Unit mergeMode='modify' name="TownCenter">
     <train row="0" page="0" column="0">HUNSettlerWagon</train>
+  </Unit>
+
+  <Unit mergeMode='modify' name="Barracks">
+    <!-- Orden: Honvéd primero (col 0), Hajduk segundo (col 1) -->
+    <train row="0" page="0" column="0">HUNHonved</train>
+    <train row="0" page="0" column="1">HUNHajduk</train>
+    <!-- Mejoras (Cambio 4): 3 niveles por unidad, alineadas bajo su columna -->
+    <tech row="0" page="1" column="0">HUNVeteranHonved</tech>
+    <tech row="0" page="1" column="0">HUNGuardHonved</tech>
+    <tech row="0" page="1" column="0">HUNImperialHonved</tech>
+    <tech row="0" page="1" column="1">HUNVeteranHajduk</tech>
+    <tech row="0" page="1" column="1">HUNGuardHajduk</tech>
+    <tech row="0" page="1" column="1">HUNImperialHajduk</tech>
   </Unit>
 
   <unit id="88881201" name="HUNSettlerWagon">
@@ -370,6 +398,273 @@
       <rate type="Herdable">1.000000</rate>
       <rate type="Huntable">1.000000</rate>
       <rate type="Tree">1.000000</rate>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio 3 (2026-07-01): Hajduk con TODAS las stats del Hajduk mercenario
+       (deSaloonHajduk): modelo, iconos, HP, multiplicadores de dano, tactics.
+       EXCEPCIONES pedidas:
+         - NO mercenario/outlaw: se quitan AbstractOutlaw / LogicalTypePickableOutlaw
+           / LogicalTypePickableMercOutlaw.
+         - Coste 60 alimento + 60 oro (el original salia 110 oro).
+         - populationcount 1 (el original era 3).
+         - SIN ascenso: se elimina el bloque <veterancybonus> (bonus de stats por
+           rango) Y el flag <flag>ExperienceUnit</flag> (que es el que hace acumular
+           XP / ascender de rango y mostrar la UI de ascenso). Se recuperaran a
+           futuro con una carta. -->
+  <unit id="88881202" name="HUNHajduk">
+    <dbid>88881202</dbid>
+    <displaynameid>88881010</displaynameid>
+    <editornameid>88881010</editornameid>
+    <populationcount>1</populationcount>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Ranged</formationcategory>
+    <maxvelocity>4.5000</maxvelocity>
+    <maxrunvelocity>6.5000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\spc\outlaws\hajduk.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\revolution\hajduk_icon.png</icon>
+    <portraiticon>resources\art\units\revolution\hajduk_portrait.png</portraiticon>
+    <rollovertextid>88881011</rollovertextid>
+    <shortrollovertextid>88881012</shortrollovertextid>
+    <initialhitpoints>110.0000</initialhitpoints>
+    <maxhitpoints>110.0000</maxhitpoints>
+    <los>20.0000</los>
+    <rechargetime>30.0000</rechargetime>
+    <chargeusagetime>0.800</chargeusagetime>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <autoattackrange>16.0000</autoattackrange>
+    <unitaitype>RangedCombative</unitaitype>
+    <trainpoints>35.0000</trainpoints>
+    <bounty>22.0000</bounty>
+    <buildbounty>22.0000</buildbounty>
+    <cost resourcetype="Food">60.0000</cost>
+    <cost resourcetype="Gold">60.0000</cost>
+    <allowedage>1</allowedage>
+    <armor type="Ranged" value="0.3000">
+    </armor>
+    <!-- (veterancybonus del deSaloonHajduk ELIMINADO: sin ascenso) -->
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <!-- (AbstractOutlaw / LogicalTypePickableOutlaw / LogicalTypePickableMercOutlaw ELIMINADOS: no mercenario) -->
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Military</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>AbstractRifleman</unittype>
+    <unittype>AbstractCounterSkirmisher</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <!-- <flag>ExperienceUnit</flag> ELIMINADO: es el flag que hace que la unidad
+         acumule XP y ascienda de rango (mostrando la UI de ascenso). Sin él, el
+         Hajduk no asciende ni muestra esa UI. Junto con el <veterancybonus> ya
+         eliminado, la unidad no se beneficia por ascenso (se recuperará con una
+         carta a futuro, que podrá re-agregar ambos). -->
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>saloonRifleReload.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>12.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>HandAttack</name>
+      <damage>14.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractHeavyInfantry">1.50000</damagebonus>
+      <damagebonus type="AbstractSkirmisher">2.000000</damagebonus>
+      <damagebonus type="AbstractCounterSkirmisher">2.000000</damagebonus>
+      <damagebonus type="AbstractLightCavalry">1.000000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>RangedAttack</name>
+      <damage>14.00000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>20.000000</maxrange>
+      <minrange>2.000000</minrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractHeavyInfantry">1.50000</damagebonus>
+      <damagebonus type="AbstractSkirmisher">2.000000</damagebonus>
+      <damagebonus type="AbstractCounterSkirmisher">2.000000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.600000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.600000</damagebonus>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio 3 (2026-07-01): Honved = Mosquetero con el modelo/imagen del
+       fusilero de aguja prusiano (skirmisher del consulado). Copia EXACTA del proto
+       Musketeer base (todas sus stats) cambiando solo nombre, strings y arte. -->
+  <unit id="88881203" name="HUNHonved">
+    <dbid>88881203</dbid>
+    <displaynameid>88881013</displaynameid>
+    <editornameid>88881013</editornameid>
+    <populationcount>1</populationcount>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Ranged</formationcategory>
+    <maxvelocity>4.0000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\infantry_ranged\colonial_militia\redshirt.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\images\icons\hungary\honved64.png</icon>
+    <portraiticon>resources\images\icons\hungary\honved.png</portraiticon>
+    <rollovertextid>88881014</rollovertextid>
+    <shortrollovertextid>88881015</shortrollovertextid>
+    <initialhitpoints>150.0000</initialhitpoints>
+    <maxhitpoints>150.0000</maxhitpoints>
+    <los>16.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <unitaitype>RangedCombative</unitaitype>
+    <trainpoints>30.0000</trainpoints>
+    <bounty>10.0000</bounty>
+    <buildbounty>10.0000</buildbounty>
+    <cost resourcetype="Food">75.0000</cost>
+    <cost resourcetype="Gold">25.0000</cost>
+    <allowedage>1</allowedage>
+    <armor type="Hand" value="0.2000">
+    </armor>
+    <sharedselectionunittypes>
+      <unittype>ypConsulateRedcoat</unittype>
+      <unittype>ypConsulateGuerreiros</unittype>
+      <unittype>ypConsulateStadhouders</unittype>
+      <unittype>deMXSpanishMusketeer</unittype>
+    </sharedselectionunittypes>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Military</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>AbstractHeavyInfantry</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>AbstractMusketeer</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>musketBayonet.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>20.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>DefendHandAttack</name>
+      <damage>13.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>DefendRangedAttack</name>
+      <damage>23.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>13.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerHandAttack</name>
+      <damage>13.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerRangedAttack</name>
+      <damage>23.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>VolleyHandAttack</name>
+      <damage>13.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">3.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">2.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>23.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
     </protoaction>
   </unit>
 </protomods>

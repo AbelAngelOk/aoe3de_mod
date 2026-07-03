@@ -1,5 +1,133 @@
 # Changelog — Eastern European Expansion (EEX)
 
+## [mod-minimal 1.8] — 2026-07-02 (Ajustes de mejoras + retrato Honvéd)
+
+### Cambiado
+- **Retrato del Honvéd** (`honved.png`): ahora **64×64 llenando todo el marco** (sin
+  margen transparente). Fuente: `honved.png` de la raíz (intacta).
+- **Mejoras de cuartel** (Honvéd y Hajduk):
+  - Velocidad por nivel **+0.15 → +0.10**.
+  - Cada nivel ahora **renombra la unidad** (`SetName`) a su rango (Honvéd/Hajduk
+    Veterano → de la Guardia → Imperial); ya no queda "Honvéd"/"Hajduk" a secas.
+  - Strings de mejora en inglés a singular (sirven de nombre de unidad); rollovers
+    actualizados a +0.10.
+- Confirmado el gating "visible pero bloqueada": las 3 mejoras comparten slot; se ve
+  solo la siguiente de la cadena, bloqueada por edad (Veterano→III, Guardia→IV,
+  Imperial→V) hasta poder investigarla. (Ya estaba así desde 1.7; documentado.)
+
+---
+
+## [mod-minimal 1.7] — 2026-07-02 (Cambio 4: mejoras de cuartel propias)
+
+### Quitado
+- Las mejoras alemanas del cuartel (Veteran/Guard/Imperial de Crossbowman, Skirmisher,
+  Pikeman, Dopplesoldner + Needle Gun) ya no aparecen para Hungría: se marcan
+  `unobtainable` en `HUNAge0` (14 techs). Ya no correspondían a ninguna unidad del
+  cuartel húngaro.
+
+### Agregado
+- **6 techs de mejora propias** (2 ramas × 3 niveles), `HUNVeteran/Guard/Imperial` +
+  `Honved`/`Hajduk` (dbids 88881301–88881306):
+  - Niveles 1 y 2: **+20%** vida y ataque, **+0.15** velocidad.
+  - Nivel 3 (Imperial): **+50%** vida y ataque, **+0.15** velocidad.
+  - Progresión acumulativa: Veterano (Fortaleza) → Guardia (Industrial, requiere
+    Veterano) → Imperial (Imperial, requiere Guardia).
+  - Nombres estilo estándar (Veterano/Guardia/Imperial), strings 88881020–88881025
+    (+ rollovers 88881030–88881035) en inglés y español.
+  - Botones agregados al `Barracks` (página 1) alineados bajo cada unidad; entradas
+    en el diagrama del árbol de tecnología.
+
+### Cambiado
+- Orden del cuartel: **Honvéd primero, Hajduk segundo** (`train` col 0 y col 1).
+
+---
+
+## [mod-minimal 1.6] — 2026-07-02 (Hajduk: quitar UI de ascenso)
+
+### Corregido
+- El `HUNHajduk` seguía mostrando la UI de ascenso al abatir enemigos (acumulaba
+  rangos sin beneficio). Causa: se había quitado el `<veterancybonus>` pero **no** el
+  `<flag>ExperienceUnit</flag>`, que es el que hace acumular XP y ascender de rango.
+  Eliminado ese flag → el Hajduk ya no asciende ni muestra la UI. (Validado: las 29
+  unidades del juego base que ascienden tienen ambos; el Musketeer estándar no tiene
+  ninguno.) Ambos —flag y veterancybonus— se re-agregarán a futuro con una carta.
+
+---
+
+## [mod-minimal 1.5] — 2026-07-02 (Honvéd: modelo camisa roja + icono con marco)
+
+### Agregado
+- `honved64.png` (64×64 con marco) como `<icon>` del Honvéd (botón del cuartel).
+
+### Cambiado
+- Modelo 3D del `HUNHonved`: de la casaca roja del consulado a la **"camisa roja"**
+  (Redshirt/Garibaldini = `deColonialMilitia`, `units\infantry_ranged\colonial_militia\redshirt.xml`),
+  la unidad que en el juego base solo aparece en el editor de escenarios.
+- `<portraiticon>` del Honvéd sigue usando `honved.png` (retrato grande sin marco);
+  `<icon>` ahora usa `honved64.png` (con marco).
+
+---
+
+## [mod-minimal 1.4] — 2026-07-02 (Honvéd: icono propio + modelo casaca roja)
+
+### Agregado
+- **Icono/retrato personalizado del Honvéd**: `honved.png` (retrato húngaro con chacó
+  y dolmán) en `data\wpfg\resources\images\icons\hungary\honved.png`, referenciado en
+  `<icon>`/`<portraiticon>` del proto `HUNHonved`. Primer asset propio del mod.
+  (Convención de iconos de mod: `data\wpfg\resources\images\icons\…`.)
+
+### Cambiado
+- Modelo 3D del `HUNHonved`: de skirmisher del consulado a **casaca roja del consulado**
+  (`units\asians\consulate\musketeer\musketeer.xml`) — animfile de mosquetero, acorde
+  al rol melee+ranged del Honvéd, y con librea roja acorde al retrato.
+
+---
+
+## [mod-minimal 1.3] — 2026-07-01 (Cambio 3: Honvéd + Hajduk con stats de mercenario)
+
+Reemplazo del mosquetero y del hajduk provisional por unidades con arte y stats
+propios. Detalle en `mod-minimal/README.md` (sección "Cambio 3").
+
+### Agregado
+- **`HUNHonved`** (`protomods.xml`, id/dbid 88881203): el "mosquetero" de Hungría.
+  Copia exacta del proto `Musketeer` base (todas sus stats) con el modelo/imagen del
+  **fusilero de aguja prusiano** (`units\asians\consulate\skirmisher\skirmisher.xml` +
+  iconos del skirmisher) y nombre **Honvéd**. Strings `88881013`–`88881015`.
+
+### Cambiado
+- **`HUNHajduk`** rehecho a partir del **Hajduk mercenario** del juego base
+  (`deSaloonHajduk`): conserva modelo, iconos, 110 HP, carga cuerpo a cuerpo y todos
+  los multiplicadores de daño. Excepciones pedidas: **no** es mercenario/outlaw
+  (quitados los `unittype` de outlaw), cuesta **60 alimento + 60 oro** (antes 110 oro),
+  **1 de población** (antes 3) y **sin veterancía/ascenso** (bloque `<veterancybonus>`
+  eliminado; se recuperará a futuro con una carta).
+- `HUNAge0` habilita `HUNHonved` + `HUNHajduk` (antes `Musketeer` base + Hajduk
+  provisional). El cuartel de Hungría muestra solo esas dos unidades.
+- `Barracks` (`protomods.xml`): botones de train de `HUNHonved` y `HUNHajduk`.
+- `uitechtree`: grupo del cuartel actualizado a Honvéd + Hajduk.
+
+---
+
+## [mod-minimal 1.2] — 2026-07-01 (Cambio 2: roster de cuartel propio)
+
+El cuartel de Hungría produce únicamente **mosqueteros y hajduks**. Detalle en
+`mod-minimal/README.md` (sección "Cambio 2").
+
+### Agregado
+- **`HUNHajduk`** (`protomods.xml`, id/dbid 88881202): infantería propia de Hungría,
+  mosquetero-reskin (90 HP, 60 alimento + 20 madera, `AbstractMusketeer`) que
+  reutiliza animaciones/iconos del Musketeer base. Botón agregado al `Barracks`.
+- Strings del Hajduk (`88881010`–`88881012`) en inglés y español.
+
+### Cambiado
+- `HUNAge0`: deshabilita la infantería de cuartel alemana (`Crossbowman`,
+  `Skirmisher`, `Pikeman`, `Dopplesoldner`) y habilita `Musketeer` + `HUNHajduk`
+  (civ-específico) → el cuartel muestra solo esas dos unidades.
+- `uitechtree/techtreedata_hunhungarians.xml`: grupo del cuartel actualizado a
+  Mosquetero + Hajduk.
+
+---
+
 ## [mod-minimal 1.1] — 2026-07-01 (Cambio 1 de gameplay: colonos → carretones)
 
 Primer cambio de jugabilidad propia de Hungría, sin assets nuevos y sin afectar a

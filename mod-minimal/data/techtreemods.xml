@@ -37,6 +37,51 @@
       <effect type="Data" amount="50.00" subtype="BuildLimit" relativity="Assign">
         <target type="ProtoUnit">FishingBoat</target>
       </effect>
+      <!-- Cambio 2: el cuartel produce solo mosqueteros y hajduks -->
+      <!-- Deshabilitar la infantería de cuartel alemana que activó Age0German -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Dopplesoldner</target>
+      </effect>
+      <!-- Habilitar el "mosquetero" propio (Honvéd) y el Hajduk -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- Cambio 4: quitar las mejoras alemanas del cuartel (ya no hay esas unidades).
+           Se hacen unobtainable solo para Hungría (Age0German las hizo obtainable). -->
+      <effect type="TechStatus" status="unobtainable">VeteranCrossbowmen</effect>
+      <effect type="TechStatus" status="unobtainable">GuardCrossbowmen</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCrossbowmen</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">GuardPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranDopplesoldners</effect>
+      <effect type="TechStatus" status="unobtainable">GuardDopplesoldners</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialDopplesoldner</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranSkirmishersShadow</effect>
+      <effect type="TechStatus" status="unobtainable">GuardSkirmishers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialSkirmishers</effect>
+      <effect type="TechStatus" status="unobtainable">RGPrussianNeedleGun</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialNeedleGun</effect>
+      <!-- Cambio 4: habilitar (obtainable) las mejoras propias: 3 Honvéd + 3 Hajduk.
+           Los prereqs de edad/nivel controlan cuándo se pueden investigar. -->
+      <effect type="TechStatus" status="obtainable">HUNVeteranHonved</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardHonved</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialHonved</effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialHajduk</effect>
     </effects>
   </tech>
   <tech name="HUNColonialize" type="Normal">
@@ -89,6 +134,195 @@
     <flag>Shadow</flag>
     <effects>
       <effect type="TechStatus" status="active">PostImperialGerman</effect>
+    </effects>
+  </tech>
+
+  <!-- ============================================================
+       Cambio 4/5: mejoras de unidades del cuartel (2 ramas × 3 niveles)
+       Cada nivel: +20% vida, +20% ataque (todas las acciones), +0.10 velocidad.
+       Excepción: el nivel Imperial (3º) sube +50% vida y ataque (velocidad +0.10).
+       Cada nivel RENOMBRA la unidad (SetName) a su rango (ej. "Hajduk Veterano").
+       Prereqs (visibles desde el inicio, bloqueadas hasta la edad):
+         Veterano → Fortaleza (III edad)
+         Guardia  → Industrial (IV edad) + Veterano investigado
+         Imperial → Imperial (V edad) + Guardia investigado
+       Las 3 comparten slot en el cuartel, así que se ve solo la "siguiente"
+       mejora de la cadena, bloqueada por edad hasta poder investigarla.
+       ============================================================ -->
+
+  <!-- === Rama Honvéd === -->
+  <tech name="HUNVeteranHonved" type="Normal">
+    <dbid>88881301</dbid>
+    <displaynameid>88881020</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>88881030</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">FortressizeGerman</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHonved Veterano") -->
+      <effect type="SetName" proto="HUNHonved" culture="none" newname="88881020"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNGuardHonved" type="Normal">
+    <dbid>88881302</dbid>
+    <displaynameid>88881021</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>88881031</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">IndustrializeGerman</techstatus>
+      <techstatus status="Active">HUNVeteranHonved</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHonved Veterano") -->
+      <effect type="SetName" proto="HUNHonved" culture="none" newname="88881021"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialHonved" type="Normal">
+    <dbid>88881303</dbid>
+    <displaynameid>88881022</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>88881032</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ImperializeGerman</techstatus>
+      <techstatus status="Active">HUNGuardHonved</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHonved Veterano") -->
+      <effect type="SetName" proto="HUNHonved" culture="none" newname="88881022"></effect>
+    </effects>
+  </tech>
+
+  <!-- === Rama Hajduk === -->
+  <tech name="HUNVeteranHajduk" type="Normal">
+    <dbid>88881304</dbid>
+    <displaynameid>88881023</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>88881033</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">FortressizeGerman</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHajduk Veterano") -->
+      <effect type="SetName" proto="HUNHajduk" culture="none" newname="88881023"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNGuardHajduk" type="Normal">
+    <dbid>88881305</dbid>
+    <displaynameid>88881024</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>88881034</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">IndustrializeGerman</techstatus>
+      <techstatus status="Active">HUNVeteranHajduk</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHajduk Veterano") -->
+      <effect type="SetName" proto="HUNHajduk" culture="none" newname="88881024"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialHajduk" type="Normal">
+    <dbid>88881306</dbid>
+    <displaynameid>88881025</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>88881035</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ImperializeGerman</techstatus>
+      <techstatus status="Active">HUNGuardHajduk</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHajduk Veterano") -->
+      <effect type="SetName" proto="HUNHajduk" culture="none" newname="88881025"></effect>
     </effects>
   </tech>
 </techtreemods>

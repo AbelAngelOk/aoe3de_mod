@@ -15,6 +15,30 @@
       <string _locid="88881003">Budapest</string>
       <string _locid="88881004">The Magyar Chieftain</string>
 
+      <!-- Unidades -->
+      <string _locid="88881010">Hajduk</string>
+      <string _locid="88881011">Hungarian infantry with a strong melee charge and bonus damage against skirmishers and heavy infantry. Does not gain rank promotions.</string>
+      <string _locid="88881012">Shock skirmisher infantry</string>
+      <string _locid="88881013">Honvéd</string>
+      <string _locid="88881014">Hungarian line infantry armed with a needle gun. Good against cavalry and other infantry.</string>
+      <string _locid="88881015">Line infantry, good vs cavalry</string>
+
+      <!-- Mejoras de cuartel (Honvéd) — singular, sirve también de nombre de unidad -->
+      <string _locid="88881020">Veteran Honvéd</string>
+      <string _locid="88881021">Guard Honvéd</string>
+      <string _locid="88881022">Imperial Honvéd</string>
+      <!-- Mejoras de cuartel (Hajduk) -->
+      <string _locid="88881023">Veteran Hajduk</string>
+      <string _locid="88881024">Guard Hajduk</string>
+      <string _locid="88881025">Imperial Hajduk</string>
+      <!-- Rollovers de mejoras -->
+      <string _locid="88881030">Upgrades Honvéds to Veteran (+20% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88881031">Upgrades Honvéds to Guard (+20% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88881032">Upgrades Honvéds to Imperial (+50% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88881033">Upgrades Hajduks to Veteran (+20% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88881034">Upgrades Hajduks to Guard (+20% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88881035">Upgrades Hajduks to Imperial (+50% hitpoints and attack, +0.10 speed).</string>
+
     </language>
   </stringtable>
 </stringmods>

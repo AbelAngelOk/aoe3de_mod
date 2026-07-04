@@ -52,19 +52,9 @@
   </coffers>
   <cards>
     <card>
-      <name>HCShipSettlerWagons1</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>1</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCShipSettlerWagons2</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipSettlerWagons1</prereqtech>
       <age>1</age>
       <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -280,13 +270,6 @@
       <age>0</age>
     </card>
     <card>
-      <name>HCExplorerGerman</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
       <name>HCShipBalloons</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -301,53 +284,46 @@
       <age>3</age>
     </card>
     <card>
-      <name>HCShipCrossbowmen2German</name>
+      <name>HUNShipHonveds2</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>10</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCrossbowmen3German</name>
+      <name>HUNShipHonveds3</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipCrossbowmen2German</prereqtech>
+      <prereqtech>HUNShipHonveds2</prereqtech>
       <age>1</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCrossbowmen4German</name>
+      <name>HUNShipHonveds4</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipCrossbowmen2German</prereqtech>
+      <prereqtech>HUNShipHonveds2</prereqtech>
       <age>3</age>
-      <displayunitcount>20</displayunitcount>
+      <displayunitcount>17</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCrossbowmen5German</name>
+      <name>HUNShipHonveds5</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipCrossbowmen2German</prereqtech>
+      <prereqtech>HUNShipHonveds2</prereqtech>
       <age>3</age>
-      <displayunitcount>24</displayunitcount>
+      <displayunitcount>21</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCLandwehr</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
     </card>
     <card>
       <name>HCHandInfantryDamageGerman</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipDopplesoldners2</prereqtech>
+      <prereqtech>HUNShipMagyarHussars2</prereqtech>
       <age>1</age>
     </card>
     <card>
@@ -365,68 +341,68 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCShipDopplesoldners1</name>
+      <name>HUNShipMagyarHussars1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HUNShipMagyarHussars2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HUNShipMagyarHussars1</prereqtech>
+      <age>2</age>
       <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipDopplesoldners2</name>
+      <name>HUNShipMagyarHussars3</name>
       <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>HCShipDopplesoldners1</prereqtech>
+      <level>10</level>
+      <prereqtech>HUNShipMagyarHussars2</prereqtech>
+      <age>3</age>
+      <displayunitcount>5</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HUNShipMagyarHussars4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HUNShipMagyarHussars3</prereqtech>
       <age>2</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipDopplesoldners3</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipDopplesoldners2</prereqtech>
-      <age>3</age>
-      <displayunitcount>6</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipDopplesoldners4</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipDopplesoldners3</prereqtech>
-      <age>2</age>
-      <displayunitcount>5</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipDopplesoldners5</name>
+      <name>HUNShipMagyarHussars5</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCShipDopplesoldners4</prereqtech>
+      <prereqtech>HUNShipMagyarHussars4</prereqtech>
       <age>3</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipDopplesoldners6</name>
+      <name>HUNShipMagyarHussars6</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>HCShipDopplesoldners5</prereqtech>
+      <prereqtech>HUNShipMagyarHussars5</prereqtech>
       <age>3</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCXPSolingenSteel</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCShipDopplesoldners4</prereqtech>
+      <prereqtech>HUNShipMagyarHussars4</prereqtech>
       <age>3</age>
     </card>
     <card>
-      <name>HCShipSkirmishers1German</name>
+      <name>HUNShipHajduks1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -435,28 +411,28 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipSkirmishers2German</name>
+      <name>HUNShipHajduks2</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipSkirmishers1German</prereqtech>
+      <prereqtech>HUNShipHajduks1</prereqtech>
       <age>3</age>
       <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipSkirmishers3German</name>
+      <name>HUNShipHajduks3</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipSkirmishers2German</prereqtech>
+      <prereqtech>HUNShipHajduks2</prereqtech>
       <age>2</age>
       <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipSkirmishers4German</name>
+      <name>HUNShipHajduks4</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipSkirmishers3German</prereqtech>
+      <prereqtech>HUNShipHajduks3</prereqtech>
       <age>3</age>
       <displayunitcount>12</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -465,66 +441,59 @@
       <name>HCRangedInfantryHitpointsGerman</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipCrossbowmen3German</prereqtech>
+      <prereqtech>HUNShipHonveds3</prereqtech>
       <age>3</age>
     </card>
     <card>
-      <name>HCShipUhlans1</name>
+      <name>HUNShipCrabats1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipUhlans2</name>
+      <name>HUNShipCrabats2</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipUhlans1</prereqtech>
+      <prereqtech>HUNShipCrabats1</prereqtech>
       <age>2</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipUhlans3</name>
+      <name>HUNShipCrabats3</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipUhlans2</prereqtech>
+      <prereqtech>HUNShipCrabats2</prereqtech>
       <age>3</age>
-      <displayunitcount>11</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipUhlans4</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipUhlans3</prereqtech>
-      <age>2</age>
       <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipUhlans5</name>
+      <name>HUNShipCrabats4</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HUNShipCrabats3</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HUNShipCrabats5</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCShipUhlans4</prereqtech>
+      <prereqtech>HUNShipCrabats4</prereqtech>
       <age>3</age>
-      <displayunitcount>13</displayunitcount>
+      <displayunitcount>11</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCUhlanCombatGerman</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCShipUhlans4</prereqtech>
-      <age>3</age>
-    </card>
-    <card>
-      <name>DEHCDeathRide</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCShipUhlans4</prereqtech>
+      <prereqtech>HUNShipCrabats4</prereqtech>
       <age>3</age>
     </card>
     <card>
@@ -1826,6 +1795,36 @@
       <revoltcard>
       </revoltcard>
     </card>
+    <card>
+      <name>HUNCardBurgomaster</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <age>3</age>
+    </card>
+    <card>
+      <name>HUNCardPromotions</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <age>3</age>
+    </card>
+    <card>
+      <name>HUNCardMagyarPop</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <age>2</age>
+    </card>
+    <card>
+      <name>HUNCardDistributism</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HUNCardForeignLogging</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <age>1</age>
+    </card>
   </cards>
   <decks>
     <deck>
@@ -1848,16 +1847,15 @@
         <card dbid="3415">HCXPShipCannonsRepeat</card>
         <card dbid="2502">HCUnlockFactoryGerman</card>
         <card dbid="2677">HCRobberBaronsGerman</card>
-        <card dbid="2308">HCShipDopplesoldners4</card>
-        <card dbid="2474">HCShipCrossbowmen3German</card>
+        <card dbid="88881404">HUNShipMagyarHussars4</card>
+        <card dbid="88881433">HUNShipHonveds3</card>
         <card dbid="2388">HCMercsLandsknecht1German</card>
-        <card dbid="2478">HCShipSkirmishers3German</card>
+        <card dbid="88881423">HUNShipHajduks3</card>
         <card dbid="2463">HCShipCoinCrates4German</card>
         <card dbid="2458">HCShipFoodCrates3German</card>
         <card dbid="10257">DEHCWitchHunt</card>
         <card dbid="10412">DEHCMercenaryCampsGerman</card>
         <card dbid="10269">DEHCMarchRevolution</card>
-        <card dbid="10315">DEHCLandwehr</card>
       </cards>
     </deck>
     <deck>
@@ -1913,7 +1911,7 @@
         <card dbid="2450">HCTeamTeutonTownCenter</card>
         <card dbid="2529">HCNavalCombatGerman</card>
         <card dbid="2495">HCFencingSchoolGerman</card>
-        <card dbid="2308">HCShipDopplesoldners4</card>
+        <card dbid="88881404">HUNShipMagyarHussars4</card>
         <card dbid="2494">HCUnlockFortGerman</card>
         <card dbid="3415">HCXPShipCannonsRepeat</card>
         <card dbid="2508">HCRenderingPlantGerman</card>
@@ -1935,7 +1933,6 @@
         <card dbid="2465">HCShipWoodCrates3German</card>
         <card dbid="2462">HCShipCoinCrates3German</card>
         <card dbid="2455">HCShipSettlerWagons3</card>
-        <card dbid="2156">HCExplorerGerman</card>
         <card dbid="1796">HCAdvancedTradingPost</card>
         <card dbid="1992">HCColonialMilitia</card>
         <card dbid="3438">HCXPCapitalism</card>
@@ -1953,7 +1950,6 @@
     <deck version="11">
       <name>$$90974$$TreatyNoNat</name>
       <cards>
-        <card dbid="2156">HCExplorerGerman</card>
         <card dbid="2521">HCRumDistilleryGerman</card>
         <card dbid="2285">HCFoodSilosTeam</card>
         <card dbid="3387">HCXPEconomicTheory</card>
@@ -2130,8 +2126,12 @@
     <displaynamestringid>24970</displaynamestringid>
     <rolloverstringid>25536</rolloverstringid>
     <obtainabletechs>
-      <tech x="0.7" y="1.0">HCShipSettlerWagons1</tech>
       <tech x="0.7" y="2.0">HCShipSettlerWagons2</tech>
+      <tech x="0.7" y="1.0">HUNCardDistributism</tech>
+      <tech x="7.0" y="1.0">HUNCardBurgomaster</tech>
+      <tech x="0.0" y="3.0">HUNCardPromotions</tech>
+      <tech x="5.6" y="5.0">HUNCardMagyarPop</tech>
+      <tech x="7.0" y="3.0">HUNCardForeignLogging</tech>
       <tech x="0.3" y="3.0">HCShipSettlerWagons3</tech>
       <tech x="1.0" y="3.0">HCShipSettlerWagonsTeam</tech>
       <tech x="0.3" y="4.0">HCShipSettlerWagons4</tech>
@@ -2156,13 +2156,16 @@
       <tech x="6.3" y="2.0">HCShipSurgeons</tech>
       <tech x="6.3" y="3.0">HCXPShipSurgeons2German</tech>
       <tech x="6.3" y="4.0">HCXPMasterSurgeonsGerman</tech>
-      <tech x="7.0" y="1.0">HCExplorerGerman</tech>
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
     </obtainabletechs>
     <activetechs>
-      <tech x="0.7" y="1.0">HCShipSettlerWagons1</tech>
       <tech x="0.7" y="2.0">HCShipSettlerWagons2</tech>
+      <tech x="0.7" y="1.0">HUNCardDistributism</tech>
+      <tech x="7.0" y="1.0">HUNCardBurgomaster</tech>
+      <tech x="0.0" y="3.0">HUNCardPromotions</tech>
+      <tech x="5.6" y="5.0">HUNCardMagyarPop</tech>
+      <tech x="7.0" y="3.0">HUNCardForeignLogging</tech>
       <tech x="0.3" y="3.0">HCShipSettlerWagons3</tech>
       <tech x="1.0" y="3.0">HCShipSettlerWagonsTeam</tech>
       <tech x="0.3" y="4.0">HCShipSettlerWagons4</tech>
@@ -2187,7 +2190,6 @@
       <tech x="6.3" y="2.0">HCShipSurgeons</tech>
       <tech x="6.3" y="3.0">HCXPShipSurgeons2German</tech>
       <tech x="6.3" y="4.0">HCXPMasterSurgeonsGerman</tech>
-      <tech x="7.0" y="1.0">HCExplorerGerman</tech>
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
     </activetechs>
@@ -2212,23 +2214,22 @@
     <displaynamestringid>24965</displaynamestringid>
     <rolloverstringid>25533</rolloverstringid>
     <obtainabletechs>
-      <tech x="0.0" y="2.0">HCShipCrossbowmen2German</tech>
-      <tech x="0.0" y="3.0">HCShipCrossbowmen3German</tech>
-      <tech x="0.0" y="3.0">HCShipCrossbowmen4German</tech>
-      <tech x="0.0" y="3.0">HCShipCrossbowmen5German</tech>
-      <tech x="0.0" y="3.0">DEHCLandwehr</tech>
+      <tech x="0.0" y="2.0">HUNShipHonveds2</tech>
+      <tech x="0.0" y="3.0">HUNShipHonveds3</tech>
+      <tech x="0.0" y="3.0">HUNShipHonveds4</tech>
+      <tech x="0.0" y="3.0">HUNShipHonveds5</tech>
       <tech x="0.0" y="4.0">HCRangedInfantryHitpointsGerman</tech>
-      <tech x="1.0" y="1.0">HCShipSkirmishers1German</tech>
-      <tech x="1.0" y="2.0">HCShipSkirmishers2German</tech>
-      <tech x="1.0" y="3.0">HCShipSkirmishers3German</tech>
-      <tech x="1.0" y="4.0">HCShipSkirmishers4German</tech>
+      <tech x="1.0" y="1.0">HUNShipHajduks1</tech>
+      <tech x="1.0" y="2.0">HUNShipHajduks2</tech>
+      <tech x="1.0" y="3.0">HUNShipHajduks3</tech>
+      <tech x="1.0" y="4.0">HUNShipHajduks4</tech>
       <tech x="1.0" y="5.0">HCXPSolingenSteel</tech>
-      <tech x="2.3" y="1.0">HCShipDopplesoldners1</tech>
-      <tech x="2.3" y="2.0">HCShipDopplesoldners2</tech>
-      <tech x="2.0" y="3.0">HCShipDopplesoldners3</tech>
-      <tech x="2.0" y="4.0">HCShipDopplesoldners4</tech>
-      <tech x="2.0" y="5.0">HCShipDopplesoldners5</tech>
-      <tech x="2.0" y="7.0">HCShipDopplesoldners6</tech>
+      <tech x="2.3" y="1.0">HUNShipMagyarHussars1</tech>
+      <tech x="2.3" y="2.0">HUNShipMagyarHussars2</tech>
+      <tech x="2.0" y="3.0">HUNShipMagyarHussars3</tech>
+      <tech x="2.0" y="4.0">HUNShipMagyarHussars4</tech>
+      <tech x="2.0" y="5.0">HUNShipMagyarHussars5</tech>
+      <tech x="2.0" y="7.0">HUNShipMagyarHussars6</tech>
       <tech x="2.7" y="3.0">HCHandInfantryDamageGerman</tech>
       <tech x="2.7" y="4.0">HCHandInfantryHitpointsGerman</tech>
       <tech x="2.7" y="5.0">HCHandInfantryCombatGerman</tech>
@@ -2239,13 +2240,12 @@
       <tech x="3.6" y="5.0">HCShipWingedHussars</tech>
       <tech x="3.6" y="3.0">HCCavalryHitpointsGerman</tech>
       <tech x="4.3" y="4.0">HCCavalryCombatGerman</tech>
-      <tech x="4.9" y="1.0">HCShipUhlans1</tech>
-      <tech x="4.9" y="2.0">HCShipUhlans2</tech>
-      <tech x="4.9" y="3.0">HCShipUhlans3</tech>
-      <tech x="5.2" y="4.0">HCShipUhlans4</tech>
-      <tech x="4.9" y="5.0">HCShipUhlans5</tech>
+      <tech x="4.9" y="1.0">HUNShipCrabats1</tech>
+      <tech x="4.9" y="2.0">HUNShipCrabats2</tech>
+      <tech x="4.9" y="3.0">HUNShipCrabats3</tech>
+      <tech x="5.2" y="4.0">HUNShipCrabats4</tech>
+      <tech x="4.9" y="5.0">HUNShipCrabats5</tech>
       <tech x="5.6" y="5.0">HCUhlanCombatGerman</tech>
-      <tech x="5.6" y="5.0">DEHCDeathRide</tech>
       <tech x="5.6" y="3.0">HCXPShipCannonsRepeat</tech>
       <tech x="5.6" y="7.0">HCXPShipDemolitionSquadGerman</tech>
       <tech x="6.4" y="1.0">HCShipFalconets1German</tech>
@@ -2262,23 +2262,22 @@
       <tech x="7.2" y="7.0">DEHCMarchRevolution</tech>
     </obtainabletechs>
     <activetechs>
-      <tech x="0.0" y="2.0">HCShipCrossbowmen2German</tech>
-      <tech x="0.0" y="3.0">HCShipCrossbowmen3German</tech>
-      <tech x="0.0" y="3.0">HCShipCrossbowmen4German</tech>
-      <tech x="0.0" y="3.0">HCShipCrossbowmen5German</tech>
-      <tech x="0.0" y="3.0">DEHCLandwehr</tech>
+      <tech x="0.0" y="2.0">HUNShipHonveds2</tech>
+      <tech x="0.0" y="3.0">HUNShipHonveds3</tech>
+      <tech x="0.0" y="3.0">HUNShipHonveds4</tech>
+      <tech x="0.0" y="3.0">HUNShipHonveds5</tech>
       <tech x="0.0" y="4.0">HCRangedInfantryHitpointsGerman</tech>
-      <tech x="1.0" y="1.0">HCShipSkirmishers1German</tech>
-      <tech x="1.0" y="2.0">HCShipSkirmishers2German</tech>
-      <tech x="1.0" y="3.0">HCShipSkirmishers3German</tech>
-      <tech x="1.0" y="4.0">HCShipSkirmishers4German</tech>
+      <tech x="1.0" y="1.0">HUNShipHajduks1</tech>
+      <tech x="1.0" y="2.0">HUNShipHajduks2</tech>
+      <tech x="1.0" y="3.0">HUNShipHajduks3</tech>
+      <tech x="1.0" y="4.0">HUNShipHajduks4</tech>
       <tech x="1.0" y="5.0">HCXPSolingenSteel</tech>
-      <tech x="2.3" y="1.0">HCShipDopplesoldners1</tech>
-      <tech x="2.3" y="2.0">HCShipDopplesoldners2</tech>
-      <tech x="2.0" y="3.0">HCShipDopplesoldners3</tech>
-      <tech x="2.0" y="4.0">HCShipDopplesoldners4</tech>
-      <tech x="2.0" y="5.0">HCShipDopplesoldners5</tech>
-      <tech x="2.0" y="7.0">HCShipDopplesoldners6</tech>
+      <tech x="2.3" y="1.0">HUNShipMagyarHussars1</tech>
+      <tech x="2.3" y="2.0">HUNShipMagyarHussars2</tech>
+      <tech x="2.0" y="3.0">HUNShipMagyarHussars3</tech>
+      <tech x="2.0" y="4.0">HUNShipMagyarHussars4</tech>
+      <tech x="2.0" y="5.0">HUNShipMagyarHussars5</tech>
+      <tech x="2.0" y="7.0">HUNShipMagyarHussars6</tech>
       <tech x="2.7" y="3.0">HCHandInfantryDamageGerman</tech>
       <tech x="2.7" y="4.0">HCHandInfantryHitpointsGerman</tech>
       <tech x="2.7" y="5.0">HCHandInfantryCombatGerman</tech>
@@ -2289,13 +2288,12 @@
       <tech x="3.6" y="5.0">HCShipWingedHussars</tech>
       <tech x="3.6" y="3.0">HCCavalryHitpointsGerman</tech>
       <tech x="4.3" y="4.0">HCCavalryCombatGerman</tech>
-      <tech x="4.9" y="1.0">HCShipUhlans1</tech>
-      <tech x="4.9" y="2.0">HCShipUhlans2</tech>
-      <tech x="4.9" y="3.0">HCShipUhlans3</tech>
-      <tech x="5.2" y="4.0">HCShipUhlans4</tech>
-      <tech x="4.9" y="5.0">HCShipUhlans5</tech>
+      <tech x="4.9" y="1.0">HUNShipCrabats1</tech>
+      <tech x="4.9" y="2.0">HUNShipCrabats2</tech>
+      <tech x="4.9" y="3.0">HUNShipCrabats3</tech>
+      <tech x="5.2" y="4.0">HUNShipCrabats4</tech>
+      <tech x="4.9" y="5.0">HUNShipCrabats5</tech>
       <tech x="5.6" y="5.0">HCUhlanCombatGerman</tech>
-      <tech x="5.6" y="5.0">DEHCDeathRide</tech>
       <tech x="5.6" y="3.0">HCXPShipCannonsRepeat</tech>
       <tech x="5.6" y="7.0">HCXPShipDemolitionSquadGerman</tech>
       <tech x="6.4" y="1.0">HCShipFalconets1German</tech>

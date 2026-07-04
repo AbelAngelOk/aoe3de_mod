@@ -457,4 +457,348 @@
       <effect type="SetName" proto="HUNCrabat" culture="none" newname="88881053"></effect>
     </effects>
   </tech>
+
+  <!-- ============================================================
+       Cambio 7 (2026-07-02): Cartas de metrópoli (envíos + especiales).
+       Envíos: Doppel->Magyar(-1), Ulano->Crabat(-2), Guerrillero->Hajduk,
+       Ballestero->Honved(-3). Sin bono de úlanos.
+       ============================================================ -->
+  <tech name="HUNShipMagyarHussars1" type="Normal">
+    <dbid>88881401</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipMagyarHussars2" type="Normal">
+    <dbid>88881402</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipMagyarHussars3" type="Normal">
+    <dbid>88881403</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipMagyarHussars4" type="Normal">
+    <dbid>88881404</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipMagyarHussars5" type="Normal">
+    <dbid>88881405</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipMagyarHussars6" type="Normal">
+    <dbid>88881406</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCrabats1" type="Normal">
+    <dbid>88881411</dbid>
+    <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\crabat_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCrabats2" type="Normal">
+    <dbid>88881412</dbid>
+    <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\crabat_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCrabats3" type="Normal">
+    <dbid>88881413</dbid>
+    <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\crabat_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCrabats4" type="Normal">
+    <dbid>88881414</dbid>
+    <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\crabat_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCrabats5" type="Normal">
+    <dbid>88881415</dbid>
+    <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\crabat_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="11.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHajduks1" type="Normal">
+    <dbid>88881421</dbid>
+    <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hajduk_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHajduks2" type="Normal">
+    <dbid>88881422</dbid>
+    <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hajduk_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHajduks3" type="Normal">
+    <dbid>88881423</dbid>
+    <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hajduk_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHajduks4" type="Normal">
+    <dbid>88881424</dbid>
+    <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hajduk_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHonveds2" type="Normal">
+    <dbid>88881432</dbid>
+    <displaynameid>88881013</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\honved64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHonveds3" type="Normal">
+    <dbid>88881433</dbid>
+    <displaynameid>88881013</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\honved64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHonveds4" type="Normal">
+    <dbid>88881434</dbid>
+    <displaynameid>88881013</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\honved64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHonveds5" type="Normal">
+    <dbid>88881435</dbid>
+    <displaynameid>88881013</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\honved64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="21.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardBurgomaster" type="Normal">
+    <dbid>88881440</dbid>
+    <displaynameid>88881070</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\explorers\explorer_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardPromotions" type="Normal">
+    <dbid>88881441</dbid>
+    <displaynameid>88881071</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="VeterancyEnable" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="VeterancyEnable" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardMagyarPop" type="Normal">
+    <dbid>88881442</dbid>
+    <displaynameid>88881072</displaynameid>
+    <rollovertextid>88881075</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hungary_insurrection.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardDistributism" type="Normal">
+    <dbid>88881443</dbid>
+    <displaynameid>88881073</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Distributivism.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardForeignLogging" type="Normal">
+    <dbid>88881444</dbid>
+    <displaynameid>88881074</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\asians\Foreign_Logging.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.35" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
 </techtreemods>

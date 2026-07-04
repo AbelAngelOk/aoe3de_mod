@@ -56,6 +56,14 @@
       <string _locid="88881062">Upgrades Crabats to Guard (+20% hitpoints and attack).</string>
       <string _locid="88881063">Upgrades Crabats to Imperial (+50% hitpoints and attack).</string>
 
+      <!-- Cartas especiales de metrópoli -->
+      <string _locid="88881070">Burgomaster</string>
+      <string _locid="88881071">Elite Promotions</string>
+      <string _locid="88881072">Noble Insurrection</string>
+      <string _locid="88881075">The old obligation of the Hungarian nobility to provide cavalry allows a larger number of Magyar Hussars to be kept on the battlefield. Effect: Magyar Hussars now cost 2 population instead of 3.</string>
+      <string _locid="88881073">Distributism</string>
+      <string _locid="88881074">Foreign Logging</string>
+
     </language>
   </stringtable>
 </stringmods>

@@ -64,6 +64,14 @@
       <string _locid="88881062">Mejora los Crabats a Guardia (+20% vida y ataque).</string>
       <string _locid="88881063">Mejora los Crabats a Imperial (+50% vida y ataque).</string>
 
+      <!-- Cartas especiales de metrópoli -->
+      <string _locid="88881070">Burgomaestre</string>
+      <string _locid="88881071">Ascensos de Élite</string>
+      <string _locid="88881072">Insurrección Noble</string>
+      <string _locid="88881075">La antigua obligación de la nobleza húngara de aportar caballería permite mantener un mayor número de Húsares Magiares en el campo de batalla. Efecto: Los Húsares Magiares ahora consumen 2 de población en lugar de 3.</string>
+      <string _locid="88881073">Distributivismo</string>
+      <string _locid="88881074">Tala en el Extranjero</string>
+
     </language>
   </stringtable>
 </stringmods>

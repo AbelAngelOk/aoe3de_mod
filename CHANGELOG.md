@@ -1,5 +1,58 @@
 # Changelog — Eastern European Expansion (EEX)
 
+## [mod-minimal 2.2] — 2026-07-02 (Ajustes de cartas + envíos)
+
+### Corregido
+- **Carta "Ascensos de Élite"**: solo mostraba la UI de ascenso sin cambiar stats ni
+  ícono de habilidad. Causa: `VeterancyEnable` habilita el rank-up, pero los protos ya
+  no tenían `<veterancybonus>`. Restaurado el `<veterancybonus>` (bonos por rango) en
+  `HUNHajduk` y `HUNCrabat`, **sin** `ExperienceUnit` (inactivo por defecto; la carta
+  lo activa). *(A confirmar en juego que no ascienden sin la carta.)*
+- **Iconos de "Distributivismo" y "Tala en el Extranjero"** (se veían en negro):
+  ahora usan los iconos reales indios (`native\Distributivism.png`,
+  `asians\Foreign_Logging.png`).
+
+### Cambiado
+- **`hcshipmentmodifier` 1.00 → 0.90**: envíos de metrópoli más baratos en XP (Hungría
+  ya no recibe el bono de úlanos que encarecía los envíos alemanes).
+- **"Distributivismo" → Edad I**, **"Tala en el Extranjero" → Edad II**.
+
+---
+
+## [mod-minimal 2.1] — 2026-07-02 (Cambio 7: Cartas de metrópoli)
+
+### Envíos militares repuntados (nuevos techs `HUNShip*`, sin bono de úlanos)
+- **Doppelsöldners → Húsares Magiares** (cantidad −1): 6 cartas.
+- **Úlanos → Crabats** (cantidad −2): 5 cartas.
+- **Guerrilleros (Skirmishers) → Hajduks** (misma cantidad): 4 cartas.
+- **Ballesteros → Honvéds** (cantidad −3): 4 cartas.
+- Cada carta ahora envía **solo** la unidad húngara (se elimina el "+N úlanos" de bono
+  en esas cartas).
+
+### Cartas eliminadas y reemplazadas
+- **"1 Carretón Colono"** (`HCShipSettlerWagons1`): eliminada.
+- **"Burgomaestre"** (`HCExplorerGerman`): eliminada → nueva carta Edad IV
+  `HUNCardBurgomaster` (+50% vida y +50% ataque al Héroe). *(El aura queda para un
+  paso posterior, según lo acordado.)*
+- **"Reforma de Scharnhorst"** (`DEHCLandwehr`): eliminada → `HUNCardPromotions`
+  (habilita la veterancía/ascenso de Hajduks y Crabats vía `VeterancyEnable`).
+- **"Viaje de la Muerte"** (`DEHCDeathRide`): eliminada → `HUNCardMagyarPop` (reduce
+  el costo de población de los Húsares Magiares a 2).
+
+### Cartas nuevas (estilo civ india, adaptadas)
+- **Distributivismo** (`HUNCardDistributism`): goteo de madera +1.25.
+- **Tala en el Extranjero** (`HUNCardForeignLogging`): goteo de madera +2.35.
+
+Strings 88881070–88881074. Se actualizaron el pool, los mazos preset y el layout
+visual de la metrópoli.
+
+> Pendiente/nota: el aura del Burgomaestre (paso siguiente). El "+N úlanos" de bono en
+> las ~80 cartas NO militares no se pudo quitar civ-específicamente (son techs globales
+> de Germans); solo se quitó en las cartas militares reemplazadas. `VeterancyEnable` a
+> confirmar en juego.
+
+---
+
 ## [mod-minimal 2.0] — 2026-07-02 (Cambio 6: Caballería propia — Establo)
 
 Roster de caballería propio de Hungría en el Establo.

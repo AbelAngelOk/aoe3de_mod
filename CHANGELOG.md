@@ -1,5 +1,35 @@
 # Changelog — Eastern European Expansion (EEX)
 
+## [mod-minimal 2.3] — 2026-07-04 (Lote a–j: cartas y mecánicas)
+
+### Unidades
+- **Crabat**: quitado el x2 vs artillería (b).
+- **Hajduk**: costo base vuelve a **110 oro** (c). Nuevas **posturas de combate**
+  (estilo fusilero Nizam, a): tactics propia `tactics/hunHajduk.tactics` con
+  `StaggerRangedAttack` diferenciada + armadura `Hand` base. En **Melee**: sin bonos vs
+  infantería común/ligera, **+x2 vs caballería**. En **Stagger**: sin bonos vs
+  infantería común/ligera. (Carta Bocskai ya aplica armadura por postura.)
+- **Infantería Montada** (`HUNMountedInfantry`, g): copia de `deNatMountedInfantryRider`
+  sin lo mercenario, pop 2, habilitada por su carta y entrenable en el Establo.
+
+### Cartas de metrópoli
+- **Martillo malévolo → Teatros** (`DEHCTheaters`, existente) (d).
+- **Campamentos mercenarios → Precios de Mercenarios**: Hajduk 40 alimento/70 oro,
+  Crabat 90 alimento/90 oro (e).
+- **Carretones de colonos → `HUNSettlerWagon`** (f).
+- **Carretas de guerra → mezclas de caballería**: III = 2 Húsar + 3 Crabat; IV =
+  4 Húsar + 5 Crabat (h).
+- **Chevau-légers bávaros → Infantería Montada**: envía 9 y las habilita en el Establo,
+  costo 500 oro (g). **Quitada** la carta "11 aliados de los Habsburgo" (g).
+
+### Burgomaestre (j)
+- Intento de aura estilo tamborilero: se habilita `HPAura` (regeneración por
+  proximidad) en el Explorer vía la carta, además del +50% vida/ataque al Héroe.
+  **Limitación**: un aura de *boost* de vida+ataque NO es data-moddable (las auras
+  están atadas al motor a unidades específicas). A verificar en juego.
+
+---
+
 ## [mod-minimal 2.2] — 2026-07-02 (Ajustes de cartas + envíos)
 
 ### Corregido

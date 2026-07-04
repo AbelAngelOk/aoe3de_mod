@@ -167,7 +167,7 @@
   <group name="Barracks">
     <proto name="Barracks" banner="building" icon="resources/art/buildings/barracks/barracks_portraits.png" row="2" col="103">
     </proto>
-    <proto name="HUNHonved" banner="unit" icon="resources/images/icons/hungary/honved.png" row="3" col="103">
+    <proto name="HUNHonved" banner="unit" icon="resources/images/icons/hungary/hun_unit_honved.png" row="3" col="103">
     </proto>
     <tech name="HUNVeteranHonved" banner="improvement" icon="resources/images/icons/techs/veteran_infantry/veteran_infantry.png" row="4" col="103">
     </tech>

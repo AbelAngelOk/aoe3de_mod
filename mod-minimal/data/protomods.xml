@@ -25,8 +25,8 @@
       (todas sus stats) con el modelo de la "camisa roja" (Redshirt/Garibaldini =
       deColonialMilitia, animfile units\infantry_ranged\colonial_militia\redshirt.xml),
       nombre "Honvéd", e imágenes propias:
-        - <icon> (botón del cuartel, 64x64 con marco): honved64.png
-        - <portraiticon> (retrato grande al seleccionar): honved.png (sin marco)
+        - <icon> (botón del cuartel, 64x64 con marco): hun_cuartel_honved.png
+        - <portraiticon> (retrato grande al seleccionar): hun_unit_honved.png (sin marco)
     - HUNHajduk: copia del Hajduk mercenario (deSaloonHajduk) con sus stats y
       multiplicadores, pero SIN ser mercenario/outlaw, coste 60 alimento + 60 oro,
       pop 1 y sin veterancía (ver detalle en el propio proto abajo).
@@ -53,6 +53,8 @@
     <!-- Cambio 6: caballería propia — Magyar Hussar (col 0) y Crabat (col 1) -->
     <train row="0" page="0" column="0">HUNMagyarHussar</train>
     <train row="0" page="0" column="1">HUNCrabat</train>
+    <!-- Cambio 9 (g): infantería montada (habilitada por la carta HUNCardMountedInf) -->
+    <train row="0" page="0" column="2">HUNMountedInfantry</train>
     <!-- Mejoras (2 niveles: Guardia en IV, Imperial en V; nada en III) -->
     <tech row="0" page="1" column="0">HUNGuardMagyarHussar</tech>
     <tech row="0" page="1" column="0">HUNImperialMagyarHussar</tech>
@@ -453,10 +455,13 @@
     <trainpoints>35.0000</trainpoints>
     <bounty>22.0000</bounty>
     <buildbounty>22.0000</buildbounty>
-    <cost resourcetype="Food">60.0000</cost>
-    <cost resourcetype="Gold">60.0000</cost>
+    <cost resourcetype="Gold">110.0000</cost>
     <allowedage>1</allowedage>
     <armor type="Ranged" value="0.3000">
+    </armor>
+    <!-- Cambio 8/9 (a): armadura Hand base (0.0) para que la carta Bocskai pueda
+         sumar armadura cuerpo a cuerpo en la postura Melee vía TacticArmor. -->
+    <armor type="Hand" value="0.0000">
     </armor>
     <!-- veterancybonus del deSaloonHajduk: define los bonos por rango, pero el
          ascenso queda INACTIVO por defecto (sin <flag>ExperienceUnit</flag>).
@@ -518,25 +523,24 @@
     <command page="10" column="0">Garrison</command>
     <command page="10" column="7">Delete</command>
     <command page="11" column="0">Abilities</command>
-    <tactics>saloonRifleReload.tactics</tactics>
+    <!-- Cambio 9 (a): tactics propia con postura Stagger diferenciada (StaggerRangedAttack). -->
+    <tactics>hunHajduk.tactics</tactics>
     <protoaction>
       <name>BuildingAttack</name>
       <damage>12.000000</damage>
       <damagetype>Siege</damagetype>
       <rof>3.000000</rof>
     </protoaction>
+    <!-- Melee (cuerpo a cuerpo): sin bonos vs infantería común/ligera, +x2 vs caballería. -->
     <protoaction>
       <name>HandAttack</name>
       <damage>14.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractHeavyInfantry">1.50000</damagebonus>
-      <damagebonus type="AbstractSkirmisher">2.000000</damagebonus>
-      <damagebonus type="AbstractCounterSkirmisher">2.000000</damagebonus>
-      <damagebonus type="AbstractLightCavalry">1.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
-      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
     </protoaction>
+    <!-- Ranged base (Volley/Defend/StandGround): conserva bonos vs infantería. -->
     <protoaction>
       <name>RangedAttack</name>
       <damage>14.00000</damage>
@@ -547,6 +551,17 @@
       <damagebonus type="AbstractHeavyInfantry">1.50000</damagebonus>
       <damagebonus type="AbstractSkirmisher">2.000000</damagebonus>
       <damagebonus type="AbstractCounterSkirmisher">2.000000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.600000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.600000</damagebonus>
+    </protoaction>
+    <!-- Stagger (escalonado): SIN bonos vs infantería común/ligera. -->
+    <protoaction>
+      <name>StaggerRangedAttack</name>
+      <damage>14.00000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>20.000000</maxrange>
+      <minrange>2.000000</minrange>
+      <rof>3.000000</rof>
       <damagebonus type="AbstractCoyoteMan">0.600000</damagebonus>
       <damagebonus type="AbstractHeavyCavalry">0.600000</damagebonus>
     </protoaction>
@@ -570,8 +585,8 @@
     <animfile>units\infantry_ranged\colonial_militia\redshirt.xml</animfile>
     <impacttype>Flesh</impacttype>
     <physicsinfo>dude</physicsinfo>
-    <icon>resources\images\icons\hungary\honved64.png</icon>
-    <portraiticon>resources\images\icons\hungary\honved.png</portraiticon>
+    <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
+    <portraiticon>resources\images\icons\hungary\hun_unit_honved.png</portraiticon>
     <rollovertextid>88881014</rollovertextid>
     <shortrollovertextid>88881015</shortrollovertextid>
     <initialhitpoints>150.0000</initialhitpoints>
@@ -918,7 +933,152 @@
       <minrange>2.000000</minrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio 9 (g): Infantería Montada propia (copia de deNatMountedInfantryRider
+       SIN lo mercenario: quitados unittypes deNatMerc* + veterancybonus + ExperienceUnit;
+       pop 2. Se habilita con la carta HUNCardMountedInf y se entrena en el Establo. -->
+  <unit id="88881206" name="HUNMountedInfantry">
+    <dbid>88881206</dbid>
+    <displaynameid>88881094</displaynameid>
+    <editornameid>88881094</editornameid>
+    <populationcount>2</populationcount>
+    <subciv>Habsburg</subciv>
+    <obstructionradiusx>0.7900</obstructionradiusx>
+    <obstructionradiusz>0.7900</obstructionradiusz>
+    <formationcategory>Mobile</formationcategory>
+    <maxvelocity>6.2500</maxvelocity>
+    <maxrunvelocity>8.2500</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>14.0000</turnrate>
+    <animfile>units\natives\europeans\mounted_infantry\mounted_infantry_horse.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>cav</physicsinfo>
+    <icon>resources\art\units\natives\europeans\mounted_infantry_icon.png</icon>
+    <portraiticon>resources\art\units\natives\europeans\mounted_infantry_portrait.png</portraiticon>
+    <rollovertextid>88881095</rollovertextid>
+    <shortrollovertextid>88881096</shortrollovertextid>
+    <unithelpoverride>deNatMountedInfantry</unithelpoverride>
+    <initialhitpoints>220.0000</initialhitpoints>
+    <maxhitpoints>220.0000</maxhitpoints>
+    <los>18.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <unitaitype>RangedCombative</unitaitype>
+    <trainpoints>35.0000</trainpoints>
+    <buildlimit>11</buildlimit>
+    <sharedbuildlimitunit>deNatMountedInfantryRider</sharedbuildlimitunit>
+    <sharedbuildlimitunittypes>
+      <unittype>deNatMountedInfantryRider</unittype>
+      <unittype>deNatMountedInfantry</unittype>
+    </sharedbuildlimitunittypes>
+    <bounty>16.0000</bounty>
+    <buildbounty>16.0000</buildbounty>
+    <cost resourcetype="Food">120.0000</cost>
+    <cost resourcetype="Gold">40.0000</cost>
+    <allowedage>1</allowedage>
+    <armor type="Ranged" value="0.1500">
+    </armor>
+    <sharedselectionunittypes>
+      <unittype>deNatMountedInfantry</unittype>
+    </sharedselectionunittypes>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Military</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractRangedHeavyCavalry</unittype>
+    <unittype>AbstractHeavyCavalry</unittype>
+    <unittype>AbstractCavalry</unittype>
+    <unittype>AbstractHandCavalry</unittype>
+    <unittype>AbstractGunpowderCavalry</unittype>
+    <unittype>AbstractRangedCavalry</unittype>
+    <unittype>AbstractNativeWarrior</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <flag>UseSharedBuildLimit</flag>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>musketheavycavalrydismount.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>9.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>DefendRangedAttack</name>
+      <damage>14.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>4.000000</minrange>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractInfantry">2.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>GuardianRangedAttack</name>
+      <damage>14.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>4.000000</minrange>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractInfantry">2.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractInfantry">3.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>TrampleHandAttack</name>
+      <damage>4.666667</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagecap>18.666667</damagecap>
+      <damagearea>3.000000</damagearea>
+      <damageflags>Enemy</damageflags>
+      <damagebonus type="AbstractInfantry">3.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>GuardianAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>StaggerRangedAttack</name>
+      <damage>14.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>4.000000</minrange>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractInfantry">2.000000</damagebonus>
     </protoaction>
   </unit>
 </protomods>

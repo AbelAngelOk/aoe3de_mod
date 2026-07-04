@@ -63,6 +63,23 @@
       <string _locid="88881075">The old obligation of the Hungarian nobility to provide cavalry allows a larger number of Magyar Hussars to be kept on the battlefield. Effect: Magyar Hussars now cost 2 population instead of 3.</string>
       <string _locid="88881073">Distributism</string>
       <string _locid="88881074">Foreign Logging</string>
+      <!-- Infantry combat cards (Change 8) -->
+      <string _locid="88881076">Infantry Attack</string>
+      <string _locid="88881077">Infantry Resistance</string>
+      <string _locid="88881078">Infantry Combat</string>
+      <string _locid="88881079">Bocskai's Uprising</string>
+      <string _locid="88881080">+15% attack to Honvéds and Hajduks.</string>
+      <string _locid="88881081">+15% hitpoints to Honvéds and Hajduks.</string>
+      <string _locid="88881082">+15% attack and hitpoints to Honvéds and Hajduks.</string>
+      <string _locid="88881083">Hajduks adapt their defense to their stance: in melee mode they gain melee armor; in staggered mode they gain ranged armor (against artillery). They also gain a x2 damage multiplier against artillery.</string>
+      <!-- Change 9: cards f/h/e/g + unit -->
+      <string _locid="88881090">Settler Wagons</string>
+      <string _locid="88881091">Cavalry Reinforcements</string>
+      <string _locid="88881092">Mercenary Prices</string>
+      <string _locid="88881093">Mounted Infantry</string>
+      <string _locid="88881094">Mounted Infantry</string>
+      <string _locid="88881095">Versatile mounted rifleman, effective against cavalry and at range.</string>
+      <string _locid="88881096">Mounted rifleman</string>
 
     </language>
   </stringtable>

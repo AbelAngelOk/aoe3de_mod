@@ -679,7 +679,7 @@
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\hungary\honved64.png</icon>
+    <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
@@ -693,7 +693,7 @@
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\hungary\honved64.png</icon>
+    <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
@@ -707,7 +707,7 @@
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\hungary\honved64.png</icon>
+    <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
@@ -721,7 +721,7 @@
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\hungary\honved64.png</icon>
+    <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="21.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
@@ -743,6 +743,14 @@
       <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">Hero</target>
       </effect>
+      <!-- Cambio 9 (j): intento de aura estilo tamborilero. HPAura es la ÚNICA aura de
+           "vida" moddable (regeneración por proximidad); se habilita en el Explorer.
+           NOTA: un aura de BOOST de vida+ataque no es data-moddable (las auras están
+           atadas al motor). A verificar en juego; si HPAura no toma efecto en el Hero,
+           el aura no es posible por datos y queda solo el +50/+50. -->
+      <effect type="Data" action="HPAura" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Explorer</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNCardPromotions" type="Normal">
@@ -750,7 +758,7 @@
     <displaynameid>88881071</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <icon>resources\images\icons\hungary\hun_units_promotion.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="1.00" subtype="VeterancyEnable" relativity="Absolute">
@@ -767,7 +775,7 @@
     <rollovertextid>88881075</rollovertextid>
     <cost resourcetype="Ships">1.0000</cost>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\hungary\hungary_insurrection.png</icon>
+    <icon>resources\images\icons\hungary\hun_card_ussars_insurrection.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
@@ -798,6 +806,230 @@
     <effects>
       <effect type="Data" amount="2.35" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- ============================================================
+       Cambio 8 (2026-07-04): cartas de combate de infantería (Honved+Hajduk).
+       ============================================================ -->
+  <tech name="HUNCardInfAttack" type="Normal">
+    <dbid>88881445</dbid>
+    <displaynameid>88881076</displaynameid>
+    <rollovertextid>88881080</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_inf_attack.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardInfDefense" type="Normal">
+    <dbid>88881446</dbid>
+    <displaynameid>88881077</displaynameid>
+    <rollovertextid>88881081</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_inf_defense.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardInfCombat" type="Normal">
+    <dbid>88881447</dbid>
+    <displaynameid>88881078</displaynameid>
+    <rollovertextid>88881082</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_inf_defense_and_attack.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardBocskai" type="Normal">
+    <dbid>88881448</dbid>
+    <displaynameid>88881079</displaynameid>
+    <rollovertextid>88881083</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_hajduk.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- En Melee: gana armadura cuerpo a cuerpo (Hand). -->
+      <effect type="Data" amount="0.30" subtype="TacticArmor" tactic="Melee" armortype="Hand" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- En Stagger (escalonado): gana armadura a distancia (vs artillería/proyectil). -->
+      <effect type="Data" amount="0.30" subtype="TacticArmor" tactic="Stagger" armortype="Ranged" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- x2 de daño contra artillería. -->
+      <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractArtillery" allactions="1" relativity="Assign">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- ============================================================
+       Cambio 9 (2026-07-04): cartas f/h/e/g.
+       ============================================================ -->
+  <tech name="HUNShipSettlerWagons2" type="Normal">
+    <dbid>88881451</dbid>
+    <displaynameid>88881090</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipSettlerWagons3" type="Normal">
+    <dbid>88881452</dbid>
+    <displaynameid>88881090</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipSettlerWagons4" type="Normal">
+    <dbid>88881453</dbid>
+    <displaynameid>88881090</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipSettlerWagonsTeam" type="Normal">
+    <dbid>88881454</dbid>
+    <displaynameid>88881090</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNXPShipSettlerWagons5" type="Normal">
+    <dbid>88881455</dbid>
+    <displaynameid>88881090</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCavMix1" type="Normal">
+    <dbid>88881456</dbid>
+    <displaynameid>88881091</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCavMix2" type="Normal">
+    <dbid>88881457</dbid>
+    <displaynameid>88881091</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardMercPrices" type="Normal">
+    <dbid>88881458</dbid>
+    <displaynameid>88881092</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\germans\mercenary_camps.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="40.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="70.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="90.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="Data" amount="90.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardMountedInf" type="Normal">
+    <dbid>88881459</dbid>
+    <displaynameid>88881093</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\mounted_infantry_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNMountedInfantry" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNMountedInfantry</target>
       </effect>
     </effects>
   </tech>

@@ -71,6 +71,23 @@
       <string _locid="88881075">La antigua obligación de la nobleza húngara de aportar caballería permite mantener un mayor número de Húsares Magiares en el campo de batalla. Efecto: Los Húsares Magiares ahora consumen 2 de población en lugar de 3.</string>
       <string _locid="88881073">Distributivismo</string>
       <string _locid="88881074">Tala en el Extranjero</string>
+      <!-- Cartas de combate de infantería (Cambio 8) -->
+      <string _locid="88881076">Ataque de Infantería</string>
+      <string _locid="88881077">Resistencia de Infantería</string>
+      <string _locid="88881078">Combate de Infantería</string>
+      <string _locid="88881079">Levantamiento de Bocskai</string>
+      <string _locid="88881080">+15% de ataque a Honvéds y Hajduks.</string>
+      <string _locid="88881081">+15% de vida a Honvéds y Hajduks.</string>
+      <string _locid="88881082">+15% de ataque y vida a Honvéds y Hajduks.</string>
+      <string _locid="88881083">Los Hajduks adaptan su defensa según su postura: en modo cuerpo a cuerpo ganan armadura cuerpo a cuerpo; en modo escalonado ganan armadura a distancia (contra artillería). Además obtienen un multiplicador x2 de daño contra artillería.</string>
+      <!-- Cambio 9: cartas f/h/e/g + unidad -->
+      <string _locid="88881090">Carretones de Colono</string>
+      <string _locid="88881091">Refuerzos de Caballería</string>
+      <string _locid="88881092">Precios de Mercenarios</string>
+      <string _locid="88881093">Infantería Montada</string>
+      <string _locid="88881094">Infantería Montada</string>
+      <string _locid="88881095">Fusilero montado versátil, eficaz contra caballería y a distancia.</string>
+      <string _locid="88881096">Fusilero montado</string>
 
     </language>
   </stringtable>

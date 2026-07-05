@@ -91,6 +91,17 @@
       <string _locid="88881103">+15% attack and hitpoints to all cavalry.</string>
       <string _locid="88881104">Corvinus Legacy</string>
       <string _locid="88881105">+20% hitpoints and attack to heavy cavalry.</string>
+      <!-- Cambio 12: cartas de mercenarios -->
+      <string _locid="88881106">Pandour Band</string>
+      <string _locid="88881107">Ships 6 Pandours.</string>
+      <string _locid="88881108">TEAM Pandour Support</string>
+      <string _locid="88881109">TEAM Ships 7 Pandours. Can be shipped infinitely in the Industrial Age.</string>
+      <string _locid="88881110">TEAM Black Rider Support</string>
+      <string _locid="88881111">TEAM Ships 4 Black Riders. Can be shipped infinitely in the Industrial Age.</string>
+      <string _locid="88881112">TEAM Black Rider Detachment</string>
+      <string _locid="88881113">TEAM Ships 9 Black Riders.</string>
+      <string _locid="88881114">Mounted Harquebusiers</string>
+      <string _locid="88881115">Ships 16 mounted Harquebusiers.</string>
 
     </language>
   </stringtable>

@@ -719,20 +719,6 @@
       <age>3</age>
     </card>
     <card>
-      <name>HCTeamTeutonTownCenter</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCImprovedBuildingsGerman</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
-      <name>HCPalatineSettlements</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
       <name>HCFrontierDefensesGerman</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -771,20 +757,6 @@
       <age>1</age>
     </card>
     <card>
-      <name>HCRidingSchoolGerman</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCCheapStablesTeam</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
-      <name>HCRidingSchoolGerman2</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCRidingSchoolGerman</prereqtech>
-      <age>3</age>
-    </card>
-    <card>
       <name>HCRoyalDecreeGerman</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -798,13 +770,6 @@
       <prereqtech>-1</prereqtech>
       <age>0</age>
       <displayunitcount>1</displayunitcount>
-    </card>
-    <card>
-      <name>HCGermantownFarmers</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCAdvancedMillGerman</prereqtech>
-      <age>2</age>
     </card>
     <card>
       <name>HCAdvancedMarketGerman</name>
@@ -1115,53 +1080,63 @@
       <displayunitcount>3</displayunitcount>
     </card>
     <card>
-      <name>DEHCMercsIrishBrigadiersGerman</name>
-      <maxcount>1</maxcount>
-      <age>1</age>
-      <displayunitcount>11</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCMercsLandsknecht1German</name>
+      <name>HUNCardPandourBand</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
+      <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <!-- Cambio 12: cartas nuevas de mercenarios (equipo/infinitas en IV) -->
+    <card>
+      <name>HUNCardPandourShipTeam</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HUNCardBlackRiderShipTeam</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCMercsLandsknecht2German</name>
+      <name>HUNCardBlackRider9Team</name>
       <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCMercsLandsknecht1German</prereqtech>
-      <age>2</age>
-      <displayunitcount>10</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
+      <displayunitcount>9</displayunitcount>
+    </card>
+    <card>
+      <name>HUNCardHarquebusier16</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
+      <displayunitcount>16</displayunitcount>
     </card>
     <card>
       <name>HCMercsBlackRidersGerman</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCMercsLandsknecht1German</prereqtech>
+      <prereqtech>HUNCardPandourBand</prereqtech>
       <age>2</age>
       <displayunitcount>9</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCMercsHessiansGerman</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCMercsLandsknecht1German</prereqtech>
-      <age>2</age>
-      <displayunitcount>12</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCMercsPandoursGerman</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCMercsLandsknecht1German</prereqtech>
+      <prereqtech>HUNCardPandourBand</prereqtech>
       <age>2</age>
       <displayunitcount>13</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1170,18 +1145,9 @@
       <name>DEHCMercsGiantGrenadiersGerman</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCMercsHessiansGerman</prereqtech>
+      <prereqtech>HUNCardPandourBand</prereqtech>
       <age>3</age>
       <displayunitcount>11</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCMercsBosniaksGerman</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1197,44 +1163,10 @@
       <name>HCMercsHolyRomanGerman</name>
       <maxcount>-1</maxcount>
       <level>25</level>
-      <prereqtech>HCMercsLandsknecht2German</prereqtech>
+      <prereqtech>HUNCardPandourBand</prereqtech>
       <age>3</age>
       <displayunitcount>19</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCXPMercsHessiansRepeatTeam</name>
-      <maxcount>-1</maxcount>
-      <level>40</level>
-      <prereqtech>HCMercsHolyRomanGerman</prereqtech>
-      <age>3</age>
-      <displayunitcount>5</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCMercsHighlandGerman</name>
-      <maxcount>-1</maxcount>
-      <level>25</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>21</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCXPMercsElmetiGerman</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>7</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCMercenaryLoyaltyGerman</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
     </card>
     <card>
       <name>HCPrivateers</name>
@@ -1260,28 +1192,11 @@
       <age>2</age>
     </card>
     <card>
-      <name>DEHCPrinceElectors</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>1</displayunitcount>
-    </card>
-    <card>
       <name>DEHCCircleArmy</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-    </card>
-    <card>
-      <name>DEHCWettinAlliesGerman1</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>10</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCHabsburgAllies2</name>
@@ -1290,15 +1205,6 @@
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>17</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCWettinAlliesGerman2</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>11</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1829,7 +1735,6 @@
         <card dbid="88881453">HUNShipSettlerWagons4</card>
         <card dbid="2462">HCShipCoinCrates3German</card>
         <card dbid="2661">HCFrontierDefensesGerman</card>
-        <card dbid="2653">HCPalatineSettlements</card>
         <card dbid="2494">HCUnlockFortGerman</card>
         <card dbid="3387">HCXPEconomicTheory</card>
         <card dbid="2468">HCShipSheep2German</card>
@@ -1840,7 +1745,7 @@
         <card dbid="2677">HCRobberBaronsGerman</card>
         <card dbid="88881404">HUNShipMagyarHussars4</card>
         <card dbid="88881433">HUNShipHonveds3</card>
-        <card dbid="2388">HCMercsLandsknecht1German</card>
+        <card dbid="88881463">HUNCardPandourBand</card>
         <card dbid="88881423">HUNShipHajduks3</card>
         <card dbid="2463">HCShipCoinCrates4German</card>
         <card dbid="2458">HCShipFoodCrates3German</card>
@@ -1859,24 +1764,19 @@
         <card dbid="88881461">HUNCardCavStats</card>
         <card dbid="1854">HCMercenaryCombatGerman</card>
         <card dbid="2678">HCMercsBlackRidersGerman</card>
-        <card dbid="2680">HCMercsHessiansGerman</card>
-        <card dbid="2653">HCPalatineSettlements</card>
         <card dbid="2677">HCRobberBaronsGerman</card>
         <card dbid="2502">HCUnlockFactoryGerman</card>
         <card dbid="2280">HCCavalryDamageGermanTeam</card>
         <card dbid="2538">HCGuildArtisans</card>
-        <card dbid="2658">HCGermantownFarmers</card>
         <card dbid="3387">HCXPEconomicTheory</card>
         <card dbid="2642">HCShipWingedHussars</card>
         <card dbid="88881462">HUNCardCorvinusLegacy</card>
         <card dbid="88881458">HUNCardMercPrices</card>
         <card dbid="88881456">HUNShipCavMix1</card>
         <card dbid="88881454">HUNShipSettlerWagonsTeam</card>
-        <card dbid="2496">HCRidingSchoolGerman</card>
         <card dbid="2515">HCRoyalMintGerman</card>
         <card dbid="2616">HCShipCoinCrates2German</card>
         <card dbid="2523">HCTextileMillsGerman</card>
-        <card dbid="3454">HCXPMercsHessiansRepeatTeam</card>
       </cards>
     </deck>
     <deck>
@@ -1899,7 +1799,6 @@
         <card dbid="3356">HCXPShipMonitorsTeam</card>
         <card dbid="2617">HCShipWoodCrates2German</card>
         <card dbid="88881445">HUNCardInfAttack</card>
-        <card dbid="2450">HCTeamTeutonTownCenter</card>
         <card dbid="2529">HCNavalCombatGerman</card>
         <card dbid="2495">HCFencingSchoolGerman</card>
         <card dbid="88881404">HUNShipMagyarHussars4</card>
@@ -1931,9 +1830,7 @@
         <card dbid="3388">HCXPLandGrab</card>
         <card dbid="2518">HCFurrierGerman</card>
         <card dbid="2538">HCGuildArtisans</card>
-        <card dbid="2450">HCTeamTeutonTownCenter</card>
         <card dbid="2514">HCSilversmithGerman</card>
-        <card dbid="2658">HCGermantownFarmers</card>
         <card dbid="2523">HCTextileMillsGerman</card>
         <card dbid="2516">HCSustainableAgricultureGerman</card>
       </cards>
@@ -1947,14 +1844,12 @@
         <card dbid="2280">HCCavalryDamageGermanTeam</card>
         <card dbid="88881460">HUNCardCavDefense</card>
         <card dbid="2516">HCSustainableAgricultureGerman</card>
-        <card dbid="2496">HCRidingSchoolGerman</card>
         <card dbid="2495">HCFencingSchoolGerman</card>
         <card dbid="2493">HCAdvancedArsenalGerman</card>
         <card dbid="2522">HCCigarRollerGerman</card>
         <card dbid="2523">HCTextileMillsGerman</card>
         <card dbid="2517">HCRefrigerationGerman</card>
         <card dbid="2515">HCRoyalMintGerman</card>
-        <card dbid="2658">HCGermantownFarmers</card>
         <card dbid="88881461">HUNCardCavStats</card>
         <card dbid="88881454">HUNShipSettlerWagonsTeam</card>
         <card dbid="2538">HCGuildArtisans</card>
@@ -1976,14 +1871,12 @@
         <card dbid="2280">HCCavalryDamageGermanTeam</card>
         <card dbid="88881460">HUNCardCavDefense</card>
         <card dbid="2516">HCSustainableAgricultureGerman</card>
-        <card dbid="2496">HCRidingSchoolGerman</card>
         <card dbid="2495">HCFencingSchoolGerman</card>
         <card dbid="2493">HCAdvancedArsenalGerman</card>
         <card dbid="2522">HCCigarRollerGerman</card>
         <card dbid="2523">HCTextileMillsGerman</card>
         <card dbid="2517">HCRefrigerationGerman</card>
         <card dbid="2515">HCRoyalMintGerman</card>
-        <card dbid="2658">HCGermantownFarmers</card>
         <card dbid="88881461">HUNCardCavStats</card>
         <card dbid="88881454">HUNShipSettlerWagonsTeam</card>
         <card dbid="2538">HCGuildArtisans</card>
@@ -1993,7 +1886,6 @@
         <card dbid="2677">HCRobberBaronsGerman</card>
         <card dbid="2487">HCNativeWarriorsGerman</card>
         <card dbid="10295">DEHCHabsburgAllies2</card>
-        <card dbid="10258">DEHCPrinceElectors</card>
         <card dbid="88881448">HUNCardBocskai</card>
       </cards>
     </deck>
@@ -2042,7 +1934,6 @@
         <card>DEHCREVMXCaballeros</card>
         <card>HCShipLancers4</card>
         <card>DEHCREVShipMortars</card>
-        <card>HCXPMercsElmetiGerman</card>
         <card>HCXPMercsGreatCannon</card>
         <card>DEHCREVCriollos</card>
         <card>DEHCREVBuenosAires</card>
@@ -2328,15 +2219,11 @@
       <tech x="0.7" y="5.0">HCXPBloodBrothersGerman</tech>
       <tech x="0.9" y="3.0">HCFencingSchoolGerman</tech>
       <tech x="1.6" y="1.0">HCCheapStablesTeam</tech>
-      <tech x="1.6" y="3.0">HCRidingSchoolGerman</tech>
-      <tech x="1.6" y="5.0">HCRidingSchoolGerman2</tech>
       <tech x="0.9" y="1.0">HCXPShipSpies1German</tech>
       <tech x="0.9" y="7.0">HCXPAgents</tech>
       <tech x="3.2" y="2.0">HCColonialMilitia</tech>
       <tech x="2.5" y="2.0">HCPioneers</tech>
       <tech x="2.5" y="3.0">HCImprovedBuildingsGerman</tech>
-      <tech x="2.5" y="5.0">HCTeamTeutonTownCenter</tech>
-      <tech x="3.2" y="5.0">HCPalatineSettlements</tech>
       <tech x="2.8" y="1.0">HCFrontierDefensesGerman</tech>
       <tech x="3.2" y="3.0">HCAdvancedArsenalGerman</tech>
       <tech x="3.9" y="1.0">HCUnlockFortGerman</tech>
@@ -2344,7 +2231,6 @@
       <tech x="4.8" y="1.0">HCXPRanching</tech>
       <tech x="4.8" y="3.0">HCRoyalDecreeGerman</tech>
       <tech x="5.5" y="1.0">HCAdvancedMillGerman</tech>
-      <tech x="5.5" y="5.0">HCGermantownFarmers</tech>
       <tech x="6.2" y="1.0">HCAdvancedMarketGerman</tech>
       <tech x="6.2" y="5.0">HCAdvancedPlantationsGerman</tech>
       <tech x="6.2" y="3.0">HCAdvancedDockGerman</tech>
@@ -2359,15 +2245,11 @@
       <tech x="0.7" y="5.0">HCXPBloodBrothersGerman</tech>
       <tech x="0.9" y="3.0">HCFencingSchoolGerman</tech>
       <tech x="1.6" y="1.0">HCCheapStablesTeam</tech>
-      <tech x="1.6" y="3.0">HCRidingSchoolGerman</tech>
-      <tech x="1.6" y="5.0">HCRidingSchoolGerman2</tech>
       <tech x="0.9" y="1.0">HCXPShipSpies1German</tech>
       <tech x="0.9" y="7.0">HCXPAgents</tech>
       <tech x="3.2" y="2.0">HCColonialMilitia</tech>
       <tech x="2.5" y="2.0">HCPioneers</tech>
       <tech x="2.5" y="3.0">HCImprovedBuildingsGerman</tech>
-      <tech x="2.5" y="5.0">HCTeamTeutonTownCenter</tech>
-      <tech x="3.2" y="5.0">HCPalatineSettlements</tech>
       <tech x="2.8" y="1.0">HCFrontierDefensesGerman</tech>
       <tech x="3.2" y="3.0">HCAdvancedArsenalGerman</tech>
       <tech x="3.9" y="1.0">HCUnlockFortGerman</tech>
@@ -2375,7 +2257,6 @@
       <tech x="4.8" y="1.0">HCXPRanching</tech>
       <tech x="4.8" y="3.0">HCRoyalDecreeGerman</tech>
       <tech x="5.5" y="1.0">HCAdvancedMillGerman</tech>
-      <tech x="5.5" y="5.0">HCGermantownFarmers</tech>
       <tech x="6.2" y="1.0">HCAdvancedMarketGerman</tech>
       <tech x="6.2" y="5.0">HCAdvancedPlantationsGerman</tech>
       <tech x="6.2" y="3.0">HCAdvancedDockGerman</tech>
@@ -2480,26 +2361,19 @@
       <tech x="2.8" y="1.0">HCAdmiralityGerman</tech>
       <tech x="2.6" y="1.0">HCCoastalDefensesTeam</tech>
       <tech x="4.7" y="1.0">DEHCTheaters</tech>
-      <tech x="4.7" y="1.0">DEHCMercsIrishBrigadiersGerman</tech>
-      <tech x="4.7" y="1.0">HCMercsLandsknecht1German</tech>
-      <tech x="4.7" y="3.0">HCMercsLandsknecht2German</tech>
-      <tech x="4.0" y="3.0">HCMercsHessiansGerman</tech>
+      <tech x="4.7" y="1.0">HUNCardPandourBand</tech>
+      <tech x="4.7" y="3.0">HUNCardPandourShipTeam</tech>
+      <tech x="4.0" y="3.0">HUNCardBlackRiderShipTeam</tech>
+      <tech x="4.0" y="5.0">HUNCardBlackRider9Team</tech>
+      <tech x="6.1" y="3.0">HUNCardHarquebusier16</tech>
       <tech x="4.0" y="4.0">DEHCMercsGiantGrenadiersGerman</tech>
       <tech x="4.0" y="4.0">DEHCMercsPandoursGerman</tech>
-      <tech x="4.0" y="5.0">HCMercsHighlandGerman</tech>
       <tech x="4.7" y="5.0">HCMercsHolyRomanGerman</tech>
-      <tech x="4.7" y="7.0">HCXPMercsHessiansRepeatTeam</tech>
       <tech x="5.4" y="3.0">HCMercsBlackRidersGerman</tech>
       <tech x="6.1" y="3.0">HCMercsHackapellsGerman</tech>
-      <tech x="6.1" y="3.0">DEHCMercsBosniaksGerman</tech>
-      <tech x="6.1" y="4.0">HCXPMercsElmetiGerman</tech>
-      <tech x="6.1" y="5.0">HCMercenaryLoyaltyGerman</tech>
       <tech x="5.4" y="4.0">HCMercenaryCombatGerman</tech>
-      <tech x="5.4" y="5.0">DEHCWettinAlliesGerman1</tech>
       <tech x="6.1" y="7.0">DEHCHabsburgAllies2</tech>
-      <tech x="5.4" y="5.0">DEHCWettinAlliesGerman2</tech>
       <tech x="6.1" y="1.0">HUNCardMercPrices</tech>
-      <tech x="6.1" y="1.0">DEHCPrinceElectors</tech>
       <tech x="6.1" y="1.0">DEHCCircleArmy</tech>
       <tech x="7.0" y="1.0">HCPrivateers</tech>
       <tech x="7.0" y="1.0">DEHCGermanBattleshipCard</tech>
@@ -2517,26 +2391,19 @@
       <tech x="2.8" y="1.0">HCAdmiralityGerman</tech>
       <tech x="2.6" y="1.0">HCCoastalDefensesTeam</tech>
       <tech x="4.7" y="1.0">DEHCTheaters</tech>
-      <tech x="4.7" y="1.0">DEHCMercsIrishBrigadiersGerman</tech>
-      <tech x="4.7" y="1.0">HCMercsLandsknecht1German</tech>
-      <tech x="4.7" y="3.0">HCMercsLandsknecht2German</tech>
-      <tech x="4.0" y="3.0">HCMercsHessiansGerman</tech>
+      <tech x="4.7" y="1.0">HUNCardPandourBand</tech>
+      <tech x="4.7" y="3.0">HUNCardPandourShipTeam</tech>
+      <tech x="4.0" y="3.0">HUNCardBlackRiderShipTeam</tech>
+      <tech x="4.0" y="5.0">HUNCardBlackRider9Team</tech>
+      <tech x="6.1" y="3.0">HUNCardHarquebusier16</tech>
       <tech x="4.0" y="4.0">DEHCMercsGiantGrenadiersGerman</tech>
       <tech x="4.0" y="4.0">DEHCMercsPandoursGerman</tech>
-      <tech x="4.0" y="5.0">HCMercsHighlandGerman</tech>
       <tech x="4.7" y="5.0">HCMercsHolyRomanGerman</tech>
-      <tech x="4.7" y="7.0">HCXPMercsHessiansRepeatTeam</tech>
       <tech x="5.4" y="3.0">HCMercsBlackRidersGerman</tech>
       <tech x="6.1" y="3.0">HCMercsHackapellsGerman</tech>
-      <tech x="6.1" y="3.0">DEHCMercsBosniaksGerman</tech>
-      <tech x="6.1" y="4.0">HCXPMercsElmetiGerman</tech>
-      <tech x="6.1" y="5.0">HCMercenaryLoyaltyGerman</tech>
       <tech x="5.4" y="4.0">HCMercenaryCombatGerman</tech>
-      <tech x="5.4" y="5.0">DEHCWettinAlliesGerman1</tech>
       <tech x="6.1" y="7.0">DEHCHabsburgAllies2</tech>
-      <tech x="5.4" y="5.0">DEHCWettinAlliesGerman2</tech>
       <tech x="6.1" y="1.0">HUNCardMercPrices</tech>
-      <tech x="6.1" y="1.0">DEHCPrinceElectors</tech>
       <tech x="6.1" y="1.0">DEHCCircleArmy</tech>
       <tech x="7.0" y="1.0">HCPrivateers</tech>
       <tech x="7.0" y="1.0">DEHCGermanBattleshipCard</tech>

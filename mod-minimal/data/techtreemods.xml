@@ -101,6 +101,14 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">HUNCrabat</target>
       </effect>
+      <!-- Cambio 10 (g): infantería montada/desmontada DESHABILITADAS por defecto.
+           La carta HUNCardMountedInf las desbloquea (Establo y Cuartel respectivamente). -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">HUNMountedInfantry</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">HUNMountedInfantryFoot</target>
+      </effect>
       <effect type="TechStatus" status="obtainable">HUNGuardMagyarHussar</effect>
       <effect type="TechStatus" status="obtainable">HUNImperialMagyarHussar</effect>
       <effect type="TechStatus" status="obtainable">HUNGuardCrabat</effect>
@@ -733,6 +741,7 @@
     <dbid>88881440</dbid>
     <displaynameid>88881070</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\explorers\explorer_icon.png</icon>
     <flag>HomeCity</flag>
@@ -743,20 +752,17 @@
       <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">Hero</target>
       </effect>
-      <!-- Cambio 9 (j): intento de aura estilo tamborilero. HPAura es la ÚNICA aura de
-           "vida" moddable (regeneración por proximidad); se habilita en el Explorer.
-           NOTA: un aura de BOOST de vida+ataque no es data-moddable (las auras están
-           atadas al motor). A verificar en juego; si HPAura no toma efecto en el Hero,
-           el aura no es posible por datos y queda solo el +50/+50. -->
-      <effect type="Data" action="HPAura" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">Explorer</target>
-      </effect>
+      <!-- Cambio 10 (j): aura estilo tamborilero DESCARTADA. Las auras de AoE3 DE (HPAura,
+           ShieldAura, Mansabdar, etc.) están atadas por el motor a unidades específicas
+           (edificios/héroes concretos) y no existe un aura data-moddable de BOOST de
+           vida+ataque aplicable al Explorer. La carta queda como +50% vida/ataque al Héroe. -->
     </effects>
   </tech>
   <tech name="HUNCardPromotions" type="Normal">
     <dbid>88881441</dbid>
     <displaynameid>88881071</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\hungary\hun_units_promotion.png</icon>
     <flag>HomeCity</flag>
@@ -774,6 +780,7 @@
     <displaynameid>88881072</displaynameid>
     <rollovertextid>88881075</rollovertextid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\hungary\hun_card_ussars_insurrection.png</icon>
     <flag>HomeCity</flag>
@@ -787,6 +794,7 @@
     <dbid>88881443</dbid>
     <displaynameid>88881073</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\native\Distributivism.png</icon>
     <flag>HomeCity</flag>
@@ -800,6 +808,7 @@
     <dbid>88881444</dbid>
     <displaynameid>88881074</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\asians\Foreign_Logging.png</icon>
     <flag>HomeCity</flag>
@@ -818,6 +827,7 @@
     <displaynameid>88881076</displaynameid>
     <rollovertextid>88881080</rollovertextid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\hungary\hun_card_inf_attack.png</icon>
     <flag>HomeCity</flag>
@@ -835,6 +845,7 @@
     <displaynameid>88881077</displaynameid>
     <rollovertextid>88881081</rollovertextid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\hungary\hun_card_inf_defense.png</icon>
     <flag>HomeCity</flag>
@@ -852,6 +863,7 @@
     <displaynameid>88881078</displaynameid>
     <rollovertextid>88881082</rollovertextid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\hungary\hun_card_inf_defense_and_attack.png</icon>
     <flag>HomeCity</flag>
@@ -875,20 +887,23 @@
     <displaynameid>88881079</displaynameid>
     <rollovertextid>88881083</rollovertextid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\hungary\hun_card_hajduk.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <!-- En Melee: gana armadura cuerpo a cuerpo (Hand). -->
+      <!-- Cambio 10 (a): armadura por postura (requiere slots base Hand/Ranged/Siege en
+           el proto HUNHajduk). Los multiplicadores por postura ya son inherentes al proto. -->
+      <!-- Postura MELEE (cuerpo a cuerpo): defensa contra melee (armadura Hand). -->
       <effect type="Data" amount="0.30" subtype="TacticArmor" tactic="Melee" armortype="Hand" relativity="Absolute">
         <target type="ProtoUnit">HUNHajduk</target>
       </effect>
-      <!-- En Stagger (escalonado): gana armadura a distancia (vs artillería/proyectil). -->
-      <effect type="Data" amount="0.30" subtype="TacticArmor" tactic="Stagger" armortype="Ranged" relativity="Absolute">
+      <!-- Postura STAGGER (escalonado): defensa contra artillería (armadura Siege). -->
+      <effect type="Data" amount="0.30" subtype="TacticArmor" tactic="Stagger" armortype="Siege" relativity="Absolute">
         <target type="ProtoUnit">HUNHajduk</target>
       </effect>
-      <!-- x2 de daño contra artillería. -->
-      <effect type="Data" amount="2.00" subtype="DamageBonus" unittype="AbstractArtillery" allactions="1" relativity="Assign">
+      <!-- Postura NORMAL (Volley): defensa contra ataques a distancia (armadura Ranged). -->
+      <effect type="Data" amount="0.30" subtype="TacticArmor" tactic="Volley" armortype="Ranged" relativity="Absolute">
         <target type="ProtoUnit">HUNHajduk</target>
       </effect>
     </effects>
@@ -901,6 +916,7 @@
     <dbid>88881451</dbid>
     <displaynameid>88881090</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
     <flag>HomeCity</flag>
@@ -914,6 +930,7 @@
     <dbid>88881452</dbid>
     <displaynameid>88881090</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
     <flag>HomeCity</flag>
@@ -927,6 +944,7 @@
     <dbid>88881453</dbid>
     <displaynameid>88881090</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
     <flag>HomeCity</flag>
@@ -940,6 +958,7 @@
     <dbid>88881454</dbid>
     <displaynameid>88881090</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
     <flag>HomeCity</flag>
@@ -953,6 +972,7 @@
     <dbid>88881455</dbid>
     <displaynameid>88881090</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
     <flag>HomeCity</flag>
@@ -966,8 +986,9 @@
     <dbid>88881456</dbid>
     <displaynameid>88881091</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <icon>resources\images\icons\hungary\hun_card_border-cavalry.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
@@ -982,8 +1003,9 @@
     <dbid>88881457</dbid>
     <displaynameid>88881091</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <icon>resources\images\icons\hungary\hun_card_border-cavalry.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
@@ -998,6 +1020,7 @@
     <dbid>88881458</dbid>
     <displaynameid>88881092</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\germans\mercenary_camps.png</icon>
     <flag>HomeCity</flag>
@@ -1021,6 +1044,7 @@
     <displaynameid>88881093</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\natives\europeans\mounted_infantry_icon.png</icon>
     <flag>HomeCity</flag>
@@ -1028,8 +1052,80 @@
       <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNMountedInfantry" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <!-- Desbloquea la infantería montada en el Establo... -->
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">HUNMountedInfantry</target>
+      </effect>
+      <!-- Cambio 10 (g): ...y la infantería desmontada en el Cuartel. Ambas sin límite
+           de creación (usan población; el límite se quitó de los protos). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNMountedInfantryFoot</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- ============================================================================
+       Cambio 11: cartas de caballería propias (reemplazan cartas alemanas del mazo).
+       Todas con <researchpoints>40</researchpoints> = tiempo de envío estándar.
+       ============================================================================ -->
+
+  <!-- Reemplaza "Resistencia de la caballería" (HCCavalryHitpointsGerman 2281).
+       +15% de vida (resistencia) a TODA la caballería (AbstractCavalry). -->
+  <tech name="HUNCardCavDefense" type="Normal">
+    <dbid>88881460</dbid>
+    <displaynameid>88881100</displaynameid>
+    <rollovertextid>88881101</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_high-cav_defense.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Reemplaza "Combate de la caballería" (HCCavalryCombatGerman 2159).
+       +15% de ataque y vida a TODA la caballería (AbstractCavalry). -->
+  <tech name="HUNCardCavStats" type="Normal">
+    <dbid>88881461</dbid>
+    <displaynameid>88881102</displaynameid>
+    <rollovertextid>88881103</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_cav_stats.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Reemplaza "Caballería lipizzaner" (HCUhlanCombatGerman 2643).
+       "Legado del Corvinus": +20% de vida y ataque a la caballería PESADA
+       (AbstractHeavyCavalry: Húsar Magiar + Infantería Montada; no el Crábat ligero). -->
+  <tech name="HUNCardCorvinusLegacy" type="Normal">
+    <dbid>88881462</dbid>
+    <displaynameid>88881104</displaynameid>
+    <rollovertextid>88881105</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_high-cav_stats.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHeavyCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHeavyCavalry</target>
       </effect>
     </effects>
   </tech>

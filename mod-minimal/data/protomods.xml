@@ -47,6 +47,8 @@
     <tech row="0" page="1" column="1">HUNVeteranHajduk</tech>
     <tech row="0" page="1" column="1">HUNGuardHajduk</tech>
     <tech row="0" page="1" column="1">HUNImperialHajduk</tech>
+    <!-- Cambio 10 (g): infantería desmontada (desbloqueada por la carta HUNCardMountedInf) -->
+    <train row="0" page="0" column="2">HUNMountedInfantryFoot</train>
   </Unit>
 
   <Unit mergeMode='modify' name="Stable">
@@ -459,9 +461,12 @@
     <allowedage>1</allowedage>
     <armor type="Ranged" value="0.3000">
     </armor>
-    <!-- Cambio 8/9 (a): armadura Hand base (0.0) para que la carta Bocskai pueda
-         sumar armadura cuerpo a cuerpo en la postura Melee vía TacticArmor. -->
+    <!-- Cambio 8/9/10 (a): slots base de armadura Hand y Siege (0.0) para que la carta
+         Bocskai pueda SUMAR armadura por postura vía TacticArmor:
+         Melee→Hand, Stagger→Siege, Volley→Ranged. Sin slot base, TacticArmor no aplica. -->
     <armor type="Hand" value="0.0000">
+    </armor>
+    <armor type="Siege" value="0.0000">
     </armor>
     <!-- veterancybonus del deSaloonHajduk: define los bonos por rango, pero el
          ascenso queda INACTIVO por defecto (sin <flag>ExperienceUnit</flag>).
@@ -531,16 +536,17 @@
       <damagetype>Siege</damagetype>
       <rof>3.000000</rof>
     </protoaction>
-    <!-- Melee (cuerpo a cuerpo): sin bonos vs infantería común/ligera, +x2 vs caballería. -->
+    <!-- Postura MELEE (cuerpo a cuerpo): pierde todos los multiplicadores, SOLO queda
+         el x2 vs caballería (AbstractCavalry). -->
     <protoaction>
       <name>HandAttack</name>
       <damage>14.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
       <damagebonus type="AbstractCavalry">2.000000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
     </protoaction>
-    <!-- Ranged base (Volley/Defend/StandGround): conserva bonos vs infantería. -->
+    <!-- Postura NORMAL (Volley/Defend/StandGround): SOLO bonos vs infantería pesada y
+         ligera (AbstractHeavyInfantry + AbstractSkirmisher). Sin los demás. -->
     <protoaction>
       <name>RangedAttack</name>
       <damage>14.00000</damage>
@@ -550,11 +556,9 @@
       <rof>3.000000</rof>
       <damagebonus type="AbstractHeavyInfantry">1.50000</damagebonus>
       <damagebonus type="AbstractSkirmisher">2.000000</damagebonus>
-      <damagebonus type="AbstractCounterSkirmisher">2.000000</damagebonus>
-      <damagebonus type="AbstractCoyoteMan">0.600000</damagebonus>
-      <damagebonus type="AbstractHeavyCavalry">0.600000</damagebonus>
     </protoaction>
-    <!-- Stagger (escalonado): SIN bonos vs infantería común/ligera. -->
+    <!-- Postura STAGGER (escalonado): SOLO bonos vs artillería (AbstractArtillery) y
+         vs infantería de artillería/asedio (AbstractSiegeTrooper). -->
     <protoaction>
       <name>StaggerRangedAttack</name>
       <damage>14.00000</damage>
@@ -562,8 +566,8 @@
       <maxrange>20.000000</maxrange>
       <minrange>2.000000</minrange>
       <rof>3.000000</rof>
-      <damagebonus type="AbstractCoyoteMan">0.600000</damagebonus>
-      <damagebonus type="AbstractHeavyCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractSiegeTrooper">2.000000</damagebonus>
     </protoaction>
   </unit>
 
@@ -959,19 +963,15 @@
     <portraiticon>resources\art\units\natives\europeans\mounted_infantry_portrait.png</portraiticon>
     <rollovertextid>88881095</rollovertextid>
     <shortrollovertextid>88881096</shortrollovertextid>
-    <unithelpoverride>deNatMountedInfantry</unithelpoverride>
+    <unithelpoverride>HUNMountedInfantryFoot</unithelpoverride>
     <initialhitpoints>220.0000</initialhitpoints>
     <maxhitpoints>220.0000</maxhitpoints>
     <los>18.0000</los>
     <projectileprotounit>InvisibleProjectile</projectileprotounit>
     <unitaitype>RangedCombative</unitaitype>
     <trainpoints>35.0000</trainpoints>
-    <buildlimit>11</buildlimit>
-    <sharedbuildlimitunit>deNatMountedInfantryRider</sharedbuildlimitunit>
-    <sharedbuildlimitunittypes>
-      <unittype>deNatMountedInfantryRider</unittype>
-      <unittype>deNatMountedInfantry</unittype>
-    </sharedbuildlimitunittypes>
+    <!-- Cambio 10 (g): SIN límite de creación (se quitaron buildlimit/sharedbuildlimit
+         y el flag UseSharedBuildLimit). En su lugar cuesta población (pop 2). -->
     <bounty>16.0000</bounty>
     <buildbounty>16.0000</buildbounty>
     <cost resourcetype="Food">120.0000</cost>
@@ -980,7 +980,7 @@
     <armor type="Ranged" value="0.1500">
     </armor>
     <sharedselectionunittypes>
-      <unittype>deNatMountedInfantry</unittype>
+      <unittype>HUNMountedInfantryFoot</unittype>
     </sharedselectionunittypes>
     <unittype>LogicalTypeHealed</unittype>
     <unittype>LogicalTypeValidSharpshoot</unittype>
@@ -1018,12 +1018,12 @@
     <flag>DontRotateObstruction</flag>
     <flag>ObscuredByUnits</flag>
     <flag>Tracked</flag>
-    <flag>UseSharedBuildLimit</flag>
     <command page="10" column="7">Delete</command>
     <command page="10" column="1">Stop</command>
     <command page="10" column="0">Garrison</command>
     <command page="11" column="0">Abilities</command>
-    <tactics>musketheavycavalrydismount.tactics</tactics>
+    <!-- Cambio 10 (g): tactics propia que desmonta a HUNMountedInfantryFoot. -->
+    <tactics>hunMountedInfantryDismount.tactics</tactics>
     <protoaction>
       <name>BuildingAttack</name>
       <damage>9.000000</damage>
@@ -1079,6 +1079,184 @@
       <maxrange>12.000000</maxrange>
       <rof>3.000000</rof>
       <damagebonus type="AbstractInfantry">2.000000</damagebonus>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio 10 (g): Infantería Montada DESMONTADA (a pie). Copia de deNatMountedInfantry
+       (id 2333) SIN ser mercenaria (sin merc en sharedselection, sin ExperienceUnit ni
+       veterancybonus), SIN límite de creación (usa pop 2), y con tactics propia que
+       monta de vuelta a HUNMountedInfantry. Se desbloquea en el Cuartel por la carta. -->
+  <unit id="88881207" name="HUNMountedInfantryFoot">
+    <dbid>88881207</dbid>
+    <displaynameid>88881097</displaynameid>
+    <editornameid>88881097</editornameid>
+    <populationcount>2</populationcount>
+    <subciv>Habsburg</subciv>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Ranged</formationcategory>
+    <maxvelocity>4.2500</maxvelocity>
+    <maxrunvelocity>6.25000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\natives\europeans\mounted_infantry\unmounted_infantry.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\natives\europeans\dismounted_infantry_icon.png</icon>
+    <portraiticon>resources\art\units\natives\europeans\dismounted_infantry_portrait.png</portraiticon>
+    <rollovertextid>88881098</rollovertextid>
+    <shortrollovertextid>88881099</shortrollovertextid>
+    <unithelpoverride>HUNMountedInfantry</unithelpoverride>
+    <initialhitpoints>145.0000</initialhitpoints>
+    <maxhitpoints>145.0000</maxhitpoints>
+    <los>22.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <autoattackrange>16.0000</autoattackrange>
+    <unitaitype>RangedCombative</unitaitype>
+    <trainpoints>30.0000</trainpoints>
+    <bounty>16.0000</bounty>
+    <buildbounty>16.0000</buildbounty>
+    <cost resourcetype="Food">120.0000</cost>
+    <cost resourcetype="Gold">40.0000</cost>
+    <allowedage>1</allowedage>
+    <armor type="Ranged" value="0.1500">
+    </armor>
+    <sharedselectionunittypes>
+      <unittype>HUNMountedInfantry</unittype>
+    </sharedselectionunittypes>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Military</unittype>
+    <unittype>AbstractRifleman</unittype>
+    <unittype>AbstractSkirmisher</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <command page="11" column="0">Abilities</command>
+    <!-- Cambio 10 (g): tactics propia que monta de vuelta a HUNMountedInfantry. -->
+    <tactics>hunRiflemanMount.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>9.000000</damage>
+      <damagetype>Siege</damagetype>
+      <maxrange>6.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>DefendHandAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractHeavyInfantry">2.750000</damagebonus>
+      <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>DefendRangedAttack</name>
+      <damage>14.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>19.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractHeavyInfantry">2.750000</damagebonus>
+      <damagebonus type="AbstractLightCavalry">2.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.500000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.600000</damagebonus>
+      <damagebonus type="AbstractVillager">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractHeavyInfantry">2.750000</damagebonus>
+      <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerHandAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractHeavyInfantry">2.750000</damagebonus>
+      <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerRangedAttack</name>
+      <damage>14.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>19.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractHeavyInfantry">2.750000</damagebonus>
+      <damagebonus type="AbstractLightCavalry">2.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.500000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.600000</damagebonus>
+      <damagebonus type="AbstractVillager">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyHandAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractHeavyInfantry">2.750000</damagebonus>
+      <damagebonus type="AbstractLightCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>14.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>19.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractHeavyInfantry">2.750000</damagebonus>
+      <damagebonus type="AbstractLightCavalry">2.500000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">2.500000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.600000</damagebonus>
+      <damagebonus type="AbstractVillager">0.750000</damagebonus>
     </protoaction>
   </unit>
 </protomods>

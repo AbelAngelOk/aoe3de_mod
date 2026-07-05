@@ -490,7 +490,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCUhlanCombatGerman</name>
+      <name>HUNCardCorvinusLegacy</name>
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HUNShipCrabats4</prereqtech>
@@ -500,7 +500,7 @@
       <name>HCCavalryDamageGermanTeam</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCCavalryHitpointsGerman</prereqtech>
+      <prereqtech>HUNCardCavDefense</prereqtech>
       <age>1</age>
     </card>
     <card>
@@ -513,17 +513,17 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCCavalryHitpointsGerman</name>
+      <name>HUNCardCavDefense</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
-      <name>HCCavalryCombatGerman</name>
+      <name>HUNCardCavStats</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCCavalryHitpointsGerman</prereqtech>
+      <prereqtech>HUNCardCavDefense</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -1856,7 +1856,7 @@
         <card dbid="88881452">HUNShipSettlerWagons3</card>
         <card dbid="2465">HCShipWoodCrates3German</card>
         <card dbid="2462">HCShipCoinCrates3German</card>
-        <card dbid="2159">HCCavalryCombatGerman</card>
+        <card dbid="88881461">HUNCardCavStats</card>
         <card dbid="1854">HCMercenaryCombatGerman</card>
         <card dbid="2678">HCMercsBlackRidersGerman</card>
         <card dbid="2680">HCMercsHessiansGerman</card>
@@ -1868,7 +1868,7 @@
         <card dbid="2658">HCGermantownFarmers</card>
         <card dbid="3387">HCXPEconomicTheory</card>
         <card dbid="2642">HCShipWingedHussars</card>
-        <card dbid="2643">HCUhlanCombatGerman</card>
+        <card dbid="88881462">HUNCardCorvinusLegacy</card>
         <card dbid="88881458">HUNCardMercPrices</card>
         <card dbid="88881456">HUNShipCavMix1</card>
         <card dbid="88881454">HUNShipSettlerWagonsTeam</card>
@@ -1889,7 +1889,7 @@
         <card dbid="2677">HCRobberBaronsGerman</card>
         <card dbid="2502">HCUnlockFactoryGerman</card>
         <card dbid="2526">HCShipCaravels2German</card>
-        <card dbid="2159">HCCavalryCombatGerman</card>
+        <card dbid="88881461">HUNCardCavStats</card>
         <card dbid="2528">HCShipFrigatesGerman</card>
         <card dbid="3387">HCXPEconomicTheory</card>
         <card dbid="2466">HCShipWoodCrates4German</card>
@@ -1945,7 +1945,7 @@
         <card dbid="2285">HCFoodSilosTeam</card>
         <card dbid="3387">HCXPEconomicTheory</card>
         <card dbid="2280">HCCavalryDamageGermanTeam</card>
-        <card dbid="2281">HCCavalryHitpointsGerman</card>
+        <card dbid="88881460">HUNCardCavDefense</card>
         <card dbid="2516">HCSustainableAgricultureGerman</card>
         <card dbid="2496">HCRidingSchoolGerman</card>
         <card dbid="2495">HCFencingSchoolGerman</card>
@@ -1955,13 +1955,13 @@
         <card dbid="2517">HCRefrigerationGerman</card>
         <card dbid="2515">HCRoyalMintGerman</card>
         <card dbid="2658">HCGermantownFarmers</card>
-        <card dbid="2159">HCCavalryCombatGerman</card>
+        <card dbid="88881461">HUNCardCavStats</card>
         <card dbid="88881454">HUNShipSettlerWagonsTeam</card>
         <card dbid="2538">HCGuildArtisans</card>
         <card dbid="3415">HCXPShipCannonsRepeat</card>
         <card dbid="88881448">HUNCardBocskai</card>
         <card dbid="3395">HCXPSolingenSteel</card>
-        <card dbid="2643">HCUhlanCombatGerman</card>
+        <card dbid="88881462">HUNCardCorvinusLegacy</card>
         <card dbid="2502">HCUnlockFactoryGerman</card>
         <card dbid="2677">HCRobberBaronsGerman</card>
         <card dbid="88881447">HUNCardInfCombat</card>
@@ -1974,7 +1974,7 @@
         <card dbid="2285">HCFoodSilosTeam</card>
         <card dbid="3387">HCXPEconomicTheory</card>
         <card dbid="2280">HCCavalryDamageGermanTeam</card>
-        <card dbid="2281">HCCavalryHitpointsGerman</card>
+        <card dbid="88881460">HUNCardCavDefense</card>
         <card dbid="2516">HCSustainableAgricultureGerman</card>
         <card dbid="2496">HCRidingSchoolGerman</card>
         <card dbid="2495">HCFencingSchoolGerman</card>
@@ -1984,11 +1984,11 @@
         <card dbid="2517">HCRefrigerationGerman</card>
         <card dbid="2515">HCRoyalMintGerman</card>
         <card dbid="2658">HCGermantownFarmers</card>
-        <card dbid="2159">HCCavalryCombatGerman</card>
+        <card dbid="88881461">HUNCardCavStats</card>
         <card dbid="88881454">HUNShipSettlerWagonsTeam</card>
         <card dbid="2538">HCGuildArtisans</card>
         <card dbid="3415">HCXPShipCannonsRepeat</card>
-        <card dbid="2643">HCUhlanCombatGerman</card>
+        <card dbid="88881462">HUNCardCorvinusLegacy</card>
         <card dbid="2502">HCUnlockFactoryGerman</card>
         <card dbid="2677">HCRobberBaronsGerman</card>
         <card dbid="2487">HCNativeWarriorsGerman</card>
@@ -2229,14 +2229,14 @@
       <tech x="3.6" y="2.0">HUNCardMountedInf</tech>
       <tech x="3.6" y="4.0">HCCavalryDamageGermanTeam</tech>
       <tech x="3.6" y="5.0">HCShipWingedHussars</tech>
-      <tech x="3.6" y="3.0">HCCavalryHitpointsGerman</tech>
-      <tech x="4.3" y="4.0">HCCavalryCombatGerman</tech>
+      <tech x="3.6" y="3.0">HUNCardCavDefense</tech>
+      <tech x="4.3" y="4.0">HUNCardCavStats</tech>
       <tech x="4.9" y="1.0">HUNShipCrabats1</tech>
       <tech x="4.9" y="2.0">HUNShipCrabats2</tech>
       <tech x="4.9" y="3.0">HUNShipCrabats3</tech>
       <tech x="5.2" y="4.0">HUNShipCrabats4</tech>
       <tech x="4.9" y="5.0">HUNShipCrabats5</tech>
-      <tech x="5.6" y="5.0">HCUhlanCombatGerman</tech>
+      <tech x="5.6" y="5.0">HUNCardCorvinusLegacy</tech>
       <tech x="5.6" y="3.0">HCXPShipCannonsRepeat</tech>
       <tech x="5.6" y="7.0">HCXPShipDemolitionSquadGerman</tech>
       <tech x="6.4" y="1.0">HCShipFalconets1German</tech>
@@ -2277,14 +2277,14 @@
       <tech x="3.6" y="2.0">HUNCardMountedInf</tech>
       <tech x="3.6" y="4.0">HCCavalryDamageGermanTeam</tech>
       <tech x="3.6" y="5.0">HCShipWingedHussars</tech>
-      <tech x="3.6" y="3.0">HCCavalryHitpointsGerman</tech>
-      <tech x="4.3" y="4.0">HCCavalryCombatGerman</tech>
+      <tech x="3.6" y="3.0">HUNCardCavDefense</tech>
+      <tech x="4.3" y="4.0">HUNCardCavStats</tech>
       <tech x="4.9" y="1.0">HUNShipCrabats1</tech>
       <tech x="4.9" y="2.0">HUNShipCrabats2</tech>
       <tech x="4.9" y="3.0">HUNShipCrabats3</tech>
       <tech x="5.2" y="4.0">HUNShipCrabats4</tech>
       <tech x="4.9" y="5.0">HUNShipCrabats5</tech>
-      <tech x="5.6" y="5.0">HCUhlanCombatGerman</tech>
+      <tech x="5.6" y="5.0">HUNCardCorvinusLegacy</tech>
       <tech x="5.6" y="3.0">HCXPShipCannonsRepeat</tech>
       <tech x="5.6" y="7.0">HCXPShipDemolitionSquadGerman</tech>
       <tech x="6.4" y="1.0">HCShipFalconets1German</tech>

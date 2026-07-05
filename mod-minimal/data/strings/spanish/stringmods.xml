@@ -79,7 +79,7 @@
       <string _locid="88881080">+15% de ataque a Honvéds y Hajduks.</string>
       <string _locid="88881081">+15% de vida a Honvéds y Hajduks.</string>
       <string _locid="88881082">+15% de ataque y vida a Honvéds y Hajduks.</string>
-      <string _locid="88881083">Los Hajduks adaptan su defensa según su postura: en modo cuerpo a cuerpo ganan armadura cuerpo a cuerpo; en modo escalonado ganan armadura a distancia (contra artillería). Además obtienen un multiplicador x2 de daño contra artillería.</string>
+      <string _locid="88881083">Los Hajduks adaptan su defensa según su postura de combate: armadura cuerpo a cuerpo en modo cuerpo a cuerpo, armadura de asedio (contra artillería) en modo escalonado, y armadura a distancia en modo normal.</string>
       <!-- Cambio 9: cartas f/h/e/g + unidad -->
       <string _locid="88881090">Carretones de Colono</string>
       <string _locid="88881091">Refuerzos de Caballería</string>
@@ -88,6 +88,17 @@
       <string _locid="88881094">Infantería Montada</string>
       <string _locid="88881095">Fusilero montado versátil, eficaz contra caballería y a distancia.</string>
       <string _locid="88881096">Fusilero montado</string>
+      <!-- Infantería montada desmontada (a pie) -->
+      <string _locid="88881097">Infantería Desmontada</string>
+      <string _locid="88881098">Infantería montada combatiendo a pie: escaramuzador a distancia fuerte contra infantería pesada. Puede volver a montar.</string>
+      <string _locid="88881099">Fusilero desmontado</string>
+      <!-- Cambio 11: cartas de caballería propias -->
+      <string _locid="88881100">Resistencia de la Caballería</string>
+      <string _locid="88881101">+15% de vida a toda la caballería.</string>
+      <string _locid="88881102">Combate de la Caballería</string>
+      <string _locid="88881103">+15% de ataque y vida a toda la caballería.</string>
+      <string _locid="88881104">Legado del Corvinus</string>
+      <string _locid="88881105">+20% de vida y ataque a la caballería pesada.</string>
 
     </language>
   </stringtable>

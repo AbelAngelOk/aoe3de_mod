@@ -71,7 +71,7 @@
       <string _locid="88881080">+15% attack to Honvéds and Hajduks.</string>
       <string _locid="88881081">+15% hitpoints to Honvéds and Hajduks.</string>
       <string _locid="88881082">+15% attack and hitpoints to Honvéds and Hajduks.</string>
-      <string _locid="88881083">Hajduks adapt their defense to their stance: in melee mode they gain melee armor; in staggered mode they gain ranged armor (against artillery). They also gain a x2 damage multiplier against artillery.</string>
+      <string _locid="88881083">Hajduks adapt their defense to their combat stance: melee armor in melee mode, siege armor (vs artillery) in staggered mode, and ranged armor in normal mode.</string>
       <!-- Change 9: cards f/h/e/g + unit -->
       <string _locid="88881090">Settler Wagons</string>
       <string _locid="88881091">Cavalry Reinforcements</string>
@@ -80,6 +80,17 @@
       <string _locid="88881094">Mounted Infantry</string>
       <string _locid="88881095">Versatile mounted rifleman, effective against cavalry and at range.</string>
       <string _locid="88881096">Mounted rifleman</string>
+      <!-- Infantería montada desmontada (a pie) -->
+      <string _locid="88881097">Dismounted Infantry</string>
+      <string _locid="88881098">Mounted infantry fighting on foot: a ranged skirmisher strong against heavy infantry. Can mount back onto its horse.</string>
+      <string _locid="88881099">Dismounted rifleman</string>
+      <!-- Cambio 11: cartas de caballería propias -->
+      <string _locid="88881100">Cavalry Resistance</string>
+      <string _locid="88881101">+15% hitpoints to all cavalry.</string>
+      <string _locid="88881102">Cavalry Combat</string>
+      <string _locid="88881103">+15% attack and hitpoints to all cavalry.</string>
+      <string _locid="88881104">Corvinus Legacy</string>
+      <string _locid="88881105">+20% hitpoints and attack to heavy cavalry.</string>
 
     </language>
   </stringtable>

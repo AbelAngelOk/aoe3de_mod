@@ -1,5 +1,57 @@
 # Changelog — Eastern European Expansion (EEX)
 
+## [mod-minimal 2.5] — 2026-07-04 (Cartas de caballería + tiempo de envío)
+
+### Cartas de caballería (reemplazos en el mazo)
+- **Resistencia de la caballería → "Resistencia de la Caballería"** (`HUNCardCavDefense`,
+  reemplaza `HCCavalryHitpointsGerman`): **+15% de vida a toda la caballería**
+  (`AbstractCavalry`). Icono `hun_card_high-cav_defense.png`.
+- **Combate de la caballería → "Combate de la Caballería"** (`HUNCardCavStats`,
+  reemplaza `HCCavalryCombatGerman`): **+15% de ataque y vida a toda la caballería**.
+  Icono `hun_card_cav_stats.png`.
+- **Caballería lipizzaner → "Legado del Corvinus"** (`HUNCardCorvinusLegacy`,
+  reemplaza `HCUhlanCombatGerman`): **+20% de vida y ataque a la caballería pesada**
+  (`AbstractHeavyCavalry`: Húsar Magiar + Infantería Montada; no el Crabat ligero).
+  Icono `hun_card_high-cav_stats.png`.
+- Iconos convertidos de assets (~2.5 MB) a **PNG 256px** limpio.
+
+### Tiempo de envío
+- Añadido `<researchpoints>40</researchpoints>` (tiempo estándar entre pedir y recibir
+  el envío) a **todas** las cartas propias que no lo tenían (18 cartas) más las 3
+  nuevas de caballería. Antes llegaban instantáneas.
+
+---
+
+## [mod-minimal 2.4] — 2026-07-04 (Refactor posturas Hajduk + infantería desmontada)
+
+### Hajduk — posturas de combate (a, refactor)
+- **Multiplicadores por postura, ahora inherentes al proto** (no dependen de carta):
+  - **Normal** (Volley/Defend/StandGround): solo vs infantería pesada (x1.5) y ligera (x2).
+  - **Stagger** (escalonado): solo vs artillería (x2) e infantería de asedio
+    (`AbstractSiegeTrooper`, x2).
+  - **Melee** (cuerpo a cuerpo): solo vs caballería (x2).
+- **Armadura por postura** (carta Bocskai, corregida): añadidos slots base de armadura
+  `Hand`/`Siege` al proto (sin ellos `TacticArmor` no aplicaba — era la causa del bug).
+  Melee→`Hand`, Stagger→`Siege` (artillería), Normal→`Ranged`. Quitado el x2 artillería
+  redundante de la carta (ahora inherente en Stagger).
+- Nombres validados: armaduras `Hand`/`Ranged`/`Siege`; tipos `AbstractCavalry`,
+  `AbstractArtillery`, `AbstractSiegeTrooper`, `AbstractHeavyInfantry`, `AbstractSkirmisher`.
+
+### Infantería montada — desmontar + sin límite (g)
+- Nueva unidad **`HUNMountedInfantryFoot`** (desmontada) desbloqueada por la carta en el
+  **Cuartel**; la montada en el **Establo**.
+- **Ambas sin límite de creación** (quitados `buildlimit`/`UseSharedBuildLimit`); en su
+  lugar **cuestan 2 de población**.
+- Tactics propias `hunMountedInfantryDismount` / `hunRiflemanMount` para que
+  montar/desmontar transforme entre las dos unidades HUN (no la mercenaria base).
+
+### Burgomaestre (j) — aura descartada
+- El aura estilo tamborilero (boost de vida+ataque a cercanas) **no es data-moddable**:
+  las auras de AoE3 DE están atadas por el motor a unidades específicas. Quitado el
+  `HPAura` no funcional; la carta queda como **+50% vida/ataque al Héroe**.
+
+---
+
 ## [mod-minimal 2.3] — 2026-07-04 (Lote a–j: cartas y mecánicas)
 
 ### Unidades

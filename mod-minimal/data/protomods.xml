@@ -500,7 +500,8 @@
     <unittype>LogicalTypeRangedUnitsAttack</unittype>
     <unittype>LogicalTypeMinimapFilterMilitary</unittype>
     <unittype>CountsTowardMilitaryScore</unittype>
-    <!-- (AbstractOutlaw / LogicalTypePickableOutlaw / LogicalTypePickableMercOutlaw ELIMINADOS: no mercenario) -->
+    <!-- (AbstractOutlaw / LogicalTypePickableOutlaw / LogicalTypePickableMercOutlaw ELIMINADOS: no mercenario.
+         El sonido NO se enlaza por unittype sino por nombre de proto vía Sound/*_snds.xml — ver Cambio 12 g.) -->
     <unittype>AbstractCavalryInfantry</unittype>
     <unittype>HasBountyValue</unittype>
     <unittype>AbstractGunpowderTrooper</unittype>
@@ -536,14 +537,13 @@
       <damagetype>Siege</damagetype>
       <rof>3.000000</rof>
     </protoaction>
-    <!-- Postura MELEE (cuerpo a cuerpo): pierde todos los multiplicadores, SOLO queda
-         el x2 vs caballería (AbstractCavalry). -->
+    <!-- Postura MELEE (cuerpo a cuerpo): sin multiplicadores (Cambio 12 f: quitado el
+         x2 vs caballería). -->
     <protoaction>
       <name>HandAttack</name>
       <damage>14.000000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractCavalry">2.000000</damagebonus>
     </protoaction>
     <!-- Postura NORMAL (Volley/Defend/StandGround): SOLO bonos vs infantería pesada y
          ligera (AbstractHeavyInfantry + AbstractSkirmisher). Sin los demás. -->

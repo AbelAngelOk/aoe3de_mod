@@ -1104,16 +1104,8 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>4</age>
-      <displayunitcount>4</displayunitcount>
+      <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HUNCardBlackRider9Team</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>4</age>
-      <displayunitcount>9</displayunitcount>
     </card>
     <card>
       <name>HUNCardHarquebusier16</name>
@@ -1121,7 +1113,15 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>4</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>11</displayunitcount>
+    </card>
+    <card>
+      <name>HUNCardTrenckRegiment</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>4</displayunitcount>
     </card>
     <card>
       <name>HCMercsBlackRidersGerman</name>
@@ -2364,8 +2364,8 @@
       <tech x="4.7" y="1.0">HUNCardPandourBand</tech>
       <tech x="4.7" y="3.0">HUNCardPandourShipTeam</tech>
       <tech x="4.0" y="3.0">HUNCardBlackRiderShipTeam</tech>
-      <tech x="4.0" y="5.0">HUNCardBlackRider9Team</tech>
       <tech x="6.1" y="3.0">HUNCardHarquebusier16</tech>
+      <tech x="4.0" y="5.0">HUNCardTrenckRegiment</tech>
       <tech x="4.0" y="4.0">DEHCMercsGiantGrenadiersGerman</tech>
       <tech x="4.0" y="4.0">DEHCMercsPandoursGerman</tech>
       <tech x="4.7" y="5.0">HCMercsHolyRomanGerman</tech>
@@ -2394,8 +2394,8 @@
       <tech x="4.7" y="1.0">HUNCardPandourBand</tech>
       <tech x="4.7" y="3.0">HUNCardPandourShipTeam</tech>
       <tech x="4.0" y="3.0">HUNCardBlackRiderShipTeam</tech>
-      <tech x="4.0" y="5.0">HUNCardBlackRider9Team</tech>
       <tech x="6.1" y="3.0">HUNCardHarquebusier16</tech>
+      <tech x="4.0" y="5.0">HUNCardTrenckRegiment</tech>
       <tech x="4.0" y="4.0">DEHCMercsGiantGrenadiersGerman</tech>
       <tech x="4.0" y="4.0">DEHCMercsPandoursGerman</tech>
       <tech x="4.7" y="5.0">HCMercsHolyRomanGerman</tech>

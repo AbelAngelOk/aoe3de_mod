@@ -102,14 +102,14 @@
       <!-- Cambio 12: cartas de mercenarios -->
       <string _locid="88881106">Banda de Pandúros</string>
       <string _locid="88881107">Envía 6 Pandúros.</string>
-      <string _locid="88881108">EQUIPO Apoyo de Pandúros</string>
+      <string _locid="88881108">EQUIPO Dieta de Presburgo</string>
       <string _locid="88881109">EQUIPO Envía 7 Pandúros. Puede enviarse infinitas veces en la Edad Industrial.</string>
       <string _locid="88881110">EQUIPO Apoyo de Jinetes Negros</string>
-      <string _locid="88881111">EQUIPO Envía 4 Jinetes Negros. Puede enviarse infinitas veces en la Edad Industrial.</string>
-      <string _locid="88881112">EQUIPO Destacamento de Jinetes Negros</string>
-      <string _locid="88881113">EQUIPO Envía 9 Jinetes Negros.</string>
+      <string _locid="88881111">EQUIPO Envía 5 Jinetes Negros. Puede enviarse infinitas veces en la Edad Industrial.</string>
       <string _locid="88881114">Arcabuceros a Caballo</string>
-      <string _locid="88881115">Envía 16 Arcabuceros a caballo.</string>
+      <string _locid="88881115">Envía 11 Arcabuceros a caballo.</string>
+      <string _locid="88881116">EQUIPO Regimiento de Trenck</string>
+      <string _locid="88881117">EQUIPO Envía 4 Pandúros.</string>
 
     </language>
   </stringtable>

@@ -15,6 +15,12 @@
       <string _locid="88881003">Budapest</string>
       <string _locid="88881004">The Magyar Chieftain</string>
 
+      <!-- ===== Cambio 14: Finlandia (Fase 1) — clon de Suecia ===== -->
+      <string _locid="88882001">Finland</string>
+      <string _locid="88882002">The Finns bring forest warfare and elite jaeger marksmen to the battlefield.</string>
+      <string _locid="88882003">Helsinki</string>
+      <string _locid="88882004">The Finnish Marshal</string>
+
       <!-- Unidades -->
       <string _locid="88881010">Hajduk</string>
       <string _locid="88881011">Hungarian infantry with a strong melee charge and bonus damage against skirmishers and heavy infantry. Does not gain rank promotions.</string>
@@ -102,6 +108,16 @@
       <string _locid="88881115">Ships 11 mounted Harquebusiers.</string>
       <string _locid="88881116">TEAM Regiment of Trenck</string>
       <string _locid="88881117">TEAM Ships 4 Pandours.</string>
+      <!-- Cambio 13: Granadero húngaro (Artillery Foundry) -->
+      <string _locid="88881120">Hungarian Grenadier</string>
+      <string _locid="88881121">Hungarian grenadier that hurls grenades; powerful against buildings and infantry. Trained and upgraded at the Artillery Foundry.</string>
+      <string _locid="88881122">Grenadier</string>
+      <string _locid="88881123">Veteran Hungarian Grenadier</string>
+      <string _locid="88881124">Guard Hungarian Grenadier</string>
+      <string _locid="88881125">Imperial Hungarian Grenadier</string>
+      <string _locid="88881126">Upgrades Hungarian Grenadiers to Veteran (+20% hitpoints and attack).</string>
+      <string _locid="88881127">Upgrades Hungarian Grenadiers to Guard (+20% hitpoints and attack).</string>
+      <string _locid="88881128">Upgrades Hungarian Grenadiers to Imperial (+50% hitpoints and attack).</string>
 
     </language>
   </stringtable>

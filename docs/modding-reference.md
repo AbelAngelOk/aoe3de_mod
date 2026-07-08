@@ -561,6 +561,98 @@ El nombre del archivo debe ser `homecity` + nombre de la civ en minúsculas + `.
 
 ---
 
+## Sonidos de unidad (`Sound/*_snds.xml`) — CRÍTICO para protos nuevos
+
+**Descubrimiento clave**: los sonidos de unidad NO se definen en el proto (protoy.xml no
+usa tags `<sound>`; solo existen `autoconvertsoundset`/`hitpercentsoundset`/`dodgesoundset`
+para eventos puntuales). La voz/combate/muerte se resuelve así:
+
+```
+nombre de proto  →  Sound/<nombreproto-en-minúsculas>_snds.xml  →  <soundset>  →  WAV por civilización
+```
+
+- El juego carga automáticamente `Sound/<lowercase(protoname)>_snds.xml` para cada proto.
+  Ej: `deSaloonHajduk` → `desaloonhajduk_snds.xml`; `Musketeer` → `musketeer_snds.xml`.
+- Un `_snds.xml` es un `<protounitsounddef>` con `<protounit name="X">` y `<soundtype>`s
+  (Select/Grunt/Death/Creation/Acknowledge) que apuntan a `<soundset name="...">`.
+- Los soundsets resuelven a WAVs **por civilización** (`britishmusketeer*.wav`,
+  `dutchmusketeer*.wav`, etc.) — esa es la "nomenclatura por civ".
+
+**Consecuencia**: una unidad con un **nombre de proto nuevo** (ej. `HUNHajduk`) NO tiene
+archivo `_snds.xml` → queda **muda**. Si toda la civ usa protos nuevos, **toda la civ
+queda muda**. El animfile compartido NO trae la voz (se resuelve por nombre de proto).
+
+**Solución** (por cada proto nuevo):
+1. Crear `sound/<nombreproto-minúsculas>_snds.xml` copiando el `_snds.xml` de la unidad
+   base y cambiando solo `<protounit name="BASE">` → `<protounit name="HUNXxx">`.
+2. **Ubicación en el mod**: carpeta `sound/` en la **raíz del mod** (hermana de `data/`),
+   replicando la estructura del juego donde `Sound/` es hermano de `Data/`. NO va bajo `data/`.
+3. `AoE3Reference/Sound/` (extraído de `sound.bar`) es la fuente de estos archivos.
+
+> La carpeta `AoE3Reference/Sound/` es pesada (miles de `.wav`) y está en `.gitignore`.
+
+## Marcos e iconos de cartas de Home City
+
+**Descubrimiento**: el juego **NO** dibuja el marco ornamentado verde/violeta de las
+cartas. Se verificó que una carta base de equipo+infinita (`HCXPMercsHessiansRepeatTeam`)
+tiene los MISMOS flags/propiedades que una custom (`TeamTech` + `YPInfiniteTech`) → el
+juego las renderiza igual, con marco simple + overlays. El marco ornamentado es **arte
+horneado en el PNG** (así lo hacen todos los mods: archivos tipo `mm_team_infinite_gold.png`,
+`winged_hussar_icon_infinite.png`).
+
+Semántica del marco horneado: **verde = equipo**, **violeta = infinito**, **verde+violeta
+= equipo+infinito**.
+
+**Buenas prácticas de icono de carta**:
+- El juego dibuja automáticamente sobre el icono: el **∞** (infinito), el **número** de
+  envío, las **monedas** (costo) y el **✓** (en mazo). NO hornear esos overlays en el
+  PNG o se duplican.
+- Si se usa arte de "carta completa" (con marco+∞+número), **borrar el ∞ y el número**
+  (rellenando con el color de fondo local muestreado) y conservar solo el marco + retrato.
+- Iconos a **256×256** (o 128) PNG real; reescalar desde la fuente HD con LANCZOS (no
+  desde un PNG ya reducido). DDS-as-.png se ve pixelado; convertir a PNG real con Pillow.
+
+**`<researchpoints>` = tiempo de envío**: en cartas Home City, `<researchpoints>` es el
+tiempo entre pedir el envío y recibirlo (base usa `40`). Cartas sin ese campo llegan
+instantáneas. Cartas de equipo: flag `TeamTech`. Infinitas: flag `YPInfiniteTech` +
+`<maxcount>-1</maxcount>` en el pool. Costo en oro: `<cost resourcetype="Gold">` (además
+del `Ships` 1).
+
+## Unidades de consulado y mejoras "por edad"
+
+Las unidades con `AbstractConsulateUnit` / `AbstractConsulateUnitColonial` (ej.
+`deNatHungarianGrenadier`) reciben sus mejoras de edad **automáticamente** por el mecanismo
+de consulado, no por techs en un edificio. Para tener una copia que se mejore con techs
+**investigables en un edificio**:
+1. Copiar el proto quitando `AbstractConsulateUnit` / `AbstractConsulateUnitColonial` (y el
+   `<sharedselectionunittypes>` de merc/legión) → así deja de recibir las mejoras del consulado.
+2. Crear techs `UpgradeTech` (Veteran/Guard/Imperial) que apunten al proto por nombre y
+   agregarlas al edificio (`<Unit mergeMode='modify'>`), con prereq de edad **genérico**
+   (`Fortressize`/`Industrialize`/`Imperialize`) para que se vean en gris antes de la edad.
+3. En el Age0 de la civ: deshabilitar la unidad base y sus techs (`Enable 0` +
+   `TechStatus unobtainable`), habilitar la propia y hacer `obtainable` las techs nuevas.
+
+## Auras (NO son data-moddables)
+
+Las auras de AoE3 DE (`HPAura`, `ShieldAura`, Mansabdar, Wignacourt, Tamborilero) están
+atadas por el motor a unidades específicas (edificios/héroes concretos). **No existe** un
+aura data-moddable de "boost de vida+ataque a unidades cercanas" aplicable a un proto
+nuevo. El `WignacourtAuraRange` solo define el radio; el buff es hardcodeado. Descartar
+pedidos de auras custom por datos.
+
+## Posturas de combate (TacticArmor + multiplicadores por postura)
+
+- **Armadura por postura** vía `subtype="TacticArmor" tactic="Volley|Stagger|Melee|..."
+  armortype="Hand|Ranged|Siege"`. **Requiere que el proto tenga el slot de armadura base**
+  (`<armor type="Hand" value="0.0">`); sin el slot, `TacticArmor` no aplica. Tipos válidos:
+  `Hand` (melee), `Ranged` (a distancia), `Siege` (artillería/asedio) — no hay "artillería" aparte.
+- **Multiplicadores por postura**: requieren protoactions DISTINTAS por postura
+  (`RangedAttack`, `StaggerRangedAttack`, `HandAttack`…) y una **tactics propia** que mapee
+  cada postura a su acción (patrón del fusilero Nizam). El animfile/anims deben coincidir
+  con la tactics base para que disparen los sonidos.
+
+---
+
 ## Trampas Comunes
 
 | Error | Causa | Solución |
@@ -574,3 +666,10 @@ El nombre del archivo debe ser `homecity` + nombre de la civ en minúsculas + `.
 | Políticos no desaparecen al subir de edad | Falta entradas en `DERemoveAge3/4/5` | Agregar `mergeMode="add"` `CommandRemove` effects |
 | Unidades no visibles aunque habilitadas | `ArtilleryDepot` escrito como `Artillery Foundry` | Usar el nombre interno exacto del proto unit |
 | Civ crashea al cargar | `ColonizeShadow` u otro tech ficticio referenciado | Remover todos los actives a techs que no existen |
+| Todas las unidades de la civ **sin sonido** (mudas) | Los protos tienen nombres nuevos y no existe `Sound/<nombre>_snds.xml` para ellos (el sonido se resuelve por nombre de proto) | Crear un `_snds.xml` por proto nuevo en la carpeta `sound/` de la raíz del mod, copiando el de la unidad base y cambiando `<protounit name="X">` |
+| Unidad nueva muda aunque comparte animfile con la base | La voz NO viene del animfile sino de `Sound/<nombreproto>_snds.xml` | Ídem: crear el `_snds.xml` con el nombre del proto nuevo |
+| El marco ornamentado (verde/violeta) de la carta no aparece | El juego NO dibuja ese marco; es arte horneado en el icono | Hornear el marco en el PNG del icono (verde=equipo, violeta=infinito); ver sección de cartas |
+| La carta muestra el ∞ o el número duplicados | Se horneó el ∞/número en el icono Y el juego dibuja los suyos encima | Borrar del PNG el ∞ y el número (rellenar con fondo local); dejar que el juego los ponga |
+| El envío de carta llega instantáneo (sin viaje) | Falta `<researchpoints>` en el tech de la carta | Agregar `<researchpoints>40</researchpoints>` (tiempo de envío estándar) |
+| `TacticArmor` no aplica armadura por postura | El proto no tiene el slot de armadura base de ese tipo | Agregar `<armor type="Hand\|Siege\|Ranged" value="0.0">` al proto |
+| Unidad de consulado se mejora sola por edad (no con techs) | Tiene `AbstractConsulateUnit` / `AbstractConsulateUnitColonial` | Quitar esos unittypes en la copia y dar mejoras vía `UpgradeTech` en un edificio |

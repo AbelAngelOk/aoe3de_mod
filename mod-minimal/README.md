@@ -49,7 +49,15 @@ mod-minimal/
     strings/
       english/stringmods.xml                   ← nombres en inglés
       spanish/stringmods.xml                   ← nombres en español
+    tactics/                                    ← tactics propias (posturas Hajduk, montar/desmontar)
+  sound/                                        ← ¡HERMANO de data/, NO dentro! sonidos por unidad
+    hunhajduk_snds.xml, hunhonved_snds.xml, …   ← un _snds.xml por proto nuevo (si no, unidad muda)
 ```
+
+> **Sonidos**: el juego enlaza el sonido por **nombre de proto** →
+> `Sound/<nombreproto-minúsculas>_snds.xml`. Un proto nuevo sin ese archivo queda **mudo**.
+> Los `_snds.xml` van en `sound/` en la **raíz del mod** (hermano de `data/`), replicando la
+> estructura del juego. Ver `docs/modding-reference.md` § Sonidos de unidad.
 
 > **Iconos personalizados**: los PNG propios van bajo `data/wpfg/resources/images/icons/…`
 > y se referencian en el proto sin el prefijo `data\wpfg\` (p. ej.

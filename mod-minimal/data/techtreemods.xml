@@ -113,6 +113,22 @@
       <effect type="TechStatus" status="obtainable">HUNImperialMagyarHussar</effect>
       <effect type="TechStatus" status="obtainable">HUNGuardCrabat</effect>
       <effect type="TechStatus" status="obtainable">HUNImperialCrabat</effect>
+      <!-- Cambio 13 (Artillery Foundry): quitar el Granadero base y sus mejoras; poner
+           la Granadera Húngara propia con mejoras investigables en la Foundry. -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">GuardGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">RGPavlovGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialPavlovs</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialGrenadier</effect>
     </effects>
   </tech>
   <tech name="HUNColonialize" type="Normal">
@@ -165,6 +181,73 @@
     <flag>Shadow</flag>
     <effects>
       <effect type="TechStatus" status="active">PostImperialGerman</effect>
+    </effects>
+  </tech>
+
+  <!-- ============================================================================
+       Cambio 14 (Finlandia, Fase 1): age techs propios que DELEGAN a los de Suecia
+       (DE*Swedish), igual que los HUN* delegan a los de Germans. Sin customización en
+       Fase 1: Finlandia hereda el árbol sueco completo. Las fases 2-4 agregarán aquí
+       el roster propio (jaegers, Blockhouse, etc.).
+       ============================================================================ -->
+  <tech name="FINAge0" type="Normal">
+    <dbid>88882101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEAge0Swedish</effect>
+    </effects>
+  </tech>
+  <tech name="FINColonialize" type="Normal">
+    <dbid>88882102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>FINAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEColonializeSwedish</effect>
+    </effects>
+  </tech>
+  <tech name="FINFortressize" type="Normal">
+    <dbid>88882103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>FINColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEFortressizeSwedish</effect>
+    </effects>
+  </tech>
+  <tech name="FINIndustrialize" type="Normal">
+    <dbid>88882104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>FINFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEIndustrializeSwedish</effect>
+    </effects>
+  </tech>
+  <tech name="FINImperialize" type="Normal">
+    <dbid>88882105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>FINIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEImperializeSwedish</effect>
+    </effects>
+  </tech>
+  <tech name="FINPostIndustrial" type="Normal">
+    <dbid>88882106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEPostIndustrialSwedish</effect>
+    </effects>
+  </tech>
+  <tech name="FINPostImperial" type="Normal">
+    <dbid>88882107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEPostImperialSwedish</effect>
     </effects>
   </tech>
 
@@ -463,6 +546,87 @@
         <target type="ProtoUnit">HUNCrabat</target>
       </effect>
       <effect type="SetName" proto="HUNCrabat" culture="none" newname="88881053"></effect>
+    </effects>
+  </tech>
+
+  <!-- ============================================================================
+       Cambio 13: mejoras de la Granadera Húngara (investigables en la Artillery Foundry).
+       Reemplazan las mejoras por edad del consulado del deNatHungarianGrenadier original.
+       Prereqs con marcador genérico de edad (Fortressize/Industrialize/Imperialize) para
+       que se vean en gris antes de la edad. Patrón igual a Honved/Hajduk.
+       ============================================================================ -->
+  <tech name="HUNVeteranGrenadier" type="Normal">
+    <dbid>88881311</dbid>
+    <displaynameid>88881123</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>88881126</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenadier" culture="none" newname="88881123"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNGuardGrenadier" type="Normal">
+    <dbid>88881312</dbid>
+    <displaynameid>88881124</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>88881127</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">HUNVeteranGrenadier</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenadier" culture="none" newname="88881124"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialGrenadier" type="Normal">
+    <dbid>88881313</dbid>
+    <displaynameid>88881125</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>88881128</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardGrenadier</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenadier" culture="none" newname="88881125"></effect>
     </effects>
   </tech>
 

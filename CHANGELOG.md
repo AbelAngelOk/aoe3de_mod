@@ -1,5 +1,49 @@
 # Changelog — Eastern European Expansion (EEX)
 
+## [mod-minimal 2.7] — 2026-07-05 (Granadero propio en la Artillery Foundry)
+
+### Artillery Foundry (`ArtilleryDepot`)
+- **Quitado** (solo para Hungría, vía HUNAge0): la unidad **Granadero** base y sus techs
+  (`VeteranGrenadiers`, `GuardGrenadiers`, `ImperialGrenadiers`, `RGPavlovGrenadiers`,
+  `ImperialPavlovs`).
+- **Agregado** `HUNGrenadier`: copia de `deNatHungarianGrenadier` (modelo húngaro, stats,
+  ataques de granada) **sin** los tipos de consulado (`AbstractConsulateUnit` /
+  `AbstractConsulateUnitColonial`) — así no recibe las mejoras automáticas por edad.
+- **3 mejoras investigables en la Foundry** (reemplazan las del consulado): Veterano (III,
+  +20%), Guardia (IV, +20%), Imperial (V, +50%), con prereq de edad genérico.
+- Sonido propio `sound/hungrenadier_snds.xml`.
+
+## [mod-minimal 2.6] — 2026-07-05 (Mercenarios, sonidos e iconos de carta)
+
+### Sonido de unidades — FIX de raíz (toda la civ estaba muda)
+- Causa: el sonido se resuelve por **nombre de proto** → `Sound/<nombre>_snds.xml`. Los
+  protos HUN tienen nombres nuevos sin ese archivo → mudos (toda la civ).
+- Creados 7 `_snds.xml` (Hajduk, Honvéd, Húsar Magiar, Crabat, Inf. Montada/Desmontada,
+  Carretón) en `sound/` (raíz del mod, hermano de `data/`), copiando los soundsets de la
+  unidad base. Voz del Hajduk = militar rumano (la del hajduk mercenario).
+
+### Cartas de mercenarios (reemplazos y nuevas)
+- **Quitadas 16 cartas** alemanas del mazo (Electores, Hohenzollern, Palatinos, Contratar
+  lansquenetes/brigadiers/jaegers/bosniacos/elmeti, Oficio de soldado, Mercenarios de
+  montaña, Lealtad mercenaria, 10/11 aliados Wettin, Granjeros alemanes, Escuela ecuestre).
+- **Banda de lansquenetes → "Banda de Pandúros"** (6 pandúros, 250 oro).
+- Nuevas: **Dieta de Presburgo** (EQUIPO ∞, 7 pandúros, 1000 oro, IV), **Apoyo de Jinetes
+  Negros** (EQUIPO ∞, 5 jinetes, 2000 oro, IV), **Regimiento de Trenck** (EQUIPO, 4
+  pandúros, 500 oro, III), **Arcabuceros a Caballo** (11, 1000 oro, IV).
+- Protos usados: `deMercPandour`, `MercBlackRider`, `deMercHarquebusier`.
+
+### Iconos de carta — buenas prácticas
+- Descubierto que el juego **no** dibuja el marco ornamentado; se **hornea en el PNG**
+  (verde=equipo, violeta=infinito). Los iconos de las 3 cartas de mercenario se rehacen
+  como retrato limpio con el marco horneado, borrando el ∞/número (que el juego dibuja).
+- Iconos de caballería (Resistencia/Combate/Corvinus) y borde de refuerzos convertidos a
+  PNG 256px limpio desde la fuente HD.
+
+### Hajduk
+- Quitado el multiplicador x2 vs caballería (postura Melee).
+
+---
+
 ## [mod-minimal 2.5] — 2026-07-04 (Cartas de caballería + tiempo de envío)
 
 ### Cartas de caballería (reemplazos en el mazo)

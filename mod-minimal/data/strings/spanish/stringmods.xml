@@ -23,6 +23,12 @@
       <string _locid="88881003">Budapest</string>
       <string _locid="88881004">El Caudillo Magiar</string>
 
+      <!-- ===== Cambio 14: Finlandia (Fase 1) — clon de Suecia ===== -->
+      <string _locid="88882001">Finlandia</string>
+      <string _locid="88882002">Los finlandeses aportan la guerra de bosques y tiradores jaeger de élite al campo de batalla.</string>
+      <string _locid="88882003">Helsinki</string>
+      <string _locid="88882004">El Mariscal Finlandés</string>
+
       <!-- Unidades -->
       <string _locid="88881010">Hajduk</string>
       <string _locid="88881011">Infantería húngara con una fuerte carga cuerpo a cuerpo y daño extra contra escaramuzadores e infantería pesada. No obtiene ascensos de rango.</string>
@@ -110,6 +116,16 @@
       <string _locid="88881115">Envía 11 Arcabuceros a caballo.</string>
       <string _locid="88881116">EQUIPO Regimiento de Trenck</string>
       <string _locid="88881117">EQUIPO Envía 4 Pandúros.</string>
+      <!-- Cambio 13: Granadero húngaro (Artillery Foundry) -->
+      <string _locid="88881120">Granadero Húngaro</string>
+      <string _locid="88881121">Granadero húngaro que lanza granadas; potente contra edificios e infantería. Se entrena y mejora en la Fundición de Artillería.</string>
+      <string _locid="88881122">Granadero</string>
+      <string _locid="88881123">Granadero Húngaro Veterano</string>
+      <string _locid="88881124">Granadero Húngaro de la Guardia</string>
+      <string _locid="88881125">Granadero Húngaro Imperial</string>
+      <string _locid="88881126">Mejora los Granaderos Húngaros a Veteranos (+20% de vida y ataque).</string>
+      <string _locid="88881127">Mejora los Granaderos Húngaros a la Guardia (+20% de vida y ataque).</string>
+      <string _locid="88881128">Mejora los Granaderos Húngaros a Imperiales (+50% de vida y ataque).</string>
 
     </language>
   </stringtable>

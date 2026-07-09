@@ -1,16 +1,21 @@
-# mod-minimal — Hungría (HUNHungarians)
+# mod-minimal — Hungría (HUNHungarians) + Finlandia (DEFinnish)
 
-Mod aditivo para **Age of Empires III: Definitive Edition** que agrega una nueva
-civilización jugable, **Hungría** (`HUNHungarians`), seleccionable en Escaramuza,
-Ciudades Natales y el editor de escenarios.
+Mod aditivo para **Age of Empires III: Definitive Edition** que agrega **dos
+civilizaciones jugables**, seleccionables en Escaramuza, Ciudades Natales y el editor:
 
-Es un clon completo y funcional de **Alemania (Germans)** bajo un nombre e
-identificadores propios, reutilizando el 100 % de los assets del juego base (no
-crea modelos, texturas, sonidos ni iconos nuevos). Sirve como esqueleto mínimo
-verificado para agregar una civilización nueva sin contenido propio todavía.
+- **Hungría** (`HUNHungarians`) — clon de **Alemania (Germans)**, rango de IDs `88881xxx`.
+  Muy desarrollada: roster propio (Honvéd, Hajduk, Húsar Magiar, Crabat, Granadero…),
+  cartas rediseñadas, iconos y **voces custom** (explorador, Honvéd, falconete).
+- **Finlandia** (`DEFinnish`) — clon de **Suecia (`DESwedish`)**, rango de IDs `88882xxx`.
+  En progreso: seleccionable/jugable + cuartel propio (jaegers de Carelia/Savonia/Contraataque).
+  Pendiente: Blockhouse, iglesia (Sisu), cartas, mercenarios (ver plan y CHANGELOG).
 
-> **Estado: FUNCIONANDO** — confirmado en juego el 2026-07-01. La civ aparece y es
-> seleccionable, con árbol de tecnología, cartas de metrópoli y barajas default.
+Cada civ empieza como clon completo del juego base (bandera/strings/age-techs propios,
+delegando a los techs de la civ base) y luego se le reemplazan piezas. Ver
+`docs/modding-reference.md` para el patrón de clonado y todos los descubrimientos.
+
+> **Estado: FUNCIONANDO** — Hungría confirmada desde 2026-07-01; Finlandia seleccionable y
+> con su cuartel propio. Detalle de cambios en `CHANGELOG.md`.
 
 ---
 
@@ -37,27 +42,31 @@ verificado para agregar una civilización nueva sin contenido propio todavía.
 mod-minimal/
   README.md                                    ← este archivo
   data/
-    civmods.xml                                ← registro de la civilización (aditivo sobre civs.xml)
-    techtreemods.xml                           ← 7 techs de edad propios (aditivo sobre techtreey.xml)
-    protomods.xml                              ← unidades/edificios propios (aditivo sobre protoy.xml)
-    homecityhungarymin.xml                     ← metrópoli completa (211 cartas, 6 barajas)
+    civmods.xml                                ← registra AMBAS civs: HUNHungarians (Germans) y DEFinnish (Suecia)
+    techtreemods.xml                           ← age techs propios (HUN* y FIN*) + roster de ambas civs
+    protomods.xml                              ← unidades/edificios propios de ambas civs
+    homecityhungarymin.xml                     ← metrópoli de Hungría (clon de la alemana)
+    homecityfinlandmin.xml                     ← metrópoli de Finlandia (clon de la sueca)
     uitechtree/
-      techtreedata_hunhungarians.xml           ← layout del árbol de tecnología (UI)
-    wpfg/resources/images/icons/hungary/
-      honved.png                               ← retrato del Honvéd (portraiticon; 64×64, marco completo)
-      honved64.png                             ← icono del botón del cuartel (64×64, con marco UI)
+      techtreedata_hunhungarians.xml           ← árbol UI de Hungría
+      techtreedata_definnish.xml               ← árbol UI de Finlandia
+    wpfg/resources/images/icons/hungary/       ← iconos propios (unidades, cartas)
     strings/
-      english/stringmods.xml                   ← nombres en inglés
-      spanish/stringmods.xml                   ← nombres en español
+      english/stringmods.xml                   ← nombres EN (Hungría 88881xxx, Finlandia 88882xxx)
+      spanish/stringmods.xml                   ← nombres ES
     tactics/                                    ← tactics propias (posturas Hajduk, montar/desmontar)
-  sound/                                        ← ¡HERMANO de data/, NO dentro! sonidos por unidad
-    hunhajduk_snds.xml, hunhonved_snds.xml, …   ← un _snds.xml por proto nuevo (si no, unidad muda)
+  sound/                                        ← ¡HERMANO de data/, NO dentro!
+    hunhajduk_snds.xml, finkarelianjaeger_snds.xml, …  ← un _snds.xml por proto nuevo (si no, unidad muda)
+    explorer_snds.mods.xml, falconet_snds.mods.xml     ← rama de voz por civ en protos COMPARTIDOS (aditivo)
+    soundsetsde.mods.xml                        ← soundsets aditivos (apuntan a los .mp3 custom)
+    hungary/explorer|honved|falconete/*.mp3     ← audios custom (voces húngaras)
 ```
 
 > **Sonidos**: el juego enlaza el sonido por **nombre de proto** →
 > `Sound/<nombreproto-minúsculas>_snds.xml`. Un proto nuevo sin ese archivo queda **mudo**.
-> Los `_snds.xml` van en `sound/` en la **raíz del mod** (hermano de `data/`), replicando la
-> estructura del juego. Ver `docs/modding-reference.md` § Sonidos de unidad.
+> Los `_snds.xml` van en `sound/` en la **raíz del mod** (hermano de `data/`). Para voz custom
+> (mp3) y protos compartidos (Explorer/Falconet) se usan `.mods.xml` aditivos + civlogic.
+> Ver `docs/modding-reference.md` § Sonidos de unidad y § Voz por civ en protos compartidos.
 
 > **Iconos personalizados**: los PNG propios van bajo `data/wpfg/resources/images/icons/…`
 > y se referencian en el proto sin el prefijo `data\wpfg\` (p. ej.

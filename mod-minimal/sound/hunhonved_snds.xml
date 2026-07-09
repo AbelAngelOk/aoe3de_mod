@@ -1,7 +1,12 @@
+<!--
+  mod-minimal (Hungría): voz propia del Honvéd (proto HUNHonved). Usa los audios húngaros
+  de sound/hungary/honved/ (basados en el mosquetero español), definidos como soundsets en
+  soundsetsde.mods.xml. Grunt/Death/Creation quedan genéricos (no hay audios propios).
+-->
 <protounitsounddef>
   <protounit name="HUNHonved">
     <soundtype name="Select">
-      <soundset name="DEItalianSettlerMaleSelect">
+      <soundset name="HungarianMusketeerSelect">
       </soundset>
     </soundtype>
     <soundtype name="Grunt">
@@ -19,26 +24,12 @@
     <soundtype name="Acknowledge">
       <targetlogic>
         <choice name="default">
-          <soundset name="DEItalianSettlerMaleAcknowledge">
+          <soundset name="HungarianMusketeerMove">
           </soundset>
         </choice>
         <choice name="enemy">
-          <soundset name="DEItalianSettlerMaleAttack">
+          <soundset name="HungarianMusketeerAttack">
           </soundset>
-        </choice>
-        <choice name="build">
-        </choice>
-        <choice name="Huntable">
-        </choice>
-        <choice name="Tree">
-        </choice>
-        <choice name="AbstractMine">
-        </choice>
-        <choice name="AbstractFarm">
-        </choice>
-        <choice name="AbstractResourceCrate">
-        </choice>
-        <choice name="AbstractFruit">
         </choice>
       </targetlogic>
     </soundtype>

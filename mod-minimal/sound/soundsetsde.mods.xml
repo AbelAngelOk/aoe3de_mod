@@ -1,0 +1,95 @@
+<!--
+  mod-minimal (Hungría): soundsets aditivos del Explorador húngaro. Cada soundset apunta a
+  los .mp3 de sound/hungary/explorer/ (rutas relativas a la carpeta sound/). Referenciados
+  desde explorer_snds.mods.xml. Root <soundsetdefmods> = merge aditivo (patrón "Just Poland").
+-->
+<soundsetdefmods>
+  <soundset name="HungarianExplorerSelect" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerselect1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\explorer\hungarianexplorerselect2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\explorer\hungarianexplorerselect3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerMove" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorermove1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\explorer\hungarianexplorermove2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\explorer\hungarianexplorermove3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerAttack" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerattack.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerClaim" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerclaim.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerDisabled" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerdisabled.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerRansomed" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerransomed.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerRevived" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerrevived.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+
+  <!-- Honvéd (proto HUNHonved) — audios basados en el mosquetero español -->
+  <soundset name="HungarianMusketeerSelect" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\honved\hungarianmusketeerselect1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\hungarianmusketeerselect2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\hungarianmusketeerselect3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianMusketeerMove" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\honved\hungarianmusketeermove1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\hungarianmusketeermove2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\hungarianmusketeermove3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianMusketeerAttack" volume="0.9500" maxnum="4" distance="1.0000">
+    <sound filename="hungary\honved\hungarianmusketeerattack1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\spanishmusketeerattack2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\hungarianmusketeerattack3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+
+  <!-- Falconete (proto compartido Falconet, rama HUNHungarians) -->
+  <soundset name="HungarianFalconetSelect" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\falconete\hungarianfalconetselect1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetselect2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetselect3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianFalconetMove" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\falconete\hungarianfalconetmove1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetmove2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetmove3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianFalconetAttack" volume="0.9500" maxnum="4" distance="1.0000">
+    <sound filename="hungary\falconete\hungarianfalconetattack1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetattack2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetattack3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+</soundsetdefmods>

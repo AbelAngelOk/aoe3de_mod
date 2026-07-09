@@ -196,6 +196,43 @@
     <flag>Shadow</flag>
     <effects>
       <effect type="TechStatus" status="active">DEAge0Swedish</effect>
+      <!-- Cambio 16 (Finlandia): CUARTEL vaciado del roster sueco. Se deshabilitan las
+           unidades de cuartel de Suecia y sus mejoras (quedan solo las 3 propias). -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deCarolean</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranCaroleans</effect>
+      <effect type="TechStatus" status="unobtainable">GuardCaroleans</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCaroleans</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranSkirmishersShadow</effect>
+      <effect type="TechStatus" status="unobtainable">GuardSkirmishers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialSkirmishers</effect>
+      <!-- Cambio 17: quitar también la mejora de ballesteros del cuartel. -->
+      <effect type="TechStatus" status="unobtainable">VeteranCrossbowmen</effect>
+      <effect type="TechStatus" status="unobtainable">GuardCrossbowmen</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCrossbowmen</effect>
+      <!-- Roster propio del cuartel: Carelia (copia del Jaeger Carelio) + Savolax
+           (FINSavolaxJaeger, clon de MercJaeger con su modelo) + Contraataque (consulado).
+           El Húsar viene del roster sueco; Arquero a Caballo y Dragón de Contraataque van al Establo. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deConsulateCounterJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deCounterDragoon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CavalryArcher</target>
+      </effect>
     </effects>
   </tech>
   <tech name="FINColonialize" type="Normal">
@@ -205,6 +242,51 @@
     <prereqtech>FINAge0</prereqtech>
     <effects>
       <effect type="TechStatus" status="active">DEColonializeSwedish</effect>
+      <!-- Cambio 15 (Finlandia): al llegar a Edad II (Colonial) el Jaeger de Carelia
+           "recupera sus estadísticas militares" (en Edad I tiene daño reducido tipo colono).
+           Cambio 18: estructurado como una mejora "veterana" (boost vida/daño + SetName +
+           UpdateVisual, igual que VeteranMusketeers) para que el modelo pase a la skin de
+           veterano al mejorar tecnológicamente. -->
+      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.60" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="SetName" proto="FINKarelianJaeger" culture="none" newname="88882016"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="FINKarelianJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <!-- Cambio 19 (Finlandia): "Jaegers de Savonia" = la unidad REAL del juego (MercJaeger,
+           modelo jaeger.xml), tal como la genera DEChurchSavolaxJaegers (la carta de iglesia).
+           Se replican sus efectos SIN el envío de unidades: habilita MercJaeger en el cuartel,
+           lo renombra a "Jaeger de Savonia" (91618, string oficial), +5% vida, sigilo, costo
+           parcial en madera. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">MercJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.05" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">MercJaeger</target>
+      </effect>
+      <!-- Cambio 20: boost de daño para completar el patrón de "mejora veterana"
+           (vida + daño + SetName + UpdateVisual, como VeteranMusketeers) y disparar la
+           skin de veterano del jaeger. -->
+      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">MercJaeger</target>
+      </effect>
+      <effect type="SetName" proto="MercJaeger" culture="none" newname="91618"></effect>
+      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">MercJaeger</target>
+      </effect>
+      <effect type="Data" amount="80.00" subtype="Cost" resource="Wood" relativity="Absolute">
+        <target type="ProtoUnit">MercJaeger</target>
+      </effect>
+      <effect type="Data" amount="-120.00" subtype="Cost" resource="Gold" relativity="Absolute">
+        <target type="ProtoUnit">MercJaeger</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="MercJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
     </effects>
   </tech>
   <tech name="FINFortressize" type="Normal">

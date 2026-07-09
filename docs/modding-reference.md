@@ -591,6 +591,85 @@ queda muda**. El animfile compartido NO trae la voz (se resuelve por nombre de p
 
 > La carpeta `AoE3Reference/Sound/` es pesada (miles de `.wav`) y está en `.gitignore`.
 
+### Voz CUSTOM y voz por civ en protos COMPARTIDOS (patrón `.mods.xml`)
+
+Para audio propio (el juego acepta **`.mp3`**, no solo `.wav`) se usa el patrón aditivo del
+mod "Just Poland":
+
+- **Archivos**: `sound/<carpeta>/<archivo>.mp3` (ej. `sound/hungary/explorer/...mp3`).
+- **Soundsets aditivos**: un archivo `sound/soundsetsde.mods.xml` con root
+  `<soundsetdefmods>` y `<soundset name="X" ...><sound filename="ruta\relativa.mp3"/></soundset>`.
+  Se **mergea** con los soundsets base (no reemplaza). La ruta del `filename` es relativa a
+  `sound/`.
+- **Sound def aditivo**: `sound/<proto>_snds.mods.xml` con root `<protounitsounddefmods>` —
+  **agrega** ramas a la sound def del proto sin reescribir el archivo entero.
+
+**Dos casos según el proto:**
+1. **Proto PROPIO** (ej. `HUNHonved`): se edita directo su `hun<...>_snds.xml` (o se crea);
+   los `<soundtype>` apuntan a los soundsets custom. No hace falta civlogic.
+2. **Proto COMPARTIDO** (ej. `Explorer`, `Falconet`): su sonido va por `<civlogic>` (rama por
+   civ, key = `<name>` de la civ; ej. `Germans`, `DESwedish`, `STARKPolish`). Una civ nueva
+   NO tiene rama → muda. Se agrega la rama con un `<proto>_snds.mods.xml` aditivo:
+
+```xml
+<protounitsounddefmods>
+  <protounit name="Explorer">
+    <soundtype name="Select">
+      <civlogic><choice name="HUNHungarians">
+        <soundset name="HungarianExplorerSelect"></soundset>
+      </choice></civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic><choice name="HUNHungarians"><targetlogic>
+        <choice name="default"><soundset name="HungarianExplorerMove"></soundset></choice>
+        <choice name="enemy"><soundset name="HungarianExplorerAttack"></soundset></choice>
+      </targetlogic></choice></civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>
+```
+
+Soundtypes útiles del Explorer: `Select`, `Acknowledge` (con `targetlogic` default=mover /
+enemy=atacar), `Claim`, `KnockOut` (noqueado), `Ransomed`, `KnockOutRevived`.
+
+## Clonar una civilización COMPLETA (2ª civ en el mismo mod)
+
+Se puede tener **varias civs en un solo mod** (Hungría clona Germans, Finlandia clona Suecia,
+en el mismo `mod-minimal`). Pasos (ver `civmods.xml`/`techtreemods.xml` reales):
+1. `civmods.xml`: copiar 1:1 el bloque `<civ>` de la civ base (`DESwedish`) cambiando solo la
+   identidad (`<name>`, `<statsid>`, `<displaynameid>`, `<homecityfilename>`), los `<agetech>`
+   a techs propios y los campos WPF de bandera (reutilizar una civ de revolución con bandera
+   propia, ej. `DERevFinland` → `objects\flags\finnish`, `Flag_Finnish.png`).
+2. `techtreemods.xml`: age techs propios (`FINAge0`…) que **delegan** por
+   `TechStatus active` a los de la civ base (`DEAge0Swedish`…). El roster propio se arma
+   agregando enables/disables y `<Unit mergeMode='modify'>` de edificios en `FINAge0`.
+3. `homecity<civ>.xml` (**nuevo**, clon del de la base) + `uitechtree/techtreedata_<civ>.xml`
+   (**nuevo**, clon del árbol UI de la base — se nombra por civ en minúsculas).
+4. Strings ES/EN. Usar un rango de IDs propio por civ (Hungría 88881xxx, Finlandia 88882xxx).
+5. Un edificio compartido (Barracks, etc.) lleva las unidades de AMBAS civs en su train list;
+   cada civ habilita/deshabilita las suyas en su Age0.
+
+### Unidades de "revolución" = protos base RENOMBRADOS (no unidades nuevas)
+
+Las unidades de una revolución suelen ser **protos base transformados por la tech de revolución**,
+no protos dedicados. En la revolución finlandesa (`DERevolutionFinland`):
+- El **"Jaeger Carelio"** = el **Skirmisher**: `InitiateRevolution proto="Skirmisher"` (los
+  colonos se convierten en Skirmisher), + `SetName`→"Karelian Jaeger" + `CopyUnitPortraitAndIcon`
+  + costo 100 madera + `Gather`/`CrateGather` habilitados.
+- El **"Savolax/Savonia Jaeger"** = `MercJaeger` modificado por `DEChurchSavolaxJaegers`
+  (rename, +vida, sigilo, costo madera) — **sin cambio de animfile**.
+- `deIconREV...` son **stubs de icono incompletos** (0 animfile/tactics) — NO usarlos como unidad.
+- **Ojo con los nombres EN vs ES**: string 91617/91618 = "Savolax Jaeger" (inglés) pero
+  "Jaeger de Savonia" (español) — **es la misma unidad**. Verificar el idioma del usuario.
+
+### Skin de veterano (modelo distinto al mejorar)
+
+Los modelos muestran una **skin de veterano/guardia** cuando el proto tiene una mejora
+"veterana" activa. Se replica con el patrón de `VeteranMusketeers`: en un tech,
+`Hitpoints` + `Damage` (BasePercent) + `SetName` + `UpdateVisual` sobre el proto. Es lo que
+dispara el cambio de skin (no hay un modelo aparte). Depende del motor: si el animfile no
+tiene variación de veterano o el proto no tiene mejora reconocida, la skin no cambia.
+
 ## Marcos e iconos de cartas de Home City
 
 **Descubrimiento**: el juego **NO** dibuja el marco ornamentado verde/violeta de las
@@ -662,6 +741,10 @@ pedidos de auras custom por datos.
 | Civ no aparece en NINGUNA lista de civs (Escaramuza, Ciudades Natales), datos fusionados correctos, sin errores | Falta `strings/<idioma-activo>/stringmods.xml` — el motor solo carga el idioma que coincide con el locale del juego, nunca los demás. Si el mod solo tiene `strings/english/` y el juego corre en español (u otro idioma), `displaynameid`/`rollovernameid` no resuelven a ningún texto | Crear `stringmods.xml` para CADA idioma en el que se vaya a probar el mod (mínimo: el idioma del juego del usuario). Verificar con `DebugOutputGameData` → `%TEMP%\Age of Empires 3 DE\Data\data\strings\<idioma>\` que las cadenas de la civ están en el idioma activo, no solo en inglés |
 | Civ funciona perfecto en el editor de escenarios (dropdown, cartas, todo) pero NUNCA aparece en el selector de Escaramuza ni en Ciudades Natales, aunque `DebugOutputGameData` confirme que los datos fusionados son correctos | (sin confirmar aún) Posibles causas externas a los archivos del mod: (a) caché obsoleta en `Savegame\sp_<NombreCiv>_homecity.xml` / `-v11.dat` de una versión anterior/rota de la civ; (b) otro mod habilitado a la vez que registra una civ con el mismo nombre visible (`displaynameid` distinto pero mismo texto) | Borrar los archivos `sp_<NombreCiv>_homecity*` de la carpeta `Savegame` del perfil para forzar regeneración. Probar con un solo mod de civ nueva habilitado a la vez (revisar `Enabled Mods` en `Age3Log.txt`) |
 | No hay edificios en el TC | Age0 tech no incluye `TownCenter` en los Enable | Agregar `TownCenter` y todos los edificios estándar |
+| Explorador/Falconete (proto compartido) mudo para la civ nueva, aunque otras unidades suenen | Su sonido va por `<civlogic>` y no hay rama para la civ nueva | Agregar la rama `<choice name="NombreCiv">` con un `<proto>_snds.mods.xml` aditivo (root `<protounitsounddefmods>`) |
+| Los `.mp3` custom no suenan | Soundsets no definidos o ruta mal | Definir los soundsets en `sound/soundsetsde.mods.xml` (root `<soundsetdefmods>`), `filename` relativo a `sound/`; el juego SÍ acepta `.mp3` |
+| Unidad de revolución sale en T-pose / sin animar | Se usó un `deIconREV...` (stub sin animfile) o se emparejó el animfile con la tactics equivocada | Usar el proto base que la revolución renombra (ej. Skirmisher/MercJaeger); animfile y tactics deben ser compatibles |
+| Busco una unidad por su nombre en español y no la encuentro | El nombre EN ≠ ES (ej. "Savolax Jaeger" = "Jaeger de Savonia") | Buscar por displaynameid en AMBOS idiomas |
 | No hay políticos en el TC | Políticos no son `obtainable` desde Age0 | Mover todos los `obtainable` de políticos al Age0 tech |
 | Políticos no desaparecen al subir de edad | Falta entradas en `DERemoveAge3/4/5` | Agregar `mergeMode="add"` `CommandRemove` effects |
 | Unidades no visibles aunque habilitadas | `ArtilleryDepot` escrito como `Artillery Foundry` | Usar el nombre interno exacto del proto unit |

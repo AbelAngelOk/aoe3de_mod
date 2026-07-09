@@ -1,5 +1,50 @@
 # Changelog — Eastern European Expansion (EEX)
 
+## [mod-minimal 3.1] — 2026-07-09 (Voces custom por civilización)
+
+Integración de audio propio (mp3, el juego los acepta) para unidades húngaras, siguiendo
+el patrón del mod "Just Poland". Archivos en `sound/hungary/<unidad>/`, soundsets aditivos
+en `sound/soundsetsde.mods.xml` (root `<soundsetdefmods>`).
+
+- **Explorador húngaro** (proto compartido `Explorer`): rama `HUNHungarians` en el
+  `<civlogic>` vía `sound/explorer_snds.mods.xml` (root `<protounitsounddefmods>`, aditivo).
+  Mapea Select, Move/Attack (Acknowledge), Claim, KnockOut, Ransomed, KnockOutRevived.
+- **Honvéd** (proto propio `HUNHonved`): se edita directo su `hunhonved_snds.xml` (no hace
+  falta civlogic). Voz basada en el mosquetero español: Select, Move, Attack.
+- **Falconete** (proto compartido `Falconet`): rama `HUNHungarians` vía
+  `sound/falconet_snds.mods.xml` (aditivo). Select, Move, Attack.
+
+## [mod-minimal 3.0] — 2026-07-08/09 (2ª civilización: FINLANDIA, clon de Suecia)
+
+### Fase 1 — Finlandia seleccionable (clon de `DESwedish`)
+- `civmods.xml`: bloque **`DEFinnish`** (copia del sueco, statsid `FN`, bandera finlandesa
+  reusada de `DERevFinland`, age techs `FIN*`). Rango de IDs **88882xxx**.
+- `techtreemods.xml`: 7 age techs `FINAge0`…`FINImperialize` + post, que delegan a los
+  `DE*Swedish` (mismo patrón que los `HUN*` con Germans).
+- `homecityfinlandmin.xml` (**NUEVO**, clon del sueco) y
+  `uitechtree/techtreedata_definnish.xml` (**NUEVO**, clon del árbol UI sueco).
+- Strings ES/EN (88882001-004).
+
+### Fase 2 — Unidades distintivas
+- **Jaeger de Carelia** (`FINKarelianJaeger`): copia del "Jaeger Carelio" de la revolución
+  finlandesa (= Skirmisher renombrado). Costo **100 madera**, **recolección completa**
+  (tasas del colono), modelo skirmisher, icono `karelian_jaeger`. En Edad I tipo colono;
+  en Edad II (`FINColonialize`) mejora "veterana" (vida/daño + SetName + UpdateVisual →
+  skin de veterano).
+- **Jaeger de Savonia** = **`MercJaeger`** (la unidad REAL que genera `DEChurchSavolaxJaegers`;
+  "Savolax Jaeger" en inglés = "Jaeger de Savonia" en español, mismo unit). Se replica la
+  church tech SIN el envío: rename a 91618, +vida/+daño (skin veterano), sigilo, costo madera.
+- **Jaeger de Contraataque** = `deConsulateCounterJaeger` (consulado). Húsar/Arquero a
+  Caballo/Dragón de Contraataque en el Establo.
+
+### Rediseño del Cuartel finlandés
+- Vaciado del roster sueco (Pikeman/Carolean/Crossbowman + sus mejoras deshabilitados en
+  `FINAge0`, incluidas las de ballesteros). Quedan solo las 3 unidades propias arriba.
+
+### Blockhouse / Sisu / cartas / mercenarios (Fases 3-4): PENDIENTES.
+
+---
+
 ## [mod-minimal 2.7] — 2026-07-05 (Granadero propio en la Artillery Foundry)
 
 ### Artillery Foundry (`ArtilleryDepot`)

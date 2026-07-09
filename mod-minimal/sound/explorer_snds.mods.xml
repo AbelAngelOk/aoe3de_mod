@@ -1,0 +1,68 @@
+<!--
+  mod-minimal (Hungría): voz propia del Explorador. El Explorador es un proto COMPARTIDO
+  y su sonido se resuelve por <civlogic> (rama por civ). Hungría (HUNHungarians) no tenía
+  rama -> mudo. Este archivo ADITIVO (_snds.mods.xml, root protounitsounddefmods) agrega
+  la rama HUNHungarians a cada soundtype, apuntando a los soundsets húngaros definidos en
+  soundsetsde.mods.xml. Patrón tomado del mod "Just Poland" (musketeer_snds.mods.xml).
+  Mapea cada archivo de assets/sounds/hungary/explorer según su acción.
+-->
+<protounitsounddefmods>
+  <protounit name="Explorer">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianExplorerSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="HungarianExplorerMove">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="HungarianExplorerAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Claim">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianExplorerClaim">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianExplorerDisabled">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianExplorerRansomed">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianExplorerRevived">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

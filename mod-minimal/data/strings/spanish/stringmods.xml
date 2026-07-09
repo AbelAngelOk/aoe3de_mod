@@ -28,6 +28,14 @@
       <string _locid="88882002">Los finlandeses aportan la guerra de bosques y tiradores jaeger de élite al campo de batalla.</string>
       <string _locid="88882003">Helsinki</string>
       <string _locid="88882004">El Mariscal Finlandés</string>
+      <!-- Fase 2: unidades distintivas -->
+      <string _locid="88882010">Jaeger de Savolax</string>
+      <string _locid="88882011">Escaramuzador jaeger ligero de gran alcance; muy fuerte contra infantería pesada, pero frágil.</string>
+      <string _locid="88882012">Escaramuzador de largo alcance</string>
+      <string _locid="88882013">Jaeger de Carelia</string>
+      <string _locid="88882014">Híbrido finlandés: construye edificios, tala madera y combate como infantería pesada con bono contra caballería. En Edad I es tipo colono y recupera sus estadísticas militares en Edad II.</string>
+      <string _locid="88882015">Constructor / infantería pesada</string>
+      <string _locid="88882016">Jaeger de Carelia Veterano</string>
 
       <!-- Unidades -->
       <string _locid="88881010">Hajduk</string>

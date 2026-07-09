@@ -20,6 +20,14 @@
       <string _locid="88882002">The Finns bring forest warfare and elite jaeger marksmen to the battlefield.</string>
       <string _locid="88882003">Helsinki</string>
       <string _locid="88882004">The Finnish Marshal</string>
+      <!-- Fase 2: unidades distintivas -->
+      <string _locid="88882010">Savolax Jaeger</string>
+      <string _locid="88882011">Light jaeger skirmisher with excellent range; very strong against heavy infantry, but fragile.</string>
+      <string _locid="88882012">Long-range skirmisher</string>
+      <string _locid="88882013">Karelian Jaeger</string>
+      <string _locid="88882014">Finnish hybrid: builds structures, gathers wood, and fights as heavy infantry with a bonus against cavalry. Starts colonist-like in Age I and regains its military stats in Age II.</string>
+      <string _locid="88882015">Builder / heavy infantry</string>
+      <string _locid="88882016">Veteran Karelian Jaeger</string>
 
       <!-- Unidades -->
       <string _locid="88881010">Hajduk</string>

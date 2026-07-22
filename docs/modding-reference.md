@@ -648,6 +648,44 @@ en el mismo `mod-minimal`). Pasos (ver `civmods.xml`/`techtreemods.xml` reales):
 4. Strings ES/EN. Usar un rango de IDs propio por civ (Hungría 88881xxx, Finlandia 88882xxx).
 5. Un edificio compartido (Barracks, etc.) lleva las unidades de AMBAS civs en su train list;
    cada civ habilita/deshabilita las suyas en su Age0.
+6. **`game/ai/<lider>.personality`** (**nuevo**) — sin esto la civ NO se puede asignar a la IA
+   (ver abajo).
+
+### Que la IA pueda usar la civ (`game/ai/*.personality`) — se olvida siempre
+
+Registrar la civ en `civmods.xml` la hace seleccionable **solo para el jugador humano**. El
+desplegable de civ de un slot de **IA** se llena desde los **archivos de personalidad**
+(`Game/AI/*.personality` del juego): hay **22 personalidades ↔ 22 civs**, y cada una se ata a
+su civ con **`<forcedciv>`** (`Frederick`→`Germans`, `Gustav`→`DESwedish`, …). Sin una
+personalidad con `<forcedciv>MiCiv</forcedciv>`, **la IA no puede "ser" esa civ** y el juego
+no la ofrece — aunque el humano sí pueda jugarla.
+
+Un mod aporta personalidades en **`game/ai/`** en la **raíz del mod** (hermana de `data/` y
+`sound/`). Formato: **UTF-8 con BOM**, CRLF (las del juego base son UTF-16; las de mods,
+UTF-8-BOM):
+
+```xml
+<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>88881900</nameID>              <!-- string ES/EN: nombre mostrado del líder IA -->
+   <tooltipID>88881901</tooltipID>
+   <forcedciv>HUNHungarians</forcedciv>   <!-- ← el vínculo con la civ -->
+   <rushboom>0</rushboom>
+   <icon>resources/images/icons/flags/Flag_Hungarian.png</icon>
+   <chatset>Frederick</chatset>           <!-- reusar un chatset base (el de la civ base) -->
+   <playerNames>
+      <nameID>88881900</nameID>
+   </playerNames>
+</AI>
+```
+
+**Alcance**: `aiLoaderStandard` es la IA base y no conoce protos ni cartas custom. Con una civ
+clon (mismos edificios) juega razonablemente con las unidades base, pero no entrenará las
+propias. Para IA "de verdad" hay que copiar el árbol `game/ai/core/*.xs` al mod y registrar la
+civ en `aisetup.xs` y `aihccards.xs` (así lo hace el mod *Abstract Nations Plus*, id 312759 —
+mejor referencia instalada; el mod *Just Poland* NO trae `game/ai/` y por eso su civ tampoco
+es asignable a la IA).
 
 ### Unidades de "revolución" = protos base RENOMBRADOS (no unidades nuevas)
 
@@ -740,6 +778,7 @@ pedidos de auras custom por datos.
 | Civ no aparece en el selector de Escaramuza (sin errores en el log) | Faltan los campos WPF en civmods.xml: `homecityflagiconwpf`, `homecitypreviewwpf`, `homecityflagbuttonwpf`, `homecityflagbuttonset`, `homecityflagbuttonsetlarge` | El selector de Escaramuza es WPF y depende de estos campos, no solo de `homecityflagtexture`. Agregarlos todos, reutilizando assets existentes si la civ no tiene los propios (ver `docs/mre-hungary-report.md`) |
 | Civ no aparece en NINGUNA lista de civs (Escaramuza, Ciudades Natales), datos fusionados correctos, sin errores | Falta `strings/<idioma-activo>/stringmods.xml` — el motor solo carga el idioma que coincide con el locale del juego, nunca los demás. Si el mod solo tiene `strings/english/` y el juego corre en español (u otro idioma), `displaynameid`/`rollovernameid` no resuelven a ningún texto | Crear `stringmods.xml` para CADA idioma en el que se vaya a probar el mod (mínimo: el idioma del juego del usuario). Verificar con `DebugOutputGameData` → `%TEMP%\Age of Empires 3 DE\Data\data\strings\<idioma>\` que las cadenas de la civ están en el idioma activo, no solo en inglés |
 | Civ funciona perfecto en el editor de escenarios (dropdown, cartas, todo) pero NUNCA aparece en el selector de Escaramuza ni en Ciudades Natales, aunque `DebugOutputGameData` confirme que los datos fusionados son correctos | (sin confirmar aún) Posibles causas externas a los archivos del mod: (a) caché obsoleta en `Savegame\sp_<NombreCiv>_homecity.xml` / `-v11.dat` de una versión anterior/rota de la civ; (b) otro mod habilitado a la vez que registra una civ con el mismo nombre visible (`displaynameid` distinto pero mismo texto) | Borrar los archivos `sp_<NombreCiv>_homecity*` de la carpeta `Savegame` del perfil para forzar regeneración. Probar con un solo mod de civ nueva habilitado a la vez (revisar `Enabled Mods` en `Age3Log.txt`) |
+| La civ se puede jugar como humano pero NO aparece al asignarle civ a un oponente/aliado **IA** | El selector de IA no lee `civmods.xml`: lee las **personalidades de IA** y cada una se ata a una civ con `<forcedciv>`. Si ninguna apunta a la civ nueva, la IA no puede serla | Crear `game/ai/<lider>.personality` (UTF-8 **con BOM**) en la raíz del mod con `<forcedciv>MiCiv</forcedciv>`, `<script>aiLoaderStandard</script>`, `<chatset>` de la civ base y `<nameID>`/`<tooltipID>` con strings propias. Acordarse de sincronizar también la carpeta `game/` al mod local |
 | No hay edificios en el TC | Age0 tech no incluye `TownCenter` en los Enable | Agregar `TownCenter` y todos los edificios estándar |
 | Explorador/Falconete (proto compartido) mudo para la civ nueva, aunque otras unidades suenen | Su sonido va por `<civlogic>` y no hay rama para la civ nueva | Agregar la rama `<choice name="NombreCiv">` con un `<proto>_snds.mods.xml` aditivo (root `<protounitsounddefmods>`) |
 | Los `.mp3` custom no suenan | Soundsets no definidos o ruta mal | Definir los soundsets en `sound/soundsetsde.mods.xml` (root `<soundsetdefmods>`), `filename` relativo a `sound/`; el juego SÍ acepta `.mp3` |

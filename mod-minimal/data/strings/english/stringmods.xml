@@ -127,6 +127,12 @@
       <string _locid="88881127">Upgrades Hungarian Grenadiers to Guard (+20% hitpoints and attack).</string>
       <string _locid="88881128">Upgrades Hungarian Grenadiers to Imperial (+50% hitpoints and attack).</string>
 
+      <!-- AI personalities (game/ai/*.personality). Without these strings the AI shows no name. -->
+      <string _locid="88881900">Matthias Corvinus</string>
+      <string _locid="88881901">Hungarian AI: Honvéd infantry, Magyar hussars and artillery.</string>
+      <string _locid="88882900">Torsten Stålhandske</string>
+      <string _locid="88882901">Finnish AI: forest jaegers, wood economy and light artillery.</string>
+
     </language>
   </stringtable>
 </stringmods>

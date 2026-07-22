@@ -1,5 +1,28 @@
 # Changelog — Eastern European Expansion (EEX)
 
+## [mod-minimal 3.2] — 2026-07-13 (Hungría y Finlandia jugables por la IA)
+
+Ambas civs se podían elegir como jugador humano, pero **no aparecían al asignar civilización
+a un oponente o aliado IA**. Causa: el selector de IA no se llena desde `civmods.xml` sino
+desde las **personalidades de IA**, y cada una se ata a su civ con `<forcedciv>` (el juego trae
+22 personalidades para sus 22 civs). No existía ninguna apuntando a nuestras civs.
+
+- **`game/ai/`** — carpeta **nueva** en la raíz del mod (hermana de `data/` y `sound/`), el
+  lugar donde un mod aporta personalidades de IA (patrón de los mods *Abstract Nations Plus* y
+  *Baltic Mods*). Archivos en **UTF-8 con BOM**:
+  - `corvinus.personality` → `<forcedciv>HUNHungarians</forcedciv>`, chatset `Frederick`
+    (civ base Alemania), avatar `Flag_Hungarian.png`.
+  - `stalhandske.personality` → `<forcedciv>DEFinnish</forcedciv>`, chatset `Gustav`
+    (civ base Suecia), avatar `Flag_Finnish.png`.
+- **Strings** 88881900/88881901 (Mátyás Corvinus) y 88882900/88882901 (Torsten Stålhandske)
+  en español e inglés: nombre y tooltip del líder IA.
+- El script de sincronización al mod local ahora también copia `game/`.
+
+**Alcance conocido**: usan la IA base (`aiLoaderStandard`), que no conoce los protos ni las
+cartas custom. Al ser clones de Alemania/Suecia juegan con normalidad usando las unidades base,
+pero no entrenarán las propias. Una IA que las aproveche requiere copiar el árbol
+`game/ai/core/*.xs` y registrar las civs en `aisetup.xs` / `aihccards.xs` — pendiente.
+
 ## [mod-minimal 3.1] — 2026-07-09 (Voces custom por civilización)
 
 Integración de audio propio (mp3, el juego los acepta) para unidades húngaras, siguiendo

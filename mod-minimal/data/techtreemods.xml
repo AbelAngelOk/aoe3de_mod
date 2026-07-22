@@ -720,6 +720,7 @@
   <tech name="HUNShipMagyarHussars1" type="Normal">
     <dbid>88881401</dbid>
     <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">200.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -734,6 +735,7 @@
   <tech name="HUNShipMagyarHussars2" type="Normal">
     <dbid>88881402</dbid>
     <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">300.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -748,6 +750,7 @@
   <tech name="HUNShipMagyarHussars3" type="Normal">
     <dbid>88881403</dbid>
     <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">500.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -762,6 +765,7 @@
   <tech name="HUNShipMagyarHussars4" type="Normal">
     <dbid>88881404</dbid>
     <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -776,6 +780,7 @@
   <tech name="HUNShipMagyarHussars5" type="Normal">
     <dbid>88881405</dbid>
     <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">700.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -790,6 +795,7 @@
   <tech name="HUNShipMagyarHussars6" type="Normal">
     <dbid>88881406</dbid>
     <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -804,6 +810,7 @@
   <tech name="HUNShipCrabats1" type="Normal">
     <dbid>88881411</dbid>
     <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Gold">225.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -818,6 +825,7 @@
   <tech name="HUNShipCrabats2" type="Normal">
     <dbid>88881412</dbid>
     <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Gold">450.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -832,6 +840,7 @@
   <tech name="HUNShipCrabats3" type="Normal">
     <dbid>88881413</dbid>
     <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Gold">675.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -846,6 +855,7 @@
   <tech name="HUNShipCrabats4" type="Normal">
     <dbid>88881414</dbid>
     <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Gold">525.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -860,6 +870,7 @@
   <tech name="HUNShipCrabats5" type="Normal">
     <dbid>88881415</dbid>
     <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Gold">825.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -874,6 +885,7 @@
   <tech name="HUNShipHajduks1" type="Normal">
     <dbid>88881421</dbid>
     <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Gold">350.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -888,6 +900,7 @@
   <tech name="HUNShipHajduks2" type="Normal">
     <dbid>88881422</dbid>
     <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Gold">450.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -902,6 +915,7 @@
   <tech name="HUNShipHajduks3" type="Normal">
     <dbid>88881423</dbid>
     <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Gold">400.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -916,6 +930,7 @@
   <tech name="HUNShipHajduks4" type="Normal">
     <dbid>88881424</dbid>
     <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Gold">600.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -950,7 +965,7 @@
     <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
         <target type="Player"></target>
       </effect>
     </effects>
@@ -964,7 +979,7 @@
     <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
         <target type="Player"></target>
       </effect>
     </effects>
@@ -978,7 +993,7 @@
     <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="21.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
+      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
         <target type="Player"></target>
       </effect>
     </effects>
@@ -1231,6 +1246,8 @@
   <tech name="HUNShipCavMix1" type="Normal">
     <dbid>88881456</dbid>
     <displaynameid>88881091</displaynameid>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Gold">225.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1248,6 +1265,8 @@
   <tech name="HUNShipCavMix2" type="Normal">
     <dbid>88881457</dbid>
     <displaynameid>88881091</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">375.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>

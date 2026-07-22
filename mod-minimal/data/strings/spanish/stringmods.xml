@@ -135,6 +135,12 @@
       <string _locid="88881127">Mejora los Granaderos Húngaros a la Guardia (+20% de vida y ataque).</string>
       <string _locid="88881128">Mejora los Granaderos Húngaros a Imperiales (+50% de vida y ataque).</string>
 
+      <!-- Personalidades de IA (game/ai/*.personality). Sin estas strings la IA aparece sin nombre. -->
+      <string _locid="88881900">Mátyás Corvinus</string>
+      <string _locid="88881901">La IA húngara: infantería Honvéd, húsares magiares y artillería.</string>
+      <string _locid="88882900">Torsten Stålhandske</string>
+      <string _locid="88882901">La IA finlandesa: jaegers de bosque, economía forestal y artillería ligera.</string>
+
     </language>
   </stringtable>
 </stringmods>

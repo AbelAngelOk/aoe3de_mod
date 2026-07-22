@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>88882900</nameID>
+   <tooltipID>88882901</tooltipID>
+   <forcedciv>DEFinnish</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources/images/icons/flags/Flag_Finnish.png</icon>
+   <chatset>Gustav</chatset>
+   <playerNames>
+      <nameID>88882900</nameID>
+   </playerNames>
+</AI>

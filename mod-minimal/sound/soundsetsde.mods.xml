@@ -92,4 +92,31 @@
     <sound filename="hungary\falconete\hungarianfalconetattack3.mp3" volume="1.0000">
     </sound>
   </soundset>
+
+  <!-- Culebrina (proto compartido Culverin, rama HUNHungarians). Nombres de archivo tal cual
+       (incluidos los typos "hungaria..." en move2/move3/attack3). -->
+  <soundset name="HungarianCulverinSelect" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\culverin\hungarianculverinselect1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungarianculverinselect2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungarianculverinselect3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianCulverinMove" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\culverin\hungarianculverinmove1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungariaculverinmove2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungariaculverinmove3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianCulverinAttack" volume="0.9500" maxnum="4" distance="1.0000">
+    <sound filename="hungary\culverin\hungarianculverinattack1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungarianculverinattack2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungariaculverinattack3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
 </soundsetdefmods>

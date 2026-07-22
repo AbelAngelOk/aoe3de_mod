@@ -698,6 +698,7 @@
       <damagetype>Ranged</damagetype>
       <maxrange>12.000000</maxrange>
       <rof>3.000000</rof>
+      <damagebonus type="AbstractCavalry">2.000000</damagebonus>
     </protoaction>
     <protoaction>
       <name>MeleeHandAttack</name>
@@ -721,6 +722,7 @@
       <damagetype>Ranged</damagetype>
       <maxrange>12.000000</maxrange>
       <rof>3.000000</rof>
+      <damagebonus type="AbstractCavalry">2.000000</damagebonus>
     </protoaction>
     <protoaction>
       <name>VolleyHandAttack</name>
@@ -736,6 +738,7 @@
       <damagetype>Ranged</damagetype>
       <maxrange>12.000000</maxrange>
       <rof>3.000000</rof>
+      <damagebonus type="AbstractCavalry">2.000000</damagebonus>
     </protoaction>
   </unit>
 

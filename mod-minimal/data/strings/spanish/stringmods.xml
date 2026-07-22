@@ -97,7 +97,6 @@
       <!-- Cambio 9: cartas f/h/e/g + unidad -->
       <string _locid="88881090">Carretones de Colono</string>
       <string _locid="88881091">Refuerzos de Caballería</string>
-      <string _locid="88881092">Precios de Mercenarios</string>
       <string _locid="88881093">Infantería Montada</string>
       <string _locid="88881094">Infantería Montada</string>
       <string _locid="88881095">Fusilero montado versátil, eficaz contra caballería y a distancia.</string>
@@ -118,10 +117,6 @@
       <string _locid="88881107">Envía 6 Pandúros.</string>
       <string _locid="88881108">EQUIPO Dieta de Presburgo</string>
       <string _locid="88881109">EQUIPO Envía 7 Pandúros. Puede enviarse infinitas veces en la Edad Industrial.</string>
-      <string _locid="88881110">EQUIPO Apoyo de Jinetes Negros</string>
-      <string _locid="88881111">EQUIPO Envía 5 Jinetes Negros. Puede enviarse infinitas veces en la Edad Industrial.</string>
-      <string _locid="88881114">Arcabuceros a Caballo</string>
-      <string _locid="88881115">Envía 11 Arcabuceros a caballo.</string>
       <string _locid="88881116">EQUIPO Regimiento de Trenck</string>
       <string _locid="88881117">EQUIPO Envía 4 Pandúros.</string>
       <!-- Cambio 13: Granadero húngaro (Artillery Foundry) -->
@@ -140,6 +135,16 @@
       <string _locid="88881901">La IA húngara: infantería Honvéd, húsares magiares y artillería.</string>
       <string _locid="88882900">Torsten Stålhandske</string>
       <string _locid="88882901">La IA finlandesa: jaegers de bosque, economía forestal y artillería ligera.</string>
+
+      <!-- Cambio 12: cartas nuevas (Ayuda Maltesa, Carreta de Destacamento) -->
+      <string _locid="88881130">Ayuda Maltesa</string>
+      <string _locid="88881131">Desbloquea el entrenamiento de Ballesteros en el Cuartel.</string>
+      <string _locid="88881134">Carreta de Destacamento</string>
+      <string _locid="88881135">Envia 1 Carreta de destacamento y sube +1 el limite maximo de Destacamentos. A partir de entonces, cada envio militar propio incluye 1 Carreta de destacamento adicional.</string>
+
+      <!-- Cambio 13: Reformas Militares de María Teresa -->
+      <string _locid="88881136">Reformas Militares de María Teresa</string>
+      <string _locid="88881137">Cambia permanentemente el coste de los Hajduks (40 alimento, 70 monedas) y los Crabats (90 alimento, 90 monedas).</string>
 
     </language>
   </stringtable>

@@ -89,7 +89,6 @@
       <!-- Change 9: cards f/h/e/g + unit -->
       <string _locid="88881090">Settler Wagons</string>
       <string _locid="88881091">Cavalry Reinforcements</string>
-      <string _locid="88881092">Mercenary Prices</string>
       <string _locid="88881093">Mounted Infantry</string>
       <string _locid="88881094">Mounted Infantry</string>
       <string _locid="88881095">Versatile mounted rifleman, effective against cavalry and at range.</string>
@@ -110,10 +109,6 @@
       <string _locid="88881107">Ships 6 Pandours.</string>
       <string _locid="88881108">TEAM Diet of Pressburg</string>
       <string _locid="88881109">TEAM Ships 7 Pandours. Can be shipped infinitely in the Industrial Age.</string>
-      <string _locid="88881110">TEAM Black Rider Support</string>
-      <string _locid="88881111">TEAM Ships 5 Black Riders. Can be shipped infinitely in the Industrial Age.</string>
-      <string _locid="88881114">Mounted Harquebusiers</string>
-      <string _locid="88881115">Ships 11 mounted Harquebusiers.</string>
       <string _locid="88881116">TEAM Regiment of Trenck</string>
       <string _locid="88881117">TEAM Ships 4 Pandours.</string>
       <!-- Cambio 13: Granadero húngaro (Artillery Foundry) -->
@@ -132,6 +127,16 @@
       <string _locid="88881901">Hungarian AI: Honvéd infantry, Magyar hussars and artillery.</string>
       <string _locid="88882900">Torsten Stålhandske</string>
       <string _locid="88882901">Finnish AI: forest jaegers, wood economy and light artillery.</string>
+
+      <!-- Cambio 12: cartas nuevas (Ayuda Maltesa, Carreta de Destacamento) -->
+      <string _locid="88881130">Maltese Aid</string>
+      <string _locid="88881131">Unlocks Crossbowmen training at the Barracks.</string>
+      <string _locid="88881134">Blockhouse Wagon</string>
+      <string _locid="88881135">Ships 1 Outpost Wagon and raises the maximum Outpost limit by +1. From then on, each of your own military shipments also includes 1 extra Outpost Wagon.</string>
+
+      <!-- Cambio 13: Reformas Militares de María Teresa -->
+      <string _locid="88881136">Maria Theresa's Military Reforms</string>
+      <string _locid="88881137">Permanently changes the cost of Hajduks (40 food, 70 coin) and Crabats (90 food, 90 coin).</string>
 
     </language>
   </stringtable>

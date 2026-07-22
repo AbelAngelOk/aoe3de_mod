@@ -730,6 +730,12 @@
       <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipMagyarHussars2" type="Normal">
@@ -744,6 +750,12 @@
     <effects>
       <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -760,6 +772,12 @@
       <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipMagyarHussars4" type="Normal">
@@ -774,6 +792,12 @@
     <effects>
       <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -790,6 +814,12 @@
       <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipMagyarHussars6" type="Normal">
@@ -804,6 +834,12 @@
     <effects>
       <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -820,6 +856,12 @@
       <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipCrabats2" type="Normal">
@@ -834,6 +876,12 @@
     <effects>
       <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -850,6 +898,12 @@
       <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipCrabats4" type="Normal">
@@ -864,6 +918,12 @@
     <effects>
       <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -880,6 +940,12 @@
       <effect type="Data" amount="11.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipHajduks1" type="Normal">
@@ -894,6 +960,12 @@
     <effects>
       <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -910,6 +982,12 @@
       <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipHajduks3" type="Normal">
@@ -924,6 +1002,12 @@
     <effects>
       <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -940,6 +1024,12 @@
       <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipHonveds2" type="Normal">
@@ -953,6 +1043,12 @@
     <effects>
       <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -968,6 +1064,12 @@
       <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipHonveds4" type="Normal">
@@ -982,6 +1084,12 @@
       <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipHonveds5" type="Normal">
@@ -995,6 +1103,12 @@
     <effects>
       <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -1013,10 +1127,16 @@
       <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">Hero</target>
       </effect>
-      <!-- Cambio 10 (j): aura estilo tamborilero DESCARTADA. Las auras de AoE3 DE (HPAura,
-           ShieldAura, Mansabdar, etc.) están atadas por el motor a unidades específicas
-           (edificios/héroes concretos) y no existe un aura data-moddable de BOOST de
-           vida+ataque aplicable al Explorer. La carta queda como +50% vida/ataque al Héroe. -->
+      <!-- Cambio 10 (j): aura estilo tamborilero DESCARTADA (no data-moddable). +50% vida/ataque al Héroe. -->
+      <!-- Fusión: efecto de la carta "Globos Aerostáticos" (HCShipBalloons): habilita el poder
+           del globo + crates/oro condicionales (solo aplican si la civ tiene esas techs). -->
+      <effect type="TechStatus" status="active">deEnableBalloonPower</effect>
+      <effect tech="ypFreeCoinCrate400Age1" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateSpanishGold" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="deAddFree400CoinToInventory" type="Data" amount="330.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNCardPromotions" type="Normal">
@@ -1153,19 +1273,10 @@
     <icon>resources\images\icons\hungary\hun_card_hajduk.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <!-- Cambio 10 (a): armadura por postura (requiere slots base Hand/Ranged/Siege en
-           el proto HUNHajduk). Los multiplicadores por postura ya son inherentes al proto. -->
-      <!-- Postura MELEE (cuerpo a cuerpo): defensa contra melee (armadura Hand). -->
-      <effect type="Data" amount="0.30" subtype="TacticArmor" tactic="Melee" armortype="Hand" relativity="Absolute">
-        <target type="ProtoUnit">HUNHajduk</target>
-      </effect>
-      <!-- Postura STAGGER (escalonado): defensa contra artillería (armadura Siege). -->
-      <effect type="Data" amount="0.30" subtype="TacticArmor" tactic="Stagger" armortype="Siege" relativity="Absolute">
-        <target type="ProtoUnit">HUNHajduk</target>
-      </effect>
-      <!-- Postura NORMAL (Volley): defensa contra ataques a distancia (armadura Ranged). -->
-      <effect type="Data" amount="0.30" subtype="TacticArmor" tactic="Volley" armortype="Ranged" relativity="Absolute">
-        <target type="ProtoUnit">HUNHajduk</target>
+      <!-- Cambio 13: Levantamiento de Bocskai envía 1 Hajduk por cada Destacamento
+           (Outpost) que el jugador posea al jugar la carta (cálculo dinámico). -->
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="Outpost" unittype="HUNHajduk" relativity="Absolute">
+        <target type="Player"></target>
       </effect>
     </effects>
   </tech>
@@ -1185,6 +1296,12 @@
       <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipSettlerWagons3" type="Normal">
@@ -1198,6 +1315,12 @@
     <effects>
       <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -1213,6 +1336,12 @@
       <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipSettlerWagonsTeam" type="Normal">
@@ -1226,6 +1355,12 @@
     <effects>
       <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
         <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -1241,17 +1376,21 @@
       <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipCavMix1" type="Normal">
     <dbid>88881456</dbid>
     <displaynameid>88881091</displaynameid>
-    <cost resourcetype="Food">200.0000</cost>
-    <cost resourcetype="Gold">225.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\hungary\hun_card_border-cavalry.png</icon>
+    <icon>resources\images\icons\hungary\hun_card_border-cavalry_2.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
@@ -1260,17 +1399,21 @@
       <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
   <tech name="HUNShipCavMix2" type="Normal">
     <dbid>88881457</dbid>
     <displaynameid>88881091</displaynameid>
-    <cost resourcetype="Food">400.0000</cost>
-    <cost resourcetype="Gold">375.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\hungary\hun_card_border-cavalry.png</icon>
+    <icon>resources\images\icons\hungary\hun_card_border-cavalry_2.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
@@ -1279,28 +1422,11 @@
       <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
         <target type="Player"></target>
       </effect>
-    </effects>
-  </tech>
-  <tech name="HUNCardMercPrices" type="Normal">
-    <dbid>88881458</dbid>
-    <displaynameid>88881092</displaynameid>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\germans\mercenary_camps.png</icon>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="40.00" subtype="Cost" resource="Food" relativity="Assign">
-        <target type="ProtoUnit">HUNHajduk</target>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
       </effect>
-      <effect type="Data" amount="70.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="ProtoUnit">HUNHajduk</target>
-      </effect>
-      <effect type="Data" amount="90.00" subtype="Cost" resource="Food" relativity="Assign">
-        <target type="ProtoUnit">HUNCrabat</target>
-      </effect>
-      <effect type="Data" amount="90.00" subtype="Cost" resource="Gold" relativity="Assign">
-        <target type="ProtoUnit">HUNCrabat</target>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -1325,6 +1451,12 @@
            de creación (usan población; el límite se quitó de los protos). -->
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">HUNMountedInfantryFoot</target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
     </effects>
   </tech>
@@ -1417,6 +1549,12 @@
       <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deMercPandour" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
 
@@ -1437,46 +1575,18 @@
       <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="deMercPandour" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
   </tech>
 
   <!-- EQUIPO, INFINITA en IV (c): envía 5 Jinetes Negros por 2000 de oro. -->
-  <tech name="HUNCardBlackRiderShipTeam" type="Normal">
-    <dbid>88881465</dbid>
-    <displaynameid>88881110</displaynameid>
-    <rollovertextid>88881111</rollovertextid>
-    <cost resourcetype="Gold">2000.0000</cost>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>60.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\hungary\hun_card_merc_cav.png</icon>
-    <flag>YPInfiniteTech</flag>
-    <flag>HomeCity</flag>
-    <flag>TeamTech</flag>
-    <effects>
-      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="MercBlackRider" relativity="Absolute">
-        <target type="Player"></target>
-      </effect>
-    </effects>
-  </tech>
 
   <!-- En IV (b): envía 11 Arcabuceros a caballo (Harquebusier) por 1000 de oro. -->
-  <tech name="HUNCardHarquebusier16" type="Normal">
-    <dbid>88881467</dbid>
-    <displaynameid>88881114</displaynameid>
-    <rollovertextid>88881115</rollovertextid>
-    <cost resourcetype="Gold">1000.0000</cost>
-    <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>40.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\mercenaries\harquebusier\harquebusier_icon.png</icon>
-    <flag>HomeCity</flag>
-    <effects>
-      <effect type="Data" amount="11.00" subtype="FreeHomeCityUnit" unittype="deMercHarquebusier" relativity="Absolute">
-        <target type="Player"></target>
-      </effect>
-    </effects>
-  </tech>
 
   <!-- "Regimiento de Trenck" (e): EQUIPO en III: envía 4 Pandúros por 500 de oro. -->
   <tech name="HUNCardTrenckRegiment" type="Normal">
@@ -1494,6 +1604,126 @@
       <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deMercPandour" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
     </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 12 (2026-07-21): Refactor de cartas de la revolución húngara.
+       Nuevas cartas: Ayuda Maltesa, 3 Hermanos Hospitalarios, Carreta de blocao.
+       ============================================================ -->
+  <tech name="HUNCardMalteseAid" type="Normal">
+    <dbid>88881470</dbid>
+    <displaynameid>88881130</displaynameid>
+    <rollovertextid>88881131</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\crossbow\crossbow_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Ayuda Maltesa: desbloquea Ballesteros (Crossbowman) en el Cuartel.
+           Patrón de Malta: Enable del proto + AddTrain sobre el edificio. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Crossbowman" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <!-- Secc.1: investiga automáticamente Ballesteros Veteranos (los Ballesteros se
+           siguen entrenando en el Cuartel; el jugador queda con acceso inmediato a veteranos). -->
+      <effect type="TechStatus" status="active">VeteranCrossbowmen</effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardHospitallerBrothers" type="Normal">
+    <dbid>88881471</dbid>
+    <displaynameid>124956</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry\hospitaller\hospitaller_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- 3 Hermanos Hospitalarios: idéntica a DEHCShipHospitaller1 de Malta (envía 3). -->
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deHospitaller" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardDestacamentoLogistics" type="Normal">
+    <dbid>88881472</dbid>
+    <displaynameid>88881134</displaynameid>
+    <rollovertextid>88881135</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\trade\outpost_wagon_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Carrera de Destacamento: envia 1 Carreta de destacamento (OutpostWagon, construye un
+           Destacamento/Outpost), sube +1 el limite de Destacamentos (permanente) y ACTIVA el gate
+           HUNDestacamentoGate. Con el gate activo, cada carta de envio propia entrega ademas 1
+           Carreta de destacamento (efecto condicional horneado en cada carta). No es repetible. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">OutpostWagon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="TechStatus" status="active">HUNDestacamentoGate</effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 13 (2026-07-21): Reformas Militares de María Teresa (Edad III).
+       Cambia PERMANENTEMENTE el coste de Hajduks y Crabats (deltas sobre el coste base).
+       Cost relativity="Absolute" = delta: Hajduk 110 oro -> 40 alim + 70 oro (+40 alim, -40 oro);
+       Crabat 150 oro -> 90 alim + 90 oro (+90 alim, -60 oro). No cambia otras estadísticas.
+       ============================================================ -->
+  <tech name="HUNCardMariaTheresaReforms" type="Normal">
+    <dbid>88881473</dbid>
+    <displaynameid>88881136</displaynameid>
+    <rollovertextid>88881137</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_reformas-militares-maria-teresa.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Hajduk: 110 oro -> 40 alimento + 70 oro -->
+      <effect type="Data" amount="40.00" subtype="Cost" resource="Food" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="-40.00" subtype="Cost" resource="Gold" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- Crabat: 150 oro -> 90 alimento + 90 oro -->
+      <effect type="Data" amount="90.00" subtype="Cost" resource="Food" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="Data" amount="-60.00" subtype="Cost" resource="Gold" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNDestacamentoGate" type="Normal">
+    <dbid>88881474</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
   </tech>
 </techtreemods>

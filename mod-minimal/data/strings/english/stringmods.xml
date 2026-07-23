@@ -130,13 +130,27 @@
 
       <!-- Cambio 12: cartas nuevas (Ayuda Maltesa, Carreta de Destacamento) -->
       <string _locid="88881130">Maltese Aid</string>
-      <string _locid="88881131">Unlocks Crossbowmen training at the Barracks.</string>
+      <string _locid="88881131">Enables Crossbowmen training at the Barracks and their Veteran upgrade (researchable there).</string>
       <string _locid="88881134">Blockhouse Wagon</string>
       <string _locid="88881135">Ships 1 Outpost Wagon and raises the maximum Outpost limit by +1. From then on, each of your own military shipments also includes 1 extra Outpost Wagon.</string>
 
       <!-- Cambio 13: Reformas Militares de María Teresa -->
       <string _locid="88881136">Maria Theresa's Military Reforms</string>
       <string _locid="88881137">Permanently changes the cost of Hajduks (40 food, 70 coin) and Crabats (90 food, 90 coin).</string>
+
+      <!-- Cambio 14: Patronato Apostólico (techs de Iglesia) -->
+      <string _locid="88881140">Apostolic Patronage</string>
+      <string _locid="88881141">Adds technologies to the Church that ship troops when researched: Crossbowmen and Pikemen (Age II), Uhlans and Janissaries (Age III, Janissaries can also be trained at the Barracks) and Great Bombards (Age IV).</string>
+      <string _locid="88881142">Shipment: Crossbowmen</string>
+      <string _locid="88881143">Research at the Church for 500 wood to ship 10 Crossbowmen.</string>
+      <string _locid="88881144">Shipment: Pikemen</string>
+      <string _locid="88881145">Research at the Church for 500 food to ship 10 Pikemen.</string>
+      <string _locid="88881146">Shipment: Uhlans</string>
+      <string _locid="88881147">Research at the Church for 1000 food to ship 7 Uhlans.</string>
+      <string _locid="88881148">Shipment: Janissaries</string>
+      <string _locid="88881149">Research at the Church for 2000 wood to ship 20 Janissaries and enable training them at the Barracks.</string>
+      <string _locid="88881150">Shipment: Great Bombards</string>
+      <string _locid="88881151">Research at the Church for 2000 coin to ship 3 Great Bombards.</string>
 
     </language>
   </stringtable>

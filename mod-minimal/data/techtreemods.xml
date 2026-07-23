@@ -1626,17 +1626,24 @@
     <icon>resources\art\units\infantry_ranged\crossbow\crossbow_icon_64x64.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <!-- Ayuda Maltesa: desbloquea Ballesteros (Crossbowman) en el Cuartel.
-           Patrón de Malta: Enable del proto + AddTrain sobre el edificio. -->
+      <!-- Ayuda Maltesa: activa DOS cosas en el Cuartel, ambas en columna 0 (posición 1,
+           según el proto base del Cuartel: Crossbowman en train col 0, VeteranCrossbowmen en
+           tech col 0). HUNAge0 los había deshabilitado/hecho unobtainable; esta carta:
+           1) habilita Ballesteros NORMALES (entrenables), 2) hace INVESTIGABLE (no automática)
+           su mejora a Veteranos en el Cuartel. -->
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Crossbowman</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Crossbowman" relativity="Absolute">
         <target type="ProtoUnit">Barracks</target>
       </effect>
-      <!-- Secc.1: investiga automáticamente Ballesteros Veteranos (los Ballesteros se
-           siguen entrenando en el Cuartel; el jugador queda con acceso inmediato a veteranos). -->
-      <effect type="TechStatus" status="active">VeteranCrossbowmen</effect>
+      <!-- (b) además envía 1 Ballestero al jugar la carta. -->
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <!-- Mejora a Veterano: investigable en el Cuartel (obtainable, no active). Su prereq
+           Fortressize la mantiene gris hasta Edad III y researchable a partir de ahí. -->
+      <effect type="TechStatus" status="obtainable">VeteranCrossbowmen</effect>
     </effects>
   </tech>
   <tech name="HUNCardHospitallerBrothers" type="Normal">
@@ -1725,5 +1732,135 @@
     <dbid>88881474</dbid>
     <status>UNOBTAINABLE</status>
     <flag>Shadow</flag>
+  </tech>
+  <!-- ============================================================
+       Cambio 14 (2026-07-22): "Patronato Apostólico" — carta de Edad II que hace OBTAINABLE
+       5 techs de Iglesia. Cada tech se investiga en la Iglesia (pagando recursos) y ENVÍA
+       unidades. Molde: ChurchTufanciCorps (envía + habilita + CommandAdd al Cuartel).
+       Las techs quedan grises hasta su edad (prereq con marcador genérico Colonialize/
+       Fortressize/Industrialize). Deben estar listadas en el proto Church (protomods.xml).
+       ============================================================ -->
+  <tech name="HUNCardChurchReforms" type="Normal">
+    <dbid>88881480</dbid>
+    <displaynameid>88881140</displaynameid>
+    <rollovertextid>88881141</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_royal_decree\hc_royal_decree.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Desbloquea (obtainable) las 5 techs de Iglesia; cada una se gatea por su edad. -->
+      <effect type="TechStatus" status="obtainable">HUNChurchCrossbowmen</effect>
+      <effect type="TechStatus" status="obtainable">HUNChurchPikemen</effect>
+      <effect type="TechStatus" status="obtainable">HUNChurchUhlans</effect>
+      <effect type="TechStatus" status="obtainable">HUNChurchJanissaries</effect>
+      <effect type="TechStatus" status="obtainable">HUNChurchBombards</effect>
+    </effects>
+  </tech>
+  <tech name="HUNChurchCrossbowmen" type="Normal">
+    <dbid>88881481</dbid>
+    <displaynameid>88881142</displaynameid>
+    <rollovertextid>88881143</rollovertextid>
+    <cost resourcetype="Wood">500.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\crossbow\crossbow_icon_64x64.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNChurchPikemen" type="Normal">
+    <dbid>88881482</dbid>
+    <displaynameid>88881144</displaynameid>
+    <rollovertextid>88881145</rollovertextid>
+    <cost resourcetype="Food">500.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry\pikeman\pikeman_icon.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNChurchUhlans" type="Normal">
+    <dbid>88881483</dbid>
+    <displaynameid>88881146</displaynameid>
+    <rollovertextid>88881147</rollovertextid>
+    <cost resourcetype="Food">1000.0000</cost>
+    <researchpoints>25.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\uhlan\uhlan_icon.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNChurchJanissaries" type="Normal">
+    <dbid>88881484</dbid>
+    <displaynameid>88881148</displaynameid>
+    <rollovertextid>88881149</rollovertextid>
+    <cost resourcetype="Wood">2000.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\janissary\janissary_icon_64x64.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <!-- Envía 20 Jenízaros + los habilita y agrega al Cuartel (patrón ChurchTufanciCorps). -->
+      <effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="Janissary" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Janissary</target>
+      </effect>
+      <effect type="CommandAdd" proto="Janissary" page="0" column="3">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <!-- (a) también agrega la tecnología para mejorar al Jenízaro: Veterano investigable en
+           el Cuartel (ya está listada ahí en page 1 col 4; su prereq Fortressize la gatea). -->
+      <effect type="TechStatus" status="obtainable">VeteranJanissaries</effect>
+    </effects>
+  </tech>
+  <tech name="HUNChurchBombards" type="Normal">
+    <dbid>88881485</dbid>
+    <displaynameid>88881150</displaynameid>
+    <rollovertextid>88881151</rollovertextid>
+    <cost resourcetype="Gold">2000.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\artillery\great_bombard\great_bombard_icon_64x64.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="GreatBombard" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
   </tech>
 </techtreemods>

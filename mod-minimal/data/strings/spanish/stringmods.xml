@@ -138,13 +138,27 @@
 
       <!-- Cambio 12: cartas nuevas (Ayuda Maltesa, Carreta de Destacamento) -->
       <string _locid="88881130">Ayuda Maltesa</string>
-      <string _locid="88881131">Desbloquea el entrenamiento de Ballesteros en el Cuartel.</string>
+      <string _locid="88881131">Habilita el entrenamiento de Ballesteros en el Cuartel y su mejora a Veteranos (investigable ahí).</string>
       <string _locid="88881134">Carreta de Destacamento</string>
       <string _locid="88881135">Envia 1 Carreta de destacamento y sube +1 el limite maximo de Destacamentos. A partir de entonces, cada envio militar propio incluye 1 Carreta de destacamento adicional.</string>
 
       <!-- Cambio 13: Reformas Militares de María Teresa -->
       <string _locid="88881136">Reformas Militares de María Teresa</string>
       <string _locid="88881137">Cambia permanentemente el coste de los Hajduks (40 alimento, 70 monedas) y los Crabats (90 alimento, 90 monedas).</string>
+
+      <!-- Cambio 14: Patronato Apostólico (techs de Iglesia) -->
+      <string _locid="88881140">Patronato Apostólico</string>
+      <string _locid="88881141">Agrega tecnologías a la Iglesia que envían tropas al investigarse: Ballesteros y Piqueros (Edad II), Ulanos y Jenízaros (Edad III, los Jenízaros también se entrenan en el Cuartel) y Grandes Bombardas (Edad IV).</string>
+      <string _locid="88881142">Envío: Ballesteros</string>
+      <string _locid="88881143">Investígala en la Iglesia por 500 de madera para enviar 10 Ballesteros.</string>
+      <string _locid="88881144">Envío: Piqueros</string>
+      <string _locid="88881145">Investígala en la Iglesia por 500 de alimento para enviar 10 Piqueros.</string>
+      <string _locid="88881146">Envío: Ulanos</string>
+      <string _locid="88881147">Investígala en la Iglesia por 1000 de alimento para enviar 7 Ulanos.</string>
+      <string _locid="88881148">Envío: Jenízaros</string>
+      <string _locid="88881149">Investígala en la Iglesia por 2000 de madera para enviar 20 Jenízaros y habilitar su entrenamiento en el Cuartel.</string>
+      <string _locid="88881150">Envío: Grandes Bombardas</string>
+      <string _locid="88881151">Investígala en la Iglesia por 2000 de monedas para enviar 3 Grandes Bombardas.</string>
 
     </language>
   </stringtable>

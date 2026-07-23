@@ -1867,4 +1867,14 @@
       <rate type="Tree">1.000000</rate>
     </protoaction>
   </unit>
+  <!-- Cambio 14: Iglesia — listar las 5 techs de la carta "Patronato Apostólico".
+       Están UNOBTAINABLE por defecto; la carta las hace obtainable (gris hasta su edad).
+       Van en page 1 (techs), columna 0 (libre en el proto base). -->
+  <Unit mergeMode='modify' name="Church">
+    <tech row="0" page="1" column="0">HUNChurchCrossbowmen</tech>
+    <tech row="0" page="1" column="0">HUNChurchPikemen</tech>
+    <tech row="0" page="1" column="0">HUNChurchUhlans</tech>
+    <tech row="0" page="1" column="0">HUNChurchJanissaries</tech>
+    <tech row="0" page="1" column="0">HUNChurchBombards</tech>
+  </Unit>
 </protomods>

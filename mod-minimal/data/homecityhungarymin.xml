@@ -1649,6 +1649,13 @@
       <prereqtech>-1</prereqtech>
       <age>2</age>
     </card>
+    <card>
+      <name>HUNCardChurchReforms</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
   </cards>
   <decks>
     <deck>
@@ -1935,6 +1942,7 @@
       <tech x="5.0" y="6.0">HUNCardHospitallerBrothers</tech>
       <tech x="6.0" y="6.0">HUNCardDestacamentoLogistics</tech>
       <tech x="7.0" y="6.0">HUNCardMariaTheresaReforms</tech>
+      <tech x="0.0" y="6.0">HUNCardChurchReforms</tech>
       <tech x="0.0" y="3.0">HUNCardPromotions</tech>
       <tech x="5.6" y="5.0">HUNCardMagyarPop</tech>
       <tech x="7.0" y="3.0">HUNCardForeignLogging</tech>
@@ -1971,6 +1979,7 @@
       <tech x="5.0" y="6.0">HUNCardHospitallerBrothers</tech>
       <tech x="6.0" y="6.0">HUNCardDestacamentoLogistics</tech>
       <tech x="7.0" y="6.0">HUNCardMariaTheresaReforms</tech>
+      <tech x="0.0" y="6.0">HUNCardChurchReforms</tech>
       <tech x="0.0" y="3.0">HUNCardPromotions</tech>
       <tech x="5.6" y="5.0">HUNCardMagyarPop</tech>
       <tech x="7.0" y="3.0">HUNCardForeignLogging</tech>

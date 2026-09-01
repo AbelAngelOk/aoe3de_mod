@@ -1,0 +1,37 @@
+<!--
+  mod-minimal (Egipto): voz del Arquero a Caballo (CavalryArcher real, entrenable de forma
+  nativa en el Establo egipcio — columna 2 de EGYStable, heredado sin cambios vía
+  Age0Ottoman). Proto COMPARTIDO; su sonido se resuelve por <civlogic> en
+  Sound/cavalryarcher_snds.xml y "EGYEgypt" no existe ahí (civ nueva) -> quedaba mudo.
+  Archivo ADITIVO con la rama EGYEgypt apuntando a los soundsets propios "MMOttoman*"
+  (registrados en soundsetsde.mods.xml, mismos audios que ya usa la rama real "Ottomans" —
+  nunca un nombre vanilla directo, ver aoe3-unit-sounds-snds).
+-->
+<protounitsounddefmods>
+  <protounit name="CavalryArcher">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="EGYEgypt">
+          <soundset name="MMOttomanCavalryArcherSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="EGYEgypt">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMOttomanCavalryArcherAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMOttomanCavalryArcherAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

@@ -34,8 +34,11 @@
 <protomods>
   <Unit mergeMode='modify' name="TownCenter">
     <train row="0" page="0" column="0">HUNSettlerWagon</train>
-    <!-- Cambio 15 (Finlandia): Jaeger de Carelia también se entrena en el Centro Urbano -->
-    <train row="0" page="0" column="1">FINKarelianJaeger</train>
+    <!-- Cambio 36: se abandonaron las revoluciones (FINRevolution/FINEndRevolution). El botón
+         "TC entrena Skirmisher" (Jaeger de Carelia) se agrega vía CommandAdd por-jugador en
+         FINAge0 en vez de un <train> estático aquí, porque Skirmisher es un proto COMPARTIDO
+         con Francia/Holanda/Alemania/España — un <train> estático lo haría entrenable desde
+         el TC de cualquier civ que tenga Skirmisher habilitado. -->
   </Unit>
 
   <Unit mergeMode='modify' name="Barracks">
@@ -52,15 +55,32 @@
     <!-- Cambio 10 (g): infantería desmontada (desbloqueada por la carta HUNCardMountedInf) -->
     <train row="0" page="0" column="2">HUNMountedInfantryFoot</train>
     <!-- Cambio 16 (Finlandia): cuartel REDISEÑADO. Se vacía el roster sueco (Pikeman/
-         Carolean/Crossbowman + techs deshabilitados en FINAge0) y quedan solo 3 unidades:
-         - Jaeger de Carelia (FINKarelianJaeger): equivalente al Carelio de la revolución
-           (que es el Skirmisher renombrado/reskineado; mi proto ya es clon de Skirmisher).
-         - Jaeger de Savolax = MercJaeger (igual que la revolución: DEChurchSavolaxJaegers
-           modifica MercJaeger, no es unidad nueva). Se habilita/renombra en FINColonialize.
-         - Jaeger de Contraataque = deConsulateCounterJaeger (unidad de consulado completa). -->
+         Carolean/Crossbowman + techs deshabilitados en FINAge0). Roster propio (Cambio 40):
+         Jaeger de Carelia (col 0, proto propio) + Jaeger de Savonia (col 1, MercJaeger real)
+         + Jaeger de Contraataque (col 2, consulado). -->
     <train row="0" page="0" column="0">FINKarelianJaeger</train>
     <train row="0" page="0" column="1">MercJaeger</train>
     <train row="0" page="0" column="2">deConsulateCounterJaeger</train>
+    <!-- Cambio 43: mejoras del Carelio (col 0, 3 niveles II/III/IV, sin Imperial). -->
+    <tech row="0" page="1" column="0">FINKarelianJaegerTier2</tech>
+    <tech row="0" page="1" column="0">FINKarelianJaegerTier3</tech>
+    <tech row="0" page="1" column="0">FINKarelianJaegerTier4</tech>
+    <!-- Cambio 43: mejora de Savonia (col 1, un solo nivel Imperial +50%). -->
+    <tech row="0" page="1" column="1">FINImperialSavolaxJaeger</tech>
+    <!-- Cambio 43: mejoras del Jaeger de Contraataque (col 2), ahora solo 2 niveles. -->
+    <tech row="0" page="1" column="2">FINGuardCounterJaeger</tech>
+    <tech row="0" page="1" column="2">FINImperialCounterJaeger</tech>
+    <!-- Cambio HOT/HGE-2: Grenzer propio (col 3), compartido por Hungría Otomana y
+         Hungría Alemana. Pandur propio (col 5) SOLO para Hungría Alemana, en el
+         mismo slot que usan Skirmisher/deAzap/Cacadore/deBersagliere (lo reemplaza). -->
+    <train row="0" page="0" column="3">HUNGrenzer</train>
+    <tech row="0" page="1" column="3">HUNVeteranGrenzer</tech>
+    <tech row="0" page="1" column="3">HUNGuardGrenzer</tech>
+    <tech row="0" page="1" column="3">HUNImperialGrenzer</tech>
+    <train row="0" page="0" column="5">HUNPandur</train>
+    <tech row="0" page="1" column="5">HUNVeteranPandur</tech>
+    <tech row="0" page="1" column="5">HUNGuardPandur</tech>
+    <tech row="0" page="1" column="5">HUNImperialPandur</tech>
   </Unit>
 
   <Unit mergeMode='modify' name="Stable">
@@ -77,6 +97,17 @@
     <!-- Cambio 15 (Finlandia): Dragón de Contraataque en el Establo (Húsar y Arquero a
          Caballo/CavalryArcher ya están en el Establo base; se habilitan por FINAge0). -->
     <train row="0" page="0" column="3">deCounterDragoon</train>
+    <!-- Cambio 30: mejoras del Dragón de Contraataque (col 3), patrón caballería 2 niveles -->
+    <tech row="0" page="1" column="3">FINGuardCounterDragoon</tech>
+    <tech row="0" page="1" column="3">FINImperialCounterDragoon</tech>
+    <!-- Cambio ARG-3 (Argentina): Lancer real deshabilitado para Argentina (columna 1
+         nativa) — se usa el clon propio ARGLancer en su lugar (mismo stats, modelo del
+         deRevolutionaryScout). Columnas 3 y 4: Gaucho a Caballo y Granadero a Caballo son
+         protos REALES (deREVGaucho/deREVGranadero, de la revolución de Argentina que ya
+         existe en el juego base para Italia) — no hacen falta clones propios. -->
+    <train row="0" page="0" column="1">ARGLancer</train>
+    <train row="0" page="0" column="3">deREVGaucho</train>
+    <train row="0" page="0" column="4">deREVGranadero</train>
   </Unit>
 
   <Unit mergeMode='modify' name="ArtilleryDepot">
@@ -1458,8 +1489,8 @@
        ============================================================================ -->
   <unit id="88882201" name="FINSavolaxJaeger">
     <dbid>88882201</dbid>
-    <displaynameid>88882010</displaynameid>
-    <editornameid>88882010</editornameid>
+    <displaynameid>91618</displaynameid>
+    <editornameid>91618</editornameid>
     <populationcount>1</populationcount>
     <obstructionradiusx>0.4900</obstructionradiusx>
     <obstructionradiusz>0.4900</obstructionradiusz>
@@ -1469,11 +1500,11 @@
     <maxrunvelocity>6.0000</maxrunvelocity>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
-    <animfile>units\cavalry\russian_dragoon\russian_jaeger.xml</animfile>
+    <animfile>units\infantry_ranged\british_rifleman\british_rifleman.xml</animfile>
     <impacttype>Flesh</impacttype>
     <physicsinfo>dude</physicsinfo>
-    <icon>resources\art\units\mercenaries\jaeger\hessian_jaeger_icon_64x64.png</icon>
-    <portraiticon>resources\art\units\mercenaries\jaeger\hessian_jaeger_portrait.png</portraiticon>
+    <icon>resources\art\units\infantry_ranged\british_rifleman\british_rifleman_icon.png</icon>
+    <portraiticon>resources\art\units\infantry_ranged\british_rifleman\british_rifleman_portrait.png</portraiticon>
     <rollovertextid>88882011</rollovertextid>
     <shortrollovertextid>88882012</shortrollovertextid>
     <initialhitpoints>100.0000</initialhitpoints>
@@ -1620,12 +1651,9 @@
     </protoaction>
   </unit>
 
-  <!-- ============================================================================
-       Cambio 15 (Finlandia, Fase 2): Jaeger de Carelia. HÍBRIDO (base Skirmisher, que ya
-       construye y tala madera): infantería PESADA con multiplicador anti-caballería,
-       disponible en Edad I con daño reducido (tipo colono). En Edad II FINFortressize le
-       sube vida/ataque a nivel militar. Es la unidad distintiva de Finlandia.
-       ============================================================================ -->
+  <!-- Cambio 40 (Finlandia): Jaeger de Carelia — proto propio (revivido; ver FINAge0).
+       HÍBRIDO (base visual Skirmisher): infantería pesada con multiplicador anti-caballería,
+       que además construye y recolecta como un colono. Disponible desde Edad I. -->
   <unit id="88882202" name="FINKarelianJaeger">
     <dbid>88882202</dbid>
     <displaynameid>88882013</displaynameid>
@@ -1645,8 +1673,10 @@
     <portraiticon>resources\art\units\revolution\karelian_jaeger_portrait.png</portraiticon>
     <rollovertextid>88882014</rollovertextid>
     <shortrollovertextid>88882015</shortrollovertextid>
-    <initialhitpoints>150.0000</initialhitpoints>
-    <maxhitpoints>150.0000</maxhitpoints>
+    <!-- Balance (Cambio 43): 120 HP base — con las 3 mejoras (II/III/IV, +60% acumulado)
+         llega a 192 en Edad IV. Edad I usa un debuff aparte en FINAge0 (ver ese tech). -->
+    <initialhitpoints>120.0000</initialhitpoints>
+    <maxhitpoints>120.0000</maxhitpoints>
     <los>24.0000</los>
     <projectileprotounit>InvisibleProjectile</projectileprotounit>
     <autoattackrange>16.0000</autoattackrange>
@@ -1704,6 +1734,21 @@
     <command page="10" column="7">Delete</command>
     <command page="10" column="1">Stop</command>
     <command page="10" column="0">Garrison</command>
+    <!-- Panel de construcción: lista curada de 13 edificios (economía + militares clave). -->
+    <train row="0" page="6" column="0">House</train>
+    <train row="0" page="6" column="0">deTorp</train>
+    <train row="0" page="6" column="2">Market</train>
+    <train row="0" page="6" column="3">Mill</train>
+    <train row="0" page="6" column="3">Farm</train>
+    <train row="0" page="6" column="4">LivestockPen</train>
+    <train row="0" page="6" column="5">Dock</train>
+    <train row="0" page="6" column="6">Blockhouse</train>
+    <train row="0" page="6" column="7">TradingPost</train>
+    <train row="0" page="6" column="9">Bank</train>
+    <train row="0" page="6" column="10">Church</train>
+    <train row="0" page="6" column="11">Barracks</train>
+    <train row="0" page="6" column="12">Stable</train>
+    <train row="0" page="6" column="13">ArtilleryDepot</train>
     <tactics>rifleman.tactics</tactics>
     <protoaction>
       <name>BuildingAttack</name>
@@ -1724,7 +1769,7 @@
     </protoaction>
     <protoaction>
       <name>DefendRangedAttack</name>
-      <damage>10.000000</damage>
+      <damage>15.000000</damage>
       <damagetype>Ranged</damagetype>
       <minrange>2.000000</minrange>
       <maxrange>20.000000</maxrange>
@@ -1759,7 +1804,7 @@
     </protoaction>
     <protoaction>
       <name>StaggerRangedAttack</name>
-      <damage>10.000000</damage>
+      <damage>15.000000</damage>
       <damagetype>Ranged</damagetype>
       <minrange>2.000000</minrange>
       <maxrange>20.000000</maxrange>
@@ -1783,7 +1828,7 @@
     </protoaction>
     <protoaction>
       <name>VolleyRangedAttack</name>
-      <damage>10.000000</damage>
+      <damage>15.000000</damage>
       <damagetype>Ranged</damagetype>
       <minrange>2.000000</minrange>
       <maxrange>20.000000</maxrange>
@@ -1796,6 +1841,7 @@
     </protoaction>
     <protoaction>
       <name>Build</name>
+      <rate type="Building">1.000000</rate>
       <rate type="Blockhouse">1.000000</rate>
       <rate type="HouseEast">1.000000</rate>
       <rate type="deTorp">1.000000</rate>
@@ -1806,9 +1852,8 @@
       <rate type="Market">1.000000</rate>
       <rate type="LivestockPen">1.000000</rate>
       <rate type="Church">1.000000</rate>
-      <rate type="deTavern">1.000000</rate>
-      <rate type="NativeEmbassy">1.000000</rate>
-      <rate type="Arsenal">1.000000</rate>
+      <rate type="Barracks">1.000000</rate>
+      <rate type="Bank">1.000000</rate>
     </protoaction>
     <protoaction>
       <name>ChopAttack</name>
@@ -1819,45 +1864,12 @@
       <name>CrateGather</name>
       <rate type="AbstractResourceCrate">8.000000</rate>
     </protoaction>
+    <!-- Balance (Cambio 43): recolección restringida a solo madera. El resto (caza, minado,
+         pesca, etc.) se restaura investigando la carta "Desierto Norteño" (ver FINRevNorthernWilderness). -->
     <protoaction>
       <name>Gather</name>
       <rate type="Tree">0.500000</rate>
-      <rate type="AbstractMine">0.600000</rate>
-      <rate type="Plantation">0.500000</rate>
-      <rate type="Herdable">2.000000</rate>
-      <rate type="Huntable">0.840000</rate>
-      <rate type="AbstractBerryBush">0.670000</rate>
-      <rate type="Farm">0.500000</rate>
-      <rate type="Mill">0.670000</rate>
-      <rate type="ypRicePaddy" resource="Food">0.500000</rate>
-      <rate type="AbstractTradeMarket">1.500000</rate>
-      <rate type="ypBerryBuilding">0.670000</rate>
-      <rate type="ypRicePaddy" resource="Gold">0.340000</rate>
-      <rate type="ypGroveBuilding">0.500000</rate>
-      <rate type="deFurTrade" yield="1.100000">0.600000</rate>
       <rate type="AbstractInfiniteCrate">8.000000</rate>
-      <rate type="deTorpBush2">0.670000</rate>
-      <rate type="AbstractMountainMonastery">0.600000</rate>
-      <rate type="deField" resource="Food">0.500000</rate>
-      <rate type="deField" resource="Gold">0.377000</rate>
-      <rate type="deField" resource="Wood">0.34000</rate>
-      <rate type="deField" resource="Influence">0.340000</rate>
-      <rate type="deHacienda">0.500000</rate>
-      <rate type="deHacienda" resource="Food">0.500000</rate>
-      <rate type="deHacienda" resource="Gold">0.340000</rate>
-      <rate type="deHacienda" resource="Wood">0.500000</rate>
-    </protoaction>
-    <protoaction>
-      <name>HandAttack</name>
-      <damage>10.000000</damage>
-      <damagetype>Hand</damagetype>
-      <rof>1.500000</rof>
-    </protoaction>
-    <protoaction>
-      <name>HandAttackCrate</name>
-      <damage>10.000000</damage>
-      <damagetype>Hand</damagetype>
-      <rof>1.500000</rof>
     </protoaction>
     <protoaction>
       <name>Hunting</name>
@@ -1867,6 +1879,7 @@
       <rate type="Tree">1.000000</rate>
     </protoaction>
   </unit>
+
   <!-- Cambio 14: Iglesia — listar las 5 techs de la carta "Patronato Apostólico".
        Están UNOBTAINABLE por defecto; la carta las hace obtainable (gris hasta su edad).
        Van en page 1 (techs), columna 0 (libre en el proto base). -->
@@ -1876,5 +1889,556 @@
     <tech row="0" page="1" column="0">HUNChurchUhlans</tech>
     <tech row="0" page="1" column="0">HUNChurchJanissaries</tech>
     <tech row="0" page="1" column="0">HUNChurchBombards</tech>
+    <!-- Cambio 42 (Finlandia): techs de la Iglesia movidas a la fila 2 (tercera fila) en los
+         slots disponibles, columna 0, para no chocar con las húngaras (fila 0). -->
+    <tech row="2" page="1" column="0">FINChurchStreltsy</tech>
+    <tech row="2" page="1" column="0">FINChurchHalberdiers</tech>
+    <tech row="2" page="1" column="0">FINChurchRekruts</tech>
+    <tech row="2" page="1" column="0">FINChurchCannons</tech>
+    <!-- Cambio 46/47 (Finlandia): mejoras Veterano/Guardia/Imperial del Blocao + Mosqueteros
+         del Norte, mismo slot (obtainable solo tras "Tratado de Hamina", ver FINCardChurchTreaty). -->
+    <tech row="2" page="1" column="0">FINChurchBlockhouseVeteran</tech>
+    <tech row="2" page="1" column="0">FINChurchBlockhouseGuard</tech>
+    <tech row="2" page="1" column="0">FINChurchBlockhouseImperial</tech>
+    <tech row="2" page="1" column="0">FINChurchNorthernMusketeers</tech>
   </Unit>
+  <unit id="88883210" name="ARGLancer">
+    <dbid>88883201</dbid>
+    <displaynameid>24119</displaynameid>
+    <editornameid>25018</editornameid>
+    <populationcount>2</populationcount>
+    <obstructionradiusx>0.7900</obstructionradiusx>
+    <obstructionradiusz>0.7900</obstructionradiusz>
+    <formationcategory>Mobile</formationcategory>
+    <maxvelocity>6.5000</maxvelocity>
+    <maxrunvelocity>8.5000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\revolution\polish_lancer\polish_lancer_horse.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>cav</physicsinfo>
+    <icon>resources\art\units\revolution\revolutionary_scout_icon.png</icon>
+    <portraiticon>resources\art\units\revolution\revolutionary_scout_portrait.png</portraiticon>
+    <rollovertextid>24118</rollovertextid>
+    <shortrollovertextid>25650</shortrollovertextid>
+    <initialhitpoints>350.0000</initialhitpoints>
+    <maxhitpoints>350.0000</maxhitpoints>
+    <los>15.0000</los>
+    <unitaitype>HandCombative</unitaitype>
+    <trainpoints>40.0000</trainpoints>
+    <bounty>20.0000</bounty>
+    <buildbounty>20.0000</buildbounty>
+    <cost resourcetype="Food">110.0000</cost>
+    <cost resourcetype="Gold">90.0000</cost>
+    <allowedage>2</allowedage>
+    <armor type="Ranged" value="0.3000">
+    </armor>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>AbstractCavalry</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Military</unittype>
+    <unittype>Unit</unittype>
+    <unittype>AbstractLancer</unittype>
+    <unittype>AbstractHeavyCavalry</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractHandCavalry</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>ConstrainOrientation</flag>
+    <flag>OrientUnitWithGround</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <tactics>handCavalry.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>20.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>DefendHandAttack</name>
+      <damage>20.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractInfantry">3.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>GuardianAttack</name>
+      <damage>20.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>20.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractInfantry">3.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>TrampleHandAttack</name>
+      <damage>13.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagecap>39.000000</damagecap>
+      <damagebonus type="AbstractInfantry">3.000000</damagebonus>
+      <damagearea>3.000000</damagearea>
+      <damageflags>Enemy</damageflags>
+    </protoaction>
+  </unit>
+
+  <unit id="88884201" name="EGYStable">
+    <dbid>88884201</dbid>
+    <displaynameid>22919</displaynameid>
+    <obstructionradiusx>3.0000</obstructionradiusx>
+    <obstructionradiusz>5.0000</obstructionradiusz>
+    <maxvelocity>0.0000</maxvelocity>
+    <movementtype>land</movementtype>
+    <animfile>buildings\african_civs\war_camp\war_camp.xml</animfile>
+    <deadreplacement>BuildingRubble5x3</deadreplacement>
+    <deadreplacementlifespan>15</deadreplacementlifespan>
+    <impacttype>Wood</impacttype>
+    <physicsinfo>stable</physicsinfo>
+    <placementfile>buildinglarge.xml</placementfile>
+    <!-- Cambio EGY-fix (v6.4): el ícono de construcción/UI se mantiene el real del Stable —
+         solo el modelo 3D (animfile, arriba) es el del Campamento de Guerra, pedido explícito. -->
+    <icon>resources\art\buildings\stables\stables_icon.png</icon>
+    <portraiticon>resources\art\buildings\stables\stables_portrait.png</portraiticon>
+    <rollovertextid>22918</rollovertextid>
+    <shortrollovertextid>25727</shortrollovertextid>
+    <initialhitpoints>2500.0000</initialhitpoints>
+    <maxhitpoints>2500.0000</maxhitpoints>
+    <los>14.0000</los>
+    <buildpoints>30.0000</buildpoints>
+    <freebuildpoints>119.7600</freebuildpoints>
+    <bounty>40.0000</bounty>
+    <buildbounty>20.0000</buildbounty>
+    <cost resourcetype="Wood">200.0000</cost>
+    <buildingworkrate>1.0000</buildingworkrate>
+    <allowedage>1</allowedage>
+    <armor type="Siege" value="0.0000">
+    </armor>
+    <builderlimit>8</builderlimit>
+    <unittype>LogicalTypeValidSabotage</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWalls</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeShipsAndBuildings</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeBuildingsNotWallsOrGroves</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>LogicalTypeValidSPCBuildingsDeadCondition</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractStables</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>Building</unittype>
+    <unittype>LogicalTypeBuildingsNoRangedAttack</unittype>
+    <unittype>BuildingClass</unittype>
+    <unittype>MilitaryProductionBuilding</unittype>
+    <unittype>MilitaryBuilding</unittype>
+        <!-- Cambio EGY-1: roster propio (col0 Jinete a Camello, col1 Mameluco, col2
+         Arquero a Caballo real de Otomanos sin cambios). -->
+    <train row="0" page="0" column="0">deNatCamelRider</train>
+    <train row="0" page="0" column="1">MercMameluke</train>
+    <train row="0" page="0" column="2">CavalryArcher</train>
+    <tech row="0" page="1" column="1">DEGuardMameluke</tech>
+    <tech row="0" page="1" column="2">GuardCavalryArchers</tech>
+    <tech row="0" page="1" column="2">ImperialCavalryArchers</tech>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>StartsAtFullEfficiency</flag>
+    <flag>Immoveable</flag>
+    <flag>NoBloodOnDeath</flag>
+    <flag>ObscuresUnits</flag>
+    <flag>NoIdleActions</flag>
+    <flag>NonAutoFormedUnit</flag>
+    <flag>Doppled</flag>
+    <flag>SelectWithObstruction</flag>
+    <flag>PaintTextureWhenPlacing</flag>
+    <flag>FlattenGround</flag>
+    <flag>HasGatherPoint</flag>
+    <flag>InitialGarrisonOnly</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="3">SetGatherPointMilitary</command>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="8">CancelAllQueued</command>
+  </unit>
+
+  <!-- Cambio HOT/HGE-3: Grenzer propio, tropa fronteriza (Militärgrenze
+       habsburgo-otomana). Copia del real deNMPandour (animfile schiavone.xml,
+       arte/tactics/protoactions reales sin tocar), pero SIN el mecanismo
+       nativo/Basílica (AbstractBasilicaUnit, coste en XP): pasa a ser una
+       unidad normal de Cuartel, coste en recursos, pop 1, Edad 1. Compartido
+       por Hungría Otomana y Hungría Alemana. -->
+  <unit id="88885206" name="HUNGrenzer">
+    <dbid>88885206</dbid>
+    <displaynameid>88885210</displaynameid>
+    <editornameid>88885210</editornameid>
+    <populationcount>1</populationcount>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <stealthdiscoveryradius>2.0000</stealthdiscoveryradius>
+    <formationcategory>Ranged</formationcategory>
+    <maxvelocity>4.000</maxvelocity>
+    <maxrunvelocity>6.000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\mercenaries\pandour\schiavone.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\mercenaries\pandour\schiavone_icon.png</icon>
+    <portraiticon>resources\art\units\mercenaries\pandour\schiavone_portrait.png</portraiticon>
+    <rollovertextid>88885211</rollovertextid>
+    <shortrollovertextid>88885212</shortrollovertextid>
+    <initialhitpoints>120.0000</initialhitpoints>
+    <maxhitpoints>120.0000</maxhitpoints>
+    <los>26.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <autoattackrange>20.0000</autoattackrange>
+    <unitaitype>RangedCombative</unitaitype>
+    <trainpoints>35.0000</trainpoints>
+    <bounty>12.0000</bounty>
+    <buildbounty>12.0000</buildbounty>
+    <cost resourcetype="Food">60.0000</cost>
+    <cost resourcetype="Gold">40.0000</cost>
+    <allowedage>1</allowedage>
+    <armor type="Ranged" value="0.3000">
+    </armor>
+    <!-- veterancybonus propio (patrón HUNHajduk): ascenso INACTIVO por defecto,
+         lo habilita la carta HUNCardPromotions si la civ la tiene. -->
+    <veterancybonus>
+      <rank id="0">
+        <veterancymodify modifytype="MaxHP">1.1500</veterancymodify>
+        <veterancymodify modifytype="Damage">1.1500</veterancymodify>
+      </rank>
+      <rank id="1">
+        <veterancymodify modifytype="MaxHP">1.3000</veterancymodify>
+        <veterancymodify modifytype="Damage">1.3000</veterancymodify>
+      </rank>
+      <rank id="2">
+        <veterancymodify modifytype="MaxHP">1.4500</veterancymodify>
+        <veterancymodify modifytype="Damage">1.4500</veterancymodify>
+      </rank>
+    </veterancybonus>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Military</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>AbstractRifleman</unittype>
+    <unittype>AbstractCounterSkirmisher</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>rifleman.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>12.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>DefendHandAttack</name>
+      <damage>16.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>DefendRangedAttack</name>
+      <damage>13.500000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>18.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractCounterSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">1.25000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.600000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>16.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerHandAttack</name>
+      <damage>16.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerRangedAttack</name>
+      <damage>13.500000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>18.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractCounterSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">1.25000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.600000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyHandAttack</name>
+      <damage>16.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>13.500000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>18.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractCounterSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">1.25000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.600000</damagebonus>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio HGE-3: Pandur propio, infantería ligera de frontera balcánica al
+       servicio de los Habsburgo (histórico: los Pandur eran tropas irregulares
+       croatas, la base real de este clon). Copia del real deMercPandour
+       (animfile/arte/tactics/protoactions reales sin tocar), pero SIN ser
+       mercenario de Fortaleza: Edad 1, coste en recursos normales, entrenable
+       en el Cuartel en el slot de Guerrillero (Skirmisher). Solo Hungría
+       Alemana. -->
+  <unit id="88886205" name="HUNPandur">
+    <dbid>88886205</dbid>
+    <displaynameid>88886210</displaynameid>
+    <editornameid>88886210</editornameid>
+    <populationcount>2</populationcount>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <stealthdiscoveryradius>2.0000</stealthdiscoveryradius>
+    <formationcategory>Ranged</formationcategory>
+    <maxvelocity>4.500</maxvelocity>
+    <maxrunvelocity>6.500</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\mercenaries\pandour\pandour.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\mercenaries\pandour\pandour_icon.png</icon>
+    <portraiticon>resources\art\units\mercenaries\pandour\pandour_portrait.png</portraiticon>
+    <rollovertextid>88886211</rollovertextid>
+    <shortrollovertextid>88886212</shortrollovertextid>
+    <initialhitpoints>230.0000</initialhitpoints>
+    <maxhitpoints>230.0000</maxhitpoints>
+    <los>25.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <autoattackrange>16.0000</autoattackrange>
+    <unitaitype>RangedCombative</unitaitype>
+    <trainpoints>40.0000</trainpoints>
+    <bounty>19.0000</bounty>
+    <buildbounty>19.0000</buildbounty>
+    <cost resourcetype="Food">60.0000</cost>
+    <cost resourcetype="Gold">60.0000</cost>
+    <allowedage>1</allowedage>
+    <armor type="Ranged" value="0.4000">
+    </armor>
+    <veterancybonus>
+      <rank id="0">
+        <veterancymodify modifytype="MaxHP">1.1500</veterancymodify>
+        <veterancymodify modifytype="Damage">1.1500</veterancymodify>
+      </rank>
+      <rank id="1">
+        <veterancymodify modifytype="MaxHP">1.3000</veterancymodify>
+        <veterancymodify modifytype="Damage">1.3000</veterancymodify>
+      </rank>
+      <rank id="2">
+        <veterancymodify modifytype="MaxHP">1.4500</veterancymodify>
+        <veterancymodify modifytype="Damage">1.4500</veterancymodify>
+      </rank>
+    </veterancybonus>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Military</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>AbstractRifleman</unittype>
+    <unittype>AbstractCounterSkirmisher</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>stealthrifleman.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>20.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>DefendHandAttack</name>
+      <damage>12.00000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractVillager">3.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>DefendRangedAttack</name>
+      <damage>25.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>20.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractCounterSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">1.25000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.600000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>12.00000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractVillager">3.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerHandAttack</name>
+      <damage>12.00000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractVillager">3.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerRangedAttack</name>
+      <damage>25.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>20.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractCounterSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">1.25000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.600000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyHandAttack</name>
+      <damage>12.00000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractVillager">3.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.750000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.750000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>25.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>20.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractCounterSkirmisher">2.5000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">1.25000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractCoyoteMan">0.600000</damagebonus>
+    </protoaction>
+  </unit>
 </protomods>

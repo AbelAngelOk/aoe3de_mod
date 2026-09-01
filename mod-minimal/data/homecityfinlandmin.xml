@@ -262,13 +262,6 @@
       <age>0</age>
     </card>
     <card>
-      <name>DEHCExplorerSwedish</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-    </card>
-    <card>
       <name>DEHCBlackberries</name>
       <maxcount>-1</maxcount>
       <level>10</level>
@@ -290,51 +283,6 @@
       <age>3</age>
     </card>
     <card>
-      <name>HCShipPikemen1</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>8</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipPikemen2</name>
-      <maxcount>-1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipPikemen1</prereqtech>
-      <age>2</age>
-      <displayunitcount>10</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipPikemen4</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>12</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipCaroleans1</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>8</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipCaroleansRepeat</name>
-      <maxcount>-1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>10</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCShipHussars1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -353,22 +301,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipPikemen5</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>24</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCDalecarlianRebellion</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCShipPikemen5</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
       <name>DEHCShipHakkapelits3</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -383,15 +315,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>5</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipLeatherCannons2</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
       <displayunitcount>5</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
@@ -415,48 +338,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-    </card>
-    <card>
-      <name>DEHCPlatoonFire</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
-      <name>DEHCShipLeatherCannonsFoundry</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>2</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipLeatherCannons1</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>2</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipLeatherCannons3</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>3</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipLeatherCannonsRepeat</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>2</displayunitcount>
     </card>
     <card>
       <name>HCShipHussars4</name>
@@ -495,24 +376,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCShipCaroleans3</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>16</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipCaroleans2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>9</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>DEHCFinnhorses</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -521,43 +384,10 @@
       <bindtotech>DEHCREVFinnhorses</bindtotech>
     </card>
     <card>
-      <name>HCShipGrenadiers1</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>5</displayunitcount>
-    </card>
-    <card>
-      <name>HCShipGrenadiers3</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>6</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipGrenadiers4</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>HCShipGrenadiers3</prereqtech>
-      <age>3</age>
-      <displayunitcount>9</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCInfantryGuns</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
       <name>HCShipFalconets3</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>DEHCInfantryGuns</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -589,17 +419,10 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>DEHCCaseShot</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
       <name>HCShipMortars2</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>DEHCCaseShot</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -636,13 +459,459 @@
       <age>1</age>
     </card>
     <card>
-      <name>DEHCDominions</name>
+      <name>HCREVShipColonialMilitia</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>16</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCREVShipIronclads</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>2</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCREVShipFortWagon</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>1</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVConscription</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <displayunitcount>16</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVLegionMilitia</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <displayunitcount>15</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVPowderAlarm</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <displayunitcount>7</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCFedMarionsDiversions</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <displayunitcount>2</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCBourbonAllies1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <displayunitcount>25</displayunitcount>
+      <bindtotech>DEHCBourbonAllies1</bindtotech>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVLegionCarbines</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <displayunitcount>12</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVVolunteers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <displayunitcount>12</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVLegionRegulars</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <displayunitcount>12</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVLegionUhlans</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <displayunitcount>12</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVLegionArtillery</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVLegionIronPetards</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <displayunitcount>6</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVLegionSpies</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <displayunitcount>12</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVCitizenship</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVImmigrantsEuropean</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCFedFertileLowlands</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVWashingtonLands</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVUSAHeroBuff</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVCTrainTimeUS</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVUSACombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVLongRifles</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>FINCardTurkuAcademy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>HCFrontierDefensesRussian</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>DEHCImmigrantsRussian</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>FINCardSuomenlinna</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>FINCardChurchTreaty</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>FINCardKalmarBlockhouses</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>FINShipKarelian1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipKarelian2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipKarelian3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>16</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipKarelian4</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>FINShipCounterJaeger1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipCounterJaeger2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipCounterJaeger3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>9</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipCounterJaeger4</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipCounterDragoon1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipCounterDragoon2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipCounterDragoon3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>9</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipCounterDragoon4</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>FINShipHalberdier1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
       <displayunitcount>4</displayunitcount>
-      <bindtotech>DEHCDominions</bindtotech>
+    </card>
+    <card>
+      <name>FINShipHalberdier2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipHalberdier3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipHalberdier4</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>13</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipLandsknecht1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipLandsknechtHire</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipLandsknecht2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
+    </card>
+    <card>
+      <name>FINShipLandsknecht3</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>FINMercIrishBrigadiers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>9</displayunitcount>
+    </card>
+    <card>
+      <name>FINMercSwissPikemen</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>12</displayunitcount>
+    </card>
+    <card>
+      <name>FINMercBlackRiders</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
     </card>
     <card>
       <name>HCNativeLore</name>
@@ -755,13 +1024,6 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>DEHCExtensiveFortificationsEuropean</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>HCUnlockFort</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
       <name>HCFencingSchool</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -770,13 +1032,6 @@
     </card>
     <card>
       <name>HCRidingSchool</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
-      <name>DEHCRoyalDecreeSwedish</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
@@ -1157,35 +1412,12 @@
       <displayunitcount>3</displayunitcount>
     </card>
     <card>
-      <name>DEHCContractMercsGiantGrenadiers</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>DEHCContractMercsLandsknechts</prereqtech>
-      <age>2</age>
-      <displayunitcount>8</displayunitcount>
-    </card>
-    <card>
       <name>DEHCContractMercsBlackRiders</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>DEHCContractMercsLandsknechts</prereqtech>
       <age>2</age>
       <displayunitcount>7</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCContractMercsHessians</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>DEHCContractMercsSwissPikemen</prereqtech>
-      <age>2</age>
-      <displayunitcount>10</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCGermanMercenaryContracts</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
     </card>
     <card>
       <name>HCMercsHighland</name>
@@ -1272,15 +1504,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCCaribAllies</name>
-      <maxcount>1</maxcount>
-      <level>40</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>17</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>DEHCOldenburgAllies1</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -1297,14 +1520,6 @@
       <age>3</age>
       <displayunitcount>8</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCSoldierTorps</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <bindtotech>DEHCREVSoldierTorps</bindtotech>
     </card>
     <card>
       <name>DEHCCronstedtReforms</name>
@@ -1368,13 +1583,6 @@
       <prereqtech>-1</prereqtech>
       <age>0</age>
       <displayunitcount>2</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCHandMortar</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
     </card>
     <card>
       <name>DEHCShipBattleshipRepeat</name>
@@ -1531,16 +1739,6 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVLegionGrenadiers</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>1</age>
-      <displayunitcount>16</displayunitcount>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
       <name>DEHCREVLegionArtillery</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1645,215 +1843,254 @@
       <revoltcard>
       </revoltcard>
     </card>
+    <!-- Cambio 39: se reemplazan las referencias directas a las 23 techs reales
+         (Cambio 37, escondidas por el mecanismo de revoltdeck) por replicas propias
+         FINRev* que activan esas mismas techs via TechStatus. Ver techtreemods.xml
+         y el edificio Academia (filas y=9/10/11) para ubicarlas visualmente. -->
+    <card>
+      <name>FINRevBarracksHP</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>FINRevBlockhouseCannon</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>FINRevSoldierTorps</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>FINRevSpawnStrelet</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>FINRevDominions</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
+      <name>FINRevNorthernWilderness</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>FINRevShipHakkapelits</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>FINRevShipBalticFleet</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>FINRevGunboats</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>FINRevCudgelWar</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>FINRevJaegerCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>FINRevFinnishCounterArmy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>FINRevFinnhorses</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>FINRevShipCoinCrates</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>FINRevTreeSpawn</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>FINRevShipElk</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>FINRevShipCopperMines</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>FINRevBlackberries</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCREVShipElk</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>15</displayunitcount>
+    </card>
     <card>
       <name>HCBarracksHPTeam</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <bindtotech>HCBarracksHPTeam</bindtotech>
-      <revoltcard>
-      </revoltcard>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCREVBlockhouseCannon</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>0</age>
-      <revoltcard>
-      </revoltcard>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCREVSoldierTorps</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>0</age>
-      <bindtotech>DEHCSoldierTorps</bindtotech>
-      <revoltcard>
-      </revoltcard>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCREVSpawnStrelet</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>0</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVShipBlockhouses</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>1</age>
-      <displayunitcount>5</displayunitcount>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVTurkuAcademy</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>1</age>
-      <displayunitcount>5</displayunitcount>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVNothernWilderness</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>1</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVShipHakkapelits</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>8</displayunitcount>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVShipBalticFleet</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
-      <displayunitcount>2</displayunitcount>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVGunboats</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
-      <revoltcard>
-      </revoltcard>
     </card>
     <card>
       <name>DEHCREVCudgelWar</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>2</age>
-      <revoltcard>
-      </revoltcard>
     </card>
     <card>
       <name>DEHCREVJaegerCombat</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>2</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVArmfeltsAutonomy</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVFinnishCounterArmy</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
-      <revoltcard>
-      </revoltcard>
     </card>
     <card>
       <name>DEHCREVFinnhorses</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>2</age>
-      <bindtotech>DEHCFinnhorses</bindtotech>
-      <revoltcard>
-      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipCopperMines</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCREVNothernWilderness</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCREVSavolaxJaegers</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>2</age>
-      <bindtotech>DEChurchSavolaxJaegers</bindtotech>
-      <revoltcard>
-      </revoltcard>
     </card>
     <card>
-      <name>DEHCREVShipFoodCrates</name>
-      <maxcount>-1</maxcount>
+      <name>DEHCREVShipHakkapelits</name>
+      <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>1600</displayunitcount>
-      <revoltcard>
-      </revoltcard>
+      <displayunitcount>8</displayunitcount>
     </card>
     <card>
-      <name>DEHCREVShipCoinCrates</name>
-      <maxcount>-1</maxcount>
+      <name>DEHCREVShipBalticFleet</name>
+      <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>1600</displayunitcount>
-      <revoltcard>
-      </revoltcard>
     </card>
     <card>
-      <name>DEHCREVTreeSpawn</name>
-      <maxcount>-1</maxcount>
+      <name>DEHCREVGunboats</name>
+      <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
-      <revoltcard>
-      </revoltcard>
     </card>
     <card>
-      <name>DEHCREVShipElk</name>
-      <maxcount>-1</maxcount>
+      <name>DEHCREVFinnishCounterArmy</name>
+      <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
+      <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>15</displayunitcount>
-      <revoltcard>
-      </revoltcard>
     </card>
     <card>
-      <name>DEHCREVShipCopperMines</name>
-      <maxcount>-1</maxcount>
+      <name>DEHCREVArmfeltsAutonomy</name>
+      <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>3</age>
-      <displayunitcount>4</displayunitcount>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVBlackberries</name>
-      <maxcount>2</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>3</age>
-      <revoltcard>
-      </revoltcard>
+      <prereqtech>-1</prereqtech>
+      <age>4</age>
     </card>
   </cards>
   <decks>
@@ -1866,50 +2103,36 @@
         <card dbid="2215">HCShipCoinCrates3</card>
         <card dbid="2212">HCShipWoodCrates3</card>
         <card dbid="2220">HCShipCows</card>
-        <card dbid="6397">DEHCShipLeatherCannons1</card>
         <card dbid="6403">DEHCDominions</card>
-        <card dbid="2571">HCFrontierDefenses</card>
-        <card dbid="6589">DEHCKalmarCastle</card>
         <card dbid="814">HCUnlockFort</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="3345">HCXPIndustrialRevolution</card>
         <card dbid="6391">DEHCFinnhorses</card>
         <card dbid="6506">DEHCShipFalconetsCulverins1</card>
-        <card dbid="6500">DEHCGermanMercenaryContracts</card>
         <card dbid="6536">DEHCBlackberries</card>
         <card dbid="6508">DEHCShipHakkapelits2</card>
         <card dbid="6632">DEHCHakkapelitMarch</card>
         <card dbid="2219">HCShipSheep2</card>
         <card dbid="6400">DEHCShipMineWagonRepeat</card>
         <card dbid="6531">DEHCShipElks</card>
-        <card dbid="6414">DEHCCaseShot</card>
-        <card dbid="6410">DEHCContractMercsIrishBrigadiers</card>
         <card dbid="6517">DEHCBlueberries</card>
-        <card dbid="6384">DEHCSoldierTorps</card>
-        <card dbid="6501">DEHCInfantryGuns</card>
       </cards>
     </deck>
     <deck>
       <name>$$20310$$Land</name>
       <cards>
-        <card dbid="6500">DEHCGermanMercenaryContracts</card>
         <card dbid="2093">HCRoyalMint</card>
         <card dbid="6402">DEHCShipMineWagon2</card>
         <card dbid="6403">DEHCDominions</card>
         <card dbid="6388">DEHCHeavyInfHitpointsTeam</card>
-        <card dbid="6397">DEHCShipLeatherCannons1</card>
         <card dbid="2212">HCShipWoodCrates3</card>
         <card dbid="6394">DEHCFalunMineTeam</card>
         <card dbid="2043">HCSilversmith</card>
-        <card dbid="6414">DEHCCaseShot</card>
-        <card dbid="6393">DEHCCronstedtReforms</card>
         <card dbid="2236">HCShipFalconets3</card>
-        <card dbid="6389">DEHCPlatoonFire</card>
         <card dbid="6392">DEHCSnaplocks</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="3345">HCXPIndustrialRevolution</card>
         <card dbid="6404">DEHCSveaLifeguard</card>
-        <card dbid="2227">HCShipPikemen1</card>
         <card dbid="2037">HCFencingSchool</card>
         <card dbid="2209">HCShipFoodCrates3</card>
         <card dbid="6513">DEHCShipElks</card>
@@ -1930,8 +2153,6 @@
         <card dbid="2207">HCShipSettlers3</card>
         <card dbid="6395">DEHCTorpTeam</card>
         <card dbid="6413">DEHCContractMercsLandsknechts</card>
-        <card dbid="6380">DEHCRoyalDecreeSwedish</card>
-        <card dbid="6397">DEHCShipLeatherCannons1</card>
         <card dbid="2323">HCNavalGunners</card>
         <card dbid="2225">HCNavalCombat</card>
         <card dbid="2221">HCShipCaravels2</card>
@@ -1941,7 +2162,6 @@
         <card dbid="3389">HCXPWhaleOil</card>
         <card dbid="2212">HCShipWoodCrates3</card>
         <card dbid="6387">DEHCHandUnitHitpoints</card>
-        <card dbid="6385">DEHCDalecarlianRebellion</card>
         <card dbid="2223">HCShipFrigates</card>
         <card dbid="814">HCUnlockFort</card>
         <card dbid="6514">DEHCShipBalticFleet</card>
@@ -1958,7 +2178,6 @@
         <card dbid="3345">HCXPIndustrialRevolution</card>
         <card dbid="2213">HCShipWoodCrates4</card>
         <card dbid="2216">HCShipCoinCrates4</card>
-        <card dbid="6589">DEHCKalmarCastle</card>
         <card dbid="2093">HCRoyalMint</card>
         <card dbid="2041">HCRefrigeration</card>
         <card dbid="2211">HCShipWoodCrates2</card>
@@ -1967,7 +2186,6 @@
         <card dbid="6534">DEHCEngelsbergIronworks</card>
         <card dbid="6403">DEHCDominions</card>
         <card dbid="2207">HCShipSettlers3</card>
-        <card dbid="6396">DEHCExplorerSwedish</card>
         <card dbid="1796">HCAdvancedTradingPost</card>
         <card dbid="1992">HCColonialMilitia</card>
         <card dbid="6395">DEHCTorpTeam</card>
@@ -1992,7 +2210,6 @@
         <card dbid="2102">HCTextileMills</card>
         <card dbid="2093">HCRoyalMint</card>
         <card dbid="6392">DEHCSnaplocks</card>
-        <card dbid="6389">DEHCPlatoonFire</card>
         <card dbid="3345">HCXPIndustrialRevolution</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="6391">DEHCFinnhorses</card>
@@ -2003,7 +2220,6 @@
         <card dbid="6536">DEHCBlackberries</card>
         <card dbid="6386">DEHCHandUnitDamage</card>
         <card dbid="6609">DEHCNorthernForests</card>
-        <card dbid="6414">DEHCCaseShot</card>
         <card dbid="6700">DEHCShipMineWagon3</card>
         <card dbid="6534">DEHCEngelsbergIronworks</card>
         <card dbid="10304">DEHCWittelsbachAlliesRepeat</card>
@@ -2022,7 +2238,6 @@
         <card dbid="2102">HCTextileMills</card>
         <card dbid="2093">HCRoyalMint</card>
         <card dbid="6392">DEHCSnaplocks</card>
-        <card dbid="6389">DEHCPlatoonFire</card>
         <card dbid="3345">HCXPIndustrialRevolution</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="6391">DEHCFinnhorses</card>
@@ -2032,80 +2247,18 @@
         <card dbid="6536">DEHCBlackberries</card>
         <card dbid="6609">DEHCNorthernForests</card>
         <card dbid="1847">HCNativeWarriors</card>
-        <card dbid="6414">DEHCCaseShot</card>
         <card dbid="6386">DEHCHandUnitDamage</card>
         <card dbid="2573">HCShipWoodCrates1</card>
         <card dbid="6633">DEHCTrampleTactics</card>
         <card dbid="6390">DEHCRangedCavalryCombat</card>
       </cards>
     </deck>
-    <revoltdeck>
-      <name>$$45518$$</name>
-      <cards>
-        <card>HCREVShipGatlingGuns</card>
-        <card>HCREVShipColonialMilitia</card>
-        <card>HCREVShipIronclads</card>
-        <card>HCREVShipFortWagon</card>
-      </cards>
-    </revoltdeck>
-    <revoltdeck civ="DERevUSA">
-      <name>$$45518$$</name>
-      <cards>
-        <card>HCREVShipColonialMilitia</card>
-        <card>DEHCREVConscription</card>
-        <card>DEHCREVLegionMilitia</card>
-        <card>DEHCREVPowderAlarm</card>
-        <card>DEHCFedMarionsDiversions</card>
-        <card>DEHCBourbonAllies1</card>
-        <card>DEHCREVLegionCarbines</card>
-        <card>DEHCREVVolunteers</card>
-        <card>DEHCREVLegionRegulars</card>
-        <card>DEHCREVLegionUhlans</card>
-        <card>DEHCREVLegionGrenadiers</card>
-        <card>DEHCREVLegionArtillery</card>
-        <card>DEHCREVLegionIronPetards</card>
-        <card>DEHCREVLegionSpies</card>
-        <card>HCREVShipGatlingGuns</card>
-        <card>HCREVShipIronclads</card>
-        <card>HCREVShipFortWagon</card>
-        <card>DEHCREVCitizenship</card>
-        <card>DEHCREVImmigrantsEuropean</card>
-        <card>DEHCFedFertileLowlands</card>
-        <card>DEHCREVWashingtonLands</card>
-        <card>DEHCREVUSAHeroBuff</card>
-        <card>DEHCREVCTrainTimeUS</card>
-        <card>DEHCREVUSACombat</card>
-        <card>DEHCREVLongRifles</card>
-      </cards>
-    </revoltdeck>
-    <revoltdeck civ="DERevFinland">
-      <name>$$45518$$</name>
-      <cards>
-        <card>HCBarracksHPTeam</card>
-        <card>DEHCREVBlockhouseCannon</card>
-        <card>DEHCREVSoldierTorps</card>
-        <card>DEHCREVSpawnStrelet</card>
-        <card>DEHCREVShipBlockhouses</card>
-        <card>DEHCDominions</card>
-        <card>DEHCREVTurkuAcademy</card>
-        <card>DEHCREVNothernWilderness</card>
-        <card>DEHCREVShipHakkapelits</card>
-        <card>DEHCREVShipBalticFleet</card>
-        <card>DEHCREVGunboats</card>
-        <card>DEHCREVCudgelWar</card>
-        <card>DEHCREVJaegerCombat</card>
-        <card>DEHCREVArmfeltsAutonomy</card>
-        <card>DEHCREVFinnishCounterArmy</card>
-        <card>DEHCREVFinnhorses</card>
-        <card>DEHCREVSavolaxJaegers</card>
-        <card>DEHCREVShipFoodCrates</card>
-        <card>DEHCREVShipCoinCrates</card>
-        <card>DEHCREVTreeSpawn</card>
-        <card>DEHCREVShipElk</card>
-        <card>DEHCREVShipCopperMines</card>
-        <card>DEHCREVBlackberries</card>
-      </cards>
-    </revoltdeck>
+    <!-- Cambio 38: se eliminaron los 3 <revoltdeck> heredados de clonar Suecia entera (uno
+         genérico, uno de EEUU, uno de Finlandia) — vestigios de cuando el civ podía
+         revolucionar. Se abandonaron las revoluciones por completo (Cambio 36); estos bloques
+         no tenían ningún uso Y probablemente hacían que el motor tratara las cartas listadas
+         ahí como "exclusivas de revolución" (invisibles en el editor de mazos normal aunque
+         también estuvieran en el pool plano). -->
   </decks>
   <building>
     <name>Mansion</name>
@@ -2148,6 +2301,7 @@
     <rolloverstringid>25536</rolloverstringid>
     <obtainabletechs>
       <tech x="0.5" y="2.0">DEHCFalunMineTeam</tech>
+      <tech x="0.1" y="1.0">FINCardTurkuAcademy</tech>
       <tech x="0.8" y="1.0">HCShipSettlers1</tech>
       <tech x="0.8" y="1.0">HCShipSettlers3</tech>
       <tech x="2.1" y="1.0">HCShipFoodCrates1</tech>
@@ -2172,13 +2326,18 @@
       <tech x="5.6" y="3.0">HCShipSurgeons</tech>
       <tech x="5.2" y="4.0">HCXPShipSurgeons2</tech>
       <tech x="6.0" y="4.0">HCXPMasterSurgeons</tech>
-      <tech x="7.0" y="1.0">DEHCExplorerSwedish</tech>
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
       <tech x="7.0" y="5.0">DEHCShipFishCrate</tech>
+      <tech x="2.6" y="1.0">HCFrontierDefensesRussian</tech>
+      <tech x="3.0" y="4.0">DEHCImmigrantsRussian</tech>
+      <tech x="3.4" y="4.0">FINCardSuomenlinna</tech>
+      <tech x="3.8" y="4.0">FINCardChurchTreaty</tech>
+      <tech x="4.2" y="4.0">FINCardKalmarBlockhouses</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.5" y="2.0">DEHCFalunMineTeam</tech>
+      <tech x="0.1" y="1.0">FINCardTurkuAcademy</tech>
       <tech x="0.8" y="1.0">HCShipSettlers1</tech>
       <tech x="0.8" y="1.0">HCShipSettlers3</tech>
       <tech x="2.1" y="1.0">HCShipFoodCrates1</tech>
@@ -2203,10 +2362,14 @@
       <tech x="5.6" y="3.0">HCShipSurgeons</tech>
       <tech x="5.2" y="4.0">HCXPShipSurgeons2</tech>
       <tech x="6.0" y="4.0">HCXPMasterSurgeons</tech>
-      <tech x="7.0" y="1.0">DEHCExplorerSwedish</tech>
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
       <tech x="7.0" y="5.0">DEHCShipFishCrate</tech>
+      <tech x="2.6" y="1.0">HCFrontierDefensesRussian</tech>
+      <tech x="3.0" y="4.0">DEHCImmigrantsRussian</tech>
+      <tech x="3.4" y="4.0">FINCardSuomenlinna</tech>
+      <tech x="3.8" y="4.0">FINCardChurchTreaty</tech>
+      <tech x="4.2" y="4.0">FINCardKalmarBlockhouses</tech>
     </activetechs>
     <validunits>
     </validunits>
@@ -2229,100 +2392,136 @@
     <displaynamestringid>24965</displaynamestringid>
     <rolloverstringid>25533</rolloverstringid>
     <obtainabletechs>
-      <tech x="0.0" y="2.0">HCShipPikemen1</tech>
-      <tech x="0.0" y="3.0">HCShipPikemen2</tech>
-      <tech x="0.7" y="1.0">HCShipPikemen4</tech>
-      <tech x="0.7" y="2.0">DEHCShipCaroleans1</tech>
       <tech x="0.7" y="3.0">HCShipHussars1</tech>
       <tech x="0.7" y="3.0">HCShipHussars2</tech>
-      <tech x="0.0" y="4.0">DEHCShipCaroleansRepeat</tech>
-      <tech x="0.7" y="4.0">HCShipPikemen5</tech>
       <tech x="0.7" y="5.0">DEHCShipHakkapelits3</tech>
-      <tech x="0.0" y="5.0">DEHCDalecarlianRebellion</tech>
       <tech x="1.9" y="2.0">DEHCShipHakkapelits2</tech>
       <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
       <tech x="2.3" y="4.0">DEHCHandUnitHitpoints</tech>
       <tech x="2.3" y="4.0">DEHCHeavyInfHitpointsTeam</tech>
       <tech x="2.3" y="4.0">DEHCRangedCavalryCombat</tech>
-      <tech x="2.3" y="5.0">DEHCPlatoonFire</tech>
-      <tech x="3.2" y="1.0">DEHCShipLeatherCannonsFoundry</tech>
-      <tech x="3.2" y="1.0">DEHCShipLeatherCannons1</tech>
-      <tech x="1.6" y="5.0">DEHCShipLeatherCannons2</tech>
-      <tech x="3.2" y="1.0">DEHCShipLeatherCannons3</tech>
-      <tech x="3.2" y="1.0">DEHCShipLeatherCannonsRepeat</tech>
       <tech x="3.2" y="2.0">HCShipHussars4</tech>
       <tech x="3.2" y="3.0">HCShipHussars5</tech>
       <tech x="4.2" y="2.0">DEHCShipHakkapelits1</tech>
       <tech x="3.9" y="4.0">HCXPShipHorseArtillery2</tech>
-      <tech x="3.4" y="5.0">DEHCShipCaroleans2</tech>
-      <tech x="3.9" y="7.0">DEHCShipCaroleans3</tech>
       <tech x="4.6" y="3.0">DEHCFinnhorses</tech>
-      <tech x="5.2" y="1.0">HCShipGrenadiers1</tech>
-      <tech x="5.2" y="1.0">HCShipGrenadiers3</tech>
-      <tech x="5.2" y="2.0">HCShipGrenadiers4</tech>
-      <tech x="5.9" y="1.0">DEHCInfantryGuns</tech>
       <tech x="5.9" y="2.0">HCShipFalconets3</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins1</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins2</tech>
       <tech x="6.6" y="1.0">HCAdvancedArtillery</tech>
       <tech x="6.6" y="3.0">HCShipCannons1</tech>
-      <tech x="7.3" y="1.0">DEHCCaseShot</tech>
       <tech x="7.3" y="2.0">HCShipMortars2</tech>
       <tech x="7.3" y="7.0">HCXPShipMortarsTeam</tech>
-      <tech x="7.3" y="7.0">DEHCCronstedtReforms</tech>
       <tech x="7.3" y="7.0">DEHCSveaLifeguard</tech>
       <tech x="3.0" y="3.0">DEHCSnaplocks</tech>
-      <tech x="7.2" y="7.0">DEHCHandMortar</tech>
       <tech x="7.2" y="7.0">DEHCHakkapelitMarch</tech>
       <tech x="7.2" y="7.0">DEHCTrampleTactics</tech>
+      <tech x="0.1" y="6.0">FINShipKarelian1</tech>
+      <tech x="1.0" y="6.0">FINShipKarelian2</tech>
+      <tech x="1.9" y="6.0">FINShipKarelian3</tech>
+      <tech x="2.8" y="6.0">FINShipKarelian4</tech>
+      <tech x="3.7" y="6.0">FINShipCounterJaeger1</tech>
+      <tech x="4.6" y="6.0">FINShipCounterJaeger2</tech>
+      <tech x="5.5" y="6.0">FINShipCounterJaeger3</tech>
+      <tech x="6.4" y="6.0">FINShipCounterJaeger4</tech>
+      <tech x="0.1" y="7.0">FINShipCounterDragoon1</tech>
+      <tech x="1.0" y="7.0">FINShipCounterDragoon2</tech>
+      <tech x="1.9" y="7.0">FINShipCounterDragoon3</tech>
+      <tech x="2.8" y="7.0">FINShipCounterDragoon4</tech>
+      <tech x="3.7" y="7.0">FINShipHalberdier1</tech>
+      <tech x="4.6" y="7.0">FINShipHalberdier2</tech>
+      <tech x="5.5" y="7.0">FINShipHalberdier3</tech>
+      <tech x="6.4" y="7.0">FINShipHalberdier4</tech>
+      <tech x="0.1" y="8.0">FINShipLandsknecht1</tech>
+      <tech x="1.0" y="8.0">FINShipLandsknecht2</tech>
+      <tech x="1.9" y="8.0">FINShipLandsknecht3</tech>
+      <tech x="2.8" y="8.0">FINMercIrishBrigadiers</tech>
+      <tech x="3.7" y="8.0">FINMercSwissPikemen</tech>
+      <tech x="4.6" y="8.0">FINMercBlackRiders</tech>
+      <tech x="0.1" y="9.0">FINRevBarracksHP</tech>
+      <tech x="1.0" y="9.0">FINRevBlockhouseCannon</tech>
+      <tech x="1.9" y="9.0">FINRevSoldierTorps</tech>
+      <tech x="2.8" y="9.0">FINRevSpawnStrelet</tech>
+      <tech x="4.6" y="9.0">FINRevDominions</tech>
+      <tech x="6.4" y="9.0">FINRevNorthernWilderness</tech>
+      <tech x="0.1" y="10.0">FINRevShipHakkapelits</tech>
+      <tech x="1.0" y="10.0">FINRevShipBalticFleet</tech>
+      <tech x="1.9" y="10.0">FINRevGunboats</tech>
+      <tech x="2.8" y="10.0">FINRevCudgelWar</tech>
+      <tech x="3.7" y="10.0">FINRevJaegerCombat</tech>
+      <tech x="5.5" y="10.0">FINRevFinnishCounterArmy</tech>
+      <tech x="6.4" y="10.0">FINRevFinnhorses</tech>
+      <tech x="1.9" y="11.0">FINRevShipCoinCrates</tech>
+      <tech x="2.8" y="11.0">FINRevTreeSpawn</tech>
+      <tech x="3.7" y="11.0">FINRevShipElk</tech>
+      <tech x="4.6" y="11.0">FINRevShipCopperMines</tech>
+      <tech x="5.5" y="11.0">FINRevBlackberries</tech>
     </obtainabletechs>
     <activetechs>
-      <tech x="0.0" y="2.0">HCShipPikemen1</tech>
-      <tech x="0.0" y="3.0">HCShipPikemen2</tech>
-      <tech x="0.7" y="1.0">HCShipPikemen4</tech>
-      <tech x="0.7" y="2.0">DEHCShipCaroleans1</tech>
       <tech x="0.7" y="3.0">HCShipHussars1</tech>
       <tech x="0.7" y="3.0">HCShipHussars2</tech>
-      <tech x="0.0" y="4.0">DEHCShipCaroleansRepeat</tech>
-      <tech x="0.7" y="4.0">HCShipPikemen5</tech>
       <tech x="0.7" y="5.0">DEHCShipHakkapelits3</tech>
-      <tech x="0.0" y="5.0">DEHCDalecarlianRebellion</tech>
       <tech x="1.9" y="2.0">DEHCShipHakkapelits2</tech>
-      <tech x="3.2" y="1.0">DEHCShipLeatherCannonsFoundry</tech>
-      <tech x="3.2" y="1.0">DEHCShipLeatherCannons1</tech>
-      <tech x="1.6" y="5.0">DEHCShipLeatherCannons2</tech>
-      <tech x="3.2" y="1.0">DEHCShipLeatherCannons3</tech>
-      <tech x="3.2" y="1.0">DEHCShipLeatherCannonsRepeat</tech>
       <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
       <tech x="2.3" y="4.0">DEHCHandUnitHitpoints</tech>
       <tech x="2.3" y="4.0">DEHCHeavyInfHitpointsTeam</tech>
       <tech x="2.3" y="4.0">DEHCRangedCavalryCombat</tech>
-      <tech x="2.3" y="5.0">DEHCPlatoonFire</tech>
       <tech x="3.2" y="2.0">HCShipHussars4</tech>
       <tech x="3.2" y="3.0">HCShipHussars5</tech>
       <tech x="4.2" y="2.0">DEHCShipHakkapelits1</tech>
       <tech x="3.9" y="4.0">HCXPShipHorseArtillery2</tech>
-      <tech x="3.4" y="5.0">DEHCShipCaroleans2</tech>
-      <tech x="3.9" y="7.0">DEHCShipCaroleans3</tech>
       <tech x="4.6" y="3.0">DEHCFinnhorses</tech>
-      <tech x="5.2" y="1.0">HCShipGrenadiers1</tech>
-      <tech x="5.2" y="1.0">HCShipGrenadiers3</tech>
-      <tech x="5.2" y="2.0">HCShipGrenadiers4</tech>
-      <tech x="5.9" y="1.0">DEHCInfantryGuns</tech>
       <tech x="5.9" y="2.0">HCShipFalconets3</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins1</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins2</tech>
       <tech x="6.6" y="1.0">HCAdvancedArtillery</tech>
       <tech x="6.6" y="3.0">HCShipCannons1</tech>
-      <tech x="7.3" y="1.0">DEHCCaseShot</tech>
       <tech x="7.3" y="2.0">HCShipMortars2</tech>
       <tech x="7.3" y="7.0">HCXPShipMortarsTeam</tech>
-      <tech x="7.3" y="7.0">DEHCCronstedtReforms</tech>
       <tech x="7.3" y="7.0">DEHCSveaLifeguard</tech>
       <tech x="3.0" y="3.0">DEHCSnaplocks</tech>
-      <tech x="7.2" y="7.0">DEHCHandMortar</tech>
       <tech x="7.2" y="7.0">DEHCHakkapelitMarch</tech>
       <tech x="7.2" y="7.0">DEHCTrampleTactics</tech>
+      <tech x="0.1" y="6.0">FINShipKarelian1</tech>
+      <tech x="1.0" y="6.0">FINShipKarelian2</tech>
+      <tech x="1.9" y="6.0">FINShipKarelian3</tech>
+      <tech x="2.8" y="6.0">FINShipKarelian4</tech>
+      <tech x="3.7" y="6.0">FINShipCounterJaeger1</tech>
+      <tech x="4.6" y="6.0">FINShipCounterJaeger2</tech>
+      <tech x="5.5" y="6.0">FINShipCounterJaeger3</tech>
+      <tech x="6.4" y="6.0">FINShipCounterJaeger4</tech>
+      <tech x="0.1" y="7.0">FINShipCounterDragoon1</tech>
+      <tech x="1.0" y="7.0">FINShipCounterDragoon2</tech>
+      <tech x="1.9" y="7.0">FINShipCounterDragoon3</tech>
+      <tech x="2.8" y="7.0">FINShipCounterDragoon4</tech>
+      <tech x="3.7" y="7.0">FINShipHalberdier1</tech>
+      <tech x="4.6" y="7.0">FINShipHalberdier2</tech>
+      <tech x="5.5" y="7.0">FINShipHalberdier3</tech>
+      <tech x="6.4" y="7.0">FINShipHalberdier4</tech>
+      <tech x="0.1" y="8.0">FINShipLandsknecht1</tech>
+      <tech x="1.0" y="8.0">FINShipLandsknecht2</tech>
+      <tech x="1.9" y="8.0">FINShipLandsknecht3</tech>
+      <tech x="2.8" y="8.0">FINMercIrishBrigadiers</tech>
+      <tech x="3.7" y="8.0">FINMercSwissPikemen</tech>
+      <tech x="4.6" y="8.0">FINMercBlackRiders</tech>
+      <tech x="0.1" y="9.0">FINRevBarracksHP</tech>
+      <tech x="1.0" y="9.0">FINRevBlockhouseCannon</tech>
+      <tech x="1.9" y="9.0">FINRevSoldierTorps</tech>
+      <tech x="2.8" y="9.0">FINRevSpawnStrelet</tech>
+      <tech x="4.6" y="9.0">FINRevDominions</tech>
+      <tech x="6.4" y="9.0">FINRevNorthernWilderness</tech>
+      <tech x="0.1" y="10.0">FINRevShipHakkapelits</tech>
+      <tech x="1.0" y="10.0">FINRevShipBalticFleet</tech>
+      <tech x="1.9" y="10.0">FINRevGunboats</tech>
+      <tech x="2.8" y="10.0">FINRevCudgelWar</tech>
+      <tech x="3.7" y="10.0">FINRevJaegerCombat</tech>
+      <tech x="5.5" y="10.0">FINRevFinnishCounterArmy</tech>
+      <tech x="6.4" y="10.0">FINRevFinnhorses</tech>
+      <tech x="1.9" y="11.0">FINRevShipCoinCrates</tech>
+      <tech x="2.8" y="11.0">FINRevTreeSpawn</tech>
+      <tech x="3.7" y="11.0">FINRevShipElk</tech>
+      <tech x="4.6" y="11.0">FINRevShipCopperMines</tech>
+      <tech x="5.5" y="11.0">FINRevBlackberries</tech>
     </activetechs>
     <validunits>
     </validunits>
@@ -2355,11 +2554,7 @@
       <tech x="2.3" y="2.0">HCPioneers</tech>
       <tech x="2.3" y="3.0">HCImprovedBuildings</tech>
       <tech x="3.0" y="2.0">HCColonialMilitia</tech>
-      <tech x="2.6" y="1.0">HCFrontierDefenses</tech>
-      <tech x="3.0" y="4.0">HCFrontierDefenses2</tech>
       <tech x="3.7" y="1.0">HCUnlockFort</tech>
-      <tech x="3.7" y="1.0">DEHCKalmarCastle</tech>
-      <tech x="3.7" y="2.0">DEHCExtensiveFortificationsEuropean</tech>
       <tech x="3.7" y="5.0">HCHeavyFortifications</tech>
       <tech x="3.7" y="6.0">HCXPUnlockFort2</tech>
       <tech x="4.4" y="1.0">HCXPShipSpies1</tech>
@@ -2369,14 +2564,12 @@
       <tech x="5.1" y="2.0">DEHCEngelsbergIronworks</tech>
       <tech x="5.1" y="5.0">DEHCDominions</tech>
       <tech x="5.8" y="1.0">HCAdvancedMill</tech>
-      <tech x="5.8" y="3.0">DEHCRoyalDecreeSwedish</tech>
       <tech x="6.5" y="1.0">DEHCTorpTeam</tech>
       <tech x="6.5" y="2.0">HCAdvancedMarket</tech>
       <tech x="5.8" y="5.0">HCAdvancedPlantations</tech>
       <tech x="6.5" y="3.0">HCAdvancedDock</tech>
       <tech x="7.2" y="1.0">HCUnlockFactory</tech>
       <tech x="7.2" y="3.0">HCXPIndustrialRevolution</tech>
-      <tech x="7.2" y="3.0">DEHCSoldierTorps</tech>
       <tech x="1.2" y="2.0">DEHCBlueberries</tech>
       <tech x="1.2" y="2.0">DEHCBlackberries</tech>
     </obtainabletechs>
@@ -2391,11 +2584,7 @@
       <tech x="2.3" y="2.0">HCPioneers</tech>
       <tech x="2.3" y="3.0">HCImprovedBuildings</tech>
       <tech x="3.0" y="2.0">HCColonialMilitia</tech>
-      <tech x="2.6" y="1.0">HCFrontierDefenses</tech>
-      <tech x="3.0" y="4.0">HCFrontierDefenses2</tech>
       <tech x="3.7" y="1.0">HCUnlockFort</tech>
-      <tech x="3.7" y="1.0">DEHCKalmarCastle</tech>
-      <tech x="3.7" y="2.0">DEHCExtensiveFortificationsEuropean</tech>
       <tech x="3.7" y="5.0">HCHeavyFortifications</tech>
       <tech x="3.7" y="6.0">HCXPUnlockFort2</tech>
       <tech x="4.4" y="1.0">HCXPShipSpies1</tech>
@@ -2405,14 +2594,12 @@
       <tech x="5.1" y="2.0">DEHCEngelsbergIronworks</tech>
       <tech x="5.1" y="5.0">DEHCDominions</tech>
       <tech x="5.8" y="1.0">HCAdvancedMill</tech>
-      <tech x="5.8" y="3.0">DEHCRoyalDecreeSwedish</tech>
       <tech x="6.5" y="1.0">DEHCTorpTeam</tech>
       <tech x="6.5" y="2.0">HCAdvancedMarket</tech>
       <tech x="5.8" y="5.0">HCAdvancedPlantations</tech>
       <tech x="6.5" y="3.0">HCAdvancedDock</tech>
       <tech x="7.2" y="1.0">HCUnlockFactory</tech>
       <tech x="7.2" y="3.0">HCXPIndustrialRevolution</tech>
-      <tech x="7.2" y="3.0">DEHCSoldierTorps</tech>
       <tech x="1.2" y="2.0">DEHCBlueberries</tech>
       <tech x="1.2" y="2.0">DEHCBlackberries</tech>
     </activetechs>
@@ -2525,12 +2712,6 @@
       <tech x="2.6" y="1.0">HCNavalGunners</tech>
       <tech x="2.6" y="1.0">HCCoastalDefensesTeam</tech>
       <tech x="3.9" y="3.0">DEHCContractMercsLandsknechts</tech>
-      <tech x="3.2" y="4.0">DEHCContractMercsGiantGrenadiers</tech>
-      <tech x="3.2" y="7.0">DEHCContractMercsIrishBrigadiers</tech>
-      <tech x="4.6" y="3.0">DEHCContractMercsSwissPikemen</tech>
-      <tech x="3.9" y="4.0">DEHCContractMercsBlackRiders</tech>
-      <tech x="4.6" y="4.0">DEHCContractMercsHessians</tech>
-      <tech x="3.9" y="5.0">DEHCGermanMercenaryContracts</tech>
       <tech x="4.6" y="5.0">HCMercsHighland</tech>
       <tech x="5.3" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="5.3" y="6.0">HCMercsHessians2</tech>
@@ -2543,7 +2724,6 @@
       <tech x="4.6" y="7.0">DEHCJagiellonAllies1</tech>
       <tech x="4.6" y="7.0">DEHCVasaAllies1</tech>
       <tech x="4.6" y="7.0">DEHCWittelsbachAllies1</tech>
-      <tech x="4.6" y="7.0">DEHCCaribAllies</tech>
       <tech x="4.6" y="7.0">DEHCWittelsbachAlliesRepeat</tech>
       <tech x="4.6" y="7.0">DEHCWittelsbachAllies2</tech>
       <tech x="1.3" y="5.0">DEHCOldenburgAllies1</tech>
@@ -2563,12 +2743,6 @@
       <tech x="2.6" y="1.0">HCNavalGunners</tech>
       <tech x="2.6" y="1.0">HCCoastalDefensesTeam</tech>
       <tech x="3.9" y="3.0">DEHCContractMercsLandsknechts</tech>
-      <tech x="3.2" y="4.0">DEHCContractMercsGiantGrenadiers</tech>
-      <tech x="3.2" y="7.0">DEHCContractMercsIrishBrigadiers</tech>
-      <tech x="4.6" y="3.0">DEHCContractMercsSwissPikemen</tech>
-      <tech x="3.9" y="4.0">DEHCContractMercsBlackRiders</tech>
-      <tech x="4.6" y="4.0">DEHCContractMercsHessians</tech>
-      <tech x="3.9" y="5.0">DEHCGermanMercenaryContracts</tech>
       <tech x="4.6" y="5.0">HCMercsHighland</tech>
       <tech x="5.3" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="5.3" y="6.0">HCMercsHessians2</tech>
@@ -2581,7 +2755,6 @@
       <tech x="4.6" y="7.0">DEHCJagiellonAllies1</tech>
       <tech x="4.6" y="7.0">DEHCVasaAllies1</tech>
       <tech x="4.6" y="7.0">DEHCWittelsbachAllies1</tech>
-      <tech x="4.6" y="7.0">DEHCCaribAllies</tech>
       <tech x="4.6" y="7.0">DEHCWittelsbachAlliesRepeat</tech>
       <tech x="1.3" y="5.0">DEHCWittelsbachAllies2</tech>
       <tech x="1.3" y="5.0">DEHCOldenburgAllies1</tech>

@@ -1,0 +1,35 @@
+<!--
+  mod-minimal (Argentina): voz del Hussar real, entrenable de forma nativa en el Establo de
+  Italia (columna 0, heredado sin cambios vía DEAge0Italians). Proto COMPARTIDO; su sonido se
+  resuelve por <civlogic> en Sound/hussar_snds.xml y "ARGArgentina" no existe ahí (civ nueva)
+  -> quedaba mudo. Archivo ADITIVO que agrega la rama ARGArgentina reusando los soundsets
+  reales "Spanish" (pedido explícito: sonidos de la civilización española).
+-->
+<protounitsounddefmods>
+  <protounit name="Hussar">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="ARGArgentina">
+          <soundset name="MMSpanishLightCavalrySelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="ARGArgentina">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMSpanishLightCavalryAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMSpanishLightCavalryAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

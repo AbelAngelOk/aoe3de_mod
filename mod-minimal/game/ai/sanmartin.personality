@@ -1,0 +1,13 @@
+<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>88883900</nameID>
+   <tooltipID>88883901</tooltipID>
+   <forcedciv>ARGArgentina</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources/images/icons/flags/Flag_Argentinian.png</icon>
+   <chatset>Bolivar</chatset>
+   <playerNames>
+      <nameID>88883900</nameID>
+   </playerNames>
+</AI>

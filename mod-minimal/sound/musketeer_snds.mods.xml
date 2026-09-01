@@ -1,0 +1,36 @@
+<!--
+  mod-minimal (Argentina): voz del Criollo (Musketeer real, renombrado para
+  Argentina). Proto COMPARTIDO; su sonido se resuelve por <civlogic> en
+  Sound/musketeer_snds.xml y "ARGArgentina" no existe ahí (civ nueva) -> quedaba
+  mudo. Archivo ADITIVO que agrega la rama ARGArgentina reusando los soundsets
+  reales "Spanish" (pedido explícito: sonidos de la civilización española), mismo
+  patrón que settler_snds.mods.xml/halberdier_snds.mods.xml.
+-->
+<protounitsounddefmods>
+  <protounit name="Musketeer">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="ARGArgentina">
+          <soundset name="MMSpanishMusketeerSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="ARGArgentina">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMSpanishMusketeerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMSpanishMusketeerAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

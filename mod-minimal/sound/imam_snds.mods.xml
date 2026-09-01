@@ -1,0 +1,28 @@
+<!--
+  mod-minimal (Egipto): voz del Imam (proto real, heredado sin cambios vía Age0Ottoman).
+  Proto COMPARTIDO; su sonido se resuelve por <civlogic> en Sound/imam_snds.xml y "EGYEgypt"
+  no existe ahí (civ nueva) -> quedaba mudo. Archivo ADITIVO con la rama EGYEgypt apuntando a
+  los soundsets propios "MMOttomanImam*" (registrados en soundsetsde.mods.xml, mismos audios
+  que ya usa la rama real "Ottomans"). Imam no tiene sonido de ataque (no combate), por eso
+  Acknowledge es un soundset plano igual que en la rama Ottomans real.
+-->
+<protounitsounddefmods>
+  <protounit name="Imam">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="EGYEgypt">
+          <soundset name="MMOttomanImamSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="EGYEgypt">
+          <soundset name="MMOttomanImamAcknowledge">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

@@ -218,60 +218,93 @@
       <effect type="TechStatus" status="unobtainable">VeteranCrossbowmen</effect>
       <effect type="TechStatus" status="unobtainable">GuardCrossbowmen</effect>
       <effect type="TechStatus" status="unobtainable">ImperialCrossbowmen</effect>
-      <!-- Roster propio del cuartel: Carelia (copia del Jaeger Carelio) + Savolax
-           (FINSavolaxJaeger, clon de MercJaeger con su modelo) + Contraataque (consulado).
-           El Húsar viene del roster sueco; Arquero a Caballo y Dragón de Contraataque van al Establo. -->
+      <!-- Cambio 40: se revive el proto propio FINKarelianJaeger (retirado en el Cambio 31)
+           para poder ubicarlo en una columna fija del Cuartel — un proto compartido
+           (Skirmisher) no admite eso sin filtrar el botón a otras civs (ver
+           aoe3-shared-proto-per-player-extend). Ya no se persigue el cambio de skin (se
+           abandonó junto con las revoluciones), así que no hay nada que perder volviendo a
+           un proto propio; de yapa recupera su voz propia (sound/finkarelianjaeger_snds.xml,
+           que había quedado huérfano). Solo hace falta Enable + ActionEnable — el resto
+           (costo, edad, panel de construcción, tasas de recolección) vive directo en el
+           proto (protomods.xml), no como efectos de tech. -->
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">FINKarelianJaeger</target>
       </effect>
+      <effect type="Data" action="Build" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="Hunting" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="ChopAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="CrateGather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="EnableAutoCrateGather" relativity="Assign">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <!-- Cambio 43: en Edad I el Carelio es muy débil en combate (referencia: daño del
+           Coureur, 8) — se recupera al llegar a Edad II (ver FINColonialize, que
+           sobreescribe este mismo BasePercent con 1.00 = sin penalización). -->
+      <effect type="Data" amount="0.533333" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <!-- Cambio 41: se quitan los Granaderos (base sueca, DEGrenadierEnable via
+           DEAge0Swedish) de la Fundición de Finlandia, junto con sus 3 mejoras. -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">GuardGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialGrenadiers</effect>
+      <!-- Cambio 43 (item 14): tampoco Cañones de Infantería (deInfantryGuns/
+           deImperialInfantryGuns, también heredados de DEAge0Swedish). -->
+      <effect type="TechStatus" status="unobtainable">deInfantryGuns</effect>
+      <effect type="TechStatus" status="unobtainable">deImperialInfantryGuns</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deConsulateCounterJaeger</target>
+      </effect>
+      <!-- El Jaeger de Contraataque debe verse (habilitado) desde antes pero BLOQUEADO/gris
+           hasta Edad IV: se fija su AllowedAge al índice literal 3 (base vanilla es 1 = Edad II). -->
+      <effect type="Data" amount="3.00" subtype="AllowedAge" relativity="Assign">
         <target type="ProtoUnit">deConsulateCounterJaeger</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">deCounterDragoon</target>
       </effect>
+      <!-- Cambio 24 (Finlandia): el Arquero de caballería (CavalryArcher) se quita del Establo. -->
+      <!-- Cambio 24 (Finlandia): edificio defensivo = BLOCAO (Blockhouse) en vez de DESTACAMENTO
+           (Outpost), coherente con las cartas rusas (Detinets/Ruso-Americana/Suomenlinna) que
+           entregan carretas de blocao. El Colono ya lista ambos en el mismo slot (page 6, col 6),
+           así que basta con invertir el enable. -->
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">CavalryArcher</target>
+        <target type="ProtoUnit">Blockhouse</target>
       </effect>
-    </effects>
-  </tech>
-  <tech name="FINColonialize" type="Normal">
-    <dbid>88882102</dbid>
-    <status>UNOBTAINABLE</status>
-    <flag>Shadow</flag>
-    <prereqtech>FINAge0</prereqtech>
-    <effects>
-      <effect type="TechStatus" status="active">DEColonializeSwedish</effect>
-      <!-- Cambio 15 (Finlandia): al llegar a Edad II (Colonial) el Jaeger de Carelia
-           "recupera sus estadísticas militares" (en Edad I tiene daño reducido tipo colono).
-           Cambio 18: estructurado como una mejora "veterana" (boost vida/daño + SetName +
-           UpdateVisual, igual que VeteranMusketeers) para que el modelo pase a la skin de
-           veterano al mejorar tecnológicamente. -->
-      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">FINKarelianJaeger</target>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Outpost</target>
       </effect>
-      <effect type="Data" amount="1.60" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">FINKarelianJaeger</target>
+      <!-- Cambio 27 (Finlandia): quitar el Cañón de cuero (unidad sueca) de la Fundición. -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deLeatherCannon</target>
       </effect>
-      <effect type="SetName" proto="FINKarelianJaeger" culture="none" newname="88882016"></effect>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="FINKarelianJaeger" relativity="Absolute">
-        <target type="Player"></target>
-      </effect>
-      <!-- Cambio 19 (Finlandia): "Jaegers de Savonia" = la unidad REAL del juego (MercJaeger,
-           modelo jaeger.xml), tal como la genera DEChurchSavolaxJaegers (la carta de iglesia).
-           Se replican sus efectos SIN el envío de unidades: habilita MercJaeger en el cuartel,
-           lo renombra a "Jaeger de Savonia" (91618, string oficial), +5% vida, sigilo, costo
-           parcial en madera. -->
+      <!-- Cambio 32: se revierte el Cambio 27/28 — los Colonos vuelven a construir con su
+           menú completo de edificios (ya no hace falta un constructor dedicado). -->
+      <!-- Cambio 22 (Finlandia): "Jaeger de Savonia" = MercJaeger REAL, como estado inicial de
+           la civ. Replica los efectos de DEChurchSavolaxJaegers (la carta de la revolución) SIN
+           el envío de 6: renombra a "Jaeger de Savonia" (91618), +5% vida, sigilo, coste parcial
+           en madera, y lo hace entrenable en el Cuartel. Sale en Edad III (allowedage 2 de MercJaeger). -->
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">MercJaeger</target>
       </effect>
+      <!-- Cambio 44: stats base propios del Jaeger de Savonia (sin rebalanceo artificial) —
+           +5% vida sobre el MercJaeger real (250 HP → 262.5), daño sin tocar (30). La mejora
+           Imperial (Edad V, +50%) se calcula sobre el MercJaeger real, no sobre este +5%. -->
       <effect type="Data" amount="1.05" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">MercJaeger</target>
-      </effect>
-      <!-- Cambio 20: boost de daño para completar el patrón de "mejora veterana"
-           (vida + daño + SetName + UpdateVisual, como VeteranMusketeers) y disparar la
-           skin de veterano del jaeger. -->
-      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">MercJaeger</target>
       </effect>
       <effect type="SetName" proto="MercJaeger" culture="none" newname="91618"></effect>
@@ -287,8 +320,52 @@
       <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="MercJaeger" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+      <!-- Habilitar (obtainable) la línea de mejoras del Cuartel: Carelia (Tier2/3/4),
+           Savonia (Imperial), Contraataque (Guard/Imperial). -->
+      <effect type="TechStatus" status="obtainable">FINKarelianJaegerTier2</effect>
+      <effect type="TechStatus" status="obtainable">FINKarelianJaegerTier3</effect>
+      <effect type="TechStatus" status="obtainable">FINKarelianJaegerTier4</effect>
+      <effect type="TechStatus" status="obtainable">FINImperialSavolaxJaeger</effect>
+      <effect type="TechStatus" status="obtainable">FINGuardCounterJaeger</effect>
+      <effect type="TechStatus" status="obtainable">FINImperialCounterJaeger</effect>
+      <effect type="TechStatus" status="obtainable">FINGuardCounterDragoon</effect>
+      <effect type="TechStatus" status="obtainable">FINImperialCounterDragoon</effect>
+      <effect type="TechStatus" status="obtainable">FINRevBarracksHP</effect>
+      <effect type="TechStatus" status="obtainable">FINRevBlockhouseCannon</effect>
+      <effect type="TechStatus" status="obtainable">FINRevSoldierTorps</effect>
+      <effect type="TechStatus" status="obtainable">FINRevSpawnStrelet</effect>
+      <effect type="TechStatus" status="obtainable">FINRevDominions</effect>
+      <effect type="TechStatus" status="obtainable">FINRevNorthernWilderness</effect>
+      <effect type="TechStatus" status="obtainable">FINRevShipHakkapelits</effect>
+      <effect type="TechStatus" status="obtainable">FINRevShipBalticFleet</effect>
+      <effect type="TechStatus" status="obtainable">FINRevGunboats</effect>
+      <effect type="TechStatus" status="obtainable">FINRevCudgelWar</effect>
+      <effect type="TechStatus" status="obtainable">FINRevJaegerCombat</effect>
+      <effect type="TechStatus" status="obtainable">FINRevFinnishCounterArmy</effect>
+      <effect type="TechStatus" status="obtainable">FINRevFinnhorses</effect>
+      <effect type="TechStatus" status="obtainable">FINRevShipCoinCrates</effect>
+      <effect type="TechStatus" status="obtainable">FINRevTreeSpawn</effect>
+      <effect type="TechStatus" status="obtainable">FINRevShipElk</effect>
+      <effect type="TechStatus" status="obtainable">FINRevShipCopperMines</effect>
+      <effect type="TechStatus" status="obtainable">FINRevBlackberries</effect>
     </effects>
   </tech>
+  <tech name="FINColonialize" type="Normal">
+    <dbid>88882102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>FINAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEColonializeSwedish</effect>
+      <!-- Cambio 43: al llegar a Edad II, el Carelio recupera su daño normal — sobreescribe
+           el debuff de Edad I puesto en FINAge0 (mismo subtype/relativity, gana el último
+           investigado). -->
+      <effect type="Data" amount="1.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+    </effects>
+  </tech>
+
   <tech name="FINFortressize" type="Normal">
     <dbid>88882103</dbid>
     <status>UNOBTAINABLE</status>
@@ -1861,6 +1938,2566 @@
       <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="GreatBombard" relativity="Absolute">
         <target type="Player"></target>
       </effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 15 (2026-07-22): "Academia de Turku" como carta de EDAD I de Finlandia.
+       Copia de la carta de revolución DEHCREVTurkuAcademy (reusa su string 80893/80892 e
+       icono). Se crea copia propia para no tocar la entrada de revolución existente
+       (que está gateada por XPRevolution). Efectos idénticos al original.
+       ============================================================ -->
+  <tech name="FINCardTurkuAcademy" type="Normal">
+    <dbid>88882110</dbid>
+    <displaynameid>80893</displaynameid>
+    <rollovertextid>88882020</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution\turku_academy.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Parte A: fusión Duelista + Academia de Turku. +50% daño y vida al Explorador (Hero),
+           lo deja curar y entrenar Cirujanos/Hospitales, y envía 1 Cirujano. Sin perro ni
+           explorador extra. -->
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Surgeon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="TechStatus" status="active">DEREVUnlockHeal</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FieldHospital</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="FieldHospital" relativity="Absolute">
+        <target type="ProtoUnit">Explorer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Surgeon" relativity="Absolute">
+        <target type="ProtoUnit">Explorer</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 23 (Finlandia): "Suomenlinna" como carta de EDAD IV. Copia de la carta de
+       revolución DEHCREVShipBlockhouses (reusa su string 126800 e icono); copia propia para
+       no chocar con la entrada de revolución existente. Efectos idénticos.
+       ============================================================ -->
+  <tech name="FINCardSuomenlinna" type="Normal">
+    <dbid>88882111</dbid>
+    <displaynameid>126800</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution\suomenlinna.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="ypBlockhouseWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FortWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 25 (Finlandia): carta de Iglesia "Tratado de Hamina" (1809, Finlandia pasa a ser
+       Gran Ducado de Rusia). Hace OBTAINABLE 4 techs de Iglesia de corte ruso; cada una se
+       investiga en la Iglesia pagando recursos y ENVÍA tropas. Molde: ChurchTufanciCorps.
+       Las techs deben estar listadas en el proto Church (protomods.xml).
+       ============================================================ -->
+  <tech name="FINCardChurchTreaty" type="Normal">
+    <dbid>88882120</dbid>
+    <displaynameid>88882030</displaynameid>
+    <rollovertextid>88882031</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_royal_decree\hc_royal_decree.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="obtainable">FINChurchStreltsy</effect>
+      <effect type="TechStatus" status="obtainable">FINChurchHalberdiers</effect>
+      <effect type="TechStatus" status="obtainable">FINChurchRekruts</effect>
+      <effect type="TechStatus" status="obtainable">FINChurchCannons</effect>
+      <effect type="TechStatus" status="obtainable">FINChurchBlockhouseVeteran</effect>
+      <effect type="TechStatus" status="obtainable">FINChurchBlockhouseGuard</effect>
+      <effect type="TechStatus" status="obtainable">FINChurchBlockhouseImperial</effect>
+      <effect type="TechStatus" status="obtainable">FINChurchNorthernMusketeers</effect>
+    </effects>
+  </tech>
+  <tech name="FINChurchStreltsy" type="Normal">
+    <dbid>88882121</dbid>
+    <displaynameid>88882032</displaynameid>
+    <rollovertextid>88882033</rollovertextid>
+    <cost resourcetype="Food">500.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\strelet\strelet_icon_64x64.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="Strelet" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <!-- Habilita a los Strelets como entrenables en el Blocao. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Strelet" relativity="Absolute">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINChurchHalberdiers" type="Normal">
+    <dbid>88882122</dbid>
+    <displaynameid>88882034</displaynameid>
+    <rollovertextid>88882035</rollovertextid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>25.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry\halberdier\halberdier_icon_64x64.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="Halberdier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <!-- Habilita a los Alabarderos como entrenables en el Blocao. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Halberdier" relativity="Absolute">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINChurchRekruts" type="Normal">
+    <dbid>88882123</dbid>
+    <displaynameid>88882036</displaynameid>
+    <rollovertextid>88882037</rollovertextid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <researchpoints>25.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\rekrut\rekrut_icon.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="deRussianMusketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <!-- Habilita a los Rekluts como entrenables en el Blocao. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deRussianMusketeer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deRussianMusketeer" relativity="Absolute">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINChurchCannons" type="Normal">
+    <dbid>88882124</dbid>
+    <displaynameid>88882038</displaynameid>
+    <rollovertextid>88882039</rollovertextid>
+    <cost resourcetype="Food">500.0000</cost>
+    <researchpoints>25.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\artillery\leather_cannon\leather_cannon_icon.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deLeatherCannon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <!-- Habilita al Cañón de Cuero como entrenable en el Blocao (Cambio 27 lo había deshabilitado para la Fundición; se reactiva SOLO en el Blocao). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deLeatherCannon" relativity="Absolute">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Cambio 46 (Finlandia): línea Veterano/Guardia/Imperial para las 4 unidades entrenables
+       en el Blocao (Strelet, Alabardero, Rekrut/deRussianMusketeer, Cañón de Cuero). Cada
+       mejora exige la anterior activa Y la edad correspondiente (no se puede saltar a
+       Imperial sin pasar por Guardia y sin estar en Edad V). Las 3 se vuelven obtainable
+       recién al investigar "Tratado de Hamina" (FINCardChurchTreaty), igual que las techs de
+       envío. Solo afecta stats (Hitpoints/Damage); sin SetName/UpdateVisual para no arrastrar
+       el cambio visual a otras civs que también usan estas unidades reales (p. ej. Rusia). -->
+  <tech name="FINChurchBlockhouseVeteran" type="Normal">
+    <dbid>88882331</dbid>
+    <displaynameid>88882404</displaynameid>
+    <rollovertextid>88882405</rollovertextid>
+    <cost resourcetype="Food">500.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
+    <researchpoints>25.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianMusketeer</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianMusketeer</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="FINChurchBlockhouseGuard" type="Normal">
+    <dbid>88882332</dbid>
+    <displaynameid>88882406</displaynameid>
+    <rollovertextid>88882407</rollovertextid>
+    <cost resourcetype="Food">800.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">FINChurchBlockhouseVeteran</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianMusketeer</target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianMusketeer</target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="FINChurchBlockhouseImperial" type="Normal">
+    <dbid>88882333</dbid>
+    <displaynameid>88882408</displaynameid>
+    <rollovertextid>88882409</rollovertextid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">800.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">FINChurchBlockhouseGuard</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianMusketeer</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianMusketeer</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deLeatherCannon</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Cambio 47 (Finlandia): "25 Mosqueteros del Norte" (deNatMercNorthernMusketeer, plantilla
+       calcada de la carta real DEHCOldenburgAllies1). A diferencia de esa carta, también
+       habilita entrenar la unidad en el Blocao, a costa de deshabilitar a los Strelets
+       (FINChurchStreltsy) y los Rekruts (FINChurchRekruts) — elección exclusiva de Edad IV. -->
+  <tech name="FINChurchNorthernMusketeers" type="Normal">
+    <dbid>88882334</dbid>
+    <displaynameid>88882410</displaynameid>
+    <rollovertextid>88882411</rollovertextid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\hc_northern_musketeer_icon.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="25.00" subtype="FreeHomeCityUnit" unittype="deNatMercNorthernMusketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deNatMercNorthernMusketeer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deNatMercNorthernMusketeer" relativity="Absolute">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deRussianMusketeer</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 28 (Finlandia): "Castillo de Kalmar" reconvertido a los BLOCAOS. Reemplaza a
+       DEHCKalmarCastle (que enviaba 1 Carreta de fuerte y mejoraba el Fuerte). Ahora envía
+       2 Carretas de blocao y la mejora se aplica al Blocao (+25% vida, botín extra y +1 al
+       límite). Reusa el nombre/icono originales (string 91772).
+       ============================================================ -->
+  <tech name="FINCardKalmarBlockhouses" type="Normal">
+    <dbid>88882130</dbid>
+    <displaynameid>91772</displaynameid>
+    <rollovertextid>88882040</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources/images/icons/techs/sweden/kalmar_castle.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Envía 2 Carretas de blocao (en vez de 1 Carreta de fuerte). -->
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="ypBlockhouseWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <!-- La mejora se aplica al BLOCAO (antes al Fuerte). -->
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+      <effect type="Data" action="ExtraBounty" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 29 (Finlandia): mejoras de rango de los jaegers, investigables en el Cuartel.
+       Clonan el patrón EXACTO de VeteranSkirmishersShadow / GuardSkirmishers:
+       <flag>UpgradeTech</flag> + (Hitpoints -> SetName -> UpdateVisual -> Damage).
+       Ese flag es lo que sube el NIVEL VISUAL de la unidad: es el mecanismo por el que la
+       revolución de Finlandia le da al Carelio el uniforme gris con chacó (skin de guardia).
+       ============================================================ -->
+  <!-- Cambio 43: línea de mejoras del Carelio — 3 niveles (Edad II/III/IV), SIN Imperial.
+       Base 120 HP/15 daño (proto); con las 3: 120*1.60=192 HP, 15*1.60=24 daño (Edad IV). -->
+  <tech name="FINKarelianJaegerTier2" type="Normal">
+    <dbid>88882140</dbid>
+    <displaynameid>88882016</displaynameid>
+    <rollovertextid>88882050</rollovertextid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINKarelianJaegerTier3" type="Normal">
+    <dbid>88882141</dbid>
+    <displaynameid>88882051</displaynameid>
+    <rollovertextid>88882052</rollovertextid>
+    <cost resourcetype="Wood">400.0000</cost>
+    <cost resourcetype="Gold">400.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+      <techstatus status="Active">FINKarelianJaegerTier2</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.40" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 30 (Finlandia): reorganización de mazo. Cartas de envío (reutilizan el
+       nombre de la unidad + displayunitcount) y línea completa de mejoras de jaegers.
+       ============================================================ -->
+  <tech name="FINShipKarelian1" type="Normal">
+    <dbid>88882150</dbid>
+    <displaynameid>88882013</displaynameid>
+    <rollovertextid>88882060</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\karelian_jaeger_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="FINKarelianJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipKarelian2" type="Normal">
+    <dbid>88882151</dbid>
+    <displaynameid>88882013</displaynameid>
+    <rollovertextid>88882061</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\karelian_jaeger_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="FINKarelianJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipKarelian3" type="Normal">
+    <dbid>88882152</dbid>
+    <displaynameid>88882013</displaynameid>
+    <rollovertextid>88882062</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\karelian_jaeger_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="FINKarelianJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipKarelian4" type="Normal">
+    <dbid>88882153</dbid>
+    <displaynameid>88882013</displaynameid>
+    <rollovertextid>88882063</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\karelian_jaeger_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="FINKarelianJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipCounterJaeger1" type="Normal">
+    <dbid>88882154</dbid>
+    <displaynameid>126850</displaynameid>
+    <rollovertextid>88882064</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\counter_jaeger_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deCounterJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipCounterJaeger2" type="Normal">
+    <dbid>88882155</dbid>
+    <displaynameid>126850</displaynameid>
+    <rollovertextid>88882065</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\counter_jaeger_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deCounterJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipCounterJaeger3" type="Normal">
+    <dbid>88882156</dbid>
+    <displaynameid>126850</displaynameid>
+    <rollovertextid>88882066</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\counter_jaeger_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deCounterJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipCounterJaeger4" type="Normal">
+    <dbid>88882157</dbid>
+    <displaynameid>126850</displaynameid>
+    <rollovertextid>88882067</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\counter_jaeger_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="deCounterJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipCounterDragoon1" type="Normal">
+    <dbid>88882158</dbid>
+    <displaynameid>126848</displaynameid>
+    <rollovertextid>88882068</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\dragoon\counter_dragoon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deCounterDragoon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipCounterDragoon2" type="Normal">
+    <dbid>88882159</dbid>
+    <displaynameid>126848</displaynameid>
+    <rollovertextid>88882069</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\dragoon\counter_dragoon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deCounterDragoon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipCounterDragoon3" type="Normal">
+    <dbid>88882160</dbid>
+    <displaynameid>126848</displaynameid>
+    <rollovertextid>88882070</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\dragoon\counter_dragoon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deCounterDragoon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipCounterDragoon4" type="Normal">
+    <dbid>88882161</dbid>
+    <displaynameid>126848</displaynameid>
+    <rollovertextid>88882071</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\dragoon\counter_dragoon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="deCounterDragoon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipHalberdier1" type="Normal">
+    <dbid>88882162</dbid>
+    <displaynameid>22944</displaynameid>
+    <rollovertextid>88882072</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry\halberdier\halberdier_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Halberdier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipHalberdier2" type="Normal">
+    <dbid>88882163</dbid>
+    <displaynameid>22944</displaynameid>
+    <rollovertextid>88882073</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry\halberdier\halberdier_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Halberdier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipHalberdier3" type="Normal">
+    <dbid>88882164</dbid>
+    <displaynameid>22944</displaynameid>
+    <rollovertextid>88882074</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry\halberdier\halberdier_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Halberdier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipHalberdier4" type="Normal">
+    <dbid>88882165</dbid>
+    <displaynameid>22944</displaynameid>
+    <rollovertextid>88882075</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry\halberdier\halberdier_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="Halberdier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipLandsknecht1" type="Normal">
+    <dbid>88882166</dbid>
+    <displaynameid>88882401</displaynameid>
+    <rollovertextid>88882076</rollovertextid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\landsknecht\landsknect_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="MercLandsknecht" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Cambio 45 (Finlandia): "Contratación de Lansquenetes" — envía 3 y además habilita al
+       Lansquenete como entrenable en Cuartel y Fuerte (sigue limitado por su allowedage real,
+       Edad III). Complementa a "Grupo de Lansquenetes" (envío de 4 sin habilitación). -->
+  <tech name="FINShipLandsknechtHire" type="Normal">
+    <dbid>88882330</dbid>
+    <displaynameid>88882402</displaynameid>
+    <rollovertextid>88882403</rollovertextid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\landsknecht\landsknect_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="MercLandsknecht" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">MercLandsknecht</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="MercLandsknecht" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="MercLandsknecht" relativity="Absolute">
+        <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipLandsknecht2" type="Normal">
+    <dbid>88882167</dbid>
+    <displaynameid>24820</displaynameid>
+    <rollovertextid>88882077</rollovertextid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\landsknecht\landsknect_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="MercLandsknecht" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINShipLandsknecht3" type="Normal">
+    <dbid>88882168</dbid>
+    <displaynameid>24820</displaynameid>
+    <rollovertextid>88882078</rollovertextid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\landsknecht\landsknect_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="MercLandsknecht" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINMercIrishBrigadiers" type="Normal">
+    <dbid>88882169</dbid>
+    <displaynameid>122210</displaynameid>
+    <rollovertextid>88882079</rollovertextid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\irish_brigade\irish_brigade_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="deMercBrigadier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINMercSwissPikemen" type="Normal">
+    <dbid>88882170</dbid>
+    <displaynameid>24824</displaynameid>
+    <rollovertextid>88882080</rollovertextid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\swiss_pikeman\swiss_pikeman_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="MercSwissPikeman" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINMercBlackRiders" type="Normal">
+    <dbid>88882171</dbid>
+    <displaynameid>25150</displaynameid>
+    <rollovertextid>88882081</rollovertextid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\black_rider\black_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="MercBlackRider" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINKarelianJaegerTier4" type="Normal">
+    <dbid>88882180</dbid>
+    <displaynameid>88882082</displaynameid>
+    <rollovertextid>88882083</rollovertextid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">FINKarelianJaegerTier3</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.60" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.60" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- Cambio 43: Savonia — una sola mejora Imperial (+50%). Base rebalanceado en FINAge0
+       (192 HP/23 daño, "sin mejora"); con la mejora: 288 HP/34.5 daño (Edad IV). -->
+  <tech name="FINImperialSavolaxJaeger" type="Normal">
+    <dbid>88882182</dbid>
+    <displaynameid>88882086</displaynameid>
+    <rollovertextid>88882087</rollovertextid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">MercJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">MercJaeger</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Cambio 30 (Finlandia): línea de mejoras Veterano/Guardia/Imperial para Jaeger de
+       Contraataque (deConsulateCounterJaeger, infantería, patrón estándar 3 niveles) y
+       Guardia/Imperial para Dragón de Contraataque (deCounterDragoon, caballería, patrón
+       estándar 2 niveles como Húsar Magyar/Crabat). -->
+
+  <tech name="FINGuardCounterJaeger" type="Normal">
+    <dbid>88882184</dbid>
+    <displaynameid>88882090</displaynameid>
+    <rollovertextid>88882091</rollovertextid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deConsulateCounterJaeger</target>
+      </effect>
+      <effect type="SetName" proto="deConsulateCounterJaeger" culture="none" newname="88882090"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deConsulateCounterJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deConsulateCounterJaeger</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="FINImperialCounterJaeger" type="Normal">
+    <dbid>88882185</dbid>
+    <displaynameid>88882092</displaynameid>
+    <rollovertextid>88882093</rollovertextid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">FINGuardCounterJaeger</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deConsulateCounterJaeger</target>
+      </effect>
+      <effect type="SetName" proto="deConsulateCounterJaeger" culture="none" newname="88882092"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deConsulateCounterJaeger" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deConsulateCounterJaeger</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="FINGuardCounterDragoon" type="Normal">
+    <dbid>88882186</dbid>
+    <displaynameid>88882094</displaynameid>
+    <rollovertextid>88882095</rollovertextid>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">400.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deCounterDragoon</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deCounterDragoon</target>
+      </effect>
+      <effect type="SetName" proto="deCounterDragoon" culture="none" newname="88882094"></effect>
+    </effects>
+  </tech>
+
+  <tech name="FINImperialCounterDragoon" type="Normal">
+    <dbid>88882187</dbid>
+    <displaynameid>88882096</displaynameid>
+    <rollovertextid>88882097</rollovertextid>
+    <cost resourcetype="Food">800.0000</cost>
+    <cost resourcetype="Gold">800.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">FINGuardCounterDragoon</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deCounterDragoon</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deCounterDragoon</target>
+      </effect>
+      <effect type="SetName" proto="deCounterDragoon" culture="none" newname="88882096"></effect>
+    </effects>
+  </tech>
+  <!-- Cambio 39 (Finlandia): replicas propias (FINRev*) de las 23 cartas de la
+       revolucion real de Finlandia. Cada una activa la tech real via TechStatus
+       active (mismo patron que FINAge0 con DEAge0Swedish): mismo efecto, nombre
+       e icono reales, pero con nombre FIN propio para no chocar con el mecanismo
+       de revoltdeck que las esconde del editor de mazos. Ubicadas en el
+       edificio Academia (filas y=9/10/11) para saber donde encontrarlas.
+       OJO: FINRevNorthernWilderness se superpone con lo ya armado a mano en
+       FINAge0 (restaura la recoleccion completa del Carelio). FINRevSavolaxJaegers
+       y FINRevShipBlockhouses (Suomenlinna) y FINRevShipFoodCrates se eliminaron
+       (Cambio 46-48): duplicaban costo/efectos ya cubiertos en FINAge0 o ya no
+       correspondian al diseno de civ normal. FINRevShipHakkapelits envia
+       deFinnishRider, no habilitado en esta civ. -->
+  <tech name="FINRevBarracksHP" type="Normal">
+    <dbid>88882300</dbid>
+    <displaynameid>124418</displaynameid>
+    <rollovertextid>35874</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_team_barracks_hitpoints\team_romanov.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">HCBarracksHPTeam</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevBlockhouseCannon" type="Normal">
+    <dbid>88882301</dbid>
+    <displaynameid>37452</displaynameid>
+    <rollovertextid>37453</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_block_house_cannon\hc_block_house_cannon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVBlockhouseCannon</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevSoldierTorps" type="Normal">
+    <dbid>88882302</dbid>
+    <displaynameid>91623</displaynameid>
+    <rollovertextid>125434</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\allotment_system.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVSoldierTorps</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevSpawnStrelet" type="Normal">
+    <dbid>88882303</dbid>
+    <displaynameid>37267</displaynameid>
+    <rollovertextid>37266</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\strelet_horde\strelet_horde_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVSpawnStrelet</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevDominions" type="Normal">
+    <dbid>88882305</dbid>
+    <displaynameid>91688</displaynameid>
+    <rollovertextid>91687</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\dominions.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCDominions</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevNorthernWilderness" type="Normal">
+    <dbid>88882307</dbid>
+    <displaynameid>80895</displaynameid>
+    <rollovertextid>80894</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution\northern_wilderness.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Cambio 43: apunta al proto propio FINKarelianJaeger (no a la tech real, que
+           targetea "Skirmisher" por nombre) — restaura la recolección completa que el
+           Carelio pierde por defecto (Cambio 43, solo madera). -->
+      <effect type="Data" action="Gather" amount="2.000000" subtype="WorkRate" unittype="Herdable" relativity="Assign">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.840000" subtype="WorkRate" unittype="Huntable" relativity="Assign">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.600000" subtype="WorkRate" unittype="AbstractMine" relativity="Assign">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.600000" subtype="WorkRate" unittype="AbstractMountainMonastery" relativity="Assign">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.670000" subtype="WorkRate" unittype="AbstractBerryBush" relativity="Assign">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.500000" subtype="WorkRate" unittype="Plantation" relativity="Assign">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.500000" subtype="WorkRate" unittype="Farm" relativity="Assign">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.670000" subtype="WorkRate" unittype="Mill" relativity="Assign">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="LivestockPen" relativity="Absolute">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FINRevShipHakkapelits" type="Normal">
+    <dbid>88882308</dbid>
+    <displaynameid>90360</displaynameid>
+    <rollovertextid>90360</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_hakkapelit.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVShipHakkapelits</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevShipBalticFleet" type="Normal">
+    <dbid>88882309</dbid>
+    <displaynameid>91749</displaynameid>
+    <rollovertextid>37276</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_monitor.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVShipBalticFleet</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevGunboats" type="Normal">
+    <dbid>88882310</dbid>
+    <displaynameid>126772</displaynameid>
+    <rollovertextid>126948</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution\gunboats.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVGunboats</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevCudgelWar" type="Normal">
+    <dbid>88882311</dbid>
+    <displaynameid>126801</displaynameid>
+    <rollovertextid>126802</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution\finnish_melee_speed.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVCudgelWar</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevJaegerCombat" type="Normal">
+    <dbid>88882312</dbid>
+    <displaynameid>127005</displaynameid>
+    <rollovertextid>127005</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_gunpowder_infantry_combat\hc_gunpowder_infantry_combat.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVJaegerCombat</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevFinnishCounterArmy" type="Normal">
+    <dbid>88882314</dbid>
+    <displaynameid>126846</displaynameid>
+    <rollovertextid>126847</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution\finnish_counter_army.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVFinnishCounterArmy</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevFinnhorses" type="Normal">
+    <dbid>88882315</dbid>
+    <displaynameid>91645</displaynameid>
+    <rollovertextid>126825</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\finnhorses.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVFinnhorses</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevShipCoinCrates" type="Normal">
+    <dbid>88882318</dbid>
+    <displaynameid>48927</displaynameid>
+    <rollovertextid>48926</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_gold.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVShipCoinCrates</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevTreeSpawn" type="Normal">
+    <dbid>88882319</dbid>
+    <displaynameid>80897</displaynameid>
+    <rollovertextid>80896</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_tree.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVTreeSpawn</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevShipElk" type="Normal">
+    <dbid>88882320</dbid>
+    <displaynameid>80858</displaynameid>
+    <rollovertextid>80858</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_elk.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVShipElk</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevShipCopperMines" type="Normal">
+    <dbid>88882321</dbid>
+    <displaynameid>90359</displaynameid>
+    <rollovertextid>90359</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_copper_mine.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVShipCopperMines</effect>
+    </effects>
+  </tech>
+  <tech name="FINRevBlackberries" type="Normal">
+    <dbid>88882322</dbid>
+    <displaynameid>91757</displaynameid>
+    <rollovertextid>91758</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\blackberries.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCREVBlackberries</effect>
+    </effects>
+  </tech>
+
+  <!-- ============================================================================
+       Cambio ARG-1 (Argentina, Fase 1): civ nueva clon de Italia (DEItalians, IDs
+       88883xxx). Age techs propios que DELEGAN a los reales de Italia
+       (DEAge0Italians, etc.), mismo patrón que HUN*->Germans y FIN*->Suecia. Toda
+       la personalización de Argentina vive en ARGAge0:
+       - Iglesia: Italia habilita su Basílica única (deBasilica) y nunca Church.
+         Acá se hace lo opuesto: se deshabilita deBasilica y se habilita Church
+         (+ sus techs estándar, que Italia nunca marcó obtainable porque no las usa).
+       - Corrales: se saca el training de Sheep del LivestockPen (mismo patrón que
+         usan las civs asiáticas con su propio corral) y se agrega el de Cow.
+       - Cuartel: dePavisier/Pikeman/Halberdier (y sus mejoras) se deshabilitan para
+         liberar las columnas 0/1/2 nativas de Italia. Ahí se reposicionan, vía
+         CommandRemove+CommandAdd, tres protos REALES COMPARTIDOS renombrados:
+         Gaucho (deStateMilitia, col 0), Criollo (Musketeer, col 1) y Granadero
+         (deSoldado de México, col 2). Son protos compartidos con otras civs — no se
+         puede simplemente agregar un <train> estático sin filtrar el botón a esas
+         civs (ver aoe3-shared-proto-per-player-extend), por eso el reposicionamiento
+         es vía comandos por-jugador en vez de editar el Barracks compartido.
+       - Establo: el Lancer real se deshabilita (columna 1 nativa) y se reemplaza
+         por el clon propio ARGLancer (mismos stats, modelo/ícono de
+         deRevolutionaryScout — no se puede tocar el animfile del Lancer real sin
+         reskinear a todas las demás civs que también lo usan). Columnas 3 y 4:
+         Gaucho a Caballo y Granadero a Caballo son protos REALES de la revolución
+         de Argentina que ya existe en el juego base para Italia (deREVGaucho/
+         deREVGranadero) — no clones propios, se habilitan y renombran directo.
+       ============================================================================ -->
+  <tech name="ARGAge0" type="Normal">
+    <dbid>88883101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEAge0Italians</effect>
+
+      <!-- Italia envía un colono cada vez que se investiga CUALQUIER tech en la partida
+           (bono propio de la civ — DEAge0Italians registra el gatillo con
+           SetOnTechResearchedTech apuntando a DEShipItalianVillager, que envía 1 Settler).
+           Para Argentina se re-registra ese mismo gatillo apuntando a una réplica propia
+           (ARGShipCowOnTech) que envía una vaca en su lugar. -->
+      <effect type="SetOnTechResearchedTech" amount="1.00">ARGShipCowOnTech</effect>
+
+      <!-- Iglesia común en vez de Basílica -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deBasilica</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">DEChurchCarabinieri</effect>
+      <effect type="TechStatus" status="unobtainable">DEChurchRisorgimento</effect>
+      <effect type="TechStatus" status="unobtainable">DEChurchPapacy</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Church</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ChurchStandingArmy</effect>
+      <effect type="TechStatus" status="obtainable">ChurchMassCavalry</effect>
+      <effect type="TechStatus" status="obtainable">ChurchMissionFervor</effect>
+      <effect type="TechStatus" status="obtainable">ChurchGasLighting</effect>
+      <effect type="TechStatus" status="obtainable">ChurchMercantilism</effect>
+      <effect type="TechStatus" status="obtainable">ChurchTownWatch</effect>
+      <effect type="TechStatus" status="obtainable">Bastion</effect>
+
+      <!-- Corrales: vacas en vez de corderos (mismo patrón que usan las civs
+           asiáticas para sacar Sheep de su propio corral) -->
+      <effect type="CommandRemove" proto="Sheep">
+        <target type="ProtoUnit">LivestockPen</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Cow</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Cow" relativity="Absolute">
+        <target type="ProtoUnit">LivestockPen</target>
+      </effect>
+
+      <!-- Cuartel: quitar Pavisier/Pikeman/Halberdier y sus mejoras -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">dePavisier</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Halberdier</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">DEVeteranPavisiers</effect>
+      <effect type="TechStatus" status="unobtainable">DEGuardPavisiers</effect>
+      <effect type="TechStatus" status="unobtainable">DEImperialPavisiers</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">GuardHalberdiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialHalberdiers</effect>
+
+      <!-- Gaucho = deStateMilitia real, renombrado y reposicionado a la col 0. Además
+           puede construir Corrales y tiene un acceso directo a "construir" una vaca —
+           mismo mecanismo EXACTO que usa la tech real DERevolutionArgentina con su
+           deREVGaucho (techtreey.xml): el botón de AddTrain solo no alcanza, hace falta
+           además `ActionEnable` de Build (el proto no traía la acción de construir
+           habilitada en absoluto) y un `CommandAdd` de Cow directo sobre el propio
+           proto (no solo vía el Corral). Sin el ActionEnable, el botón aparecía pero no
+           funcionaba (bug reportado). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="SetName" proto="deStateMilitia" culture="none" newname="88883010"></effect>
+      <effect type="CommandRemove" proto="deStateMilitia">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="CommandAdd" proto="deStateMilitia" page="0" column="0">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="Data" action="Build" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="CommandAdd" proto="LivestockPen" page="0" column="0">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Cow</target>
+      </effect>
+      <effect type="CommandAdd" proto="Cow" page="0" column="1">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <!-- Cambio ARG-fix: podía construir corral/vaca pero no recolectarla — al botón de
+           construir le faltaba el ActionEnable (ya corregido arriba); a la recolección le
+           faltaba lo mismo: el proto no tenía la acción "Gather" habilitada NI ninguna fila
+           de tasa de recolección (deStateMilitia es un proto de combate puro, sin protoaction
+           Gather propia). Cow comparte el unittype "Herdable" con Sheep (el recurso que
+           cualquier villano ya sabe recolectar), así que agregar la tasa bajo esa misma
+           categoría alcanza para poder recolectar de la vaca. -->
+      <effect type="Data" action="Gather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.00" subtype="WorkRate" unittype="Herdable" relativity="Assign">
+        <target type="ProtoUnit">deStateMilitia</target>
+      </effect>
+
+      <!-- Criollo = Musketeer real, renombrado y reposicionado a la col 1 (nativa
+           es la 4; ya viene Enabled=1 heredado de DEAge0Italians). -->
+      <effect type="SetName" proto="Musketeer" culture="none" newname="88883011"></effect>
+      <effect type="CommandRemove" proto="Musketeer">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="CommandAdd" proto="Musketeer" page="0" column="1">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+
+      <!-- Granadero = deSoldado real (México), renombrado y reposicionado a la col 2 -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deSoldado</target>
+      </effect>
+      <effect type="SetName" proto="deSoldado" culture="none" newname="88883012"></effect>
+      <effect type="CommandRemove" proto="deSoldado">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="CommandAdd" proto="deSoldado" page="0" column="2">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+
+      <!-- Establo: Lancer real deshabilitado (se usa el clon ARGLancer con el modelo
+           del deRevolutionaryScout). Gaucho a Caballo y Granadero a Caballo son protos
+           REALES de la revolución de Argentina que ya existe en el juego base para
+           Italia (deREVGaucho/deREVGranadero, ver DERevolutionArgentina/
+           DEHCREVGranaderos en techtreey.xml) — se habilitan y renombran directo, sin
+           necesidad de clones propios. -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Lancer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ARGLancer</target>
+      </effect>
+
+      <!-- Gaucho a Caballo = deREVGaucho real. Su base (pensada para un envío masivo
+           de revolución) cuesta 7 población y 120 oro; la propia tech real
+           DERevolutionArgentina lo rebalancea a 1 población y 120 madera/0 oro cuando
+           lo entrena directo desde un building — se replica ese mismo ajuste acá. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deREVGaucho</target>
+      </effect>
+      <effect type="SetName" proto="deREVGaucho" culture="none" newname="88883013"></effect>
+      <effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+        <target type="ProtoUnit">deREVGaucho</target>
+      </effect>
+      <effect type="Data" amount="120.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">deREVGaucho</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">deREVGaucho</target>
+      </effect>
+
+      <!-- Habilidad de recolección de ganado: la tech real DERevolutionArgentina le da esto
+           mismo al deREVGaucho (ActionEnable de Build + construir Corral + acceso directo a
+           "construir" una vaca) — se replica igual acá para que Gaucho a Caballo tenga la
+           misma capacidad económica que ya tiene el Gaucho de infantería (deStateMilitia). -->
+      <effect type="Data" action="Build" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deREVGaucho</target>
+      </effect>
+      <effect type="CommandAdd" proto="LivestockPen" page="0" column="0">
+        <target type="ProtoUnit">deREVGaucho</target>
+      </effect>
+      <effect type="CommandAdd" proto="Cow" page="0" column="1">
+        <target type="ProtoUnit">deREVGaucho</target>
+      </effect>
+      <!-- Mismo arreglo que el Gaucho de infantería: podía construir pero no recolectar
+           (ActionEnable de Gather + tasa "Herdable", la misma categoría de Cow/Sheep). -->
+      <effect type="Data" action="Gather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deREVGaucho</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.00" subtype="WorkRate" unittype="Herdable" relativity="Assign">
+        <target type="ProtoUnit">deREVGaucho</target>
+      </effect>
+
+      <!-- Granadero a Caballo = deREVGranadero real, stats nativos sin cambios (la
+           tech real DEHCREVGranaderos tampoco los toca). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deREVGranadero</target>
+      </effect>
+      <effect type="SetName" proto="deREVGranadero" culture="none" newname="88883014"></effect>
+
+      <!-- Cartas de envío de vacas (Argentina no tiene ninguna carta real de envío
+           de colonos en su pool heredado de Italia: las únicas 4 techs de Italia
+           que envían Settler están detrás de "XPRevolution"/revoltcard, es decir
+           son de un mazo de revolución inalcanzable en juego normal — ver
+           aoe3-finland-civ-clones-sweden sobre XPRevolution/revoltcard). Se agregan
+           3 cartas propias de envío de vacas, siempre disponibles. -->
+      <effect type="TechStatus" status="obtainable">ARGShipCow1</effect>
+      <effect type="TechStatus" status="obtainable">ARGShipCow2</effect>
+      <effect type="TechStatus" status="obtainable">ARGShipCow3</effect>
+    </effects>
+  </tech>
+  <tech name="ARGColonialize" type="Normal">
+    <dbid>88883102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ARGAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEColonializeItalians</effect>
+    </effects>
+  </tech>
+  <tech name="ARGFortressize" type="Normal">
+    <dbid>88883103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ARGColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEFortressizeItalians</effect>
+    </effects>
+  </tech>
+  <tech name="ARGIndustrialize" type="Normal">
+    <dbid>88883104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ARGFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEIndustrializeItalians</effect>
+    </effects>
+  </tech>
+  <tech name="ARGImperialize" type="Normal">
+    <dbid>88883105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ARGIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEImperializeItalians</effect>
+    </effects>
+  </tech>
+  <tech name="ARGPostIndustrial" type="Normal">
+    <dbid>88883106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEPostIndustrialItalians</effect>
+    </effects>
+  </tech>
+  <tech name="ARGPostImperial" type="Normal">
+    <dbid>88883107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEPostImperialItalians</effect>
+    </effects>
+  </tech>
+
+  <!-- Cambio ARG-2: cartas propias de envío de vacas (reemplazan conceptualmente
+       a las cartas de envío de colonos que Argentina no tiene disponibles en
+       juego normal). Mismos costos/cantidades que las cartas universales
+       HCShipSettlers2/4/5 (4/5/8 unidades), pero enviando Cow. -->
+  <tech name="ARGShipCow1" type="Normal">
+    <dbid>88883120</dbid>
+    <displaynameid>88883020</displaynameid>
+    <rollovertextid>88883023</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\cow\cow_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Cow" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ARGShipCow2" type="Normal">
+    <dbid>88883121</dbid>
+    <displaynameid>88883021</displaynameid>
+    <rollovertextid>88883024</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\cow\cow_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Cow" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ARGShipCow3" type="Normal">
+    <dbid>88883122</dbid>
+    <displaynameid>88883022</displaynameid>
+    <rollovertextid>88883025</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\cow\cow_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Cow" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Cambio ARG-3: réplica de DEShipItalianVillager (el gatillo "envía un colono al
+       investigar cualquier tech" registrado por DEAge0Italians vía
+       SetOnTechResearchedTech), pero enviando una vaca. ARGAge0 vuelve a registrar el
+       gatillo apuntando acá en vez de al real. -->
+  <tech name="ARGShipCowOnTech" type="Normal">
+    <dbid>88883123</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>YPInfiniteTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <flag>DEShipmentPlaySound</flag>
+    <effects>
+      <effect tech="AAStandardStartingTechs" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="Cow" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- ============================================================================
+       Cambio EGY-1 (Egipto): civ nueva clon de los Otomanos (civ real "Ottomans",
+       IDs 88884xxx). Age techs propios que DELEGAN a los reales de Otomanos
+       (Age0Ottoman, etc.), mismo patrón que HUN*->Germans/FIN*->Suecia/
+       ARG*->Italia. Toda la personalización vive en EGYAge0:
+       - Establo: el real (proto compartido "Stable") se deshabilita y se
+         reemplaza por el clon propio EGYStable (mismos stats, modelo del
+         Campamento de Guerra africano real "deWarCamp" — no se puede tocar el
+         animfile del Stable real sin cambiar el modelo a TODAS las demás civs).
+         El botón "construir Establo" del Colono se reapunta de Stable a
+         EGYStable vía CommandRemove+CommandAdd (page 6, columna 12, el mismo
+         slot nativo). EGYStable ya trae su propio roster definido directo en
+         protomods.xml (Jinete a Camello/Mameluco/Arquero a Caballo).
+       - Deli deshabilitado (Otomanos lo entrena en Stable col0); Jinete a
+         Camello real (deNatCamelRider) habilitado en su lugar, rebalanceado a
+         2 población (su base, pensada para un contexto nativo/mercenario, es 0).
+       - Mameluco (MercMameluke, real) agregado al Establo.
+       - Fundición: Otomanos NO usa el Grenadier genérico, usa su propio
+         deHumbaraci (columna 1) — se deshabilita y se reemplaza por el
+         Camello Catling real (deMercGatlingCamel).
+       - Cuartel: deNizam (real, ya trae buildlimit=20 nativo en el proto, pero
+         Otomanos normalmente NO lo entrena en ningún edificio — solo llega vía
+         cartas de envío) se habilita y se agrega como entrenable en columna 6
+         (mismo slot que usa la tech real ChurchTufanciCorps para este mismo
+         proto).
+       ============================================================================ -->
+  <tech name="EGYAge0" type="Normal">
+    <dbid>88884101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0Ottoman</effect>
+
+      <!-- Establo -> modelo del Campamento de Guerra (clon propio EGYStable) -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">EGYStable</target>
+      </effect>
+      <effect type="CommandRemove" proto="Stable">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="CommandAdd" proto="EGYStable" page="6" column="12">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+
+      <!-- Deli fuera, Jinete a Camello real en su lugar. Nombre propio (el proto real se
+           llama "Jinete a Camello Bereber") y sin límite de creación (su base, pensada para
+           un contexto nativo/mercenario, es buildlimit 9). -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deDeli</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranDelis</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deNatCamelRider</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+        <target type="ProtoUnit">deNatCamelRider</target>
+      </effect>
+      <effect type="SetName" proto="deNatCamelRider" culture="none" newname="88884060"></effect>
+      <effect type="Data" amount="999.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">deNatCamelRider</target>
+      </effect>
+
+      <!-- Mameluco real agregado al Establo -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">MercMameluke</target>
+      </effect>
+
+      <!-- Fundición: Humbaraci (el "granadero" real de Otomanos, Otomanos nunca
+           usa el Grenadier genérico) fuera, Camello Catling real en su lugar -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deHumbaraci</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranHumbaracis</effect>
+      <effect type="TechStatus" status="unobtainable">RGBaratcuCorps</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialBaratcu</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deMercGatlingCamel</target>
+      </effect>
+      <effect type="CommandAdd" proto="deMercGatlingCamel" page="0" column="1">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+
+      <!-- Cuartel: Nizam real, entrenable con su límite nativo de 20 -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deNizam</target>
+      </effect>
+      <effect type="CommandAdd" proto="deNizam" page="0" column="6">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+
+      <effect type="TechStatus" status="obtainable">EGYMuhammadAliReforms</effect>
+      <effect type="TechStatus" status="obtainable">EGYShipCamelRider1</effect>
+      <effect type="TechStatus" status="obtainable">EGYShipCamelRider2</effect>
+      <effect type="TechStatus" status="obtainable">EGYShipCamelRider3</effect>
+      <effect type="TechStatus" status="obtainable">EGYShipCamelRider4</effect>
+      <effect type="TechStatus" status="obtainable">EGYShipCamelRider5</effect>
+      <effect type="TechStatus" status="obtainable">EGYShipMameluke1</effect>
+      <effect type="TechStatus" status="obtainable">EGYShipMameluke2</effect>
+      <effect type="TechStatus" status="obtainable">EGYShipMameluke3</effect>
+      <effect type="TechStatus" status="obtainable">EGYShipMamelukeTeam</effect>
+      <effect type="TechStatus" status="obtainable">EGYShipMameluke4</effect>
+    </effects>
+  </tech>
+  <tech name="EGYColonialize" type="Normal">
+    <dbid>88884102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>EGYAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="EGYFortressize" type="Normal">
+    <dbid>88884103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>EGYColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="EGYIndustrialize" type="Normal">
+    <dbid>88884104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>EGYFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="EGYImperialize" type="Normal">
+    <dbid>88884105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>EGYIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="EGYPostIndustrial" type="Normal">
+    <dbid>88884106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="EGYPostImperial" type="Normal">
+    <dbid>88884107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialOttoman</effect>
+    </effects>
+  </tech>
+
+  <!-- Cambio EGY-2: "Reformas de Muhammad Ali" — elimina al Jenízaro a cambio de
+       quitarle el límite de creación al Nizam (su base, nativa del proto, es 20). -->
+  <tech name="EGYMuhammadAliReforms" type="Normal">
+    <dbid>88884110</dbid>
+    <displaynameid>88884010</displaynameid>
+    <rollovertextid>88884011</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\new_order_infantry\new_order_infantry.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Janissary</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranJanissaries</effect>
+      <effect type="TechStatus" status="unobtainable">GuardJanissaries</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialJanissaries</effect>
+      <effect type="Data" amount="999.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">deNizam</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Cambio EGY-3: envío de Jinetes a Camello, réplica de las 5 cartas reales
+       de Deli (DEHCShipDelis1-5) con la misma cadena de prerequisitos/edad/
+       cantidad, pero deNatCamelRider en vez de deDeli. Sin costo de recurso
+       (igual que las reales, solo "Ships"). -->
+  <tech name="EGYShipCamelRider1" type="Normal">
+    <dbid>88884121</dbid>
+    <displaynameid>88884020</displaynameid>
+    <rollovertextid>88884030</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\natives\tuareg\berber_camel_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deNatCamelRider" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="EGYShipCamelRider2" type="Normal">
+    <dbid>88884122</dbid>
+    <displaynameid>88884021</displaynameid>
+    <rollovertextid>88884031</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\natives\tuareg\berber_camel_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <prereqtech>EGYShipCamelRider1</prereqtech>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deNatCamelRider" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="EGYShipCamelRider3" type="Normal">
+    <dbid>88884123</dbid>
+    <displaynameid>88884022</displaynameid>
+    <rollovertextid>88884032</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\natives\tuareg\berber_camel_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <prereqtech>EGYShipCamelRider2</prereqtech>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="deNatCamelRider" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="EGYShipCamelRider4" type="Normal">
+    <dbid>88884124</dbid>
+    <displaynameid>88884023</displaynameid>
+    <rollovertextid>88884033</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\natives\tuareg\berber_camel_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <prereqtech>EGYShipCamelRider3</prereqtech>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="deNatCamelRider" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="EGYShipCamelRider5" type="Normal">
+    <dbid>88884125</dbid>
+    <displaynameid>88884024</displaynameid>
+    <rollovertextid>88884034</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\africans\natives\tuareg\berber_camel_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <prereqtech>EGYShipCamelRider4</prereqtech>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deNatCamelRider" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Cambio EGY-4: envío de Mamelucos, réplica de las cartas reales de Sipahi
+       (HCShipSpahis2/3/4/Team) con costo en Oro en vez de Alimento. Cadena de
+       prerequisitos propia (no depende de la carta de Sipahi que se mantiene).
+       HCShipSpahis1 (3 unidades, Edad III) se mantiene intacta como la única
+       carta de Sipahis. -->
+  <tech name="EGYShipMameluke1" type="Normal">
+    <dbid>88884126</dbid>
+    <displaynameid>88884040</displaynameid>
+    <rollovertextid>88884050</rollovertextid>
+    <cost resourcetype="Gold">800.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\mameluke\mameluke_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="MercMameluke" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="EGYShipMameluke2" type="Normal">
+    <dbid>88884127</dbid>
+    <displaynameid>88884041</displaynameid>
+    <rollovertextid>88884051</rollovertextid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\mameluke\mameluke_icon.png</icon>
+    <flag>HomeCity</flag>
+    <prereqtech>EGYShipMameluke1</prereqtech>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="MercMameluke" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="EGYShipMameluke3" type="Normal">
+    <dbid>88884128</dbid>
+    <displaynameid>88884042</displaynameid>
+    <rollovertextid>88884052</rollovertextid>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\mameluke\mameluke_icon.png</icon>
+    <flag>HomeCity</flag>
+    <prereqtech>EGYShipMameluke2</prereqtech>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="MercMameluke" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="EGYShipMamelukeTeam" type="Normal">
+    <dbid>88884129</dbid>
+    <displaynameid>88884043</displaynameid>
+    <rollovertextid>88884053</rollovertextid>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\mameluke\mameluke_icon.png</icon>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <prereqtech>EGYShipMameluke3</prereqtech>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="MercMameluke" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- Cambio EGY-fix (v6.4): carta nueva pedida, 8 Mamelucos por 2000 de oro en Edad IV,
+       independiente de la cadena Mameluke1-3/Team. -->
+  <tech name="EGYShipMameluke4" type="Normal">
+    <dbid>88884130</dbid>
+    <displaynameid>88884044</displaynameid>
+    <rollovertextid>88884054</rollovertextid>
+    <cost resourcetype="Gold">2000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\mameluke\mameluke_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="MercMameluke" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Grenzer (Hungría Otomana + Hungría Alemana) ===================== -->
+  <tech name="HUNVeteranGrenzer" type="Normal">
+    <dbid>88885304</dbid>
+    <displaynameid>88885220</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>88885230</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenzer" culture="none" newname="88885220"></effect>
+    </effects>
+  </tech>
+
+  <tech name="HUNGuardGrenzer" type="Normal">
+    <dbid>88885305</dbid>
+    <displaynameid>88885221</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>88885231</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">HUNVeteranGrenzer</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenzer" culture="none" newname="88885221"></effect>
+    </effects>
+  </tech>
+
+  <tech name="HUNImperialGrenzer" type="Normal">
+    <dbid>88885306</dbid>
+    <displaynameid>88885222</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>88885232</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardGrenzer</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenzer" culture="none" newname="88885222"></effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Pandur (Hungría Alemana) ===================== -->
+  <tech name="HUNVeteranPandur" type="Normal">
+    <dbid>88886304</dbid>
+    <displaynameid>88886220</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>88886230</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="SetName" proto="HUNPandur" culture="none" newname="88886220"></effect>
+    </effects>
+  </tech>
+
+  <tech name="HUNGuardPandur" type="Normal">
+    <dbid>88886305</dbid>
+    <displaynameid>88886221</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>88886231</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">HUNVeteranPandur</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="SetName" proto="HUNPandur" culture="none" newname="88886221"></effect>
+    </effects>
+  </tech>
+
+  <tech name="HUNImperialPandur" type="Normal">
+    <dbid>88886306</dbid>
+    <displaynameid>88886222</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>88886232</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardPandur</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="SetName" proto="HUNPandur" culture="none" newname="88886222"></effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Cartas de envío: Granadero Húngaro (equivalente a Humbaraci) ===================== -->
+  <tech name="HUNShipGrenadier1" type="Normal">
+    <dbid>88885421</dbid>
+    <displaynameid>88881120</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\grenadier\grenadier_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="HUNGrenadier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="HUNShipGrenadier2" type="Normal">
+    <dbid>88885422</dbid>
+    <displaynameid>88881120</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\grenadier\grenadier_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNGrenadier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="HUNShipGrenadierRepeat" type="Normal">
+    <dbid>88885423</dbid>
+    <displaynameid>88881120</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\ottoman\infinite_humbaraci.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="HUNGrenadier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Cartas de envío: Pandur (Hungría Alemana, equivalente a las de Guerrillero) ===================== -->
+  <tech name="HUNShipPandurs1" type="Normal">
+    <dbid>88886421</dbid>
+    <displaynameid>88886210</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\pandour_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNPandur" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="HUNShipPandurs2" type="Normal">
+    <dbid>88886422</dbid>
+    <displaynameid>88886210</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\pandour_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNPandur" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="HUNShipPandurs3" type="Normal">
+    <dbid>88886423</dbid>
+    <displaynameid>88886210</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\pandour_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="HUNPandur" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="HUNShipPandurs4" type="Normal">
+    <dbid>88886424</dbid>
+    <displaynameid>88886210</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\pandour_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="HUNPandur" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Hungría Otomana (HOT): clon de Otomanos ===================== -->
+  <tech name="HOTAge0" type="Normal">
+    <dbid>88885101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0Ottoman</effect>
+
+      <!-- Cuartel: fuera Azap, dentro Grenzer + Hajduk propios -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deAzap</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">DEVeteranAzaps</effect>
+      <effect type="TechStatus" status="unobtainable">DEGuardAzaps</effect>
+      <effect type="TechStatus" status="unobtainable">DEImperialAzaps</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialHajduk</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranGrenzer</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardGrenzer</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialGrenzer</effect>
+
+      <!-- Establo: fuera Arquero a Caballo Y Deli (comparten columna con Crabat/Hussar
+           Magiar en el Establo compartido; si no se deshabilitan quedar�an dos unidades
+           compitiendo por el mismo slot), dentro Crabat + Hussar Magiar propios -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">CavalryArcher</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranCavalryArchersShadow</effect>
+      <effect type="TechStatus" status="unobtainable">GuardCavalryArchers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCavalryArchers</effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deDeli</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranDelis</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardMagyarHussar</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialMagyarHussar</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardCrabat</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialCrabat</effect>
+
+      <!-- Fundición de Artillería: fuera Humbaraci y Obús (AbusGun), dentro Granadero Húngaro -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deHumbaraci</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranHumbaracis</effect>
+      <effect type="TechStatus" status="unobtainable">RGBaratcuCorps</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialBaratcu</effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">AbusGun</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranAbusGuns</effect>
+      <effect type="TechStatus" status="unobtainable">GuardAbusGuns</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialAbusGun</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialGrenadier</effect>
+
+      <!-- Cartas de envío: fuera Azap/Humbaraci/Obús (no est�n en el pool de este civ),
+           dentro Hajduk/Crabat (reutilizadas de Hungr�a) y Granadero H�ngaro (nueva) -->
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks3</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks4</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats3</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats4</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats5</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadier1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadier2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadierRepeat</effect>
+    </effects>
+  </tech>
+
+  <tech name="HOTColonialize" type="Normal">
+    <dbid>88885102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOTAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeOttoman</effect>
+    </effects>
+  </tech>
+
+  <tech name="HOTFortressize" type="Normal">
+    <dbid>88885103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOTColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeOttoman</effect>
+    </effects>
+  </tech>
+
+  <tech name="HOTIndustrialize" type="Normal">
+    <dbid>88885104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOTFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeOttoman</effect>
+    </effects>
+  </tech>
+
+  <tech name="HOTImperialize" type="Normal">
+    <dbid>88885105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOTIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeOttoman</effect>
+    </effects>
+  </tech>
+
+  <tech name="HOTPostIndustrial" type="Normal">
+    <dbid>88885106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialOttoman</effect>
+    </effects>
+  </tech>
+
+  <tech name="HOTPostImperial" type="Normal">
+    <dbid>88885107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialOttoman</effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Hungría Alemana (HGE): clon de Alemanes ===================== -->
+  <tech name="HGEAge0" type="Normal">
+    <dbid>88886101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0German</effect>
+
+      <!-- Fundición de Artillería: fuera Granadero base, dentro Granadero Húngaro -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">GuardGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">RGPavlovGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialPavlovs</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialGrenadier</effect>
+
+      <!-- Cuartel: agregar Grenzer + Hajduk; fuera Guerrillero (Skirmisher), dentro Pandur.
+           El Piquero (Pikeman) comparte columna con Hajduk en el Cuartel compartido; se
+           deshabilita para dejarle el slot (Ballestero y Dopplesoldner NO se tocan). -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">GuardPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialPikemen</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialHajduk</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranGrenzer</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardGrenzer</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialGrenzer</effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranSkirmishersShadow</effect>
+      <effect type="TechStatus" status="unobtainable">GuardSkirmishers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialSkirmishers</effect>
+      <effect type="TechStatus" status="unobtainable">RGPrussianNeedleGun</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialNeedleGun</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranPandur</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardPandur</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialPandur</effect>
+
+      <!-- Establo: fuera Uhlan y Carro de Guerra (comparten columna con Hussar Magiar/
+           Crabat en el Establo compartido; si no se deshabilitan quedar�an dos unidades
+           compitiendo por el mismo slot, igual que ya resuelve la Hungr�a base), dentro
+           Hussar Magiar + Crabat propios -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Uhlan</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">WarWagon</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">RGCzapkaUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCzapkaUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialWarWagons</effect>
+      <effect type="TechStatus" status="unobtainable">GuardWarWagons</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardMagyarHussar</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialMagyarHussar</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardCrabat</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialCrabat</effect>
+
+      <!-- Cartas de envío: Hajduk/Crabat (reutilizadas), Granadero Húngaro y Pandur (nuevas,
+           reemplazan a las de Guerrillero) -->
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks3</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks4</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats3</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats4</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats5</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadier1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadier2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadierRepeat</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipPandurs1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipPandurs2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipPandurs3</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipPandurs4</effect>
+    </effects>
+  </tech>
+
+  <tech name="HGEColonialize" type="Normal">
+    <dbid>88886102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HGEAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeGerman</effect>
+    </effects>
+  </tech>
+
+  <tech name="HGEFortressize" type="Normal">
+    <dbid>88886103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HGEColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeGerman</effect>
+    </effects>
+  </tech>
+
+  <tech name="HGEIndustrialize" type="Normal">
+    <dbid>88886104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HGEFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeGerman</effect>
+    </effects>
+  </tech>
+
+  <tech name="HGEImperialize" type="Normal">
+    <dbid>88886105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HGEIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeGerman</effect>
+    </effects>
+  </tech>
+
+  <tech name="HGEPostIndustrial" type="Normal">
+    <dbid>88886106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialGerman</effect>
+    </effects>
+  </tech>
+
+  <tech name="HGEPostImperial" type="Normal">
+    <dbid>88886107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialGerman</effect>
     </effects>
   </tech>
 </techtreemods>

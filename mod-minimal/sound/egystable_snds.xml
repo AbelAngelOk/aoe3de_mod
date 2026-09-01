@@ -1,0 +1,28 @@
+<!--
+  mod-minimal (Egipto): sonido del Establo egipcio (EGYStable, clon propio del Stable real con
+  el modelo del Campamento de Guerra). Proto PROPIO -> archivo completo, no aditivo, mismo
+  patrón que hunhonved_snds.xml/finkarelianjaeger_snds.xml. El Stable real es universal (sin
+  civlogic, mismos sonidos de construcción/selección para todas las civs), así que se reusan
+  esos mismos soundsets genéricos directo (no hace falta "MM", no son específicos de ninguna
+  civ real).
+-->
+<protounitsounddef>
+  <protounit name="EGYStable">
+    <soundtype name="Select">
+      <soundset name="UI_Building_Military">
+      </soundset>
+    </soundtype>
+    <soundtype name="SelectSecondary">
+      <soundset name="UI_Select_Building_Stable">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="BuildingDestruction">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="UI_Select_Building_Stable">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

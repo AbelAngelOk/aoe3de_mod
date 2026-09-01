@@ -160,6 +160,168 @@
       <string _locid="88881150">Envío: Grandes Bombardas</string>
       <string _locid="88881151">Investígala en la Iglesia por 2000 de monedas para enviar 3 Grandes Bombardas.</string>
 
+      <!-- Parte A: rollover Academia de Turku (fusión Duelista) -->
+      <string _locid="88882020">Otorga +50% de vida y ataque al Explorador, le permite curar y entrenar Cirujanos y Hospitales de Campaña, y envía 1 Cirujano.</string>
+
+      <!-- Cambio 25: carta de Iglesia finlandesa (Tratado de Hamina) -->
+      <string _locid="88882030">Tratado de Hamina</string>
+      <string _locid="88882031">Agrega tecnologías a la Iglesia que envían tropas al investigarse: Streltsy de Nöteborg (Edad II), Alabarderos de Viborg y Reclutas de Ingria (Edad III), y Envío de Cañones (Edad IV). También desbloquea las mejoras Veterano/Guardia/Imperial del Blocao y la carta de los Mosqueteros del Norte (Edad IV).</string>
+      <string _locid="88882032">Streltsy de Nöteborg</string>
+      <string _locid="88882033">Investígala en la Iglesia por 500 de alimento para enviar 13 Streltsy.</string>
+      <string _locid="88882034">Alabarderos de Viborg</string>
+      <string _locid="88882035">Investígala en la Iglesia por 1000 de monedas para enviar 14 Alabarderos.</string>
+      <string _locid="88882036">Reclutas de Ingria</string>
+      <string _locid="88882037">Investígala en la Iglesia por 1000 de madera para enviar 16 Rekruts (mosqueteros rusos).</string>
+      <string _locid="88882038">Envío de Cañones</string>
+      <string _locid="88882039">Investígala en la Iglesia por 500 de alimentos para enviar 2 Cañones de Cuero y habilitarlos como entrenables en el Blocao desde Edad II.</string>
+
+      <!-- Cambio 28: Castillo de Kalmar (blocaos) -->
+      <string _locid="88882040">Envía 2 Carretas de blocao y mejora los Blocaos: +25% de vida, botín extra al destruir enemigos y +1 al límite de construcción.</string>
+
+      <!-- Cambio 29: mejoras de rango de los jaegers finlandeses -->
+      <string _locid="88882050">Mejora los Jaeger de Carelia a Veteranos (+20% de vida y ataque).</string>
+      <string _locid="88882051">Jaeger de Carelia de la Guardia</string>
+      <string _locid="88882052">Mejora los Jaeger de Carelia a la Guardia (+30% de vida y ataque).</string>
+      <string _locid="88882053">Jaeger de Savonia Veterano</string>
+      <string _locid="88882054">Mejora los Jaeger de Savonia a Veteranos (+20% de vida y ataque).</string>
+
+      <!-- Cambio 30: cartas de envío + mejoras de jaegers -->
+      <string _locid="88882060">Envía 8 Jaeger de Carelia.</string>
+      <string _locid="88882061">Envía 9 Jaeger de Carelia.</string>
+      <string _locid="88882062">Envía 16 Jaeger de Carelia.</string>
+      <string _locid="88882063">Envía 10 Jaeger de Carelia (envío infinito).</string>
+      <string _locid="88882064">Envía 5 Jaeger de Contraataque.</string>
+      <string _locid="88882065">Envía 8 Jaeger de Contraataque.</string>
+      <string _locid="88882066">Envía 9 Jaeger de Contraataque.</string>
+      <string _locid="88882067">Envía 12 Jaeger de Contraataque.</string>
+      <string _locid="88882068">Envía 5 Dragón de Contraataque.</string>
+      <string _locid="88882069">Envía 8 Dragón de Contraataque.</string>
+      <string _locid="88882070">Envía 9 Dragón de Contraataque.</string>
+      <string _locid="88882071">Envía 7 Dragón de Contraataque (envío infinito).</string>
+      <string _locid="88882072">Envía 4 Alabarderos.</string>
+      <string _locid="88882073">Envía 7 Alabarderos.</string>
+      <string _locid="88882074">Envía 8 Alabarderos.</string>
+      <string _locid="88882075">Envía 13 Alabarderos.</string>
+      <string _locid="88882076">Envía 4 Lansquenetes por 500 de monedas.</string>
+      <string _locid="88882077">Envía 10 Lansquenetes por 1000 de monedas.</string>
+      <string _locid="88882078">Envía 10 Lansquenetes por 1000 de monedas (envío infinito).</string>
+      <string _locid="88882079">Envía 9 Brigadiers Irlandeses por 500 de monedas.</string>
+      <string _locid="88882080">Envía 12 Piqueros Suizos por 1000 de monedas.</string>
+      <string _locid="88882081">Envía 7 Jinetes Negros por 1000 de monedas.</string>
+      <string _locid="88882082">Jaeger de Carelia Imperial</string>
+      <string _locid="88882083">Mejora los Jaeger de Carelia a Imperiales (+50% de vida y ataque).</string>
+      <string _locid="88882084">Jaeger de Savonia de la Guardia</string>
+      <string _locid="88882085">Mejora los Jaeger de Savonia a la Guardia (+30% de vida y ataque).</string>
+      <string _locid="88882086">Jaeger de Savonia Imperial</string>
+      <string _locid="88882087">Mejora los Jaeger de Savonia a Imperiales (+50% de vida y ataque).</string>
+      <string _locid="88882088">Jaeger de Contraataque Veterano</string>
+      <string _locid="88882089">Mejora los Jaeger de Contraataque a Veteranos (+20% de vida y ataque).</string>
+      <string _locid="88882090">Jaeger de Contraataque de la Guardia</string>
+      <string _locid="88882091">Mejora los Jaeger de Contraataque a la Guardia (+30% de vida y ataque).</string>
+      <string _locid="88882092">Jaeger de Contraataque Imperial</string>
+      <string _locid="88882093">Mejora los Jaeger de Contraataque a Imperiales (+50% de vida y ataque).</string>
+      <string _locid="88882094">Dragón de Contraataque de la Guardia</string>
+      <string _locid="88882095">Mejora los Dragón de Contraataque a la Guardia (+20% de vida y ataque).</string>
+      <string _locid="88882096">Dragón de Contraataque Imperial</string>
+      <string _locid="88882097">Mejora los Dragón de Contraataque a Imperiales (+50% de vida y ataque).</string>
+      <string _locid="88882098">Revolución de Finlandia</string>
+      <string _locid="88882099">Finlandia se independiza de Suecia: el Jaeger de Carelia (Skirmisher) se habilita como constructor/recolector con su aspecto veterano real, y puede entrenarse en el Centro Urbano y el Blocao. El Colono no se pierde.</string>
+      <string _locid="88882100">Fin de la Revolución</string>
+      <string _locid="88882101">Recupera el avance de edad tras la Revolución (Finlandia pasa directo a Edad III). El Jaeger de Carelia conserva su capacidad de construir y recolectar.</string>
+      <string _locid="88882102" symbol="cStringFINHaveReturned">¡Finlandia ha vuelto al camino del progreso!</string>
+      <string _locid="88882103" symbol="cStringFINPlayersColonyReturned">¡%s ha acabado con la REVOLUCIÓN!</string>
+      <string _locid="88882401">Grupo de Lansquenetes</string>
+      <string _locid="88882402">Contratación de Lansquenetes</string>
+      <string _locid="88882403">Envía 3 Lansquenetes y habilita entrenarlos en el Cuartel y el Fuerte.</string>
+      <string _locid="88882404">Veteranía del Blocao</string>
+      <string _locid="88882405">Investígala en la Iglesia para mejorar a Streltsy, Alabarderos, Rekruts y Cañones de Cuero del Blocao a nivel Veterano (+20% vida y ataque). Requiere Edad III.</string>
+      <string _locid="88882406">Guardia del Blocao</string>
+      <string _locid="88882407">Mejora a las unidades del Blocao a nivel Guardia (+35% vida y ataque). Requiere la Veteranía del Blocao y Edad IV.</string>
+      <string _locid="88882408">Ejército Imperial del Blocao</string>
+      <string _locid="88882409">Mejora a las unidades del Blocao a nivel Imperial (+50% vida y ataque). Requiere la Guardia del Blocao y Edad V.</string>
+      <string _locid="88882410">25 Mosqueteros del Norte</string>
+      <string _locid="88882411">Investígala en la Iglesia por 1000 de monedas para enviar 25 Mosqueteros del Norte y habilitarlos como entrenables en el Blocao, a costa de deshabilitar a los Streltsy y los Rekruts.</string>
+
+      <!-- Cambio ARG-1/2: Argentina (clon de Italia) -->
+      <string _locid="88883001">Argentina</string>
+      <string _locid="88883002">Argentina</string>
+      <string _locid="88883003">Buenos Aires</string>
+      <string _locid="88883004">Explorador</string>
+      <string _locid="88883010">Gaucho</string>
+      <string _locid="88883011">Criollo</string>
+      <string _locid="88883012">Granadero</string>
+      <string _locid="88883013">Gaucho a Caballo</string>
+      <string _locid="88883014">Granadero a Caballo</string>
+      <string _locid="88883020">Envío de Vacas I</string>
+      <string _locid="88883021">Envío de Vacas II</string>
+      <string _locid="88883022">Envío de Vacas III</string>
+      <string _locid="88883023">Envía 4 vacas.</string>
+      <string _locid="88883024">Envía 5 vacas.</string>
+      <string _locid="88883025">Envía 8 vacas.</string>
+      <string _locid="88883026">Jinete criollo con lanza, montura pesada.</string>
+      <string _locid="88883027">Granadero a caballo, armado con mosquete.</string>
+      <string _locid="88883900">José de San Martín</string>
+      <string _locid="88883901">La IA argentina: gauchos, criollos y granaderos de la Pampa.</string>
+
+      <!-- Cambio EGY-1/2/3/4: Egipto (clon de Otomanos) -->
+      <string _locid="88884001">Egipto</string>
+      <string _locid="88884002">Egipto</string>
+      <string _locid="88884003">El Cairo</string>
+      <string _locid="88884004">Explorador</string>
+      <string _locid="88884010">Reformas de Muhammad Ali</string>
+      <string _locid="88884011">Elimina al Jenízaro (y sus mejoras) a cambio de quitarle el límite de creación al Nizam.</string>
+      <string _locid="88884020">Grupo de Jinetes a Camello</string>
+      <string _locid="88884021">Escuadrón de Jinetes a Camello</string>
+      <string _locid="88884022">Compañía de Jinetes a Camello</string>
+      <string _locid="88884023">Regimiento de Jinetes a Camello</string>
+      <string _locid="88884024">Ejército de Jinetes a Camello</string>
+      <string _locid="88884030">Envía 3 Jinetes a Camello.</string>
+      <string _locid="88884031">Envía 4 Jinetes a Camello.</string>
+      <string _locid="88884032">Envía 7 Jinetes a Camello.</string>
+      <string _locid="88884033">Envía 5 Jinetes a Camello.</string>
+      <string _locid="88884034">Envía 8 Jinetes a Camello.</string>
+      <string _locid="88884040">Grupo de Mamelucos</string>
+      <string _locid="88884041">Escuadrón de Mamelucos</string>
+      <string _locid="88884042">Compañía de Mamelucos</string>
+      <string _locid="88884043">Mamelucos (Equipo)</string>
+      <string _locid="88884050">Envía 4 Mamelucos por 800 de oro.</string>
+      <string _locid="88884051">Envía 5 Mamelucos por 1000 de oro.</string>
+      <string _locid="88884052">Envía 6 Mamelucos por 1200 de oro.</string>
+      <string _locid="88884053">Envía 4 Mamelucos a cada aliado por 1200 de oro.</string>
+      <string _locid="88884060">Jinete a Camello</string>
+      <string _locid="88884044">División de Mamelucos</string>
+      <string _locid="88884054">Envía 8 Mamelucos por 2000 de oro.</string>
+
+      <!-- Hungría Otomana (HOT) -->
+      <string _locid="88885001">Hungría Otomana</string>
+      <string _locid="88885002">Hungría Otomana</string>
+      <string _locid="88885003">Buda</string>
+      <string _locid="88885004">Explorador</string>
+      <string _locid="88885210">Grenzer</string>
+      <string _locid="88885211">Soldado fronterizo de la Militärgrenze húngaro-otomana. Infantería ligera versátil, buena contra tropas de escaramuza.</string>
+      <string _locid="88885212">Grenzer</string>
+      <string _locid="88885220">Grenzer Veterano</string>
+      <string _locid="88885221">Grenzer de la Guardia</string>
+      <string _locid="88885222">Grenzer Imperial</string>
+      <string _locid="88885230">Mejora los Grenzer a Veterano (+20% vida y daño, +0.10 velocidad).</string>
+      <string _locid="88885231">Mejora los Grenzer a la Guardia (+20% vida y daño adicional, +0.10 velocidad).</string>
+      <string _locid="88885232">Mejora los Grenzer a Imperial (+50% vida y daño, +0.10 velocidad).</string>
+
+      <!-- Hungría Alemana (HGE) -->
+      <string _locid="88886001">Hungría Alemana</string>
+      <string _locid="88886002">Hungría Alemana</string>
+      <string _locid="88886003">Pozsony</string>
+      <string _locid="88886004">Explorador</string>
+      <string _locid="88886210">Pandur</string>
+      <string _locid="88886211">Infantería ligera irregular croata al servicio de los Habsburgo. Resistente, buena contra tropas de escaramuza.</string>
+      <string _locid="88886212">Pandur</string>
+      <string _locid="88886220">Pandur Veterano</string>
+      <string _locid="88886221">Pandur de la Guardia</string>
+      <string _locid="88886222">Pandur Imperial</string>
+      <string _locid="88886230">Mejora los Pandur a Veterano (+20% vida y daño, +0.10 velocidad).</string>
+      <string _locid="88886231">Mejora los Pandur a la Guardia (+20% vida y daño adicional, +0.10 velocidad).</string>
+      <string _locid="88886232">Mejora los Pandur a Imperial (+50% vida y daño, +0.10 velocidad).</string>
+
     </language>
   </stringtable>
 </stringmods>

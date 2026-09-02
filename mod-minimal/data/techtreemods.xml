@@ -4500,4 +4500,266 @@
       <effect type="TechStatus" status="active">PostImperialGerman</effect>
     </effects>
   </tech>
+
+  <!-- ===================== Ítalo-Neerlandesa (ITD): clon de Holandeses + sistemas de
+       Italia ===================== -->
+  <tech name="ITDAge0" type="Normal">
+    <dbid>88887101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0Dutch</effect>
+
+      <!-- Colono a 100 de oro: ya viene de Age0Dutch, sin cambios. Mecánica de Italia:
+           un colono gratis cada vez que se completa CUALQUIER investigación. -->
+      <effect type="SetOnTechResearchedTech" amount="1.00">DEShipItalianVillager</effect>
+
+      <!-- Cuartel: fuera Guerrillero (Skirmisher), dentro Bersagliere propio (col 5).
+           Disponible desde esta Edad (I) pero al 60% de vida/daño — sube a 80% en
+           ITDFortressize (Edad III) y a 100% (stats reales) en ITDIndustrializar (Edad IV). -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranSkirmishersShadow</effect>
+      <effect type="TechStatus" status="unobtainable">GuardSkirmishers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialSkirmishers</effect>
+      <effect type="TechStatus" status="unobtainable">RGPrussianNeedleGun</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialNeedleGun</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ITDBersagliere</target>
+      </effect>
+      <effect type="Data" amount="0.60" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">ITDBersagliere</target>
+      </effect>
+      <effect type="Data" amount="0.60" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">ITDBersagliere</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="ITDColonialize" type="Normal">
+    <dbid>88887102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ITDAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeDutch</effect>
+    </effects>
+  </tech>
+
+  <tech name="ITDFortressize" type="Normal">
+    <dbid>88887103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ITDColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeDutch</effect>
+      <!-- Bersagliere: 60% -> 80% de las stats reales -->
+      <effect type="Data" amount="1.3333" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">ITDBersagliere</target>
+      </effect>
+      <effect type="Data" amount="1.3333" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">ITDBersagliere</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="ITDIndustrialize" type="Normal">
+    <dbid>88887104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ITDFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeDutch</effect>
+      <!-- Bersagliere: 80% -> 100% (stats reales del Bersagliere base de Italia) -->
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">ITDBersagliere</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">ITDBersagliere</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="ITDImperialize" type="Normal">
+    <dbid>88887105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ITDIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeDutch</effect>
+    </effects>
+  </tech>
+
+  <tech name="ITDPostIndustrial" type="Normal">
+    <dbid>88887106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialDutch</effect>
+    </effects>
+  </tech>
+
+  <tech name="ITDPostImperial" type="Normal">
+    <dbid>88887107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialDutch</effect>
+    </effects>
+  </tech>
+
+  <!-- Cartas de envío de Bersagliere propio (equivalente a DEHCShipBersaglieri1/Repeat
+       reales, pero apuntando a ITDBersagliere en vez del deBersagliere real). -->
+  <tech name="ITDShipBersagliere1" type="Normal">
+    <dbid>88887421</dbid>
+    <displaynameid>88887210</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\bersagliere\hc_bersagliere_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="ITDBersagliere" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="ITDShipBersagliereRepeat" type="Normal">
+    <dbid>88887422</dbid>
+    <displaynameid>88887210</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\italians\infinite_bersagliere.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="ITDBersagliere" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Rumania (ROU): clon de Rusos ===================== -->
+  <tech name="ROUAge0" type="Normal">
+    <dbid>88888101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0Russian</effect>
+
+      <!-- Blocao: fuera Rekrut (deRussianMusketeer, 2ª posición), dentro Dorobant propio.
+           Se suma Hajduk (HUNHajduk, reutilizado). Ambos por lote de 4 (ver civmods.xml). -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deRussianMusketeer</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">DEVeteranRussianMusketeers</effect>
+      <effect type="TechStatus" status="unobtainable">DEGuardRussianMusketeers</effect>
+      <effect type="TechStatus" status="unobtainable">DEImperialRussianMusketeers</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ROUDorobant</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+
+      <!-- Establo: fuera Arquero a Caballo, dentro Jinete Arquero de Valaquia propio (80%
+           de sus stats "reales" hasta Edad IV/Industrial, ver ROUIndustrialize). Fuera
+           Oprichnik, dentro Crabat (HUNCrabat, reutilizado, ya cuesta 2 de población).
+           Dragón Roshior propio, habilitado desde ya pero con allowedage=3 en el proto (se
+           ve en gris hasta Edad IV). -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">CavalryArcher</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranCavalryArchersShadow</effect>
+      <effect type="TechStatus" status="unobtainable">GuardCavalryArchers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCavalryArchers</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ROUWallachianArcher</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">ROUWallachianArcher</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">ROUWallachianArcher</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Oprichnik</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">GuardOprichniks</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialOprichniks</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ROURoshiorDragoon</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="ROUColonialize" type="Normal">
+    <dbid>88888102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ROUAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeRussian</effect>
+    </effects>
+  </tech>
+
+  <tech name="ROUFortressize" type="Normal">
+    <dbid>88888103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ROUColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeRussian</effect>
+    </effects>
+  </tech>
+
+  <tech name="ROUIndustrialize" type="Normal">
+    <dbid>88888104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ROUFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeRussian</effect>
+      <!-- Jinete Arquero de Valaquia: 80% -> 100% de sus stats reales -->
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">ROUWallachianArcher</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">ROUWallachianArcher</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="ROUImperialize" type="Normal">
+    <dbid>88888105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>ROUIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeRussian</effect>
+    </effects>
+  </tech>
+
+  <tech name="ROUPostIndustrial" type="Normal">
+    <dbid>88888106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialRussian</effect>
+    </effects>
+  </tech>
+
+  <tech name="ROUPostImperial" type="Normal">
+    <dbid>88888107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialRussian</effect>
+    </effects>
+  </tech>
 </techtreemods>

@@ -1,5 +1,87 @@
 # Changelog — Eastern European Expansion (EEX)
 
+## [mod-minimal 6.8] — 2026-09-02 (Civ nueva: Rumania, clon de Rusos)
+
+- **Rumania** (`ROURomania`, clon completo de Rusos, IDs 88888xxx): ciudad natal "Bucarest"
+  (`homecityroumin.xml`, clon literal de `homecityrussians.xml` — sonidos/assets/tech/baraja
+  reales sin tocar salvo lo pedido). Se quitaron los 4 bloques `<revoltdeck>` heredados
+  (Finlandia/Hungría/Rumania + uno genérico) por no aplicar a una civ jugable normal — las 15
+  cartas que listaba el `revoltdeck civ="DERevRomania"` (`DEHCREVHajduks`,
+  `DEHCREVWallachianArchers`, `DEHCREVMilitaryFrontier`, etc.) YA estaban en el pool principal
+  ruso, así que "agregar las cartas de la revolución" quedó satisfecho automáticamente al
+  clonar el mazo completo.
+- **Blocao**: Rekrut (`deRussianMusketeer`, 2ª posición) reemplazado por un **Dorobant
+  propio** (`ROUDorobant`, clon de `xpColonialMilitia` — el proto real detrás del "Dorobant"
+  de la revolución, sin modelo propio en el juego — con los mismos ajustes que aplica
+  `DERevolutionRomania`: Hitpoints x1.15, rango -2, bounty 11, ícono real
+  `dorobant_icon.png`). Se agregó **Hajduk** (`HUNHajduk`, reutilizado, ya costaba 1 de
+  población) al Blocao. Ambos se entrenan por lote de 4 vía `<blocktrain>` en `civmods.xml`
+  (mecanismo nativo del juego, el mismo que ya usa Rusia para Strelet/Alabardero).
+- **Investigación clave**: ni "Dorobant" ni "Jinete Arquero de Valaquia" ni "Dragón Roshior"
+  tienen modelo 3D propio en los datos reales — son reskins (ícono + nombre + stats) de
+  protos genéricos (`xpColonialMilitia`, `CavalryArcher`, `Dragoon` respectivamente) aplicados
+  por la tech madre de la revolución (`DERevolutionRomania`) y sus cartas. Tampoco existe
+  ningún proto "Grenzer" — es solo el nombre interno de una acción (`SpawnGrenzerOnce`) que
+  entrega el mismo `xpColonialMilitia`. La mecánica real "colono → Dorobant al revolucionar"
+  tampoco es un `TransformUnit`: deshabilita `Settler`/`SettlerWagon` y habilita
+  `xpColonialMilitia` reskineado por separado.
+- **Establo**: Arquero a Caballo reemplazado por un **Jinete Arquero de Valaquia propio**
+  (`ROUWallachianArcher`, clon de `CavalryArcher` con los ajustes reales de la carta
+  `DEHCREVWallachianArchers`: Hitpoints x0.67, velocidad +10%, cadencia más rápida; ícono =
+  el de la carta, pedido explícito). Disponible desde Edad III al 80% de esas stats,
+  recuperando el 100% en Edad IV (`BasePercent` en `ROUAge0`→`ROUIndustrialize`, mismo patrón
+  que el Bersagliere de Holanda Italiana en v6.7). Se agregó un **Dragón Roshior propio**
+  (`ROURoshiorDragoon`, clon de `Dragoon` con Hitpoints x0.85 y Daño x1.15 —ya sumados
+  Veterano+Guardia, tal como los aplica la revolución real—, ícono de la carta
+  `DEHCREVRoshiorDragoons`): habilitado desde el inicio pero con `allowedage=3` en el propio
+  proto, así que se ve en el Establo en gris hasta Edad IV. Se agregó **Crabat** reutilizando
+  `HUNCrabat` (ya costaba 2 de población, sin cambios). Se quitó **Oprichnik** y sus 2
+  mejoras (`GuardOprichniks`/`ImperialOprichniks`, no tiene nivel Veterano).
+- **Trampa de colisión de columna, otra vez** (ver v6.6): antes de tocar una columna
+  compartida se verificó explícitamente qué deja activo `Age0Russian` en cada una — Cossack
+  (columna 0 del Establo) y el Alabardero/Strelet rusos (Blocao) se dejaron intactos porque
+  no colisionan con ninguna adición.
+
+## [mod-minimal 6.7] — 2026-09-02 (Civ nueva: Holanda Italiana, fusión Holanda+Italia)
+
+- **Holanda Italiana** (`ITDItaloDutch`, clon de Holandeses con sistemas de Italia
+  injertados, IDs 88887xxx): ciudad natal "Ámsterdam" (`homecityitdmin.xml`, clon de
+  `homecitydutch.xml`), Iglesia y Banco holandeses sin tocar, colono a 100 de oro (ya venía
+  de base en Holanda). Mecánica de Italia agregada: cada tecnología investigada entrega un
+  colono gratis (`SetOnTechResearchedTech` sobre `DEShipItalianVillager`, la tech real de
+  Italia, reutilizada tal cual).
+- **Cuartel**: roster holandés (Piquero, Alabardero) con el Guerrillero (Skirmisher)
+  reemplazado por un **Bersagliere propio** (`ITDBersagliere`, clon del `deBersagliere` real
+  de Italia, mismas stats/arte/tactics/protoacciones, pero disponible desde Edad II con 60%
+  de vida/daño — sube a 80% en Edad III y a 100% —stats reales— en Edad IV, vía efectos
+  `BasePercent` en `ITDFortressize`/`ITDIndustrializar`, no una mejora investigable). Se
+  crearon cartas de envío propias (`ITDShipBersagliere1/Repeat`, 12/8 unidades) porque las
+  reales (`DEHCShipBersaglieri1/Repeat`) enviarían el `deBersagliere` real, no el clon.
+- **Caballería**: Ruyter + Húsar holandeses, sin cambios (ya vienen habilitados por
+  `Age0Dutch`). **Granadero base** también quedó disponible sin tocar nada — resultó estar
+  ya habilitado de fábrica para Holanda vía la tech compartida `DEGrenadierEnable` (falsa
+  alarma inicial: no hacía falta ningún efecto para "agregarlo").
+- **Cartas**: mazo fusionado por unión (no concatenación) de `homecitydutch.xml` +
+  `homecityitalians.xml` — 231 cartas holandesas + 119 cartas exclusivas de Italia (las ~130
+  restantes de Italia eran técnicas económicas/militares genéricas ya compartidas por ambos
+  mazos, mismo `<name>`, se tomó una sola copia). Se excluyeron 10 cartas
+  `DEBasilicaShip*` (dependen de la Basílica, que esta civ no tiene — usa Iglesia) y 4
+  relacionadas al Bersagliere/Musketeer real (`DEHCShipBersaglieri1/Repeat`,
+  `DEHCAlpini`, `DEHCRedshirts`) que no aplican a este clon.
+- **Sonido mixto**: Colono/Explorador con voz holandesa (soundsets `MMDutch*`, registrados
+  con el patrón v6.5 — soundset propio + `.wav` físico copiado a `sound/mm/`); el Bersagliere
+  reusa la voz italiana real (`DEItalianGrenadier*`, archivo plano nuevo
+  `itdbersagliere_snds.xml`, sin civlogic).
+- **Bug pre-existente encontrado y corregido de paso**: `HOTHungary` y `HGEHungary` (v6.6)
+  nunca habían recibido rama de civlogic para Colono/Explorador en
+  `settler_snds.mods.xml`/`explorer_snds.mods.xml` — quedaban mudos igual que Finlandia/
+  Argentina/Egipto antes del fix v6.3-6.5. Se agregaron sus ramas (Otomano ya registrado,
+  Alemán registrado de cero con el mismo patrón v6.5).
+- **Trampa de colisión de columna, de nuevo**: `Fluyt` (Holanda) y `deGalleass` (Italia)
+  comparten columna 2 del Dock — se resolvió simplemente NO habilitando el roster naval de
+  Italia (la civ es "metrópoli holandesa", los barcos no estaban pedidos explícitamente), sin
+  necesidad de deshabilitar nada.
+
 ## [mod-minimal 6.6] — 2026-08-30 (Dos civs nuevas: Hungría Otomana e Hungría Alemana)
 
 - **Hungría Otomana** (`HOTHungary`, clon de Otomanos, IDs 88885xxx): Cuartel con Hajduk +

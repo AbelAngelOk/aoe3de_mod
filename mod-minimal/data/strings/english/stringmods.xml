@@ -314,6 +314,30 @@
       <string _locid="88886231">Upgrades Pandur to Guard (+20% additional hit points and damage, +0.10 speed).</string>
       <string _locid="88886232">Upgrades Pandur to Imperial (+50% hit points and damage, +0.10 speed).</string>
 
+      <!-- Italian Dutch (ITD) -->
+      <string _locid="88887001">Italian Dutch</string>
+      <string _locid="88887002">Italian Dutch</string>
+      <string _locid="88887003">Amsterdam</string>
+      <string _locid="88887004">Explorer</string>
+      <string _locid="88887210">Bersagliere</string>
+      <string _locid="88887211">Italian light skirmisher, available from the Colonial Age but weak (60% of its real stats); reaches full strength in the Industrial Age.</string>
+      <string _locid="88887212">Bersagliere</string>
+
+      <!-- Romania (ROU) -->
+      <string _locid="88888001">Romania</string>
+      <string _locid="88888002">Romania</string>
+      <string _locid="88888003">Bucharest</string>
+      <string _locid="88888004">Explorer</string>
+      <string _locid="88888210">Dorobant</string>
+      <string _locid="88888211">Irregular Romanian musket infantry. Replaces the Rekrut in the Blockhouse; trains in batches of 4.</string>
+      <string _locid="88888212">Dorobant</string>
+      <string _locid="88888220">Wallachian Horse Archer</string>
+      <string _locid="88888221">Light cavalry archer. Available from Age III at 80% of its stats; reaches full strength in Age IV.</string>
+      <string _locid="88888222">Wallachian Horse Archer</string>
+      <string _locid="88888230">Roshior Dragoon</string>
+      <string _locid="88888231">Elite Romanian dragoons. Visible in the Stable from the start, but only trainable from Age IV onward.</string>
+      <string _locid="88888232">Roshior Dragoon</string>
+
     </language>
   </stringtable>
 </stringmods>

@@ -67,6 +67,38 @@
             </choice>
           </skinlogic>
         </choice>
+        <choice name="HOTHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HGEHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMGermanExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMGermanFemplorerSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDutchExplorerSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
       </civlogic>
     </soundtype>
     <soundtype name="Acknowledge">
@@ -191,6 +223,78 @@
             </choice>
           </skinlogic>
         </choice>
+        <choice name="HOTHungary">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMOttomanExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMOttomanExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMSahinAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMSahinAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HGEHungary">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMGermanExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMGermanExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMGermanFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMGermanFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMDutchExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMDutchExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
       </civlogic>
     </soundtype>
     <soundtype name="Claim">
@@ -209,6 +313,18 @@
         </choice>
         <choice name="ARGArgentina">
           <soundset name="MMSpanishExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="HOTHungary">
+          <soundset name="MMOttomanExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="HGEHungary">
+          <soundset name="MMGermanExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <soundset name="MMDutchExplorerClaim">
           </soundset>
         </choice>
       </civlogic>
@@ -259,6 +375,38 @@
             </choice>
             <choice name="2">
               <soundset name="MMDelgadoDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HOTHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HGEHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMGermanExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMGermanFemplorerDisabled">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDutchExplorerDisabled">
               </soundset>
             </choice>
           </skinlogic>
@@ -315,6 +463,38 @@
             </choice>
           </skinlogic>
         </choice>
+        <choice name="HOTHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HGEHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMGermanExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMGermanFemplorerRansomed">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDutchExplorerRansomed">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
       </civlogic>
     </soundtype>
     <soundtype name="KnockOutRevived">
@@ -363,6 +543,38 @@
             </choice>
             <choice name="2">
               <soundset name="MMDelgadoRevive">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HOTHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinRevive">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HGEHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMGermanExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMGermanFemplorerRevived">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDutchExplorerRevived">
               </soundset>
             </choice>
           </skinlogic>

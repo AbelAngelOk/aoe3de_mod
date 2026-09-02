@@ -322,6 +322,30 @@
       <string _locid="88886231">Mejora los Pandur a la Guardia (+20% vida y daño adicional, +0.10 velocidad).</string>
       <string _locid="88886232">Mejora los Pandur a Imperial (+50% vida y daño, +0.10 velocidad).</string>
 
+      <!-- Holanda Italiana (ITD) -->
+      <string _locid="88887001">Holanda Italiana</string>
+      <string _locid="88887002">Holanda Italiana</string>
+      <string _locid="88887003">Ámsterdam</string>
+      <string _locid="88887004">Explorador</string>
+      <string _locid="88887210">Bersagliere</string>
+      <string _locid="88887211">Escaramuzador ligero italiano, disponible desde la Edad Colonial pero débil (60% de sus estadísticas reales); alcanza su fuerza completa en la Edad Industrial.</string>
+      <string _locid="88887212">Bersagliere</string>
+
+      <!-- Rumania (ROU) -->
+      <string _locid="88888001">Rumania</string>
+      <string _locid="88888002">Rumania</string>
+      <string _locid="88888003">Bucarest</string>
+      <string _locid="88888004">Explorador</string>
+      <string _locid="88888210">Dorobant</string>
+      <string _locid="88888211">Infantería irregular rumana con mosquete. Reemplaza al Rekrut en el Blocao; se entrena por lote de 4.</string>
+      <string _locid="88888212">Dorobant</string>
+      <string _locid="88888220">Jinete arquero de Valaquia</string>
+      <string _locid="88888221">Caballería ligera con arco. Disponible desde la Edad III al 80% de sus estadísticas; alcanza su fuerza completa en la Edad IV.</string>
+      <string _locid="88888222">Jinete arquero de Valaquia</string>
+      <string _locid="88888230">Dragón roshior</string>
+      <string _locid="88888231">Dragoneros de élite rumanos. Visibles en el Establo desde el comienzo, pero solo entrenables a partir de la Edad IV.</string>
+      <string _locid="88888232">Dragón roshior</string>
+
     </language>
   </stringtable>
 </stringmods>

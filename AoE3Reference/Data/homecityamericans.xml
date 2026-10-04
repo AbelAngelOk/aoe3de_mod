@@ -1111,6 +1111,22 @@
       <displayunitcount>6</displayunitcount>
     </card>
     <card>
+      <name>DEHCHireWhalingCrew1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCHireWhalingCrew2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
+    </card>
+    <card>
       <name>DEHCHireManilamen</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1780,6 +1796,8 @@
       <tech x="5.5" y="6.0">DEHCRenoGang</tech>
       <tech x="5.5" y="6.0">DEHCPoker</tech>
       <tech x="6.3" y="1.0">HCXPDanceHall</tech>
+      <tech x="6.3" y="1.0">DEHCHireWhalingCrew1</tech>
+      <tech x="6.3" y="1.0">DEHCHireWhalingCrew2</tech>
       <tech x="6.3" y="1.0">DEHCBlackMesa</tech>
       <tech x="6.3" y="1.0">DEHCHireManilamen</tech>
       <tech x="6.3" y="1.0">DEHCHireManilamenFleet</tech>
@@ -1822,6 +1840,8 @@
       <tech x="5.5" y="6.0">DEHCPoker</tech>
       <tech x="6.3" y="1.0">HCXPDanceHall</tech>
       <tech x="6.3" y="1.0">DEHCBlackMesa</tech>
+      <tech x="6.3" y="1.0">DEHCHireWhalingCrew1</tech>
+      <tech x="6.3" y="1.0">DEHCHireWhalingCrew2</tech>
       <tech x="6.3" y="1.0">DEHCHireManilamen</tech>
       <tech x="6.3" y="1.0">DEHCHireManilamenFleet</tech>
       <tech x="6.3" y="7.0">DEHCSeminoleScouts</tech>

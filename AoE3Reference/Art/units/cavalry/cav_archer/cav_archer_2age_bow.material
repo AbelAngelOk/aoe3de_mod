@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/cavalry/cav_archer/textures/cav_archer_2age_bow_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/cavalry/cav_archer/textures/cav_archer_2age_bow_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units/cavalry/cav_archer/textures/cav_archer_2age_bow_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

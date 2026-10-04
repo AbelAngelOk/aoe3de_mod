@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\deck\textures\deck_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\deck\textures\deck_matB_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\deck\textures\deck_matB_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matB">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\ladderandstuff\textures\ladderandstuff_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\ladderandstuff\textures\ladderandstuff_matA_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\ladderandstuff\textures\ladderandstuff_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

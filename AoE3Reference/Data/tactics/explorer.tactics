@@ -23,11 +23,7 @@
     <maxheight>0</maxheight>
     <accuracy>1.0</accuracy>
     <perfectaccuracy>1</perfectaccuracy>
-    <aimbonus>0</aimbonus>
-    <maxspread>5</maxspread>
-    <spreadfactor>0.25</spreadfactor>
     <trackrating>120</trackrating>
-    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
     <projectile>InvisibleProjectile</projectile>
     <impacteffect>effects\impacts\gun</impacteffect>
     <minrange>2</minrange>
@@ -84,7 +80,6 @@
     <maxheight>0</maxheight>
     <accuracy>1.0</accuracy>
     <perfectaccuracy>1</perfectaccuracy>
-    <aimbonus>5</aimbonus>
     <trackrating>120</trackrating>
     <rate type="Guardian">1.0</rate>
     <impacteffect>effects\impacts\gun</impacteffect>
@@ -97,6 +92,7 @@
     <type>Attack</type>
     <attackaction>1</attackaction>
     <rangedlogic>1</rangedlogic>
+    <active>0</active>
     <anim>RangedAttackSharpshoot</anim>
     <idleanim>SharpshootIdle</idleanim>
     <boredanim>SharpshootIdle</boredanim>
@@ -104,7 +100,6 @@
     <maxheight>0</maxheight>
     <accuracy>1.0</accuracy>
     <perfectaccuracy>1</perfectaccuracy>
-    <aimbonus>5</aimbonus>
     <trackrating>120</trackrating>
     <rate type="LogicalTypeValidSharpshoot">1.0</rate>
     <impacteffect>effects\impacts\gun</impacteffect>
@@ -115,6 +110,7 @@
   <action>
     <name stringid="38126">SwashbucklerAttack</name>
     <type>Attack</type>
+    <active>0</active>
     <attackaction>1</attackaction>
     <handlogic>1</handlogic>
     <anim>Swashbuckler</anim>
@@ -127,6 +123,7 @@
   <action>
     <name stringid="80783">HeavyHandAttack</name>
     <type>Attack</type>
+    <active>0</active>
     <attackaction>1</attackaction>
     <handlogic>1</handlogic>
     <anim>SwordStrike</anim>
@@ -283,6 +280,15 @@
     <modifytype>BaseDamage</modifytype>
     <modifymultiplier>1.091</modifymultiplier>
     <modifyrangeuselos>1</modifyrangeuselos>
+  </action>
+  <action>
+    <name stringid="72463">RecruitGuardianDanish</name>
+    <type>ConvertGuardian</type>
+    <maxrange>16</maxrange>
+    <anim>Physician</anim>
+    <rate type="Guardian">1.0</rate>
+    <rof>1.000000</rof>
+    <conversionprotoid srctype="Guardian">Minuteman</conversionprotoid>
   </action>
   <tactic>Volley<action priority="100">VolleyRangedAttack</action><action priority="75">BuildingAttack</action><action priority="30">HandAttackCrate</action><action priority="25">HandAttack</action><action priority="3">SharpshooterAttack</action><action priority="3">CrackshotAttack</action><action priority="2">HeavyHandAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>CrateGather</action><action>Hunting</action><action>Gather</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><action>FlagBuildRateBonus</action><action>FlagWagonBuildRateBonus</action><action>FlagBuildingWorkRateBonus</action><action>FlagExtraDamage</action><action>FlagExtraDamageBuilding</action><action>FlagExtraDamageStateMilitia</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway></tactic>
   <tactic>Melee<action priority="100">BuildingAttack</action><action priority="80">HandAttackCrate</action><action priority="75">HandAttack</action><action priority="3">SharpshooterAttack</action><action priority="3">CrackshotAttack</action><action priority="2">HeavyHandAttack</action><action priority="1">SwashbucklerAttack</action><action>Build</action><action>Discover</action><action>Heal</action><action>CrateGather</action><action>Hunting</action><action>Gather</action><action>ExtraHitPointsHM02</action><action>SpawnKnockoutEvzone</action><action>FlagBuildRateBonus</action><action>FlagWagonBuildRateBonus</action><action>FlagBuildingWorkRateBonus</action><action>FlagExtraDamage</action><action>FlagExtraDamageBuilding</action><action>FlagExtraDamageStateMilitia</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>

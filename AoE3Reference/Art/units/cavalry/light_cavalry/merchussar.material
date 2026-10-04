@@ -1,0 +1,52 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\light_cavalry\textures\merchussar_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\light_cavalry\textures\merchussar_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\light_cavalry\textures\merchussar_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\cavalry\light_cavalry\textures\merchussar_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\revolution\rosior_dragoon\textures\rosior_dragoon_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\revolution\rosior_dragoon\textures\rosior_dragoon_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\light_cavalry\textures\light_cavalry_age4_rider_mata_masks">
+      </texture>
+      <texture name="Details" override="units\revolution\rosior_dragoon\textures\rosior_dragoon_matA_Details">
+      </texture>
+      <float name="AO Intensity" override="0.0000">
+      </float>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\mercenaries\balkan_stradiot\textures\mercstradiot_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\mercenaries\balkan_stradiot\textures\mercstradiot_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\mercenaries\balkan_stradiot\textures\mercstradiot_matb_Masks">
+      </texture>
+      <texture name="Details" override="units\mercenaries\balkan_stradiot\textures\mercstradiot_matb_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\mercenaries\balkan_stradiot\textures\mercstradiot_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\mercenaries\balkan_stradiot\textures\mercstradiot_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\mercenaries\balkan_stradiot\textures\mercstradiot_matb_Masks">
+      </texture>
+      <texture name="Details" override="units\mercenaries\balkan_stradiot\textures\mercstradiot_matb_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

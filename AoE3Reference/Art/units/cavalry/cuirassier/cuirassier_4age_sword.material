@@ -1,0 +1,22 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\cuirassier\textures\cuirassier_4age_sword_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\cuirassier\textures\cuirassier_4age_sword_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\cuirassier\textures\cuirassier_4age_sword_mata_masks">
+      </texture>
+      <float name="Lift Metallic" override="0.4640">
+      </float>
+      <float name="AO Gamma" override="2.0340">
+      </float>
+      <float name="Metallic Max" override="0.8250">
+      </float>
+      <float name="Roughness Metallic Min" override="0.2640">
+      </float>
+    </parameters>
+  </submaterial>
+</material>

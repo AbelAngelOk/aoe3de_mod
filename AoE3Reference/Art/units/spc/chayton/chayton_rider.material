@@ -1,0 +1,38 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\chayton\textures\chayton_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\chayton\textures\chayton_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\chayton\textures\chayton_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\chayton\textures\spc_sword_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\chayton\textures\spc_sword_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\chayton\textures\spc_sword_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\chayton\textures\chayton_pants_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\chayton\textures\chayton_pants_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\chayton\textures\chayton_pants_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

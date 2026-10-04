@@ -1,0 +1,14 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\bighorn_sheep\bighorn_sheep</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_64x64</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_sheep_idlea</file><weight>80</weight></assetreference><assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_sheep_idleb</file><weight>20</weight></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_sheep_boredA</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_sheep_walkA</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_sheep_deathA</file><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.70</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Gallop<assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_gallopa</file></assetreference><component>ModelComp</component></anim>
+  <anim>Graze<assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_sheep_grazea</file></assetreference><component>ModelComp</component></anim>
+  <anim>LayDown<assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_sheep_laydownA</file></assetreference><component>ModelComp</component></anim>
+  <anim>LayDownIdle<assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_sheep_laydown_idleA</file></assetreference><component>ModelComp</component></anim>
+  <anim>GetUp<assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_sheep_laydown_getup</file></assetreference><component>ModelComp</component></anim>
+  <anim>LayDownBored<assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_sheep_laydown_bored</file></assetreference><component>ModelComp</component></anim>
+  <anim>Run<assetreference type="GrannyAnim"><file>animation_library\quads\bighorn_trota</file></assetreference><component>ModelComp</component></anim>
+</animfile>

@@ -35,6 +35,30 @@
           <soundset name="MMDutchSettlerMaleSelect">
           </soundset>
         </choice>
+        <choice name="ROURomania">
+          <soundset name="MMRussianSettlerMaleSelect">
+          </soundset>
+        </choice>
+        <choice name="HOSHospitalarios">
+          <soundset name="MMDEMalteseSettlerMaleSelect">
+          </soundset>
+        </choice>
+        <choice name="BARBerberiscos">
+          <soundset name="MMOttomanSettlerMaleSelect">
+          </soundset>
+        </choice>
+        <choice name="COLColombia">
+          <soundset name="MMSpanishSettlerMaleSelect">
+          </soundset>
+        </choice>
+        <choice name="CHLChile">
+          <soundset name="MMSpanishSettlerMaleSelect">
+          </soundset>
+        </choice>
+        <choice name="IORDutchEastIndies">
+          <soundset name="MMPortugueseSettlerMaleSelect">
+          </soundset>
+        </choice>
       </civlogic>
     </soundtype>
     <soundtype name="Acknowledge">
@@ -275,6 +299,246 @@
             </choice>
             <choice name="AbstractFruit">
               <soundset name="MMDutchSettlerMaleGatherFruit">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="ROURomania">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMRussianSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMRussianSettlerMaleAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="MMRussianSettlerMaleBuild">
+              </soundset>
+            </choice>
+            <choice name="Huntable">
+              <soundset name="MMRussianSettlerMaleGatherMeat">
+              </soundset>
+            </choice>
+            <choice name="Tree">
+              <soundset name="MMRussianSettlerMaleGatherWood">
+              </soundset>
+            </choice>
+            <choice name="AbstractMine">
+              <soundset name="MMRussianSettlerMaleGatherCoin">
+              </soundset>
+            </choice>
+            <choice name="AbstractFarm">
+              <soundset name="MMRussianSettlerMaleFarm">
+              </soundset>
+            </choice>
+            <choice name="AbstractResourceCrate">
+              <soundset name="MMRussianSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="AbstractFruit">
+              <soundset name="MMRussianSettlerMaleGatherFruit">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="HOSHospitalarios">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMDEMalteseSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMDEMalteseSettlerMaleAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="MMDEMalteseSettlerMaleBuild">
+              </soundset>
+            </choice>
+            <choice name="Huntable">
+              <soundset name="MMDEMalteseSettlerMaleGatherMeat">
+              </soundset>
+            </choice>
+            <choice name="Tree">
+              <soundset name="MMDEMalteseSettlerMaleGatherWood">
+              </soundset>
+            </choice>
+            <choice name="AbstractMine">
+              <soundset name="MMDEMalteseSettlerMaleGatherCoin">
+              </soundset>
+            </choice>
+            <choice name="AbstractFarm">
+              <soundset name="MMDEMalteseSettlerMaleFarm">
+              </soundset>
+            </choice>
+            <choice name="AbstractResourceCrate">
+              <soundset name="MMDEMalteseSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="AbstractFruit">
+              <soundset name="MMDEMalteseSettlerMaleGatherFruit">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="BARBerberiscos">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMOttomanSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMOttomanSettlerMaleAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="MMOttomanSettlerMaleBuild">
+              </soundset>
+            </choice>
+            <choice name="Huntable">
+              <soundset name="MMOttomanSettlerMaleGatherMeat">
+              </soundset>
+            </choice>
+            <choice name="Tree">
+              <soundset name="MMOttomanSettlerMaleGatherWood">
+              </soundset>
+            </choice>
+            <choice name="AbstractMine">
+              <soundset name="MMOttomanSettlerMaleGatherCoin">
+              </soundset>
+            </choice>
+            <choice name="AbstractFarm">
+              <soundset name="MMOttomanSettlerMaleFarm">
+              </soundset>
+            </choice>
+            <choice name="AbstractResourceCrate">
+              <soundset name="MMOttomanSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="AbstractFruit">
+              <soundset name="MMOttomanSettlerMaleGatherFruit">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="COLColombia">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMSpanishSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMSpanishSettlerMaleAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="MMSpanishSettlerMaleBuild">
+              </soundset>
+            </choice>
+            <choice name="Huntable">
+              <soundset name="MMSpanishSettlerMaleGatherMeat">
+              </soundset>
+            </choice>
+            <choice name="Tree">
+              <soundset name="MMSpanishSettlerMaleGatherWood">
+              </soundset>
+            </choice>
+            <choice name="AbstractMine">
+              <soundset name="MMSpanishSettlerMaleGatherCoin">
+              </soundset>
+            </choice>
+            <choice name="AbstractFarm">
+              <soundset name="MMSpanishSettlerMaleFarm">
+              </soundset>
+            </choice>
+            <choice name="AbstractResourceCrate">
+              <soundset name="MMSpanishSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="AbstractFruit">
+              <soundset name="MMSpanishSettlerMaleGatherFruit">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="CHLChile">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMSpanishSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMSpanishSettlerMaleAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="MMSpanishSettlerMaleBuild">
+              </soundset>
+            </choice>
+            <choice name="Huntable">
+              <soundset name="MMSpanishSettlerMaleGatherMeat">
+              </soundset>
+            </choice>
+            <choice name="Tree">
+              <soundset name="MMSpanishSettlerMaleGatherWood">
+              </soundset>
+            </choice>
+            <choice name="AbstractMine">
+              <soundset name="MMSpanishSettlerMaleGatherCoin">
+              </soundset>
+            </choice>
+            <choice name="AbstractFarm">
+              <soundset name="MMSpanishSettlerMaleFarm">
+              </soundset>
+            </choice>
+            <choice name="AbstractResourceCrate">
+              <soundset name="MMSpanishSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="AbstractFruit">
+              <soundset name="MMSpanishSettlerMaleGatherFruit">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="IORDutchEastIndies">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMPortugueseSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMPortugueseSettlerMaleAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="MMPortugueseSettlerMaleBuild">
+              </soundset>
+            </choice>
+            <choice name="Huntable">
+              <soundset name="MMPortugueseSettlerMaleGatherMeat">
+              </soundset>
+            </choice>
+            <choice name="Tree">
+              <soundset name="MMPortugueseSettlerMaleGatherWood">
+              </soundset>
+            </choice>
+            <choice name="AbstractMine">
+              <soundset name="MMPortugueseSettlerMaleGatherCoin">
+              </soundset>
+            </choice>
+            <choice name="AbstractFarm">
+              <soundset name="MMPortugueseSettlerMaleFarm">
+              </soundset>
+            </choice>
+            <choice name="AbstractResourceCrate">
+              <soundset name="MMPortugueseSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="AbstractFruit">
+              <soundset name="MMPortugueseSettlerMaleGatherFruit">
               </soundset>
             </choice>
           </targetlogic>

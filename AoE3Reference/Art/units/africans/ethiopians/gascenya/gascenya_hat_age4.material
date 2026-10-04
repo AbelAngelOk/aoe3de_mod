@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\africans\ethiopians\gascenya\textures\gascenya_hat_age4_matA_basecolor">
+      </texture>
+      <texture name="Normals" override="units\africans\ethiopians\gascenya\textures\gascenya_hat_age4_matA_normals">
+      </texture>
+      <texture name="Masks" override="units\africans\ethiopians\gascenya\textures\gascenya_hat_age4_matA_masks">
+      </texture>
+      <texture name="Details" override="units\africans\ethiopians\gascenya\textures\gascenya_hat_age4_matA_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

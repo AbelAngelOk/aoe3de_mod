@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\mortar\textures\mortar_guy_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\mortar\textures\mortar_guy_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\mortar\textures\mortar_guy_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\mortar\textures\mortar_guy_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -1,0 +1,48 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_Masks">
+      </texture>
+      <texture name="Details" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_BaseColor">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matA">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_Masks">
+      </texture>
+      <texture name="Details" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matA">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_Masks">
+      </texture>
+      <texture name="Details" override="units/spc/tribal_horseman/textures/tribal_horseman_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

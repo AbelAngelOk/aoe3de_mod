@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\marine\textures\marine_officer_hat_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\marine\textures\marine_officer_hat_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\marine\textures\marine_officer_hat_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\marine\textures\marine_officer_hat_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

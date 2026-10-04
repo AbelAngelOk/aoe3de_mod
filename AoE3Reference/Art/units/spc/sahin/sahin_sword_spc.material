@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/spc/sahin/textures/sahin_sword_spc_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/spc/sahin/textures/sahin_sword_spc_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units/spc/sahin/textures/sahin_sword_spc_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

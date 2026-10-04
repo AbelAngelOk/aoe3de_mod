@@ -1,0 +1,425 @@
+<!--
+  mod-minimal: voz propia del Explorador. El Explorador es un proto COMPARTIDO y su sonido se
+  resuelve por <civlogic> (rama por civ). Este archivo ADITIVO (_snds.mods.xml, root
+  protounitsounddefmods) agrega una rama por civ nueva a cada soundtype.
+
+  - Hungría (HUNHungarians): soundsets húngaros propios definidos en soundsetsde.mods.xml.
+    Patrón tomado del mod "Just Poland" (musketeer_snds.mods.xml). Mapea cada archivo de
+    assets/sounds/hungary/explorer según su acción.
+  - Finlandia (DEFinnish): sin audio propio grabado, así que reusa los MISMOS soundsets que
+    "DESwedish" usa en el vanilla (Sound/explorer_snds.xml) — Finlandia es un clon de Suecia y
+    comparte el mismo modelo/skins de Explorador. Se replica también el <skinlogic> (none=
+    masculino, 0=femenino "Femplorer", 2="Thor") que trae la rama DESwedish original.
+  - Argentina (ARGArgentina): pedido explícito de reusar sonidos de la civilización española
+    (SpanishExplorer*/SpanishFemplorer*/Delgado*), mismo <skinlogic> none/0/2.
+  - Egipto (EGYEgypt): reusa los soundsets reales de Otomanos (OttomanExplorer*/Sahin*),
+    <skinlogic> none/0 (Otomanos no tiene variante "2"/hero).
+-->
+<protounitsounddefmods>
+  <protounit name="Explorer">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="EGYEgypt">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerSelectCivs">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinSelectCivs">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEFinnish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDESwedishExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSwedishFemplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="MMThorSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ARGArgentina">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMSpanishExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSpanishFemplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="MMDelgadoSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDutchExplorerSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ROURomania">
+          <soundset name="MMRussianExplorerSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="EGYEgypt">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMOttomanExplorerAcknowledgeCivs">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMOttomanExplorerAttackCivs">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMSahinAcknowledgeCivs">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMSahinAttackCivs">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEFinnish">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMDESwedishExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMDESwedishExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMSwedishFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMSwedishFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="2">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMThorAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMThorAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ARGArgentina">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMSpanishExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMSpanishExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMSpanishFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMSpanishFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="2">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMDelgadoAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMDelgadoAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMDutchExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMDutchExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ROURomania">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMRussianExplorerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMRussianExplorerAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Claim">
+      <civlogic>
+        <choice name="EGYEgypt">
+          <soundset name="MMOttomanExplorerClaimCivs">
+          </soundset>
+        </choice>
+        <choice name="DEFinnish">
+          <soundset name="MMGermanExplorerClaimCivs">
+          </soundset>
+        </choice>
+        <choice name="ARGArgentina">
+          <soundset name="MMSpanishExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <soundset name="MMDutchExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="ROURomania">
+          <soundset name="MMRussianExplorerClaim">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <civlogic>
+        <choice name="EGYEgypt">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerDisabledCivs">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinGruntCivs">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEFinnish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDESwedishExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSwedishFemplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="MMThorDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ARGArgentina">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMSpanishExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSpanishFemplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="MMDelgadoDeath">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDutchExplorerDisabled">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ROURomania">
+          <soundset name="MMRussianExplorerDisabled">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <civlogic>
+        <choice name="EGYEgypt">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerRansomedCivs">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinSelectCivs">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEFinnish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDESwedishExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSwedishFemplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="MMThorRansomed">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ARGArgentina">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMSpanishExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSpanishFemplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="MMDelgadoRevive">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDutchExplorerRansomed">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ROURomania">
+          <soundset name="MMRussianExplorerRansomed">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <civlogic>
+        <choice name="EGYEgypt">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerRevivedCivs">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinReviveCivs">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="DEFinnish">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDESwedishExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSwedishFemplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="MMThorRevived">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ARGArgentina">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMSpanishExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSpanishFemplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="2">
+              <soundset name="MMDelgadoRevive">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMDutchExplorerRevived">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="ROURomania">
+          <soundset name="MMRussianExplorerRevived">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

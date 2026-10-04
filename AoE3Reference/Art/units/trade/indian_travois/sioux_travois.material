@@ -1,0 +1,84 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\indian_travois\textures\sioux_travois_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\indian_travois\textures\sioux_travois_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\indian_travois\textures\sioux_travois_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\trade\indian_travois\textures\sioux_travois_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mate">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\indian_travois\textures\sioux_travois_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\indian_travois\textures\sioux_travois_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\indian_travois\textures\sioux_travois_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\trade\indian_travois\textures\sioux_travois_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\indian_travois\textures\iroquois_travois_matd_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\indian_travois\textures\iroquois_travois_matd_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\indian_travois\textures\iroquois_travois_matd_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\indian_travois\textures\sioux_travois_horse_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\indian_travois\textures\sioux_travois_horse_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\indian_travois\textures\sioux_travois_horse_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\trade\indian_travois\textures\sioux_travois_horse_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matf">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\indian_travois\textures\sioux_travois_horse_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\indian_travois\textures\sioux_travois_horse_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\indian_travois\textures\sioux_travois_horse_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\trade\indian_travois\textures\sioux_travois_horse_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\villagers\native_villager_m\textures\native_villager_m_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\villagers\native_villager_m\textures\native_villager_m_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\villagers\native_villager_m\textures\native_villager_m_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\villagers\native_villager_m\textures\native_villager_m_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

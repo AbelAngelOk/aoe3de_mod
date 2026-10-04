@@ -1,0 +1,17 @@
+<layout>
+  <gadget name="scriptsDlg" type="gadget" size1024="420 100 604 426" background="ui\editor\background\editor_background" bevel="" titlebar="$$56056$$Script Manager" closebutton="" moveable="" closeonesc="">
+    <gadget name="scriptsNameEdit" type="textField" enableime="" textcolor="0 0 0" textfont="Arial nobold nodrop" size1024="430 130 564 155" textfontsize="12">
+    </gadget>
+    <gadget name="ScriptsLoadBtn" type="button" tooltiptext="$$56057$$Open Script" foreground="ui\editor\load" size1024="569 130 594 155">
+    </gadget>
+    <gadget name="scriptsIns" type="button" bevel="" textfont="Arial nodrop" textfontsize="12" size1024="430 160 594 185">$$56058$$Include Script</gadget>
+    <gadget name="scriptsList" type="list" background="ui\editor\background\editor_background" showselect="" size1024="430 190 594 315" selectedcolor="255 255 255" buttonsize1024="125 15" scrollvert="" sunkenbevel="">
+    </gadget>
+    <gadget name="scriptsMoveUp" type="button" bevel="" textfont="Arial nodrop" textfontsize="12" size1024="430 320 512 345">$$56059$$Move Script Up</gadget>
+    <gadget name="scriptsMoveDown" type="button" bevel="" textfont="Arial nodrop" textfontsize="12" size1024="512 320 594 345">$$56060$$Move Script Down</gadget>
+    <gadget name="scriptsDel" type="button" bevel="" textfont="Arial nodrop" textfontsize="12" size1024="430 346 594 371">$$56061$$Remove Script</gadget>
+    <gadget name="scriptsSeparator" type="gadget" background="ui\editor\controls\menu_separator" size1024="430 376 594 386">
+    </gadget>
+    <gadget name="scriptsClose" type="button" bevel="" textfont="Arial nodrop" textfontsize="12" size1024="430 391 594 416">$$18457$$Close</gadget>
+  </gadget>
+</layout>

@@ -1,0 +1,5 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\bar_headed_goose\barheadgoose</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\air\goose_walka</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\air\goose_walkb</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\air\goose_walkc</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\air\goose_walka</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\air\goose_walkb</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\air\goose_walkc</file></assetreference><component>ModelComp</component></anim>
+</animfile>

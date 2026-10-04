@@ -1,252 +1,277 @@
-<techtreedata>
+<techtree>
   <group name="Town Center">
-    <proto name="TownCenter" banner="building" icon="resources/images/icons/portraits/buildings/towncenter_portrait.png" row="0" col="1">
+    <proto name="TownCenter" icon="resources/images/icons/portraits/buildings/towncenter_portrait.png" banner="building" row="0" col="1">
     </proto>
-    <proto name="deSettlerAfrican" banner="unit" icon="resources/art/units/africans/ethiopians/villager/villager_portrait.png" row="1" col="2">
+    <proto name="deSettlerAfrican" icon="resources/art/units/africans/ethiopians/villager/villager_portrait.png" banner="unit" row="1" col="2">
     </proto>
-    <tech name="DEFortifiedCitiesHausa" banner="improvement" icon="resources/images/icons/techs/africans/fortified_cities.png" row="6" col="2">
+    <tech name="DEFortifiedCitiesHausa" icon="resources/images/icons/techs/africans/fortified_cities.png" banner="improvement" row="6" col="2">
     </tech>
-    <tech name="DEImpImmigrantsAfrican" banner="improvement" icon="resources/images/icons/techs/africans/strangers_quarters.png" row="7" col="2">
+    <tech name="DEImpImmigrantsAfrican" icon="resources/images/icons/techs/africans/strangers_quarters.png" banner="improvement" row="7" col="2">
     </tech>
-    <tech name="HCBlockade" banner="improvement" icon="resources/images/icons/techs/hc_blockade/hc_blockade.png" row="8" col="2">
+    <tech name="HCBlockade" icon="resources/images/icons/techs/hc_blockade/hc_blockade.png" banner="improvement" row="8" col="2">
     </tech>
-    <tech name="Spies" banner="improvement" icon="resources/images/icons/techs/spies/spies.png" row="9" col="2">
+    <tech name="Spies" icon="resources/images/icons/techs/spies/spies.png" banner="improvement" row="9" col="2">
     </tech>
-    <proto name="deEmir" banner="unit" icon="resources/art/units/africans/hausa/emir/emir_portrait.png" row="1" col="7">
+    <proto name="deEmir" icon="resources/art/units/africans/hausa/emir/emir_portrait.png" banner="unit" row="1" col="7">
     </proto>
   </group>
   <group name="Field">
-    <proto name="deField" banner="building" icon="resources/art/buildings/african_civs/field_portrait.png" row="0" col="7">
+    <proto name="deField" icon="resources/art/buildings/african_civs/field_portrait.png" banner="building" row="0" col="7">
     </proto>
   </group>
   <group name="Livestock Market">
-    <proto name="deLivestockMarket" banner="building" icon="resources/art/buildings/african_civs/livestock_market_portrait.png" row="0" col="13">
+    <proto name="deLivestockMarket" icon="resources/art/buildings/african_civs/livestock_market_portrait.png" banner="building" row="0" col="13">
     </proto>
-    <tech name="DEAfricanVillagerWoodcutting1" banner="improvement" icon="resources/images/icons/techs/africans/traditional_axes.png" row="1" col="13">
+    <tech name="DEAfricanVillagerWoodcutting1" icon="resources/images/icons/techs/africans/traditional_axes.png" banner="improvement" row="1" col="13">
     </tech>
-    <tech name="DEAfricanVillagerWoodcutting2" banner="improvement" icon="resources/images/icons/techs/africans/selective_logging.png" row="2" col="13">
+    <tech name="DEAfricanVillagerWoodcutting2" icon="resources/images/icons/techs/africans/selective_logging.png" banner="improvement" row="2" col="13">
     </tech>
-    <tech name="DEAfricanVillagerWoodcutting3" banner="improvement" icon="resources/images/icons/techs/africans/blackwood_trade.png" row="4" col="13">
+    <tech name="DEAfricanVillagerWoodcutting3" icon="resources/images/icons/techs/africans/blackwood_trade.png" banner="improvement" row="4" col="13">
     </tech>
-    <tech name="DEImpDeforestationAfrican" banner="improvement" icon="resources/images/icons/techs/africans/ebony_exports.png" row="8" col="13">
+    <tech name="DEImpDeforestationAfrican" icon="resources/images/icons/techs/africans/ebony_exports.png" banner="improvement" row="8" col="13">
     </tech>
-    <proto name="deSangaCattle" banner="unit" icon="resources/art/units/animals/sanga/sanga_portrait.png" row="0" col="19">
+    <proto name="deSangaCattle" icon="resources/art/units/animals/sanga/sanga_portrait.png" banner="unit" row="0" col="19">
     </proto>
-    <tech name="SelectiveBreeding" banner="improvement" icon="resources/images/icons/techs/selective_breeding/selective_breeding.png" row="1" col="19">
+    <tech name="SelectiveBreeding" icon="resources/images/icons/techs/selective_breeding/selective_breeding.png" banner="improvement" row="1" col="19">
     </tech>
-    <tech name="DECowLoans" banner="improvement" icon="resources/images/icons/techs/africans/cow_loans.png" row="4" col="19">
+    <tech name="DECowLoans" icon="resources/images/icons/techs/africans/cow_loans.png" banner="improvement" row="4" col="19">
     </tech>
-    <tech name="DETranshumance" banner="improvement" icon="resources/images/icons/techs/africans/alliances/transhumance.png" row="5" col="19">
+    <tech name="DETranshumance" icon="resources/images/icons/techs/africans/alliances/transhumance.png" banner="improvement" row="5" col="19">
     </tech>
-    <tech name="DERoyalBanquet" banner="improvement" icon="resources/images/icons/techs/africans/royal_banquet.png" row="0" col="24">
+    <tech name="DERoyalBanquet" icon="resources/images/icons/techs/africans/royal_banquet.png" banner="improvement" row="0" col="24">
     </tech>
-    <tech name="PlacerMines" banner="improvement" icon="resources/images/icons/techs/placer_mines/placer_mines_64x64.png" row="1" col="24">
+    <tech name="PlacerMines" icon="resources/images/icons/techs/placer_mines/placer_mines_64x64.png" banner="improvement" row="1" col="24">
     </tech>
-    <tech name="Amalgamation" banner="improvement" icon="resources/images/icons/techs/amalgamation/amalgamation_64x64.png" row="2" col="24">
+    <tech name="Amalgamation" icon="resources/images/icons/techs/amalgamation/amalgamation_64x64.png" banner="improvement" row="2" col="24">
     </tech>
-    <tech name="DEAfricanVillagerMiningGoldPurification" banner="improvement" icon="resources/images/icons/techs/africans/gold_purification.png" row="6" col="24">
+    <tech name="DEAfricanVillagerMiningGoldPurification" icon="resources/images/icons/techs/africans/gold_purification.png" banner="improvement" row="6" col="24">
     </tech>
-    <tech name="DEAfricanVillagerHitpoints" banner="improvement" icon="resources/images/icons/techs/africans/tribal_societies.png" row="0" col="29">
+    <tech name="DEAfricanVillagerHitpoints" icon="resources/images/icons/techs/africans/tribal_societies.png" banner="improvement" row="0" col="29">
     </tech>
-    <tech name="DEAfricanVillagerDamage" banner="improvement" icon="resources/images/icons/techs/africans/royal_hunters.png" row="1" col="29">
+    <tech name="DEAfricanVillagerDamage" icon="resources/images/icons/techs/africans/royal_hunters.png" banner="improvement" row="1" col="29">
     </tech>
   </group>
   <group name="Trading Post">
-    <proto name="TradingPost" banner="building" icon="resources/images/icons/portraits/buildings/trading_post_portrait.png" row="0" col="35">
+    <proto name="TradingPost" icon="resources/images/icons/portraits/buildings/trading_post_portrait.png" banner="building" row="0" col="35">
     </proto>
-    <tech name="deTradeRouteUpgradeAmerica1" banner="improvement" icon="resources/art/units/trade/traveling_merchant_icon.png" row="2" col="35">
+    <tech name="deTradeRouteUpgradeAmerica1" icon="resources/art/units/trade/traveling_merchant_icon.png" banner="improvement" row="2" col="35">
     </tech>
-    <tech name="deTradeRouteUpgradeAmerica2" banner="improvement" icon="resources/art/units/trains/train_icon_64x64.png" row="6" col="35">
+    <tech name="deTradeRouteUpgradeAmerica2" icon="resources/art/units/trains/train_icon_64x64.png" banner="improvement" row="6" col="35">
     </tech>
   </group>
   <group name="Wall">
-    <proto name="WallStraight1" banner="building" icon="resources/images/icons/portraits/buildings/wall_portrait.png" row="0" col="41">
+    <proto name="WallStraight1" icon="resources/images/icons/portraits/buildings/wall_portrait.png" banner="building" row="0" col="41">
     </proto>
-    <tech name="DECityFortifications" banner="improvement" icon="resources/images/icons/techs/africans/city_walls.png" row="4" col="41">
+    <tech name="DECityFortifications" icon="resources/images/icons/techs/africans/city_walls.png" banner="improvement" row="4" col="41">
     </tech>
   </group>
   <group name="Granary">
-    <proto name="deGranary" banner="building" icon="resources/art/buildings/african_civs/granary_portrait.png" row="0" col="47">
+    <proto name="deGranary" icon="resources/art/buildings/african_civs/granary_portrait.png" banner="building" row="0" col="47">
     </proto>
-    <tech name="DEAfricanVillagerHunting1" banner="improvement" icon="resources/images/icons/techs/africans/village_dogs.png" row="1" col="47">
+    <tech name="DEAfricanVillagerHunting1" icon="resources/images/icons/techs/africans/village_dogs.png" banner="improvement" row="1" col="47">
     </tech>
-    <tech name="DEAfricanVillagerHunting2" banner="improvement" icon="resources/images/icons/techs/africans/snares.png" row="2" col="47">
+    <tech name="DEAfricanVillagerHunting2" icon="resources/images/icons/techs/africans/snares.png" banner="improvement" row="2" col="47">
     </tech>
-    <tech name="DEAfricanVillagerFarming1" banner="improvement" icon="resources/images/icons/techs/africans/subsistence_farming.png" row="2" col="52">
+    <tech name="DEAfricanVillagerFarming1" icon="resources/images/icons/techs/africans/subsistence_farming.png" banner="improvement" row="2" col="52">
     </tech>
-    <tech name="DEAfricanVillagerFarming2" banner="improvement" icon="resources/images/icons/techs/africans/swing_plow.png" row="4" col="52">
+    <tech name="DEAfricanVillagerFarming2" icon="resources/images/icons/techs/africans/swing_plow.png" banner="improvement" row="4" col="52">
     </tech>
-    <tech name="DEAfricanVillagerFarming3" banner="improvement" icon="resources/images/icons/techs/africans/vegetable_carbon.png" row="6" col="52">
+    <tech name="DEAfricanVillagerFarming3" icon="resources/images/icons/techs/africans/vegetable_carbon.png" banner="improvement" row="6" col="52">
     </tech>
-    <tech name="DEImpLargeScaleGatheringAfrican" banner="improvement" icon="resources/images/icons/techs/africans/large_scale_farming.png" row="8" col="52">
+    <tech name="DEImpLargeScaleGatheringAfrican" icon="resources/images/icons/techs/africans/large_scale_farming.png" banner="improvement" row="8" col="52">
     </tech>
-    <tech name="DEAfricanVillagerFarmingGold1" banner="improvement" icon="resources/images/icons/techs/africans/crop_rotation.png" row="2" col="57">
+    <tech name="DEAfricanVillagerFarmingGold1" icon="resources/images/icons/techs/africans/crop_rotation.png" banner="improvement" row="2" col="57">
     </tech>
-    <tech name="DEAfricanVillagerFarmingGold2" banner="improvement" icon="resources/images/icons/techs/africans/new_world_crops.png" row="4" col="57">
+    <tech name="DEAfricanVillagerFarmingGold2" icon="resources/images/icons/techs/africans/new_world_crops.png" banner="improvement" row="4" col="57">
     </tech>
-    <tech name="DEAfricanVillagerFarmingGold3" banner="improvement" icon="resources/images/icons/techs/africans/cash_crops.png" row="6" col="57">
+    <tech name="DEAfricanVillagerFarmingGold3" icon="resources/images/icons/techs/africans/cash_crops.png" banner="improvement" row="6" col="57">
     </tech>
   </group>
   <group name="Port">
-    <proto name="dePort" banner="building" icon="resources/art/buildings/african_civs/port_portrait.png" row="0" col="63">
+    <proto name="dePort" icon="resources/art/buildings/african_civs/port_portrait.png" banner="building" row="0" col="63">
     </proto>
-    <proto name="deFishingBoatAfrican" banner="unit" icon="resources/art/units/naval/fishing_boat/hausa_fishing_boat_portrait.png" row="1" col="64">
+    <proto name="deFishingBoatAfrican" icon="resources/art/units/naval/fishing_boat/hausa_fishing_boat_portrait.png" banner="unit" row="1" col="64">
     </proto>
-    <proto name="deBattleCanoe" banner="unit" icon="resources/art/units/naval/battle_canoe/battle_canoe_portrait.png" row="2" col="64">
+    <proto name="deBattleCanoe" icon="resources/art/units/naval/battle_canoe/battle_canoe_portrait.png" banner="unit" row="2" col="64">
     </proto>
-    <tech name="DERiverSkirmishes" banner="improvement" icon="resources/images/icons/techs/africans/river_skirmishes.png" row="3" col="64">
+    <tech name="DERiverSkirmishes" icon="resources/images/icons/techs/africans/river_skirmishes.png" banner="improvement" row="3" col="64">
     </tech>
-    <proto name="deCannonBoat" banner="unit" icon="resources/art/units/naval/cannon_boat/cannon_boat_portrait.png" row="4" col="64">
+    <proto name="deCannonBoat" icon="resources/art/units/naval/cannon_boat/cannon_boat_portrait.png" banner="unit" row="4" col="64">
     </proto>
-    <proto name="deMercXebec" banner="unit" icon="resources/art/units/naval/xebec/xebec_portrait.png" row="5" col="64">
+    <proto name="deMercXebec" icon="resources/art/units/naval/xebec/xebec_portrait.png" banner="unit" row="5" col="64">
     </proto>
-    <tech name="DELegendaryCanoes" banner="improvement" icon="resources/images/icons/techs/africans/legendary_canoes.png" row="8" col="64">
+    <tech name="DELegendaryCanoes" icon="resources/images/icons/techs/africans/legendary_canoes.png" banner="improvement" row="8" col="64">
     </tech>
-    <tech name="GillNets" banner="improvement" icon="resources/images/icons/techs/gill_nets/gill_nets.png" row="1" col="70">
+    <tech name="GillNets" icon="resources/images/icons/techs/gill_nets/gill_nets.png" banner="improvement" row="1" col="70">
     </tech>
-    <tech name="LongLines" banner="improvement" icon="resources/images/icons/techs/long_lines/long_lines.png" row="2" col="70">
+    <tech name="LongLines" icon="resources/images/icons/techs/long_lines/long_lines.png" banner="improvement" row="2" col="70">
     </tech>
-    <tech name="DERiverboatHitpoints" banner="improvement" icon="resources/images/icons/techs/africans/heavy_riverboats.png" row="3" col="70">
+    <tech name="DERiverboatHitpoints" icon="resources/images/icons/techs/africans/heavy_riverboats.png" banner="improvement" row="3" col="70">
     </tech>
   </group>
   <group name="Watch Tower">
-    <proto name="deTower" banner="building" icon="resources/art/buildings/african_civs/tower_portrait.png" row="0" col="75">
+    <proto name="deTower" icon="resources/art/buildings/african_civs/tower_portrait.png" banner="building" row="0" col="75">
     </proto>
-    <proto name="deOutlawDesertWarrior" banner="unit" icon="resources/art/units/africans/outlaws/desert_warrior/desert_warrior_portrait.png" row="2" col="76">
+    <proto name="deOutlawDesertWarrior" icon="resources/art/units/africans/outlaws/desert_warrior/desert_warrior_portrait.png" banner="unit" row="2" col="76">
     </proto>
-    <proto name="deOutlawDesertRaider" banner="unit" icon="resources/art/units/africans/outlaws/desert_raider/desert_raider_portrait.png" row="3" col="76">
+    <proto name="deOutlawDesertRaider" icon="resources/art/units/africans/outlaws/desert_raider/desert_raider_portrait.png" banner="unit" row="3" col="76">
     </proto>
-    <tech name="DEImprovedOutlaws" banner="improvement" icon="resources/images/icons/techs/africans/nomadic_bandits.png" row="4" col="76">
+    <tech name="DEImprovedOutlaws" icon="resources/images/icons/techs/africans/nomadic_bandits.png" banner="improvement" row="4" col="76">
     </tech>
-    <tech name="DESentryTower" banner="improvement" icon="resources/images/icons/techs/africans/sentry_towers.png" row="5" col="76">
+    <tech name="DESentryTower" icon="resources/images/icons/techs/africans/sentry_towers.png" banner="improvement" row="5" col="76">
     </tech>
-    <tech name="DEGuardTower" banner="improvement" icon="resources/images/icons/techs/africans/guard_towers.png" row="6" col="76">
+    <tech name="DEGuardTower" icon="resources/images/icons/techs/africans/guard_towers.png" banner="improvement" row="6" col="76">
     </tech>
-    <proto name="deOutlawDesertArcher" banner="unit" icon="resources/art/units/africans/outlaws/desert_archer/desert_archer_portrait.png" row="2" col="81">
+    <proto name="deOutlawDesertArcher" icon="resources/art/units/africans/outlaws/desert_archer/desert_archer_portrait.png" banner="unit" row="2" col="81">
     </proto>
   </group>
   <group name="Native Embassy">
-    <proto name="NativeEmbassy" banner="building" icon="resources/images/icons/portraits/buildings/native_embassy_portrait.png" row="0" col="81">
+    <proto name="NativeEmbassy" icon="resources/images/icons/portraits/buildings/native_embassy_portrait.png" banner="building" row="0" col="87">
     </proto>
+    <label string="34000" string2="72852" icon="resources\art\units\natives\rifleman_portrait.png" banner="unit" row="2" col="87">
+      <override>
+        <protoforcost>NatRifleman</protoforcost>
+      </override>
+    </label>
   </group>
   <group name="University">
-    <proto name="deUniversity" banner="building" icon="resources/art/buildings/african_civs/university_portrait.png" row="0" col="87">
+    <proto name="deUniversity" icon="resources/art/buildings/african_civs/university_portrait.png" banner="building" row="0" col="93">
     </proto>
-    <proto name="deGriot" banner="unit" icon="resources/art/units/africans/hausa/griot/griot_portrait.png" row="2" col="88">
+    <proto name="deGriot" icon="resources/art/units/africans/hausa/griot/griot_portrait.png" banner="unit" row="2" col="94">
     </proto>
-    <tech name="DEHausaBakwai" banner="improvement" icon="resources/images/icons/techs/africans/alliances/hausa_bakwai.png" row="4" col="88">
+    <tech name="DEHausaBakwai" icon="resources/images/icons/techs/africans/alliances/hausa_bakwai.png" banner="improvement" row="4" col="94">
     </tech>
-    <tech name="DEBanzaBakwai" banner="improvement" icon="resources/images/icons/techs/africans/alliances/banza_bakwai.png" row="6" col="88">
+    <tech name="DEBanzaBakwai" icon="resources/images/icons/techs/africans/alliances/banza_bakwai.png" banner="improvement" row="6" col="94">
     </tech>
   </group>
   <group name="Hut">
-    <proto name="deHouseAfrican" banner="building" icon="resources/art/buildings/african_civs/hut_portrait.png" row="0" col="94">
+    <proto name="deHouseAfrican" icon="resources/art/buildings/african_civs/hut_portrait.png" banner="building" row="0" col="100">
     </proto>
-    <proto name="deBowmanLevy" banner="unit" icon="resources/art/units/africans/shared/levy_archer_portrait.png" row="1" col="94">
+    <proto name="deBowmanLevy" icon="resources/art/units/africans/shared/levy_archer_portrait.png" banner="unit" row="1" col="100">
     </proto>
-    <proto name="deSpearmanLevy" banner="unit" icon="resources/art/units/africans/shared/levy_spearman_portrait.png" row="1" col="99">
+    <proto name="deSpearmanLevy" icon="resources/art/units/africans/shared/levy_spearman_portrait.png" banner="unit" row="1" col="105">
     </proto>
   </group>
   <group name="War Camp">
-    <proto name="deWarCamp" banner="building" icon="resources/art/buildings/african_civs/war_camp_portrait.png" row="2" col="94">
+    <proto name="deWarCamp" icon="resources/art/buildings/african_civs/war_camp_portrait.png" banner="building" row="2" col="100">
     </proto>
-    <proto name="deFulaWarrior" banner="unit" icon="resources/art/units/africans/hausa/fula_warrior/fula_warrior_portrait.png" row="2" col="99">
+    <proto name="deFulaWarrior" icon="resources/art/units/africans/hausa/fula_warrior/fula_warrior_portrait.png" banner="unit" row="2" col="105">
     </proto>
-    <proto name="deJavelinRider" banner="unit" icon="resources/art/units/africans/shared/javelin_rider_portrait.png" row="3" col="99">
+    <proto name="deJavelinRider" icon="resources/art/units/africans/shared/javelin_rider_portrait.png" banner="unit" row="3" col="105">
     </proto>
-    <proto name="deLifidi" banner="unit" icon="resources/art/units/africans/hausa/knight/knight_portrait.png" row="4" col="99">
+    <proto name="deLifidi" icon="resources/art/units/africans/hausa/knight/knight_portrait.png" banner="unit" row="4" col="105">
     </proto>
-    <tech name="DEEliteArchersHausa" banner="improvement" icon="resources/art/techs/africans/elite_ranged_hau.png" row="5" col="99">
+    <tech name="DEEliteArchersHausa" icon="resources/art/techs/africans/elite_ranged_hau.png" banner="improvement" row="5" col="105">
     </tech>
-    <tech name="DEChampionArchersHausa" banner="improvement" icon="resources/art/techs/africans/champion_ranged_hau.png" row="6" col="99">
+    <tech name="DEChampionArchersHausa" icon="resources/art/techs/africans/champion_ranged_hau.png" banner="improvement" row="6" col="105">
     </tech>
-    <tech name="DELegendaryArchersHausa" banner="improvement" icon="resources/art/techs/africans/legendary_ranged_hau.png" row="8" col="99">
+    <tech name="DELegendaryArchersHausa" icon="resources/art/techs/africans/legendary_ranged_hau.png" banner="improvement" row="8" col="105">
     </tech>
-    <proto name="deRaider" banner="unit" icon="resources/art/units/africans/hausa/raider/raider_portrait.png" row="3" col="104">
+    <proto name="deRaider" icon="resources/art/units/africans/hausa/raider/raider_portrait.png" banner="unit" row="3" col="110">
     </proto>
-    <tech name="DEEliteHeavyCavalryHausa" banner="improvement" icon="resources/art/techs/africans/elite_melee_hau.png" row="5" col="104">
+    <tech name="DEEliteHeavyCavalryHausa" icon="resources/art/techs/africans/elite_melee_hau.png" banner="improvement" row="5" col="110">
     </tech>
-    <tech name="DEChampionHeavyCavalryHausa" banner="improvement" icon="resources/art/techs/africans/champion_melee_hau.png" row="6" col="104">
+    <tech name="DEChampionHeavyCavalryHausa" icon="resources/art/techs/africans/champion_melee_hau.png" banner="improvement" row="6" col="110">
     </tech>
-    <tech name="DELegendaryHeavyCavalryHausa" banner="improvement" icon="resources/art/techs/africans/legendary_melee_hau.png" row="8" col="104">
+    <tech name="DELegendaryHeavyCavalryHausa" icon="resources/art/techs/africans/legendary_melee_hau.png" banner="improvement" row="8" col="110">
     </tech>
   </group>
   <group name="Palace">
-    <proto name="dePalace" banner="building" icon="resources/art/buildings/african_civs/palace_portrait.png" row="2" col="110">
+    <proto name="dePalace" icon="resources/art/buildings/african_civs/palace_portrait.png" banner="building" row="2" col="116">
     </proto>
-    <proto name="deGunnerLevy" banner="unit" icon="resources/art/units/africans/shared/levy_gunner_portrait.png" row="3" col="111">
+    <proto name="deGunnerLevy" icon="resources/art/units/africans/shared/levy_gunner_portrait.png" banner="unit" row="3" col="117">
     </proto>
-    <tech name="DEImportedCannons" banner="improvement" icon="resources/images/icons/techs/africans/imported_cannons.png" row="4" col="111">
+    <tech name="DEImportedCannons" icon="resources/images/icons/techs/africans/imported_cannons.png" banner="improvement" row="5" col="117">
     </tech>
-    <tech name="DEImprovedCannonTrade" banner="improvement" icon="resources/images/icons/techs/africans/improved_cannon_trade.png" row="6" col="111">
+    <tech name="DEImprovedCannonTrade" icon="resources/images/icons/techs/africans/improved_cannon_trade.png" banner="improvement" row="7" col="117">
     </tech>
-    <proto name="deMaigadi" banner="unit" icon="resources/art/units/africans/hausa/bodyguard/bodyguard_portrait.png" row="3" col="116">
+    <proto name="deMaigadi" icon="resources/art/units/africans/hausa/bodyguard/bodyguard_portrait.png" banner="unit" row="3" col="122">
+    </proto>
+    <label string="100686" string2="72850" icon="resources\art\units\mercenaries\landsknecht\landsknecht_portrait.png" banner="unit" row="2" col="122">
+      <override>
+        <protoforcost>deGunnerLevy</protoforcost>
+      </override>
+    </label>
+    <proto name="Falconet" icon="resources/art/units/artillery/falconet/falconet_portrait.png" banner="unit" row="4" col="122">
+      <override>
+        <protoforcost>deMaigadi</protoforcost>
+      </override>
+    </proto>
+    <proto name="Culverin" icon="resources/art/units/artillery/culverin/culverin_portrait.png" banner="unit" row="5" col="122">
+      <override>
+        <protoforcost>deMaigadi</protoforcost>
+      </override>
+    </proto>
+    <proto name="Mortar" icon="resources/art/units/artillery/mortar/mortar_portrait.png" banner="unit" row="6" col="122">
+      <override>
+        <protoforcost>deMaigadi</protoforcost>
+      </override>
     </proto>
   </group>
   <group name="Alliances">
-    <tech name="DEAllegianceBerber2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_alliance_berber.png" row="2" col="123">
+    <tech name="DEAllegianceBerber2" icon="resources/images/icons/flags/techtree/techtree_alliance_berber.png" banner="ally" row="2" col="129">
     </tech>
-    <tech name="DENatBerberDesertKings" banner="improvement" icon="resources/images/icons/techs/africans/natives/ber_desert_kings.png" row="3" col="123">
+    <tech name="DENatBerberDesertKings" icon="resources/images/icons/techs/africans/natives/ber_desert_kings.png" banner="improvement" row="3" col="129">
     </tech>
-    <tech name="DEAllegianceBerberUnlock1" banner="unit" icon="resources/images/icons/techs/africans/alliances/berber_units.png" row="2" col="128">
+    <tech name="DEAllegianceBerberUnlock1" icon="resources/images/icons/techs/africans/alliances/berber_units.png" banner="unit" row="2" col="134">
     </tech>
-    <tech name="DENatGhorfas" banner="improvement" icon="resources/images/icons/techs/africans/natives/ber_ghorfas.png" row="3" col="128">
+    <tech name="DENatGhorfas" icon="resources/images/icons/techs/africans/natives/ber_ghorfas.png" banner="improvement" row="3" col="134">
     </tech>
-    <tech name="DEAllegianceFulani3" banner="ally" icon="resources/images/icons/flags/techtree/techtree_alliance_fulani.png" row="4" col="123">
+    <tech name="DEAllegianceFulani3" icon="resources/images/icons/flags/techtree/techtree_alliance_fulani.png" banner="ally" row="4" col="129">
     </tech>
-    <tech name="DEAllegianceFulaniMigrations" banner="improvement" icon="resources/images/icons/techs/africans/alliances/fulani_migrations.png" row="5" col="123">
+    <tech name="DEAllegianceFulaniMigrations" icon="resources/images/icons/techs/africans/alliances/fulani_migrations.png" banner="improvement" row="5" col="129">
     </tech>
-    <tech name="DEAllegianceFulaniUnlock1" banner="improvement" icon="resources/images/icons/techs/africans/alliances/fulani_market_technologies.png" row="4" col="128">
+    <tech name="DEAllegianceFulaniUnlock1" icon="resources/images/icons/techs/africans/alliances/fulani_market_technologies.png" banner="improvement" row="4" col="134">
     </tech>
-    <tech name="DEAllegianceFulaniGerewolFestival" banner="improvement" icon="resources/images/icons/techs/africans/alliances/festival_gerewol.png" row="5" col="128">
+    <tech name="DEAllegianceFulaniGerewolFestival" icon="resources/images/icons/techs/africans/alliances/festival_gerewol.png" banner="improvement" row="5" col="134">
     </tech>
-    <tech name="DEAllegianceYoruba4" banner="ally" icon="resources/images/icons/flags/techtree/techtree_alliance_yoruba.png" row="6" col="123">
+    <tech name="DEAllegianceYoruba4" icon="resources/images/icons/flags/techtree/techtree_alliance_yoruba.png" banner="ally" row="6" col="129">
     </tech>
-    <tech name="DENatYorubaTwins" banner="improvement" icon="resources/images/icons/techs/africans/natives/yor_twins.png" row="7" col="123">
+    <tech name="DENatYorubaTwins" icon="resources/images/icons/techs/africans/natives/yor_twins.png" banner="improvement" row="7" col="129">
     </tech>
-    <tech name="DEAllegianceYorubaUnlock1" banner="unit" icon="resources/images/icons/techs/africans/alliances/yoruba_units.png" row="6" col="128">
+    <tech name="DEAllegianceYorubaUnlock1" icon="resources/images/icons/techs/africans/alliances/yoruba_units.png" banner="unit" row="6" col="134">
     </tech>
-    <tech name="DENatYorubaWrestling" banner="improvement" icon="resources/images/icons/techs/africans/natives/yor_wrestling.png" row="7" col="128">
+    <tech name="DENatYorubaWrestling" icon="resources/images/icons/techs/africans/natives/yor_wrestling.png" banner="improvement" row="7" col="134">
     </tech>
-    <tech name="DEAllegianceBritish5" banner="ally" icon="resources/images/icons/flags/techtree/techtree_alliance_british.png" row="8" col="123">
+    <tech name="DEAllegianceBritish5" icon="resources/images/icons/flags/techtree/techtree_alliance_british.png" banner="ally" row="8" col="129">
     </tech>
-    <tech name="DEAllegianceBritishArtillery" banner="improvement" icon="resources/images/icons/techs/africans/alliances/british_artillery_engineers.png" row="9" col="123">
+    <tech name="DEAllegianceBritishArtillery" icon="resources/images/icons/techs/africans/alliances/british_artillery_engineers.png" banner="improvement" row="9" col="129">
     </tech>
-    <tech name="DEAllegianceBritishUnlock1" banner="unit" icon="resources/images/icons/techs/africans/alliances/british_units.png" row="8" col="128">
+    <tech name="DEAllegianceBritishUnlock1" icon="resources/images/icons/techs/africans/alliances/british_units.png" banner="unit" row="8" col="134">
     </tech>
-    <tech name="DEAllegianceBritishArmy" banner="improvement" icon="resources/images/icons/techs/africans/alliances/british_army.png" row="9" col="128">
+    <tech name="DEAllegianceBritishArmy" icon="resources/images/icons/techs/africans/alliances/british_army.png" banner="improvement" row="9" col="134">
     </tech>
-    <tech name="DEAllegianceHausa2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_alliance_hausa.png" row="2" col="133">
+    <tech name="DEAllegianceHausa2" icon="resources/images/icons/flags/techtree/techtree_alliance_hausa.png" banner="ally" row="2" col="139">
     </tech>
-    <tech name="DEAllegianceHausaKanoChronicle" banner="improvement" icon="resources/images/icons/techs/africans/alliances/kano_chronicle.png" row="3" col="133">
+    <tech name="DEAllegianceHausaKanoChronicle" icon="resources/images/icons/techs/africans/alliances/kano_chronicle.png" banner="improvement" row="3" col="139">
     </tech>
-    <tech name="DEAllegianceHausaUnlock1" banner="unit" icon="resources/images/icons/techs/africans/alliances/hausa_units.png" row="2" col="138">
+    <tech name="DEAllegianceHausaUnlock1" icon="resources/images/icons/techs/africans/alliances/hausa_units.png" banner="unit" row="2" col="144">
     </tech>
-    <tech name="DEAllegianceHausaBayajiddaEpic" banner="improvement" icon="resources/images/icons/techs/africans/alliances/bayajidda_epic.png" row="3" col="138">
+    <tech name="DEAllegianceHausaBayajiddaEpic" icon="resources/images/icons/techs/africans/alliances/bayajidda_epic.png" banner="improvement" row="3" col="144">
     </tech>
-    <tech name="DEAllegianceMoroccan2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_alliance_moroccan.png" row="2" col="143">
+    <tech name="DEAllegianceMoroccan2" icon="resources/images/icons/flags/techtree/techtree_alliance_moroccan.png" banner="ally" row="2" col="149">
     </tech>
-    <tech name="DEAllegianceMoroccanTreePlanting" banner="improvement" icon="resources/images/icons/techs/africans/argan_trees.png" row="3" col="143">
+    <tech name="DEAllegianceMoroccanTreePlanting" icon="resources/images/icons/techs/africans/argan_trees.png" banner="improvement" row="3" col="149">
     </tech>
-    <tech name="DEAllegianceMoroccanUnlock1" banner="unit" icon="resources/images/icons/techs/africans/alliances/moroccan_units.png" row="2" col="148">
+    <tech name="DEAllegianceMoroccanUnlock1" icon="resources/images/icons/techs/africans/alliances/moroccan_units.png" banner="unit" row="2" col="154">
     </tech>
-    <tech name="DEAllegianceMoroccanArmaGarrisons" banner="improvement" icon="resources/images/icons/techs/africans/alliances/arma_garrisons.png" row="3" col="148">
+    <tech name="DEAllegianceMoroccanArmaGarrisons" icon="resources/images/icons/techs/africans/alliances/arma_garrisons.png" banner="improvement" row="3" col="154">
     </tech>
-    <tech name="DEAllegianceSonghai2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_alliance_songhai.png" row="2" col="153">
+    <tech name="DEAllegianceSonghai2" icon="resources/images/icons/flags/techtree/techtree_alliance_songhai.png" banner="ally" row="2" col="159">
     </tech>
-    <tech name="DEAllegianceSonghaiTimbuktuChronicle" banner="improvement" icon="resources/images/icons/techs/africans/alliances/timbuktu_chronicle.png" row="3" col="153">
+    <tech name="DEAllegianceSonghaiTimbuktuChronicle" icon="resources/images/icons/techs/africans/alliances/timbuktu_chronicle.png" banner="improvement" row="3" col="159">
     </tech>
-    <tech name="DEAllegianceSonghaiUnlock2" banner="unit" icon="resources/images/icons/techs/africans/alliances/songhai_university_technologies.png" row="2" col="158">
+    <tech name="DEAllegianceSonghaiUnlock2" icon="resources/images/icons/techs/africans/alliances/songhai_university_technologies.png" banner="unit" row="2" col="164">
     </tech>
-    <tech name="DEAllegianceSonghaiMansaMusaEpic" banner="improvement" icon="resources/images/icons/techs/africans/alliances/mansa_musa_epic.png" row="3" col="158">
+    <tech name="DEAllegianceSonghaiMansaMusaEpic" icon="resources/images/icons/techs/africans/alliances/mansa_musa_epic.png" banner="improvement" row="3" col="164">
     </tech>
-    <tech name="DEAllegianceAkan2" banner="ally" icon="resources/images/icons/flags/techtree/techtree_alliance_akan.png" row="2" col="163">
+    <tech name="DEAllegianceAkan2" icon="resources/images/icons/flags/techtree/techtree_alliance_akan.png" banner="ally" row="2" col="169">
     </tech>
-    <tech name="DENatAkanGoldEconomy" banner="improvement" icon="resources/images/icons/techs/africans/natives/aka_gold_economy.png" row="3" col="163">
+    <tech name="DENatAkanGoldEconomy" icon="resources/images/icons/techs/africans/natives/aka_gold_economy.png" banner="improvement" row="3" col="169">
     </tech>
-    <tech name="DEAllegianceAkanUnlock1" banner="unit" icon="resources/images/icons/techs/africans/alliances/akan_units.png" row="2" col="168">
+    <tech name="DEAllegianceAkanUnlock1" icon="resources/images/icons/techs/africans/alliances/akan_units.png" banner="unit" row="2" col="174">
     </tech>
-    <tech name="DENatAkanPalmOil" banner="improvement" icon="resources/images/icons/techs/africans/natives/aka_palm_oil.png" row="3" col="168">
+    <tech name="DENatAkanPalmOil" icon="resources/images/icons/techs/africans/natives/aka_palm_oil.png" banner="improvement" row="3" col="174">
     </tech>
   </group>
-</techtreedata>
+</techtree>

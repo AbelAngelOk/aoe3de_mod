@@ -1,0 +1,147 @@
+<techtree>
+  <group name="Mercenaries">
+    <label string="22866" icon="resources\images\icons\flags\Techtree_German.png" banner="ally" row="3" col="1" iconalpha="premultiplied">
+    </label>
+    <tech name="DEHCMercenaryCampsGerman" icon="resources\images\icons\techs\germans\mercenary_camps.png" banner="shipment" row="4" col="1">
+    </tech>
+    <proto name="Saloon" icon="resources\art\buildings\mercenary_camp_portrait.png" banner="building" row="5" col="1">
+      <override>
+        <nameoverride>125307</nameoverride>
+      </override>
+    </proto>
+    <proto name="deMercCannoneer" icon="resources\art\units\africans\mercenaries\cannoneer\cannoneer_portrait.png" banner="unit" row="2" col="7">
+    </proto>
+    <proto name="deMercBrigadier" icon="resources\art\units\mercenaries\irish_brigade\irish_brigade_portrait.png" banner="unit" row="3" col="7">
+    </proto>
+    <proto name="MercLandsknecht" icon="resources\art\units\mercenaries\landsknecht\landsknecht_portrait.png" banner="unit" row="4" col="7">
+    </proto>
+    <proto name="MercHighlander" icon="resources\art\units\mercenaries\highlander\highlander_portrait.png" banner="unit" row="5" col="7">
+    </proto>
+    <proto name="MercElmeti" icon="resources\art\units\elmeti_portrait.png" banner="unit" row="6" col="7">
+    </proto>
+    <proto name="MercGreatCannon" icon="resources\art\units\spc\russian_cannon\russian_cannon_icon_portrait.png" banner="unit" row="7" col="7">
+    </proto>
+    <label string="72860" icon="resources\images\icons\flags\Techtree_British.png" banner="ally" row="0" col="13" iconalpha="premultiplied">
+    </label>
+    <proto name="Saloon" icon="resources\art\buildings\tavern_portrait.png" banner="building" row="2" col="13">
+      <override>
+        <nameoverride>110120</nameoverride>
+      </override>
+    </proto>
+    <proto name="deMercCranequinier" icon="resources\art\units\mercenaries\cranequinier\cranequinier_portrait.png" banner="unit" row="3" col="13">
+    </proto>
+    <proto name="MercSwissPikeman" icon="resources\art\units\mercenaries\swiss_pikeman\swiss_pikeman_portrait.png" banner="unit" row="4" col="13">
+    </proto>
+    <proto name="MercFusilier" icon="resources\art\units\fusilier_portrait.png" banner="unit" row="5" col="13">
+    </proto>
+    <proto name="MercMameluke" icon="resources\art\units\mercenaries\mameluke\mameluke_portrait.png" banner="unit" row="6" col="13">
+    </proto>
+    <proto name="deMercGatlingCamel" icon="resources\art\units\africans\mercenaries\gatling_camel\gatling_camel_portrait.png" banner="unit" row="7" col="13">
+    </proto>
+    <label string="122000" icon="resources\images\icons\flags\Techtree_Italian.png" banner="ally" row="0" col="19" iconalpha="premultiplied">
+    </label>
+    <proto name="deLombard" icon="resources\art\buildings\lombard\lombard_portrait.png" banner="unit" row="1" col="19">
+    </proto>
+    <proto name="deMercWagon" icon="resources\art\units\revolution\livonians\wagon_portrait.png" banner="unit" row="2" col="19">
+    </proto>
+    <proto name="deMercGallowglass" icon="resources\art\units\mercenaries\gallowglass\gallowglass_portrait.png" banner="unit" row="3" col="19">
+    </proto>
+    <proto name="MercBarbaryCorsair" icon="resources\art\units\mercenaries\barbary_corsair\barbary_corsair_portrait.png" banner="unit" row="4" col="19">
+    </proto>
+    <proto name="deMercGrenadier" icon="resources\art\units\mercenaries\giant_grenadier\giant_grenadier_portrait.png" banner="unit" row="5" col="19">
+    </proto>
+    <proto name="deMercRoyalHorseman" icon="resources\art\units\mercenaries\royal_horseman\royal_horseman_portrait.png" banner="unit" row="6" col="19">
+    </proto>
+    <proto name="deMercMountedRifleman" icon="resources\art\units\mercenaries\mounted_rifleman\mounted_rifleman_portrait.png" banner="unit" row="7" col="19">
+    </proto>
+    <label string="72861" icon="resources\images\icons\flags\Techtree_Japanese.png" banner="ally" row="0" col="25" iconalpha="premultiplied">
+    </label>
+    <proto name="ypMonastery" icon="resources\art\buildings\asian_civs\monastery\monastery_icon_portrait.png" banner="building" row="1" col="25">
+    </proto>
+    <proto name="MercRonin" icon="resources\art\units\mercenaries\samurai\ronin_portrait.png" banner="unit" row="4" col="25">
+    </proto>
+    <proto name="deMercPistoleer" icon="resources\art\units\mercenaries\armored_pistoleer\armored_pistoleer_portrait.png" banner="unit" row="5" col="25">
+    </proto>
+    <proto name="ypMercJatLancer" icon="resources\art\units\asians\mercenaries\jat_lancer\jat_lancer_icon_portrait.png" banner="unit" row="6" col="25">
+    </proto>
+    <proto name="ypMercYojimbo" icon="resources\art\units\asians\mercenaries\yojimbo\yojimbo_icon_portrait.png" banner="unit" row="7" col="25">
+    </proto>
+    <label string="34139" icon="resources\images\icons\flags\Techtree_American.png" banner="ally" row="0" col="31" iconalpha="premultiplied">
+    </label>
+    <proto name="Saloon" icon="resources/art/buildings/saloon_portrait.png" banner="building" row="2" col="31">
+    </proto>
+    <proto name="MercNinja" icon="resources\art\units\ninja_portrait.png" banner="unit" row="4" col="31">
+    </proto>
+    <proto name="deMercAskari" icon="resources\art\units\africans\mercenaries\askari\askari_portrait.png" banner="unit" row="5" col="31">
+    </proto>
+    <proto name="deMercZouave" icon="resources\art\units\mercenaries\zouave\zouave_portrait.png" banner="unit" row="6" col="31">
+    </proto>
+    <label string="112000" icon="resources\images\icons\flags\Techtree_Mexican.png" banner="ally" row="0" col="37" iconalpha="premultiplied">
+    </label>
+    <proto name="Saloon" icon="resources\art\buildings\saloon_portrait.png" banner="building" row="2" col="37">
+      <override>
+        <nameoverride>112276</nameoverride>
+      </override>
+    </proto>
+    <proto name="MercJaeger" icon="resources\art\units\mercenaries\jaeger\hessian_jaeger_portrait.png" banner="unit" row="4" col="37">
+    </proto>
+    <proto name="MercBlackRider" icon="resources\art\units\mercenaries\black_rider\black_rider_portrait.png" banner="unit" row="5" col="37">
+    </proto>
+    <proto name="deMercPandour" icon="resources\art\units\mercenaries\pandour\pandour_portrait.png" banner="unit" row="5" col="42">
+    </proto>
+    <proto name="MercManchu" icon="resources\art\units\mercenaries\manchurian_archer\manchurian_archer_portrait.png" banner="unit" row="4" col="42">
+    </proto>
+    <proto name="ypMercArsonist" icon="resources\art\units\asians\spc\arsonist\arsonist_icon_portrait.png" banner="unit" row="5" col="47">
+    </proto>
+    <proto name="deMercHarquebusier" icon="resources\art\units\mercenaries\harquebusier\harquebusier_portrait.png" banner="unit" row="4" col="47">
+    </proto>
+    <proto name="deMercAmazon" icon="resources\art\units\africans\mercenaries\dahomey_amazon\dahomey_amazon_portrait.png" banner="unit" row="5" col="52">
+    </proto>
+    <proto name="deMercKanuri" icon="resources\art\units\africans\mercenaries\kanuri\kanuri_guard_portrait.png" banner="unit" row="4" col="52">
+    </proto>
+    <proto name="ypMercIronTroop" icon="resources\art\units\asians\mercenaries\iron_troop\iron_troop_icon_portrait.png" banner="unit" row="5" col="57">
+    </proto>
+    <proto name="deMercZenata" icon="resources\art\units\africans\mercenaries\genitour\genitour_portrait.png" banner="unit" row="4" col="57">
+    </proto>
+    <proto name="deMercNapoleonGun" icon="resources\art\units\mercenaries\napoleon_gun\napoleon_gun_portrait.png" banner="unit" row="5" col="62">
+    </proto>
+    <proto name="deMercSudaneseRider" icon="resources\art\units\africans\mercenaries\sudanese_horseman\sudanese_horseman_portrait.png" banner="unit" row="4" col="62">
+    </proto>
+    <proto name="deMercBosniak" icon="resources\art\units\mercenaries\bosniak_rider\bosniak_rider_portrait.png" banner="unit" row="4" col="67">
+    </proto>
+    <proto name="MercStradiot" icon="resources\art\units\mercenaries\balkan_stradiot\balkan_stradiot_portrait.png" banner="unit" row="5" col="67">
+    </proto>
+    <label string="72866" icon="resources\images\icons\flags\Techtree_Hausa.png" banner="ally" row="1" col="74" iconalpha="premultiplied">
+    </label>
+    <proto name="dePalace" icon="resources/art/buildings/african_civs/palace_portrait.png" banner="building" row="3" col="74">
+    </proto>
+    <proto name="dePort" icon="resources/art/buildings/african_civs/port_portrait.png" banner="building" row="1" col="79">
+    </proto>
+    <label string="101010" icon="resources\images\icons\flags\Techtree_Hausa.png" banner="ally" row="2" col="79" iconalpha="premultiplied">
+    </label>
+    <proto name="deMercXebec" icon="resources\art\units\naval\xebec\xebec_portrait.png" banner="unit" row="3" col="79">
+    </proto>
+    <label string="80685" icon="resources\images\icons\flags\Techtree_Ethiopian.png" banner="ally" row="2" col="84" iconalpha="premultiplied">
+    </label>
+    <proto name="deMercDhow" icon="resources\art\units\naval\dhow_warship\dhow_warship_portrait.png" banner="unit" row="3" col="84">
+    </proto>
+    <proto name="Dock" icon="resources\art\buildings\dock\dock_portrait.png" banner="building" row="0" col="90">
+    </proto>
+    <label string="105996" icon="resources\art\buildings\native_settlement\native_site_bourbon_icon_portrait.png" banner="ally" row="2" col="90" iconalpha="premultiplied">
+    </label>
+    <proto name="deMercBattleship" icon="resources\art\units\naval\battleship\battleship_portrait.png" banner="unit" row="3" col="90">
+    </proto>
+    <label string="105033" icon="resources\art\buildings\native_settlement\native_berber_site_portrait.png" banner="ally" row="2" col="95" iconalpha="premultiplied">
+    </label>
+    <proto name="Privateer" icon="resources\art\units\naval\privateer\privateer_icon_portrait.png" banner="unit" row="3" col="95">
+    </proto>
+    <label string="72862" icon="resources\art\buildings\native_settlement\native_sufi_site_icon_portrait.png" banner="ally" row="2" col="100" iconalpha="premultiplied">
+    </label>
+    <proto name="ypMarathanCatamaran" icon="resources\art\units\asians\naval\catamaran\catamaran_icon_portrait.png" banner="unit" row="3" col="100">
+    </proto>
+    <label string="72863" icon="resources\art\buildings\native_settlement\native_shaolin_site_icon_portrait.png" banner="ally" row="2" col="105" iconalpha="premultiplied">
+    </label>
+    <proto name="ypWokouJunk" icon="resources\art\units\asians\naval\wokou_junk\wokou_junk_icon_portrait.png" banner="unit" row="3" col="105">
+    </proto>
+  </group>
+</techtree>

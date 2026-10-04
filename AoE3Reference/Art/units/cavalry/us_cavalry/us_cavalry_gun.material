@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\us_cavalry\textures\us_cavalry_gun_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\us_cavalry\textures\us_cavalry_gun_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\us_cavalry\textures\us_cavalry_gun_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\us_cavalry\textures\us_cavalry_gun_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\us_cavalry\textures\us_cavalry_gun_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\us_cavalry\textures\us_cavalry_gun_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

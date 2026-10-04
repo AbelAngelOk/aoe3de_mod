@@ -1,0 +1,34 @@
+<particlesetdef>
+  <particleset name="turtle04splash_in">
+    <particle filename="units\animals\turtle\enter_turtle.pkfx" timeoff="1.8000" xoff="0.7500" yoff="0.00" zoff="2.5000">
+    </particle>
+  </particleset>
+  <particleset name="turtle03splash_in">
+    <particle filename="units\animals\turtle\enter_turtle.pkfx" timeoff="2.5400" xoff="0.900" yoff="0.0000" zoff="4.2000">
+    </particle>
+  </particleset>
+  <particleset name="turtle04splash_out">
+    <particle filename="units\animals\turtle\exit_turtle.pkfx" timeoff="4.1000" xoff="-0.2500" yoff="0.00" zoff="2.5000">
+    </particle>
+  </particleset>
+  <particleset name="turtle03splash_out">
+    <particle filename="units\animals\turtle\exit_turtle.pkfx" timeoff="5.500" xoff="0.9" yoff="0.000" zoff="4.000">
+    </particle>
+  </particleset>
+  <particleset name="LogRipple">
+    <particle filename="water_effects\riverRipple_turtleDive.pkfx" timeoff="1.00" xoff="0.0000" yoff="0.0000" zoff="0.0000">
+    </particle>
+  </particleset>
+  <particleset name="LogRipple2">
+    <particle filename="water_effects\riverRipple_turtleDive.pkfx" timeoff="4.00" xoff="0.0000" yoff="0.0000" zoff="0.0000">
+    </particle>
+  </particleset>
+  <particleset name="LogRipple_a">
+    <particle filename="water_effects\riverRipple_turtleDive2.pkfx" timeoff="1.4" xoff="0.0000" yoff="0.0000" zoff="0.0000">
+    </particle>
+  </particleset>
+  <particleset name="LogRipple_a2">
+    <particle filename="water_effects\riverRipple_turtleDive2.pkfx" timeoff="5.17" xoff="0.0000" yoff="0.0000" zoff="0.0000">
+    </particle>
+  </particleset>
+</particlesetdef>

@@ -1,0 +1,88 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\musketeer\textures\redcoats_age4_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\musketeer\textures\redcoats_age4_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\musketeer\textures\redcoats_age4_mata_masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\musketeer\textures\redcoats_age4_mata_details">
+      </texture>
+      <float name="Lift Metallic" override="0.2500">
+      </float>
+      <float name="Lift Non-Metallic" override="0.3140">
+      </float>
+      <float name="Roughness Max" override="0.9010">
+      </float>
+      <float name="Metallic Max" override="0.8460">
+      </float>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\infantry_ranged\musketeer\textures\redcoats_age4alt_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\musketeer\textures\redcoats_age4_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\musketeer\textures\redcoats_age4_mata_masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\musketeer\textures\redcoats_age4alt_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matb_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matb_masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matb_details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\infantry_ranged\musketeer\textures\redcoats_age4alt_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matb_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matb_masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\musketeer\textures\redcoats_age4alt_matb_details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matc_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matc_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matc_masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matc_details">
+      </texture>
+      <float name="Lift Metallic" override="0.7630">
+      </float>
+      <float name="Metallic Max" override="0.9070">
+      </float>
+      <float name="Roughness Max" override="0.5380">
+      </float>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matc_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matc_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matc_masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\musketeer\textures\redcoats_age4_matc_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

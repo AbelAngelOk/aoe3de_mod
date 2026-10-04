@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\major_cooper\textures\spc_major_cooper_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\major_cooper\textures\spc_major_cooper_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\major_cooper\textures\spc_major_cooper_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\major_cooper\textures\spc_major_cooper_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\major_cooper\textures\spc_major_cooper_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\major_cooper\textures\spc_major_cooper_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\major_cooper\textures\spc_major_cooper_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\major_cooper\textures\spc_major_cooper_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

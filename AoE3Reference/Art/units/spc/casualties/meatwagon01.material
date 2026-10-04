@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\casualties\textures\meatwagon01_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\casualties\textures\meatwagon01_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\casualties\textures\meatwagon01_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\casualties\textures\meatwagon01_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\casualties\textures\meatwagon01_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\casualties\textures\meatwagon01_matB_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\casualties\textures\meatwagon01_matB_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\casualties\textures\meatwagon01_matB_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

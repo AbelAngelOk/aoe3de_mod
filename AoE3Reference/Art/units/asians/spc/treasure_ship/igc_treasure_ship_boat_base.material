@@ -1,0 +1,146 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\deck\textures\deck_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\deck\textures\deck_matA_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\deck\textures\deck_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mati">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\cannons\textures\cannons_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\cannons\textures\cannons_mata_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\cannons\textures\cannons_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matj">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\cannons\textures\cannons_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\cannons\textures\cannons_mata_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\cannons\textures\cannons_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matk">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\cannons\textures\cannons_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\cannons\textures\cannons_mata_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\cannons\textures\cannons_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matl">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\cannons\textures\cannons_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\cannons\textures\cannons_mata_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\cannons\textures\cannons_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\galley1\textures\galley1_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\galley1\textures\galley1_matA_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\galley1\textures\galley1_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\deck\textures\deck_matC_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\deck\textures\deck_matC_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\deck\textures\deck_matC_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\galley1\textures\galley1_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\galley1\textures\galley1_matB_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\galley1\textures\galley1_matB_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mate">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\frontbuilding\textures\FrontBuilding_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\frontbuilding\textures\FrontBuilding_mata_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\frontbuilding\textures\FrontBuilding_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matf">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china\fencewalls01\textures\fencewalls01_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china\fencewalls01\textures\fencewalls01_matB_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china\fencewalls01\textures\fencewalls01_matB_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matg">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\galley1\textures\galley1_matC_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\galley1\textures\galley1_matC_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\galley1\textures\galley1_matC_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="math">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\hull\textures\hulldragon_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\hull\textures\hulldragon_matA_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\hull\textures\hulldragon_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

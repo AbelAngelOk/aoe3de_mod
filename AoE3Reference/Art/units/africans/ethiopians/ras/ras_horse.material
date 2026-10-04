@@ -1,0 +1,28 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\africans\ethiopians\ras\textures\ras_horse_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\africans\ethiopians\ras\textures\ras_horse_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\africans\ethiopians\ras\textures\ras_horse_mata_masks">
+      </texture>
+      <texture name="Details" override="units\africans\ethiopians\ras\textures\ras_horse_mata_details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\africans\ethiopians\oromo\textures\oromo_horse_age4_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\africans\ethiopians\ras\textures\ras_horse_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\africans\ethiopians\ras\textures\ras_horse_mata_masks">
+      </texture>
+      <texture name="Details" override="units\africans\ethiopians\oromo\textures\oromo_horse_age4_mata_details">
+      </texture>
+      <float name="Lift Metallic" override="0.6900">
+      </float>
+    </parameters>
+  </submaterial>
+</material>

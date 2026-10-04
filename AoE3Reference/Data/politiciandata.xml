@@ -535,10 +535,16 @@
   </depoliticianfederaldelaware>
   <depoliticianfederalpennsylvania portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_pennsylvania.png" hccardtech1="DEHCFedPhiladelphiaConvention" hccardtech2="DEHCFedTammanyFestival">
   </depoliticianfederalpennsylvania>
+  <depoliticianpennsylvaniaindependence portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_pennsylvania.png" hccardtech1="DEHCFedPhiladelphiaConvention" hccardtech2="DEHCFedTammanyFestival">
+  </depoliticianpennsylvaniaindependence>
   <depoliticianfederalconnecticut portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_connecticut.png" hccardtech1="DEHCFedConnecticutShipwrights" hccardtech2="DEHCFedSapperCorps">
   </depoliticianfederalconnecticut>
+  <depoliticianconnecticutindependence portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_connecticut.png" hccardtech1="DEHCFedConnecticutShipwrights" hccardtech2="DEHCFedSapperCorps">
+  </depoliticianconnecticutindependence>
   <depoliticianfederalmassachusetts portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_massachussetts.png" hccardtech1="DEHCFedPlymouthSettlers" hccardtech2="DEHCFedBostonTeaParty">
   </depoliticianfederalmassachusetts>
+  <depoliticianmassachusettsindependence portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_massachussetts.png" hccardtech1="DEHCFedPlymouthSettlers" hccardtech2="DEHCFedBostonTeaParty">
+  </depoliticianmassachusettsindependence>
   <depoliticianfederalnewjersey portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_new jersey.png" hccardtech1="DEHCFedNewJerseySeaports" hccardtech2="DEHCFedMorrisCanal">
   </depoliticianfederalnewjersey>
   <depoliticianfederalmaryland portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_maryland.png" hccardtech1="DEHCFedAnnapolisAcademy" hccardtech2="DEHCFedOysterPirates">
@@ -553,12 +559,18 @@
   </depoliticianfederalnewyork>
   <depoliticianfederalvermont portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_vermont.png" hccardtech1="DEHCFedGreenMountainBoys" hccardtech2="DEHCFedVermontCoppers">
   </depoliticianfederalvermont>
+  <depoliticianvermontindependence portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_vermont.png" hccardtech1="DEHCFedGreenMountainBoys" hccardtech2="DEHCFedVermontCoppers">
+  </depoliticianvermontindependence>
   <depoliticianfederalnorthcarolina portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_north carolina.png">
   </depoliticianfederalnorthcarolina>
   <depoliticianfederalrhodeisland portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_rhode island.png" hccardtech1="DEHCFedSteamEngine" hccardtech2="DEHCFedTextileMill">
   </depoliticianfederalrhodeisland>
+  <depoliticianrhodeislandindependence portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_rhode island.png" hccardtech1="DEHCFedSteamEngine" hccardtech2="DEHCFedTextileMill">
+  </depoliticianrhodeislandindependence>
   <depoliticianfederalkentucky portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_kentucky.png" hccardtech1="DEHCFedKentuckyCoalfields" hccardtech2="DEHCFedKentuckyHunters">
   </depoliticianfederalkentucky>
+  <depoliticiankentuckyindependence portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_kentucky.png" hccardtech1="DEHCFedKentuckyCoalfields" hccardtech2="DEHCFedKentuckyHunters">
+  </depoliticiankentuckyindependence>
   <depoliticianfederalnewhampshire portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_new hampshire.png" hccardtech1="DEHCFedFrenchCanadians" hccardtech2="DEHCFedNewHampshireManufacturing">
   </depoliticianfederalnewhampshire>
   <depoliticianfederallouisiana portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_louisiana.png">
@@ -571,12 +583,18 @@
   </depoliticianfederalmaine>
   <depoliticianfederalflorida portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_florida.png" hccardtech1="DEHCFedSeminolePonies" hccardtech2="DEHCFedFloridaCowhunters">
   </depoliticianfederalflorida>
+  <depoliticianfloridaindependence portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_florida.png" hccardtech1="DEHCFedSeminolePonies" hccardtech2="DEHCFedFloridaCowhunters">
+  </depoliticianfloridaindependence>
   <depoliticianfederalindiana portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_indiana.png" hccardtech1="DEHCFedMammothImprovementAct" hccardtech2="DEHCFedIndianaMobilization">
   </depoliticianfederalindiana>
+  <depoliticianindianaindependence portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_indiana.png" hccardtech1="DEHCFedMammothImprovementAct" hccardtech2="DEHCFedIndianaMobilization">
+  </depoliticianindianaindependence>
   <depoliticianfederalillinois portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_illinois.png" hccardtech1="DEHCFedDeereSteelPlow" hccardtech2="DEHCFedLincolnLand">
   </depoliticianfederalillinois>
   <depoliticianfederalohio portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_ohio.png" hccardtech1="DEHCFedPutnamEngineering" hccardtech2="DEHCFedOhioSupply">
   </depoliticianfederalohio>
+  <depoliticianohioindependence portraitfilename="ui\ingame\politicians\politician_philosopher_prince" portraitfilenamewpf="resources/images/icons/politicians/politician_us_ohio.png" hccardtech1="DEHCFedPutnamEngineering" hccardtech2="DEHCFedOhioSupply">
+  </depoliticianohioindependence>
   <deallegiancefulani2 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_fulani.png" unlocktech1="DEAllegianceFulaniUnlock1" unlocktech2="DEAllegianceFulaniUnlock2" unlocktech3="-1">
   </deallegiancefulani2>
   <deallegiancefulani3 portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/allegiance_fulani.png" unlocktech1="DEAllegianceFulaniUnlock1" unlocktech2="DEAllegianceFulaniUnlock2" unlocktech3="-1">
@@ -707,26 +725,40 @@
   </deallegiancearab5>
   <depoliticianfederalmxdurango portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_durango.png" hccardtech1="DEHCFedMXFortifiedHaciendas" hccardtech2="DEHCFedMXCerroDeMercado">
   </depoliticianfederalmxdurango>
+  <depoliticiandurangoindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_durango.png" hccardtech1="DEHCFedMXFortifiedHaciendas" hccardtech2="DEHCFedMXCerroDeMercado">
+  </depoliticiandurangoindependence>
   <depoliticianfederalmxmichoacan portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_michoacan.png" hccardtech1="DEHCFedMXColegioSanNicolas" hccardtech2="DEHCFedMXFishermen">
   </depoliticianfederalmxmichoacan>
+  <depoliticianmichoacanindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_michoacan.png" hccardtech1="DEHCFedMXColegioSanNicolas" hccardtech2="DEHCFedMXFishermen">
+  </depoliticianmichoacanindependence>
   <depoliticianfederalmxtlaxcala portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_tlaxcala.png" hccardtech1="DEHCFedMXMestizos" hccardtech2="DEHCFedMXTlaxcalaTextiles">
   </depoliticianfederalmxtlaxcala>
+  <depoliticiantlaxcalaindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_tlaxcala.png" hccardtech1="DEHCFedMXMestizos" hccardtech2="DEHCFedMXTlaxcalaTextiles">
+  </depoliticiantlaxcalaindependence>
   <depoliticianfederalmxchiapas portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_chiapas.png" hccardtech1="DEHCFedMXTzotzilUprising" hccardtech2="DEHCFedMXMayaCrops">
   </depoliticianfederalmxchiapas>
   <depoliticianfederalmxqueretaro portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_queretaro.png" hccardtech1="DEHCFedMXArteagaReforms" hccardtech2="DEHCFedMXQueretaroHaciendas">
   </depoliticianfederalmxqueretaro>
+  <depoliticianqueretaroindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_queretaro.png" hccardtech1="DEHCFedMXArteagaReforms" hccardtech2="DEHCFedMXQueretaroHaciendas">
+  </depoliticianqueretaroindependence>
   <depoliticianfederalmxtabasco portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_tabasco.png" hccardtech1="DEHCFedMXTabascanGuerrillas" hccardtech2="DEHCFedMXTabascoFruits">
   </depoliticianfederalmxtabasco>
   <depoliticianfederalmxsonora portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_sonora.png" hccardtech1="DEHCFedMXVaqueros" hccardtech2="DEHCFedMXSonoraValleys">
   </depoliticianfederalmxsonora>
+  <depoliticiansonoraindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_sonora.png" hccardtech1="DEHCFedMXVaqueros" hccardtech2="DEHCFedMXSonoraValleys">
+  </depoliticiansonoraindependence>
   <depoliticianfederalmxsinaloa portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_sinaloa.png" hccardtech1="DEHCFedMXPacificPearl" hccardtech2="DEHCFedMXHirePrivateers">
   </depoliticianfederalmxsinaloa>
   <depoliticianfederalmxcoahuila portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_coahuila.png" hccardtech1="DEHCFedMXEmpresarioContracts" hccardtech2="DEHCFedMXZaragozaLands">
   </depoliticianfederalmxcoahuila>
   <depoliticianfederalmxsanluispotosi portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_san_luis_potosi.png" hccardtech1="DEHCFedMXSanLuisPatriots" hccardtech2="DEHCFedMXBustamante">
   </depoliticianfederalmxsanluispotosi>
+  <depoliticiansanluispotosiindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_san_luis_potosi.png" hccardtech1="DEHCFedMXSanLuisPatriots" hccardtech2="DEHCFedMXBustamante">
+  </depoliticiansanluispotosiindependence>
   <depoliticianfederalmxzacatecas portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_zacatecas.png" hccardtech1="DEHCFedMXZacatecasSilver" hccardtech2="DEHCFedMXZacatecasRebellion">
   </depoliticianfederalmxzacatecas>
+  <depoliticianzacatecasindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_zacatecas.png" hccardtech1="DEHCFedMXZacatecasSilver" hccardtech2="DEHCFedMXZacatecasRebellion">
+  </depoliticianzacatecasindependence>
   <depoliticianfederalmxtamaulipas portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_tamaulipas.png" hccardtech1="DEHCFedMXTampicoCustoms" hccardtech2="DEHCFedMXPanucoWaterway">
   </depoliticianfederalmxtamaulipas>
   <depoliticianfederalmxchihuahua portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_chihuahua.png" hccardtech1="DEHCFedMXTriasFortifications" hccardtech2="DEHCFedMXSierraMadre">
@@ -735,14 +767,22 @@
   </depoliticianfederalmxguanajuato>
   <depoliticianfederalmxguerrero portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_guerrero.png" hccardtech1="DEHCFedMXIndependenceHero" hccardtech2="DEHCFedMXAztecPueblos">
   </depoliticianfederalmxguerrero>
+  <depoliticianguerreroindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_guerrero.png" hccardtech1="DEHCFedMXIndependenceHero" hccardtech2="DEHCFedMXAztecPueblos">
+  </depoliticianguerreroindependence>
   <depoliticianfederalmxjalisco portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_jalisco.png" hccardtech1="DEHCFedMXRanching" hccardtech2="DEHCFedMXTonalaCeramics">
   </depoliticianfederalmxjalisco>
+  <depoliticianjaliscoindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_jalisco.png" hccardtech1="DEHCFedMXRanching" hccardtech2="DEHCFedMXTonalaCeramics">
+  </depoliticianjaliscoindependence>
   <depoliticianfederalmxmexico portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_mexico.png" hccardtech1="DEHCFedMXNationalServant" hccardtech2="DEHCFedMXThreeGuarantees">
   </depoliticianfederalmxmexico>
+  <depoliticianmexicoindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_mexico.png" hccardtech1="DEHCFedMXNationalServant" hccardtech2="DEHCFedMXThreeGuarantees">
+  </depoliticianmexicoindependence>
   <depoliticianfederalmxveracruz portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_veracruz.png" hccardtech1="DEHCFedMXPortVeracruz" hccardtech2="DEHCFedMXNationalGuard">
   </depoliticianfederalmxveracruz>
   <depoliticianfederalmxpuebla portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_puebla.png" hccardtech1="DEHCFedMXCincoDeMayo" hccardtech2="DEHCFedMXTalaveraArchitecture">
   </depoliticianfederalmxpuebla>
+  <depoliticianpueblaindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_puebla.png" hccardtech1="DEHCFedMXCincoDeMayo" hccardtech2="DEHCFedMXTalaveraArchitecture">
+  </depoliticianpueblaindependence>
   <depoliticianfederalmxoaxaca portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_mx_oaxaca.png" hccardtech1="DEHCFedMXJuarezLand" hccardtech2="DEHCFedMXZapotecValley">
   </depoliticianfederalmxoaxaca>
   <derevolutionmxcentralamerica portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_central_america.png">
@@ -789,6 +829,8 @@
   </politiciancavalieritalian>
   <depoliticianpope portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_pope.png">
   </depoliticianpope>
+  <depoliticianpopeindependence portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_pope.png">
+  </depoliticianpopeindependence>
   <depoliticianpapalguarditalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_papal_guard.png">
   </depoliticianpapalguarditalian>
   <depoliticianroyalistitalian portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
@@ -821,6 +863,44 @@
   </depoliticianroyalistrussian>
   <depoliticianimam portraitfilename="ui\ingame\politicians\politician_imam" portraitfilenamewpf="resources/images/icons/politicians/politician_imam.png">
   </depoliticianimam>
+  <depoliticianlogisticiancolonialpolish portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticiancolonialpolish>
+  <depoliticianmerccontractorfortresspolish portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </depoliticianmerccontractorfortresspolish>
+  <depoliticianmarksmanpolish portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </depoliticianmarksmanpolish>
+  <depoliticianscoutpolish portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </depoliticianscoutpolish>
+  <depoliticiancavalierpolish portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </depoliticiancavalierpolish>
+  <depoliticianknightpolish portraitfilename="ui\ingame\politicians\politician_sergeant_arms" portraitfilenamewpf="resources/images/icons/politicians/politician_knight.png">
+  </depoliticianknightpolish>
+  <depoliticianroyalistpolish portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </depoliticianroyalistpolish>
+  <depoliticiannaturalist portraitfilename="ui\ingame\politicians\politician_naturalist" portraitfilenamewpf="resources/images/icons/politicians/politician_naturalist.png">
+  </depoliticiannaturalist>
+  <depoliticianviceroy portraitfilename="ui\ingame\politicians\politician_viceroy" portraitfilenamewpf="resources/images/icons/politicians/politician_viceroy.png">
+  </depoliticianviceroy>
+  <depoliticianlogisticiancolonialdanish portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticiancolonialdanish>
+  <depoliticianscoutdanish portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
+  </depoliticianscoutdanish>
+  <depoliticianmarksmandanish portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </depoliticianmarksmandanish>
+  <depoliticiancavalierdanish portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </depoliticiancavalierdanish>
+  <depoliticianroyalistdanish portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_royalist.png">
+  </depoliticianroyalistdanish>
+  <derevolutionwarsaw portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_warsaw.png">
+  </derevolutionwarsaw>
+  <derevolutioncossackhetmanate portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_cossack.png">
+  </derevolutioncossackhetmanate>
+  <derevolutionlivonia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_livonia.png">
+  </derevolutionlivonia>
+  <derevolutionprussia portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_prussia.png">
+  </derevolutionprussia>
+  <derevolutiongermany portraitfilename="" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_german.png">
+  </derevolutiongermany>
   <ypbigconsulatebritish portraitfilename="ui\ingame\politicians\consulate_british" portraitfilenamewpf="resources/images/icons/politicians/consulate_british.png">
   </ypbigconsulatebritish>
   <ypbigconsulateportuguese portraitfilename="ui\ingame\politicians\consulate_portuguese" portraitfilenamewpf="resources/images/icons/politicians/consulate_portuguese.png">

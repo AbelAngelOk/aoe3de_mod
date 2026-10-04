@@ -1,0 +1,7 @@
+<animfile>
+  <definebone>bip01 Prop2</definebone>
+  <definebone>Bip01_AttachRt</definebone>
+  <definebone>bip01 Prop1</definebone>
+  <component>ModelComp<logic type="Tech"><none><assetreference type="GrannyModel"><file>units\imperial_army\imperial_army</file></assetreference></none></logic><decal><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\imperial_army\imperial_army_idle</file></assetreference><component>ModelComp</component></anim>
+</animfile>

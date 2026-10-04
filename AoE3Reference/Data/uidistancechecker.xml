@@ -1,0 +1,15 @@
+<layout>
+  <gadget name="DistanceChecker" type="gadget" size1024="20 80 195 352" background="ui\editor\background\editor_background" bevel="" titlebar="$$56067$$Distance Checker" hidden="" closebutton="" moveable="" closeonesc="">
+    <gadget name="distanceChecker-Origin-Label" type="formatText" size1024="25 110 90 132" textcentervert="" textfont="Arial nodrop" textfontsize="12">$$56068$$Origin:</gadget>
+    <gadget name="distanceChecker-Origin-Text" type="formatText" size1024="95 110 190 132" textcentervert="" textfont="Arial nobold nodrop" textfontsize="12">0, 0, 0</gadget>
+    <gadget name="distanceChecker-Destin-Label" type="formatText" size1024="25 132 90 154" textcentervert="" textfont="Arial nodrop" textfontsize="12">$$56069$$Destination:</gadget>
+    <gadget name="distanceChecker-Destin-Text" type="formatText" size1024="95 132 190 154" textcentervert="" textfont="Arial nobold nodrop" textfontsize="12">0, 0, 0</gadget>
+    <gadget name="distanceChecker-Distance-Label" type="formatText" size1024="25 154 90 176" textcentervert="" textfont="Arial nodrop" textfontsize="12">$$56070$$XZ Distance:</gadget>
+    <gadget name="distanceChecker-Distance-Text" type="formatText" size1024="95 154 190 176" textcentervert="" textfont="Arial nobold nodrop" textfontsize="12">0</gadget>
+    <gadget name="distanceChecker-SetOrigin" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$56072$$Set origin location." size1024="25 184 190 206">$$56071$$Set Origin</gadget>
+    <gadget name="distanceChecker-SetDestin" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$56074$$Set destination location." size1024="25 214 190 236">$$56073$$Set Destination</gadget>
+    <gadget name="distanceChecker-DrawCircle" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$56076$$Draw a circle at origin with distance as the radius." size1024="25 252 190 274">$$56075$$Draw as Circle</gadget>
+    <gadget name="distanceChecker-DrawLine" type="button" bevel="" textfont="Arial nobold nodrop" textfontsize="12" tooltiptext="$$56078$$Draw a line from origin to destination." size1024="25 282 190 304">$$56077$$Draw as Line</gadget>
+    <gadget name="distanceChecker-CloseBtn" type="button" bevel="" textfontsize="12" size1024="25 320 190 342">$$18457$$Close</gadget>
+  </gadget>
+</layout>

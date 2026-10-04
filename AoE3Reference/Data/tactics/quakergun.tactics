@@ -10,11 +10,7 @@
     <boredanim>Falconet_bored</boredanim>
     <maxheight>0</maxheight>
     <accuracy>1.0</accuracy>
-    <aimbonus>0</aimbonus>
-    <maxspread>5</maxspread>
-    <spreadfactor>0.25</spreadfactor>
     <trackrating>12</trackrating>
-    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
     <projectile>Cannonball</projectile>
     <impacteffect>effects\impacts\cannon</impacteffect>
     <rate type="All">1.0</rate>
@@ -42,11 +38,7 @@
     <boredanim>Culverin_bored</boredanim>
     <maxheight>0</maxheight>
     <accuracy>1.0</accuracy>
-    <aimbonus>0</aimbonus>
-    <maxspread>5</maxspread>
-    <spreadfactor>0.25</spreadfactor>
     <trackrating>12</trackrating>
-    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
     <projectile>Cannonball</projectile>
     <impacteffect>effects\impacts\cannon</impacteffect>
     <rate type="All">1.0</rate>
@@ -68,11 +60,7 @@
     <idleanim>Mortar_idle</idleanim>
     <boredanim>Mortar_bored</boredanim>
     <accuracy>1.0</accuracy>
-    <aimbonus>0</aimbonus>
-    <maxspread>5</maxspread>
-    <spreadfactor>0.25</spreadfactor>
     <trackrating>2</trackrating>
-    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
     <projectile>MortarShell</projectile>
     <impacteffect>effects\impacts\mortar</impacteffect>
     <rate type="All">1.0</rate>
@@ -93,11 +81,7 @@
     <boredanim>horseart_bored</boredanim>
     <maxheight>0</maxheight>
     <accuracy>1.0</accuracy>
-    <aimbonus>0</aimbonus>
-    <maxspread>5</maxspread>
-    <spreadfactor>0.25</spreadfactor>
     <trackrating>12</trackrating>
-    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
     <projectile>Cannonball</projectile>
     <impacteffect>effects\impacts\cannon</impacteffect>
     <rate type="All">1.0</rate>
@@ -125,14 +109,8 @@
     <boredanim>Gatling_bored</boredanim>
     <maxheight>0</maxheight>
     <accuracy>1.0</accuracy>
-    <accuracyreductionfactor>0.5</accuracyreductionfactor>
-    <aimbonus>0</aimbonus>
-    <maxspread>5</maxspread>
-    <spreadfactor>0.25</spreadfactor>
     <trackrating>12</trackrating>
-    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
     <projectile>InvisibleProjectile</projectile>
-    <numberprojectiles>1</numberprojectiles>
     <displayednumberprojectiles>7</displayednumberprojectiles>
     <impacteffect>effects\impacts\gun</impacteffect>
     <rate type="All">1.0</rate>
@@ -152,14 +130,8 @@
     <boredanim>Gatling_bored</boredanim>
     <maxheight>0</maxheight>
     <accuracy>1.0</accuracy>
-    <accuracyreductionfactor>0.5</accuracyreductionfactor>
-    <aimbonus>0</aimbonus>
-    <maxspread>5</maxspread>
-    <spreadfactor>0.25</spreadfactor>
     <trackrating>12</trackrating>
-    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
     <projectile>InvisibleProjectile</projectile>
-    <numberprojectiles>1</numberprojectiles>
     <displayednumberprojectiles>6</displayednumberprojectiles>
     <impacteffect>effects\impacts\gun</impacteffect>
     <rate type="All">1.0</rate>
@@ -179,11 +151,7 @@
     <boredanim>Cannon_bored</boredanim>
     <maxheight>0</maxheight>
     <accuracy>1.0</accuracy>
-    <aimbonus>0</aimbonus>
-    <maxspread>5</maxspread>
-    <spreadfactor>0.25</spreadfactor>
     <trackrating>12</trackrating>
-    <unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
     <projectile>Cannonball</projectile>
     <impacteffect>effects\impacts\cannon</impacteffect>
     <rate type="All">1.0</rate>

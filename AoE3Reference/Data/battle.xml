@@ -123,6 +123,8 @@
     <unittype>AbstractInfantry</unittype>
     <unittype>AbstractLightInfantry</unittype>
     <unittype>AbstractHandSiege</unittype>
+    <unittype>deNatHusky</unittype>
+    <unittype>deNatMercHusky</unittype>
     <targetunittype>All</targetunittype>
     <stance>Defensive</stance>
     <formationtype>Line</formationtype>
@@ -164,8 +166,14 @@
     <tactic>Trample</tactic>
     <allowautopick>0</allowautopick>
     <unittype>AbstractHandCavalry</unittype>
+    <unittype>deFinnishRider</unittype>
     <unittype>deNatRoyalDragoon</unittype>
     <unittype>deNatMercRoyalDragoon</unittype>
+    <unittype>CavalryArcher</unittype>
+    <unittype>deSPCHMCavalier</unittype>
+    <unittype>deSPCHMIronside</unittype>
+    <unittype>deSPCHMIrishHorseman</unittype>
+    <unittype>deMercCranequinier</unittype>
     <targetunittype>All</targetunittype>
     <stance>Defensive</stance>
     <formationtype>InvertedPhalanx</formationtype>
@@ -661,5 +669,23 @@
     <availableicon>resources\images\icons\command\tactics_volley_avl.png</availableicon>
     <unavailableicon>resources\images\icons\command\tactics_volley_un_avl.png</unavailableicon>
     <rolloverstringid>31348</rolloverstringid>
+  </squadmode>
+  <squadmode>
+    <name>ShipStealth</name>
+    <tactic>ShipStealth</tactic>
+    <allowautopick>0</allowautopick>
+    <unittype>Military</unittype>
+    <targetunittype>Ship</targetunittype>
+    <stance>Defensive</stance>
+    <formationtype>Line</formationtype>
+    <formationlinelinespacing>0.8</formationlinelinespacing>
+    <formationlinecolumnspacing>0.8</formationlinecolumnspacing>
+    <randomspacingoffset>0.35</randomspacingoffset>
+    <cooldowntime>5000</cooldowntime>
+    <transitiontimein>500</transitiontimein>
+    <activeicon>resources\images\icons\command\tactics_ship_stealth_on.png</activeicon>
+    <availableicon>resources\images\icons\abilities\ability_hide_rowboat_us.png</availableicon>
+    <unavailableicon>resources\images\icons\command\tactics_stealth_lock.png</unavailableicon>
+    <rolloverstringid>46492</rolloverstringid>
   </squadmode>
 </battles>

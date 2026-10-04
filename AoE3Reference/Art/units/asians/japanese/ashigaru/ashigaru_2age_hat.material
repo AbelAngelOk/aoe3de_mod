@@ -1,0 +1,24 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\japanese\ashigaru\textures\ashigaru_2age_hat_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\japanese\ashigaru\textures\ashigaru_2age_hat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\japanese\ashigaru\textures\ashigaru_2age_hat_mata_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\asians\japanese\ashigaru\textures\ashigaru_3age_hat_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\japanese\ashigaru\textures\ashigaru_2age_hat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\japanese\ashigaru\textures\ashigaru_2age_hat_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\japanese\ashigaru\textures\ashigaru_3age_hat_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

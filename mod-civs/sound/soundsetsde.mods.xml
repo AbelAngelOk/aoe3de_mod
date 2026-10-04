@@ -1,0 +1,1020 @@
+<!-- mod-civs: soundsets — dividido de mod-minimal (2026-09-19). Los soundsets MM* compartidos entre mods se renombraron con sufijo "Civs" en mod-civs para no chocar si ambos mods están activos. -->
+<soundsetdefmods>
+<!--
+  mod-minimal: soundsets propios "MM<NombreVanilla>" que apuntan a los MISMOS
+  archivos .wav que ya usan los soundsets vanilla reales (Spanish*/DESwedish*/etc.),
+  registrados bajo un nombre PROPIO del mod.
+
+  Por que existen: se confirmo en juego (Argentina y Finlandia, Colono mudo pese a
+  reiniciar el juego) que agregar una rama nueva a un <civlogic> existente que
+  apunta a un soundset VANILLA POR NOMBRE no funciona: el motor no lo resuelve.
+  El patron que si funciona (confirmado con el Explorador de Hungria) es que la
+  rama apunte a un soundset registrado por el propio mod, aunque sea a los mismos
+  .wav de siempre. Este archivo registra esas versiones "propias" reusando el
+  filename original (sin copiar audio nuevo), para que las ramas de civlogic en
+  los *_snds.mods.xml de Finlandia/Argentina apunten a MM<Nombre> en vez del
+  nombre vanilla directo. Ver aoe3-unit-sounds-snds (memoria).
+-->
+  <soundset name="MMGermanExplorerClaimCivs" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="mm\GermanExplorerClaim.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishSettlerMaleSelect" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishsmselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishsmselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishsmselect3.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\spanishsmselect4.wav" volume="0.7500">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishSettlerMaleAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishsmmove1.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\spanishsmmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishsmmove3.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishsmmove4.wav" volume="0.9500">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishSettlerMaleAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishsmattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishSettlerMaleBuild" volume="0.6000" maxnum="4" distance="1.0000">
+    <sound filename="mm\SpanishSMBuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishSettlerMaleGatherMeat" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\SpanishSMGatherMeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishSettlerMaleGatherWood" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\SpanishSMGatherWood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishSettlerMaleGatherCoin" volume="0.6000" maxnum="4" distance="1.0000">
+    <sound filename="mm\SpanishSMGatherCoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishSettlerMaleFarm" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\SpanishSMFarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishSettlerMaleGatherFruit" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\SpanishSMGatherFruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishExplorerSelect" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishexplorerselect1.wav" volume="0.7500">
+    </sound>
+    <sound filename="mm\spanishexplorerselect2.wav" volume="0.9500">
+    </sound>
+    <sound filename="mm\spanishexplorerselect3.wav" volume="0.9500">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishExplorerAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishexplorermove1.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\spanishexplorermove2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\spanishexplorermove3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishExplorerAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\SpanishExplorerAttack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishExplorerDisabled" volume="0.6000" maxnum="1" distance="1.0000">
+    <sound filename="mm\SpanishExplorerDisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishExplorerRansomed" volume="0.6000" maxnum="1" distance="1.0000">
+    <sound filename="mm\SpanishExplorerRansomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishExplorerRevived" volume="0.4000" maxnum="1" distance="1.0000">
+    <sound filename="mm\SpanishExplorerRevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishExplorerClaim" volume="0.7000" maxnum="1" distance="1.0000">
+    <sound filename="mm\SpanishExplorerClaim.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDelgadoSelect" volume="0.6000" maxnum="4" distance="1.0000">
+    <sound filename="mm\DelgadoSelect1.wav" volume="0.9500">
+    </sound>
+    <sound filename="mm\DelgadoSelect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\DelgadoSelect3.wav" volume="0.9500">
+    </sound>
+  </soundset>
+  <soundset name="MMDelgadoAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\DelgadoMove1.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\DelgadoMove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\DelgadoMove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDelgadoAttack" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\DelgadoAttack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\DelgadoAttack2.wav" volume="0.9500">
+    </sound>
+    <sound filename="mm\DelgadoAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDelgadoDeath" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="mm\DelgadoDeath.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDelgadoRevive" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="mm\DelgadoRevive.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishDragoonSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishdragoonselect1.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\spanishdragoonselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishdragoonselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishDragoonAcknowledge" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishdragoonmove1.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\spanishdragoonmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishdragoonmove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishDragoonAttack" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishdragoonattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishdragoonattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishdragoonattack3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishLightCavalrySelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishlightcavalryselect1.wav" volume="0.7500">
+    </sound>
+    <sound filename="mm\spanishlightcavalryselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishlightcavalryselect3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishLightCavalryAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishlightcavalrymove1.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\spanishlightcavalrymove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishlightcavalrymove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishLightCavalryAttack" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishlightcavalryattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishlightcavalryattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishlightcavalryattack3.wav" volume="0.8500">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishPriestSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishpriestselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishpriestselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishpriestselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishPriestAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishpriestmove1.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\spanishpriestmove2.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\spanishpriestmove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishMusketeerSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishmusketeerselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishmusketeerselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishmusketeerselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishMusketeerAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishmusketeermove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishmusketeermove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishmusketeermove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishMusketeerAttack" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishmusketeerattack1.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\spanishmusketeerattack2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\spanishmusketeerattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishSettlerMaleSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenvmselect1.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\swedenvmselect2.wav" volume="0.9500">
+    </sound>
+    <sound filename="mm\swedenvmselect3.wav" volume="0.8000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishSettlerMaleAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenvmmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenvmmove2.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\swedenvmmove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishSettlerMaleAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenvmattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenvmattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenvmattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishSettlerMaleBuild" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenvmbuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishSettlerMaleGatherMeat" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenvmgathermeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishSettlerMaleGatherWood" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenvmgatherwood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishSettlerMaleGatherCoin" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenvmgathercoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishSettlerMaleFarm" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenvmfarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishSettlerMaleGatherFruit" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenvmgatherfruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishExplorerSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenexplorerselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenexplorerselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenexplorerselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishExplorerAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenexplorermove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenexplorermove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenexplorermove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishExplorerAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenexplorerattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenexplorerattack2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishExplorerDisabled" volume="0.7000" maxnum="1" distance="1.0000">
+    <sound filename="mm\swedenexplorerdisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishExplorerRansomed" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="mm\swedenexplorerransomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishExplorerRevived" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="mm\swedenexplorerrevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSwedishFemplorerSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedishfemplorerselect1.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\swedishfemplorerselect2.wav" volume="0.7500">
+    </sound>
+    <sound filename="mm\swedishfemplorerselect3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMSwedishFemplorerAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedishfemplorermove1.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\swedishfemplorermove2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\swedishfemplorermove3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMSwedishFemplorerAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedishfemplorerattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedishfemplorerattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedishfemplorerattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSwedishFemplorerDisabled" volume="0.6000" maxnum="1" distance="1.0000">
+    <sound filename="mm\swedishfemplorerdisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSwedishFemplorerRansomed" volume="0.8000" maxnum="1" distance="1.0000">
+    <sound filename="mm\swedishfemplorerransomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSwedishFemplorerRevived" volume="0.7000" maxnum="1" distance="1.0000">
+    <sound filename="mm\swedishfemplorerrevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMThorSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ThorSelect1.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\ThorSelect2.wav" volume="0.7500">
+    </sound>
+    <sound filename="mm\ThorSelect3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMThorAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ThorMove1.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\ThorMove2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\ThorMove3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMThorAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ThorAttack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ThorAttack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ThorAttack3.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ThorAttack4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMThorDeath" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ThorDeath1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ThorDeath2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ThorDeath3.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ThorDeath4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- ThorRansomed.wav/ThorRevived.wav no existen en el dump del juego (referencia
+       huerfana en los datos vanilla — probablemente nunca se grabaron, caso de borde
+       raro: solo aplica al skin "Thor" del Explorador sueco al ser rescatado/revivido).
+       Se usa ThorSelect1.wav como respaldo en vez de dejarlo mudo. -->
+  <soundset name="MMThorRansomed" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ThorSelect1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMThorRevived" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ThorSelect1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMThorGrunt" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ThorGrunt1.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\ThorGrunt2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\ThorGrunt3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishHalberdierSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenhalberdierselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenhalberdierselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenhalberdierselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishHalberdierAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenhalberdiermove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenhalberdiermove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenhalberdiermove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDESwedishHalberdierAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\swedenhalberdierattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenhalberdierattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\swedenhalberdierattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishFemplorerSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishfemplorerselect1.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\spanishfemplorerselect2.wav" volume="0.7500">
+    </sound>
+    <sound filename="mm\spanishfemplorerselect3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishFemplorerAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishfemplorermove1.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\spanishfemplorermove2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\spanishfemplorermove3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishFemplorerAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishfemplorerattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishfemplorerattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\spanishfemplorerattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishFemplorerDisabled" volume="0.6000" maxnum="1" distance="1.0000">
+    <sound filename="mm\spanishfemplorerdisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishFemplorerRansomed" volume="0.8000" maxnum="1" distance="1.0000">
+    <sound filename="mm\spanishfemplorerransomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishFemplorerRevived" volume="0.7000" maxnum="1" distance="1.0000">
+    <sound filename="mm\spanishfemplorerrevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEMexicanSalteadorSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\mexicanskirmisherselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\mexicanskirmisherselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\mexicanskirmisherselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEMexicanSalteadorAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\mexicanskirmishermove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\mexicanskirmishermove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\mexicanskirmishermove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEMexicanSalteadorAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\mexicanskirmisherattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\mexicanskirmisherattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\mexicanskirmisherattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Cambio EGY-fix (v6.4): soundsets propios MM<NombreVanilla> reusando los audios reales
+       de Otomanos (Colono/Explorador/Arquero a Caballo/Imam), mismo patron confirmado en
+       aoe3-unit-sounds-snds: nunca apuntar a un nombre vanilla directo desde una rama nueva. -->
+  <soundset name="MMOttomanSettlerMaleSelectCivs" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomansmselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomansmselect2.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\ottomansmselect3.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomansmselect4.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleAcknowledgeCivs" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomansmmove1.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\ottomansmmove2.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\ottomansmmove3.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomansmmove4.wav" volume="0.8000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleAttackCivs" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomansmattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleBuildCivs" volume="0.6000" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMBuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleGatherMeatCivs" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMGatherMeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleGatherWoodCivs" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMGatherWood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleFarmCivs" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMFarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleGatherCoinCivs" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMGatherCoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleGatherFruitCivs" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMGatherFruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerSelectCivs" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomanexplorerselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomanexplorerselect2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\ottomanexplorerselect3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerAcknowledgeCivs" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomanexplorermove1.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\ottomanexplorermove2.wav" volume="0.7500">
+    </sound>
+    <sound filename="mm\ottomanexplorermove3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerAttackCivs" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanExplorerAttack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerClaimCivs" volume="0.7500" maxnum="1" distance="1.0000">
+    <sound filename="mm\OttomanExplorerClaim.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerDisabledCivs" volume="0.6000" maxnum="1" distance="1.0000">
+    <sound filename="mm\OttomanExplorerDisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerRevivedCivs" volume="0.5500" maxnum="1" distance="1.0000">
+    <sound filename="mm\OttomanExplorerRevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerRansomedCivs" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="mm\OttomanExplorerRansomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSahinSelectCivs" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\SahinSelect1.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\SahinSelect2.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\SahinSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSahinGruntCivs" volume="0.6000" maxnum="4" distance="1.0000">
+    <sound filename="mm\SahinGrunt1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\SahinGrunt2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\SahinGrunt3.wav" volume="0.8500">
+    </sound>
+  </soundset>
+  <soundset name="MMSahinAcknowledgeCivs" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\SahinMove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\SahinMove2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\SahinMove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSahinAttackCivs" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\SahinAttack1.wav" volume="0.7500">
+    </sound>
+    <sound filename="mm\SahinAttack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\SahinAttack3.wav" volume="0.9500">
+    </sound>
+  </soundset>
+  <soundset name="MMSahinReviveCivs" volume="0.5000" maxnum="4" distance="1.0000">
+    <sound filename="mm\SahinRevive.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanCavalryArcherSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomancavalryarcherselect1.wav" volume="0.9500">
+    </sound>
+    <sound filename="mm\ottomancavalryarcherselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomancavalryarcherselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanCavalryArcherAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomancavalryarchermove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomancavalryarchermove2.wav" volume="0.9500">
+    </sound>
+    <sound filename="mm\ottomancavalryarchermove3.wav" volume="0.9500">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanCavalryArcherAttack" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomancavalryarcherattack1.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\ottomancavalryarcherattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomancavalryarcherattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanImamSelect" volume="0.5500" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomanimamselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomanimamselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomanimamselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanImamAcknowledge" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomanimammove1.wav" volume="0.9500">
+    </sound>
+    <sound filename="mm\ottomanimammove2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\ottomanimammove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchSettlerMaleSelect" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\dutchsmselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\dutchsmselect2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\dutchsmselect3.wav" volume="0.9500">
+    </sound>
+    <sound filename="mm\dutchsmselect4.wav" volume="0.8500">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchSettlerMaleAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\dutchsmmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\dutchsmmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\dutchsmmove3.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\dutchsmmove4.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchSettlerMaleAttack" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\dutchsmattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchSettlerMaleGatherMeat" volume="0.9500" maxnum="4" distance="1.0000">
+    <sound filename="mm\dutchsmgathermeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchSettlerMaleGatherWood" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="mm\dutchsmgatherwood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchSettlerMaleFarm" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\dutchsmfarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchSettlerMaleGatherCoin" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\dutchsmgathercoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchSettlerMaleGatherFruit" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\dutchsmgatherfruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchExplorerSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\dutchexplorerselect1.wav" volume="0.7500">
+    </sound>
+    <sound filename="mm\dutchexplorerselect2.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\dutchexplorerselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchExplorerAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\dutchexplorermove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\dutchexplorermove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\dutchexplorermove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchExplorerAttack" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\dutchexplorerattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchExplorerDisabled" volume="0.7500" maxnum="1" distance="1.0000">
+    <sound filename="mm\dutchexplorerdisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchExplorerRansomed" volume="0.7000" maxnum="1" distance="1.0000">
+    <sound filename="mm\dutchexplorerransomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchExplorerRevived" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="mm\dutchexplorerrevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDutchExplorerClaim" volume="0.8000" maxnum="1" distance="1.0000">
+    <sound filename="mm\dutchexplorerclaim.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEItalianCulverinSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\italianculverinselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\italianculverinselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\italianculverinselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEItalianCulverinAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\italianculverinmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\italianculverinmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\italianculverinmove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEItalianCulverinAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\italianculverinattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\italianculverinattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\italianculverinattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Rumania (ROURomania): voz de Colono/Explorador reusando los WAV reales rusos
+       (russiansm*/russianexplorer*, extraídos de sound.bar) — Rumania es clon de Rusia. -->
+  <soundset name="MMRussianSettlerMaleSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\russiansmselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\russiansmselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\russiansmselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianSettlerMaleAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\russiansmmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\russiansmmove2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianSettlerMaleAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\russiansmattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianSettlerMaleBuild" volume="0.6000" maxnum="4" distance="1.0000">
+    <sound filename="mm\russiansmbuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianSettlerMaleGatherMeat" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\russiansmgathermeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianSettlerMaleGatherWood" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\russiansmgatherwood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianSettlerMaleGatherCoin" volume="0.6000" maxnum="4" distance="1.0000">
+    <sound filename="mm\russiansmgathercoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianSettlerMaleFarm" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\russiansmfarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianSettlerMaleGatherFruit" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\russiansmgatherfruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianExplorerSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\russianexplorerselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\russianexplorerselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\russianexplorerselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianExplorerAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\russianexplorermove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\russianexplorermove2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianExplorerAttack" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\russianexplorerattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianExplorerClaim" volume="0.8000" maxnum="1" distance="1.0000">
+    <sound filename="mm\russianexplorerclaim.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianExplorerDisabled" volume="0.7500" maxnum="1" distance="1.0000">
+    <sound filename="mm\russianexplorerdisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianExplorerRansomed" volume="0.7000" maxnum="1" distance="1.0000">
+    <sound filename="mm\russianexplorerransomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMRussianExplorerRevived" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="mm\russianexplorerrevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Caballeros Hospitalarios (HOS): voz de Colono (la misma que ya usa DEMaltese real) y
+       de Húsar (la misma que ya usa DEMaltese real, prestada de Hungría). -->
+  <soundset name="MMDEMalteseSettlerMaleSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\maltesevmselect1.wav" volume="0.8000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEMalteseSettlerMaleAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\maltesevmmove1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEMalteseSettlerMaleAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\maltesevmattack1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEMalteseSettlerMaleBuild" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\maltesevmbuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEMalteseSettlerMaleFarm" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\maltesevmfarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEMalteseSettlerMaleGatherCoin" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\maltesevmgathercoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEMalteseSettlerMaleGatherFruit" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\maltesevmgatherfruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEMalteseSettlerMaleGatherMeat" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\maltesevmgathermeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEMalteseSettlerMaleGatherWood" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\maltesevmgatherwood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEHungarianHussarSelect" volume="0.700" maxnum="4" distance="1.0000">
+    <sound filename="mm\HungarianHussarSelect1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEHungarianHussarAcknowledge" volume="0.700" maxnum="4" distance="1.0000">
+    <sound filename="mm\HungarianHussarMove1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMDEHungarianHussarAttack" volume="0.700" maxnum="4" distance="1.0000">
+    <sound filename="mm\HungarianHussarAttack1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Colombia (COL): voz de Guardia Independiente (Musketeer real, rama Spanish) y
+       Guerrillero (Skirmisher real, rama Spanish presta la voz del Dragoon). -->
+  <soundset name="MMSpanishMusketeerSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishmusketeerselect1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishMusketeerAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishmusketeermove1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishMusketeerAttack" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishmusketeerattack1.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishDragoonSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishdragoonselect1.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishDragoonAcknowledge" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishdragoonmove1.wav" volume="0.8500">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishDragoonAttack" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishdragoonattack1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Chile (CHL): voz de Granaderos (Grenadier real, rama Spanish). -->
+  <soundset name="MMSpanishCannonSelect" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishcannonselect1.wav" volume="0.7500">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishCannonAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishcannonmove1.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMSpanishCannonAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\spanishcannonattack1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Francia Napoleónica (FRA): voz de Granaderos (Grenadier real, rama French). -->
+  <soundset name="MMFrenchGrenadierSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\frenchgrenadierselect1.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMFrenchGrenadierAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\frenchgrenadiermove1.wav" volume="0.8500">
+    </sound>
+  </soundset>
+  <soundset name="MMFrenchGrenadierAttack" volume="0.8500" maxnum="4" distance="1.0000">
+    <sound filename="mm\frenchgrenadierattack1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Indias Orientales Neerlandesas (IOR): Colono (rama Portuguese del Settler real). -->
+  <soundset name="MMPortugueseSettlerMaleSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\portuguesesmselect1.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMPortugueseSettlerMaleAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\portuguesesmmove1.wav" volume="0.8500">
+    </sound>
+  </soundset>
+  <soundset name="MMPortugueseSettlerMaleAttack" volume="0.8500" maxnum="4" distance="1.0000">
+    <sound filename="mm\portuguesesmattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMPortugueseSettlerMaleBuild" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\PortugueseSMBuild.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMPortugueseSettlerMaleFarm" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\PortugueseSMFarm.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMPortugueseSettlerMaleGatherCoin" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\PortugueseSMGatherCoin.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMPortugueseSettlerMaleGatherFruit" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\PortugueseSMGatherFruit.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMPortugueseSettlerMaleGatherMeat" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\PortugueseSMGatherMeat.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMPortugueseSettlerMaleGatherWood" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\PortugueseSMGatherWood.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <!-- Indias Orientales Neerlandesas (IOR): Lancero Javanés (deREVJavaSpearman, rama Portuguese). -->
+  <soundset name="MMPortuguesePikemanSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\portuguesepikemanselect1.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMPortuguesePikemanAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\portuguesepikemanmove1.wav" volume="0.8500">
+    </sound>
+  </soundset>
+  <soundset name="MMPortuguesePikemanAttack" volume="0.8500" maxnum="4" distance="1.0000">
+    <sound filename="mm\portuguesepikemanattack1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Indias Orientales Neerlandesas (IOR): Cetbang (deREVCetbang, rama Portuguese). -->
+  <soundset name="MMPortugueseFalconetSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\portuguesefalconetselect1.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMPortugueseFalconetAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\portuguesefalconetmove1.wav" volume="0.8500">
+    </sound>
+  </soundset>
+  <soundset name="MMPortugueseFalconetAttack" volume="0.8500" maxnum="4" distance="1.0000">
+    <sound filename="mm\portuguesefalconetattack1.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Rumania (ROURomania): Granadero (Grenadier real, compartido) reusa la voz del Crabat
+       (CroatianOutlaw*), pedido explícito. Copia MM (croatianmilitary*) porque el Grenadier
+       real YA tiene <civlogic> con muchas civs y una rama nueva apuntando a un soundset
+       vanilla por nombre no suena en juego (ver memoria aoe3-unit-sounds-snds). -->
+  <soundset name="MMCroatianOutlawSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\CroatianMilitarySelect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\CroatianMilitarySelect3.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\CroatianMilitarySelect4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMCroatianOutlawAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\CroatianMilitaryAcknowledge4.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\CroatianMilitaryAcknowledge3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMCroatianOutlawAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\CroatianMilitaryAttack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\CroatianMilitaryAttack3.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\CroatianMilitaryAttack4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+</soundsetdefmods>

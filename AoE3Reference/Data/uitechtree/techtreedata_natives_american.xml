@@ -1,0 +1,292 @@
+<techtree>
+  <group name="Town Center">
+    <label string="45433" icon="resources\images\icons\native_allies\apache.png" banner="ally" row="0" col="1" iconalpha="premultiplied">
+    </label>
+    <tech name="NatXPApacheEndurance" icon="resources\images\icons\techs\native\Endurance.png" banner="improvement" row="1" col="1">
+    </tech>
+    <tech name="NatXPApacheCactus" icon="resources\images\icons\techs\native\CactusUse.png" banner="improvement" row="1" col="6">
+    </tech>
+    <tech name="NatXPApacheRaiding" icon="resources\images\icons\techs\native\Raiders.png" banner="improvement" row="4" col="6">
+    </tech>
+    <tech name="WarriorSocietyApache" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="1">
+    </tech>
+    <tech name="ChampionApache" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="1">
+    </tech>
+    <proto name="NatApacheCavalry" icon="resources\art\units\apache_cavalry_portrait.png" banner="unit" row="2" col="1">
+    </proto>
+    <label string="22876" icon="resources\images\icons\native_allies\carib.png" banner="ally" row="0" col="12" iconalpha="premultiplied">
+    </label>
+    <tech name="NatKasiriBeer" icon="resources\images\icons\techs\native_kasiri_beer\nat_kasiri_beer.png" banner="improvement" row="1" col="12">
+    </tech>
+    <proto name="NatBlowgunWarrior" icon="resources\art\units\natives\blowgun_portrait.png" banner="unit" row="2" col="12">
+    </proto>
+    <tech name="WarriorSocietyCaribs" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="12">
+    </tech>
+    <tech name="ChampionCaribs" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="12">
+    </tech>
+    <tech name="NatBlowgunnerAmbush" icon="resources\images\icons\techs\native_carib_ambush_party\nat_carib_ambush_party.png" banner="improvement" row="0" col="17">
+    </tech>
+    <tech name="NatGarifunaDrums" icon="resources\images\icons\techs\native_garifuna_drums\nat_garifuna_drums.png" banner="improvement" row="1" col="17">
+    </tech>
+    <tech name="NatCeremonialFeast" icon="resources\images\icons\techs\native_ceremonial_feast\nat_ceremonial_feast.png" banner="improvement" row="4" col="17">
+    </tech>
+    <label string="22878" icon="resources\images\icons\native_allies\cherokee.png" banner="ally" row="0" col="23" iconalpha="premultiplied">
+    </label>
+    <tech name="NatSequoyahSyllabary" icon="resources\images\icons\techs\native_sequoyah_syllabary\nat_sequoyah_syllabary.png" banner="improvement" row="1" col="23">
+    </tech>
+    <proto name="NatRifleman" icon="resources\art\units\natives\rifleman_portrait.png" banner="unit" row="2" col="23">
+    </proto>
+    <tech name="WarriorSocietyCherokee" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="23">
+    </tech>
+    <tech name="ChampionCherokee" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="23">
+    </tech>
+    <tech name="NatBasketweaving" icon="resources\images\icons\techs\native_basket_weaving\nat_basket_weaving.png" banner="improvement" row="0" col="28">
+    </tech>
+    <tech name="NatWarDance" icon="resources\images\icons\techs\native_war_dance\nat_war_dance.png" banner="improvement" row="1" col="28">
+    </tech>
+    <label string="43452" icon="resources\images\icons\native_allies\cheyenne.png" banner="ally" row="0" col="34" iconalpha="premultiplied">
+    </label>
+    <tech name="NatXPCheyenneFury" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="1" col="34">
+    </tech>
+    <proto name="NatCheyenneRider" icon="resources\art\units\cheyenne_cav_portrait.png" banner="unit" row="2" col="34">
+    </proto>
+    <tech name="WarriorSocietyCheyenne" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="34">
+    </tech>
+    <tech name="ChampionCheyenne" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="34">
+    </tech>
+    <tech name="NatXPCheyenneHuntingGrounds" icon="resources\images\icons\techs\native_hunting_grounds\nat_hunting_grounds.png" banner="improvement" row="0" col="39">
+    </tech>
+    <tech name="NatXPCheyenneHorseTrading" icon="resources\images\icons\techs\native_horse_trading\nat_horse_trading.png" banner="improvement" row="1" col="39">
+    </tech>
+    <label string="22882" icon="resources\images\icons\native_allies\comanche.png" banner="ally" row="0" col="45" iconalpha="premultiplied">
+    </label>
+    <tech name="NatHorseBreeding" icon="resources\images\icons\techs\native_horse_breeding\nat_horse_breeding.png" banner="improvement" row="1" col="45">
+    </tech>
+    <proto name="NatHorseArcher" icon="resources\art\units\natives\comanche_lancer_portrait.png" banner="unit" row="2" col="45">
+    </proto>
+    <tech name="WarriorSocietyComanche" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="45">
+    </tech>
+    <tech name="ChampionComanche" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="45">
+    </tech>
+    <tech name="NatTradeLanguage" icon="resources\images\icons\techs\native_trade_language\nat_trade_language.png" banner="improvement" row="0" col="50">
+    </tech>
+    <tech name="NatMustangs" icon="resources\images\icons\techs\native_mustangs\nat_mustangs.png" banner="improvement" row="1" col="50">
+    </tech>
+    <label string="22880" icon="resources\images\icons\native_allies\cree.png" banner="ally" row="0" col="56" iconalpha="premultiplied">
+    </label>
+    <tech name="NatTanning" icon="resources\images\icons\techs\native_tanning\nat_tanning.png" banner="improvement" row="1" col="56">
+    </tech>
+    <proto name="NatTracker" icon="resources\art\units\natives\cree_tracker_portrait.png" banner="unit" row="2" col="56">
+    </proto>
+    <tech name="WarriorSocietyCree" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="56">
+    </tech>
+    <tech name="ChampionCree" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="56">
+    </tech>
+    <tech name="NatTextileCraftsmanship" icon="resources\images\icons\techs\native_textile_craftsmanship\nat_textile_craftsmanship.png" banner="improvement" row="0" col="61">
+    </tech>
+    <tech name="NatKinship" icon="resources\images\icons\techs\native_kinship\nat_kinship.png" banner="improvement" row="1" col="61">
+    </tech>
+    <proto name="CoureurCree" icon="resources\art\units\natives\cree_coreur_portrait.png" banner="unit" row="2" col="61">
+    </proto>
+    <label string="43451" icon="resources\images\icons\native_allies\huron.png" banner="ally" row="0" col="67" iconalpha="premultiplied">
+    </label>
+    <tech name="NatXPHuronTradeMonopoly" icon="resources\images\icons\techs\native\trade_dominance.png" banner="improvement" row="1" col="67">
+    </tech>
+    <proto name="NatHuronMantlet" icon="resources\art\units\huron_mantlet_portrait.png" banner="unit" row="2" col="67">
+    </proto>
+    <tech name="WarriorSocietyHuron" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="67">
+    </tech>
+    <tech name="ChampionHuron" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="67">
+    </tech>
+    <tech name="NatXPHuronFishWedding" icon="resources\images\icons\techs\native\Fish_Wedding.png" banner="improvement" row="0" col="72">
+    </tech>
+    <tech name="NatXPHuronSunCeremony" icon="resources\images\icons\techs\native\Sun_Ceremony.png" banner="improvement" row="2" col="72">
+    </tech>
+    <label string="130683" icon="resources\art\buildings\native_settlement\native_inuit_site_portrait.png" banner="ally" row="0" col="78" iconalpha="premultiplied">
+    </label>
+    <tech name="DENatInuitSleds" icon="resources\images\icons\techs\native\inuit\inuit_sleds.png" banner="improvement" row="1" col="78">
+    </tech>
+    <proto name="deNatInuitHunter" icon="resources\art\units\natives\inuit_hunter_portrait.png" banner="unit" row="2" col="78">
+    </proto>
+    <proto name="deNatInuitQamutik" icon="resources\art\units\natives\inuit_qamutik_portrait.png" banner="unit" row="3" col="78">
+    </proto>
+    <tech name="DEWarriorSocietyInuit" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="78">
+    </tech>
+    <tech name="DEChampionInuit" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="78">
+    </tech>
+    <tech name="DENatInuitResourcefulness" icon="resources\images\icons\techs\native\inuit\inuit_resourcefulness.png" banner="improvement" row="0" col="83">
+    </tech>
+    <label string="130669" string2="130670" icon="resources\images\icons\abilities\ability_arctic_acclimation.png" banner="improvement" row="1" col="83" iconalpha="premultiplied">
+    </label>
+    <tech name="DENatInuitQimmiit" icon="resources\images\icons\techs\native\inuit\inuit_qimmiit_icon.png" banner="improvement" row="2" col="83">
+    </tech>
+    <proto name="deNatHusky" icon="resources\art\units\wardogs\husky_portrait.png" banner="unit" row="3" col="83">
+    </proto>
+    <label string="45430" icon="resources\images\icons\native_allies\Klamath.png" banner="ally" row="0" col="89" iconalpha="premultiplied">
+    </label>
+    <tech name="NatXPKlamathStrategy" icon="resources\images\icons\techs\native\Strategy.png" banner="improvement" row="1" col="89">
+    </tech>
+    <proto name="NatKlamathRifleman" icon="resources\art\units\klamath_rifleman_portrait.png" banner="unit" row="2" col="89">
+    </proto>
+    <tech name="WarriorSocietyKlamath" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="89">
+    </tech>
+    <tech name="ChampionKlamath" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="89">
+    </tech>
+    <tech name="NatXPKlamathHuckleberryFeast" icon="resources\images\icons\techs\native\huckleberry_festival.png" banner="improvement" row="0" col="94">
+    </tech>
+    <tech name="NatXPKlamathWorkEthos" icon="resources\images\icons\techs\native\work_ethos.png" banner="improvement" row="1" col="94">
+    </tech>
+    <label string="112080" icon="resources\art\units\spc\lenape_warrior\lenape_warrior_portrait.png" banner="ally" row="0" col="100">
+    </label>
+    <tech name="DESPCNatClans" icon="resources\images\icons\techs\native\lenape\lenape_clans.png" banner="improvement" row="1" col="100">
+    </tech>
+    <proto name="deNatSPCLenapeRifleman" icon="resources\art\units\spc\lenape_warrior\lenape_warrior_portrait.png" banner="unit" row="2" col="100">
+    </proto>
+    <tech name="DEWarriorSocietySPCLenape" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="100">
+    </tech>
+    <tech name="DEChampionSPCLenape" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="100">
+    </tech>
+    <tech name="DESPCNatThreeSisters" icon="resources\images\icons\techs\native\lenape\lenape_three_sisters.png" banner="improvement" row="0" col="105">
+    </tech>
+    <tech name="DESPCNatCeremony" icon="resources\images\icons\techs\native\lenape\lenape_ceremony.png" banner="improvement" row="1" col="105">
+    </tech>
+    <label string="45431" icon="resources\images\icons\native_allies\mapuche.png" banner="ally" row="0" col="111" iconalpha="premultiplied">
+    </label>
+    <tech name="NatXPMapucheTactics" icon="resources\images\icons\techs\native\Tactics.png" banner="improvement" row="1" col="111">
+    </tech>
+    <proto name="NatMapucheClubman" icon="resources\art\units\mapuche_clubman_portrait.png" banner="unit" row="2" col="111">
+    </proto>
+    <proto name="deNatBolasRider" icon="resources\art\units\mapuche_bolas_rider_portrait.png" banner="unit" row="3" col="111">
+    </proto>
+    <tech name="WarriorSocietyMapuche" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="111">
+    </tech>
+    <tech name="ChampionMapuche" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="111">
+    </tech>
+    <tech name="NatXPMapucheTreatyOfQuillin" icon="resources\images\icons\techs\native\treaty_of_quillin.png" banner="improvement" row="0" col="116">
+    </tech>
+    <tech name="NatXPMapucheAdMapu" icon="resources\images\icons\techs\native\ad-Mapu.png" banner="improvement" row="1" col="116">
+    </tech>
+    <label string="22873" icon="resources\images\icons\native_allies\maya.png" banner="ally" row="0" col="122" iconalpha="premultiplied">
+    </label>
+    <tech name="NatCottonArmor" icon="resources\images\icons\techs\native_cotton_armor\nat_cotton_armor.png" banner="improvement" row="1" col="122">
+    </tech>
+    <proto name="deNatHolcanJavelineer" icon="resources\art\units\natives\holcan_spearman_portrait.png" banner="unit" row="2" col="122">
+    </proto>
+    <tech name="WarriorSocietyMaya" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="122">
+    </tech>
+    <tech name="ChampionMaya" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="122">
+    </tech>
+    <proto name="NatMedicineMan" icon="resources\art\units\natives\medicine_man_portrait.png" banner="unit" row="0" col="127">
+    </proto>
+    <tech name="NatCalendar" icon="resources\images\icons\techs\native_calendar\nat_calendar.png" banner="improvement" row="1" col="127">
+    </tech>
+    <tech name="NatMayaPyramids" icon="resources\images\icons\techs\native\maya_pyramids.png" banner="improvement" row="2" col="127">
+    </tech>
+    <proto name="deMayaCastle" icon="resources\art\buildings\spc\aztec_temple\aztec_temple_portrait.png" banner="building" row="3" col="127">
+    </proto>
+    <label string="45432" icon="resources\images\icons\native_allies\navajo.png" banner="ally" row="0" col="133" iconalpha="premultiplied">
+    </label>
+    <tech name="NatXPNavajoWeaving" icon="resources\images\icons\techs\native\weaving.png" banner="improvement" row="1" col="133">
+    </tech>
+    <proto name="NatNavajoRifleman" icon="resources\art\units\navajo_rifleman_portrait.png" banner="unit" row="2" col="133">
+    </proto>
+    <tech name="WarriorSocietyNavajo" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="133">
+    </tech>
+    <tech name="ChampionNavajo" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="133">
+    </tech>
+    <tech name="NatXPNavajoShepherds" icon="resources\images\icons\techs\native\Shepherds.png" banner="improvement" row="0" col="138">
+    </tech>
+    <tech name="NatXPNavajoCraftsmanship" icon="resources\images\icons\techs\native\Craftmanship.png" banner="improvement" row="1" col="138">
+    </tech>
+    <label string="22883" icon="resources\images\icons\native_allies\nootka.png" banner="ally" row="0" col="144" iconalpha="premultiplied">
+    </label>
+    <tech name="NatPotlatch" icon="resources\images\icons\techs\native_potlatch\nat_potlatch.png" banner="improvement" row="1" col="149">
+    </tech>
+    <proto name="NatClubman" icon="resources\art\units\natives\clubman_icon_portrait.png" banner="unit" row="2" col="144">
+    </proto>
+    <tech name="WarriorSocietyNootka" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="3" col="144">
+    </tech>
+    <tech name="ChampionNootka" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="5" col="144">
+    </tech>
+    <tech name="NatBarkClothing" icon="resources\images\icons\techs\native_bark_clothing\nat_bark_clothing.png" banner="improvement" row="0" col="149">
+    </tech>
+    <tech name="NatLoyalClubman" icon="resources\images\icons\techs\native_nootka_warchief\nat_nootka_warchief.png" banner="improvement" row="2" col="149">
+    </tech>
+    <proto name="NatClubmanLoyal" icon="resources\art\units\natives\nootka_warchief_portrait.png" banner="unit" row="3" col="149">
+    </proto>
+    <label string="22874" icon="resources\images\icons\native_allies\inca.png" banner="ally" row="0" col="155" iconalpha="premultiplied">
+    </label>
+    <tech name="NatChasquisMessengers" icon="resources\images\icons\techs\native\quechua\diet.png" banner="improvement" row="1" col="155">
+    </tech>
+    <proto name="NatHuaminca" icon="resources\art\units\natives\humainca_portrait.png" banner="unit" row="2" col="155">
+    </proto>
+    <tech name="WarriorSocietyInca" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="155">
+    </tech>
+    <tech name="ChampionInca" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="155">
+    </tech>
+    <tech name="NatMetalworking" icon="resources\images\icons\techs\native\quechua\metalworking.png" banner="improvement" row="0" col="160">
+    </tech>
+    <tech name="NatRoadbuilding" icon="resources\images\icons\techs\native\quechua\mountaineering.png" banner="improvement" row="1" col="160">
+    </tech>
+    <proto name="NatBolasWarrior" icon="resources\art\units\natives\bola_portrait.png" banner="unit" row="2" col="160">
+    </proto>
+    <label string="130650" icon="resources\art\buildings\native_settlement\native_sami_site_portrait.png" banner="ally" row="0" col="166" iconalpha="premultiplied">
+    </label>
+    <tech name="DENatSamiOfTheSea" icon="resources\images\icons\techs\native\sami\sami_of_the_sea.png" banner="improvement" row="1" col="166">
+    </tech>
+    <proto name="deNatNoaidi" icon="resources\art\units\natives\sami_noaidi_portrait.png" banner="unit" row="0" col="176">
+    </proto>
+    <proto name="deNatSamiReindeerHerd" icon="resources\art\units\animals\deer\sami_reindeer_portrait.png" banner="unit" row="1" col="176">
+    </proto>
+    <tech name="DEWarriorSocietySami" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="166">
+    </tech>
+    <tech name="DEChampionSami" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="166">
+    </tech>
+    <tech name="DENatSamiDuodji" icon="resources\images\icons\techs\native\sami\sami_duodji.png" banner="improvement" row="0" col="171">
+    </tech>
+    <tech name="DENatSamiReindeerHerding" icon="resources\images\icons\techs\native\sami\sami_reindeer_herding.png" banner="improvement" row="1" col="171">
+    </tech>
+    <label string="22877" icon="resources\images\icons\native_allies\seminole.png" banner="ally" row="0" col="182" iconalpha="premultiplied">
+    </label>
+    <tech name="NatSeminoleInvincibles" icon="resources\images\icons\techs\native\seminole_invincibles.png" banner="improvement" row="1" col="182">
+    </tech>
+    <proto name="NatSharktoothBowman" icon="resources\art\units\natives\sharktooth_bow_portrait.png" banner="unit" row="2" col="182">
+    </proto>
+    <tech name="WarriorSocietySeminoles" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="182">
+    </tech>
+    <tech name="ChampionSeminoles" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="182">
+    </tech>
+    <tech name="NatBowyery" icon="resources\images\icons\techs\native_bowyery\nat_bowyery.png" banner="improvement" row="0" col="187">
+    </tech>
+    <tech name="NatGuerillaWars" icon="resources\images\icons\techs\native_guerilla_wars\nat_guerilla_wars.png" banner="improvement" row="1" col="187">
+    </tech>
+    <label string="22875" icon="resources\images\icons\native_allies\tupi.png" banner="ally" row="0" col="193" iconalpha="premultiplied">
+    </label>
+    <tech name="NatPoisonArrowFrogs" icon="resources\images\icons\techs\native_poison_arrow_frogs\nat_poison_arrow_frogs.png" banner="improvement" row="1" col="193">
+    </tech>
+    <proto name="NatBlackwoodArcher" icon="resources\art\units\natives\tupi_archer_portrait.png" banner="unit" row="2" col="193">
+    </proto>
+    <tech name="WarriorSocietyTupi" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="193">
+    </tech>
+    <tech name="ChampionTupi" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="193">
+    </tech>
+    <tech name="NatForestBurning" icon="resources\images\icons\techs\native_forest_burning\nat_forest_burning.png" banner="improvement" row="0" col="198">
+    </tech>
+    <tech name="NatAnimalLore" icon="resources\images\icons\techs\native_animal_lore\nat_animal_lore.png" banner="improvement" row="1" col="198">
+    </tech>
+    <label string="43450" icon="resources\images\icons\native_allies\zapotec.png" banner="ally" row="0" col="204" iconalpha="premultiplied">
+    </label>
+    <tech name="NatXPZapotecCultOfTheDead" icon="resources\images\icons\techs\native\Cult_of_the_Dead.png" banner="improvement" row="1" col="204">
+    </tech>
+    <proto name="NatLightningWarrior" icon="resources\art\units\az_zapotec_lightning_warrior_portrait.png" banner="unit" row="2" col="204">
+    </proto>
+    <tech name="WarriorSocietyZapotec" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="204">
+    </tech>
+    <tech name="ChampionZapotec" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="204">
+    </tech>
+    <tech name="NatXPZapotecCloudPeople" icon="resources\images\icons\techs\native\cloud_people.png" banner="improvement" row="0" col="209">
+    </tech>
+    <tech name="NatXPZapotecFoodOfTheGods" icon="resources\images\icons\techs\native\Food_of_the_gods.png" banner="improvement" row="1" col="209">
+    </tech>
+  </group>
+</techtree>

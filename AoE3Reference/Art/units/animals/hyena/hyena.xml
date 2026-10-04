@@ -1,0 +1,17 @@
+<animfile>
+  <definebone>Bone_rt_foot</definebone>
+  <definebone>Bone_lt_foot</definebone>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\hyena\hyena</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_64x64</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.0</width><height>1.75</height><zoffset>-0.20</zoffset></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\quads\hyena_idlea</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\quads\hyena_boreda</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\quads\hyena_boredb</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\quads\hyena_walka</file><tag type="FootstepLeft" footprinttype="AnimalLeft" footprintbone="BONE_LT_FOOT">0.93</tag><tag type="FootstepRight" footprinttype="AnimalRight" footprintbone="BONE_RT_FOOT">0.13</tag></assetreference><component>ModelComp</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>animation_library\quads\hyena_attacka</file><tag type="Attack">0.60</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\quads\hyena_deatha</file><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.78</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Hyena_Treebent_Hyena_Idle<assetreference type="GrannyAnim"><file>nuggets\hyena_treebent\hyena_treebent_hyena_all</file></assetreference><component>ModelComp</component></anim>
+  <anim>Hyena_Treebent_Hyena_Exit<assetreference type="GrannyAnim"><file>nuggets\hyena_treebent\hyena_treebent_hyena_exit</file></assetreference><component>ModelComp</component></anim>
+  <anim>Hyena_Wagon_HyenaA_Idle<assetreference type="GrannyAnim"><file>nuggets\hyena_wagon\hyena_wagon_hyenaa_all</file></assetreference><component>ModelComp</component></anim>
+  <anim>Hyena_Wagon_HyenaA_Exit<assetreference type="GrannyAnim"><file>nuggets\hyena_wagon\hyena_wagon_hyenaa_exit</file></assetreference><component>ModelComp</component></anim>
+  <anim>Hyena_Wagon_HyenaB_Idle<assetreference type="GrannyAnim"><file>nuggets\hyena_wagon\hyena_wagon_hyenab_all</file></assetreference><component>ModelComp</component></anim>
+  <anim>Hyena_Wagon_HyenaB_Exit<assetreference type="GrannyAnim"><file>nuggets\hyena_wagon\hyena_wagon_hyenab_exit</file></assetreference><component>ModelComp</component></anim>
+  <anim>Nugget_Missionary<assetreference type="GrannyAnim"><file>nuggets\hyena_missionary\hyena_A</file></assetreference><assetreference type="GrannyAnim"><file>nuggets\hyena_missionary\hyena_B</file></assetreference><assetreference type="GrannyAnim"><file>nuggets\hyena_missionary\hyena_C</file></assetreference><assetreference type="GrannyAnim"><file>nuggets\hyena_missionary\hyena_D</file></assetreference><component>ModelComp</component></anim>
+</animfile>

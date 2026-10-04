@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\eggs\monster_ice_cream_truck\textures\moster_ice_cream_truck_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\eggs\monster_ice_cream_truck\textures\moster_ice_cream_truck_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\eggs\monster_ice_cream_truck\textures\moster_ice_cream_truck_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\eggs\monster_ice_cream_truck\textures\moster_ice_cream_truck_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\eggs\monster_ice_cream_truck\textures\moster_ice_cream_truck_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\eggs\monster_ice_cream_truck\textures\moster_ice_cream_truck_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

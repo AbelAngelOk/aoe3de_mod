@@ -1,0 +1,10 @@
+<animfile>
+  <definebone>Bone_rt_foot</definebone>
+  <definebone>Bone_lt_foot</definebone>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\honey_badger_cheat\honey_badger_cheat</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_64x64</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.0</width><height>1.75</height><zoffset>-0.20</zoffset></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\honey_badger_cheat\honey_badger_idle_cheat</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\animals\honey_badger_cheat\honey_badger_boreda_cheat</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\honey_badger_cheat\honey_badger_boredb_cheat</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\animals\honey_badger_cheat\honey_badger_walk_cheat</file></assetreference><component>ModelComp</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>units\animals\honey_badger_cheat\honey_badger_cheat_attack_a</file><tag type="Attack">0.60</tag></assetreference><assetreference type="GrannyAnim"><file>units\animals\honey_badger_cheat\honey_badger_cheat_attack_b</file><tag type="Attack">0.60</tag></assetreference><assetreference type="GrannyAnim"><file>units\animals\honey_badger_cheat\honey_badger_cheat_attack_c</file><tag type="Attack">0.60</tag></assetreference><assetreference type="GrannyAnim"><file>units\animals\honey_badger_cheat\honey_badger_cheat_attack_d</file><tag type="Attack">0.60</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>units\animals\honey_badger_cheat\honey_badger_death_cheat</file><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.78</tag></assetreference><component>ModelComp</component></anim>
+</animfile>

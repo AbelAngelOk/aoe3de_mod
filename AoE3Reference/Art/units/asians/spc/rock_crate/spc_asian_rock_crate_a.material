@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/asians/spc/rock_crate/textures/spc_asian_rock_crate_a_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/asians/spc/rock_crate/textures/spc_asian_rock_crate_a_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units/asians/spc/rock_crate/textures/spc_asian_rock_crate_a_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

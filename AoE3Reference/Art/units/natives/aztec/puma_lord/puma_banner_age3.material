@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\aztec\puma_lord\textures\puma_banner_age3_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\aztec\puma_lord\textures\puma_banner_age3_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\aztec\puma_lord\textures\puma_banner_age3_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\aztec\puma_lord\textures\puma_banner_age3_matA_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\natives\aztec\puma_lord\textures\puma_banner_age4_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\aztec\puma_lord\textures\puma_banner_age3_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\aztec\puma_lord\textures\puma_banner_age4_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\aztec\puma_lord\textures\puma_banner_age4_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -140,6 +140,13 @@
       <context>world</context>
       <command>pause</command>
     </keymapdata>
+    <keymapdata>
+      <name>Advanced Information</name>
+      <displayname>$$212026$$Advanced Information</displayname>
+      <event>control-f9</event>
+      <context>world</context>
+      <command>configToggle(RecordGameAdvancedInfo)</command>
+    </keymapdata>
   </keymapgroup>
   <keymapgroup name="Selection Group Hotkeys" displayname="$$43366$$Selection Group Hotkeys">
     <keymapdata>
@@ -663,6 +670,50 @@
       <event>shift-r</event>
       <context>TycoonPackage</context>
       <command>uiEcoTradeMultipleHotkey(4)</command>
+    </keymapdata>
+  </keymapgroup>
+  <keymapgroup name="Deck Builder Hotkeys" displayname="$$128000$$Deck Builder Hotkeys">
+    <keymapdata>
+      <name>Create Deck</name>
+      <displayname>$$128001$$Create Deck</displayname>
+      <event>control-n</event>
+      <context>deckBuilderScreen</context>
+      <command>uiDeckBuilderCreateDeck</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Delete Deck</name>
+      <displayname>$$128002$$Delete Deck</displayname>
+      <event>delete</event>
+      <context>deckBuilderScreen</context>
+      <command>uiDeckBuilderDeleteDeck</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Delete Deck (No Confirmation)</name>
+      <displayname>$$128003$$Delete Deck (No Confirmation)</displayname>
+      <event>shift-delete</event>
+      <context>deckBuilderScreen</context>
+      <command>uiDeckBuilderDeleteDeck(false)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Rename Deck</name>
+      <displayname>$$128004$$Rename Deck</displayname>
+      <event>control-r</event>
+      <context>deckBuilderScreen</context>
+      <command>uiDeckBuilderRenameDeck</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Save Deck</name>
+      <displayname>$$128005$$Save Deck</displayname>
+      <event>control-s</event>
+      <context>deckBuilderScreen</context>
+      <command>uiDeckBuilderSaveDeck</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Copy Deck</name>
+      <displayname>$$128006$$Copy Deck</displayname>
+      <event>control-c</event>
+      <context>deckBuilderScreen</context>
+      <command>uiDeckBuilderCopyDeck</command>
     </keymapdata>
   </keymapgroup>
 </defaultkeymapy>

@@ -11,6 +11,10 @@
           <soundset name="HungarianCulverinSelect">
           </soundset>
         </choice>
+        <choice name="ITDItaloDutch">
+          <soundset name="MMDEItalianCulverinSelect">
+          </soundset>
+        </choice>
       </civlogic>
     </soundtype>
     <soundtype name="Acknowledge">
@@ -23,6 +27,18 @@
             </choice>
             <choice name="enemy">
               <soundset name="HungarianCulverinAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="ITDItaloDutch">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMDEItalianCulverinAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMDEItalianCulverinAttack">
               </soundset>
             </choice>
           </targetlogic>

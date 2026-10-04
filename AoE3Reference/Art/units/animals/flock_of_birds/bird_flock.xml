@@ -1,0 +1,18 @@
+<animfile>
+  <definebone>Bone_Blackbird_01</definebone>
+  <definebone>Bone_Blackbird_02</definebone>
+  <definebone>Bone_Blackbird_03</definebone>
+  <definebone>Bone_Blackbird_04</definebone>
+  <definebone>Bone_Blackbird_05</definebone>
+  <definebone>Bone_Blackbird_06</definebone>
+  <definebone>Bone_Blackbird_07</definebone>
+  <definebone>Bone_Blackbird_08</definebone>
+  <definebone>Bone_Blackbird_09</definebone>
+  <definebone>Bone_Blackbird_10</definebone>
+  <definebone>Bone_Blackbird_11</definebone>
+  <definebone>Bone_Blackbird_12</definebone>
+  <definebone>Bone_Blackbird_13</definebone>
+  <definebone>Bone_Blackbird_14</definebone>
+  <submodel>Blackbird<attachment>Blackbird<include>units\animals\flock_of_birds\blackbird_flying.xml</include></attachment><component>Flock<logic type="Variation"><data><assetreference type="GrannyModel"><file>units\animals\flock_of_birds\blackbird_flock</file></assetreference><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_01" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_02" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_03" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_04" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_05" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_06" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_07" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_08" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_09" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_10" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_11" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_12" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_13" syncanims="0"></attach><attach a="Blackbird" frombone="MASTER" tobone="Bone_Blackbird_14" syncanims="0"></attach></data><data><assetreference type="GrannyModel"><file>units\animals\flock_of_birds\blackbird_flock</file></assetreference></data><data><assetreference type="GrannyModel"><file>units\animals\flock_of_birds\blackbird_flock</file></assetreference></data></logic></component><anim>Idle<assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\blackbird_flock_idle</file></assetreference><component>Flock</component></anim></submodel>
+  <component>ModelComp<submodelref ref="Blackbird"></submodelref></component>
+</animfile>

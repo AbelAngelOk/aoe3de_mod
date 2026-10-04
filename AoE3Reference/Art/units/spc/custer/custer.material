@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\custer\textures\custer_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\spc\custer\textures\custer_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\spc\custer\textures\custer_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matB">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\custer\textures\custer_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="units\spc\custer\textures\custer_matb_normals">
+      </texture>
+      <texture name="Masks" override="units\spc\custer\textures\custer_matb_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\crossbow\textures\crossbow_1age_crossbow_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\crossbow\textures\crossbow_1age_crossbow_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\crossbow\textures\crossbow_1age_crossbow_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\serow\textures\serow_0_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\animals\serow\textures\serow_0_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\animals\serow\textures\serow_0_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

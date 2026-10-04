@@ -1,0 +1,12 @@
+<animfile>
+  <definebone>bone_center</definebone>
+  <definebone>bone_master</definebone>
+  <definebone>bone_front_wake</definebone>
+  <definebone>bone_front_foam</definebone>
+  <definebone>bone_back_foam</definebone>
+  <attachment>IdleWaterFoam<component>Idlefoam<assetreference type="popcornFx"><file>water_effects\idle_waterFoam_large.pkfx</file></assetreference></component><anim>None<component>Idlefoam</component></anim></attachment>
+  <attachment>MoveWaterFoam<component>Movefoam<assetreference type="popcornFx"><file>water_effects\move_waterFoam_large.pkfx</file></assetreference></component><anim>None<component>Movefoam</component></anim></attachment>
+  <component>trade_boat_03<logic type="Variation"><none><assetreference type="GrannyModel"><file>units\trade\trade_boats\trade_boat_03</file><materialvariant index="1"></materialvariant></assetreference></none><var1><assetreference type="GrannyModel"><file>units\trade\trade_boats\trade_boat_03</file><materialvariant index="2"></materialvariant></assetreference></var1><var2><assetreference type="GrannyModel"><file>units\trade\trade_boats\trade_boat_03</file><materialvariant index="3"></materialvariant></assetreference></var2><var3><assetreference type="GrannyModel"><file>units\trade\trade_boats\trade_boat_03</file><materialvariant index="4"></materialvariant></assetreference></var3><var4><assetreference type="GrannyModel"><file>units\trade\trade_boats\trade_boat_03</file><materialvariant index="5"></materialvariant></assetreference></var4></logic></component>
+  <anim>Idle<component>trade_boat_03</component><attach a="IdleWaterFoam" frombone="ATTACHPOINT" tobone="bone_front_wake" syncanims="0"></attach></anim>
+  <anim>Walk<component>trade_boat_03</component><attach a="MoveWaterFoam" frombone="ATTACHPOINT" tobone="bone_front_wake" syncanims="0"></attach><attach a="MoveWaterFoam" frombone="ATTACHPOINT" tobone="bone_back_foam" syncanims="0"></attach></anim>
+</animfile>

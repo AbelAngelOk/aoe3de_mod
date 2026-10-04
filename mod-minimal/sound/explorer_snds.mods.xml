@@ -99,6 +99,10 @@
             </choice>
           </skinlogic>
         </choice>
+        <choice name="ROURomania">
+          <soundset name="MMRussianExplorerSelect">
+          </soundset>
+        </choice>
       </civlogic>
     </soundtype>
     <soundtype name="Acknowledge">
@@ -295,6 +299,18 @@
             </choice>
           </skinlogic>
         </choice>
+        <choice name="ROURomania">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMRussianExplorerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMRussianExplorerAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
       </civlogic>
     </soundtype>
     <soundtype name="Claim">
@@ -325,6 +341,10 @@
         </choice>
         <choice name="ITDItaloDutch">
           <soundset name="MMDutchExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="ROURomania">
+          <soundset name="MMRussianExplorerClaim">
           </soundset>
         </choice>
       </civlogic>
@@ -411,6 +431,10 @@
             </choice>
           </skinlogic>
         </choice>
+        <choice name="ROURomania">
+          <soundset name="MMRussianExplorerDisabled">
+          </soundset>
+        </choice>
       </civlogic>
     </soundtype>
     <soundtype name="Ransomed">
@@ -495,6 +519,10 @@
             </choice>
           </skinlogic>
         </choice>
+        <choice name="ROURomania">
+          <soundset name="MMRussianExplorerRansomed">
+          </soundset>
+        </choice>
       </civlogic>
     </soundtype>
     <soundtype name="KnockOutRevived">
@@ -578,6 +606,10 @@
               </soundset>
             </choice>
           </skinlogic>
+        </choice>
+        <choice name="ROURomania">
+          <soundset name="MMRussianExplorerRevived">
+          </soundset>
         </choice>
       </civlogic>
     </soundtype>

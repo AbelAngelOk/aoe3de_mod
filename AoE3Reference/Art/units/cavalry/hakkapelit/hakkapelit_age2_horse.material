@@ -1,0 +1,32 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\hakkapelit\textures\hakkapelit_age2_horse_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\hakkapelit\textures\hakkapelit_age2_horse_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\hakkapelit\textures\hakkapelit_age2_horse_mata_masks">
+      </texture>
+      <texture name="Details" override="units\cavalry\hakkapelit\textures\hakkapelit_age2_horse_mata_details">
+      </texture>
+      <float name="AO Intensity" override="0.0000">
+      </float>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\hakkapelit\textures\hakkapelit_age2_horse_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\hakkapelit\textures\hakkapelit_age2_horse_matb_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\hakkapelit\textures\hakkapelit_age2_horse_matb_masks">
+      </texture>
+      <texture name="Details" override="units\cavalry\hakkapelit\textures\hakkapelit_age2_horse_matb_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

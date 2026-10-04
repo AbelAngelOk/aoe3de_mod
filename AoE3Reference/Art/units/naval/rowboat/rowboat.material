@@ -1,0 +1,48 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\rowboat\textures\rowboat_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\rowboat\textures\rowboat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\rowboat\textures\rowboat_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\rowboat\textures\rowboat_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_02_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\rowboat\textures\rowboat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\rowboat\textures\rowboat_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\rowboat\textures\rowboat_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\rowboat\textures\rowboat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\rowboat\textures\rowboat_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\rowboat\textures\rowboat_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\naval\rowboat\textures\rowboat_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\rowboat\textures\rowboat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\rowboat\textures\rowboat_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\rowboat\textures\rowboat_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

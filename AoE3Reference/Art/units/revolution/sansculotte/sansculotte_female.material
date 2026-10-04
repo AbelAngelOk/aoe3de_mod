@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/revolution/sansculotte/textures/sansculotte_female_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/revolution/sansculotte/textures/sansculotte_female_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units/revolution/sansculotte/textures/sansculotte_female_matA_Masks">
+      </texture>
+      <texture name="Details" override="units/revolution/sansculotte/textures/sansculotte_female_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

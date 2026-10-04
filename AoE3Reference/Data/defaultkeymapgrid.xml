@@ -5,7 +5,7 @@
       <displayname>$$71097$$Show Game Menu</displayname>
       <event>esc</event>
       <context>game</context>
-      <command>showGameMenu()</command>
+      <command>showGameMenu(true)</command>
     </keymapdata>
     <keymapdata>
       <name>Hide Game Menu</name>
@@ -153,13 +153,13 @@
       <name>Resign</name>
       <displayname>$$18444$$Resign</displayname>
       <context>game</context>
-      <command>gadgetReal("ConfirmResignSinglePlayer")</command>
+      <command>uiConfirmResign()</command>
     </keymapdata>
     <keymapdata>
       <name>Quit Game</name>
       <displayname>$$42323$$Quit</displayname>
       <context>game</context>
-      <command>gadgetReal("ConfirmQuit")</command>
+      <command>uiConfirmQuit()</command>
     </keymapdata>
     <keymapdata>
       <name>Toggle Objectives Dialog</name>
@@ -626,7 +626,7 @@
       <displayname>$$90108$$Find House, Longhouse, Teepee, Shrine or Village</displayname>
       <event>control-q</event>
       <context>game</context>
-      <command>uiFindType("House") uiFindType("HouseEast") uiFindType("HouseMed") uiFindType("HouseAztec")  uiFindType("Manor") uiFindType("Longhouse")  uiFindType("ypHouseIndian") uiFindType("ypShrineJapanese") uiFindType("deHouseInca") uiFindType("Teepee") uiFindType("deTorp") uiFindType("deTorpGeneric") uiFindType("deHouseAfrican")</command>
+      <command>uiFindType("House") uiFindType("HouseEast") uiFindType("HouseMed") uiFindType("HouseAztec")  uiFindType("Manor") uiFindType("Longhouse")  uiFindType("ypHouseIndian") uiFindType("ypShrineJapanese") uiFindType("deHouseInca") uiFindType("Teepee") uiFindType("deTorp") uiFindType("deTorpGeneric") uiFindType("deHouseAfrican") uiFindType("deHouseDanish")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Market</name>
@@ -640,7 +640,7 @@
       <displayname>$$90109$$Find Mill, Farm or Rice Paddy</displayname>
       <event>control-e</event>
       <context>game</context>
-      <command>uiFindType("Mill") uiFindType("Farm") uiFindType("ypRicePaddy")  uiFindType("deField")  uiFindType("deHacienda")</command>
+      <command>uiFindType("Mill") uiFindType("Farm") uiFindType("ypRicePaddy")  uiFindType("deField") uiFindType("deHacienda") uiFindType("AbstractFolwark")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Granary</name>
@@ -679,7 +679,7 @@
       <displayname>$$90110$$Find Church, Mosque, Community Plaza or Monastery</displayname>
       <event>control-y</event>
       <context>game</context>
-      <command>uiFindAnyOfTypes("Church, ypMonastery, ypChurch, CommunityPlaza, deMountainMonastery, deUniversity, deCathedral, deBasilica")</command>
+      <command>uiFindAnyOfTypes("Church, ypMonastery, ypChurch, CommunityPlaza, deMountainMonastery, deUniversity, deCathedral, deBasilica, deChurchDanish, deChurchPolish")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Barracks/Blockhouse/War hut/War academy</name>
@@ -693,7 +693,7 @@
       <displayname>$$90112$$Find Town Center or Capitol</displayname>
       <event>control-s</event>
       <context>game</context>
-      <command>uiFindAnyOfTypes("Capitol, TownCenter, deStateCapitol, deSPCCommandPost")</command>
+      <command>uiFindAnyOfTypes("Capitol, TownCenter, deStateCapitol, deSPCCommandPost, deSejm")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Stable/Nobles Hut/Corral/Caravanserai</name>
@@ -735,7 +735,7 @@
       <displayname>$$68820$$Find Livestock Pen or Sacred Field</displayname>
       <event>control-z</event>
       <context>game</context>
-      <command>uiFindType("LivestockPen") uiFindType("ypSacredField") uiFindType("ypVillage")</command>
+      <command>uiFindType("LivestockPen") uiFindType("ypSacredField") uiFindType("ypVillage") uiFindType("deFolwarkLivestock")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Arsenal</name>
@@ -768,7 +768,7 @@
       <name>Find Bank</name>
       <displayname>$$20856$$Find Bank</displayname>
       <context>game</context>
-      <command>uiFindType("Bank") uiFindType("deLombard")</command>
+      <command>uiFindType("Bank") uiFindType("deLombard") uiFindType("deCustomsHouse")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Field Hospital</name>
@@ -781,7 +781,7 @@
       <displayname>$$26089$$Find Factory</displayname>
       <event>control-b</event>
       <context>game</context>
-      <command>uiFindType("Factory")</command>
+      <command>uiFindAnyOfTypes("Factory, deSejm")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Dojo</name>

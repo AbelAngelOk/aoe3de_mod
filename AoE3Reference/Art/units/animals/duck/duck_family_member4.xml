@@ -1,0 +1,4 @@
+<animfile>
+  <component>ModelComp<logic type="Variation"><data><assetreference type="GrannyModel"><file>units\animals\duck\duck</file></assetreference></data><data><assetreference type="GrannyModel"><file>units\animals\duck\duck_mallard</file></assetreference></data></logic><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.50</width><height>2.00</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\duck\duck_idleB</file></assetreference><component>ModelComp</component></anim>
+</animfile>

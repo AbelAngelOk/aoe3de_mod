@@ -1,0 +1,38 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\chayton\textures\horse_chayton_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\spc\chayton\textures\horse_chayton_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\spc\chayton\textures\horse_chayton_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\chayton\textures\horse_chayton_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\spc\chayton\textures\horse_chayton_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\spc\chayton\textures\horse_chayton_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\chayton\textures\horse_chayton_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\spc\chayton\textures\horse_chayton_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\spc\chayton\textures\horse_chayton_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

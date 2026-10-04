@@ -4,6 +4,7 @@
     <tech>SaloonTechPirate</tech>
     <forcetech>DEEnableTradeRouteNativeAmerican</forcetech>
     <forcetech>deMapAmerican</forcetech>
+    <forcetech>bpRegicideMesoSouthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -22,6 +23,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -42,6 +46,7 @@
     <tech>SaloonTechOutlawRifleman</tech>
     <forcetech>DEEnableTradeRouteNativeAmerican</forcetech>
     <forcetech>deMapAmerican</forcetech>
+    <forcetech>bpRegicideMesoSouthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -60,6 +65,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -80,6 +88,7 @@
     <tech>SaloonTechOutlawRider</tech>
     <forcetech>DEEnableTradeRouteNativeAmerican</forcetech>
     <forcetech>deMapAmerican</forcetech>
+    <forcetech>bpRegicideMesoSouthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -98,6 +107,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -134,6 +146,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -152,6 +167,8 @@
   <map name="borneo">
     <forcetech>ypMapIndian</forcetech>
     <forcetech>ypEnableAsianNativeOutpost</forcetech>
+    <forcetech>bpRegicideChineseMap</forcetech>
+    <forcetech>DESaloonDhow</forcetech>
     <tech>ypSaloonWokouPirate</tech>
     <tech>ypSaloonDacoit</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -172,6 +189,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -190,6 +210,7 @@
   <map name="california">
     <tech>SaloonTechOutlawRifleman</tech>
     <tech>SaloonTechOutlawRider</tech>
+    <forcetech>bpRegicideNorthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -208,6 +229,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -243,6 +267,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -279,6 +306,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -297,6 +327,8 @@
   <map name="ceylon">
     <forcetech>ypMapIndian</forcetech>
     <forcetech>ypEnableAsianNativeOutpost</forcetech>
+    <forcetech>bpRegicideIndoAfricanMap</forcetech>
+    <forcetech>DESaloonDhow</forcetech>
     <tech>ypSaloonDacoit</tech>
     <tech>ypSaloonThuggee</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -317,6 +349,9 @@
     <randomtech>ypSaloonArsonist</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -336,6 +371,7 @@
     <forcetech>ypMapIndian</forcetech>
     <forcetech>deMapEnableGroveBuilding</forcetech>
     <forcetech>ypEnableAsianNativeOutpost</forcetech>
+    <forcetech>bpRegicideIndoAfricanMap</forcetech>
     <tech>ypSaloonDacoit</tech>
     <tech>ypSaloonThuggee</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -356,6 +392,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -374,6 +413,7 @@
   <map name="greatLakes">
     <tech>SaloonTechOutlawRifleman</tech>
     <tech>SaloonTechOutlawRider</tech>
+    <forcetech>bpRegicideNorthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -392,6 +432,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -410,6 +453,7 @@
   <map name="greatPlains">
     <tech>SaloonTechOutlawRifleman</tech>
     <tech>SaloonTechOutlawRider</tech>
+    <forcetech>bpRegicideNorthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -428,6 +472,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -446,6 +493,7 @@
   <map name="himalayas">
     <forcetech>ypMapIndian</forcetech>
     <forcetech>ypEnableAsianNativeOutpost</forcetech>
+    <forcetech>bpRegicideChineseMap</forcetech>
     <tech>ypSaloonWanderingHorseman</tech>
     <tech>ypSaloonDacoit</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -466,6 +514,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -503,6 +554,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -521,6 +575,7 @@
   <map name="japan">
     <forcetech>ypEnableAsianNativeOutpost</forcetech>
     <forcetech>ypMapFarEast</forcetech>
+    <forcetech>bpRegicideJapaneseMap</forcetech>
     <tech>ypSaloonWanderingHorseman</tech>
     <tech>ypSaloonWaywardRonin</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -541,6 +596,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -559,6 +617,7 @@
   <map name="mongolia">
     <forcetech>ypMapFarEast</forcetech>
     <forcetech>ypEnableAsianNativeOutpost</forcetech>
+    <forcetech>bpRegicideChineseMap</forcetech>
     <tech>ypSaloonWanderingHorseman</tech>
     <tech>ypSaloonBlindMonk</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -579,6 +638,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -615,6 +677,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -651,6 +716,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -669,6 +737,7 @@
   <map name="paintedDesert">
     <tech>SaloonTechOutlawRifleman</tech>
     <tech>SaloonTechOutlawRider</tech>
+    <forcetech>bpRegicideNorthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -687,6 +756,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -707,6 +779,7 @@
     <tech>SaloonTechOutlawRider</tech>
     <forcetech>DEEnableTradeRouteNativeAmerican</forcetech>
     <forcetech>deMapAmerican</forcetech>
+    <forcetech>bpRegicideMesoSouthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -725,6 +798,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -745,6 +821,7 @@
     <tech>SaloonTechOutlawRider</tech>
     <forcetech>DEEnableTradeRouteNativeAmerican</forcetech>
     <forcetech>deMapAmerican</forcetech>
+    <forcetech>bpRegicideMesoSouthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -763,6 +840,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -781,6 +861,7 @@
   <map name="rockies">
     <tech>SaloonTechOutlawPistol</tech>
     <tech>SaloonTechOutlawRifleman</tech>
+    <forcetech>bpRegicideNorthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -799,6 +880,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -835,6 +919,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -887,6 +974,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -926,6 +1016,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -965,6 +1058,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1004,6 +1100,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1022,6 +1121,7 @@
   <map name="sonora">
     <tech>SaloonTechOutlawPistol</tech>
     <tech>SaloonTechOutlawRider</tech>
+    <forcetech>bpRegicideNorthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1040,6 +1140,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1059,6 +1162,7 @@
     <forcetech>ypMapFarEast</forcetech>
     <forcetech>ypEnableAsianNativeOutpost</forcetech>
     <forcetech>DEMapAddTownCenterGeneral</forcetech>
+    <forcetech>bpRegicideChineseMap</forcetech>
     <tech>ypSaloonWanderingHorseman</tech>
     <tech>DESaloonCossackFootman</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -1079,6 +1183,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1098,6 +1205,7 @@
     <forcetech>ypMapFarEast</forcetech>
     <forcetech>ypEnableAsianNativeOutpost</forcetech>
     <forcetech>DEMapAddTownCenterGeneral</forcetech>
+    <forcetech>bpRegicideChineseMap</forcetech>
     <tech>ypSaloonWanderingHorseman</tech>
     <tech>DESaloonCossackFootman</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -1118,6 +1226,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1136,6 +1247,7 @@
   <map name="texas">
     <tech>SaloonTechOutlawRifleman</tech>
     <tech>SaloonTechOutlawRider</tech>
+    <forcetech>bpRegicideNorthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1154,6 +1266,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1172,6 +1287,7 @@
   <map name="yellowRiver">
     <forcetech>ypMapFarEast</forcetech>
     <forcetech>ypEnableAsianNativeOutpost</forcetech>
+    <forcetech>bpRegicideChineseMap</forcetech>
     <tech>ypSaloonWanderingHorseman</tech>
     <tech>ypSaloonBlindMonk</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -1192,6 +1308,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1212,6 +1331,7 @@
     <tech>SaloonTechPirate</tech>
     <forcetech>DEEnableTradeRouteNativeAmerican</forcetech>
     <forcetech>deMapAmerican</forcetech>
+    <forcetech>bpRegicideMesoSouthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1230,6 +1350,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1266,6 +1389,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1285,6 +1411,7 @@
     <forcetech>ypMapIndian</forcetech>
     <forcetech>deMapSufiNativeVoice</forcetech>
     <forcetech>ypEnableAsianNativeOutpost</forcetech>
+    <forcetech>bpRegicideIndoAfricanMap</forcetech>
     <tech>ypSaloonDacoit</tech>
     <tech>ypSaloonThuggee</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -1305,6 +1432,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1324,6 +1454,7 @@
     <forcetech>ypMapIndian</forcetech>
     <forcetech>deMapEnableGroveBuilding</forcetech>
     <forcetech>ypEnableAsianNativeOutpost</forcetech>
+    <forcetech>bpRegicideIndoAfricanMap</forcetech>
     <tech>ypSaloonDacoit</tech>
     <tech>ypSaloonThuggee</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -1344,6 +1475,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1381,6 +1515,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1400,6 +1537,7 @@
     <tech>SaloonTechOutlawPistol</tech>
     <tech>SaloonTechOutlawRifleman</tech>
     <forcetech>DEEnableTradeRouteUpgradeAll</forcetech>
+    <forcetech>bpRegicideNorthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1418,6 +1556,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1470,6 +1611,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1491,6 +1635,7 @@
     <forcetech>DEEnableTradeRouteNativeAmerican</forcetech>
     <forcetech>deMapAmerican</forcetech>
     <forcetech>deMapDisableDock</forcetech>
+    <forcetech>bpRegicideMesoSouthAmericanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1509,6 +1654,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1525,9 +1673,10 @@
     <randomtech>deSaloonBosniak</randomtech>
   </map>
   <map name="arcticterritories">
-    <tech>SaloonTechOutlawPistol</tech>
-    <tech>SaloonTechOutlawRider</tech>
-    <forcetech>deMapDisableDock</forcetech>
+    <forcetech>DEEnableTradeRouteArctic</forcetech>
+    <forcetech>deMapArctic</forcetech>
+    <forcetech>bpMapAmericanStuart</forcetech>
+    <forcetech>bpRegicideArcticMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1546,6 +1695,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1566,6 +1718,7 @@
     <tech>DESaloonTechOutlawDesertArcher</tech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1584,6 +1737,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1604,6 +1760,7 @@
     <tech>DESaloonTechOutlawCorsairMarksman</tech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideNorthAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1622,6 +1779,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1642,6 +1802,7 @@
     <tech>DESaloonTechOutlawDesertArcher</tech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1660,6 +1821,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1681,6 +1845,7 @@
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
     <forcetech>deMapSufiNativeVoice</forcetech>
+    <forcetech>bpRegicideNorthAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1699,6 +1864,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1719,6 +1887,7 @@
     <tech>DESaloonTechOutlawDesertRaider</tech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideNorthAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1737,6 +1906,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1757,6 +1929,8 @@
     <tech>DESaloonTechOutlawDesertArcher</tech>
     <forcetech>DEEnableTradeRouteWater</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
+    <forcetech>DESaloonXebec</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1775,6 +1949,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1796,6 +1973,7 @@
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
     <forcetech>deLandlockedMapAfrican</forcetech>
+    <forcetech>bpRegicideEastAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1814,6 +1992,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1835,6 +2016,8 @@
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
     <forcetech>deLandlockedMapAfrican</forcetech>
+    <forcetech>bpRegicideEastAfricanMap</forcetech>
+    <forcetech>DESaloonDhow</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1853,6 +2036,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1877,6 +2063,7 @@
     <forcetech>deMapSufiNativeVoice</forcetech>
     <forcetech>deMapAfricanCoast</forcetech>
     <forcetech>deCatamaranAfrican</forcetech>
+    <forcetech>bpRegicideEastAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1895,6 +2082,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1916,6 +2106,8 @@
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>DEEnableTradeRouteWater</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
+    <forcetech>DESaloonXebec</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1934,6 +2126,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1954,6 +2149,7 @@
     <tech>DESaloonTechOutlawDesertArcher</tech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideEastAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -1972,6 +2168,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -1994,6 +2193,7 @@
     <forcetech>deMapAfrican</forcetech>
     <forcetech>deLandlockedMapAfrican</forcetech>
     <forcetech>deMapSufiNativeVoice</forcetech>
+    <forcetech>bpRegicideEastAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2012,6 +2212,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2034,6 +2237,8 @@
     <forcetech>DEEnableTradeRouteWater</forcetech>
     <forcetech>DEMapFasterTradeUnit</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
+    <forcetech>DESaloonXebec</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2052,6 +2257,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2073,6 +2281,7 @@
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>DEMapExtraTCShadow</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2091,6 +2300,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2113,6 +2325,7 @@
     <forcetech>deMapAfrican</forcetech>
     <forcetech>deLandlockedMapAfrican</forcetech>
     <forcetech>deMapSufiNativeVoice</forcetech>
+    <forcetech>bpRegicideNorthAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2131,6 +2344,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2152,6 +2368,8 @@
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>DEEnableTradeRouteWater</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
+    <forcetech>DESaloonXebec</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2170,6 +2388,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2191,6 +2412,7 @@
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>DEEnableTradeRouteWater</forcetech>
     <forcetech>DEMapAddTownCenterGeneral</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <randomnumtouse>4</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2209,10 +2431,6 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
-    <randomtech>ypSaloonJat</randomtech>
-    <randomtech>ypSaloonIronTroop</randomtech>
-    <randomtech>ypSaloonYojimbo</randomtech>
-    <randomtech>MercHackapell</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2227,12 +2445,16 @@
     <randomtech>deSaloonBrigadier</randomtech>
     <randomtech>deSaloonMountedRifleman</randomtech>
     <randomtech>deSaloonBosniak</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
   </map>
   <map name="sahel">
     <tech>DESaloonTechOutlawDesertWarrior</tech>
     <tech>DESaloonTechOutlawDesertArcher</tech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2251,6 +2473,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2272,6 +2497,7 @@
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>DEMapFasterTradeUnit</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2290,6 +2516,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2310,6 +2539,7 @@
     <tech>DESaloonTechOutlawDesertArcher</tech>
     <forcetech>DEEnableTradeRouteAfricanScenario</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideEastAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2328,6 +2558,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2349,6 +2582,7 @@
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
     <forcetech>deMapSufiNativeVoice</forcetech>
+    <forcetech>bpRegicideNorthAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2367,6 +2601,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2387,6 +2624,8 @@
     <tech>DESaloonTechOutlawDesertArcher</tech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideEastAfricanMap</forcetech>
+    <forcetech>DESaloonDhow</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2405,6 +2644,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2429,6 +2671,7 @@
     <forcetech>deMapSufiNativeVoice</forcetech>
     <forcetech>deMapAfricanCoast</forcetech>
     <forcetech>deCatamaranAfrican</forcetech>
+    <forcetech>bpRegicideEastAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2447,6 +2690,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2467,6 +2713,7 @@
     <tech>DESaloonTechOutlawDesertArcher</tech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideNorthAfricanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2485,6 +2732,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2504,6 +2754,7 @@
     <forcetech>deTradeRouteCaptureableAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <tech>DESaloonTechOutlawDesertWarrior</tech>
     <tech>DESaloonTechOutlawDesertRaider</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -2524,6 +2775,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2543,6 +2797,7 @@
     <forcetech>deTradeRouteCaptureableAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <tech>DESaloonTechOutlawDesertRaider</tech>
     <tech>DESaloonTechOutlawDesertArcher</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -2563,6 +2818,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2582,6 +2840,7 @@
     <forcetech>deTradeRouteCaptureableAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <tech>DESaloonTechOutlawDesertRaider</tech>
     <tech>DESaloonTechOutlawCorsairMarksman</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -2602,6 +2861,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2622,6 +2884,8 @@
     <tech>DESaloonTechOutlawCorsairMarksman</tech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>deMapAfrican</forcetech>
+    <forcetech>bpRegicideNorthAfricanMap</forcetech>
+    <forcetech>DESaloonXebec</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2640,6 +2904,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2660,6 +2927,7 @@
     <forcetech>deMapAfrican</forcetech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>DEMapAddTownCenterGeneral</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <tech>DESaloonTechOutlawDesertWarrior</tech>
     <tech>DESaloonTechOutlawDesertRaider</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -2680,6 +2948,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2700,6 +2971,7 @@
     <forcetech>deMapAfrican</forcetech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>DEMapAddTownCenterGeneral</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <tech>DESaloonTechOutlawDesertRaider</tech>
     <tech>DESaloonTechOutlawDesertArcher</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -2720,6 +2992,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2740,6 +3015,7 @@
     <forcetech>deMapAfrican</forcetech>
     <forcetech>DEEnableTradeRouteAfrican</forcetech>
     <forcetech>DEMapAddTownCenterGeneral</forcetech>
+    <forcetech>bpRegicideWestAfricanMap</forcetech>
     <tech>DESaloonTechOutlawDesertRaider</tech>
     <tech>DESaloonTechOutlawCorsairMarksman</tech>
     <randomnumtouse>3</randomnumtouse>
@@ -2760,6 +3036,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2778,6 +3057,7 @@
   <map name="euroLandTradeRoute">
     <forcetech>deMapEuropean</forcetech>
     <forcetech>DEEnableTradeRouteEuropean</forcetech>
+    <forcetech>bpRegicideEuropeanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2796,6 +3076,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2814,6 +3097,7 @@
   <map name="euroRiverTradeRoute">
     <forcetech>deMapEuropean</forcetech>
     <forcetech>DEEnableTradeRouteEuropeanRiver</forcetech>
+    <forcetech>bpRegicideEuropeanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2832,6 +3116,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2850,6 +3137,7 @@
   <map name="euroNavalTradeRoute">
     <forcetech>deMapEuropean</forcetech>
     <forcetech>DEEnableTradeRouteEuropeanWater</forcetech>
+    <forcetech>bpRegicideEuropeanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2868,6 +3156,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2887,6 +3178,7 @@
     <forcetech>deMapEuropean</forcetech>
     <forcetech>DEEnableTradeRouteEuropean</forcetech>
     <forcetech>DEEnableTradeRouteEuropeanRiver</forcetech>
+    <forcetech>bpRegicideEuropeanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2905,6 +3197,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2924,6 +3219,7 @@
     <forcetech>deMapEuropean</forcetech>
     <forcetech>DEEnableTradeRouteEuropean</forcetech>
     <forcetech>DEEnableTradeRouteEuropeanWater</forcetech>
+    <forcetech>bpRegicideEuropeanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2942,6 +3238,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2962,6 +3261,7 @@
     <forcetech>DEEnableTradeRouteEuropeanAll</forcetech>
     <forcetech>DEEnableTradeRouteEuropeanRiverAll</forcetech>
     <forcetech>DEEnableTradeRouteEuropeanWaterAll</forcetech>
+    <forcetech>bpRegicideEuropeanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -2980,6 +3280,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -2998,6 +3301,7 @@
   <map name="euroNoTrade">
     <forcetech>deMapEuropean</forcetech>
     <forcetech>DEEnableTradeRouteEuropean</forcetech>
+    <forcetech>bpRegicideEuropeanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -3016,6 +3320,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -3035,6 +3342,7 @@
     <forcetech>deMapEuropean</forcetech>
     <forcetech>deTradeRouteCaptureableEuropean</forcetech>
     <forcetech>DEEnableTradeRouteEuropean</forcetech>
+    <forcetech>bpRegicideEuropeanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -3053,6 +3361,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -3073,6 +3384,7 @@
     <forcetech>DEEnableTradeRouteEuropean</forcetech>
     <forcetech>DEEnableTradeRouteEuropeanWater</forcetech>
     <forcetech>DEEnableTradeRouteEuropeanRiver</forcetech>
+    <forcetech>bpRegicideEuropeanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -3091,6 +3403,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -3128,6 +3443,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -3149,6 +3467,7 @@
     <forcetech>DEEnableTradeRouteEuropeanRiverAll</forcetech>
     <forcetech>DEEnableTradeRouteEuropeanWaterAll</forcetech>
     <forcetech>DEMapFasterWaterTradeUnit</forcetech>
+    <forcetech>bpRegicideEuropeanMap</forcetech>
     <randomnumtouse>3</randomnumtouse>
     <randomtech>SaloonBlackRider</randomtech>
     <randomtech>SaloonCorsair</randomtech>
@@ -3167,6 +3486,50 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
+    <randomtech>DESaloonSudaneseRider</randomtech>
+    <randomtech>DESaloonCannoneer</randomtech>
+    <randomtech>DESaloonAskari</randomtech>
+    <randomtech>DESaloonAmazon</randomtech>
+    <randomtech>DESaloonZenata</randomtech>
+    <randomtech>DESaloonGatlingCamel</randomtech>
+    <randomtech>DESaloonKanuri</randomtech>
+    <randomtech>deSaloonGrenadier</randomtech>
+    <randomtech>deSaloonPandour</randomtech>
+    <randomtech>deSaloonRoyalHorseman</randomtech>
+    <randomtech>deSaloonPistoleer</randomtech>
+    <randomtech>deSaloonBrigadier</randomtech>
+    <randomtech>deSaloonMountedRifleman</randomtech>
+    <randomtech>deSaloonBosniak</randomtech>
+  </map>
+  <map name="arcticterritorieswater">
+    <forcetech>DEEnableTradeRouteArctic</forcetech>
+    <forcetech>DEEnableTradeRouteArcticWater</forcetech>
+    <forcetech>deMapArctic</forcetech>
+    <forcetech>bpRegicideArcticMap</forcetech>
+    <randomnumtouse>3</randomnumtouse>
+    <randomtech>SaloonBlackRider</randomtech>
+    <randomtech>SaloonCorsair</randomtech>
+    <randomtech>SaloonElmeti</randomtech>
+    <randomtech>SaloonMameluke</randomtech>
+    <randomtech>SaloonManchu</randomtech>
+    <randomtech>SaloonNinja</randomtech>
+    <randomtech>deSaloonHarquebusier</randomtech>
+    <randomtech>SaloonHighlander</randomtech>
+    <randomtech>SaloonLandsknecht</randomtech>
+    <randomtech>SaloonStradiot</randomtech>
+    <randomtech>SaloonJaeger</randomtech>
+    <randomtech>SaloonSwissPikeman</randomtech>
+    <randomtech>SaloonFusilier</randomtech>
+    <randomtech>ypSaloonArsonist</randomtech>
+    <randomtech>SaloonGreatCannon</randomtech>
+    <randomtech>DESaloonNapoleonGun</randomtech>
+    <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>
@@ -3203,6 +3566,9 @@
     <randomtech>SaloonGreatCannon</randomtech>
     <randomtech>DESaloonNapoleonGun</randomtech>
     <randomtech>DESaloonZouave</randomtech>
+    <randomtech>DESaloonGallowglass</randomtech>
+    <randomtech>DESaloonFortifiedWagon</randomtech>
+    <randomtech>DESaloonCranequinier</randomtech>
     <randomtech>DESaloonSudaneseRider</randomtech>
     <randomtech>DESaloonCannoneer</randomtech>
     <randomtech>DESaloonAskari</randomtech>

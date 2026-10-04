@@ -1,0 +1,12 @@
+<animfile>
+  <definebone>Bone08</definebone>
+  <definebone>Bone04</definebone>
+  <definebone>head_x</definebone>
+  <attachment>attachment_water_ripple<component>water_ripple<assetreference type="ParticleSystem"><file>units\animals\alligator\alligator_ripple.particle</file></assetreference></component><anim>Idle<component>water_ripple</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\hippo\hippo</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_64x64</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>2.00</width><height>3.25</height><zoffset>-0.35</zoffset></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\hippo\hippo_swim_idle_a</file><weight>40</weight></assetreference><component>ModelComp</component><attach a="attachment_water_ripple" frombone="ATTACHPOINT" tobone="head_x" syncanims="0"></attach></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\animals\hippo\hippo_swim_bored_a</file><weight>40</weight></assetreference><component>ModelComp</component><attach a="wakeattachment_water_ripple_A" frombone="ATTACHPOINT" tobone="head_x" syncanims="0"></attach></anim>
+  <anim>Swim<assetreference type="GrannyAnim"><file>units\animals\hippo\hippo_swim</file><weight>40</weight></assetreference><component>ModelComp</component><attach a="attachment_water_ripple" frombone="ATTACHPOINT" tobone="head_x" syncanims="0"></attach></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>units\animals\hippo\hippo_swim_attack_a</file><tag type="Attack">0.47</tag></assetreference><component>ModelComp</component><attach a="attachment_water_ripple" frombone="ATTACHPOINT" tobone="head_x" syncanims="0"></attach></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>units\animals\hippo\hippo_swim_death</file></assetreference><component>ModelComp</component><attach a="attachment_water_ripple" frombone="ATTACHPOINT" tobone="head_x" syncanims="0"></attach></anim>
+</animfile>

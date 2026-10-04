@@ -1,0 +1,46 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\spc\huang\textures\igc_huang_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\huang\textures\igc_huang_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\huang\textures\igc_huang_mata_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\asians\spc\huang\textures\monk_huang_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\huang\textures\igc_huang_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\huang\textures\monk_huang_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\spc\huang\textures\monk_huang_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\spc\huang\textures\igc_huang_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\huang\textures\igc_huang_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\huang\textures\igc_huang_mata_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\asians\spc\huang\textures\monk_huang_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\huang\textures\igc_huang_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\huang\textures\monk_huang_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\spc\huang\textures\monk_huang_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

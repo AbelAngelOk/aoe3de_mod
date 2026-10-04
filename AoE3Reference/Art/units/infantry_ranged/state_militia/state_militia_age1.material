@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\state_militia\textures\state_militia_age1_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\state_militia\textures\state_militia_age2_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\state_militia\textures\state_militia_age2_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\state_militia\textures\state_militia_age1_matA_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\infantry_ranged\state_militia\textures\state_militia_age1_matA_BaseColor_black">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\state_militia\textures\state_militia_age2_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\state_militia\textures\state_militia_age2_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\state_militia\textures\state_militia_age1_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

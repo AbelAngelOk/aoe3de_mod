@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>88881900</nameID>
+   <tooltipID>88881901</tooltipID>
+   <forcedciv>HUNHungarians</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources/images/icons/flags/Flag_Hungarian.png</icon>
+   <chatset>Frederick</chatset>
+   <playerNames>
+      <nameID>88881900</nameID>
+   </playerNames>
+</AI>

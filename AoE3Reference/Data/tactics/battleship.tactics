@@ -7,12 +7,9 @@
     <anim>Idle</anim>
     <idleanim>Idle</idleanim>
     <projectile>Cannonball</projectile>
-    <numberprojectiles>1</numberprojectiles>
     <impacteffect>effects\impacts\cannon</impacteffect>
     <accuracy>1.0</accuracy>
     <maxheight>0</maxheight>
-    <accuracyreductionfactor>0.5</accuracyreductionfactor>
-    <aimbonus>5</aimbonus>
     <rof>3</rof>
     <rate type="All">1.0</rate>
     <areasortmode>Directional</areasortmode>
@@ -31,12 +28,9 @@
     <anim>Idle</anim>
     <idleanim>Idle</idleanim>
     <projectile>Cannonball</projectile>
-    <numberprojectiles>1</numberprojectiles>
     <impacteffect>effects\impacts\cannon</impacteffect>
     <accuracy>1.0</accuracy>
     <maxheight>0</maxheight>
-    <accuracyreductionfactor>0.5</accuracyreductionfactor>
-    <aimbonus>5</aimbonus>
     <rof>3</rof>
     <scalebycontainedunittype>
       <rate type="deMinuteman">0.1</rate>
@@ -59,12 +53,9 @@
     <anim>Idle</anim>
     <idleanim>Idle</idleanim>
     <projectile>Cannonball</projectile>
-    <numberprojectiles>1</numberprojectiles>
     <impacteffect>effects\impacts\cannon</impacteffect>
     <accuracy>1.0</accuracy>
     <maxheight>0</maxheight>
-    <accuracyreductionfactor>0.01</accuracyreductionfactor>
-    <aimbonus>5</aimbonus>
     <rof>3</rof>
     <rate type="All">1.0</rate>
     <areasortmode>Directional</areasortmode>
@@ -81,10 +72,8 @@
     <anim>BombardAttack</anim>
     <idleanim>Idle</idleanim>
     <projectile>MortarShell</projectile>
-    <numberprojectiles>1</numberprojectiles>
     <impacteffect>effects\impacts\mortar</impacteffect>
     <accuracy>1.0</accuracy>
-    <aimbonus>5</aimbonus>
     <throw>1</throw>
     <rate type="LogicalTypeRangedUnitsAttack">1.0 </rate>
     <perfectaccuracy>1</perfectaccuracy>
@@ -97,11 +86,22 @@
     <name stringid="48954">HPAura</name>
     <type>AutoRangedModify</type>
     <active>0</active>
-    <maxrange>24</maxrange>
+    <maxrange>20</maxrange>
     <modifyabstracttype>AbstractWarShip</modifyabstracttype>
     <persistent>1</persistent>
     <modifytype>MaxHP</modifytype>
-    <modifymultiplier>1.10</modifymultiplier>
+    <modifymultiplier>1.30</modifymultiplier>
+    <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+  </action>
+  <action>
+    <name stringid="48958">DMGAura</name>
+    <type>AutoRangedModify</type>
+    <active>0</active>
+    <maxrange>20</maxrange>
+    <modifyabstracttype>AbstractWarShip</modifyabstracttype>
+    <persistent>1</persistent>
+    <modifytype>Damage</modifytype>
+    <modifymultiplier>1.30</modifymultiplier>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>
   <action>
@@ -145,12 +145,7 @@
     <anim>RangedAttack</anim>
     <maxheight>0</maxheight>
     <accuracy>1.0</accuracy>
-    <accuracyreductionfactor>0.01</accuracyreductionfactor>
-    <aimbonus>0</aimbonus>
-    <maxspread>5</maxspread>
-    <spreadfactor>0.25</spreadfactor>
     <trackrating>12</trackrating>
-    <unintentionaldamagemultiplier>0.7</unintentionaldamagemultiplier>
     <projectile>InvisibleProjectile</projectile>
     <impacteffect>effects\impacts\gun</impacteffect>
     <rate type="All">1.0</rate>
@@ -158,10 +153,10 @@
     <basedamagecap>1</basedamagecap>
     <selfdestruct>1</selfdestruct>
   </action>
-  <tactic>Normal<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
-  <tactic>Line<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
-  <tactic>Wedge<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
-  <tactic>Square<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
-  <tactic>Circle<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
-  <tactic>NoFormation<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+  <tactic>Normal<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>DMGAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+  <tactic>Line<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>DMGAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+  <tactic>Wedge<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>DMGAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+  <tactic>Square<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>DMGAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+  <tactic>Circle<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>DMGAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
+  <tactic>NoFormation<speedmodifier>1.0</speedmodifier><action priority="100">RangedAttack</action><action priority="100">RangedAttackContained</action><action priority="2">BroadsideAttack</action><action priority="1">LongRangeAttack</action><action>HPAura</action><action>DMGAura</action><action>Discover</action><action>BoatManager</action><action>ShieldAura</action><action>Heal</action><idleanim>Idle</idleanim><moveanim>Walk</moveanim><deathanim>Death</deathanim><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>1</runaway><autoretarget>1</autoretarget></tactic>
 </tactics>

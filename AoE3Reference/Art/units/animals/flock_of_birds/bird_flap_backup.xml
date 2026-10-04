@@ -1,0 +1,6 @@
+<animfile>
+  <submodel>bird_flap01<component>flap01<assetreference type="GrannyModel"><file>units\animals\flock_of_birds\bird_model</file></assetreference></component><anim>Idle<assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\bird_flap01</file></assetreference><component>flap01</component></anim></submodel>
+  <submodel>bird_flap02<component>flap02<assetreference type="GrannyModel"><file>units\animals\flock_of_birds\bird_model</file></assetreference></component><anim>Idle<assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\bird_flap02</file></assetreference><component>flap02</component></anim></submodel>
+  <submodel>bird_flap03<component>flap03<assetreference type="GrannyModel"><file>units\animals\flock_of_birds\bird_model</file></assetreference></component><anim>Idle<assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\bird_flap03</file></assetreference><component>flap03</component></anim></submodel>
+  <component>bird_flock<logic type="Variation"><data><submodelref ref="bird_flap01"></submodelref></data><data><submodelref ref="bird_flap02"></submodelref></data><data><submodelref ref="bird_flap03"></submodelref></data></logic></component>
+</animfile>

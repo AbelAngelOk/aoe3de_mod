@@ -798,7 +798,6 @@
       <level>10</level>
       <prereqtech>-1</prereqtech>
       <bindtotech>HCFrontierDefenses2</bindtotech>
-      <bindtotech>DEHCREVMXFrontierDefenses</bindtotech>
       <age>2</age>
       <displayunitcount>3</displayunitcount>
     </card>
@@ -1029,6 +1028,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>DEHCHabaneroPeppers</bindtotech>
       <age>3</age>
     </card>
     <card>
@@ -1369,7 +1369,6 @@
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>3</displayunitcount>
-      <bindtotech>HCFrontierDefenses2</bindtotech>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1944,13 +1943,24 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
-      <displayunitcount>9</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
       <revoltcard>
       </revoltcard>
     </card>
     <card>
       <name>DEHCREVMXShipFalconets2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>3</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCDEShipCulverins</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -2816,6 +2826,9 @@
         <card>DEHCREVMXMayanSupporters</card>
         <card>DEHCREVMXTextileMills</card>
         <card>DEHCREVMXFoodSilos</card>
+        <card>DEHCLiberationMarch</card>
+        <card>DEHCHabaneroPeppers</card>
+        <card>DEHCChipotles</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevMXRioGrande">
@@ -2830,7 +2843,7 @@
         <card>DEHCREVMXShipChinaco1</card>
         <card>DEHCREVMXShipDragoon1</card>
         <card>DEHCREVMXShipSoldado1</card>
-        <card>DEHCREVMXShipCulverins1</card>
+        <card>HCDEShipCulverins</card>
         <card>DEHCREVMXShipFalconets2</card>
         <card>DEHCREVMXVidaurriSeparatists</card>
         <card>DEHCREVMXCavalryCombat</card>

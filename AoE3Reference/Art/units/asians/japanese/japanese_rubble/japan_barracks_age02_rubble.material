@@ -1,0 +1,38 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="buildings\asian_civs\bansho\age_2\textures\japan_bansho_age2_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="buildings\asian_civs\bansho\age_2\textures\japan_bansho_age2_matA_Normals">
+      </texture>
+      <texture name="Masks" override="buildings\asian_civs\bansho\age_2\textures\japan_bansho_age2_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\home_city_props\Props_Additional\Asians_Accessories\Textures\Asians_accessories_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\home_city_props\Props_Additional\Asians_Accessories\Textures\Asians_accessories_mata_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\home_city_props\Props_Additional\Asians_Accessories\Textures\Asians_accessories_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="generic_props\destruction\textures\destructionsheet_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="generic_props\destruction\textures\destructionsheet_mata_Normals">
+      </texture>
+      <texture name="Masks" override="generic_props\destruction\textures\destructionsheet_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

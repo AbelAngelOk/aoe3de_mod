@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\indian_travois\african_travois\textures\african_travois_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\indian_travois\african_travois\textures\african_travois_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\indian_travois\african_travois\textures\african_travois_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\trade\indian_travois\african_travois\textures\african_travois_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

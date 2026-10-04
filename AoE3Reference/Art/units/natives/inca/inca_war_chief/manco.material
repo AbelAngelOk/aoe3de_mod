@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\inca\inca_war_chief\textures\manco_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\inca\inca_war_chief\textures\manco_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\inca\inca_war_chief\textures\manco_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\inca\inca_war_chief\textures\manco_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -1,0 +1,11 @@
+<animfile>
+  <definebone>Bone_rt_foot</definebone>
+  <definebone>Bone_lt_foot</definebone>
+  <component>ModelComp<logic type="Variation"><data><logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\Penguin\Penguin</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>units\Penguin\Penguin</file></assetreference></lowpoly></logic><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_64x64</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.0</width><height>1.0</height></decal></data></logic></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\special\Penguin\Penguin_Idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\special\Penguin\Penguin_Idle_Break1</file></assetreference><component>ModelComp</component></anim>
+  <anim>Select<assetreference type="GrannyAnim"><file>animation_library\special\Penguin\Penguin_Selection</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\special\Penguin\Penguin_Walk</file><tag type="FootstepLeft" footprinttype="AnimalLeft" footprintbone="Bone_lt_foot">0.93</tag><tag type="FootstepRight" footprinttype="AnimalRight" footprintbone="Bone_rt_foot">0.13</tag></assetreference><component>ModelComp</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>animation_library\special\Penguin\Penguin_Attack</file><tag type="Attack">0.67</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\special\Penguin\Penguin_Death</file><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.80</tag></assetreference><component>ModelComp</component></anim>
+</animfile>

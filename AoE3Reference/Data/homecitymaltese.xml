@@ -388,10 +388,24 @@
       <displayunitcount>9</displayunitcount>
     </card>
     <card>
+      <name>DEHCMercsGallowglasses</name>
+      <maxcount>1</maxcount>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCMercsIrishBrigadiers</name>
       <maxcount>1</maxcount>
       <age>1</age>
       <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCMercsCranequiniers</name>
+      <maxcount>1</maxcount>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -444,6 +458,7 @@
       <maxcount>-1</maxcount>
       <age>2</age>
       <displayunitcount>10</displayunitcount>
+      <bindtotech>HCShipCrossbowmen2</bindtotech>
     </card>
     <card>
       <name>HCShipCrossbowmen4</name>
@@ -668,6 +683,14 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEShipCulverinsInfinite</name>
+      <maxcount>-1</maxcount>
+      <level>-1</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
       <name>HCMercsMediterranean</name>
       <maxcount>-1</maxcount>
       <level>25</level>
@@ -776,6 +799,7 @@
       <name>DEHCImprovedCrossbows</name>
       <maxcount>1</maxcount>
       <age>2</age>
+      <bindtotech>DEHCREVImprovedCrossbows</bindtotech>
     </card>
     <card>
       <name>DEHCArchaicDamage</name>
@@ -823,6 +847,7 @@
       <level>10</level>
       <prereqtech>DEHCFireTowers</prereqtech>
       <age>2</age>
+      <bindtotech>DEHCREVSquires</bindtotech>
     </card>
     <card>
       <name>DEHCDignitaries</name>
@@ -1020,7 +1045,6 @@
       <maxcount>1</maxcount>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCShipBattleshipRepeat</name>
@@ -1342,7 +1366,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>18</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1493,6 +1517,33 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVHajduks</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVHonved</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVMagyarGrenadiers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVMilitaryFrontier</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1507,25 +1558,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>3</age>
-      <displayunitcount>15</displayunitcount>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVHajduks</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>1</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVMagyarGrenadiers</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>1</age>
+      <displayunitcount>9</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1588,6 +1621,24 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVCavalryCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <bindtotech>HCCavalryCombatRussian</bindtotech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVRidingSchool</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <bindtotech>HCRidingSchool</bindtotech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVShipEuropeanFleet</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1614,6 +1665,227 @@
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
       <displayunitcount>6</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVTeutonTownCenterTeam</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCColonialMilitia</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVMercenaryCampsGerman</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <bindtotech>DEHCMercenaryCampsGerman</bindtotech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVTeutonCastle</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <revoltcard>
+      </revoltcard>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCREVTripToJerusalem</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVKontors</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCREVShipMixedCrates</name>
+      <maxcount>-1</maxcount>
+      <level>40</level>
+      <prereqtech>HCXPShipMixedCrates6</prereqtech>
+      <age>1</age>
+      <displayunitcount>1200</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVMonasticGranges</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVWitchHunt</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVBalticCrusade</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipTeutonicKnightsRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>5</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipFortifiedWagonRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>2</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipCranequiniersRepeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>3</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipOrderCrossbowmen</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>12</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVSquires</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <bindtotech>DEHCSquires</bindtotech>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVGermanBattleshipCard</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>2</displayunitcount>
+      <bindtotech>DEHCGermanBattleshipCard</bindtotech>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVSwordBrothers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVHalfBrothers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVRigaBlackheads</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+      <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCREVImprovedCrossbows</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <bindtotech>DEHCImprovedCrossbows</bindtotech>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVKnighthood</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVPeerage</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVHandMortar</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1835,6 +2107,7 @@
       <name>$$45518$$</name>
       <cards>
         <card>DEHCREVHajduks</card>
+        <card>DEHCREVHonved</card>
         <card>DEHCREVMagyarGrenadiers</card>
         <card>DEHCREVMilitaryFrontier</card>
         <card>DEHCREVCrabats</card>
@@ -1847,6 +2120,36 @@
         <card>DEHCREVLegionHungarian</card>
         <card>DEHCREVShipGrenadiersRepeat</card>
         <card>DEHCREVShipFalconetsBalkan</card>
+        <card>DEHCREVRidingSchool</card>
+        <card>DEHCREVCavalryCombat</card>
+        <card>DEHCREVHandMortar</card>
+      </cards>
+    </revoltdeck>
+    <revoltdeck civ="DERevLivonia">
+      <name>$$45518$$</name>
+      <cards>
+        <card>DEHCREVShipTeutonicKnightsRepeat</card>
+        <card>DEHCREVShipCranequiniersRepeat</card>
+        <card>DEHCREVShipFortifiedWagonRepeat</card>
+        <card>DEHCREVShipOrderCrossbowmen</card>
+        <card>DEHCREVHalfBrothers</card>
+        <card>DEHCREVSwordBrothers</card>
+        <card>DEHCREVMonasticGranges</card>
+        <card>DEHCREVKontors</card>
+        <card>DEHCREVShipMixedCrates</card>
+        <card>DEHCREVBalticCrusade</card>
+        <card>DEHCREVRigaBlackheads</card>
+        <card>DEHCREVTripToJerusalem</card>
+        <card>DEHCREVKnighthood</card>
+        <card>DEHCREVPeerage</card>
+        <card>DEHCREVTeutonTownCenterTeam</card>
+        <card>DEHCREVTeutonCastle</card>
+        <card>DEHCREVSquires</card>
+        <card>DEHCREVGermanBattleshipCard</card>
+        <card>DEHCREVMercenaryCampsGerman</card>
+        <card>HCColonialMilitia</card>
+        <card>DEHCREVWitchHunt</card>
+        <card>DEHCREVImprovedCrossbows</card>
       </cards>
     </revoltdeck>
   </decks>
@@ -2010,6 +2313,7 @@
       <tech x="6.7" y="7.0">HCShipFalconets5</tech>
       <tech x="6.7" y="7.0">DEHCShipFalconetMortar</tech>
       <tech x="6.7" y="7.0">HCDEShipCulverins</tech>
+      <tech x="6.7" y="7.0">DEShipCulverinsInfinite</tech>
       <tech x="7.4" y="1.0">HCAdvancedArtillery</tech>
       <tech x="7.4" y="2.0">HCShipMortars1</tech>
       <tech x="7.4" y="3.0">HCShipMortars2</tech>
@@ -2062,6 +2366,7 @@
       <tech x="6.7" y="7.0">HCShipFalconets5</tech>
       <tech x="6.7" y="7.0">DEHCShipFalconetMortar</tech>
       <tech x="6.7" y="7.0">HCDEShipCulverins</tech>
+      <tech x="6.7" y="7.0">DEShipCulverinsInfinite</tech>
       <tech x="7.4" y="1.0">HCAdvancedArtillery</tech>
       <tech x="7.4" y="2.0">HCShipMortars1</tech>
       <tech x="7.4" y="3.0">HCShipMortars2</tech>
@@ -2275,7 +2580,9 @@
       <tech x="4.4" y="3.0">DEHCMercsGiantGrenadiers</tech>
       <tech x="4.4" y="4.0">DEHCMercsRoyalHorseman</tech>
       <tech x="4.4" y="5.0">DEHCMercsPandours</tech>
+      <tech x="5.1" y="3.0">DEHCMercsGallowglasses</tech>
       <tech x="5.1" y="3.0">DEHCMercsIrishBrigadiers</tech>
+      <tech x="5.1" y="3.0">DEHCMercsCranequiniers</tech>
       <tech x="5.1" y="5.0">HCMercsMediterranean</tech>
       <tech x="5.8" y="4.0">DEHCMercsArmoredPistoleers</tech>
       <tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
@@ -2314,7 +2621,9 @@
       <tech x="4.4" y="3.0">DEHCMercsGiantGrenadiers</tech>
       <tech x="4.4" y="4.0">DEHCMercsRoyalHorseman</tech>
       <tech x="4.4" y="5.0">DEHCMercsPandours</tech>
+      <tech x="5.1" y="3.0">DEHCMercsGallowglasses</tech>
       <tech x="5.1" y="3.0">DEHCMercsIrishBrigadiers</tech>
+      <tech x="5.1" y="3.0">DEHCMercsCranequiniers</tech>
       <tech x="5.1" y="5.0">HCMercsMediterranean</tech>
       <tech x="5.8" y="4.0">DEHCMercsArmoredPistoleers</tech>
       <tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>

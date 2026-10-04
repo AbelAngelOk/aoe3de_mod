@@ -1,0 +1,5 @@
+<animfile>
+  <submodel>indian tree<component>indian<assetreference type="GrannyModel"><file>objects\nugget_indian_tree\nugget_indian_tree_model</file></assetreference></component><anim>Idle<assetreference type="GrannyAnim"><file>objects\nugget_indian_tree\nugget_indian_tree_idle</file></assetreference><component>indian</component></anim></submodel>
+  <submodel>indian wolf<component>wolf<assetreference type="GrannyModel"><file>objects\nugget_indian_wolves\rock_pile_main</file></assetreference></component><anim>Idle<assetreference type="GrannyAnim"><file>objects\nugget_indian_wolves\rock_pile_main_idle</file></assetreference><component>wolf</component></anim></submodel>
+  <component>groundprops<logic type="Variation"><data><submodelref ref="indian tree"></submodelref></data><data><submodelref ref="indian wolf"></submodelref></data></logic></component>
+</animfile>

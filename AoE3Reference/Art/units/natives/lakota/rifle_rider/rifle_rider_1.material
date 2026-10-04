@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\lakota\rifle_rider\textures\rifle_rider_1_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\lakota\rifle_rider\textures\rifle_rider_1_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\lakota\rifle_rider\textures\rifle_rider_1_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\lakota\rifle_rider\textures\rifle_rider_1_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

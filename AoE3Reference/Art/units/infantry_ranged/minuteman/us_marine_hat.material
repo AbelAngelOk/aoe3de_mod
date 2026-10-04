@@ -1,0 +1,18 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\minuteman\textures\us_marine_hat_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\minuteman\textures\us_marine_hat_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\minuteman\textures\us_marine_hat_mata_masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\minuteman\textures\us_marine_hat_mata_details">
+      </texture>
+      <float name="Metallic Min" override="0.7040">
+      </float>
+    </parameters>
+  </submaterial>
+</material>

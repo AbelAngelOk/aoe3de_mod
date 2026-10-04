@@ -681,7 +681,7 @@
     <string _locid="50678" comment="proto-Explorer civ-British type-firstname">휴 </string>
     <string _locid="50679" comment="proto-Explorer civ-British type-firstname">험프리 </string>
     <string _locid="50680" comment="proto-Explorer civ-British type-firstname">제임스 </string>
-    <string _locid="50681" comment="proto-Explorer civ-British type-firstname">존</string>
+    <string _locid="50681" comment="proto-Explorer civ-British type-firstname">존 </string>
     <string _locid="50682" comment="proto-Explorer civ-British type-firstname">조셉 </string>
     <string _locid="50683" comment="proto-Explorer civ-British/Germans/Spanish type-firstname">마르틴 </string>
     <string _locid="50684" comment="proto-Explorer civ-British type-firstname">매튜 </string>
@@ -802,7 +802,7 @@
     <string _locid="50799" comment="proto-Explorer civ-French type-lastname">드 샹플랭 </string>
     <string _locid="50800" comment="proto-Explorer civ-French type-lastname">오베르 </string>
     <string _locid="50801" comment="proto-Explorer civ-Germans type-firstname">남작 </string>
-    <string _locid="50802" comment="proto-Explorer civ-Germans type-firstname">백작</string>
+    <string _locid="50802" comment="proto-Explorer civ-Germans type-firstname">백작 </string>
     <string _locid="50803" comment="proto-Explorer civ-Germans type-firstname">알렉산더 </string>
     <string _locid="50804" comment="proto-Explorer civ-Germans type-firstname">앰브로즈 </string>
     <string _locid="50805" comment="proto-Explorer civ-Germans type-firstname">아우구스틴 </string>
@@ -857,7 +857,7 @@
     <string _locid="50854" comment="proto-Explorer civ-Germans type-lastname">폰 부하우 </string>
     <string _locid="50855" comment="proto-Explorer civ-Germans type-lastname">폰 훔볼트 </string>
     <string _locid="50856" comment="proto-Explorer civ-Ottomans type-firstname">아바즈 </string>
-    <string _locid="50857" comment="proto-Explorer civ-Ottomans type-firstname">아흐마드</string>
+    <string _locid="50857" comment="proto-Explorer civ-Ottomans type-firstname">아흐마드 </string>
     <string _locid="50858" comment="proto-Explorer civ-Ottomans type-firstname">앙칼라리 </string>
     <string _locid="50859" comment="proto-Explorer civ-Ottomans type-firstname">아르슬란 </string>
     <string _locid="50860" comment="proto-Explorer civ-Ottomans type-firstname">아브사르 </string>
@@ -876,14 +876,14 @@
     <string _locid="50873" comment="proto-Explorer civ-Ottomans type-firstname">키닉 </string>
     <string _locid="50874" comment="proto-Explorer civ-Ottomans type-firstname">키르믈리 </string>
     <string _locid="50875" comment="proto-Explorer civ-Ottomans type-firstname">코프룰루  </string>
-    <string _locid="50876" comment="proto-Explorer civ-Ottomans type-firstname">코프룰루</string>
+    <string _locid="50876" comment="proto-Explorer civ-Ottomans type-firstname">코프룰루 </string>
     <string _locid="50877" comment="proto-Explorer civ-Ottomans type-firstname">레오 </string>
     <string _locid="50878" comment="proto-Explorer civ-Ottomans type-firstname">마지드 </string>
     <string _locid="50879" comment="proto-Explorer civ-Ottomans type-firstname">말레모 </string>
     <string _locid="50880" comment="proto-Explorer civ-Ottomans type-firstname">무함마드 </string>
     <string _locid="50881" comment="proto-Explorer civ-Ottomans type-firstname">파르갈리 </string>
     <string _locid="50882" comment="proto-Explorer civ-Ottomans type-firstname">페체넥 </string>
-    <string _locid="50883" comment="proto-Explorer civ-Ottomans type-firstname">피리</string>
+    <string _locid="50883" comment="proto-Explorer civ-Ottomans type-firstname">피리 </string>
     <string _locid="50884" comment="proto-Explorer civ-Ottomans type-firstname">로도슬루 </string>
     <string _locid="50885" comment="proto-Explorer civ-Ottomans type-firstname">셀라니클리 </string>
     <string _locid="50886" comment="proto-Explorer civ-Ottomans type-firstname">샴스 </string>
@@ -918,7 +918,7 @@
     <string _locid="50915" comment="proto-Explorer civ-Ottomans type-lastname">셈시 </string>
     <string _locid="50916" comment="proto-Explorer civ-Ottomans type-lastname">토그릴 </string>
     <string _locid="50917" comment="proto-Explorer civ-Portuguese/Spanish type-firstname">돈 </string>
-    <string _locid="50918" comment="proto-Explorer civ-Portuguese type-firstname">선장</string>
+    <string _locid="50918" comment="proto-Explorer civ-Portuguese type-firstname">선장 </string>
     <string _locid="50919" comment="proto-Explorer civ-Portuguese type-firstname">아폰수 </string>
     <string _locid="50920" comment="proto-Explorer civ-Portuguese type-firstname">알폰소 </string>
     <string _locid="50921" comment="proto-Explorer civ-DEItalians type-firstname">아메리고 </string>
@@ -982,7 +982,7 @@
     <string _locid="50979" comment="proto-Explorer civ-Russians type-firstname">바실리 </string>
     <string _locid="50980" comment="proto-Explorer civ-Russians type-firstname">블라디미르 </string>
     <string _locid="50981" comment="proto-Explorer civ-Russians type-firstname">비투스 </string>
-    <string _locid="50982" comment="proto-Explorer civ-Russians type-firstname">예르마크</string>
+    <string _locid="50982" comment="proto-Explorer civ-Russians type-firstname">예르마크 </string>
     <string _locid="50983" comment="proto-Explorer civ-Russians type-lastname">아틀라소프 </string>
     <string _locid="50984" comment="proto-Explorer civ-Russians type-lastname">바그라티온 </string>
     <string _locid="50985" comment="proto-Explorer civ-Russians type-lastname">바라노프 </string>
@@ -2680,5 +2680,513 @@
     <string _locid="54349" comment="proto-deMercBattleship civ-French type-title">방죄르</string>
     <string _locid="54350" comment="proto-deMercBattleship civ-French type-title">몽트벨로</string>
     <string _locid="54351" comment="proto-deMercBattleship civ-Germans type-title">아들러 폰 뤼벡</string>
+    <string _locid="54352" comment="proto-deHetman type-firstname">아담 </string>
+    <string _locid="54353" comment="proto-deHetman type-firstname">알렉산더 </string>
+    <string _locid="54354" comment="proto-deHetman type-firstname">안제이  </string>
+    <string _locid="54355" comment="proto-deHetman type-firstname">드미트리 </string>
+    <string _locid="54356" comment="proto-deHetman type-firstname">에르네스타스 </string>
+    <string _locid="54357" comment="proto-deHetman type-firstname">펠릭스 </string>
+    <string _locid="54358" comment="proto-deHetman type-firstname">프란치세크 </string>
+    <string _locid="54359" comment="proto-deHetman type-firstname">그리갈리우스 </string>
+    <string _locid="54360" comment="proto-deHetman type-firstname">그르제고르츠 </string>
+    <string _locid="54361" comment="proto-deHetman type-firstname">히에로님 </string>
+    <string _locid="54362" comment="proto-deHetman type-firstname">얀 카롤 </string>
+    <string _locid="54363" comment="proto-deHetman type-firstname">자누즈 </string>
+    <string _locid="54364" comment="proto-deHetman type-firstname">저지 </string>
+    <string _locid="54365" comment="proto-deHetman type-firstname">조나스 </string>
+    <string _locid="54366" comment="proto-deHetman type-firstname">요제프 </string>
+    <string _locid="54367" comment="proto-deHetman type-firstname">콘스탄티 </string>
+    <string _locid="54368" comment="proto-deHetman type-firstname">크리스투파스 </string>
+    <string _locid="54369" comment="proto-deHetman type-firstname">크시슈토프 </string>
+    <string _locid="54370" comment="proto-deHetman type-firstname">류 </string>
+    <string _locid="54371" comment="proto-deHetman type-firstname">류드비카스 </string>
+    <string _locid="54372" comment="proto-deHetman type-firstname">루드비크 </string>
+    <string _locid="54373" comment="proto-deHetman type-firstname">마르신 </string>
+    <string _locid="54374" comment="proto-deHetman type-firstname">마테우시 </string>
+    <string _locid="54375" comment="proto-deHetman type-firstname">미하우 </string>
+    <string _locid="54376" comment="proto-deHetman type-firstname">미코와이 </string>
+    <string _locid="54377" comment="proto-deHetman type-firstname">미콜라스 </string>
+    <string _locid="54378" comment="proto-deHetman type-firstname">파베우 얀 </string>
+    <string _locid="54379" comment="proto-deHetman type-firstname">표트르 </string>
+    <string _locid="54380" comment="proto-deHetman type-firstname">로마 </string>
+    <string _locid="54381" comment="proto-deHetman type-firstname">하웨린 </string>
+    <string _locid="54382" comment="proto-deHetman type-firstname">시모나스 </string>
+    <string _locid="54383" comment="proto-deHetman type-firstname">스타니스와프 </string>
+    <string _locid="54384" comment="proto-deHetman type-firstname">스타니슬로바스 </string>
+    <string _locid="54385" comment="proto-deHetman type-firstname">스테판 </string>
+    <string _locid="54386" comment="proto-deHetman type-firstname">바츠와프 </string>
+    <string _locid="54387" comment="proto-deHetman type-firstname">브와디스와프 </string>
+    <string _locid="54388" comment="proto-deHetman type-lastname">브라니키</string>
+    <string _locid="54389" comment="proto-deHetman type-lastname">초드차</string>
+    <string _locid="54390" comment="proto-deHetman type-lastname">초데츠키</string>
+    <string _locid="54391" comment="proto-deHetman type-lastname">코드키에비츠</string>
+    <string _locid="54392" comment="proto-deHetman type-lastname">초메토프스키</string>
+    <string _locid="54393" comment="proto-deHetman type-lastname">차르니에츠키</string>
+    <string _locid="54394" comment="proto-deHetman type-lastname">덴호파스</string>
+    <string _locid="54395" comment="proto-deHetman type-lastname">피를레이</string>
+    <string _locid="54396" comment="proto-deHetman type-lastname">야블로노프스키</string>
+    <string _locid="54397" comment="proto-deHetman type-lastname">야즐로비에츠키</string>
+    <string _locid="54398" comment="proto-deHetman type-lastname">칼리노프스키</string>
+    <string _locid="54399" comment="proto-deHetman type-lastname">카미에니에츠키</string>
+    <string _locid="54400" comment="proto-deHetman type-lastname">카자노프스키</string>
+    <string _locid="54401" comment="proto-deHetman type-lastname">카지미에라스</string>
+    <string _locid="54402" comment="proto-deHetman type-lastname">케스가일라</string>
+    <string _locid="54403" comment="proto-deHetman type-lastname">키슈카</string>
+    <string _locid="54404" comment="proto-deHetman type-lastname">코와</string>
+    <string _locid="54405" comment="proto-deHetman type-lastname">코니에츠폴스키</string>
+    <string _locid="54406" comment="proto-deHetman type-lastname">코사코프스키</string>
+    <string _locid="54407" comment="proto-deHetman type-lastname">란코론스키</string>
+    <string _locid="54408" comment="proto-deHetman type-lastname">루보미르스키</string>
+    <string _locid="54409" comment="proto-deHetman type-lastname">마르티나스</string>
+    <string _locid="54410" comment="proto-deHetman type-lastname">마살스키</string>
+    <string _locid="54411" comment="proto-deHetman type-lastname">미엘레키</string>
+    <string _locid="54412" comment="proto-deHetman type-lastname">미슈코프스키</string>
+    <string _locid="54413" comment="proto-deHetman type-lastname">오긴스키</string>
+    <string _locid="54414" comment="proto-deHetman type-lastname">오긴스키</string>
+    <string _locid="54415" comment="proto-deHetman type-lastname">오스트로그스키</string>
+    <string _locid="54416" comment="proto-deHetman type-lastname">오자로프스키</string>
+    <string _locid="54417" comment="proto-deHetman type-lastname">파니에베스키</string>
+    <string _locid="54418" comment="proto-deHetman type-lastname">페르쿠나스</string>
+    <string _locid="54419" comment="proto-deHetman type-lastname">피에니아젝</string>
+    <string _locid="54420" comment="proto-deHetman type-lastname">피오룬</string>
+    <string _locid="54421" comment="proto-deHetman type-lastname">포시에주스</string>
+    <string _locid="54422" comment="proto-deHetman type-lastname">포토키</string>
+    <string _locid="54423" comment="proto-deHetman type-lastname">라치보르잔</string>
+    <string _locid="54424" comment="proto-deHetman type-lastname">라드빌라</string>
+    <string _locid="54425" comment="proto-deHetman type-lastname">라지윌</string>
+    <string _locid="54426" comment="proto-deHetman type-lastname">레웨라</string>
+    <string _locid="54427" comment="proto-deHetman type-lastname">리벤코</string>
+    <string _locid="54428" comment="proto-deHetman type-lastname">르제우스키</string>
+    <string _locid="54429" comment="proto-deHetman type-lastname">산구슈코</string>
+    <string _locid="54430" comment="proto-deHetman type-lastname">사피에하</string>
+    <string _locid="54431" comment="proto-deHetman type-lastname">시에니아프스키</string>
+    <string _locid="54432" comment="proto-deHetman type-lastname">소비에스키</string>
+    <string _locid="54433" comment="proto-deHetman type-lastname">소스노우스키</string>
+    <string _locid="54434" comment="proto-deHetman type-lastname">타르노프스키</string>
+    <string _locid="54435" comment="proto-deHetman type-lastname">투로프스키</string>
+    <string _locid="54436" comment="proto-deHetman type-lastname">티스키에비츠</string>
+    <string _locid="54437" comment="proto-deHetman type-lastname">비시니오비에츠키</string>
+    <string _locid="54438" comment="proto-deHetman type-lastname">볼로비치</string>
+    <string _locid="54439" comment="proto-deHetman type-lastname">자모이스키</string>
+    <string _locid="54440" comment="proto-deHetman type-lastname">졸키에프스키</string>
+    <string _locid="54441" comment="proto-Explorer civ-Danes type-firstname">티코 </string>
+    <string _locid="54442" comment="proto-Explorer civ-Danes type-firstname">크리스티안 </string>
+    <string _locid="54443" comment="proto-Explorer civ-Danes type-firstname">올레 </string>
+    <string _locid="54444" comment="proto-Explorer civ-Danes type-firstname">한스 </string>
+    <string _locid="54445" comment="proto-Explorer civ-Danes type-firstname">에베르하르트 </string>
+    <string _locid="54446" comment="proto-Explorer civ-Danes type-firstname">요르겐 </string>
+    <string _locid="54447" comment="proto-Explorer civ-Danes type-firstname">요한 </string>
+    <string _locid="54448" comment="proto-Explorer civ-Danes type-firstname">카르스텐 </string>
+    <string _locid="54449" comment="proto-Explorer civ-Danes type-firstname">프레데리크 </string>
+    <string _locid="54450" comment="proto-Explorer civ-Danes type-firstname">모르텐 </string>
+    <string _locid="54451" comment="proto-Explorer civ-Danes type-firstname">야코브 </string>
+    <string _locid="54452" comment="proto-Explorer civ-Danes type-firstname">옌스 </string>
+    <string _locid="54453" comment="proto-Explorer civ-Danes type-firstname">칼 </string>
+    <string _locid="54454" comment="proto-Explorer civ-Danes type-firstname">에리크 </string>
+    <string _locid="54455" comment="proto-Explorer civ-Danes type-firstname">디드리크 </string>
+    <string _locid="54456" comment="proto-Explorer civ-Danes type-firstname">파울 </string>
+    <string _locid="54457" comment="proto-Explorer civ-Danes type-lastname">브라헤</string>
+    <string _locid="54458" comment="proto-Explorer civ-Danes type-lastname">바르네코브</string>
+    <string _locid="54459" comment="proto-Explorer civ-Danes type-lastname">벤딕센</string>
+    <string _locid="54460" comment="proto-Explorer civ-Danes type-lastname">브뢴스테드</string>
+    <string _locid="54461" comment="proto-Explorer civ-Danes type-lastname">에클론</string>
+    <string _locid="54462" comment="proto-Explorer civ-Danes type-lastname">에게데</string>
+    <string _locid="54463" comment="proto-Explorer civ-Danes type-lastname">이데스</string>
+    <string _locid="54464" comment="proto-Explorer civ-Danes type-lastname">요르겐센</string>
+    <string _locid="54465" comment="proto-Explorer civ-Danes type-lastname">코흐</string>
+    <string _locid="54466" comment="proto-Explorer civ-Danes type-lastname">니부르</string>
+    <string _locid="54467" comment="proto-Explorer civ-Danes type-lastname">노르덴</string>
+    <string _locid="54468" comment="proto-Explorer civ-Danes type-lastname">스판베르크</string>
+    <string _locid="54469" comment="proto-Explorer civ-Danes type-lastname">울펠트</string>
+    <string _locid="54470" comment="proto-Explorer civ-Danes type-lastname">뭉크</string>
+    <string _locid="54471" comment="proto-Explorer civ-Danes type-lastname">보크</string>
+    <string _locid="54472" comment="proto-Explorer civ-Danes type-lastname">에릭센</string>
+    <string _locid="54473" comment="proto-Explorer civ-Danes type-lastname">폰 하벤</string>
+    <string _locid="54474" comment="proto-Explorer civ-Danes type-lastname">피닝</string>
+    <string _locid="54475" comment="proto-Explorer civ-Danes type-lastname">놀쇠</string>
+    <string _locid="54476" comment="proto-Fort civ-Danes type-title">올홀름 성</string>
+    <string _locid="54477" comment="proto-Fort civ-Danes type-title">뉘쾨빙 성</string>
+    <string _locid="54478" comment="proto-Fort civ-Danes type-title">플라드스트란 요새</string>
+    <string _locid="54479" comment="proto-Fort civ-Danes type-title">크론보르 성</string>
+    <string _locid="54480" comment="proto-Fort civ-Danes type-title">엘시노어</string>
+    <string _locid="54481" comment="proto-Fort civ-Danes type-title">스칸신 요새</string>
+    <string _locid="54482" comment="proto-Fort civ-Danes type-title">콜딩후스 성</string>
+    <string _locid="54483" comment="proto-Fort civ-Danes type-title">트레크로네르 요새</string>
+    <string _locid="54484" comment="proto-Fort civ-Danes type-title">하메르스후스 요새</string>
+    <string _locid="54485" comment="proto-Fort civ-Danes type-title">말뫼후스 성</string>
+    <string _locid="54486" comment="proto-Fort civ-Danes type-title">헬싱보리 요새</string>
+    <string _locid="54487" comment="proto-Fort civ-Danes type-title">란드스크로나 요새</string>
+    <string _locid="54488" comment="proto-Fort civ-Danes type-title">렌스보르 요새</string>
+    <string _locid="54489" comment="proto-Fort civ-Danes type-title">프레데릭스보르 성</string>
+    <string _locid="54490" comment="proto-Fort civ-Danes type-title">플렌스보르후스</string>
+    <string _locid="54491" comment="proto-Fort civ-Danes type-title">에게스코우 성</string>
+    <string _locid="54492" comment="proto-Fort civ-Danes type-title">스카네르보르</string>
+    <string _locid="54493" comment="proto-Fort civ-Danes type-title">리베르후스 성</string>
+    <string _locid="54494" comment="proto-Fort civ-Danes type-title">아케르스후스 요새</string>
+    <string _locid="54495" comment="proto-Fort civ-Danes type-title">바르되후스 요새</string>
+    <string _locid="54496" comment="proto-Fort civ-Danes type-title">콩스빙에르 요새</string>
+    <string _locid="54497" comment="proto-Fort civ-Danes type-title">프레드리크스텐</string>
+    <string _locid="54498" comment="proto-Fort civ-Danes type-title">베르겐후스 요새</string>
+    <string _locid="54499" comment="proto-Fort civ-Danes type-title">크리스티안스홀름 요새</string>
+    <string _locid="54500" comment="proto-Fort civ-Danes type-title">카스텔레트</string>
+    <string _locid="54501" comment="proto-Fort civ-Danes type-title">코펜하겐 성</string>
+    <string _locid="54502" comment="proto-Fort civ-Danes type-title">크리스티안피옐 요새</string>
+    <string _locid="54503" comment="proto-Fort civ-Danes type-title">크리스티안쇠</string>
+    <string _locid="54504" comment="proto-Fort civ-Danes type-title">크리스티안쇠 요새</string>
+    <string _locid="54505" comment="proto-Fort civ-Danes type-title">크리스티안스텐</string>
+    <string _locid="54506" comment="proto-Fort civ-Danes type-title">오데뢰야 요새</string>
+    <string _locid="54507" comment="proto-Fort civ-Danes type-title">프레데릭소르트</string>
+    <string _locid="54508" comment="proto-Fort civ-Danes type-title">프레데리시아</string>
+    <string _locid="54509" comment="proto-Fort civ-Danes type-title">뭉크홀멘</string>
+    <string _locid="54510" comment="proto-Fort civ-Danes type-title">블라케르 스칸세</string>
+    <string _locid="54511" comment="proto-Fort civ-Danes type-title">뉘보르 성</string>
+    <string _locid="54512" comment="proto-Fort civ-Danes type-title">알텐후스 요새</string>
+    <string _locid="54513" comment="proto-Fort civ-Danes type-title">프레드릭스베르 요새</string>
+    <string _locid="54514" comment="proto-Fort civ-Danes type-title">프레드리크스타드 요새</string>
+    <string _locid="54515" comment="proto-Fort civ-Danes type-title">스타베른 요새</string>
+    <string _locid="54516" comment="proto-Fort civ-Poles type-title">트라카이 성</string>
+    <string _locid="54517" comment="proto-Fort civ-Poles type-title">빌뉴스 성</string>
+    <string _locid="54518" comment="proto-Fort civ-Poles type-title">비르자이 성</string>
+    <string _locid="54519" comment="proto-Fort civ-Poles type-title">클라이페다 성</string>
+    <string _locid="54520" comment="proto-Fort civ-Poles type-title">브레스트 성</string>
+    <string _locid="54521" comment="proto-Fort civ-Poles type-title">카미야네츠포딜스키</string>
+    <string _locid="54522" comment="proto-Fort civ-Poles type-title">카우나스 성</string>
+    <string _locid="54523" comment="proto-Fort civ-Poles type-title">코브린 성</string>
+    <string _locid="54524" comment="proto-Fort civ-Poles type-title">크레메네츠 성</string>
+    <string _locid="54525" comment="proto-Fort civ-Poles type-title">리다 성</string>
+    <string _locid="54526" comment="proto-Fort civ-Poles type-title">루츠크 성</string>
+    <string _locid="54527" comment="proto-Fort civ-Poles type-title">네스비즈 성</string>
+    <string _locid="54528" comment="proto-Fort civ-Poles type-title">바토리 성</string>
+    <string _locid="54529" comment="proto-Fort civ-Poles type-title">미르 성</string>
+    <string _locid="54530" comment="proto-Fort civ-Poles type-title">티코친 성</string>
+    <string _locid="54531" comment="proto-Fort civ-Poles type-title">말보르크 성</string>
+    <string _locid="54532" comment="proto-Fort civ-Poles type-title">비스워우이시치에 요새</string>
+    <string _locid="54533" comment="proto-Fort civ-Poles type-title">산도미에르스키 성</string>
+    <string _locid="54534" comment="proto-Fort civ-Poles type-title">자모시치 요새</string>
+    <string _locid="54535" comment="proto-Fort civ-Poles type-title">크워츠코 요새</string>
+    <string _locid="54536" comment="proto-Fort civ-Poles type-title">스레브르나 구라 요새</string>
+    <string _locid="54537" comment="proto-Fort civ-Poles type-title">뎅블린 요새</string>
+    <string _locid="54538" comment="proto-Fort civ-Poles type-title">모들린 요새</string>
+    <string _locid="54539" comment="proto-Fort civ-Poles type-title">토룬 요새</string>
+    <string _locid="54540" comment="proto-Fort civ-Poles type-title">크라쿠프 바르바칸</string>
+    <string _locid="54541" comment="proto-Fort civ-Poles type-title">크라쿠프 요새</string>
+    <string _locid="54542" comment="proto-Fort civ-Poles type-title">초하 성</string>
+    <string _locid="54543" comment="proto-Fort civ-Poles type-title">루블린 성</string>
+    <string _locid="54544" comment="proto-Fort civ-Poles type-title">크시옹즈 성</string>
+    <string _locid="54545" comment="proto-Fort civ-Poles type-title">피드히르치 성</string>
+    <string _locid="54546" comment="proto-Fort civ-Poles type-title">호틴 요새</string>
+    <string _locid="54547" comment="proto-Fort civ-Poles type-title">두브노 성</string>
+    <string _locid="54548" comment="proto-Fort civ-Poles type-title">즈바라즈 성</string>
+    <string _locid="54549" comment="proto-Fort civ-Poles type-title">메지비즈 요새</string>
+    <string _locid="54550" comment="proto-Fort civ-Poles type-title">코다크 요새</string>
+    <string _locid="54551" comment="proto-Fort civ-Poles type-title">미타우 성</string>
+    <string _locid="54552" comment="proto-Fort civ-Poles type-title">쿨디가 성</string>
+    <string _locid="54553" comment="proto-Fort civ-Poles type-title">리가 성</string>
+    <string _locid="54554" comment="proto-Fort civ-Poles type-title">다가브그리바 성</string>
+    <string _locid="54555" comment="proto-Fort civ-Poles type-title">디나부르가 성</string>
+    <string _locid="54556" comment="proto-Fort civ-Poles type-title">왕궁</string>
+    <string _locid="54557" comment="proto-Fort civ-Poles type-title">크시슈토푸르</string>
+    <string _locid="54558" comment="proto-Fort civ-Poles type-title">크라시친 성</string>
+    <string _locid="54559" comment="proto-Caravel civ-Poles type-title">피닉스호</string>
+    <string _locid="54560" comment="proto-Caravel civ-Poles type-title">그단스크의 피오트르호</string>
+    <string _locid="54561" comment="proto-Caravel civ-Poles type-title">스트셸레츠호</string>
+    <string _locid="54562" comment="proto-Caravel civ-Poles type-title">그비아즈다호</string>
+    <string _locid="54563" comment="proto-Caravel civ-Poles type-title">하리타스호</string>
+    <string _locid="54564" comment="proto-Caravel civ-Poles type-title">화이트 이글호</string>
+    <string _locid="54565" comment="proto-Caravel civ-Poles type-title">화이트 라이온호</string>
+    <string _locid="54566" comment="proto-Caravel civ-Poles type-title">옐로 라이온호</string>
+    <string _locid="54567" comment="proto-Caravel civ-Poles type-title">판나 보드나호</string>
+    <string _locid="54568" comment="proto-Caravel civ-Poles type-title">노아의 방주호</string>
+    <string _locid="54569" comment="proto-Caravel civ-Poles type-title">프워미엔호</string>
+    <string _locid="54570" comment="proto-Caravel civ-Poles type-title">보드닉호</string>
+    <string _locid="54571" comment="proto-Caravel civ-Poles type-title">블랙 레이븐호</string>
+    <string _locid="54572" comment="proto-Caravel civ-Poles type-title">플라잉 디어호</string>
+    <string _locid="54573" comment="proto-Galleon civ-Poles type-title">타이거호</string>
+    <string _locid="54574" comment="proto-Galleon civ-Poles type-title">드래곤호</string>
+    <string _locid="54575" comment="proto-Galleon civ-Poles type-title">그레이트 선호</string>
+    <string _locid="54576" comment="proto-Galleon civ-Poles type-title">예언자 사무엘호</string>
+    <string _locid="54577" comment="proto-Galleon civ-Poles type-title">나이트호</string>
+    <string _locid="54578" comment="proto-Galleon civ-Poles type-title">세인트 조지호</string>
+    <string _locid="54579" comment="proto-Galleon civ-Poles type-title">다윗 왕호</string>
+    <string _locid="54580" comment="proto-Galleon civ-Poles type-title">블랙 이글호</string>
+    <string _locid="54581" comment="proto-Monitor civ-Poles type-title">세인트 카지미르호</string>
+    <string _locid="54582" comment="proto-Monitor civ-Poles type-title">헤센 랜드그라프호</string>
+    <string _locid="54583" comment="proto-Monitor civ-Poles type-title">쿨디가의 카트리나호</string>
+    <string _locid="54584" comment="proto-Monitor civ-Poles type-title">아우구 포드호</string>
+    <string _locid="54585" comment="proto-Monitor civ-Poles type-title">발리스호</string>
+    <string _locid="54586" comment="proto-Monitor civ-Poles type-title">감비아 토바고호</string>
+    <string _locid="54587" comment="proto-Frigate civ-Poles type-title">카발리에리스호</string>
+    <string _locid="54588" comment="proto-Frigate civ-Poles type-title">야코부스 마요르호</string>
+    <string _locid="54589" comment="proto-Frigate civ-Poles type-title">쿠를란트 프린세스호</string>
+    <string _locid="54590" comment="proto-Frigate civ-Poles type-title">쿠를란트 게르보니스호</string>
+    <string _locid="54591" comment="proto-Frigate civ-Poles type-title">유수 카랄리스카호</string>
+    <string _locid="54592" comment="proto-Frigate civ-Poles type-title">쿠를란트 프린시스호</string>
+    <string _locid="54593" comment="proto-Frigate civ-Poles type-title">포르티투도호</string>
+    <string _locid="54594" comment="proto-deMercBattleship civ-Poles type-title">쿠를란트 공작부인호</string>
+    <string _locid="54595" comment="proto-deMercBattleship civ-Poles type-title">쿠를란트 공작부인호</string>
+    <string _locid="54596" comment="proto-deMercBattleship civ-Poles type-title">프리드리히 빌헬름 왕자호</string>
+    <string _locid="54597" comment="proto-Caravel civ-Danes type-title">솔렌호</string>
+    <string _locid="54598" comment="proto-Caravel civ-Danes type-title">델피넨호</string>
+    <string _locid="54599" comment="proto-Caravel civ-Danes type-title">글롬멘호</string>
+    <string _locid="54600" comment="proto-Caravel civ-Danes type-title">사르펜호</string>
+    <string _locid="54601" comment="proto-Caravel civ-Danes type-title">엘벤호</string>
+    <string _locid="54602" comment="proto-Caravel civ-Danes type-title">트로스트호</string>
+    <string _locid="54603" comment="proto-Caravel civ-Danes type-title">랑엘란호</string>
+    <string _locid="54604" comment="proto-Caravel civ-Danes type-title">롤란호</string>
+    <string _locid="54605" comment="proto-Caravel civ-Danes type-title">알라르트호</string>
+    <string _locid="54606" comment="proto-Caravel civ-Danes type-title">로겐호</string>
+    <string _locid="54607" comment="proto-Caravel civ-Danes type-title">릴레벨트호</string>
+    <string _locid="54608" comment="proto-Caravel civ-Danes type-title">오르멘호</string>
+    <string _locid="54609" comment="proto-Caravel civ-Danes type-title">그립스훈덴호</string>
+    <string _locid="54610" comment="proto-Galleon civ-Danes type-title">트리톤호</string>
+    <string _locid="54611" comment="proto-Galleon civ-Danes type-title">기데온호</string>
+    <string _locid="54612" comment="proto-Galleon civ-Danes type-title">아르고호</string>
+    <string _locid="54613" comment="proto-Galleon civ-Danes type-title">화이트 이글호</string>
+    <string _locid="54614" comment="proto-Galleon civ-Danes type-title">세인트 올루프호</string>
+    <string _locid="54615" comment="proto-Galleon civ-Danes type-title">로센호</string>
+    <string _locid="54616" comment="proto-Galleon civ-Danes type-title">스나렌스벤호</string>
+    <string _locid="54617" comment="proto-Galleon civ-Danes type-title">미카엘호</string>
+    <string _locid="54618" comment="proto-Galleon civ-Danes type-title">나야덴호</string>
+    <string _locid="54619" comment="proto-Galleon civ-Danes type-title">화이트 이글호</string>
+    <string _locid="54620" comment="proto-Galleon civ-Danes type-title">나야덴호</string>
+    <string _locid="54621" comment="proto-Frigate civ-Danes type-title">보른홀름호</string>
+    <string _locid="54622" comment="proto-Frigate civ-Danes type-title">한니발호</string>
+    <string _locid="54623" comment="proto-Frigate civ-Danes type-title">홀스텐호</string>
+    <string _locid="54624" comment="proto-Frigate civ-Danes type-title">크라바텐호</string>
+    <string _locid="54625" comment="proto-Frigate civ-Danes type-title">퓐호</string>
+    <string _locid="54626" comment="proto-Frigate civ-Danes type-title">삼손호</string>
+    <string _locid="54627" comment="proto-Frigate civ-Danes type-title">스토라 소피아호</string>
+    <string _locid="54628" comment="proto-Frigate civ-Danes type-title">그린란드호</string>
+    <string _locid="54629" comment="proto-Frigate civ-Danes type-title">슐레스비히호</string>
+    <string _locid="54630" comment="proto-Frigate civ-Danes type-title">디트마르스켄호</string>
+    <string _locid="54631" comment="proto-Frigate civ-Danes type-title">단네마르크호</string>
+    <string _locid="54632" comment="proto-Frigate civ-Danes type-title">노르웨이호</string>
+    <string _locid="54633" comment="proto-Frigate civ-Danes type-title">오딘호</string>
+    <string _locid="54634" comment="proto-Frigate civ-Danes type-title">스키욜호</string>
+    <string _locid="54635" comment="proto-Frigate civ-Danes type-title">트레 크로네르호</string>
+    <string _locid="54636" comment="proto-Frigate civ-Danes type-title">단네브로게호</string>
+    <string _locid="54637" comment="proto-Frigate civ-Danes type-title">인푀드스레텐호</string>
+    <string _locid="54638" comment="proto-deMercBattleship civ-Danes type-title">노르스케 뢰베호</string>
+    <string _locid="54639" comment="proto-deMercBattleship civ-Danes type-title">발데마르호</string>
+    <string _locid="54640" comment="proto-deMercBattleship civ-Danes type-title">넵투누스호</string>
+    <string _locid="54641" comment="proto-deMercBattleship civ-Danes type-title">소피아 아말리아호</string>
+    <string _locid="54642" comment="proto-deMercBattleship civ-Danes type-title">엘레판텐호</string>
+    <string _locid="54643" comment="proto-deMercBattleship civ-Danes type-title">드로닝엔호</string>
+    <string _locid="54644" comment="proto-deMercBattleship civ-Danes type-title">드로닝 안나 소피아호</string>
+    <string _locid="54645" comment="proto-deMercBattleship civ-Danes type-title">크리스티안 7세호</string>
+    <string _locid="54646" comment="proto-deMercBattleship civ-Danes type-title">프리데리쿠스호</string>
+    <string _locid="54647" comment="proto-deMercBattleship civ-Danes type-title">유스티티아호</string>
+    <string _locid="54648" comment="proto-deMercBattleship civ-Danes type-title">예게르메스테르호</string>
+    <string _locid="54649" comment="proto-deMercBattleship civ-Danes type-title">헤르쿨레스호</string>
+    <string _locid="54650" comment="proto-Monitor civ-Danes type-title">스퇴렌호</string>
+    <string _locid="54651" comment="proto-Monitor civ-Danes type-title">투라호</string>
+    <string _locid="54652" comment="proto-Monitor civ-Danes type-title">아르케 노에호</string>
+    <string _locid="54653" comment="proto-Monitor civ-Danes type-title">옐페렌호</string>
+    <string _locid="54654" comment="proto-Monitor civ-Danes type-title">홀게르 단스케호</string>
+    <string _locid="54655" comment="proto-Monitor civ-Danes type-title">헤클라호</string>
+    <string _locid="54656" comment="proto-Monitor civ-Danes type-title">에이데렌호</string>
+    <string _locid="54657" comment="proto-Monitor civ-Danes type-title">프라멘호</string>
+    <string _locid="54658" comment="proto-Monitor civ-Danes type-title">쇠오르멘호</string>
+    <string _locid="54659" comment="proto-Monitor civ-Danes type-title">켑펜호</string>
+    <string _locid="54660" comment="proto-deGunboat civ-Danes type-title">크리스티안순호</string>
+    <string _locid="54661" comment="proto-deGunboat civ-Danes type-title">카논욜레호</string>
+    <string _locid="54662" comment="proto-deGunboat civ-Danes type-title">비보르호</string>
+    <string _locid="54663" comment="proto-deGunboat civ-Danes type-title">로스킬레호</string>
+    <string _locid="54664" comment="proto-deGunboat civ-Danes type-title">오덴세호</string>
+    <string _locid="54665" comment="proto-deGunboat civ-Danes type-title">낙스코브호</string>
+    <string _locid="54666" comment="proto-deGunboat civ-Danes type-title">미델파르트호</string>
+    <string _locid="54667" comment="proto-deGunboat civ-Danes type-title">헬싱외르호</string>
+    <string _locid="54668" comment="proto-deGunboat civ-Danes type-title">올보르호</string>
+    <string _locid="54669" comment="proto-deGunboat civ-Danes type-title">플렌스보르호</string>
+    <string _locid="54670" comment="proto-deGunboat civ-Danes type-title">봄바르데르바르카세호</string>
+    <string _locid="54671" comment="proto-deGunboat civ-Danes type-title">아렌달호</string>
+    <string _locid="54672" comment="proto-deGunboat civ-Danes type-title">그린란디스케 카트호</string>
+    <string _locid="54673" comment="proto-deGunboat civ-Danes type-title">그린더호</string>
+    <string _locid="54674" comment="proto-xpIronclad civ-Danes type-title">토르덴스횔호</string>
+    <string _locid="54675" comment="proto-xpIronclad civ-Danes type-title">에기르호</string>
+    <string _locid="54676" comment="proto-xpIronclad civ-Danes type-title">셸란호</string>
+    <string _locid="54677" comment="proto-xpIronclad civ-Danes type-title">압살론호</string>
+    <string _locid="54678" comment="proto-xpIronclad civ-Danes type-title">페데르 스크람호</string>
+    <string _locid="54679" comment="proto-xpIronclad civ-Danes type-title">단마르크호</string>
+    <string _locid="54680" comment="proto-xpIronclad civ-Danes type-title">닐스 유엘호</string>
+    <string _locid="54681" comment="proto-xpIronclad civ-Danes type-title">헬골란드호</string>
+    <string _locid="54682" comment="proto-xpIronclad civ-Danes type-title">고름호</string>
+    <string _locid="54683" comment="proto-deWhalingShip type-title">그뢴란파러</string>
+    <string _locid="54684" comment="proto-deWhalingShip type-title">난터켓</string>
+    <string _locid="54685" comment="proto-deWhalingShip type-title">모비 딕</string>
+    <string _locid="54686" comment="proto-deWhalingShip type-title">피쿼드</string>
+    <string _locid="54687" comment="proto-deWhalingShip type-title">퀴퀘그</string>
+    <string _locid="54688" comment="proto-deWhalingShip type-title">벌킹턴</string>
+    <string _locid="54689" comment="proto-deWhalingShip type-title">에이허브</string>
+    <string _locid="54690" comment="proto-deWhalingShip type-title">스타벅</string>
+    <string _locid="54691" comment="proto-deWhalingShip type-title">파더 매플</string>
+    <string _locid="54692" comment="proto-deWhalingShip type-title">이슈마엘</string>
+    <string _locid="54693" comment="proto-deWhalingShip type-title">핍</string>
+    <string _locid="54694" comment="proto-deWhalingShip type-title">타시테고</string>
+    <string _locid="54695" comment="proto-deWhalingShip type-title">다구</string>
+    <string _locid="54696" comment="proto-deWhalingShip type-title">페달라</string>
+    <string _locid="54697" comment="proto-deWhalingShip type-title">퍼스</string>
+    <string _locid="54698" comment="proto-deWhalingShip type-title">고스트</string>
+    <string _locid="54699" comment="proto-deWhalingShip type-title">씨 울프</string>
+    <string _locid="54700" comment="proto-deWhalingShip type-title">반 바이든</string>
+    <string _locid="54701" comment="proto-deWhalingShip type-title">울프 라센</string>
+    <string _locid="54702" comment="proto-deWhalingShip type-title">데스 라센</string>
+    <string _locid="54703" comment="proto-deWhalingShip type-title">찰스 W. 모건</string>
+    <string _locid="54704" comment="proto-deWhalingShip type-title">에섹스</string>
+    <string _locid="54705" comment="proto-deWhalingShip type-title">해독</string>
+    <string _locid="54706" comment="proto-deWhalingShip type-title">후크 선장</string>
+    <string _locid="54707" comment="proto-deWhalingShip type-title">라고다</string>
+    <string _locid="54708" comment="proto-deWhalingShip type-title">그로엔란드</string>
+    <string _locid="54709" comment="proto-deWhalingShip type-title">오로라</string>
+    <string _locid="54710" comment="proto-deWhalingShip type-title">모르게넨</string>
+    <string _locid="54711" comment="proto-deWhalingShip type-title">님로드</string>
+    <string _locid="54712" comment="proto-deWhalingShip type-title">스피사</string>
+    <string _locid="54713" comment="proto-deWhalingShip type-title">안타틱</string>
+    <string _locid="54714" comment="proto-deWhalingShip type-title">요아</string>
+    <string _locid="54715" comment="proto-deWhalingShip type-title">투 브라더스</string>
+    <string _locid="54716" comment="proto-deWhalingShip type-title">아킬레스</string>
+    <string _locid="54717" comment="proto-deWhalingShip type-title">스피츠베르겐</string>
+    <string _locid="54718" comment="proto-deWhalingShip type-title">얀 마옌</string>
+    <string _locid="54719" comment="proto-deWhalingShip type-title">로포텐</string>
+    <string _locid="54720" comment="proto-deWhalingShip type-title">비킹게르</string>
+    <string _locid="54721" comment="proto-deWhalingShip type-title">블러버</string>
+    <string _locid="54722" comment="proto-deWhalingShip type-title">나르발</string>
+    <string _locid="54723" comment="proto-deWhalingShip type-title">크비트발</string>
+    <string _locid="54724" comment="proto-deWhalingShip type-title">크비드발렌</string>
+    <string _locid="54725" comment="proto-deWhalingShip type-title">세타시아</string>
+    <string _locid="54726" comment="proto-deWhalingShip type-title">커틀피시</string>
+    <string _locid="54727" comment="proto-deWhalingShip type-title">그로발</string>
+    <string _locid="54728" comment="proto-deWhalingShip type-title">발판게르</string>
+    <string _locid="54729" comment="proto-deWhalingShip type-title">크발보트</string>
+    <string _locid="54730" comment="proto-deWhalingShip type-title">발보트</string>
+    <string _locid="54731" comment="proto-deWhalingShip type-title">이눌루아픽</string>
+    <string _locid="54732" comment="proto-deWhalingShip type-title">스벤 포인</string>
+    <string _locid="54733" comment="proto-deWhalingShip type-title">비르고함나</string>
+    <string _locid="54734" comment="proto-deWhalingShip type-title">스메렌부르크</string>
+    <string _locid="54735" comment="proto-deWhalingShip type-title">갠지스</string>
+    <string _locid="54736" comment="proto-deWhalingShip type-title">하푸너</string>
+    <string _locid="54737" comment="proto-deWhalingShip type-title">테라 노바</string>
+    <string _locid="54738" comment="proto-deWhalingShip type-title">제이슨</string>
+    <string _locid="54739" comment="proto-deWhalingShip type-title">벨지카</string>
+    <string _locid="54740" comment="proto-deTavern civ-Danes type-title">양조장</string>
+    <string _locid="54741" comment="proto-deTavern civ-Danes type-title">붉은 왕</string>
+    <string _locid="54742" comment="proto-deTavern civ-Danes type-title">소금기 머금은 인어</string>
+    <string _locid="54743" comment="proto-deTavern civ-Danes type-title">쇄빙선</string>
+    <string _locid="54744" comment="proto-deTavern civ-Danes type-title">작은 약방</string>
+    <string _locid="54745" comment="proto-deTavern civ-Danes type-title">다리 방앗간 주막</string>
+    <string _locid="54746" comment="proto-deTavern civ-Danes type-title">쇠트스투에네</string>
+    <string _locid="54747" comment="proto-deTavern civ-Danes type-title">보른홀름 선상 맥주</string>
+    <string _locid="54748" comment="proto-deTavern civ-Danes type-title">룸뷔에의 정자</string>
+    <string _locid="54749" comment="proto-deTavern civ-Danes type-title">야코브센 양조장</string>
+    <string _locid="54750" comment="proto-deTavern civ-Danes type-title">올레의 맥주</string>
+    <string _locid="54751" comment="proto-deTavern civ-Danes type-title">늙은 코끼리</string>
+    <string _locid="54752" comment="proto-deTavern civ-Danes type-title">왕의 주막</string>
+    <string _locid="54753" comment="proto-deTavern civ-Danes type-title">덴마크 소시지</string>
+    <string _locid="54754" comment="proto-deTavern civ-Danes type-title">휘게 구멍</string>
+    <string _locid="54755" comment="proto-deTavern civ-Danes type-title">맥주 거래소</string>
+    <string _locid="54756" comment="proto-deTavern civ-Danes type-title">기사 미켈센</string>
+    <string _locid="54757" comment="proto-deTavern civ-Poles type-title">취한 후사르</string>
+    <string _locid="54758" comment="proto-deTavern civ-Poles type-title">유명한 요한 바오로</string>
+    <string _locid="54759" comment="proto-deTavern civ-Poles type-title">죽은 농부</string>
+    <string _locid="54760" comment="proto-deTavern civ-Poles type-title">마지막 술잔</string>
+    <string _locid="54761" comment="proto-deTavern civ-Poles type-title">흠뻑 취한 벌레 아래서</string>
+    <string _locid="54762" comment="proto-deTavern civ-Poles type-title">코사크 주막</string>
+    <string _locid="54763" comment="proto-deTavern civ-Poles type-title">철의 늑대</string>
+    <string _locid="54764" comment="proto-deTavern civ-Poles type-title">구운 빵</string>
+    <string _locid="54765" comment="proto-deTavern civ-Poles type-title">레이추 주막</string>
+    <string _locid="54766" comment="proto-deTavern civ-Poles type-title">오크통 속의 비버</string>
+    <string _locid="54767" comment="proto-deTavern civ-Poles type-title">마르티노의 미드 하우스</string>
+    <string _locid="54768" comment="proto-deTavern civ-Poles type-title">로마</string>
+    <string _locid="54769" comment="proto-deTavern civ-Poles type-title">든든한 피순대 아래서</string>
+    <string _locid="54770" comment="proto-ExplorerDog civ-Poles type-title">파피크</string>
+    <string _locid="54771" comment="proto-ExplorerDog civ-Poles type-title">샤리크</string>
+    <string _locid="54772" comment="proto-ExplorerDog civ-Poles type-title">렉시오</string>
+    <string _locid="54773" comment="proto-ExplorerDog civ-Poles type-title">보이테크</string>
+    <string _locid="54774" comment="proto-ExplorerDog civ-Poles type-title">부레크</string>
+    <string _locid="54775" comment="proto-ExplorerDog civ-Poles type-title">미시에크</string>
+    <string _locid="54776" comment="proto-ExplorerDog civ-Poles type-title">쿠바</string>
+    <string _locid="54777" comment="proto-ExplorerDog civ-Poles type-title">조란</string>
+    <string _locid="54778" comment="proto-ExplorerDog civ-Poles type-title">아조르</string>
+    <string _locid="54779" comment="proto-ExplorerDog civ-Poles type-title">보비크</string>
+    <string _locid="54780" comment="proto-ExplorerDog civ-Poles type-title">보베르</string>
+    <string _locid="54781" comment="proto-ExplorerDog civ-Poles type-title">푸키스</string>
+    <string _locid="54782" comment="proto-ExplorerDog civ-Poles type-title">트롤</string>
+    <string _locid="54783" comment="proto-ExplorerDog civ-Danes type-title">밤세</string>
+    <string _locid="54784" comment="proto-ExplorerDog civ-Danes type-title">룰레</string>
+    <string _locid="54785" comment="proto-ExplorerDog civ-Danes type-title">펜리스</string>
+    <string _locid="54786" comment="proto-ExplorerDog civ-Danes type-title">빌드브라트</string>
+    <string _locid="54787" comment="proto-ExplorerDog civ-Danes type-title">크비크</string>
+    <string _locid="54788" comment="proto-ExplorerDog civ-Danes type-title">파소프</string>
+    <string _locid="54789" comment="proto-ExplorerDog civ-Danes type-title">트로파스트</string>
+    <string _locid="54790" comment="proto-ExplorerDog civ-Danes type-title">프레이야</string>
+    <string _locid="54791" comment="proto-ExplorerDog civ-Danes type-title">몰리</string>
+    <string _locid="54792" comment="proto-ExplorerDog civ-Danes type-title">헤임달</string>
+    <string _locid="54793" comment="proto-ExplorerDog civ-Danes type-title">게리</string>
+    <string _locid="54794" comment="proto-ExplorerDog civ-Danes type-title">프레키</string>
+    <string _locid="54795" comment="proto-General civ-REVPrussians type-firstname">볼레 </string>
+    <string _locid="54796" comment="proto-General civ-REVPrussians type-firstname">칼레 </string>
+    <string _locid="54797" comment="proto-General civ-REVPrussians type-firstname">프리츠 </string>
+    <string _locid="54798" comment="proto-General civ-REVPrussians type-firstname">프리체 </string>
+    <string _locid="54799" comment="proto-General civ-REVPrussians type-firstname">오토 </string>
+    <string _locid="54800" comment="proto-General civ-REVPrussians type-firstname">헬무트 </string>
+    <string _locid="54801" comment="proto-General civ-REVPrussians type-firstname">프라이헤어 </string>
+    <string _locid="54802" comment="proto-General civ-REVPrussians type-firstname">오베르스트 </string>
+    <string _locid="54803" comment="proto-General civ-REVPrussians type-firstname">프린츠 </string>
+    <string _locid="54804" comment="proto-General civ-REVPrussians type-firstname">그라프 </string>
+    <string _locid="54805" comment="proto-General civ-REVPrussians type-lastname">폰 샤른호르스트</string>
+    <string _locid="54806" comment="proto-General civ-REVPrussians type-lastname">폰 몰트케</string>
+    <string _locid="54807" comment="proto-General civ-REVPrussians type-lastname">폰 뷜로</string>
+    <string _locid="54808" comment="proto-General civ-REVPrussians type-lastname">폰 데네비츠</string>
+    <string _locid="54809" comment="proto-General civ-REVPrussians type-lastname">폰 비스마르크</string>
+    <string _locid="54810" comment="proto-General civ-REVPrussians type-lastname">폰 치텐</string>
+    <string _locid="54811" comment="proto-General civ-REVPrussians type-lastname">폰 자이들리츠</string>
+    <string _locid="54812" comment="proto-General civ-REVPrussians type-lastname">폰 프로이센</string>
+    <string _locid="54813" comment="proto-General civ-REVPrussians type-lastname">폰 그나이제나우</string>
+    <string _locid="54814" comment="proto-General civ-REVPrussians type-lastname">폰 쾨페니크</string>
+    <string _locid="54815" comment="proto-General civ-REVPrussians type-lastname">폰 슈판다우</string>
+    <string _locid="54816" comment="proto-General civ-REVPrussians type-lastname">폰 클라이스트</string>
+    <string _locid="54817" comment="proto-General civ-REVPrussians type-lastname">폰 치체비츠</string>
+    <string _locid="54818" comment="proto-General civ-REVPrussians type-lastname">폰 하머슈타인</string>
+    <string _locid="54819" comment="proto-General civ-REVPrussians type-lastname">폰 브란덴부르크</string>
+    <string _locid="54820" comment="proto-General civ-REVPrussians type-lastname">폰 뤼초</string>
+    <string _locid="54821" comment="proto-General civ-REVPrussians type-lastname">폰 포츠담</string>
+    <string _locid="54822" comment="proto-General civ-REVPrussians type-lastname">폰 샤를로텐부르크</string>
+    <string _locid="54823" comment="proto-General civ-REVPrussians type-lastname">폰 하르덴베르크</string>
+    <string _locid="54824" comment="proto-General civ-REVPrussians type-lastname">폰 리히트호펜</string>
+    <string _locid="54825" comment="proto-General civ-REVPrussians type-lastname">폰 아르님</string>
+    <string _locid="54826" comment="proto-General civ-REVPrussians type-lastname">폰 베르크하인</string>
+    <string _locid="54827" comment="proto-General civ-REVPrussians type-lastname">폰 프리드리히스하인</string>
+    <string _locid="54828" comment="proto-General civ-REVPrussians type-lastname">폰 토이펠스베르크</string>
+    <string _locid="54829" comment="proto-Xebec civ-REVCossacks type-title">호르티차</string>
+    <string _locid="54830" comment="proto-Xebec civ-REVCossacks type-title">우크라이나</string>
+    <string _locid="54831" comment="proto-EggSleigh type-title">굴뚝 크래셔</string>
+    <string _locid="54832" comment="proto-EggSleigh type-title">굴뚝 스위퍼</string>
+    <string _locid="54833" comment="proto-EggSleigh type-title">율 커맨더</string>
+    <string _locid="54834" comment="proto-EggSleigh type-title">슬레이 벨</string>
+    <string _locid="54835" comment="proto-EggSleigh type-title">에어 슬레드 원</string>
+    <string _locid="54836" comment="proto-EggSleigh type-title">슬레이 슬레이</string>
+    <string _locid="54837" comment="proto-EggSleigh type-title">아크틱 슬레이</string>
+    <string _locid="54838" comment="proto-EggSleigh type-title">슬레이 벨 원</string>
+    <string _locid="54839" comment="proto-EggSleigh type-title">아크틱 익스프레스</string>
+    <string _locid="54840" comment="proto-EggSleigh type-title">기프트 보머</string>
+    <string _locid="54841" comment="proto-EggSleigh type-title">하트 폭격기</string>
+    <string _locid="54842" comment="proto-EggSleigh type-title">러브 보머</string>
+    <string _locid="54843" comment="proto-EggSleigh type-title">서스 썰매</string>
+    <string _locid="54844" comment="proto-EggSleigh type-title">글리터 게일</string>
+    <string _locid="54845" comment="proto-EggSleigh type-title">프리즘 파일럿</string>
+    <string _locid="54846" comment="proto-EggSleigh type-title">레드핫 슬레이</string>
+    <string _locid="54847" comment="proto-EggSleigh type-title">스칼렛 스터너</string>
+    <string _locid="54848" comment="proto-EggSleigh type-title">갓-산타</string>
+    <string _locid="54849" comment="proto-EggSleigh type-title">미슬토 메이헴</string>
+    <string _locid="54850" comment="proto-EggSleigh type-title">기프트 굿</string>
+    <string _locid="54851" comment="proto-EggSleigh type-title">기프트 갓</string>
+    <string _locid="54852" comment="proto-EggSleigh type-title">블리자드 버프</string>
+    <string _locid="54853" comment="proto-EggSleigh type-title">징글 장크</string>
+    <string _locid="54854" comment="proto-EggSleigh type-title">윈터 왜건</string>
+    <string _locid="54855" comment="proto-EggSleigh type-title">율 요트</string>
+    <string _locid="54856" comment="proto-EggSleigh type-title">파더 프로스트</string>
+    <string _locid="54857" comment="proto-EggSleigh type-title">레인디어 라이더</string>
+    <string _locid="54858" comment="proto-EggSleigh type-title">아크틱 에어라인</string>
+    <string _locid="54859" comment="proto-EggSleigh type-title">틴셀 탱커</string>
   </language>
 </stringtable>

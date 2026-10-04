@@ -54,81 +54,81 @@
   <group name="Captain's Quarters">
     <label string="69671" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="26">
     </label>
-    <card name="YPHCShipChuKoNu1" banner="unit" icon="resources/art/units/asians/chinese/chu_ko_nu/chu_ko_nu_icon_portrait.png" row="1" col="27">
+    <card name="YPHCShipChuKoNu1" banner="unit" icon="resources/art/units/asians/chinese/chu_ko_nu/chu_ko_nu_icon_64.png" row="1" col="27">
     </card>
-    <card name="YPHCShipChuKoNu2" banner="unit" icon="resources/art/units/asians/chinese/chu_ko_nu/chu_ko_nu_icon_portrait.png" row="2" col="27">
+    <card name="YPHCShipChuKoNu2" banner="unit" icon="resources/art/units/asians/chinese/chu_ko_nu/chu_ko_nu_icon_64.png" row="2" col="27">
     </card>
-    <card name="YPHCShipChuKoNu3" banner="unit" icon="resources/art/units/asians/chinese/chu_ko_nu/chu_ko_nu_icon_portrait.png" row="3" col="27">
+    <card name="YPHCShipChuKoNu3" banner="unit" icon="resources/art/units/asians/chinese/chu_ko_nu/chu_ko_nu_icon_64.png" row="3" col="27">
     </card>
     <card name="YPHCShipMandarinDuckSquad" banner="army" icon="resources/images/icons/home_city/hc_chinese_mandarin_duck_squad.png" row="4" col="27">
     </card>
-    <card name="YPHCShipQiangPikeman1" banner="unit" icon="resources/art/units/asians/chinese/qiang_pikeman/qiang_pikeman_icon_portrait.png" row="5" col="27">
+    <card name="YPHCShipQiangPikeman1" banner="unit" icon="resources/art/units/asians/chinese/qiang_pikeman/qiang_pikeman_icon_64.png" row="5" col="27">
     </card>
-    <card name="YPHCShipQiangPikeman2" banner="unit" icon="resources/art/units/asians/chinese/qiang_pikeman/qiang_pikeman_icon_portrait.png" row="6" col="27">
+    <card name="YPHCShipQiangPikeman2" banner="unit" icon="resources/art/units/asians/chinese/qiang_pikeman/qiang_pikeman_icon_64.png" row="6" col="27">
     </card>
-    <card name="YPHCShipQiangPikeman3" banner="unit" icon="resources/art/units/asians/chinese/qiang_pikeman/qiang_pikeman_icon_portrait.png" row="7" col="27">
+    <card name="YPHCShipQiangPikeman3" banner="unit" icon="resources/art/units/asians/chinese/qiang_pikeman/qiang_pikeman_icon_64.png" row="7" col="27">
     </card>
     <card name="YPHCOldHanArmyReforms" banner="improvement" icon="resources/images/icons/home_city/hc_old_han_heavy_infantry_bonus.png" row="8" col="27">
     </card>
-    <card name="YPHCShipKeshik2" banner="unit" icon="resources/art/units/asians/chinese/keshik/keshik_icon_portrait.png" row="1" col="33">
+    <card name="YPHCShipKeshik2" banner="unit" icon="resources/art/units/asians/chinese/keshik/keshik_icon_64.png" row="1" col="33">
     </card>
-    <card name="YPHCShipKeshik3" banner="unit" icon="resources/art/units/asians/chinese/keshik/keshik_icon_portrait.png" row="2" col="33">
+    <card name="YPHCShipKeshik3" banner="unit" icon="resources/art/units/asians/chinese/keshik/keshik_icon_64.png" row="2" col="33">
     </card>
     <card name="YPHCStandardArmyHitpoints" banner="improvement" icon="resources/images/icons/home_city/hc_standard_army_reforms.png" row="3" col="33">
     </card>
     <card name="YPHCBannerReforms" banner="improvement" icon="resources/images/icons/home_city/hc_banner_reforms.png" row="4" col="33">
     </card>
-    <card name="YPHCShipArquebusier1" banner="unit" icon="resources/art/units/asians/chinese/arquebusier/arquebusier_icon_portrait.png" row="1" col="39">
+    <card name="YPHCShipArquebusier1" banner="unit" icon="resources/art/units/asians/chinese/arquebusier/arquebusier_icon_64.png" row="1" col="39">
     </card>
-    <card name="YPHCShipArquebusier2" banner="unit" icon="resources/art/units/asians/chinese/arquebusier/arquebusier_icon_portrait.png" row="2" col="39">
+    <card name="YPHCShipArquebusier2" banner="unit" icon="resources/art/units/asians/chinese/arquebusier/arquebusier_icon_64.png" row="2" col="39">
     </card>
     <card name="YPHCShipEmperorsArmy" banner="improvement" icon="resources/images/icons/home_city/hc_chinese_emperors_army.png" row="3" col="39">
     </card>
-    <card name="YPHCShipChangdao1" banner="unit" icon="resources/art/units/asians/chinese/changdao/changdao_icon_portrait.png" row="4" col="39">
+    <card name="YPHCShipChangdao1" banner="unit" icon="resources/art/units/asians/chinese/changdao/changdao_icon_64.png" row="4" col="39">
     </card>
-    <card name="YPHCShipChangdao2" banner="unit" icon="resources/art/units/asians/chinese/changdao/changdao_icon_portrait.png" row="5" col="39">
+    <card name="YPHCShipChangdao2" banner="unit" icon="resources/art/units/asians/chinese/changdao/changdao_icon_64.png" row="5" col="39">
     </card>
     <card name="YPHCShipIronCapPrincesArmy" banner="army" icon="resources/images/icons/home_city/hc_chinese_iron_cap_prince_army.png" row="6" col="39">
     </card>
     <card name="YPHCHanAntiCavalryBonus" banner="improvement" icon="resources/images/icons/home_city/hc_han_anti_cavalry_bonus.png" row="7" col="39">
     </card>
-    <card name="YPHCShipSteppeRider1" banner="unit" icon="resources/art/units/asians/chinese/steppe_rider/steppe_rider_icon_portrait.png" row="1" col="45">
+    <card name="YPHCShipSteppeRider1" banner="unit" icon="resources/art/units/asians/chinese/steppe_rider/steppe_rider_icon_64.png" row="1" col="45">
     </card>
-    <card name="YPHCShipSteppeRider2" banner="unit" icon="resources/art/units/asians/chinese/steppe_rider/steppe_rider_icon_portrait.png" row="2" col="45">
+    <card name="YPHCShipSteppeRider2" banner="unit" icon="resources/art/units/asians/chinese/steppe_rider/steppe_rider_icon_64.png" row="2" col="45">
     </card>
-    <card name="YPHCShipSteppeRider3" banner="unit" icon="resources/art/units/asians/chinese/steppe_rider/steppe_rider_icon_portrait.png" row="3" col="45">
+    <card name="YPHCShipSteppeRider3" banner="unit" icon="resources/art/units/asians/chinese/steppe_rider/steppe_rider_icon_64.png" row="3" col="45">
     </card>
     <card name="YPHCMongolianScourge" banner="improvement" icon="resources/images/icons/home_city/hc_mongolian_scourge.png" row="4" col="45">
     </card>
-    <card name="YPHCShipIronFlail1" banner="unit" icon="resources/art/units/asians/chinese/iron_flail/iron_flail_icon_portrait.png" row="5" col="45">
+    <card name="YPHCShipIronFlail1" banner="unit" icon="resources/art/units/asians/chinese/iron_flail/iron_flail_icon_64.png" row="5" col="45">
     </card>
-    <card name="YPHCShipIronFlail2" banner="unit" icon="resources/art/units/asians/chinese/iron_flail/iron_flail_icon_portrait.png" row="6" col="45">
+    <card name="YPHCShipIronFlail2" banner="unit" icon="resources/art/units/asians/chinese/iron_flail/iron_flail_icon_64.png" row="6" col="45">
     </card>
     <card name="YPHCShipBeiyangArmy" banner="army" icon="resources/images/icons/home_city/hc_bei_ying_army.png" row="7" col="45">
     </card>
     <card name="YPHCShipEverVictoriousArmy" banner="army" icon="resources/images/icons/home_city/hc_chinese_ever_victorious_army.png" row="8" col="45">
     </card>
-    <card name="YPHCShipMeteorHammer1" banner="unit" icon="resources/art/units/asians/chinese/meteor_hammer/meteor_hammer_icon_portrait.png" row="1" col="51">
+    <card name="YPHCShipMeteorHammer1" banner="unit" icon="resources/art/units/asians/chinese/meteor_hammer/meteor_hammer_icon_64.png" row="1" col="51">
     </card>
-    <card name="YPHCShipMeteorHammer2" banner="unit" icon="resources/art/units/asians/chinese/meteor_hammer/meteor_hammer_icon_portrait.png" row="2" col="51">
+    <card name="YPHCShipMeteorHammer2" banner="unit" icon="resources/art/units/asians/chinese/meteor_hammer/meteor_hammer_icon_64.png" row="2" col="51">
     </card>
-    <card name="YPHCShipMeteorHammer3" banner="unit" icon="resources/art/units/asians/chinese/meteor_hammer/meteor_hammer_icon_portrait.png" row="3" col="51">
+    <card name="YPHCShipMeteorHammer3" banner="unit" icon="resources/art/units/asians/chinese/meteor_hammer/meteor_hammer_icon_64.png" row="3" col="51">
     </card>
     <card name="YPHCForbiddenArmyArmor" banner="improvement" icon="resources/images/icons/home_city/hc_mongolian_armor.png" row="4" col="51">
     </card>
-    <card name="YPHCShipFlameThrower2" banner="unit" icon="resources/art/units/asians/chinese/flame_thrower/flame_thrower_icon_portrait.png" row="5" col="51">
+    <card name="YPHCShipFlameThrower2" banner="unit" icon="resources/art/units/asians/chinese/flame_thrower/flame_thrower_icon_64.png" row="5" col="51">
     </card>
-    <card name="YPHCShipFlameThrower3" banner="unit" icon="resources/art/units/asians/chinese/flame_thrower/flame_thrower_icon_portrait.png" row="6" col="51">
+    <card name="YPHCShipFlameThrower3" banner="unit" icon="resources/art/units/asians/chinese/flame_thrower/flame_thrower_icon_64.png" row="6" col="51">
     </card>
-    <card name="YPHCShipHandMortar1" banner="unit" icon="resources/art/units/asians/chinese/hand_mortar/hand_mortar_icon_portrait.png" row="7" col="51">
+    <card name="YPHCShipHandMortar1" banner="unit" icon="resources/art/units/asians/chinese/hand_mortar/hand_mortar_icon_64.png" row="7" col="51">
     </card>
-    <card name="YPHCShipHandMortar2" banner="unit" icon="resources/art/units/asians/chinese/hand_mortar/hand_mortar_icon_portrait.png" row="8" col="51">
+    <card name="YPHCShipHandMortar2" banner="unit" icon="resources/art/units/asians/chinese/hand_mortar/hand_mortar_icon_64.png" row="8" col="51">
     </card>
-    <card name="YPHCShipFlyingCrow1" banner="unit" icon="resources/art/units/asians/chinese/flying_crow/flying_crow_icon_portrait.png" row="1" col="57">
+    <card name="YPHCShipFlyingCrow1" banner="unit" icon="resources/art/units/asians/chinese/flying_crow/flying_crow_icon_64.png" row="1" col="57">
     </card>
     <card name="YPHCArtilleryCombatChinese" banner="improvement" icon="resources/images/icons/techs/hc_artillary_combat/hc_artillary_combat.png" row="2" col="57">
     </card>
-    <card name="YPHCShipFlyingCrow2" banner="unit" icon="resources/art/units/asians/chinese/flying_crow/flying_crow_icon_portrait.png" row="3" col="57">
+    <card name="YPHCShipFlyingCrow2" banner="unit" icon="resources/art/units/asians/chinese/flying_crow/flying_crow_icon_64.png" row="3" col="57">
     </card>
   </group>
   <group name="Galley">
@@ -192,21 +192,21 @@
     </card>
     <card name="HCMercenaryLoyalty" banner="improvement" icon="resources/images/icons/techs/hc_mercenary_loyalty/hc_mercenary_loyalty.png" row="2" col="90">
     </card>
-    <card name="YPHCMercsIronTroop1" banner="unit" icon="resources/art/units/asians/mercenaries/iron_troop/iron_troop_icon_portrait.png" row="3" col="90">
+    <card name="YPHCMercsIronTroop1" banner="unit" icon="resources/art/units/asians/mercenaries/iron_troop/iron_troop_icon_64.png" row="3" col="90">
     </card>
-    <card name="HCMercsManchu" banner="unit" icon="resources/art/units/mercenaries/manchurian_archer/manchurian_archer_portrait.png" row="4" col="90">
+    <card name="HCMercsManchu" banner="unit" icon="resources/art/units/mercenaries/manchurian_archer/manchurian_archer_icon_64x64.png" row="4" col="90">
     </card>
     <card name="YPHCMercsMandarinArmy1" banner="unit" icon="resources/images/icons/home_city/hc_mandarin_mercenary_army.png" row="5" col="90">
     </card>
-    <card name="YPHCMercsRattanShield1" banner="unit" icon="resources/art/units/asians/natives/rattan_shield/shield_rattan_icon_portrait.png" row="6" col="90">
+    <card name="YPHCMercsRattanShield1" banner="unit" icon="resources/art/units/asians/natives/rattan_shield/shield_rattan_icon.png" row="6" col="90">
     </card>
-    <card name="YPHCMercsRattanShield2" banner="unit" icon="resources/art/units/asians/natives/rattan_shield/shield_rattan_icon_portrait.png" row="7" col="90">
+    <card name="YPHCMercsRattanShield2" banner="unit" icon="resources/art/units/asians/natives/rattan_shield/shield_rattan_icon.png" row="7" col="90">
     </card>
     <card name="YPHCMercsRattanShield3" banner="unit" icon="resources/images/icons/home_city/hc_infinite_rattanshield_icon_64.png" row="8" col="90">
     </card>
-    <card name="YPHCWokouChinese1" banner="unit" icon="resources/art/units/asians/naval/wokou_junk/wokou_junk_icon_portrait.png" row="1" col="96">
+    <card name="YPHCWokouChinese1" banner="unit" icon="resources/art/units/asians/naval/wokou_junk/wokou_junk_icon.png" row="1" col="96">
     </card>
-    <card name="YPHCWokouChinese2" banner="unit" icon="resources/art/units/asians/naval/wokou_junk/wokou_junk_icon_portrait.png" row="2" col="96">
+    <card name="YPHCWokouChinese2" banner="unit" icon="resources/art/units/asians/naval/wokou_junk/wokou_junk_icon.png" row="2" col="96">
     </card>
     <card name="YPHCWokouChinese3" banner="unit" icon="resources/images/icons/techs/asians/chuck/hc_wokou_ronin.png" row="3" col="96">
     </card>

@@ -1,0 +1,10 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="unlit_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="Texture" override="units\natives\lakota\war_chief\textures\sx_warchief_aura_mata_basecolor">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

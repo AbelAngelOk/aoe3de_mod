@@ -1,0 +1,4 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\whale_minke\whale_minke_young</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture><selectedtexture>shadows_selections\shadow_circle_128x128</selectedtexture><width>4.50</width><height>7.00</height><zoffset>0.20</zoffset></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\whale_minke\whale_minke_young_idle</file></assetreference><component>ModelComp</component></anim>
+</animfile>

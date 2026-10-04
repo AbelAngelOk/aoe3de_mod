@@ -1,0 +1,5 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\flock_of_birds\blackbird_model</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\blackbird_flap1</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\blackbird_flap2</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\blackbird_flap3</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\blackbird_flap1</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\blackbird_flap2</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\blackbird_flap3</file></assetreference><component>ModelComp</component></anim>
+</animfile>

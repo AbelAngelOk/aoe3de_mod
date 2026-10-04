@@ -806,7 +806,7 @@
     <string _locid="50803" comment="proto-Explorer civ-Germans type-firstname">アレクサンダ－ </string>
     <string _locid="50804" comment="proto-Explorer civ-Germans type-firstname">アンブローズ </string>
     <string _locid="50805" comment="proto-Explorer civ-Germans type-firstname">オーガスティン </string>
-    <string _locid="50806" comment="proto-Explorer civ-Germans type-firstname">オーガスト</string>
+    <string _locid="50806" comment="proto-Explorer civ-Germans type-firstname">オーガスト </string>
     <string _locid="50807" comment="proto-Explorer civ-Germans type-firstname">カール </string>
     <string _locid="50808" comment="proto-Explorer civ-Germans type-firstname">ディ－トリッヒ </string>
     <string _locid="50809" comment="proto-Explorer civ-Germans type-firstname">エドゥアルド </string>
@@ -965,7 +965,7 @@
     <string _locid="50962" comment="proto-Explorer civ-Russians type-firstname">アンドレイ </string>
     <string _locid="50963" comment="proto-Explorer civ-Russians type-firstname">アレクセイ </string>
     <string _locid="50964" comment="proto-Explorer civ-Russians type-firstname">アレクセイ </string>
-    <string _locid="50965" comment="proto-Explorer civ-Russians type-firstname">ドミトリ－</string>
+    <string _locid="50965" comment="proto-Explorer civ-Russians type-firstname">ドミトリ－ </string>
     <string _locid="50966" comment="proto-Explorer civ-Russians type-firstname">フョ－ドル </string>
     <string _locid="50967" comment="proto-Explorer civ-Russians type-firstname">ガヴリル </string>
     <string _locid="50968" comment="proto-Explorer civ-Russians type-firstname">ゲラシム </string>
@@ -975,7 +975,7 @@
     <string _locid="50972" comment="proto-Explorer civ-Russians type-firstname">ミハイル </string>
     <string _locid="50973" comment="proto-Explorer civ-Russians type-firstname">ペトル </string>
     <string _locid="50974" comment="proto-Explorer civ-Russians type-firstname">ピョートル </string>
-    <string _locid="50975" comment="proto-Explorer civ-Russians type-firstname">セミヨン</string>
+    <string _locid="50975" comment="proto-Explorer civ-Russians type-firstname">セミヨン </string>
     <string _locid="50976" comment="proto-Explorer civ-Russians type-firstname">ステンカ </string>
     <string _locid="50977" comment="proto-Explorer civ-Russians type-firstname">ステファン </string>
     <string _locid="50978" comment="proto-Explorer civ-Russians type-firstname">ティモフェイ </string>
@@ -1024,7 +1024,7 @@
     <string _locid="51021" comment="proto-Explorer civ-Spanish type-firstname">エステヴァニコ </string>
     <string _locid="51022" comment="proto-Explorer civ-Spanish type-firstname">ユ－セイビオ </string>
     <string _locid="51023" comment="proto-Explorer civ-Spanish type-firstname">フォルトゥン </string>
-    <string _locid="51024" comment="proto-Explorer civ-Spanish type-firstname">フランシスコ</string>
+    <string _locid="51024" comment="proto-Explorer civ-Spanish type-firstname">フランシスコ </string>
     <string _locid="51025" comment="proto-Explorer civ-Spanish type-firstname">トマス </string>
     <string _locid="51026" comment="proto-Explorer civ-Spanish type-firstname">エルナン </string>
     <string _locid="51027" comment="proto-Explorer civ-Spanish type-firstname">エルナンド </string>
@@ -2309,7 +2309,7 @@
     <string _locid="52331" comment="proto-deGeneral civ-DEMexicans type-firstname">フェリペ サンティアゴ </string>
     <string _locid="52332" comment="proto-deGeneral civ-DEMexicans type-firstname">レオナルド </string>
     <string _locid="52333" comment="proto-deGeneral civ-DEMexicans type-firstname">エルメネヒルド </string>
-    <string _locid="52334" comment="proto-deGeneral civ-DEMexicans type-firstname">フランシスコ</string>
+    <string _locid="52334" comment="proto-deGeneral civ-DEMexicans type-firstname">フランシスコ </string>
     <string _locid="52335" comment="proto-deGeneral civ-DEMexicans type-firstname">ファン パブロ デ </string>
     <string _locid="52336" comment="proto-deGeneral civ-DEMexicans type-firstname">ヴィクトル </string>
     <string _locid="52337" comment="proto-deGeneral civ-DEMexicans type-firstname">カルロス サラサール </string>
@@ -2348,7 +2348,7 @@
     <string _locid="52370" comment="proto-dePadre civ-DEMexicans type-firstname">ルイス フェリペ </string>
     <string _locid="52371" comment="proto-dePadre civ-DEMexicans type-firstname">バルトロメ </string>
     <string _locid="52372" comment="proto-dePadre civ-DEMexicans type-firstname">キース </string>
-    <string _locid="52373" comment="proto-dePadre civ-DEMexicans type-firstname">フランシスコ</string>
+    <string _locid="52373" comment="proto-dePadre civ-DEMexicans type-firstname">フランシスコ </string>
     <string _locid="52374" comment="proto-dePadre civ-DEMexicans type-firstname">アントニオ ロペス </string>
     <string _locid="52375" comment="proto-dePadre civ-DEMexicans type-firstname">ヘスス メンデス </string>
     <string _locid="52376" comment="proto-dePadre civ-DEMexicans type-firstname">サルバドル </string>
@@ -2680,5 +2680,513 @@
     <string _locid="54349" comment="proto-deMercBattleship civ-French type-title">ヴァンジュール号</string>
     <string _locid="54350" comment="proto-deMercBattleship civ-French type-title">モンテベロ号</string>
     <string _locid="54351" comment="proto-deMercBattleship civ-Germans type-title">アドラー フォン リューベック号</string>
+    <string _locid="54352" comment="proto-deHetman type-firstname">アダム </string>
+    <string _locid="54353" comment="proto-deHetman type-firstname">アレクサンダー </string>
+    <string _locid="54354" comment="proto-deHetman type-firstname">アンジェイ  </string>
+    <string _locid="54355" comment="proto-deHetman type-firstname">ディミトル </string>
+    <string _locid="54356" comment="proto-deHetman type-firstname">エルネスタス </string>
+    <string _locid="54357" comment="proto-deHetman type-firstname">フェリクス </string>
+    <string _locid="54358" comment="proto-deHetman type-firstname">フランチェスコ </string>
+    <string _locid="54359" comment="proto-deHetman type-firstname">グリガリウス </string>
+    <string _locid="54360" comment="proto-deHetman type-firstname">グジェゴシュ </string>
+    <string _locid="54361" comment="proto-deHetman type-firstname">ヒエロニム </string>
+    <string _locid="54362" comment="proto-deHetman type-firstname">ヤン・カロル </string>
+    <string _locid="54363" comment="proto-deHetman type-firstname">ヤヌシュ </string>
+    <string _locid="54364" comment="proto-deHetman type-firstname">イェジ </string>
+    <string _locid="54365" comment="proto-deHetman type-firstname">ヨナス </string>
+    <string _locid="54366" comment="proto-deHetman type-firstname">ユゼフ </string>
+    <string _locid="54367" comment="proto-deHetman type-firstname">コンスタンティ </string>
+    <string _locid="54368" comment="proto-deHetman type-firstname">クシシュトフ </string>
+    <string _locid="54369" comment="proto-deHetman type-firstname">クシシュトフ </string>
+    <string _locid="54370" comment="proto-deHetman type-firstname">レフ </string>
+    <string _locid="54371" comment="proto-deHetman type-firstname">リュドヴィカス </string>
+    <string _locid="54372" comment="proto-deHetman type-firstname">ルドヴィク </string>
+    <string _locid="54373" comment="proto-deHetman type-firstname">マルチン </string>
+    <string _locid="54374" comment="proto-deHetman type-firstname">マテウシュ </string>
+    <string _locid="54375" comment="proto-deHetman type-firstname">ミハウ </string>
+    <string _locid="54376" comment="proto-deHetman type-firstname">ミコワイ </string>
+    <string _locid="54377" comment="proto-deHetman type-firstname">ミコラス </string>
+    <string _locid="54378" comment="proto-deHetman type-firstname">パヴェウ・ヤン </string>
+    <string _locid="54379" comment="proto-deHetman type-firstname">ピョートル </string>
+    <string _locid="54380" comment="proto-deHetman type-firstname">ローマ </string>
+    <string _locid="54381" comment="proto-deHetman type-firstname">セウェリン </string>
+    <string _locid="54382" comment="proto-deHetman type-firstname">シモナス </string>
+    <string _locid="54383" comment="proto-deHetman type-firstname">スタニスワフ </string>
+    <string _locid="54384" comment="proto-deHetman type-firstname">スタニスロヴァ </string>
+    <string _locid="54385" comment="proto-deHetman type-firstname">ステファン </string>
+    <string _locid="54386" comment="proto-deHetman type-firstname">ヴァツワフ </string>
+    <string _locid="54387" comment="proto-deHetman type-firstname">ヴワディスワフ </string>
+    <string _locid="54388" comment="proto-deHetman type-lastname">ブラニツキ</string>
+    <string _locid="54389" comment="proto-deHetman type-lastname">ホッツァ</string>
+    <string _locid="54390" comment="proto-deHetman type-lastname">ホデツキ</string>
+    <string _locid="54391" comment="proto-deHetman type-lastname">チョドキェヴィチ</string>
+    <string _locid="54392" comment="proto-deHetman type-lastname">チョメトウスキー</string>
+    <string _locid="54393" comment="proto-deHetman type-lastname">チャルニエツキ</string>
+    <string _locid="54394" comment="proto-deHetman type-lastname">デンホファス</string>
+    <string _locid="54395" comment="proto-deHetman type-lastname">フィルレイ</string>
+    <string _locid="54396" comment="proto-deHetman type-lastname">ヤブロノフスキー</string>
+    <string _locid="54397" comment="proto-deHetman type-lastname">ヤズロヴィエツキ</string>
+    <string _locid="54398" comment="proto-deHetman type-lastname">カリノフスキ</string>
+    <string _locid="54399" comment="proto-deHetman type-lastname">カミエニエツキ</string>
+    <string _locid="54400" comment="proto-deHetman type-lastname">カザノフスキ</string>
+    <string _locid="54401" comment="proto-deHetman type-lastname">カジミェラス</string>
+    <string _locid="54402" comment="proto-deHetman type-lastname">ケスガイラ</string>
+    <string _locid="54403" comment="proto-deHetman type-lastname">キシュカ</string>
+    <string _locid="54404" comment="proto-deHetman type-lastname">コーワ</string>
+    <string _locid="54405" comment="proto-deHetman type-lastname">コニェツポルスキー</string>
+    <string _locid="54406" comment="proto-deHetman type-lastname">コサコフスキス</string>
+    <string _locid="54407" comment="proto-deHetman type-lastname">ランツコロニスキ</string>
+    <string _locid="54408" comment="proto-deHetman type-lastname">ルボミルスキー</string>
+    <string _locid="54409" comment="proto-deHetman type-lastname">マルティナス</string>
+    <string _locid="54410" comment="proto-deHetman type-lastname">マサルスキー</string>
+    <string _locid="54411" comment="proto-deHetman type-lastname">ミェレツキ</string>
+    <string _locid="54412" comment="proto-deHetman type-lastname">ミシュコウスキー</string>
+    <string _locid="54413" comment="proto-deHetman type-lastname">オギンスキー</string>
+    <string _locid="54414" comment="proto-deHetman type-lastname">オギンスキス</string>
+    <string _locid="54415" comment="proto-deHetman type-lastname">オストログスキ</string>
+    <string _locid="54416" comment="proto-deHetman type-lastname">オザロフスキー</string>
+    <string _locid="54417" comment="proto-deHetman type-lastname">パニェフスキ</string>
+    <string _locid="54418" comment="proto-deHetman type-lastname">ペルクーナス</string>
+    <string _locid="54419" comment="proto-deHetman type-lastname">ピェニアジェク</string>
+    <string _locid="54420" comment="proto-deHetman type-lastname">ピョルン</string>
+    <string _locid="54421" comment="proto-deHetman type-lastname">ポチェジュス</string>
+    <string _locid="54422" comment="proto-deHetman type-lastname">ポトツキー</string>
+    <string _locid="54423" comment="proto-deHetman type-lastname">ラシボルザン</string>
+    <string _locid="54424" comment="proto-deHetman type-lastname">ラドヴィラ</string>
+    <string _locid="54425" comment="proto-deHetman type-lastname">ラジヴィウ</string>
+    <string _locid="54426" comment="proto-deHetman type-lastname">レウェラ</string>
+    <string _locid="54427" comment="proto-deHetman type-lastname">ルィベンコ</string>
+    <string _locid="54428" comment="proto-deHetman type-lastname">ジェヴスキ</string>
+    <string _locid="54429" comment="proto-deHetman type-lastname">サングシュコ</string>
+    <string _locid="54430" comment="proto-deHetman type-lastname">サピェハ</string>
+    <string _locid="54431" comment="proto-deHetman type-lastname">シエニャフスキー</string>
+    <string _locid="54432" comment="proto-deHetman type-lastname">ソビェスキ</string>
+    <string _locid="54433" comment="proto-deHetman type-lastname">ソスノウスキー</string>
+    <string _locid="54434" comment="proto-deHetman type-lastname">タルノフスキー</string>
+    <string _locid="54435" comment="proto-deHetman type-lastname">トゥロウスキー</string>
+    <string _locid="54436" comment="proto-deHetman type-lastname">ティシュキェヴィチ</string>
+    <string _locid="54437" comment="proto-deHetman type-lastname">ヴィシニョヴィエツキ</string>
+    <string _locid="54438" comment="proto-deHetman type-lastname">ヴォウォヴィチ</string>
+    <string _locid="54439" comment="proto-deHetman type-lastname">ザモイスキー</string>
+    <string _locid="54440" comment="proto-deHetman type-lastname">ジュウキェフスキ</string>
+    <string _locid="54441" comment="proto-Explorer civ-Danes type-firstname">ティコ </string>
+    <string _locid="54442" comment="proto-Explorer civ-Danes type-firstname">クリスチャン </string>
+    <string _locid="54443" comment="proto-Explorer civ-Danes type-firstname">オーレ </string>
+    <string _locid="54444" comment="proto-Explorer civ-Danes type-firstname">ハンス </string>
+    <string _locid="54445" comment="proto-Explorer civ-Danes type-firstname">エーベルハルト </string>
+    <string _locid="54446" comment="proto-Explorer civ-Danes type-firstname">ヨルゲン </string>
+    <string _locid="54447" comment="proto-Explorer civ-Danes type-firstname">ヨハン </string>
+    <string _locid="54448" comment="proto-Explorer civ-Danes type-firstname">カルステン </string>
+    <string _locid="54449" comment="proto-Explorer civ-Danes type-firstname">フレデリック </string>
+    <string _locid="54450" comment="proto-Explorer civ-Danes type-firstname">モルテン </string>
+    <string _locid="54451" comment="proto-Explorer civ-Danes type-firstname">ヤコブ </string>
+    <string _locid="54452" comment="proto-Explorer civ-Danes type-firstname">イェンス </string>
+    <string _locid="54453" comment="proto-Explorer civ-Danes type-firstname">カール </string>
+    <string _locid="54454" comment="proto-Explorer civ-Danes type-firstname">エリック </string>
+    <string _locid="54455" comment="proto-Explorer civ-Danes type-firstname">ディドリック </string>
+    <string _locid="54456" comment="proto-Explorer civ-Danes type-firstname">ポウル </string>
+    <string _locid="54457" comment="proto-Explorer civ-Danes type-lastname">ブラーエ</string>
+    <string _locid="54458" comment="proto-Explorer civ-Danes type-lastname">バルネコフ</string>
+    <string _locid="54459" comment="proto-Explorer civ-Danes type-lastname">ベンディクセン</string>
+    <string _locid="54460" comment="proto-Explorer civ-Danes type-lastname">ブロンステッド</string>
+    <string _locid="54461" comment="proto-Explorer civ-Danes type-lastname">エクロン</string>
+    <string _locid="54462" comment="proto-Explorer civ-Danes type-lastname">エーゲデ</string>
+    <string _locid="54463" comment="proto-Explorer civ-Danes type-lastname">イデス</string>
+    <string _locid="54464" comment="proto-Explorer civ-Danes type-lastname">ヨルゲンセン</string>
+    <string _locid="54465" comment="proto-Explorer civ-Danes type-lastname">コッホ</string>
+    <string _locid="54466" comment="proto-Explorer civ-Danes type-lastname">ニーブール</string>
+    <string _locid="54467" comment="proto-Explorer civ-Danes type-lastname">ノルデン</string>
+    <string _locid="54468" comment="proto-Explorer civ-Danes type-lastname">スパンベルク</string>
+    <string _locid="54469" comment="proto-Explorer civ-Danes type-lastname">ウルフェルト</string>
+    <string _locid="54470" comment="proto-Explorer civ-Danes type-lastname">ムンク</string>
+    <string _locid="54471" comment="proto-Explorer civ-Danes type-lastname">ボック</string>
+    <string _locid="54472" comment="proto-Explorer civ-Danes type-lastname">エリクセン</string>
+    <string _locid="54473" comment="proto-Explorer civ-Danes type-lastname">フォン・ハーフェン</string>
+    <string _locid="54474" comment="proto-Explorer civ-Danes type-lastname">ピニング</string>
+    <string _locid="54475" comment="proto-Explorer civ-Danes type-lastname">ノルセ</string>
+    <string _locid="54476" comment="proto-Fort civ-Danes type-title">オールホルム城</string>
+    <string _locid="54477" comment="proto-Fort civ-Danes type-title">ニュキービン城</string>
+    <string _locid="54478" comment="proto-Fort civ-Danes type-title">フラドストランド要塞</string>
+    <string _locid="54479" comment="proto-Fort civ-Danes type-title">クロンボー城</string>
+    <string _locid="54480" comment="proto-Fort civ-Danes type-title">エルシノア</string>
+    <string _locid="54481" comment="proto-Fort civ-Danes type-title">スカンシン要塞</string>
+    <string _locid="54482" comment="proto-Fort civ-Danes type-title">コルディングハウス城</string>
+    <string _locid="54483" comment="proto-Fort civ-Danes type-title">トレクローナー要塞</string>
+    <string _locid="54484" comment="proto-Fort civ-Danes type-title">ハメルスフス城</string>
+    <string _locid="54485" comment="proto-Fort civ-Danes type-title">マルメハウス城</string>
+    <string _locid="54486" comment="proto-Fort civ-Danes type-title">ヘルシンボリ要塞</string>
+    <string _locid="54487" comment="proto-Fort civ-Danes type-title">ランズクローナ要塞</string>
+    <string _locid="54488" comment="proto-Fort civ-Danes type-title">レンツブルク要塞</string>
+    <string _locid="54489" comment="proto-Fort civ-Danes type-title">フレデリクスボー城</string>
+    <string _locid="54490" comment="proto-Fort civ-Danes type-title">フレンスブルクハウス</string>
+    <string _locid="54491" comment="proto-Fort civ-Danes type-title">エーゲスコウ城</string>
+    <string _locid="54492" comment="proto-Fort civ-Danes type-title">スカナーボリ</string>
+    <string _locid="54493" comment="proto-Fort civ-Danes type-title">リーベハウス城</string>
+    <string _locid="54494" comment="proto-Fort civ-Danes type-title">アーケシュフース要塞</string>
+    <string _locid="54495" comment="proto-Fort civ-Danes type-title">ヴァルドハウス要塞</string>
+    <string _locid="54496" comment="proto-Fort civ-Danes type-title">コングスヴィンゲル要塞</string>
+    <string _locid="54497" comment="proto-Fort civ-Danes type-title">フレドリクステン要塞</string>
+    <string _locid="54498" comment="proto-Fort civ-Danes type-title">ベルゲンハウス要塞</string>
+    <string _locid="54499" comment="proto-Fort civ-Danes type-title">クリスチャンホルム要塞</string>
+    <string _locid="54500" comment="proto-Fort civ-Danes type-title">カステレット要塞</string>
+    <string _locid="54501" comment="proto-Fort civ-Danes type-title">コペンハーゲン城</string>
+    <string _locid="54502" comment="proto-Fort civ-Danes type-title">クリスチャンフィエル要塞</string>
+    <string _locid="54503" comment="proto-Fort civ-Danes type-title">クリスチャンソー要塞</string>
+    <string _locid="54504" comment="proto-Fort civ-Danes type-title">クリスチャンソー要塞</string>
+    <string _locid="54505" comment="proto-Fort civ-Danes type-title">クリスチャンステン要塞</string>
+    <string _locid="54506" comment="proto-Fort civ-Danes type-title">オッデロイア要塞</string>
+    <string _locid="54507" comment="proto-Fort civ-Danes type-title">フレデリクスオルト要塞</string>
+    <string _locid="54508" comment="proto-Fort civ-Danes type-title">フレデリシア要塞</string>
+    <string _locid="54509" comment="proto-Fort civ-Danes type-title">ムンクホルメン要塞</string>
+    <string _locid="54510" comment="proto-Fort civ-Danes type-title">ブラカー要塞</string>
+    <string _locid="54511" comment="proto-Fort civ-Danes type-title">ニュボー城</string>
+    <string _locid="54512" comment="proto-Fort civ-Danes type-title">アルテンハウス要塞</string>
+    <string _locid="54513" comment="proto-Fort civ-Danes type-title">フレドリクスベリ要塞</string>
+    <string _locid="54514" comment="proto-Fort civ-Danes type-title">フレドリクスタ要塞</string>
+    <string _locid="54515" comment="proto-Fort civ-Danes type-title">スタヴェルン要塞</string>
+    <string _locid="54516" comment="proto-Fort civ-Poles type-title">トラカイ城</string>
+    <string _locid="54517" comment="proto-Fort civ-Poles type-title">ヴィリニュス城</string>
+    <string _locid="54518" comment="proto-Fort civ-Poles type-title">ビルジャイ城</string>
+    <string _locid="54519" comment="proto-Fort civ-Poles type-title">クライペダ城</string>
+    <string _locid="54520" comment="proto-Fort civ-Poles type-title">ブレスト城</string>
+    <string _locid="54521" comment="proto-Fort civ-Poles type-title">カミャネツ・ポディリスキー</string>
+    <string _locid="54522" comment="proto-Fort civ-Poles type-title">カウナス城</string>
+    <string _locid="54523" comment="proto-Fort civ-Poles type-title">コブリン城</string>
+    <string _locid="54524" comment="proto-Fort civ-Poles type-title">クレメネツ城</string>
+    <string _locid="54525" comment="proto-Fort civ-Poles type-title">リダ城</string>
+    <string _locid="54526" comment="proto-Fort civ-Poles type-title">ルーツク城</string>
+    <string _locid="54527" comment="proto-Fort civ-Poles type-title">ネスヴィジ城</string>
+    <string _locid="54528" comment="proto-Fort civ-Poles type-title">バートリ城</string>
+    <string _locid="54529" comment="proto-Fort civ-Poles type-title">ミール城</string>
+    <string _locid="54530" comment="proto-Fort civ-Poles type-title">ティコツィン城</string>
+    <string _locid="54531" comment="proto-Fort civ-Poles type-title">マルボルク城</string>
+    <string _locid="54532" comment="proto-Fort civ-Poles type-title">ヴィスウォウイシチェ要塞</string>
+    <string _locid="54533" comment="proto-Fort civ-Poles type-title">サンドミェシュ城</string>
+    <string _locid="54534" comment="proto-Fort civ-Poles type-title">ザモシチ要塞</string>
+    <string _locid="54535" comment="proto-Fort civ-Poles type-title">クウォツコ要塞</string>
+    <string _locid="54536" comment="proto-Fort civ-Poles type-title">スレブルナ・グラ要塞</string>
+    <string _locid="54537" comment="proto-Fort civ-Poles type-title">デンブリン要塞</string>
+    <string _locid="54538" comment="proto-Fort civ-Poles type-title">モドリン要塞</string>
+    <string _locid="54539" comment="proto-Fort civ-Poles type-title">トルン要塞</string>
+    <string _locid="54540" comment="proto-Fort civ-Poles type-title">クラクフ・バルバカン</string>
+    <string _locid="54541" comment="proto-Fort civ-Poles type-title">クラクフ要塞</string>
+    <string _locid="54542" comment="proto-Fort civ-Poles type-title">チョハ城</string>
+    <string _locid="54543" comment="proto-Fort civ-Poles type-title">ルブリン城</string>
+    <string _locid="54544" comment="proto-Fort civ-Poles type-title">クシオンシュ城</string>
+    <string _locid="54545" comment="proto-Fort civ-Poles type-title">ピドヒルツィ城</string>
+    <string _locid="54546" comment="proto-Fort civ-Poles type-title">ホティン要塞</string>
+    <string _locid="54547" comment="proto-Fort civ-Poles type-title">ドゥブノ城</string>
+    <string _locid="54548" comment="proto-Fort civ-Poles type-title">ズバラジュ城</string>
+    <string _locid="54549" comment="proto-Fort civ-Poles type-title">メジビジュ要塞</string>
+    <string _locid="54550" comment="proto-Fort civ-Poles type-title">コダック要塞</string>
+    <string _locid="54551" comment="proto-Fort civ-Poles type-title">ミタウ城</string>
+    <string _locid="54552" comment="proto-Fort civ-Poles type-title">クルディーガ城</string>
+    <string _locid="54553" comment="proto-Fort civ-Poles type-title">リガ城</string>
+    <string _locid="54554" comment="proto-Fort civ-Poles type-title">ダウガフグリーヴァ城</string>
+    <string _locid="54555" comment="proto-Fort civ-Poles type-title">ディナブルガ城</string>
+    <string _locid="54556" comment="proto-Fort civ-Poles type-title">王宮</string>
+    <string _locid="54557" comment="proto-Fort civ-Poles type-title">クシシュトプル</string>
+    <string _locid="54558" comment="proto-Fort civ-Poles type-title">クラシチン城</string>
+    <string _locid="54559" comment="proto-Caravel civ-Poles type-title">フェニックス号</string>
+    <string _locid="54560" comment="proto-Caravel civ-Poles type-title">ピョートル・ズ・グダニ斯ク号</string>
+    <string _locid="54561" comment="proto-Caravel civ-Poles type-title">ストシェレツ号</string>
+    <string _locid="54562" comment="proto-Caravel civ-Poles type-title">グヴィアズダ号</string>
+    <string _locid="54563" comment="proto-Caravel civ-Poles type-title">ハリタス号</string>
+    <string _locid="54564" comment="proto-Caravel civ-Poles type-title">ホワイト・イーグル号</string>
+    <string _locid="54565" comment="proto-Caravel civ-Poles type-title">ホワイト・ライオン号</string>
+    <string _locid="54566" comment="proto-Caravel civ-Poles type-title">イエロー・ライオン号</string>
+    <string _locid="54567" comment="proto-Caravel civ-Poles type-title">パンナ・ヴォドナ号</string>
+    <string _locid="54568" comment="proto-Caravel civ-Poles type-title">ノアの方舟号</string>
+    <string _locid="54569" comment="proto-Caravel civ-Poles type-title">プウォミェニ号</string>
+    <string _locid="54570" comment="proto-Caravel civ-Poles type-title">ヴォドニック号</string>
+    <string _locid="54571" comment="proto-Caravel civ-Poles type-title">ブラック・レイヴン号</string>
+    <string _locid="54572" comment="proto-Caravel civ-Poles type-title">フライング・ディア号</string>
+    <string _locid="54573" comment="proto-Galleon civ-Poles type-title">タイガー号</string>
+    <string _locid="54574" comment="proto-Galleon civ-Poles type-title">ドラゴン号</string>
+    <string _locid="54575" comment="proto-Galleon civ-Poles type-title">グレート・サン号</string>
+    <string _locid="54576" comment="proto-Galleon civ-Poles type-title">プロフェット・サミュエル号</string>
+    <string _locid="54577" comment="proto-Galleon civ-Poles type-title">ナイト号</string>
+    <string _locid="54578" comment="proto-Galleon civ-Poles type-title">セント・ジョージ号</string>
+    <string _locid="54579" comment="proto-Galleon civ-Poles type-title">キング・デヴィッド号</string>
+    <string _locid="54580" comment="proto-Galleon civ-Poles type-title">ブラック・イーグル号</string>
+    <string _locid="54581" comment="proto-Monitor civ-Poles type-title">セント・カジミェシュ号</string>
+    <string _locid="54582" comment="proto-Monitor civ-Poles type-title">ヘッセン方伯号</string>
+    <string _locid="54583" comment="proto-Monitor civ-Poles type-title">クルディーガのカトリーナ号</string>
+    <string _locid="54584" comment="proto-Monitor civ-Poles type-title">アウグ・ポズ号</string>
+    <string _locid="54585" comment="proto-Monitor civ-Poles type-title">ヴァリス号</string>
+    <string _locid="54586" comment="proto-Monitor civ-Poles type-title">ガンビア・トバゴ号</string>
+    <string _locid="54587" comment="proto-Frigate civ-Poles type-title">カヴァリエ号</string>
+    <string _locid="54588" comment="proto-Frigate civ-Poles type-title">ヤコブス・マヨール号</string>
+    <string _locid="54589" comment="proto-Frigate civ-Poles type-title">クールラント・プリンセス号</string>
+    <string _locid="54590" comment="proto-Frigate civ-Poles type-title">クールラント紋章号</string>
+    <string _locid="54591" comment="proto-Frigate civ-Poles type-title">ユース・カラリスカー号</string>
+    <string _locid="54592" comment="proto-Frigate civ-Poles type-title">クールラント・プリンス号</string>
+    <string _locid="54593" comment="proto-Frigate civ-Poles type-title">フォルティトゥド号</string>
+    <string _locid="54594" comment="proto-deMercBattleship civ-Poles type-title">クールラント公爵夫人号</string>
+    <string _locid="54595" comment="proto-deMercBattleship civ-Poles type-title">クールラント公爵夫人号</string>
+    <string _locid="54596" comment="proto-deMercBattleship civ-Poles type-title">フリードリヒ・ヴィルヘルム王子号</string>
+    <string _locid="54597" comment="proto-Caravel civ-Danes type-title">ソーレン号</string>
+    <string _locid="54598" comment="proto-Caravel civ-Danes type-title">デルフィネン号</string>
+    <string _locid="54599" comment="proto-Caravel civ-Danes type-title">グロメン号</string>
+    <string _locid="54600" comment="proto-Caravel civ-Danes type-title">サルペン号</string>
+    <string _locid="54601" comment="proto-Caravel civ-Danes type-title">エルベン号</string>
+    <string _locid="54602" comment="proto-Caravel civ-Danes type-title">トロスト号</string>
+    <string _locid="54603" comment="proto-Caravel civ-Danes type-title">ランゲラン号</string>
+    <string _locid="54604" comment="proto-Caravel civ-Danes type-title">ロラン号</string>
+    <string _locid="54605" comment="proto-Caravel civ-Danes type-title">アラート号</string>
+    <string _locid="54606" comment="proto-Caravel civ-Danes type-title">ロウゲン号</string>
+    <string _locid="54607" comment="proto-Caravel civ-Danes type-title">リトル・ベルト号</string>
+    <string _locid="54608" comment="proto-Caravel civ-Danes type-title">オルメン号</string>
+    <string _locid="54609" comment="proto-Caravel civ-Danes type-title">グリブスフンデン号</string>
+    <string _locid="54610" comment="proto-Galleon civ-Danes type-title">トリトン号</string>
+    <string _locid="54611" comment="proto-Galleon civ-Danes type-title">ギデオン号</string>
+    <string _locid="54612" comment="proto-Galleon civ-Danes type-title">アルゴー号</string>
+    <string _locid="54613" comment="proto-Galleon civ-Danes type-title">ホワイト・イーグル号</string>
+    <string _locid="54614" comment="proto-Galleon civ-Danes type-title">セント・オーラフ号</string>
+    <string _locid="54615" comment="proto-Galleon civ-Danes type-title">ロッセン号</string>
+    <string _locid="54616" comment="proto-Galleon civ-Danes type-title">スナレンスヴェンド号</string>
+    <string _locid="54617" comment="proto-Galleon civ-Danes type-title">ミカエル号</string>
+    <string _locid="54618" comment="proto-Galleon civ-Danes type-title">ナヤデン号</string>
+    <string _locid="54619" comment="proto-Galleon civ-Danes type-title">ホワイト・イーグル号</string>
+    <string _locid="54620" comment="proto-Galleon civ-Danes type-title">ナヤデン号</string>
+    <string _locid="54621" comment="proto-Frigate civ-Danes type-title">ボーンホルム号</string>
+    <string _locid="54622" comment="proto-Frigate civ-Danes type-title">ハンニバル号</string>
+    <string _locid="54623" comment="proto-Frigate civ-Danes type-title">ホルシュタイン号</string>
+    <string _locid="54624" comment="proto-Frigate civ-Danes type-title">クラバッテン号</string>
+    <string _locid="54625" comment="proto-Frigate civ-Danes type-title">フュン号</string>
+    <string _locid="54626" comment="proto-Frigate civ-Danes type-title">サムソン号</string>
+    <string _locid="54627" comment="proto-Frigate civ-Danes type-title">ストーラ・ソフィア号</string>
+    <string _locid="54628" comment="proto-Frigate civ-Danes type-title">グリーンランド号</string>
+    <string _locid="54629" comment="proto-Frigate civ-Danes type-title">シュレースヴィヒ号</string>
+    <string _locid="54630" comment="proto-Frigate civ-Danes type-title">ディトマルシェン号</string>
+    <string _locid="54631" comment="proto-Frigate civ-Danes type-title">ダンネマルク号</string>
+    <string _locid="54632" comment="proto-Frigate civ-Danes type-title">ノルウェー号</string>
+    <string _locid="54633" comment="proto-Frigate civ-Danes type-title">オーディン号</string>
+    <string _locid="54634" comment="proto-Frigate civ-Danes type-title">シールド号</string>
+    <string _locid="54635" comment="proto-Frigate civ-Danes type-title">スリー・クラウンズ号</string>
+    <string _locid="54636" comment="proto-Frigate civ-Danes type-title">ダンネブロ号</string>
+    <string _locid="54637" comment="proto-Frigate civ-Danes type-title">インフィズレッテン号</string>
+    <string _locid="54638" comment="proto-deMercBattleship civ-Danes type-title">ノルウェー・ライオン号</string>
+    <string _locid="54639" comment="proto-deMercBattleship civ-Danes type-title">ヴァルデマール号</string>
+    <string _locid="54640" comment="proto-deMercBattleship civ-Danes type-title">ネプチューン号</string>
+    <string _locid="54641" comment="proto-deMercBattleship civ-Danes type-title">ソフィア・アマリア号</string>
+    <string _locid="54642" comment="proto-deMercBattleship civ-Danes type-title">エレファンテン号</string>
+    <string _locid="54643" comment="proto-deMercBattleship civ-Danes type-title">ドロニンゲン号</string>
+    <string _locid="54644" comment="proto-deMercBattleship civ-Danes type-title">ドロニング・アンナ・ソフィア号</string>
+    <string _locid="54645" comment="proto-deMercBattleship civ-Danes type-title">クリスチャン7世号</string>
+    <string _locid="54646" comment="proto-deMercBattleship civ-Danes type-title">フリデリクス号</string>
+    <string _locid="54647" comment="proto-deMercBattleship civ-Danes type-title">ユスティティア号</string>
+    <string _locid="54648" comment="proto-deMercBattleship civ-Danes type-title">イェーガーマイスター号</string>
+    <string _locid="54649" comment="proto-deMercBattleship civ-Danes type-title">ヘラクレス号</string>
+    <string _locid="54650" comment="proto-Monitor civ-Danes type-title">ステレン号</string>
+    <string _locid="54651" comment="proto-Monitor civ-Danes type-title">トゥーラ号</string>
+    <string _locid="54652" comment="proto-Monitor civ-Danes type-title">ノアの方舟号</string>
+    <string _locid="54653" comment="proto-Monitor civ-Danes type-title">イェルペレン号</string>
+    <string _locid="54654" comment="proto-Monitor civ-Danes type-title">ホルガー・ダンスケ号</string>
+    <string _locid="54655" comment="proto-Monitor civ-Danes type-title">ヘクラ号</string>
+    <string _locid="54656" comment="proto-Monitor civ-Danes type-title">アイダレン号</string>
+    <string _locid="54657" comment="proto-Monitor civ-Danes type-title">プラメン号</string>
+    <string _locid="54658" comment="proto-Monitor civ-Danes type-title">シー・サーペント号</string>
+    <string _locid="54659" comment="proto-Monitor civ-Danes type-title">ジャイアント号</string>
+    <string _locid="54660" comment="proto-deGunboat civ-Danes type-title">クリスチャンスン号</string>
+    <string _locid="54661" comment="proto-deGunboat civ-Danes type-title">カノンヨレ号</string>
+    <string _locid="54662" comment="proto-deGunboat civ-Danes type-title">ヴィボー号</string>
+    <string _locid="54663" comment="proto-deGunboat civ-Danes type-title">ロスキレ号</string>
+    <string _locid="54664" comment="proto-deGunboat civ-Danes type-title">オーデンセ号</string>
+    <string _locid="54665" comment="proto-deGunboat civ-Danes type-title">ナクスコフ号</string>
+    <string _locid="54666" comment="proto-deGunboat civ-Danes type-title">ミデルファト号</string>
+    <string _locid="54667" comment="proto-deGunboat civ-Danes type-title">ヘルシンゲル号</string>
+    <string _locid="54668" comment="proto-deGunboat civ-Danes type-title">オールボー号</string>
+    <string _locid="54669" comment="proto-deGunboat civ-Danes type-title">フレンスブルク号</string>
+    <string _locid="54670" comment="proto-deGunboat civ-Danes type-title">ボンバルディア号</string>
+    <string _locid="54671" comment="proto-deGunboat civ-Danes type-title">アーレンダール号</string>
+    <string _locid="54672" comment="proto-deGunboat civ-Danes type-title">グリーンランド・キャット号</string>
+    <string _locid="54673" comment="proto-deGunboat civ-Danes type-title">グリンダー号</string>
+    <string _locid="54674" comment="proto-xpIronclad civ-Danes type-title">トルデンショル号</string>
+    <string _locid="54675" comment="proto-xpIronclad civ-Danes type-title">エーギル号</string>
+    <string _locid="54676" comment="proto-xpIronclad civ-Danes type-title">シェラン号</string>
+    <string _locid="54677" comment="proto-xpIronclad civ-Danes type-title">アブサロン号</string>
+    <string _locid="54678" comment="proto-xpIronclad civ-Danes type-title">ピーダー・スクラム号</string>
+    <string _locid="54679" comment="proto-xpIronclad civ-Danes type-title">デンマーク号</string>
+    <string _locid="54680" comment="proto-xpIronclad civ-Danes type-title">ニルス・ユール号</string>
+    <string _locid="54681" comment="proto-xpIronclad civ-Danes type-title">ヘルゴランド号</string>
+    <string _locid="54682" comment="proto-xpIronclad civ-Danes type-title">ゴルム号</string>
+    <string _locid="54683" comment="proto-deWhalingShip type-title">グレンランドファーラー</string>
+    <string _locid="54684" comment="proto-deWhalingShip type-title">ナンタケット</string>
+    <string _locid="54685" comment="proto-deWhalingShip type-title">モビー・ディック</string>
+    <string _locid="54686" comment="proto-deWhalingShip type-title">ピクォード</string>
+    <string _locid="54687" comment="proto-deWhalingShip type-title">クィークェグ</string>
+    <string _locid="54688" comment="proto-deWhalingShip type-title">バルキントン</string>
+    <string _locid="54689" comment="proto-deWhalingShip type-title">エイハブ</string>
+    <string _locid="54690" comment="proto-deWhalingShip type-title">スターバック</string>
+    <string _locid="54691" comment="proto-deWhalingShip type-title">ファーザー・マップル</string>
+    <string _locid="54692" comment="proto-deWhalingShip type-title">イシュメール</string>
+    <string _locid="54693" comment="proto-deWhalingShip type-title">ピップ</string>
+    <string _locid="54694" comment="proto-deWhalingShip type-title">タシュテゴ</string>
+    <string _locid="54695" comment="proto-deWhalingShip type-title">ダグー</string>
+    <string _locid="54696" comment="proto-deWhalingShip type-title">フェダラー</string>
+    <string _locid="54697" comment="proto-deWhalingShip type-title">パース</string>
+    <string _locid="54698" comment="proto-deWhalingShip type-title">ゴースト</string>
+    <string _locid="54699" comment="proto-deWhalingShip type-title">シー・ウルフ</string>
+    <string _locid="54700" comment="proto-deWhalingShip type-title">ヴァン・ウェイデン</string>
+    <string _locid="54701" comment="proto-deWhalingShip type-title">ウルフ・ラーセン</string>
+    <string _locid="54702" comment="proto-deWhalingShip type-title">デス・ラーセン</string>
+    <string _locid="54703" comment="proto-deWhalingShip type-title">チャールズ・W・モーガン</string>
+    <string _locid="54704" comment="proto-deWhalingShip type-title">エセックス</string>
+    <string _locid="54705" comment="proto-deWhalingShip type-title">ハドック</string>
+    <string _locid="54706" comment="proto-deWhalingShip type-title">フック船長</string>
+    <string _locid="54707" comment="proto-deWhalingShip type-title">ラゴダ</string>
+    <string _locid="54708" comment="proto-deWhalingShip type-title">グルンランド</string>
+    <string _locid="54709" comment="proto-deWhalingShip type-title">オーロラ</string>
+    <string _locid="54710" comment="proto-deWhalingShip type-title">モルゲネン</string>
+    <string _locid="54711" comment="proto-deWhalingShip type-title">ニムロド</string>
+    <string _locid="54712" comment="proto-deWhalingShip type-title">スピッサ</string>
+    <string _locid="54713" comment="proto-deWhalingShip type-title">アンタークティック</string>
+    <string _locid="54714" comment="proto-deWhalingShip type-title">ヨーア</string>
+    <string _locid="54715" comment="proto-deWhalingShip type-title">トゥー・ブラザーズ</string>
+    <string _locid="54716" comment="proto-deWhalingShip type-title">アキレス</string>
+    <string _locid="54717" comment="proto-deWhalingShip type-title">スピッツベルゲン</string>
+    <string _locid="54718" comment="proto-deWhalingShip type-title">ヤンマイエン</string>
+    <string _locid="54719" comment="proto-deWhalingShip type-title">ロフォーテン</string>
+    <string _locid="54720" comment="proto-deWhalingShip type-title">ヴィキンガー</string>
+    <string _locid="54721" comment="proto-deWhalingShip type-title">ブラバー</string>
+    <string _locid="54722" comment="proto-deWhalingShip type-title">ナルヴァル</string>
+    <string _locid="54723" comment="proto-deWhalingShip type-title">クヴィトヴァル</string>
+    <string _locid="54724" comment="proto-deWhalingShip type-title">クヴィドヴァレン</string>
+    <string _locid="54725" comment="proto-deWhalingShip type-title">セタセア</string>
+    <string _locid="54726" comment="proto-deWhalingShip type-title">カットルフィッシュ</string>
+    <string _locid="54727" comment="proto-deWhalingShip type-title">グローヴァル</string>
+    <string _locid="54728" comment="proto-deWhalingShip type-title">ヴァルファンガー</string>
+    <string _locid="54729" comment="proto-deWhalingShip type-title">クヴァルボート</string>
+    <string _locid="54730" comment="proto-deWhalingShip type-title">ヴァルボート</string>
+    <string _locid="54731" comment="proto-deWhalingShip type-title">イヌルアピク</string>
+    <string _locid="54732" comment="proto-deWhalingShip type-title">スヴェン・フォイン</string>
+    <string _locid="54733" comment="proto-deWhalingShip type-title">ヴィルゴハムナ</string>
+    <string _locid="54734" comment="proto-deWhalingShip type-title">スメーレンブルク</string>
+    <string _locid="54735" comment="proto-deWhalingShip type-title">ガンジス</string>
+    <string _locid="54736" comment="proto-deWhalingShip type-title">ハープナー</string>
+    <string _locid="54737" comment="proto-deWhalingShip type-title">テラ・ノバ</string>
+    <string _locid="54738" comment="proto-deWhalingShip type-title">ジェイソン</string>
+    <string _locid="54739" comment="proto-deWhalingShip type-title">ベルジカ</string>
+    <string _locid="54740" comment="proto-deTavern civ-Danes type-title">醸造所</string>
+    <string _locid="54741" comment="proto-deTavern civ-Danes type-title">赤の王</string>
+    <string _locid="54742" comment="proto-deTavern civ-Danes type-title">塩のマーメイド</string>
+    <string _locid="54743" comment="proto-deTavern civ-Danes type-title">砕氷船</string>
+    <string _locid="54744" comment="proto-deTavern civ-Danes type-title">小さな薬局</string>
+    <string _locid="54745" comment="proto-deTavern civ-Danes type-title">橋の風車小屋亭</string>
+    <string _locid="54746" comment="proto-deTavern civ-Danes type-title">ショットストゥーエネ</string>
+    <string _locid="54747" comment="proto-deTavern civ-Danes type-title">ボーンホルム船上ビール</string>
+    <string _locid="54748" comment="proto-deTavern civ-Danes type-title">ルンビュの東屋</string>
+    <string _locid="54749" comment="proto-deTavern civ-Danes type-title">ヤコブセン醸造所</string>
+    <string _locid="54750" comment="proto-deTavern civ-Danes type-title">オレのビール</string>
+    <string _locid="54751" comment="proto-deTavern civ-Danes type-title">古い象</string>
+    <string _locid="54752" comment="proto-deTavern civ-Danes type-title">王の旅籠</string>
+    <string _locid="54753" comment="proto-deTavern civ-Danes type-title">デンマーク・ソーセージ</string>
+    <string _locid="54754" comment="proto-deTavern civ-Danes type-title">ヒュッゲの穴ぐら</string>
+    <string _locid="54755" comment="proto-deTavern civ-Danes type-title">ビール取引所</string>
+    <string _locid="54756" comment="proto-deTavern civ-Danes type-title">騎士ミッケルセン</string>
+    <string _locid="54757" comment="proto-deTavern civ-Poles type-title">酔いどれのフサリア</string>
+    <string _locid="54758" comment="proto-deTavern civ-Poles type-title">偉大なるヨハネ・パウロ</string>
+    <string _locid="54759" comment="proto-deTavern civ-Poles type-title">死んだ農民</string>
+    <string _locid="54760" comment="proto-deTavern civ-Poles type-title">別れの盃</string>
+    <string _locid="54761" comment="proto-deTavern civ-Poles type-title">泥酔した虫の下で</string>
+    <string _locid="54762" comment="proto-deTavern civ-Poles type-title">コサックの酒場</string>
+    <string _locid="54763" comment="proto-deTavern civ-Poles type-title">鉄の狼</string>
+    <string _locid="54764" comment="proto-deTavern civ-Poles type-title">揚げパン</string>
+    <string _locid="54765" comment="proto-deTavern civ-Poles type-title">レイチュの宿</string>
+    <string _locid="54766" comment="proto-deTavern civ-Poles type-title">樽の中のビーバー</string>
+    <string _locid="54767" comment="proto-deTavern civ-Poles type-title">マルティノの蜜酒屋</string>
+    <string _locid="54768" comment="proto-deTavern civ-Poles type-title">ローマ</string>
+    <string _locid="54769" comment="proto-deTavern civ-Poles type-title">頑強な血のソーセージの下で</string>
+    <string _locid="54770" comment="proto-ExplorerDog civ-Poles type-title">ファフィク</string>
+    <string _locid="54771" comment="proto-ExplorerDog civ-Poles type-title">シャリク</string>
+    <string _locid="54772" comment="proto-ExplorerDog civ-Poles type-title">レクシオ</string>
+    <string _locid="54773" comment="proto-ExplorerDog civ-Poles type-title">ヴォイテク</string>
+    <string _locid="54774" comment="proto-ExplorerDog civ-Poles type-title">ブレク</string>
+    <string _locid="54775" comment="proto-ExplorerDog civ-Poles type-title">ミシェク</string>
+    <string _locid="54776" comment="proto-ExplorerDog civ-Poles type-title">クバ</string>
+    <string _locid="54777" comment="proto-ExplorerDog civ-Poles type-title">佐蘭</string>
+    <string _locid="54778" comment="proto-ExplorerDog civ-Poles type-title">アゾール</string>
+    <string _locid="54779" comment="proto-ExplorerDog civ-Poles type-title">ボビク</string>
+    <string _locid="54780" comment="proto-ExplorerDog civ-Poles type-title">ボベル</string>
+    <string _locid="54781" comment="proto-ExplorerDog civ-Poles type-title">プーキス</string>
+    <string _locid="54782" comment="proto-ExplorerDog civ-Poles type-title">トロール</string>
+    <string _locid="54783" comment="proto-ExplorerDog civ-Danes type-title">バムセ</string>
+    <string _locid="54784" comment="proto-ExplorerDog civ-Danes type-title">ルーレ</string>
+    <string _locid="54785" comment="proto-ExplorerDog civ-Danes type-title">フェンリス</string>
+    <string _locid="54786" comment="proto-ExplorerDog civ-Danes type-title">ヴィルトブラット</string>
+    <string _locid="54787" comment="proto-ExplorerDog civ-Danes type-title">クヴィック</string>
+    <string _locid="54788" comment="proto-ExplorerDog civ-Danes type-title">パソップ</string>
+    <string _locid="54789" comment="proto-ExplorerDog civ-Danes type-title">トロファスト</string>
+    <string _locid="54790" comment="proto-ExplorerDog civ-Danes type-title">フレイヤ</string>
+    <string _locid="54791" comment="proto-ExplorerDog civ-Danes type-title">モリー</string>
+    <string _locid="54792" comment="proto-ExplorerDog civ-Danes type-title">ヘイムダル</string>
+    <string _locid="54793" comment="proto-ExplorerDog civ-Danes type-title">ゲリ</string>
+    <string _locid="54794" comment="proto-ExplorerDog civ-Danes type-title">フレキ</string>
+    <string _locid="54795" comment="proto-General civ-REVPrussians type-firstname">ボレ </string>
+    <string _locid="54796" comment="proto-General civ-REVPrussians type-firstname">カレ </string>
+    <string _locid="54797" comment="proto-General civ-REVPrussians type-firstname">フリッツ </string>
+    <string _locid="54798" comment="proto-General civ-REVPrussians type-firstname">フリッツェ </string>
+    <string _locid="54799" comment="proto-General civ-REVPrussians type-firstname">オットー </string>
+    <string _locid="54800" comment="proto-General civ-REVPrussians type-firstname">ヘルムート </string>
+    <string _locid="54801" comment="proto-General civ-REVPrussians type-firstname">フライヘル </string>
+    <string _locid="54802" comment="proto-General civ-REVPrussians type-firstname">オーバーシュト </string>
+    <string _locid="54803" comment="proto-General civ-REVPrussians type-firstname">プリンツ </string>
+    <string _locid="54804" comment="proto-General civ-REVPrussians type-firstname">グラフ </string>
+    <string _locid="54805" comment="proto-General civ-REVPrussians type-lastname">フォン・シャルンホルスト</string>
+    <string _locid="54806" comment="proto-General civ-REVPrussians type-lastname">フォン・モルトケ</string>
+    <string _locid="54807" comment="proto-General civ-REVPrussians type-lastname">フォン・ビューロー</string>
+    <string _locid="54808" comment="proto-General civ-REVPrussians type-lastname">フォン・デネヴィッツ</string>
+    <string _locid="54809" comment="proto-General civ-REVPrussians type-lastname">フォン・ビスマルク</string>
+    <string _locid="54810" comment="proto-General civ-REVPrussians type-lastname">フォン・ツィーテン</string>
+    <string _locid="54811" comment="proto-General civ-REVPrussians type-lastname">フォン・ザイドリッツ</string>
+    <string _locid="54812" comment="proto-General civ-REVPrussians type-lastname">フォン・プロイセン</string>
+    <string _locid="54813" comment="proto-General civ-REVPrussians type-lastname">フォン・グナイゼナウ</string>
+    <string _locid="54814" comment="proto-General civ-REVPrussians type-lastname">フォン・ケーペニック</string>
+    <string _locid="54815" comment="proto-General civ-REVPrussians type-lastname">フォン・シュパンダウ</string>
+    <string _locid="54816" comment="proto-General civ-REVPrussians type-lastname">フォン・クライスト</string>
+    <string _locid="54817" comment="proto-General civ-REVPrussians type-lastname">フォン・ツィツェヴィッツ</string>
+    <string _locid="54818" comment="proto-General civ-REVPrussians type-lastname">フォン・ハンマーシュタイン</string>
+    <string _locid="54819" comment="proto-General civ-REVPrussians type-lastname">フォン・ブランデンブルク</string>
+    <string _locid="54820" comment="proto-General civ-REVPrussians type-lastname">フォン・リュッツォー</string>
+    <string _locid="54821" comment="proto-General civ-REVPrussians type-lastname">フォン・ポツダム</string>
+    <string _locid="54822" comment="proto-General civ-REVPrussians type-lastname">フォン・シャルロッテンブルク</string>
+    <string _locid="54823" comment="proto-General civ-REVPrussians type-lastname">フォン・ハルデンベルク</string>
+    <string _locid="54824" comment="proto-General civ-REVPrussians type-lastname">フォン・リヒトホーフェン</string>
+    <string _locid="54825" comment="proto-General civ-REVPrussians type-lastname">フォン・アルニム</string>
+    <string _locid="54826" comment="proto-General civ-REVPrussians type-lastname">フォン・ベルクハイン</string>
+    <string _locid="54827" comment="proto-General civ-REVPrussians type-lastname">フォン・フリードリヒスハイン</string>
+    <string _locid="54828" comment="proto-General civ-REVPrussians type-lastname">フォン・トイフェルスベルク</string>
+    <string _locid="54829" comment="proto-Xebec civ-REVCossacks type-title">ホルティツァ</string>
+    <string _locid="54830" comment="proto-Xebec civ-REVCossacks type-title">ウクライナ</string>
+    <string _locid="54831" comment="proto-EggSleigh type-title">チムニー・クラッシャー</string>
+    <string _locid="54832" comment="proto-EggSleigh type-title">チムニー・スイーパー</string>
+    <string _locid="54833" comment="proto-EggSleigh type-title">ユール・コマンダー</string>
+    <string _locid="54834" comment="proto-EggSleigh type-title">スレイ・ベル</string>
+    <string _locid="54835" comment="proto-EggSleigh type-title">エア・スレッド・ワン</string>
+    <string _locid="54836" comment="proto-EggSleigh type-title">スレイ・スレイ</string>
+    <string _locid="54837" comment="proto-EggSleigh type-title">アークティック・スレイ</string>
+    <string _locid="54838" comment="proto-EggSleigh type-title">スレイ・ベル・ワン</string>
+    <string _locid="54839" comment="proto-EggSleigh type-title">アークティック・急行</string>
+    <string _locid="54840" comment="proto-EggSleigh type-title">ギフト・ボマー</string>
+    <string _locid="54841" comment="proto-EggSleigh type-title">ハート・ボマー</string>
+    <string _locid="54842" comment="proto-EggSleigh type-title">ラブ・ボマー</string>
+    <string _locid="54843" comment="proto-EggSleigh type-title">サス・スレッド</string>
+    <string _locid="54844" comment="proto-EggSleigh type-title">グリッター・ゲイル</string>
+    <string _locid="54845" comment="proto-EggSleigh type-title">プリズム・パイロット</string>
+    <string _locid="54846" comment="proto-EggSleigh type-title">レッドホット・スレイ</string>
+    <string _locid="54847" comment="proto-EggSleigh type-title">スカーレット・スターナ</string>
+    <string _locid="54848" comment="proto-EggSleigh type-title">レジェンド・サンタ</string>
+    <string _locid="54849" comment="proto-EggSleigh type-title">ヤドリギ・メイヘム</string>
+    <string _locid="54850" comment="proto-EggSleigh type-title">ギフト・ガッド</string>
+    <string _locid="54851" comment="proto-EggSleigh type-title">ギフト・ゴッド</string>
+    <string _locid="54852" comment="proto-EggSleigh type-title">ブリザード・バフ</string>
+    <string _locid="54853" comment="proto-EggSleigh type-title">ジングル・ジャンク</string>
+    <string _locid="54854" comment="proto-EggSleigh type-title">ウィンター・ワゴン</string>
+    <string _locid="54855" comment="proto-EggSleigh type-title">ユール・ヨット</string>
+    <string _locid="54856" comment="proto-EggSleigh type-title">ファザー・フロスト</string>
+    <string _locid="54857" comment="proto-EggSleigh type-title">レインディア・ライダー</string>
+    <string _locid="54858" comment="proto-EggSleigh type-title">アークティック・エア</string>
+    <string _locid="54859" comment="proto-EggSleigh type-title">ティンセル・タンカー</string>
   </language>
 </stringtable>

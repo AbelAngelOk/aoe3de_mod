@@ -1,0 +1,38 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="buildings\props_colony\influence_crate\texture\influence_crate_mata_Basecolor">
+      </texture>
+      <texture name="Normals" override="buildings\props_colony\influence_crate\texture\influence_crate_mata_Normals">
+      </texture>
+      <texture name="Masks" override="buildings\props_colony\influence_crate\texture\influence_crate_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="buildings\props_colony\xp_crate\textures\xp_crate_a_BaseColor">
+      </texture>
+      <texture name="Normals" override="buildings\props_colony\xp_crate\textures\xp_crate_a_Normals">
+      </texture>
+      <texture name="Masks" override="buildings\props_colony\xp_crate\textures\xp_crate_a_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\ethiopia\ethiopia_props\textures\ethiopia_props_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\ethiopia\ethiopia_props\textures\ethiopia_props_mata_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\ethiopia\ethiopia_props\textures\ethiopia_props_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

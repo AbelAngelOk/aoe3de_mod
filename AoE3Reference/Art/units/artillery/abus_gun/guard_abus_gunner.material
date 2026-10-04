@@ -1,0 +1,28 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\abus_gun\textures\guard_abus_gun_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\abus_gun\textures\guard_abus_gun_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\abus_gun\textures\guard_abus_gun_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\abus_gun\textures\guard_abus_gunner_character_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\abus_gun\textures\guard_abus_gunner_character_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\abus_gun\textures\guard_abus_gunner_character_matb_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\abus_gun\textures\abus_gunner_character_matb_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

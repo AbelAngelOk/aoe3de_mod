@@ -1,0 +1,4 @@
+<animfile>
+  <component>train_track<assetreference type="GrannyModel"><file>units\trains\track</file></assetreference></component>
+  <anim>Idle<component>train_track</component></anim>
+</animfile>

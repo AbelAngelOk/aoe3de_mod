@@ -1,0 +1,126 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="destructible">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\monitor\textures\monitor_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_mata_masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\monitor_mata_details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\naval\monitor\textures\monitor_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_mata_masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\monitor_mata_details">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\naval\monitor\textures\monitor_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_mata_masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\monitor_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\monitor\textures\monitor_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_matb_normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_matb_masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\monitor_matb_details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\naval\monitor\textures\ottoman_monitor_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_matB_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_matB_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\ottoman_monitor_matB_Details">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\naval\monitor\textures\indian_monitor_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_matB_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_matB_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\indian_monitor_matB_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matz">
+    <materialdef name="destructible">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="generic_props\destruction\textures\destructionsheet_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="generic_props\destruction\textures\destructionsheet_mata_normals">
+      </texture>
+      <texture name="Masks" override="generic_props\destruction\textures\destructionsheet_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="generic_props\destruction\textures\destructionsheet_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="generic_props\destruction\textures\destructionsheet_mata_normals">
+      </texture>
+      <texture name="Masks" override="generic_props\destruction\textures\destructionsheet_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="generic_props\destruction\textures\destructionsheet_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="generic_props\destruction\textures\destructionsheet_mata_normals">
+      </texture>
+      <texture name="Masks" override="generic_props\destruction\textures\destructionsheet_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="objects\spc\igc_shipwreck\textures\debris01_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="objects\spc\igc_shipwreck\textures\debris01_mata_normals">
+      </texture>
+      <texture name="Masks" override="objects\spc\igc_shipwreck\textures\debris01_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="objects\spc\igc_shipwreck\textures\debris01_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="objects\spc\igc_shipwreck\textures\debris01_mata_normals">
+      </texture>
+      <texture name="Masks" override="objects\spc\igc_shipwreck\textures\debris01_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="objects\spc\igc_shipwreck\textures\debris01_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="objects\spc\igc_shipwreck\textures\debris01_mata_normals">
+      </texture>
+      <texture name="Masks" override="objects\spc\igc_shipwreck\textures\debris01_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

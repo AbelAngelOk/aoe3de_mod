@@ -1,0 +1,6 @@
+<placementrules>
+  <distanceatmostfromtype player="ally" foundation="any" distance="18" errorstringid="212117">AbstractDock</distanceatmostfromtype>
+  <distanceatleastfromtype player="any" foundation="any" distance="3.5" errorstringid="212120">AbstractDock</distanceatleastfromtype>
+  <distanceatleastfromtype player="team" foundation="any" distance="5" errorstringid="212118">HomeCityWaterSpawnFlag</distanceatleastfromtype>
+  <distanceatleastfromtype player="any" foundation="any" distance="2" errorstringid="212119">deFishTrap</distanceatleastfromtype>
+</placementrules>

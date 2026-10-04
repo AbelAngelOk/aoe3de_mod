@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\indian_travois\textures\aztec_travois_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\indian_travois\textures\aztec_travois_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\indian_travois\textures\aztec_travois_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\trade\indian_travois\textures\aztec_travois_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\villagers\az_villager_m\textures\az_villager_m_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\villagers\az_villager_m\textures\az_villager_m_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\villagers\az_villager_m\textures\az_villager_m_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\villagers\az_villager_m\textures\az_villager_m_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

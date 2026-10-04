@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\pecaudy\textures\Spontoon_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\pecaudy\textures\Spontoon_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\pecaudy\textures\Spontoon_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

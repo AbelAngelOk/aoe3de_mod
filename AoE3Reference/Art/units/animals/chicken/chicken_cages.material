@@ -1,0 +1,38 @@
+<material>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\chicken\textures\large_chicken_cage_matc_basecolor">
+      </texture>
+      <texture name="Normals" override="units\animals\chicken\textures\large_chicken_cage_matc_normals">
+      </texture>
+      <texture name="Masks" override="units\animals\chicken\textures\large_chicken_cage_matc_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\chicken\textures\small_chicken_cage_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\animals\chicken\textures\small_chicken_cage_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\animals\chicken\textures\small_chicken_cage_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\chicken\textures\chicken_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\animals\chicken\textures\chicken_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\animals\chicken\textures\chicken_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

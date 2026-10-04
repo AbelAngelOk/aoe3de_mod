@@ -1,0 +1,22 @@
+<damagetemplate>
+  <model name="ts\Models\war_junk\model\war_junk_revision\war_junk_rev02">
+    <impactpoint name="boneimpact02" bone="boneimpact02" impacttype="" motionstopfadetime="2.0" motionstopfadedelay="8.0" splasheffect="watersplash_med">
+      <part mesh="debris_2a" bone="bone_debris_2a" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_2b" bone="bone_debris_2b" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_2c" bone="bone_debris_2c" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_2d" bone="bone_debris_2d" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact03" bone="boneimpact03" impacttype="" motionstopfadetime="2.0" motionstopfadedelay="8.0" splasheffect="watersplash_med">
+      <part mesh="debris_3a" bone="bone_debris_3a" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_3b" bone="bone_debris_3b" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_3c" bone="bone_debris_3c" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+    </impactpoint>
+  </model>
+</damagetemplate>

@@ -1,0 +1,380 @@
+<!-- mod-hungria: soundsets — dividido de mod-minimal (2026-09-19). Los soundsets MM* compartidos entre mods se renombraron con sufijo "Civs" en mod-civs para no chocar si ambos mods están activos. -->
+<soundsetdefmods>
+  <soundset name="HungarianExplorerSelect" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerselect1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\explorer\hungarianexplorerselect2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\explorer\hungarianexplorerselect3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerMove" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorermove1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\explorer\hungarianexplorermove2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\explorer\hungarianexplorermove3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerAttack" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerattack.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerClaim" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerclaim.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerDisabled" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerdisabled.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerRansomed" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerransomed.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianExplorerRevived" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="hungary\explorer\hungarianexplorerrevived.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Honvéd (proto HUNHonved) — audios basados en el mosquetero español -->
+  <soundset name="HungarianMusketeerSelect" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\honved\hungarianmusketeerselect1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\hungarianmusketeerselect2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\hungarianmusketeerselect3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianMusketeerMove" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\honved\hungarianmusketeermove1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\hungarianmusketeermove2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\hungarianmusketeermove3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianMusketeerAttack" volume="0.9500" maxnum="4" distance="1.0000">
+    <sound filename="hungary\honved\hungarianmusketeerattack1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\spanishmusketeerattack2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\honved\hungarianmusketeerattack3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Falconete (proto compartido Falconet, rama HUNHungarians) -->
+  <soundset name="HungarianFalconetSelect" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\falconete\hungarianfalconetselect1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetselect2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetselect3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianFalconetMove" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\falconete\hungarianfalconetmove1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetmove2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetmove3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianFalconetAttack" volume="0.9500" maxnum="4" distance="1.0000">
+    <sound filename="hungary\falconete\hungarianfalconetattack1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetattack2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\falconete\hungarianfalconetattack3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Culebrina (proto compartido Culverin, rama HUNHungarians). Nombres de archivo tal cual
+       (incluidos los typos "hungaria..." en move2/move3/attack3). -->
+  <soundset name="HungarianCulverinSelect" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\culverin\hungarianculverinselect1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungarianculverinselect2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungarianculverinselect3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianCulverinMove" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="hungary\culverin\hungarianculverinmove1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungariaculverinmove2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungariaculverinmove3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="HungarianCulverinAttack" volume="0.9500" maxnum="4" distance="1.0000">
+    <sound filename="hungary\culverin\hungarianculverinattack1.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungarianculverinattack2.mp3" volume="1.0000">
+    </sound>
+    <sound filename="hungary\culverin\hungariaculverinattack3.mp3" volume="1.0000">
+    </sound>
+  </soundset>
+<!--
+  mod-minimal: soundsets propios "MM<NombreVanilla>" que apuntan a los MISMOS
+  archivos .wav que ya usan los soundsets vanilla reales (Spanish*/DESwedish*/etc.),
+  registrados bajo un nombre PROPIO del mod.
+
+  Por que existen: se confirmo en juego (Argentina y Finlandia, Colono mudo pese a
+  reiniciar el juego) que agregar una rama nueva a un <civlogic> existente que
+  apunta a un soundset VANILLA POR NOMBRE no funciona: el motor no lo resuelve.
+  El patron que si funciona (confirmado con el Explorador de Hungria) es que la
+  rama apunte a un soundset registrado por el propio mod, aunque sea a los mismos
+  .wav de siempre. Este archivo registra esas versiones "propias" reusando el
+  filename original (sin copiar audio nuevo), para que las ramas de civlogic en
+  los *_snds.mods.xml de Finlandia/Argentina apunten a MM<Nombre> en vez del
+  nombre vanilla directo. Ver aoe3-unit-sounds-snds (memoria).
+-->
+  <soundset name="MMGermanExplorerClaim" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="mm\GermanExplorerClaim.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <!-- Cambio EGY-fix (v6.4): soundsets propios MM<NombreVanilla> reusando los audios reales
+       de Otomanos (Colono/Explorador/Arquero a Caballo/Imam), mismo patron confirmado en
+       aoe3-unit-sounds-snds: nunca apuntar a un nombre vanilla directo desde una rama nueva. -->
+  <soundset name="MMOttomanSettlerMaleSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomansmselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomansmselect2.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\ottomansmselect3.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomansmselect4.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleAcknowledge" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomansmmove1.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\ottomansmmove2.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\ottomansmmove3.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomansmmove4.wav" volume="0.8000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleAttack" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomansmattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleBuild" volume="0.6000" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMBuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleGatherMeat" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMGatherMeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleGatherWood" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMGatherWood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleFarm" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMFarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleGatherCoin" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMGatherCoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanSettlerMaleGatherFruit" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanSMGatherFruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerSelect" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomanexplorerselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\ottomanexplorerselect2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\ottomanexplorerselect3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\ottomanexplorermove1.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\ottomanexplorermove2.wav" volume="0.7500">
+    </sound>
+    <sound filename="mm\ottomanexplorermove3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\OttomanExplorerAttack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerClaim" volume="0.7500" maxnum="1" distance="1.0000">
+    <sound filename="mm\OttomanExplorerClaim.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerDisabled" volume="0.6000" maxnum="1" distance="1.0000">
+    <sound filename="mm\OttomanExplorerDisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerRevived" volume="0.5500" maxnum="1" distance="1.0000">
+    <sound filename="mm\OttomanExplorerRevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMOttomanExplorerRansomed" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="mm\OttomanExplorerRansomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSahinSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\SahinSelect1.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\SahinSelect2.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\SahinSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSahinGrunt" volume="0.6000" maxnum="4" distance="1.0000">
+    <sound filename="mm\SahinGrunt1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\SahinGrunt2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\SahinGrunt3.wav" volume="0.8500">
+    </sound>
+  </soundset>
+  <soundset name="MMSahinAcknowledge" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\SahinMove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\SahinMove2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\SahinMove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMSahinAttack" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\SahinAttack1.wav" volume="0.7500">
+    </sound>
+    <sound filename="mm\SahinAttack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\SahinAttack3.wav" volume="0.9500">
+    </sound>
+  </soundset>
+  <soundset name="MMSahinRevive" volume="0.5000" maxnum="4" distance="1.0000">
+    <sound filename="mm\SahinRevive.wav" volume="1.0000">
+    </sound>
+  </soundset>
+<!--
+  mod-minimal: soundsets propios "MM<NombreVanilla>" para Alemanes (fix HOTHungary/
+  HGEHungary, que nunca habian recibido rama de sonido para Colono/Explorador) y para
+  Holandeses (voz base de la nueva civ Italia+Holanda). Mismo patron v6.5: registrar
+  soundset propio Y copiar el .wav fisico a sound/mm/ (el filename NO resuelve contra
+  el archivo vanilla sin copiarlo). Ver aoe3-unit-sounds-snds (memoria).
+-->
+  <soundset name="MMGermanSettlerMaleSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\germansmselect1.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\germansmselect2.wav" volume="0.9500">
+    </sound>
+    <sound filename="mm\germansmselect3.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\germansmselect4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanSettlerMaleAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\germansmmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\germansmmove2.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\germansmmove3.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\germansmmove4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanSettlerMaleAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\germansmattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanSettlerMaleBuild" volume="0.6000" maxnum="4" distance="1.0000">
+    <sound filename="mm\germansmbuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanSettlerMaleGatherMeat" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="mm\germansmgathermeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanSettlerMaleGatherWood" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\germansmgatherwood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanSettlerMaleFarm" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\germansmfarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanSettlerMaleGatherCoin" volume="0.5500" maxnum="4" distance="1.0000">
+    <sound filename="mm\germansmgathercoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanSettlerMaleGatherFruit" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\germansmgatherfruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanExplorerSelect" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="mm\germanexplorerselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\germanexplorerselect2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\germanexplorerselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanExplorerAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\germanexplorermove1.wav" volume="0.8000">
+    </sound>
+    <sound filename="mm\germanexplorermove2.wav" volume="0.7000">
+    </sound>
+    <sound filename="mm\germanexplorermove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanExplorerAttack" volume="0.6000" maxnum="1" distance="1.0000">
+    <sound filename="mm\germanexplorerattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanExplorerDisabled" volume="0.7000" maxnum="1" distance="1.0000">
+    <sound filename="mm\germanexplorerdisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanExplorerRansomed" volume="0.7000" maxnum="1" distance="1.0000">
+    <sound filename="mm\germanexplorerransomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanExplorerRevived" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="mm\germanexplorerrevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanFemplorerSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\GermanFemplorerSelect1.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\GermanFemplorerSelect2.wav" volume="0.7500">
+    </sound>
+    <sound filename="mm\GermanFemplorerSelect3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanFemplorerDisabled" volume="0.6000" maxnum="1" distance="1.0000">
+    <sound filename="mm\GermanFemplorerDisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanFemplorerRansomed" volume="0.8000" maxnum="1" distance="1.0000">
+    <sound filename="mm\GermanFemplorerRansomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanFemplorerRevived" volume="0.7000" maxnum="1" distance="1.0000">
+    <sound filename="mm\GermanFemplorerRevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanFemplorerAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="mm\GermanFemplorerMove1.wav" volume="0.8500">
+    </sound>
+    <sound filename="mm\GermanFemplorerMove2.wav" volume="0.9000">
+    </sound>
+    <sound filename="mm\GermanFemplorerMove3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="MMGermanFemplorerAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="mm\GermanFemplorerAttack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\GermanFemplorerAttack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="mm\GermanFemplorerAttack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+</soundsetdefmods>

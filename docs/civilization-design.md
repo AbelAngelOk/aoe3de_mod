@@ -1,11 +1,58 @@
 # Diseño de Civilizaciones - Eastern European Expansion
 
+> **Nota (2026-09-09)**: el contenido de las civs individuales más abajo en este archivo es
+> el PLAN ORIGINAL (pre-implementación) y quedó desactualizado en varios puntos — nomenclatura
+> `EEX*`, base real de Rumania (Otomanos en el plan, Rusia en la implementación real), unidades
+> que nunca se construyeron tal cual (Knekt, Hakkapeliitta como unidad entrenable, etc.). El
+> estado REAL de cada civ implementada está en **`docs/civs/`** (un `.md` por civ) — consultar
+> ahí primero. Esta sección se conserva como referencia histórica del diseño original.
+
 ## Criterios de Diseño
 
 1. **Base histórica**: La civ base debe ser históricamente apropiada.
 2. **Reutilización**: Todas las unidades reutilizan assets existentes.
 3. **Diferenciación**: Cada civ tiene al menos 2-3 unidades únicas que la distinguen.
 4. **Balance**: Las unidades son adaptaciones de unidades base con stats similares.
+
+## Reglas anti-bugs recurrentes (agregadas 2026-09-09 — aplican a TODA civ nueva o clonada)
+
+Estas tres reglas nacen de bugs que se repitieron civ tras civ en este mod (ver
+`docs/civs/*.md` y las memorias `aoe3-*-civ-clones-*` para los casos concretos). Revisarlas
+SIEMPRE antes de dar por terminada una civ, no solo cuando el usuario las menciona.
+
+1. **Toda reutilización de una civ real necesita que se llamen/registren los sonidos de
+   edificios Y unidades — nunca asumir que "compartir el proto" alcanza.** El audio en AoE3
+   DE se resuelve por nombre de proto (`Sound/<proto>_snds.xml`) y, para protos compartidos
+   con `<civlogic>`, por nombre de CIV dentro de ese archivo. Una civ nueva que no aparece
+   como `<choice>` en el civlogic de un proto compartido (Settler, Explorer, Grenadier,
+   Dragoon, Hussar, CavalryArcher, Priest, Culverin, etc.) queda MUDA para ese proto aunque
+   anime y funcione perfecto — el síntoma engañoso es que todo lo demás funciona. Checklist
+   por cada civ nueva: por cada proto REAL compartido que la civ deja habilitado (tocado o
+   heredado sin cambios), `grep -c "<civlogic>"` su `Sound/<proto>_snds.xml` de referencia; si
+   da >0, hace falta una rama nueva. El fix confirmado en juego es SIEMPRE de dos pasos:
+   registrar un soundset propio (`MM<Nombre>`) en `soundsetsde.mods.xml` Y copiar el/los
+   `.wav` reales a `sound/mm/` — apuntar por nombre a un soundset vanilla sin copiar el
+   archivo, o agregar civlogic a un archivo que nunca tuvo ninguno, NO funciona en juego
+   (confirmado repetidas veces). Detalle completo: memoria `aoe3-unit-sounds-snds`.
+2. **Toda unidad copiada/clonada (proto 100% nuevo) necesita su propio `sound/<proto>_snds.xml`
+   desde el primer commit, no como paso posterior.** Un proto con nombre nuevo simplemente no
+   tiene archivo de sonido — queda mudo aunque comparta animfile/tactics con la unidad real de
+   la que se clonó. Al clonar una unidad, crear el `_snds.xml` en el MISMO cambio (copiar el de
+   la unidad base y ajustar `<protounit name="...">`), reusando los soundsets reales que mejor
+   encajen. Si el clon reemplaza/convive con un proto que YA tenía civlogic, el archivo nuevo
+   debe ser PLANO (sin civlogic) — clonar por error la estructura con civlogic de un proto
+   compartido para un proto ahora 100% propio también deja la unidad muda (esa civ nunca va a
+   tener rama en un civlogic que ya no le corresponde).
+3. **Al agregar el roster de una unidad nueva/copiada a un edificio, agregar SIEMPRE los
+   botones de creación rápida (`<train>`) Y preguntar al usuario si la unidad necesita una
+   línea de tecnologías de mejora por edad (Veterano/Guardia/Imperial o el patrón que
+   corresponda) antes de darla por terminada.** No asumir en ningún sentido — ni que "no hace
+   falta mejora porque el usuario no la pidió" ni que "hay que inventarle una mejora sin
+   preguntar". Si la unidad reemplaza a un proto real que sí tenía su propia línea de mejoras,
+   preguntar explícitamente si esa línea se mantiene (reusando las mejoras reales si el proto
+   sigue siendo el mismo) o si hace falta clonarla (si el proto es compartido con otra civ del
+   mod y no se puede tocar la mejora real sin filtrarle el cambio, ver
+   `aoe3-shared-proto-per-player-extend`).
 
 ---
 

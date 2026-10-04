@@ -1,0 +1,36 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\africans\shared\levy\textures\levy_gunner_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\africans\shared\levy\textures\levy_gunner_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\africans\shared\levy\textures\levy_gunner_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\africans\shared\levy\textures\levy_gunner_matA_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\africans\shared\levy\textures\levy_archer_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\africans\shared\levy\textures\levy_archer_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\africans\shared\levy\textures\levy_archer_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\africans\shared\levy\textures\levy_archer_matA_Details">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\infantry_ranged\colonial_militia\textures\maroon_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\africans\shared\levy\textures\levy_gunner_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\africans\shared\levy\textures\levy_gunner_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\africans\shared\levy\textures\levy_gunner_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

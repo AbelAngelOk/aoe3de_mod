@@ -478,19 +478,9 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCXPShipCoupRiders2</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCXPShipCoupRiders1</prereqtech>
-      <age>2</age>
-      <displayunitcount>4</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCXPShipCoupRiders3</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCXPShipCoupRiders2</prereqtech>
       <age>3</age>
       <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -509,7 +499,7 @@
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>HCXPShipCoupRiders4</prereqtech>
-      <age>3</age>
+      <age>2</age>
     </card>
     <card>
       <name>HCXPShipRifleRiders1</name>
@@ -938,7 +928,7 @@
       <level>10</level>
       <prereqtech>HCXPBuffaloTeam</prereqtech>
       <age>3</age>
-      <displayunitcount>13</displayunitcount>
+      <displayunitcount>11</displayunitcount>
     </card>
     <card>
       <name>HCXPBuffalo3</name>

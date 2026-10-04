@@ -790,13 +790,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCPapalArsenal</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-    </card>
-    <card>
       <name>HCImprovedBuildings</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -865,6 +858,13 @@
       <age>1</age>
     </card>
     <card>
+      <name>DEHCPapalArsenal</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
       <name>DEHCMilaneseArsenal</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -927,7 +927,6 @@
       <maxcount>1</maxcount>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCShipBattleshipRepeat</name>
@@ -1571,6 +1570,53 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVRidingSchool</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <bindtotech>HCRidingSchool</bindtotech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVCavalryCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <bindtotech>HCCavalryCombatOttoman</bindtotech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVPhanariotes</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVShipCavArchers</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVRussianExpArmy</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVMilitaryFrontier</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1654,7 +1700,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>18</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1950,7 +1996,7 @@
     </card>
     <card>
       <name>DEHCREVBonifacio</name>
-      <maxcount>4</maxcount>
+      <maxcount>1</maxcount>
       <age>1</age>
       <displayunitcount>1</displayunitcount>
       <revoltcard>
@@ -2399,21 +2445,6 @@
         <card>DEHCREVCTrainTimeUS</card>
         <card>DEHCREVUSACombat</card>
         <card>DEHCREVLongRifles</card>
-      </cards>
-    </revoltdeck>
-    <revoltdeck civ="DERevRomania">
-      <name>$$45518$$</name>
-      <cards>
-        <card>DEHCREVHajduks</card>
-        <card>DEHCREVWallachianArchers</card>
-        <card>DEHCREVMilitaryFrontier</card>
-        <card>DEHCREVCrabats</card>
-        <card>DEHCREVPandours</card>
-        <card>DEHCREVShipHorseArtillery</card>
-        <card>DEHCREVShipEuropeanFleet</card>
-        <card>DEHCREVShipFortWagonOutpost</card>
-        <card>DEHCREVCitizenshipOutpost</card>
-        <card>DEHCREVRoshiorDragoons</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevBarbaryStates">

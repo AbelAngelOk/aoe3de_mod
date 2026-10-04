@@ -1,0 +1,28 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\indians\monk\textures\elephant_monk_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\indians\monk\textures\elephant_monk_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\indians\monk\textures\elephant_monk_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\indians\monk\textures\elephant_monk_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\indians\monk\textures\monk_elephant_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\indians\monk\textures\monk_elephant_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\indians\monk\textures\monk_elephant_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

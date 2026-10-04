@@ -1,0 +1,9 @@
+<animfile>
+  <definebone>HS Bone Hoof Frnt Lt</definebone>
+  <definebone>HS Bone Hoof Frnt Rt</definebone>
+  <definebone>HS Bone Hoof Back Lt</definebone>
+  <definebone>HS Bone Hoof Back Rt</definebone>
+  <attachment>rider<include>units\trade\african_trader\african_trader_rider.xml</include></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\asians\indians\sowar\sowarCamel_0</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>2.00</width><height>3.0</height><zoffset>-0.10</zoffset></decal><attach a="rider" frombone="hotspot" tobone="attachpoint" syncanims="1"></attach></component>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\asians\indians\sowar\sowarCamel_walk00</file><tag type="FootstepLeft" footprinttype="Horse" footprintbone="HS BONE HOOF FRNT LT">1.00</tag><tag type="FootstepLeft" footprinttype="Horse" footprintbone="HS BONE HOOF BACK LT">0.83</tag><tag type="FootstepRight" footprinttype="Horse" footprintbone="HS BONE HOOF FRNT RT">0.70</tag><tag type="FootstepRight" footprinttype="Horse" footprintbone="HS BONE HOOF BACK RT">0.50</tag></assetreference><component>ModelComp</component></anim>
+</animfile>

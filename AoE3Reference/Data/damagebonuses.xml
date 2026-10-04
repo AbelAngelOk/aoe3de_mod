@@ -107,8 +107,7 @@
   <damagebonus>
     <unittype>AbstractSiegeTrooper</unittype>
     <icon>resources/images/hud/stat_icon_siege_troop.png</icon>
-    <displaynameid>42026</displaynameid>
-    <rollovernameid>69637</rollovernameid>
+    <displaynameid>69637</displaynameid>
     <defaulttypestringskip>
     </defaulttypestringskip>
   </damagebonus>
@@ -216,6 +215,13 @@
     </showrollover>
   </damagebonus>
   <damagebonus>
+    <unittype>AbstractHandInfantry</unittype>
+    <icon>resources/images/hud/stat_icon_hand_infantry.png</icon>
+    <displaynameid>42034</displaynameid>
+    <showrollover>
+    </showrollover>
+  </damagebonus>
+  <damagebonus>
     <unittype>AbstractSkirmisher</unittype>
     <icon>resources/images/hud/stat_icon_skirmisher.png</icon>
     <displaynameid>122333</displaynameid>
@@ -225,6 +231,8 @@
   <damagebonus>
     <unittype>AbstractCounterSkirmisher</unittype>
     <displaynameid>122334</displaynameid>
+    <showrollover>
+    </showrollover>
   </damagebonus>
   <damagebonus>
     <unittype>LogicalTypeMalteseCivBonus</unittype>
@@ -268,5 +276,50 @@
     <displaynameid>127007</displaynameid>
     <showrollover>
     </showrollover>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractFort</unittype>
+    <displaynameid>200157</displaynameid>
+    <showrollover>
+    </showrollover>
+  </damagebonus>
+  <damagebonus>
+    <unittype>ColonyBuilding</unittype>
+    <displaynameid>26747</displaynameid>
+    <showrollover>
+    </showrollover>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractFolwark</unittype>
+    <displaynameid>130800</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractDefensiveBuilding</unittype>
+    <displaynameid>25639</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractNativeWarrior</unittype>
+    <icon>resources\images\hud\stat_icon_natives.png</icon>
+    <displaynameid>42022</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>AbstractChurch</unittype>
+    <displaynameid>22928</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>LogicalTypePolishBannerBarracksCount</unittype>
+    <displaynameid>56161</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>LogicalTypePolishBannerStableCount</unittype>
+    <displaynameid>56162</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>EconomicBuilding</unittype>
+    <displaynameid>65954</displaynameid>
+  </damagebonus>
+  <damagebonus>
+    <unittype>ConstructableBuilding</unittype>
+    <displaynameid>19159</displaynameid>
   </damagebonus>
 </damagebonustypes>

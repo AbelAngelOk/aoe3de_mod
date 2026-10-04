@@ -1,0 +1,34 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\mercenaries\bosniak_rider\textures\bosniak_lance_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\mercenaries\bosniak_rider\textures\bosniak_lance_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\mercenaries\bosniak_rider\textures\bosniak_lance_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\mercenaries\bosniak_rider\textures\bosniak_lance_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\natives\europeans\bavarian_horseman\textures\bavarian_horseman_lance_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\mercenaries\bosniak_rider\textures\bosniak_lance_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\mercenaries\bosniak_rider\textures\bosniak_lance_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\europeans\bavarian_horseman\textures\bavarian_horseman_lance_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\revolution\polish_lancer\textures\polish_lancer_lance_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\mercenaries\bosniak_rider\textures\bosniak_lance_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\mercenaries\bosniak_rider\textures\bosniak_lance_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

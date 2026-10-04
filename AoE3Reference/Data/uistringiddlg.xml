@@ -1,0 +1,10 @@
+<layout>
+  <gadget type="dialog" name="StringIdDlg" closebutton="" bevel="" titlebar="Set String ID" background="ui\editor\background\editor_background" tilebackground="" size1024="511 560 766 701" hidden="" closeonesc="">
+    <gadget type="textField" name="StringIdDlg-strid" textcolor="0 0 0" nospaces="" size1024="519 587 758 610">
+    </gadget>
+    <gadget name="StringIdDlg-strtext" type="formatText" background="ui\editor\background\editor_background" textcolor="0 0 0" textfont="Arial nodrop" textfontsize="12" sunkenbevel="" textmarkup="" border1024="3 2" formattextconvertuserlf="" size1024="519 615 758 663">
+    </gadget>
+    <gadget name="StringIdDlg-applyBtn" type="button" bevel="" size1024="556 671 633 691">Apply</gadget>
+    <gadget name="StringIdDlg-cancelBtn" type="button" bevel="" size1024="643 671 720 691">Cancel</gadget>
+  </gadget>
+</layout>

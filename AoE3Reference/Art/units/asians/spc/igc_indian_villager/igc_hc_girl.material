@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\homecity_units\indian_girl\textures\indian_girl_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\homecity_units\indian_girl\textures\indian_girl_mata_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\homecity_units\indian_girl\textures\indian_girl_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\homecity_units\indian_girl\textures\indian_girl_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\homecity_units\indian_girl\textures\indian_girl_mata_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\homecity_units\indian_girl\textures\indian_girl_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

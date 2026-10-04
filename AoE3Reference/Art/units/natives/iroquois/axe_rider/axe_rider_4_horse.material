@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\iroquois\axe_rider_4_horse\textures\axe_rider_4_horse_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\natives\iroquois\axe_rider_4_horse\textures\axe_rider_4_horse_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\natives\iroquois\axe_rider_4_horse\textures\axe_rider_4_horse_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

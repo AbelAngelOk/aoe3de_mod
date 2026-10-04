@@ -1,0 +1,32 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\wild_elephant\textures\elephant_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\wild_elephant\textures\elephant_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\wild_elephant\textures\elephant_mata_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\animals\wild_elephant\textures\guardian_elephant_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\wild_elephant\textures\guardian_elephant_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\wild_elephant\textures\guardian_elephant_mata_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\animals\wild_elephant\textures\elephant_pet_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\wild_elephant\textures\elephant_pet_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\wild_elephant\textures\elephant_pet_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\animals\wild_elephant\textures\elephant_pet_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

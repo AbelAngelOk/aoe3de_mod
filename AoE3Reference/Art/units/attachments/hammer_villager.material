@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/attachments/hammer_villager/textures/hammer_villager_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/attachments/hammer_villager/textures/hammer_villager_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units/attachments/hammer_villager/textures/hammer_villager_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

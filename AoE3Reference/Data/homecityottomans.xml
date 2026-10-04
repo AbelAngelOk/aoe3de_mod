@@ -331,7 +331,7 @@
       <level>10</level>
       <prereqtech>HCShipJanissaries2</prereqtech>
       <age>3</age>
-      <displayunitcount>12</displayunitcount>
+      <displayunitcount>14</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -525,7 +525,7 @@
       <level>10</level>
       <prereqtech>HCShipCavArchers3</prereqtech>
       <age>2</age>
-      <bindtotech>HCCavalryCombatOttoman</bindtotech>
+      <bindtotech>DEHCREVCavalryCombat</bindtotech>
     </card>
     <card>
       <name>HCShipAbusGuns1</name>
@@ -561,15 +561,6 @@
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>5</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCShipHumbaracis2</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>DEHCShipHumbaracis1</prereqtech>
-      <age>3</age>
-      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1344,6 +1335,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>DEHCREVHandMortar</bindtotech>
       <age>2</age>
     </card>
     <card>
@@ -1352,7 +1344,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <infiniteinlastage>1</infiniteinlastage>
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
@@ -1426,7 +1417,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>18</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1696,6 +1687,33 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVHajduks</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVHonved</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVMagyarGrenadiers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVMilitaryFrontier</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1710,25 +1728,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>3</age>
-      <displayunitcount>15</displayunitcount>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVHajduks</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>1</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVMagyarGrenadiers</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>1</age>
+      <displayunitcount>9</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1787,6 +1787,15 @@
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
       <displayunitcount>3</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVCavalryCombat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <bindtotech>HCCavalryCombatOttoman</bindtotech>
+      <age>1</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1858,15 +1867,6 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVCavalryCombat</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <bindtotech>HCCavalryCombatOttoman</bindtotech>
-      <age>1</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
       <name>DEHCREVPhanariotes</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1892,6 +1892,16 @@
       <prereqtech>XPRevolution</prereqtech>
       <age>3</age>
       <displayunitcount>12</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVHandMortar</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <bindtotech>DEHCHandMortarOttoman</bindtotech>
+      <age>2</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2133,6 +2143,7 @@
       <name>$$45518$$</name>
       <cards>
         <card>DEHCREVHajduks</card>
+        <card>DEHCREVHonved</card>
         <card>DEHCREVMagyarGrenadiers</card>
         <card>DEHCREVMilitaryFrontier</card>
         <card>DEHCREVCrabats</card>
@@ -2145,6 +2156,9 @@
         <card>DEHCREVLegionHungarian</card>
         <card>DEHCREVShipGrenadiersRepeat</card>
         <card>DEHCREVShipFalconetsBalkan</card>
+        <card>DEHCREVRidingSchool</card>
+        <card>DEHCREVCavalryCombat</card>
+        <card>DEHCREVHandMortar</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevRomania">
@@ -2324,7 +2338,6 @@
       <tech x="4.4" y="3.0">HCLightArtilleryHitpointsOttoman</tech>
       <tech x="4.4" y="7.0">HCShipAbusGuns3</tech>
       <tech x="5.1" y="1.0">DEHCShipHumbaracis1</tech>
-      <tech x="5.1" y="2.0">DEHCShipHumbaracis2</tech>
       <tech x="5.1" y="3.0">DEHCShipHumbaracisRepeat</tech>
       <tech x="5.1" y="5.0">HCArtilleryCombatOttoman</tech>
       <tech x="5.8" y="1.0">HCShipFalconets1</tech>
@@ -2376,7 +2389,6 @@
       <tech x="4.4" y="3.0">HCLightArtilleryHitpointsOttoman</tech>
       <tech x="4.4" y="7.0">HCShipAbusGuns3</tech>
       <tech x="5.1" y="1.0">DEHCShipHumbaracis1</tech>
-      <tech x="5.1" y="2.0">DEHCShipHumbaracis2</tech>
       <tech x="5.1" y="3.0">DEHCShipHumbaracisRepeat</tech>
       <tech x="5.1" y="5.0">HCArtilleryCombatOttoman</tech>
       <tech x="5.8" y="1.0">HCShipFalconets1</tech>

@@ -1,0 +1,40 @@
+<material>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\hausa\hausa_props\textures\hausa_props_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\hausa\hausa_props\textures\hausa_props_mata_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\hausa\hausa_props\textures\hausa_props_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\dutch\hc_harbor_dutch\textures\hc_harbor_dutch_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="homecity\dutch\hc_harbor_dutch\textures\hc_harbor_dutch_mata_Normals">
+      </texture>
+      <texture name="Masks" override="homecity\dutch\hc_harbor_dutch\textures\hc_harbor_dutch_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\africans\naval\fishing_boat\textures\fishing_boat_eth_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\africans\naval\fishing_boat\textures\fishing_boat_eth_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\africans\naval\fishing_boat\textures\fishing_boat_eth_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\africans\naval\fishing_boat\textures\fishing_boat_eth_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

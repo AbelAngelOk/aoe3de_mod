@@ -1,0 +1,25 @@
+<geometrytrail>
+   <emissionrate>0.2</emissionrate>
+   <segmentlifetime>8.0</segmentlifetime>
+   <texcoordscale>4.0</texcoordscale>
+   <texcoordscrollspeed>0.0</texcoordscrollspeed>
+   <clampEmitterToTerrain terrain="0" water="1" offset="0.0"></clampEmitterToTerrain>
+   <clampTrailToTerrain terrain="0" water="1" offset="0.15"></clampTrailToTerrain>
+   <alphaRampTime>2.0</alphaRampTime>
+   <scaletable>
+      <scale time="0.0" x="8.0" varX="0.1" y="0.0" varY="0.0"></scale>
+      <scale time="0.3" x="8.0" varX="0.1" y="0.0" varY="0.0"></scale>
+      <scale time="0.8" x="12.0" varX="0.1" y="0.0" varY="0.0"></scale>
+   </scaletable>
+   <colortable>
+      <color time="0.0" valueR="1.0" valueG="1.0" valueB="1.0" valueA="0.0" varR="0.0" varG="0.0" varB="0.0" varA="0.0"></color>
+      <color time="0.09" valueR="1.0" valueG="1.0" valueB="1.0" valueA="0.6" varR="0.0" varG="0.0" varB="0.0" varA="0.0"></color>
+      <color time="0.1" valueR="1.0" valueG="1.0" valueB="1.0" valueA="0.6" varR="0.0" varG="0.0" varB="0.0" varA="0.0"></color>
+      <color time="0.4" valueR="1.0" valueG="1.0" valueB="1.0" valueA="0.6" varR="0.0" varG="0.0" varB="0.0" varA="0.0"></color>
+      <color time="0.8" valueR="1.0" valueG="1.0" valueB="1.0" valueA="0.0" varR="0.0" varG="0.0" varB="0.0" varA="0.0"></color>
+   </colortable>
+   <crosssectionlines>
+      <line startX="-0.5" startY="0.0" endX="0.5" endY="0.0" startU="0.0" endU="1.0"></line>
+   </crosssectionlines>
+   <effect diffuse="effects\water_wakes\boatfoam">decal_wrap_vc</effect>
+</geometrytrail>

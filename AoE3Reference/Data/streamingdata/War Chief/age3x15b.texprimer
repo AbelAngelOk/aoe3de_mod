@@ -1,0 +1,11 @@
+VERSION:1
+effects\rendering\cloudshadows|[0,8030]
+terrain\grass\tiling_basecolor|[0,8030]
+terrain\grass\tiling_normals|[0,8030]
+terrain\grass\tiling_masks|[0,8030]
+missing|[0,0]
+popcornfx\materials\defaulttextures\pt_dragonfly|[0,1613]
+popcornfx\materials\defaulttextures\blast|[0,832]
+popcornfx\materials\defaulttextures\pt_smokes|[0,1659]
+popcornfx\materials\defaulttextures\pt_glow|[0,1637]
+popcornfx\materials\defaulttextures\pt_smokes_large|[0,1728]

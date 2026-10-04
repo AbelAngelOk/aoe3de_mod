@@ -258,19 +258,6 @@
     <minturnangle>45.0</minturnangle>
   </protounit>
   <protounit>
-    <name>StagecoachRoyal</name>
-    <culturegroup>Europeans</culturegroup>
-    <visual>homecity\homecity_units\stagecoach_royal\stagecoach_royal.xml</visual>
-    <script>stagecoach</script>
-    <mincount>1</mincount>
-    <maxcount>1</maxcount>
-    <bone>bone_stagecoach</bone>
-    <locked>
-    </locked>
-    <turnrate>360.0</turnrate>
-    <minturnangle>45.0</minturnangle>
-  </protounit>
-  <protounit>
     <name>PeasantPainter</name>
     <culturegroup>Europeans</culturegroup>
     <visual>homecity\homecity_units\peasant_class_entertainer_painter\peasant_class_entertainer_painter.xml</visual>
@@ -743,6 +730,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>aztec\aztec_homecity_explorer_camera.cam</camera>
     <widescreencamera>aztec\aztec_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -1157,6 +1146,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>china/china_homecity_explorer_camera.cam</camera>
     <widescreencamera>china/china_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -1323,6 +1314,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>inca\inca_homecity_explorer_camera.cam</camera>
     <widescreencamera>inca\inca_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -1546,6 +1539,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>american\american_homecity_explorer_camera.cam</camera>
     <widescreencamera>american\american_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -1745,6 +1740,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>ethiopia\ethiopia_explorer_camera.cam</camera>
     <widescreencamera>ethiopia\ethiopia_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2122,6 +2119,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>hausa\hausa_explorer_camera.cam</camera>
     <widescreencamera>hausa\hausa_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2297,6 +2296,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>mexico\mexico_homecity_explorer_camera.cam</camera>
     <widescreencamera>mexico\mexico_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2308,6 +2309,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>british\british_homecity_dock_camera.cam</camera>
     <widescreencamera>british\british_homecity_dock_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2319,6 +2322,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>spanish\spanish_homecity_explorer_camera.cam</camera>
     <widescreencamera>spanish\spanish_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2330,6 +2335,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>italy\italy_homecity_explorer_camera.cam</camera>
     <widescreencamera>italy\italy_homecity_explorer_camera_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2341,6 +2348,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>malta\malta_homecity_explorer_camera.cam</camera>
     <widescreencamera>malta\malta_homecity_explorer_camera_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2533,6 +2542,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>sioux\sioux_homecity_explorer_camera.cam</camera>
     <widescreencamera>sioux\sioux_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2604,12 +2615,14 @@
   </protounit>
   <protounit>
     <name>xpIroquoisWarChief</name>
-    <culturegroup>Iroquois</culturegroup>
+    <culturegroup>IroquoisNotCampaign</culturegroup>
     <visual>units\natives\iroquois\war_chief\war_chief.xml</visual>
     <bone>bone_explorer_special</bone>
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>iroquois\iroquois_homecity_explorer_camera.cam</camera>
     <widescreencamera>iroquois\iroquois_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2621,6 +2634,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>dutch\dutch_homecity_explorer_camera.cam</camera>
     <widescreencamera>dutch\dutch_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2632,6 +2647,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>french\french_homecity_explorer_camera.cam</camera>
     <widescreencamera>french\french_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2643,6 +2660,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>german\german_homecity_explorer_camera.cam</camera>
     <widescreencamera>german\german_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2654,6 +2673,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>india\india_homecity_explorer_camera.cam</camera>
     <widescreencamera>india\india_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2669,6 +2690,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>japan\japan_homecity_explorer_camera.cam</camera>
     <widescreencamera>japan\japan_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2684,6 +2707,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>ottoman\ottoman_homecity_explorer_camera.cam</camera>
     <widescreencamera>ottoman\ottoman_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2695,6 +2720,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>portuguese\portuguese_homecity_explorer_camera.cam</camera>
     <widescreencamera>portuguese\portuguese_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2706,6 +2733,8 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>russian\russian_homecity_explorer_camera.cam</camera>
     <widescreencamera>russian\russian_homecity_explorer_widescreencamera.cam</widescreencamera>
   </protounit>
@@ -2717,7 +2746,74 @@
     <script>explorer</script>
     <selectable>
     </selectable>
+    <explorer>
+    </explorer>
     <camera>swedish\swedish_homecity_explorer_camera.cam</camera>
     <widescreencamera>swedish\swedish_homecity_explorer_widescreencamera.cam</widescreencamera>
+  </protounit>
+  <protounit>
+    <name>ExplorerDEHetmanPolish</name>
+    <civilization>DEPolish</civilization>
+    <visual>units\hetman\hetman_horse.xml</visual>
+    <bone>bone_explorer_special</bone>
+    <script>hetman</script>
+    <selectable>
+    </selectable>
+    <explorer>
+    </explorer>
+    <camera>polish\polish_homecity_explorer_camera.cam</camera>
+    <widescreencamera>polish\polish_homecity_explorer_widescreencamera.cam</widescreencamera>
+  </protounit>
+  <protounit>
+    <name>ExplorerDEDanish</name>
+    <civilization>DEDanish</civilization>
+    <visual>units/explorers/explorer.xml</visual>
+    <bone>bone_explorer_special</bone>
+    <script>explorer</script>
+    <selectable>
+    </selectable>
+    <explorer>
+    </explorer>
+    <camera>danish\danish_homecity_explorer_camera.cam</camera>
+    <widescreencamera>danish\danish_homecity_explorer_widescreencamera.cam</widescreencamera>
+  </protounit>
+  <protounit>
+    <name>BrownCat</name>
+    <culturegroup>Europeans</culturegroup>
+    <visual>units\animals\cat\catbrown.xml</visual>
+    <script>cat</script>
+    <mincount>1</mincount>
+    <maxcount>2</maxcount>
+    <locked>
+    </locked>
+    <maxwalkvelocity>1.3</maxwalkvelocity>
+    <turnrate>360.0</turnrate>
+    <minturnangle>22.5</minturnangle>
+  </protounit>
+  <protounit>
+    <name>BlackCat</name>
+    <culturegroup>Europeans</culturegroup>
+    <visual>units\animals\cat\catblack.xml</visual>
+    <script>cat</script>
+    <mincount>1</mincount>
+    <maxcount>2</maxcount>
+    <locked>
+    </locked>
+    <maxwalkvelocity>1.3</maxwalkvelocity>
+    <turnrate>360.0</turnrate>
+    <minturnangle>22.5</minturnangle>
+  </protounit>
+  <protounit>
+    <name>Lighter</name>
+    <culturegroup>Europeans</culturegroup>
+    <visual>homecity\homecity_units\lighter\lighter.xml</visual>
+    <script>lighter</script>
+    <mincount>1</mincount>
+    <maxcount>3</maxcount>
+    <locked>
+    </locked>
+    <maxwalkvelocity>2.0</maxwalkvelocity>
+    <turnrate>360.0</turnrate>
+    <minturnangle>45.0</minturnangle>
   </protounit>
 </homecityprotounits>

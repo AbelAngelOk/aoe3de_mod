@@ -1,0 +1,56 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\swedish_cannon\textures\swedish_cannon_age4_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\swedish_cannon\textures\swedish_cannon_age4_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\swedish_cannon\textures\swedish_cannon_age4_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\swedish_cannon\textures\swedish_cannon_age4_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\swedish_cannon\textures\swedish_cannon_age4_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\swedish_cannon\textures\swedish_cannon_age4_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\swedish_cannon\textures\swedish_cannon_age4_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\swedish_cannon\textures\swedish_cannon_age4_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\swedish_cannon\textures\swedish_cannon_age4_gunner_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\Horse_Artillery\textures\horse_artillery_gunner_matB_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\Horse_Artillery\textures\horse_artillery_gunner_matB_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\swedish_cannon\textures\swedish_cannon_age4_gunner_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\cannon\textures\cannon_loader_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\cannon\textures\cannon_loader_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\cannon\textures\cannon_loader_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\warwick\textures\spc_warwick_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\warwick\textures\igc_warwick_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\warwick\textures\igc_warwick_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\warwick\textures\spc_warwick_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\warwick\textures\spc_warwick_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\warwick\textures\igc_warwick_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\warwick\textures\igc_warwick_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\warwick\textures\spc_warwick_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

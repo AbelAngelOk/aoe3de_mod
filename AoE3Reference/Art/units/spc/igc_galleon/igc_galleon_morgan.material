@@ -1,0 +1,52 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\galleon\textures\igc_galleon_lizzie_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\naval\galleon\textures\igc_galleon_lizzie_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\naval\galleon\textures\igc_galleon_lizzie_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\galleon\textures\igc_galleon_lizzie_matd_basecolor">
+      </texture>
+      <texture name="Normals" override="units\naval\galleon\textures\igc_galleon_lizzie_matd_normals">
+      </texture>
+      <texture name="Masks" override="units\naval\galleon\textures\igc_galleon_lizzie_matd_masks">
+      </texture>
+      <texture name="Details" override="units\naval\galleon\textures\igc_galleon_lizzie_matd_details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\galleon\textures\igc_galleon_morgan_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="units\naval\galleon\textures\igc_galleon_morgan_matb_normals">
+      </texture>
+      <texture name="Masks" override="units\naval\galleon\textures\igc_galleon_morgan_matb_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\galleon\textures\igc_galleon_lizzie_matc_basecolor">
+      </texture>
+      <texture name="Normals" override="units\naval\galleon\textures\igc_galleon_lizzie_matc_normals">
+      </texture>
+      <texture name="Masks" override="units\naval\galleon\textures\igc_galleon_lizzie_matc_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

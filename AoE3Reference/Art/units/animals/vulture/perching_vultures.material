@@ -1,0 +1,50 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\vulture\textures\perching_vultures_vulture_1_new_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\vulture\textures\perching_vultures_vulture_1_new_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\vulture\textures\perching_vultures_vulture_1_new_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\bison\textures\bison_carcass_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\bison\textures\bison_carcass_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\bison\textures\bison_carcass_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\vulture\working\painter\trunklow_defaultmaterial_basecolor">
+      </texture>
+      <texture name="Normals" override="units\animals\vulture\working\painter\trunklow_defaultmaterial_normals">
+      </texture>
+      <texture name="Masks" override="units\animals\vulture\working\painter\trunklow_defaultmaterial_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\vulture\textures\vulture_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\vulture\textures\vulture_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\vulture\textures\vulture_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

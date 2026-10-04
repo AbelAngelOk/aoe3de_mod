@@ -1,0 +1,11 @@
+<animfile>
+  <definebone>bone attachpoint01</definebone>
+  <definebone>bone attachpoint02</definebone>
+  <definebone>bone attachpoint03</definebone>
+  <definebone>bone attachpoint04</definebone>
+  <definebone>bone attachpoint05</definebone>
+  <attachment>Adult01<include>units\animals\swan\swan_adult.xml</include></attachment>
+  <attachment>Cygnet01<include>units\animals\swan\cygnet.xml</include></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\swan\swan_family_model</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\swan\swan_family</file></assetreference><component>ModelComp</component><attach a="Adult01" frombone="MASTER" tobone="bone attachpoint01" syncanims="0"></attach><attach a="Adult01" frombone="MASTER" tobone="bone attachpoint02" syncanims="0"></attach><attach a="Cygnet01" frombone="MASTER" tobone="bone attachpoint03" syncanims="0"></attach><attach a="Cygnet01" frombone="MASTER" tobone="bone attachpoint04" syncanims="0"></attach><attach a="Cygnet01" frombone="MASTER" tobone="bone attachpoint05" syncanims="0"></attach></anim>
+</animfile>

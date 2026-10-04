@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\homecity_units\indian_snakecharmer\textures\indian_snakecharmer_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\homecity_units\indian_snakecharmer\textures\indian_snakecharmer_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\homecity_units\indian_snakecharmer\textures\indian_snakecharmer_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\home_city_props\generic_props\textures\generic_props_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\home_city_props\generic_props\textures\generic_props_normals">
+      </texture>
+      <texture name="Masks" override="homecity\home_city_props\generic_props\textures\generic_props_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

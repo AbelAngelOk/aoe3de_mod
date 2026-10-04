@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\mercenaries\fusilier\textures\walloon_guard_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\mercenaries\fusilier\textures\walloon_guard_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\mercenaries\fusilier\textures\walloon_guard_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\mercenaries\fusilier\textures\walloon_guard_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\mercenaries\fusilier\textures\walloon_guard_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\mercenaries\fusilier\textures\walloon_guard_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\mercenaries\fusilier\textures\walloon_guard_matb_Masks">
+      </texture>
+      <texture name="Details" override="units\mercenaries\fusilier\textures\walloon_guard_matb_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

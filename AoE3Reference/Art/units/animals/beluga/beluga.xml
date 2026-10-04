@@ -1,0 +1,8 @@
+<animfile>
+  <definebone>bone_follow</definebone>
+  <definebone>bone_tail</definebone>
+  <attachment>wake_A<component>emitter<assetreference type="popcornFx"><file>water_effects\beluga_wake.pkfx</file></assetreference></component><anim>None<component>emitter</component></anim></attachment>
+  <attachment>spray_A<component>emitter2<assetreference type="popcornFx"><file>water_effects\whale_spray.pkfx</file></assetreference></component><anim>None<component>emitter2</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\beluga\beluga</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_128x128</selectedtexture><width>6.00</width><height>6.00</height><zoffset>0.20</zoffset></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\beluga\beluga_idle</file><weight>90</weight></assetreference><assetreference type="GrannyAnim"><file>units\animals\beluga\beluga_idleb</file><weight>30</weight></assetreference><assetreference type="GrannyAnim"><file>units\animals\beluga\beluga_idlec</file><weight>25</weight></assetreference><component>ModelComp</component><attach a="wake_A" frombone="ATTACHPOINT" tobone="bone_follow" syncanims="0"></attach><attach a="wake_A" frombone="ATTACHPOINT" tobone="bone_tail" syncanims="0"></attach></anim>
+</animfile>

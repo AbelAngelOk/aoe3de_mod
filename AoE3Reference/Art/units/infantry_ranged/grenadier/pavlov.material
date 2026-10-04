@@ -1,0 +1,48 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\grenadier\textures\pavlov_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\grenadier\textures\pavlov_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\grenadier\textures\pavlov_mata_masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\grenadier\textures\pavlov_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\grenadier\textures\pavlov_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\grenadier\textures\pavlov_matb_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\grenadier\textures\pavlov_matb_masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\grenadier\textures\pavlov_matb_details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\grenadier\textures\pavlov_matc_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\grenadier\textures\pavlov_matc_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\grenadier\textures\pavlov_matc_masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\grenadier\textures\pavlov_matc_details">
+      </texture>
+      <float name="Roughness Metallic Min" override="0.3730">
+      </float>
+      <float name="Metallic Max" override="0.9390">
+      </float>
+    </parameters>
+  </submaterial>
+</material>

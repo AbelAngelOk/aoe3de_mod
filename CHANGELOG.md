@@ -1,5 +1,378 @@
 # Changelog — Eastern European Expansion (EEX)
 
+## [mod-hungria / mod-civs 1.0] — 2026-09-19 (división de mod-minimal)
+
+- `mod-minimal` dividido en `mod-hungria` (Hungría, Hungría Otomana, Hungría Alemana) y
+  `mod-civs` (las otras 11 civs). Ambos autosuficientes y sin ids repetidos. Rumania recibió
+  clones propios de Hajduk/Crabat (`ROUHajduk`/`ROUCrabat`). Detalle en `docs/mod-split.md`.
+  Instalados como `mods\local\hungria` y `mods\local\civs-nuevas`, ambos desactivados.
+
+## [mod-minimal 15.2] — 2026-09-19 (compatibilidad con el parche 608133 del juego)
+
+- El parche cambió esquemas de datos y el mod crasheaba al cargar. Corregido tras re-extraer
+  `AoE3Reference/Data` y diffear contra la versión anterior:
+  - `civmods.xml`: las 14 civs ahora llevan `independencetech`/`independencemodeicon`/
+    `independencetooltipid`/`regicidestartingunit` (nuevos campos requeridos por civ jugable,
+    copiados de la civ base real; HOS también `herohcnameid`).
+  - `uitechtree/techtreedata_hunhungarians.xml` y `_definnish.xml`: regenerados al formato nuevo
+    (`<techtree>`/`<group>` en vez de `<techtreedata>`), Hungría con su roster propio.
+  - `tactics/hun*.tactics`: quitados los tags eliminados por el juego (`accuracyreductionfactor`,
+    `aimbonus`, `maxspread`, `spreadfactor`, `unintentionaldamagemultiplier`).
+- Berberiscos: deshabilitado el roster militar otomano heredado (Jenízaro, Azap, Deli, Spahi,
+  Arquero a Caballo, Humbaracı, Abus) — pedido del usuario.
+
+## [mod-minimal 15.1] — 2026-09-11 (fixes post-testing en juego)
+
+- **Bug de crash / civs con nombre en blanco**: `statsid` duplicados en `civmods.xml`
+  corregidos (`HOSHospitalarios`/`HOTHungary` compartían `HO`, `CHLChile` colisionaba con los
+  Chinos reales `CH`, `FRAFranceNapoleonica` colisionaba con Finlandia `FN` → `HP`/`CL`/`FP`).
+  `HOSHospitalarios`, `BARBerberiscos` e `IORDutchEastIndies` aparecían con el slot vacío/sin
+  nombre en el selector de Escaramuza y editor de escenarios pese a tener datos válidos — sus
+  `displaynameid`/`rollovernameid` apuntaban a locids recién inventados en la misma sesión sin
+  commitear; se corrigió reusando locids REALES ya existentes (`124995`="Caballeros
+  Hospitalarios", `80806`="Estados berberiscos", `80811`="Indonesios" para IOR, pendiente
+  buscarle un nombre más fiel). Ver `docs/civ-proposals/` para el detalle de investigación.
+- **Hospitalarios (HOS), Fundición**: "Lanzador de Fuego" corregido de `ypFlameThrower`
+  (unidad asiática usada por error) a **`deHoopThrower`** — unidad EXCLUSIVA real de Malta
+  cuyo string real (locid 124564) dice literalmente "Lanzador de fuego". Ya viene `Enabled`
+  por `DEAge0Maltese`, ya tiene columna nativa en `ArtilleryDepot` y mejoras reales ya
+  `obtainable` — se simplificó la tech quitando el `SetName`/`CommandAdd` que ya no hacen
+  falta. Confirmado con el usuario: roster de Cuartel/Establo correcto tal cual.
+
+## [mod-minimal 15.0] — 2026-09-09 (14ª civ: Indias Orientales Neerlandesas, clon de Portugal)
+
+- **Civ nueva `IORDutchEastIndies`** (IDs 888814xxx), clon COMPLETO de Portugal (mismo real
+  `Age0Portuguese`/`Age0Dutch` marcan `DERevolutionIndonesia` obtainable — ambas bases son
+  válidas, se eligió Portugal por pedido explícito). Civ NORMAL. Home city copiada literal de
+  `homecityportuguese.xml`. Bandera real de Indonesia (`DERevIndonesia`,
+  `objects\flags\indonesian`), buttonset reusado de Portugal (Indonesia no define uno propio).
+- **Roster de 6 unidades, todas protos reales reposicionados/renombrados** (sin clones
+  nuevos): Lancero Javanés y Cetbang (`deREVJavaSpearman`/`deREVCetbang`, de
+  `DERevolutionIndonesia` real, strings reales exactos reusados, `AddTrain` a
+  Barracks/ArtilleryDepot — mismo mecanismo que usa el juego real para unidades de
+  revolución), Jawa (`ypRepentantSmuggler`, mercenario con su único unittype outlaw quitado),
+  Berkuda (`deSaloonOutlawCossack`), Pemanah Kuda (`ypWokouWaywardRonin`, 3 unittypes outlaw
+  quitados), Prajurit Kraton (`ypNatChakram`, nativo, solo Enable+rename+reposición).
+- **Sonido**: Colono (`Settler` real compartido) sin rama para esta civ → rama nueva en
+  `settler_snds.mods.xml` reusando la voz Portuguese real (`MMPortugueseSettlerMale*`, 9
+  soundsets nuevos). Lancero Javanés y Cetbang solo tenían ramas `Dutch`/`Portuguese` en sus
+  archivos reales → 2 archivos `.mods.xml` nuevos (`derevjavaspearman_snds.mods.xml`,
+  `derevcetbang_snds.mods.xml`) agregando la rama `IORDutchEastIndies` (`MMPortuguesePikeman*`
+  / `MMPortugueseFalconet*`). Los otros 4 protos son universales (sin `civlogic`).
+- Sexta de las 11 civs propuestas en implementarse — ver
+  `docs/civs/14-indias-orientales-neerlandesas.md`.
+
+## [mod-minimal 14.0] — 2026-09-09 (13ª civ: Francia Napoleónica, clon de Francia)
+
+- **Civ nueva `FRAFranceNapoleonica`** (IDs 888813xxx), clon COMPLETO de Francia (el Coureur
+  es su colono real, no Settler). Civ NORMAL. Home city copiada literal de
+  `homecityfrench.xml`. Bandera real de "Franceses napoleónicos" (`DERevFranceNE`).
+- **Hallazgo**: `DERevolutionFranceNE` es una SUB-revolución posterior sobre
+  `DERevolutionFrance` (bloquea mejoras Imperiales, contenido "era napoleónica" avanzada) —
+  la mecánica de Sansculotte pedida viene de la revolución BASE, no de esta sub-revolución.
+- **Sansculotte** (`Coureur`): réplica completa del efecto real de `DERevolutionFrance`
+  (transforma al colono en unidad militar híbrida que sigue pudiendo recolectar a tasas
+  reducidas) SIN `InitiateRevolution`, escalado por edad: Edad I sin cambios, Edad II al 50%,
+  Edad III al 75%, Edad IV al 100%. Límite 70.
+- **Granaderos**: `Grenadier` real con habilidad de recolección agregada (mismo patrón que el
+  Gaucho de Argentina).
+- **Establo**: Fusilero Montado (`FRAMountedRifleman`, clon de `deMercMountedRifleman` sin
+  mecanismo de mercenario, costo/población propios: 125 comida + 175 oro, 3 población).
+- **Sonido**: `Grenadier` (real, heredado) reusa el soundset de la rama "French" real
+  (copiado como MM). `Coureur` es universal (colono base de Francia). El Fusilero Montado
+  clonado reusa directo los soundsets `FrenchSkirmisher*` sin necesitar registro MM.
+- Quinta de las 11 civs propuestas en implementarse — ver
+  `docs/civs/13-francia-napoleonica.md`.
+
+## [mod-minimal 13.0] — 2026-09-09 (12ª civ: Chile, clon de España)
+
+- **Civ nueva `CHLChile`** (IDs 888812xxx), clon COMPLETO de España (mismo real
+  `Age0Spanish` marca `DERevolutionChile` obtainable). Civ NORMAL. Home city copiada literal
+  de `homecityspanish.xml`. Explorador normal (sin reemplazo).
+- **Cuartel**: Soldado Mexicano (`deSoldado` real, SetName propio) y Guerrillero
+  (`Skirmisher` real).
+- **Húsar de la Muerte**: réplica EXACTA del efecto real de `DERevolutionChile` —
+  `VeteranHussars`/`GuardHussars` activos directo, daño x2, ícono real dedicado
+  `deIconREVChileanHussar` — sin las partes económicas/de revolución del efecto real.
+- **Cazador a Caballo**: `Dragoon` real con escalado por edad (80% Edad II → 100% Edad IV,
+  mismo patrón que Bersagliere/Jinete Arquero de Valaquia) + el bono x2 vs caballería pesada
+  de la carta real `DEHCREVHorseHunters` horneado permanente.
+- **Fundición**: Granaderos (`Grenadier` real).
+- **Sonido**: mismos soundsets que ya usa la rama "Spanish" real en cada proto heredado
+  (`Settler`/`Hussar`/`Dragoon`/`Skirmisher`/`Grenadier`) — casi todos ya registrados por
+  Argentina/Colombia, solo `MMSpanishCannon*` fue nuevo.
+- Cuarta de las 11 civs propuestas en implementarse — ver `docs/civs/12-chile.md`.
+
+## [mod-minimal 12.0] — 2026-09-09 (11ª civ: Colombia, clon de España)
+
+- **Civ nueva `COLColombia`** (IDs 888811xxx), clon COMPLETO de España, civ NORMAL (sin
+  `InitiateRevolution`). Home city copiada literal de `homecityspanish.xml`.
+- **Casi todo el roster reusa nombres REALES ya correctos** (sin `SetName` ni strings
+  nuevas): "Guardia independiente" (Musketeer, locid 80965), "Guerrillero" (Skirmisher,
+  nombre español default, locid 22956), "Llanero" (`deREVLlanero`, locid 80977), "Bolívar"
+  (locid 34107).
+- **Sin Explorador**: `COLBolivar`, clon del Explorador real con el modelo/ícono real del
+  héroe de campaña Simón Bolívar.
+- **Cuartel**: Guardia Independiente con los mismos buffs de la revolución real (sin la parte
+  de revolución) + mejoras propias clonadas de `VeteranMusketeers`/`RGRedcoats`/
+  `ImperialMusketeers`; Guerrillero (`Skirmisher` real).
+- **Establo**: Llanero (`deREVLlanero` real, réplica exacta del patrón de la carta real
+  `DEHCREVLlaneros` — entrenable en el Establo, Corral+vaca, 1 población); Lancero
+  (`deChinaco` real, columna nativa propia en el Establo).
+- **Sonido**: `Settler`/`Musketeer`/`Skirmisher` (reales, heredados) sin rama para esta civ —
+  se reusaron los mismos soundsets que ya usa la rama "Spanish" real en cada uno (dato
+  curioso: el Guerrillero español real presta la voz del Dragón español).
+- Tercera de las 11 civs propuestas en implementarse — ver `docs/civs/11-colombia.md`.
+
+## [mod-minimal 11.0] — 2026-09-09 (10ª civ: Estados Berberiscos, clon de Otomanos)
+
+- **Civ nueva `BARBerberiscos`** (IDs 888810xxx), clon COMPLETO de Otomanos. Home city copiada
+  literal de `homecityottomans.xml`. Techs `BAR*` delegan en las reales de Otomanos.
+- **Casi todo el roster resultó ser protos reales de la propia revolución
+  `DERevolutionBarbaryStates`, con nombres reales YA correctos** (sin necesidad de `SetName`
+  ni strings nuevas para la mayoría): "Tirador Corsario" (`deAllegianceBarbaryMarksman`),
+  "Guerrero Berberisco" (`deREVBarbaryWarrior`), "Capitán Corsario" (locid 80712, reusado
+  directo en el clon de Explorador).
+- **Sin Explorador**: `BARCorsairCaptain`, clon del Explorador real con el modelo/ícono real
+  del corsario histórico Oruç Reis (`deREVCorsairCaptain`).
+- **Cuartel**: Pirata (`BARPirate`, clon de `SaloonPirate` sin mecanismo de forajido, mismo
+  patrón que Hajduk/Crabat/Pandur/Highlander), Guerrero Berberisco y Tirador Corsario
+  (reales, reposicionados vía `CommandAdd` — ninguno tenía columna nativa en el Barracks).
+- **Establo**: Jinete del Magreb (`deBarbaryCavalry`) y Jinete Makhzen
+  (`deBedouinHorseArcher`) — **ambos protos reales YA tienen columna nativa en el Establo**
+  (0 y 1), pensados exactamente para este building por la revolución real — solo se
+  habilitaron y renombraron, sin `CommandAdd`.
+- **Sonido**: `Settler` (real, heredado) tenía `<civlogic>` sin rama para esta civ — se
+  reusaron los soundsets `MMOttomanSettlerMale*` YA registrados por Egipto, sin copiar ningún
+  `.wav` nuevo. El resto del roster es universal (sin `civlogic`).
+- Segunda de las 11 civs propuestas en implementarse — ver
+  `docs/civs/10-estados-berberiscos.md` para el detalle completo.
+
+## [mod-minimal 10.0] — 2026-09-09 (9ª civ: Caballeros Hospitalarios, clon de Malta)
+
+- **Civ nueva `HOSHospitalarios`** (IDs 88889xxx), clon COMPLETO de Malta (`DEMaltese` — civ
+  real completa del juego base, NO una revolución). Home city copiada literal de
+  `homecitymaltese.xml`. Techs `HOS*` delegan en las 7 reales de Malta
+  (`DEAge0Maltese`...`DEPostImperialMaltese`) — se heredan automáticamente Hospitaller,
+  Mosquetero maltés, Piquero, Ballestero, Lanzador de Aro y toda la economía/políticos reales.
+- **Sin Explorador**: `HOSMorganBlack`, clon del héroe real `deGrandMaster` (Explorador de
+  Malta) con el modelo/ícono real del héroe de campaña Morgan Black (`SPCMorgan`) y sus
+  strings reales reutilizadas. Su sonido reusa los soundsets `MorganBlack*` reales —
+  `deGrandMaster` YA tiene a Morgan Black como variante de skin en el juego base.
+- **Cuartel**: Ballesteros (`Crossbowman`, heredado sin trabajo extra), Rodeleros (`Rodelero`,
+  columna nativa propia del Barracks real), Highlander (`HOSHighlander`, clon de
+  `MercHighlander` sin mecanismo de mercenario, mismo patrón que Hajduk/Crabat/Pandur).
+- **Establo**: Húsar y Lancero reales habilitados, Conquistador (`ypNatMercConquistador`
+  real, reposicionado vía `CommandAdd` — no tenía columna nativa en el Establo).
+- **Fundición**: Lanzador de Fuego (`ypFlameThrower` real, reposicionado vía `CommandAdd` —
+  solo tenía columna nativa en `FortFrontier`).
+- **Sonido**: `Settler` y `Hussar` (reales, heredados) tenían `<civlogic>` sin rama para esta
+  civ — Malta real YA tenía la suya propia (Colono con voz maltesa real, Húsar con voz
+  húngara real prestada), así que se copiaron esos mismos soundsets reales como `MM*` en vez
+  de inventar uno nuevo.
+- Primera de las 11 civs propuestas en `docs/civ-proposals/` en implementarse — ver
+  `docs/civs/09-caballeros-hospitalarios.md` para el detalle completo y la deuda pendiente.
+
+## [mod-minimal 9.0] — 2026-09-09 (Arreglo grande de Argentina: renombres, 2 unidades nuevas, mejoras)
+
+- **Renombres**: Criollo → "Milicia Criolla" (`Musketeer` real), Granadero → "Patricio"
+  (`deSoldado` real), Gaucho a Caballo → "Gaucho Entrerriano" (`deREVGaucho` real) — los 3 ya
+  se renombraban vía `SetName` dentro de `ARGAge0` desde antes; solo se editó el TEXTO de sus
+  strings (88883011/012/013). Húsar → "Blandengue" y Dragón → "Infernal" (`Hussar`/`Dragoon`
+  reales, sin tocar antes): `SetName` nuevo agregado, seguro porque vive dentro de `ARGAge0`
+  (exclusiva de Argentina).
+- **Límite de vacas: 50** (`Cow`, `BuildLimit` en `ARGAge0`).
+- **Gaucho Entrerriano**: bono de daño x3 contra `AbstractHeavyCavalry` → x3 contra
+  `AbstractHeavyInfantry` (efecto `DamageBonus` en `ARGAge0`, `deREVGaucho` es real/compartido
+  con Italia así que no se edita su protoaction directo).
+- **Gaucho Jujeño (nuevo, "REVISAR ESTE CAMBIO")**: `ARGSpyGaucho`, clon completo del Espía
+  real (`xpSpy`, mismas stats/tactics/bonos base x20-x40 vs Mercenario/Héroe) con el modelo e
+  ícono reales del Salteador/Vigilante mexicano (`deEmboscador` — el mismo proto real: se
+  llama "Salteador" de base y sube a "Vigilante"/"Vigilante Imperial" con las techs reales
+  `DEVigilantes`/`DEImperialVigilantes`). Se agregaron los multiplicadores x7 contra
+  `AbstractHeavyCavalry` y x5 contra `AbstractRangedShockInfantry` pedidos, más la capacidad
+  de construir Cuarteles (`CommandAdd` de `Barracks` sobre sí mismo) y la misma habilidad de
+  Corral/vaca que ya tienen los demás Gauchos de la civ. Entrenable en el Cuartel, columna 4
+  (libre).
+- **Gaucho Pampeano (nuevo)**: en vez de clonar, se reutiliza directo el proto REAL
+  `deEmboscador` (guerrilla mexicana real, `tactics=guerrilla.tactics`) — mismo asset que da
+  modelo a Gaucho Jujeño, pero acá es la unidad "de cuerpo entero", no un reskin. Renombrado
+  a "Gaucho Pampeano", agregado al Cuartel columna 6 vía `CommandAdd` (proto real compartido,
+  no se puede agregar como `<train>` estático sin filtrar el botón a México/otras civs).
+- **Milicia Criolla (Musketeer) — mejoras propias con el sombrero real de "casaca roja"
+  (Redcoat)**: no se pueden activar las mejoras reales de Musketeer directo (renombrarían a
+  "Mosquetero legionario/casaca roja/imperial" para CUALQUIER civ que también use Musketeer
+  real) — se clonaron `ARGVeteranMiliciaCriolla`/`ARGGuardMiliciaCriolla`/
+  `ARGImperialMiliciaCriolla` con los mismos stats que `VeteranMusketeers`/`RGRedcoats`/
+  `ImperialMusketeers` reales. La clon de Guardia preserva el `TechStatus active
+  GuardMusketeers` interno de `RGRedcoats` (sin activar la tech real en sí, que queda
+  `unobtainable`) para que el `animfile` de Musketeer siga cambiando al modelo/sombrero real
+  de Redcoat — el `SetName` propio pisa el nombre después, sin afectar el cambio visual.
+- **Patricio (deSoldado) — mejoras 100% nuevas**: `ARGVeteranPatricio`/`ARGGuardPatricio`/
+  `ARGImperialPatricio` (sin equivalente real que clonar, deSoldado no tiene línea de mejoras
+  propia). **Pendiente**: el sombrero de Redcoat es un modelo de CUERPO distinto
+  (`units\infantry_ranged\musketeer\redcoats_age4`) al de Patricio (`soldado.xml`) — igualar
+  el sombrero exacto requeriría un `animfile` propio (mismo patrón EXPERIMENTAL que
+  `roudorobant.xml`/`karelianjaeger.xml`), no implementado en esta pasada.
+- **Fundición**: se quita el Granadero real (heredado por defecto de Italia vía
+  `DEGrenadierEnable`, nunca explícitamente deshabilitado antes) y sus 5 techs de mejora. En
+  su lugar, el Granadero a Caballo (`deREVGranadero`, real) se muda ACÁ desde el Establo
+  (antes ocupaba la columna 4 del Establo con un `<train>` estático; ahora usa `CommandAdd` en
+  `ARGAge0` a la columna 1 de la Fundición, la misma que dejó libre el Granadero real).
+- **Confirmado, sin cambios de código**: "vaca sí / colono no al investigar una tech" y el
+  audio del Colono ya estaban implementados desde v5.0/v6.3 (`ARGShipCowOnTech`, rama
+  `ARGArgentina` en `settler_snds.mods.xml`) — el pedido de esta sesión los mencionaba como
+  posible pendiente, pero no había ningún bug real que corregir ahí.
+- Se borró la caché de savegame obsoleta `sp_ARGArgentina_homecity*` (civ ya jugada antes).
+
+## [mod-minimal 8.0] — 2026-09-05 (Arreglo grande de Rumania: audio, Blocao, Establo, políticos)
+
+- **Audio de Colono/Explorador.** `ROURomania` no tenía rama en `settler_snds.mods.xml`/
+  `explorer_snds.mods.xml` (bug idéntico al ya visto en Finlandia/Hungría/Argentina/Egipto) →
+  quedaban mudos. Se registraron soundsets `MMRussianSettlerMale*`/`MMRussianExplorer*` en
+  `soundsetsde.mods.xml` con los `.wav` reales rusos (`russiansm*`/`russianexplorer*`,
+  extraídos de `sound.bar`) copiados a `sound/mm/`, y se agregó la rama `ROURomania` en ambos
+  archivos aditivos.
+- **Dorobant: modelo real de la revolución.** El animfile compartido `colonial_militia.xml`
+  resolvía el skin de Rumania con `<logic type="RevolutionCiv">` clave `derevromania`
+  (identidad de jugador en revolución, NO una tech) → `materialvariant index="4"`
+  (`units\revolution\dorobant\textures\dorobant_mata_*`) + gorro alto propio
+  (`units\revolution\dorobant\dorobant_hat`, vía `colonial_militia_hats.xml`). Como Rumania es
+  civ normal (sin revolución), se creó un animfile PROPIO
+  (`mod-minimal/art/units/infantry_ranged/roudorobant/roudorobant.xml` +
+  `roudorobant_hats.xml`) con esa rama fija sin condición, y se apuntó `ROUDorobant` ahí en vez
+  del `colonial_militia.xml` genérico. Mismo patrón EXPERIMENTAL que el Jaeger de Carelia
+  (v7.0) — depende de que el mod overridee `art/`, sin confirmar en juego.
+- **Dorobant: audio.** Usaba por error `RussianSettlerMaleSelect/Acknowledge/Attack`
+  (soundsets de COLONO, no de soldado). Se cambió a `RomanianMilitarySelect/Acknowledge/
+  Attack` — el mismo soundset real que ya usa correctamente `HUNHajduk`.
+- **Blocao: renombres.** `Strelet` → "Seimen" y `deRussianHalberdier` (Poruchik) → "Vânător",
+  vía `SetName` dentro de `ROUAge0` (protos reales compartidos con Rusia — el `SetName` vive
+  en la tech de edad exclusiva de Rumania, así que solo afecta a sus jugadores). Las 3 mejoras
+  de cada uno (`VeteranStrelets/GuardStrelets/ImperialStrelets`,
+  `DEVeteranRussianHalberdiers/DEGuardRussianHalberdiers/DEImperialRussianHalberdiers`) NO se
+  pueden tocar directo (compartidas con Rusia real) — se clonaron 6 techs propias
+  (`ROUVeteranSeimen/GuardSeimen/ImperialSeimen`, `ROUVeteranVanator/GuardVanator/
+  ImperialVanator`) con los mismos stats/prereqs, las reales quedan `unobtainable` para
+  Rumania y las 6 nuevas `obtainable`, agregadas al Blocao en las mismas columnas 0/3.
+- **Blocao: mejoras para Dorobant y Hajduk.** Dorobant (100% propio) suma 3 techs nuevas
+  (`ROUVeteranDorobant/GuardDorobant/ImperialDorobant`). Hajduk (`HUNHajduk`, compartido con
+  Hungría/HOT/HGE) reutiliza las mejoras húngaras ya existentes
+  (`HUNVeteranHajduk/GuardHajduk/ImperialHajduk`), solo marcadas `obtainable` para Rumania —
+  mismo patrón multi-civ que el resto del mod.
+- **Blocao: costos por lote.** Dorobant (100% propio, editado directo en su proto): 40 comida
+  + 10 oro c/u → lote de 4 = 160 comida + 40 oro (antes 40 comida + 10 madera). Hajduk
+  (compartido): costo reasignado SOLO para Rumania a 97.5 oro c/u vía `Cost relativity=
+  "Assign"` en `ROUAge0` → lote de 4 = 390 oro, sin tocar el proto compartido.
+- **Establo: Cosaco → "Calaras"** (`SetName` en `ROUAge0`, proto real compartido con Rusia).
+- **Establo: reordenamiento de columnas.** Jinete Arquero de Valaquia (100% propio) pasa de
+  col 2 a col 1 (2da columna); Dragón Roshior (100% propio) pasa de col 3 a col 2 — ambos
+  editados directo en su `<train>` estático. El Crabat (`HUNCrabat`, compartido con Hungría/
+  HOT/HGE, columna 1 estática) se reposiciona a la col 3 SOLO para Rumania vía
+  `CommandRemove`+`CommandAdd` en `ROUAge0`, sin mover la columna nativa de Hungría.
+- **Jinete Arquero de Valaquia:** se quitó el bono de daño x2 contra `AbstractArtillery` en
+  sus 3 acciones (`BowAttack`/`VolleyRangedAttack`/`ChargeAttack`), editado directo en el
+  proto (100% exclusivo).
+- **Dragón Roshior:** bonos de daño rebalanceados en sus 3 acciones — `AbstractArtillery`
+  x2→x3, `AbstractHeavyCavalry` x3→x2, y se agregó `AbstractHeavyInfantry` x0 (infantería de
+  choque cuerpo a cuerpo, ej. Poruchik/Vânător) — editado directo en el proto.
+- **Políticos de avance de edad — EXPERIMENTAL, sin confirmar en juego.** Los 5 políticos
+  reales de Rusia (`PoliticianScoutRussian`/`PoliticianAdventurerRussian`/
+  `PoliticianCavalierRussian`/`PoliticianMusketeerRussian`/`PoliticianWarMinisterRussian`) son
+  las TECHS DE AVANCE DE EDAD mismas (`SetAge`+`FreeHomeCityUnit`), compartidas con Rusia real
+  — no se pueden editar directo. El Aventurero (Strelet x17) y el Mariscal de Caballería
+  (Cossack x7) NO necesitan cambios: como esos protos ya se renombran a Seimen/Calaras para
+  Rumania, el envío ya muestra el nombre correcto. Los otros 3 SÍ cambian de unidad/cantidad,
+  así que se clonaron (`ROUPoliticianScout` Cossack x4, `ROUPoliticianMusketeer` Dorobant x13,
+  `ROUPoliticianWarMinister` Dragón Roshior x7), las reales quedan `unobtainable` para Rumania
+  y las 3 nuevas `obtainable` con el mismo `SetAge`/costo/ícono/nombre. Depende de que el
+  motor arme la pantalla de elección de edad enumerando techs `OBTAINABLE` con flag
+  `AgeUpgrade`+`SetAge` en vez de una lista fija — no se encontró otro mecanismo de registro.
+- **Granadero: sonido del Crabat.** `Grenadier` (real, compartido con media docena de civs)
+  no tenía rama para Rumania → mudo. Se registraron soundsets `MMCroatianOutlaw*` (copias
+  físicas de `croatianmilitary*.wav`, los mismos que ya usa `HUNCrabat`) y se agregó
+  `grenadier_snds.mods.xml` con la rama `ROURomania`.
+- **Centro Urbano: sin revoluciones.** `DERevolutionRomania` marcada `unobtainable` en
+  `ROUAge0` — Rumania es una civ normal, no revolucionaria.
+
+## [mod-minimal 7.0] — 2026-09-04 (Arreglo de Finlandia: modelos de Jaeger, Blocao único, habilidades)
+
+- **Modelo del Jaeger de Carelia — intento nuevo, EXPERIMENTAL, pendiente de confirmar en
+  juego.** Investigando el `animfile` real de `Skirmisher` (extraído con Resource Manager
+  desde `ArtUnits.bar`) se confirmó que el modelo "correcto" (cuerpo del Carolean de Edad IV,
+  textura `jaeger` dedicada) existe en un `<logic type="Tech">` con clave
+  `derevolutionfinland` — solo se activa si la tech `DERevolutionFinland` está activa, y esa
+  tech trae `InitiateRevolution` empaquetado (bloqueo de edad, por eso se había descartado).
+  En vez de perseguir esa tech, se creó un `animfile` PROPIO para `FINKarelianJaeger`
+  (`mod-minimal/art/units/infantry_ranged/karelianjaeger/karelianjaeger.xml` — copia de
+  `skirmisher.xml` con el `<component>ModelComp>` fijado SIN condición al mismo modelo/
+  textura que usaría la revolución) y se apuntó el proto a ese archivo en vez del
+  `skirmisher.xml` compartido. **Depende de que este mod pueda overridear `Art/` con
+  archivos sueltos** de la misma forma que ya lo hace con `Sound/` (confirmado y probado) —
+  a diferencia del sonido, esto NO se probó en juego todavía; si no funciona, confirma que
+  `Art/` no es overrideable y hay que revertir a aceptar el modelo base de Skirmisher.
+- **Modelo del Jaeger de Savonia — arreglado y CONFIRMADO por datos** (no depende de
+  `InitiateRevolution`, así que este sí debería funcionar sin sorpresas): se reemplazó la
+  réplica manual de efectos (Cambio 44: Hitpoints/costo/nombre/sigilo a mano) por activar
+  DIRECTO la tech real `DEChurchSavolaxJaegers` — su `animfile` real
+  (`units\mercenaries\jaeger\jaeger.xml`) tiene su propio `<logic type="Tech">` que muestra
+  el modelo `savolax` dedicado solo si esa tech puntual está activa; la réplica manual nunca
+  disparaba ese cambio porque nunca activaba la tech en sí, solo copiaba sus efectos de
+  stats. A diferencia de la revolución, esta es una carta de Iglesia común sin
+  `InitiateRevolution` — sin costo de bloqueo de edad. **Efecto secundario aceptado**: la
+  tech real también entrega 6 Jaegers de Savonia gratis al activarse (no se puede activar
+  "una parte" de una tech con efectos de datos) — antes evitado a propósito, ahora se acepta
+  como bonus de civ.
+- **Cuartel eliminado — el Blocao pasa a producir todo el roster de infantería**: se
+  deshabilitó `Barracks` para Finlandia (`Enable 0.00`) y se mudaron los 3 entrenables
+  (Jaeger de Carelia/Savonia/Contraataque, con sus mejoras) del bloque compartido `Barracks`
+  al bloque compartido `Blockhouse` en `protomods.xml` (columnas 0/3/4, sin colisión — Rusia
+  y Rumania usan 0/1/2/3 ahí pero con protos que Finlandia nunca habilita). El Destacamento
+  ya estaba deshabilitado desde antes (Cambio 24); ahora el Blocao es el único edificio de
+  defensa + entrenamiento militar de la civ.
+- **Jaeger de Carelia — paridad completa con las habilidades reales de la revolución**: ya
+  tenía `Build`/`Gather`/`Hunting`/`ChopAttack`/`CrateGather`/`EnableAutoCrateGather`
+  (recolección de madera + construcción de edificios); se agregaron las 2 que faltaban para
+  igualar EXACTAMENTE los efectos de `DERevolutionFinland` sobre `Skirmisher`:
+  `ActionEnable HandAttackCrate` y `WorkRate Hunting` sobre `AbstractInfiniteCrate`.
+- Caché de savegame de Finlandia (`sp_DEFinnish_homecity*`) borrada por los cambios
+  estructurales (Cuartel/Blocao).
+
+## [mod-minimal 6.9] — 2026-09-03 (Arreglo de Holanda Italiana: colonos/exploradores duales, Espingarda)
+
+- **Centro Urbano rediseñado**: el `Settler` genérico se deshabilitó y se reemplazó por DOS
+  colonos propios entrenables a la vez desde el TC — `ITDSettlerDutch` (100 oro, límite 35,
+  ícono real `villager_dutch_icon.png`) e `ITDSettlerItalian` (100 comida, límite 35, sin
+  ícono propio real disponible en el juego). Ambos son clones COMPLETOS del `Settler` real
+  (mismo menú de construcción embebido: Iglesia, Banco y **Lombardo** ya venían todos en la
+  columna 9/10 del proto real, no hizo falta agregar nada a mano). Se agregó el
+  **Arquitecto** (`deArchitect`, real, reubicado de su columna nativa 2 —compartida con el
+  Emisario— a la 4 vía `CommandRemove`/`CommandAdd`, porque Holanda e Italia nunca lo
+  necesitaron a la vez) y confirmado el **Emisario** (`Envoy`, ya venía habilitado por
+  `Age0Dutch`, columna 2 nativa sin cambios). Se habilitó `deLombard` (el edificio en sí),
+  que `Age0Dutch` nunca activa (solo lo hace `DEAge0Italians`).
+- **Inicio de partida**: reemplazados los 6 `Settler` genéricos y el `Explorer` genérico por
+  3 `ITDSettlerDutch` + 3 `ITDSettlerItalian` + un **Explorador holandés** propio
+  (`ITDExplorerDutch`, clon de `Explorer`, sin ícono especial real disponible) + un
+  **Explorador italiano** propio (`ITDExplorerItalian`, ícono real
+  `explorer_italian_centurion.png` — el mismo skin "Centurión" que ya usa Italia en el juego
+  base) + Arquitecto + Emisario. También se corrigieron los `empirewarsstartingunit`
+  (modo Guerras Imperiales), que seguían listando `Settler` genérico — ahora deshabilitado.
+- **Culebrina → Espingarda italiana**: aclarado con el usuario que "la culebrina italiana" se
+  refería a la mejora real `DESpingardes`/`DEImperialSpingardes` (la que renombra la
+  Culebrina a "Espingarda", solo activa para civs con `DEAge0Italians` — esta civ no lo
+  activa, delega su identidad de edad de Holanda). Se clonaron como `ITDSpingardes`/
+  `ITDImperialSpingardes` (mismos efectos reales: Daño x1.25→1.50, Vida x1.35→1.50, +0.05
+  armadura a distancia, `UpdateVisual`, renombrado a "Espingarda"/"Espingarda imperial" sin
+  la condición `reqtech` real) y se marcaron obtenibles en lugar de las genéricas
+  `GrapeShot`/`ImperialCulverin` (mismo swap que hace `DEAge0Italians` en el juego real).
+  Se agregó también la voz real italiana de la Culebrina (`DEItalianCulverin*`, registrada
+  como `MM*` + wav copiado a `sound/mm/`, rama `ITDItaloDutch` nueva en
+  `culverin_snds.mods.xml`) — sin esto la Culebrina hubiera quedado muda para esta civ.
+- **Caché de savegame obsoleta encontrada y borrada**: `sp_ITDItaloDutch_homecity.xml` seguía
+  en `Savegame/` de una partida/prueba anterior con el diseño viejo (un solo Settler/Explorer)
+  — se borró para que el juego regenere los datos de ciudad natal con el nuevo diseño.
+
 ## [mod-minimal 6.8] — 2026-09-02 (Civ nueva: Rumania, clon de Rusos)
 
 - **Rumania** (`ROURomania`, clon completo de Rusos, IDs 88888xxx): ciudad natal "Bucarest"

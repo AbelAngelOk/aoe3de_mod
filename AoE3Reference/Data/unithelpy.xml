@@ -45,6 +45,10 @@
       </entry>
       <entry name="162343" historytext="162344" texture="ui\\history\\histories\\H_PC_Maltese">
       </entry>
+      <entry name="126927" historytext="163020" texture="ui\\history\\histories\\H_PC_Danes">
+      </entry>
+      <entry name="126868" historytext="163022" texture="ui\\history\\histories\\H_PC_Poles">
+      </entry>
     </subcategory>
     <subcategory name="100651">
       <entry name="121001" historytext="120001" texture="ui\\history\\histories\\H_Sub_Apache">
@@ -79,6 +83,10 @@
       </entry>
       <entry name="121007" historytext="120007" texture="ui\\history\\histories\\H_Sub_Zapotec">
       </entry>
+      <entry name="130683" historytext="163056" texture="ui\\history\\histories\\H_Sub_Inuit">
+      </entry>
+      <entry name="130650" historytext="163057" texture="ui\\history\\histories\\H_Sub_Sami">
+      </entry>
     </subcategory>
     <subcategory name="162277">
       <entry name="162060" historytext="162061" texture="ui\\history\\histories\\a_nat_akan">
@@ -112,6 +120,8 @@
       <entry name="162414" historytext="162415" texture="ui\\history\\histories\\h_erh_HouseOfWettin">
       </entry>
       <entry name="162416" historytext="162417" texture="ui\\history\\histories\\h_erh_HouseOfWittelsbach">
+      </entry>
+      <entry name="130600" historytext="163067" texture="ui\\history\\histories\\h_erh_HouseOfStuart">
       </entry>
     </subcategory>
     <subcategory name="142000">
@@ -201,6 +211,10 @@
       </entry>
       <entry name="162345" historytext="162346" texture="ui\\history\\histories\\h_p_jean_parisot">
       </entry>
+      <entry name="130104" historytext="163021" texture="ui\\history\\histories\\h_a_christian">
+      </entry>
+      <entry name="130102" historytext="163023" texture="ui\\history\\histories\\h_a_sobieski">
+      </entry>
     </subcategory>
   </category>
   <category name="100682">
@@ -260,6 +274,8 @@
       <entry protoname="deLeatherCannon" name="91571" historytext="160061" unithelptext="160060" texture="ui\\history\\militaries\\m_leather_cannon">
       </entry>
       <entry protoname="deSebastopolMortar" name="101105" historytext="162109" unithelptext="162108" texture="ui\\history\\militaries\\m_a_sebastopol_mortar">
+      </entry>
+      <entry protoname="deEspingol" skiphistory="1" name="23838" historytext="100051" unithelptext="100050" texture="ui\\history\\militaries\\M_A_Organ">
       </entry>
     </subcategory>
     <subcategory name="100684">
@@ -356,6 +372,10 @@
       <entry protoname="deNMPapalElmetto" name="162328" historytext="162330" unithelptext="162329" texture="ui\\history\\militaries\\m_a_NMPapalElmetto">
       </entry>
       <entry protoname="deDeli" name="125279" historytext="162537" unithelptext="162536" texture="ui\\history\\militaries\\m_c_deli">
+      </entry>
+      <entry protoname="deLithuanianRider" name="130181" historytext="163033" unithelptext="163032" texture="ui\\history\\militaries\\m_c_retainer">
+      </entry>
+      <entry protoname="deWingedHussar" name="122100" historytext="163035" unithelptext="163034" texture="ui\\history\\militaries\\m_a_NatWingedHussar">
       </entry>
     </subcategory>
     <subcategory name="100685">
@@ -542,6 +562,8 @@
       <entry protoname="deConsulateCounterJaeger" name="126850" historytext="162545" unithelptext="122330" texture="ui\\history\\militaries\\m_c_counter_dragoon">
       </entry>
       <entry protoname="deOrdenanca" name="200139" skiphistory="1" historytext="100097" unithelptext="162530" texture="ui\\history\\militaries\\m_i_landwehr">
+      </entry>
+      <entry protoname="dePiechur" name="130169" historytext="163037" unithelptext="163036" texture="ui\\history\\militaries\\m_i_piechur">
       </entry>
     </subcategory>
     <subcategory name="100686">
@@ -738,6 +760,14 @@
       <entry protoname="deSaloonHighwayman" name="162475" historytext="162477" unithelptext="162476" texture="ui\\history\\militaries\\m_a_SaloonHighwayman">
       </entry>
       <entry protoname="deOutlawInquisitor" name="162478" historytext="162480" unithelptext="162479" texture="ui\\history\\militaries\\m_a_OutlawInquisitor">
+      </entry>
+      <entry protoname="deMercGallowglass" name="130369" historytext="163043" unithelptext="163042" texture="ui\\history\\militaries\\m_m_gallowglass">
+      </entry>
+      <entry protoname="deMercWagon" name="130361" historytext="163045" unithelptext="163044" texture="ui\\history\\militaries\\m_m_fortified_wagon">
+      </entry>
+      <entry protoname="deMercCranequinier" name="130365" historytext="163047" unithelptext="163046" texture="ui\\history\\militaries\\m_m_cranequinier">
+      </entry>
+      <entry protoname="deREVCossackTabor" skiphistory="1" name="130420" historytext="163045" texture="ui\\history\\militaries\\M_C_WarWagon">
       </entry>
     </subcategory>
     <subcategory name="100687">
@@ -943,6 +973,40 @@
       </entry>
       <entry protoname="deNatMercBoyar" skiphistory="1" name="162507" historytext="162509" unithelptext="162508" texture="ui\\history\\militaries\\m_a_NatBoyar">
       </entry>
+      <entry protoname="deNatNoaidi" name="130654" historytext="163059" unithelptext="163058" texture="ui\\history\\militaries\\m_naw_noaidi">
+      </entry>
+      <entry protoname="deNatSamiReindeer" name="130828" historytext="163061" unithelptext="163060" texture="ui\\history\\militaries\\m_naw_reindeer">
+      </entry>
+      <entry protoname="deNatInuitHunter" name="130690" historytext="163063" unithelptext="163062" texture="ui\\history\\militaries\\m_naw_inuit_hunter">
+      </entry>
+      <entry protoname="deNatInuitQamutik" name="130687" historytext="163063" unithelptext="163062" texture="ui\\history\\militaries\\m_naw_qamutik">
+      </entry>
+      <entry protoname="deNatBagpiper" name="130619" historytext="163069" unithelptext="163068" texture="ui\\history\\militaries\\m_NatBagpiper">
+      </entry>
+      <entry protoname="deNatLowlanderInfantry" name="130623" historytext="163071" unithelptext="163070" texture="ui\\history\\militaries\\m_NatLowlander">
+      </entry>
+      <entry protoname="deNatLowlanderRider" name="130621" historytext="163071" unithelptext="163070" texture="ui\\history\\militaries\\m_NatLowlanderRider">
+      </entry>
+      <entry protoname="deNatClansman" name="130617" historytext="163073" unithelptext="163072" texture="ui\\history\\militaries\\m_NatClansman">
+      </entry>
+      <entry protoname="deNatCompanion" name="130372" historytext="163075" unithelptext="163074" texture="ui\\history\\militaries\\m_NatCompanion">
+      </entry>
+      <entry protoname="deNatMercNoaidi" skiphistory="1" name="130654" historytext="163059" unithelptext="163058" texture="ui\\history\\militaries\\m_naw_noaidi">
+      </entry>
+      <entry protoname="deNatMercInuitHunter" skiphistory="1" name="130690" historytext="163063" unithelptext="163062" texture="ui\\history\\militaries\\m_naw_inuit_hunter">
+      </entry>
+      <entry protoname="deNatMercInuitQamutik" skiphistory="1" name="130687" historytext="163063" unithelptext="163062" texture="ui\\history\\militaries\\m_naw_qamutik">
+      </entry>
+      <entry protoname="deNatMercBagpiper" skiphistory="1" name="130619" historytext="163069" unithelptext="163068" texture="ui\\history\\militaries\\m_NatBagpiper">
+      </entry>
+      <entry protoname="deNatMercLowlanderInfantry" skiphistory="1" name="130623" historytext="163071" unithelptext="163070" texture="ui\\history\\militaries\\m_NatLowlander">
+      </entry>
+      <entry protoname="deNatMercLowlanderRider" skiphistory="1" name="130621" historytext="163071" unithelptext="163070" texture="ui\\history\\militaries\\m_NatLowlanderRider">
+      </entry>
+      <entry protoname="deNatMercClansman" skiphistory="1" name="130617" historytext="163073" unithelptext="163072" texture="ui\\history\\militaries\\m_NatClansman">
+      </entry>
+      <entry protoname="deNatMercCompanion" skiphistory="1" name="130372" historytext="163075" unithelptext="163074" texture="ui\\history\\militaries\\m_NatCompanion">
+      </entry>
     </subcategory>
     <subcategory name="100688">
       <entry protoname="ypAtakabune" name="141072" historytext="140131" unithelptext="140130" texture="ui\\history\\militaries\\M_Sh_Atakabune">
@@ -1125,6 +1189,22 @@
       </entry>
       <entry protoname="deIconMilitiamanOttoman" name="162513" historytext="162515" unithelptext="162514" texture="ui\\history\\militaries\\m_i_bashibozuk">
       </entry>
+      <entry protoname="deHetman" name="130236" historytext="163031" unithelptext="163030" texture="ui\\history\\militaries\\m_sp_hetman">
+      </entry>
+      <entry protoname="deIconSnaphane" name="130219" historytext="163039" unithelptext="163038" texture="ui\\history\\militaries\\m_sp_snaphane">
+      </entry>
+      <entry protoname="deIconMilitiamanBurgher" name="130342" historytext="163041" unithelptext="163040" texture="ui\\history\\militaries\\m_sp_burgher_militia">
+      </entry>
+      <entry protoname="deSaloonSailor" name="130677" historytext="163049" unithelptext="163048" texture="ui\\history\\militaries\\m_sp_sailor">
+      </entry>
+      <entry protoname="deSaloonHarpooner" name="130674" historytext="163051" unithelptext="163050" texture="ui\\history\\militaries\\m_sp_harpooner">
+      </entry>
+      <entry protoname="deOutlawWhalingShip" name="130380" historytext="163051" unithelptext="163052" texture="ui\\history\\militaries\\m_sp_whaling_ship">
+      </entry>
+      <entry protoname="deSaloonQivittoq" name="130671" historytext="163055" unithelptext="163054" texture="ui\\history\\militaries\\m_sp_qivittoq">
+      </entry>
+      <entry protoname="deGunboat" name="126968" historytext="163077" unithelptext="163076" texture="ui\\history\\militaries\\m_sp_gunboat">
+      </entry>
     </subcategory>
   </category>
   <category name="100690">
@@ -1264,6 +1344,14 @@
       <entry protoname="deTradingGalleon" name="162493" historytext="162495" unithelptext="162494" texture="ui\\history\\civilians\\c_rivertrader2">
       </entry>
       <entry protoname="deTradingFluyt" name="162496" historytext="162498" unithelptext="162497" texture="ui\\history\\civilians\\c_rivertrader3">
+      </entry>
+      <entry protoname="deArcticTrader" name="163080" historytext="163082" unithelptext="163081" texture="ui\\history\\civilians\\c_s_arctic_trade">
+      </entry>
+      <entry protoname="deArcticTraderSled" skiphistory="1" name="163080" historytext="163082" unithelptext="163081" texture="ui\\history\\civilians\\c_s_arctic_trade">
+      </entry>
+      <entry protoname="deArcticTraderDogs" skiphistory="1" name="163080" historytext="163082" unithelptext="163081" texture="ui\\history\\civilians\\c_s_arctic_trade">
+      </entry>
+      <entry protoname="deArcticTraderDogSled" skiphistory="1" name="163080" historytext="163082" unithelptext="163081" texture="ui\\history\\civilians\\c_s_arctic_trade">
       </entry>
     </subcategory>
   </category>
@@ -1430,6 +1518,18 @@
       <entry protoname="deBasilica" name="162310" historytext="162312" unithelptext="162311" texture="ui\\history\\buildings\\b_basilica">
       </entry>
       <entry protoname="deLombard" name="162313" historytext="162315" unithelptext="162314" texture="ui\\history\\buildings\\b_lombard">
+      </entry>
+      <entry protoname="deCustomsHouse" name="63360" historytext="163025" unithelptext="163024" texture="ui\\history\\buildings\\b_customs_house">
+      </entry>
+      <entry protoname="deChurchDanish" name="126940" historytext="163027" unithelptext="163026" texture="ui\\history\\buildings\\b_round_church">
+      </entry>
+      <entry protoname="deSejm" name="126879" historytext="163029" unithelptext="163028" texture="ui\\history\\buildings\\b_sejm">
+      </entry>
+      <entry protoname="deFolwark" name="130800" historytext="163085" unithelptext="163084" texture="ui\\history\\buildings\\b_folwark">
+      </entry>
+      <entry protoname="deHouseDanish" name="130926" historytext="163066" unithelptext="163065" texture="ui\\history\\buildings\\b_watch_house">
+      </entry>
+      <entry protoname="deFishTrap" name="41869" historytext="100198" unithelptext="163086" texture="ui\\history\\buildings\\B_Fish_Trap">
       </entry>
       <entry protoname="huaristrongholdandes" unithelptext="120139">
       </entry>
@@ -1977,6 +2077,14 @@
       </entry>
       <entry protoname="deTreeCypress" name="162503" skiphistory="1" unithelptext="162504" texture="ui\\history\\geography\\g_tree_cypress">
       </entry>
+      <entry protoname="Walrus" name="124495" historytext="163053" unithelptext="140278" texture="ui\\history\\geography\\g_r_walrus">
+      </entry>
+      <entry protoname="Pig" name="130398" historytext="163079" unithelptext="163078" texture="ui\\history\\geography\\g_r_pig">
+      </entry>
+      <entry protoname="deFishingHole" name="124282" historytext="163064" texture="ui\\history\\geography\\g_r_fishing_hole">
+      </entry>
+      <entry protoname="Seal" name="124496" historytext="163083" unithelptext="140278" texture="ui\\history\\geography\\g_r_seal">
+      </entry>
     </subcategory>
   </category>
   <category name="100735">
@@ -2366,6 +2474,10 @@
       <entry name="163008" historytext="163009" texture="ui\\history\\glossary\\g_tycoon_05">
       </entry>
       <entry name="163010" historytext="163011" texture="ui\\history\\glossary\\g_tycoon_06">
+      </entry>
+      <entry name="142016" historytext="140340" texture="ui\\history\\glossary\\G_Regicide">
+      </entry>
+      <entry name="111417" historytext="163014" texture="ui\\history\\glossary\\G_Independence">
       </entry>
     </subcategory>
   </category>

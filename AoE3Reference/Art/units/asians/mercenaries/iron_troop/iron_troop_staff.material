@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\mercenaries\iron_troop\textures\iron_troop_staff_phong2_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\mercenaries\iron_troop\textures\iron_troop_staff_phong2_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\mercenaries\iron_troop\textures\iron_troop_staff_phong2_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

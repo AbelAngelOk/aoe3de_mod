@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\barbary_skirmisher\textures\barbary_skirmisher_hat_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\spc\barbary_skirmisher\textures\barbary_skirmisher_hat_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\spc\barbary_skirmisher\textures\barbary_skirmisher_hat_mata_masks">
+      </texture>
+      <texture name="Details" override="units\spc\barbary_skirmisher\textures\barbary_skirmisher_hat_mata_details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\revolution\barbary_warrior\textures\barbary_warrior_hat_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\spc\barbary_skirmisher\textures\barbary_skirmisher_hat_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\spc\barbary_skirmisher\textures\barbary_skirmisher_hat_mata_masks">
+      </texture>
+      <texture name="Details" override="units\revolution\barbary_warrior\textures\barbary_warrior_hat_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

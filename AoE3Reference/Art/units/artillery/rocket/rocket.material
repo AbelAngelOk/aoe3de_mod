@@ -1,0 +1,70 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\rocket\textures\rocket_wagon_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\rocket\textures\rocket_wagon_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\rocket\textures\rocket_wagon_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\rocket\textures\rocket_wagon_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\rocket\textures\rocket_brush_matD_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\rocket\textures\rocket_brush_matD_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\rocket\textures\rocket_brush_matD_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\rocket\textures\rocket_guy_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\rocket\textures\rocket_guy_matB_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\rocket\textures\rocket_guy_matB_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\rocket\textures\rocket_guy_matB_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\rocket\textures\rocket_guy_matD_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\rocket\textures\rocket_guy_matD_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\rocket\textures\rocket_guy_matD_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\rocket\textures\rocket_guy_matD_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mate">
+    <materialdef name="default_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\rocket\textures\rocket_horse_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\rocket\textures\rocket_horse_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\rocket\textures\rocket_horse_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\rocket\textures\rocket_horse_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

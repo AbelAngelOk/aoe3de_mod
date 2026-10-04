@@ -1264,6 +1264,15 @@
       <displayunitcount>14</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
+    <card>
+      <name>DEHCStuartAllies3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
   </cards>
   <decks>
     <deck>
@@ -1857,6 +1866,7 @@
       <tech x="7.5" y="2">YPHCWokouIndians1</tech>
       <tech x="7.5" y="4">YPHCWokouIndians2</tech>
       <tech x="7.5" y="6">YPHCWokouIndians3Double</tech>
+      <tech x="7.5" y="6">DEHCStuartAllies3</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="1" y="1">YPHCShipCaravel1</tech>
@@ -1885,6 +1895,7 @@
       <tech x="7.5" y="2">YPHCWokouIndians1</tech>
       <tech x="7.5" y="4">YPHCWokouIndians2</tech>
       <tech x="7.5" y="6">YPHCWokouIndians3Double</tech>
+      <tech x="7.5" y="6">DEHCStuartAllies3</tech>
     </activetechs>
     <validunits>
     </validunits>

@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="destructible_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\supply_cart\textures\supply_cart_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\trade\supply_cart\textures\supply_cart_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\trade\supply_cart\textures\supply_cart_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

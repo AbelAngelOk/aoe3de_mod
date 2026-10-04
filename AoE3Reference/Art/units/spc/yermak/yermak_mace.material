@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\yermak\textures\Matchlock_MatA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\yermak\textures\Matchlock_MatA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\yermak\textures\Matchlock_MatA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

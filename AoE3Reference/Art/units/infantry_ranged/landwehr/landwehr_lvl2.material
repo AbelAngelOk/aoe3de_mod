@@ -1,0 +1,52 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matb_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matc_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matc_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matc_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matd_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matd_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\landwehr\textures\landwehr_lvl2_matd_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

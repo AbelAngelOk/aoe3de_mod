@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\africans\ethiopians\oromo\textures\oromo_rider_age3_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\africans\ethiopians\oromo\textures\oromo_rider_age3_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\africans\ethiopians\oromo\textures\oromo_rider_age3_mata_masks">
+      </texture>
+      <texture name="Details" override="units\africans\ethiopians\oromo\textures\oromo_rider_age3_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

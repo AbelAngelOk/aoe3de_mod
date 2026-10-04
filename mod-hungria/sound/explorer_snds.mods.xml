@@ -1,0 +1,237 @@
+<!--
+  mod-minimal: voz propia del Explorador. El Explorador es un proto COMPARTIDO y su sonido se
+  resuelve por <civlogic> (rama por civ). Este archivo ADITIVO (_snds.mods.xml, root
+  protounitsounddefmods) agrega una rama por civ nueva a cada soundtype.
+
+  - Hungría (HUNHungarians): soundsets húngaros propios definidos en soundsetsde.mods.xml.
+    Patrón tomado del mod "Just Poland" (musketeer_snds.mods.xml). Mapea cada archivo de
+    assets/sounds/hungary/explorer según su acción.
+  - Finlandia (DEFinnish): sin audio propio grabado, así que reusa los MISMOS soundsets que
+    "DESwedish" usa en el vanilla (Sound/explorer_snds.xml) — Finlandia es un clon de Suecia y
+    comparte el mismo modelo/skins de Explorador. Se replica también el <skinlogic> (none=
+    masculino, 0=femenino "Femplorer", 2="Thor") que trae la rama DESwedish original.
+  - Argentina (ARGArgentina): pedido explícito de reusar sonidos de la civilización española
+    (SpanishExplorer*/SpanishFemplorer*/Delgado*), mismo <skinlogic> none/0/2.
+  - Egipto (EGYEgypt): reusa los soundsets reales de Otomanos (OttomanExplorer*/Sahin*),
+    <skinlogic> none/0 (Otomanos no tiene variante "2"/hero).
+-->
+<protounitsounddefmods>
+  <protounit name="Explorer">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianExplorerSelect">
+          </soundset>
+        </choice>
+        <choice name="HOTHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HGEHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMGermanExplorerSelect">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMGermanFemplorerSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="HungarianExplorerMove">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="HungarianExplorerAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="HOTHungary">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMOttomanExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMOttomanExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMSahinAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMSahinAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HGEHungary">
+          <skinlogic>
+            <choice name="none">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMGermanExplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMGermanExplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+            <choice name="0">
+              <targetlogic>
+                <choice name="default">
+                  <soundset name="MMGermanFemplorerAcknowledge">
+                  </soundset>
+                </choice>
+                <choice name="enemy">
+                  <soundset name="MMGermanFemplorerAttack">
+                  </soundset>
+                </choice>
+              </targetlogic>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Claim">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="HOTHungary">
+          <soundset name="MMOttomanExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="HGEHungary">
+          <soundset name="MMGermanExplorerClaim">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianExplorerDisabled">
+          </soundset>
+        </choice>
+        <choice name="HOTHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinGrunt">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HGEHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMGermanExplorerDisabled">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMGermanFemplorerDisabled">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianExplorerRansomed">
+          </soundset>
+        </choice>
+        <choice name="HOTHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinSelect">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HGEHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMGermanExplorerRansomed">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMGermanFemplorerRansomed">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianExplorerRevived">
+          </soundset>
+        </choice>
+        <choice name="HOTHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMOttomanExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMSahinRevive">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+        <choice name="HGEHungary">
+          <skinlogic>
+            <choice name="none">
+              <soundset name="MMGermanExplorerRevived">
+              </soundset>
+            </choice>
+            <choice name="0">
+              <soundset name="MMGermanFemplorerRevived">
+              </soundset>
+            </choice>
+          </skinlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

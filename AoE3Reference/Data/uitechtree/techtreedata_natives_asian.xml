@@ -1,0 +1,106 @@
+<techtree>
+  <group name="Town Center">
+    <label string="61082" icon="resources\art\buildings\native_settlement\native_bhakti_site_icon_portrait.png" banner="ally" row="0" col="1" iconalpha="premultiplied">
+    </label>
+    <tech name="YPNatBhaktiReinforcedGuantlets" icon="resources\images\icons\techs\asians\reinforced_Gauntlets.png" banner="improvement" row="1" col="1">
+    </tech>
+    <proto name="ypNatTigerClaw" icon="resources\art\units\asians\natives\tiger_claw\Tiger_claw_icon_portrait.png" banner="unit" row="2" col="1">
+    </proto>
+    <tech name="ypNatDisciplinedBhakti" icon="resources\images\icons\techs\asians\disciplined_natives.png" banner="improvement" row="4" col="1">
+    </tech>
+    <tech name="ypNatHonoredBhakti" icon="resources\images\icons\techs\asians\honered_natives.png" banner="improvement" row="6" col="1">
+    </tech>
+    <tech name="YPNatBhaktiYoga" icon="resources\images\icons\techs\asians\Yoga.png" banner="improvement" row="0" col="6">
+    </tech>
+    <tech name="YPNatBhaktiVegetarianism" icon="resources\images\icons\techs\asians\Vegetarianism.png" banner="improvement" row="1" col="6">
+    </tech>
+    <proto name="ypNatWarElephant" icon="resources\art\units\asians\natives\war_elephant\war_elephant_icon_portrait.png" banner="unit" row="2" col="6">
+    </proto>
+    <label string="61080" icon="resources\art\buildings\native_settlement\native_jesuit_site_icon_portrait.png" banner="ally" row="0" col="12" iconalpha="premultiplied">
+    </label>
+    <tech name="YPNatJesuitSmokelessPowder" icon="resources\images\icons\techs\asians\Smokeless_Powder.png" banner="improvement" row="1" col="12">
+    </tech>
+    <proto name="ypNatConquistador" icon="resources\art\units\asians\natives\conquistador\conquistador_icon_portrait.png" banner="unit" row="2" col="12">
+    </proto>
+    <tech name="ypNatDisciplinedJesuit" icon="resources\images\icons\techs\asians\disciplined_natives.png" banner="improvement" row="4" col="12">
+    </tech>
+    <tech name="ypNatHonoredJesuit" icon="resources\images\icons\techs\asians\honered_natives.png" banner="improvement" row="6" col="12">
+    </tech>
+    <tech name="YPNatJesuitFlyingButtress" icon="resources\images\icons\techs\asians\Flying_Buttress.png" banner="improvement" row="0" col="17">
+    </tech>
+    <tech name="YPNatJesuitSchools" icon="resources\images\icons\techs\asians\Christian_Schools.png" banner="improvement" row="1" col="17">
+    </tech>
+    <label string="61079" icon="resources\art\buildings\native_settlement\native_shaolin_site_icon_portrait.png" banner="ally" row="0" col="23" iconalpha="premultiplied">
+    </label>
+    <tech name="YPNatShaolinDimMak" icon="resources\images\icons\techs\asians\dim_mak.png" banner="improvement" row="1" col="23">
+    </tech>
+    <proto name="ypNatRattanShield" icon="resources\art\units\asians\natives\rattan_shield\shield_rattan_icon_portrait.png" banner="unit" row="2" col="23">
+    </proto>
+    <tech name="ypNatDisciplinedShaolin" icon="resources\images\icons\techs\asians\disciplined_natives.png" banner="improvement" row="4" col="23">
+    </tech>
+    <tech name="ypNatHonoredShaolin" icon="resources\images\icons\techs\asians\honered_natives.png" banner="improvement" row="6" col="23">
+    </tech>
+    <tech name="YPNatShaolinWoodClearing" icon="resources\images\icons\techs\asians\wood_clearing.png" banner="improvement" row="0" col="28">
+    </tech>
+    <tech name="YPNatShaolinClenchedFist" icon="resources\images\icons\techs\asians\clenched_fist.png" banner="improvement" row="1" col="28">
+    </tech>
+    <label string="61083" icon="resources\art\buildings\native_settlement\native_sufi_site_icon_portrait.png" banner="ally" row="0" col="34" iconalpha="premultiplied">
+    </label>
+    <tech name="YPNatSufiFasting" icon="resources\images\icons\techs\asians\Fasting.png" banner="improvement" row="1" col="34">
+    </tech>
+    <proto name="deNatQizilbash" icon="resources\art\units\asians\natives\qizilbash\qizilbash_portrait.png" banner="unit" row="2" col="34">
+    </proto>
+    <tech name="ypNatDisciplinedSufi" icon="resources\images\icons\techs\asians\disciplined_natives.png" banner="improvement" row="4" col="34">
+    </tech>
+    <tech name="ypNatHonoredSufi" icon="resources\images\icons\techs\asians\honered_natives.png" banner="improvement" row="6" col="34">
+    </tech>
+    <tech name="YPNatSufiPilgramage" icon="resources\images\icons\techs\asians\Pilgrimage.png" banner="improvement" row="0" col="39">
+    </tech>
+    <tech name="YPNatSufiSharia" icon="resources\images\icons\techs\asians\Sharia.png" banner="improvement" row="1" col="39">
+    </tech>
+    <label string="61084" icon="resources\art\buildings\native_settlement\native_tengri_site_icon_portrait.png" banner="ally" row="0" col="45" iconalpha="premultiplied">
+    </label>
+    <tech name="DENatTengriWindHorses" icon="resources\images\icons\techs\native\tengri\wind_horses.png" banner="improvement" row="1" col="45">
+    </tech>
+    <proto name="deNatTatarArcher" icon="resources\art\units\asians\natives\tatar\tatar_portrait.png" banner="unit" row="2" col="45">
+    </proto>
+    <tech name="DENatDisciplinedTengri" icon="resources\images\icons\techs\asians\disciplined_natives.png" banner="improvement" row="4" col="45">
+    </tech>
+    <tech name="DENatHonoredTengri" icon="resources\images\icons\techs\asians\honered_natives.png" banner="improvement" row="6" col="45">
+    </tech>
+    <tech name="DENatTengriKumis" icon="resources\images\icons\techs\native\tengri\kumis.png" banner="improvement" row="0" col="50">
+    </tech>
+    <tech name="DENatTengriDrums" icon="resources\images\icons\techs\native\tengri\shaman_drums.png" banner="improvement" row="1" col="50">
+    </tech>
+    <proto name="deNatTengriWolf" icon="resources\art\units\animals\wolf\wolf_icon_portrait.png" banner="unit" row="2" col="50">
+    </proto>
+    <label string="61081" icon="resources\art\buildings\native_settlement\native_udasi_site_icon_portrait.png" banner="ally" row="0" col="56" iconalpha="premultiplied">
+    </label>
+    <tech name="YPNatUdasiArmyOfThePure" icon="resources\images\icons\techs\asians\army_of_the_pure.png" banner="improvement" row="1" col="56">
+    </tech>
+    <proto name="ypNatChakram" icon="resources\art\units\asians\natives\chakram\chakram_icon_portrait.png" banner="unit" row="2" col="56">
+    </proto>
+    <tech name="ypNatDisciplinedUdasi" icon="resources\images\icons\techs\asians\disciplined_natives.png" banner="improvement" row="4" col="56">
+    </tech>
+    <tech name="ypNatHonoredUdasi" icon="resources\images\icons\techs\asians\honered_natives.png" banner="improvement" row="6" col="56">
+    </tech>
+    <tech name="YPNatUdasiNewYear" icon="resources\images\icons\techs\asians\punjabi_new_year.png" banner="improvement" row="0" col="61">
+    </tech>
+    <tech name="YPNatUdasiGurus" icon="resources\images\icons\techs\asians\sikh_gurus.png" banner="improvement" row="1" col="61">
+    </tech>
+    <label string="61078" icon="resources\art\buildings\native_settlement\native_zen_site_icon_portrait.png" banner="ally" row="0" col="67" iconalpha="premultiplied">
+    </label>
+    <tech name="YPNatZenMasterLessons" icon="resources\images\icons\techs\asians\master_lessons.png" banner="improvement" row="1" col="67">
+    </tech>
+    <proto name="ypNatSohei" icon="resources\art\units\asians\japanese\sohei\sohei_icon_portrait.png" banner="unit" row="2" col="67">
+    </proto>
+    <tech name="ypNatDisciplinedZen" icon="resources\images\icons\techs\asians\disciplined_natives.png" banner="improvement" row="4" col="67">
+    </tech>
+    <tech name="ypNatHonoredZen" icon="resources\images\icons\techs\asians\honered_natives.png" banner="improvement" row="6" col="67">
+    </tech>
+    <tech name="YPNatZenMeditation" icon="resources\images\icons\techs\asians\Meditation.png" banner="improvement" row="0" col="72">
+    </tech>
+    <tech name="YPNatZenMeritocracy" icon="resources\images\icons\techs\asians\Merritocracy.png" banner="improvement" row="1" col="72">
+    </tech>
+  </group>
+</techtree>

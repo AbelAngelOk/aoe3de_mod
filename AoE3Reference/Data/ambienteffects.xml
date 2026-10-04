@@ -25,6 +25,7 @@
       <type>yucatan</type>
       <type>yukon</type>
       <type>arcticterritories</type>
+      <type>arcticterritorieswater</type>
     </maptypes>
     <minspawntime>90</minspawntime>
     <maxspawntime>300</maxspawntime>
@@ -42,6 +43,7 @@
       <type>greatLakes</type>
       <type>yukon</type>
       <type>arcticterritories</type>
+      <type>arcticterritorieswater</type>
       <type>newEngland</type>
       <type>dakota</type>
       <type>northwestTerritory</type>

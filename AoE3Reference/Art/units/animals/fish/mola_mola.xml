@@ -1,0 +1,8 @@
+<animfile>
+  <definebone>Bone_finTop01</definebone>
+  <definebone>Bone_finTop012</definebone>
+  <attachment>glow<component>emitter3<assetreference type="popcornFx"><file>water_effects\fishingspot_glow_sm.pkfx</file></assetreference></component><anim>None<component>emitter3</component></anim></attachment>
+  <attachment>fishTrail<component>enter<assetreference type="popcornFx"><file>units\animals\bass_fish\FishTrail.pkfx</file></assetreference></component><anim>Idle<component>enter</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\fish\mola_mola</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_64x64</selectedtexture><width>8.00</width><height>8.00</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\fish\mola_mola_idle00</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\fish\mola_mola_idle01</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\fish\mola_mola_idle02</file></assetreference><component>ModelComp</component><attach a="glow" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0" allowrotation="1"></attach><attach a="fishTrail" frombone="ATTACHPOINT" tobone="Bone_finTop01" syncanims="0" allowrotation="1"></attach><attach a="fishTrail" frombone="ATTACHPOINT" tobone="Bone_finTop012" syncanims="0" allowrotation="1"></attach></anim>
+</animfile>

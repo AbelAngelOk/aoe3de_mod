@@ -1,0 +1,56 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_black_braidless_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_braidless_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_braidless_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_braidless_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="3">
+      <texture name="BaseColor" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_black_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\colonial_militia\textures\colonial_militia_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="4">
+      <texture name="BaseColor" override="units\revolution\dorobant\textures\dorobant_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\revolution\dorobant\textures\dorobant_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\revolution\dorobant\textures\dorobant_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\revolution\dorobant\textures\dorobant_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

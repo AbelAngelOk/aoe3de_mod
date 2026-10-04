@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/natives/lakota/bow_rider/textures/bow_rider_3_bow_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/natives/lakota/bow_rider/textures/bow_rider_3_bow_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units/natives/lakota/bow_rider/textures/bow_rider_3_bow_mata_Masks">
+      </texture>
+      <texture name="Details" override="units/natives/lakota/bow_rider/textures/bow_rider_3_bow_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

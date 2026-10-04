@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\humbaraci\textures\humbaraci_classic_pouch_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\humbaraci\textures\humbaraci_classic_pouch_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\humbaraci\textures\humbaraci_classic_pouch_matA_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\artillery\humbaraci\textures\humbaraci_silver_pouch_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\humbaraci\textures\humbaraci_pouch_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\humbaraci\textures\humbaraci_pouch_matA_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\artillery\humbaraci\textures\humbaraci_gold_pouch_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\humbaraci\textures\humbaraci_pouch_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\humbaraci\textures\humbaraci_pouch_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

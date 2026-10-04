@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\explorers\female\italian_nun\textures\italian_nun_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\explorers\female\italian_nun\textures\italian_nun_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\explorers\female\italian_nun\textures\italian_nun_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\explorers\female\italian_nun\textures\italian_nun_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

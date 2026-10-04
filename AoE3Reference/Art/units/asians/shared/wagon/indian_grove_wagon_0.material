@@ -1,0 +1,40 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\shared\wagon\textures\indian_grove_wagon_0_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\asians\shared\wagon\textures\indian_grove_wagon_0_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\asians\shared\wagon\textures\indian_grove_wagon_0_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\shared\wagon\textures\indian_castle_wagon_driver_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\asians\shared\wagon\textures\indian_castle_wagon_driver_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\asians\shared\wagon\textures\indian_castle_wagon_driver_mata_masks">
+      </texture>
+      <texture name="Details" override="units\asians\shared\wagon\textures\indian_castle_wagon_driver_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\shared\wagon\textures\indian_grove_wagon_0_horse_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\asians\shared\wagon\textures\indian_grove_wagon_0_horse_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\asians\shared\wagon\textures\indian_grove_wagon_0_horse_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

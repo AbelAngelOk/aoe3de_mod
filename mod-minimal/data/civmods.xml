@@ -34,6 +34,7 @@
     <settlerprotoname>Settler</settlerprotoname>
     <displaynameid>88881001</displaynameid>
     <rollovernameid>88881002</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
@@ -65,6 +66,7 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceGermans</independencetech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
@@ -109,6 +111,7 @@
       <age3>1.50</age3>
       <age4>1.00</age4>
     </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityhungarymin.xml</homecityfilename>
     <homecityflagtexture>objects\flags\hungarian</homecityflagtexture>
@@ -119,6 +122,7 @@
     <homecityflagbuttonsetlarge>germanFlagBtnLarge</homecityflagbuttonsetlarge>
     <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_hungarian</postgameflagtexture>
     <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_hungarian.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/german.png</independencemodeicon>
     <matchmakingtextures>
       <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
       <bannertexturecoords>0 0.25 0.78125 0.375</bannertexturecoords>
@@ -293,6 +297,7 @@
     <settlerprotoname>Settler</settlerprotoname>
     <displaynameid>88882001</displaynameid>
     <rollovernameid>88882002</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
@@ -321,6 +326,7 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceSwedish</independencetech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
@@ -378,6 +384,7 @@
       <age3>1.50</age3>
       <age4>1.00</age4>
     </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityfinlandmin.xml</homecityfilename>
     <homecityflagtexture>objects\flags\finnish</homecityflagtexture>
@@ -388,6 +395,7 @@
     <homecityflagbuttonsetlarge>britishFlagBtnLarge</homecityflagbuttonsetlarge>
     <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_finnish</postgameflagtexture>
     <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_finnish.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/swedish.png</independencemodeicon>
     <matchmakingtextures>
       <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
       <bannertexturecoords>0 0.75 0.78125 0.875</bannertexturecoords>
@@ -572,6 +580,7 @@
     <settlerprotoname>Settler</settlerprotoname>
     <displaynameid>88883001</displaynameid>
     <rollovernameid>88883002</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
@@ -601,6 +610,7 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceItalians</independencetech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <canpayfreefoundations>
@@ -654,6 +664,7 @@
       <age3>1.50</age3>
       <age4>1.00</age4>
     </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityargentinamin.xml</homecityfilename>
     <homecityflagtexture>objects\flags\argentinian</homecityflagtexture>
@@ -664,6 +675,7 @@
     <homecityflagbuttonsetlarge>sanMartinFlagBtnLarge</homecityflagbuttonsetlarge>
     <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_argentinian</postgameflagtexture>
     <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_argentinian.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/italian.png</independencemodeicon>
     <matchmakingtextures>
       <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
       <bannertexturecoords>0 0 0.78125 0.125</bannertexturecoords>
@@ -851,6 +863,7 @@
     <settlerprotoname>Settler</settlerprotoname>
     <displaynameid>88884001</displaynameid>
     <rollovernameid>88884002</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
@@ -879,6 +892,7 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceOttomans</independencetech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
@@ -930,6 +944,7 @@
       <age3>1.50</age3>
       <age4>1.00</age4>
     </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityegyptmin.xml</homecityfilename>
     <homecityflagtexture>objects\flags\egyptian</homecityflagtexture>
@@ -940,6 +955,7 @@
     <homecityflagbuttonsetlarge>ottomanFlagBtnLarge</homecityflagbuttonsetlarge>
     <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_egyptian</postgameflagtexture>
     <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_egyptian.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/ottoman.png</independencemodeicon>
     <matchmakingtextures>
       <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
       <bannertexturecoords>0 0.375 0.78125 0.50</bannertexturecoords>
@@ -1109,6 +1125,7 @@
     <settlerprotoname>Settler</settlerprotoname>
     <displaynameid>88885001</displaynameid>
     <rollovernameid>88885002</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
@@ -1137,6 +1154,7 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceOttomans</independencetech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
@@ -1188,6 +1206,7 @@
       <age3>1.50</age3>
       <age4>1.00</age4>
     </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityhotmin.xml</homecityfilename>
     <homecityflagtexture>objects\flags\hungarian</homecityflagtexture>
@@ -1198,6 +1217,7 @@
     <homecityflagbuttonsetlarge>ottomanFlagBtnLarge</homecityflagbuttonsetlarge>
     <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_hungarian</postgameflagtexture>
     <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_hungarian.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/ottoman.png</independencemodeicon>
     <matchmakingtextures>
       <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
       <bannertexturecoords>0 0.375 0.78125 0.50</bannertexturecoords>
@@ -1368,6 +1388,7 @@
     <settlerprotoname>Settler</settlerprotoname>
     <displaynameid>88886001</displaynameid>
     <rollovernameid>88886002</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
@@ -1396,6 +1417,7 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceGermans</independencetech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
@@ -1440,6 +1462,7 @@
       <age3>1.50</age3>
       <age4>1.00</age4>
     </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityhgemin.xml</homecityfilename>
     <homecityflagtexture>objects\flags\hungarian</homecityflagtexture>
@@ -1450,6 +1473,7 @@
     <homecityflagbuttonsetlarge>germanFlagBtnLarge</homecityflagbuttonsetlarge>
     <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_hungarian</postgameflagtexture>
     <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_hungarian.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/german.png</independencemodeicon>
     <matchmakingtextures>
       <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
       <bannertexturecoords>0 0.25 0.78125 0.375</bannertexturecoords>
@@ -1623,6 +1647,7 @@
     <settlerprotoname>Settler</settlerprotoname>
     <displaynameid>88887001</displaynameid>
     <rollovernameid>88887002</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
@@ -1651,37 +1676,43 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceDutch</independencetech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
     <food>0</food>
     <wood>0</wood>
-    <startingunit>Explorer</startingunit>
+    <!-- Cambio ITD-8 (arreglo Holanda Italiana): 1 arquitecto, 1 emisario, 1 explorador
+         holandés, 1 explorador italiano, 3 colonos holandeses, 3 colonos italianos. -->
+    <startingunit>ITDExplorerDutch</startingunit>
+    <startingunit>ITDExplorerItalian</startingunit>
+    <startingunit>deArchitect</startingunit>
     <startingunit>Envoy</startingunit>
-    <townstartingunit>Settler</townstartingunit>
-    <townstartingunit>Settler</townstartingunit>
-    <townstartingunit>Settler</townstartingunit>
-    <townstartingunit>Settler</townstartingunit>
-    <townstartingunit>Settler</townstartingunit>
-    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>ITDSettlerDutch</townstartingunit>
+    <townstartingunit>ITDSettlerDutch</townstartingunit>
+    <townstartingunit>ITDSettlerDutch</townstartingunit>
+    <townstartingunit>ITDSettlerItalian</townstartingunit>
+    <townstartingunit>ITDSettlerItalian</townstartingunit>
+    <townstartingunit>ITDSettlerItalian</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
     <townstartingunit>CrateofCoin</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
-    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <!-- Colonos propios en vez del Settler genérico (deshabilitado para esta civ) -->
+    <empirewarsstartingunit>ITDSettlerDutch</empirewarsstartingunit>
+    <empirewarsstartingunit>ITDSettlerDutch</empirewarsstartingunit>
+    <empirewarsstartingunit>ITDSettlerDutch</empirewarsstartingunit>
+    <empirewarsstartingunit>ITDSettlerDutch</empirewarsstartingunit>
+    <empirewarsstartingunit>ITDSettlerDutch</empirewarsstartingunit>
+    <empirewarsstartingunit>ITDSettlerDutch</empirewarsstartingunit>
+    <empirewarsstartingunit>ITDSettlerItalian</empirewarsstartingunit>
+    <empirewarsstartingunit>ITDSettlerItalian</empirewarsstartingunit>
+    <empirewarsstartingunit>ITDSettlerItalian</empirewarsstartingunit>
+    <empirewarsstartingunit>ITDSettlerItalian</empirewarsstartingunit>
+    <empirewarsstartingunit>ITDSettlerItalian</empirewarsstartingunit>
+    <empirewarsstartingunit>ITDSettlerItalian</empirewarsstartingunit>
     <empirewarsstartingunit>OutpostWagon</empirewarsstartingunit>
     <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
     <empirewarsstartingunit>deCrateofFoodLarge400</empirewarsstartingunit>
@@ -1707,6 +1738,7 @@
       <age3>1.50</age3>
       <age4>1.00</age4>
     </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityitdmin.xml</homecityfilename>
     <homecityflagtexture>objects\flags\dutch</homecityflagtexture>
@@ -1717,6 +1749,7 @@
     <homecityflagbuttonsetlarge>dutchFlagBtnLarge</homecityflagbuttonsetlarge>
     <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_dutch</postgameflagtexture>
     <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_dutch.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/dutch.png</independencemodeicon>
     <matchmakingtextures>
       <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
       <bannertexturecoords>0 0.50 0.78125 0.625</bannertexturecoords>
@@ -1898,6 +1931,7 @@
     <settlerprotoname>Settler</settlerprotoname>
     <displaynameid>88888001</displaynameid>
     <rollovernameid>88888002</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
     <alliedid>26446</alliedid>
     <alliedotherid>26445</alliedotherid>
     <unalliedid>26444</unalliedid>
@@ -1926,6 +1960,7 @@
     <deathmatchtech>DEDeathMatch</deathmatchtech>
     <treatytech>DETreatyShadow</treatytech>
     <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceRussians</independencetech>
     <buildingefficiency>0.3</buildingefficiency>
     <freebuildingefficiency>1.0</freebuildingefficiency>
     <gold>0</gold>
@@ -1982,6 +2017,7 @@
       <age3>1.50</age3>
       <age4>1.00</age4>
     </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
     <randomstartingunits>0</randomstartingunits>
     <homecityfilename>homecityroumin.xml</homecityfilename>
     <homecityflagtexture>objects\flags\romanian</homecityflagtexture>
@@ -1992,6 +2028,7 @@
     <homecityflagbuttonsetlarge>russianFlagBtnLarge</homecityflagbuttonsetlarge>
     <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_romanian</postgameflagtexture>
     <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_romanian.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/russian.png</independencemodeicon>
     <matchmakingtextures>
       <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
       <bannertexturecoords>0 0.875 0.78125 1</bannertexturecoords>
@@ -2178,5 +2215,769 @@
         <count>12</count>
       </unitcounts>
     </multipleblocktrain>
+  </civ>
+
+  <!-- Cambio HOS-1 (Caballeros Hospitalarios): civ nueva, clon COMPLETO de Malta
+       (civ real "DEMaltese" — civ real completa del juego base, no una revolución). Reusa
+       la bandera/buttonset REALES de Malta (objects\flags\malta, maltaFlagBtn) porque esta
+       civ ES la identidad histórica real de los Caballeros de Malta/Hospitalarios, sin
+       necesidad de asset nuevo. Sin Explorador: usa "Morgan Black" (HOSMorganBlack, clon del
+       héroe real deGrandMaster con el modelo/ícono real de SPCMorgan — ver protomods.xml). -->
+  <civ>
+    <name>HOSHospitalarios</name>
+    <main>1</main>
+    <statsid>HP</statsid>
+    <portrait>objects\flags\malta</portrait>
+    <culture>Mediterranean</culture>
+    <settlerprotoname>Settler</settlerprotoname>
+    <displaynameid>124995</displaynameid>
+    <rollovernameid>124995</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>HOSAge0</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>HOSColonialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age2</age>
+      <tech>HOSFortressize</tech>
+    </agetech>
+    <agetech>
+      <age>Age3</age>
+      <tech>HOSIndustrialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age4</age>
+      <tech>HOSImperialize</tech>
+    </agetech>
+    <postindustrialtech>HOSPostIndustrial</postindustrialtech>
+    <postimperialtech>HOSPostImperial</postimperialtech>
+    <deathmatchtech>DEDeathMatch</deathmatchtech>
+    <treatytech>DETreatyShadow</treatytech>
+    <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceMaltese</independencetech>
+    <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <gold>0</gold>
+    <food>0</food>
+    <wood>0</wood>
+    <startingunit>HOSMorganBlack</startingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>OutpostWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
+    <empirewarsstartingunit>deCrateofFoodLarge400</empirewarsstartingunit>
+    <empirewarsresources>
+      <food>000.00</food>
+      <wood>500.00</wood>
+      <gold>100.00</gold>
+      <xp>184.00</xp>
+      <ships>0</ships>
+    </empirewarsresources>
+    <empirewarsshipmentxpmaximummodifier>0.60</empirewarsshipmentxpmaximummodifier>
+    <empirewarsshipmentgrowthmodifier>0.95</empirewarsshipmentgrowthmodifier>
+    <empirewarsshipmentmodifier>1.0</empirewarsshipmentmodifier>
+    <empirewarsshipmentrates>
+      <age0>4.00</age0>
+      <age1>2.67</age1>
+      <age2>1.34</age2>
+      <age3>1.34</age3>
+    </empirewarsshipmentrates>
+    <empirewarsageuprates>
+      <age1>2.00</age1>
+      <age2>1.50</age2>
+      <age3>1.50</age3>
+      <age4>1.00</age4>
+    </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
+    <herohcnameid>122213</herohcnameid>
+    <randomstartingunits>0</randomstartingunits>
+    <homecityfilename>homecityhosmin.xml</homecityfilename>
+    <homecityflagtexture>objects\flags\malta</homecityflagtexture>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_Maltese.png</homecityflagiconwpf>
+    <homecitypreviewwpf>resources/images/icons/history/histories/h_pc_maltese.png</homecitypreviewwpf>
+    <homecityflagbuttonwpf>resources\images\icons\flags\flag_hc_maltese.png</homecityflagbuttonwpf>
+    <homecityflagbuttonset>maltaFlagBtn</homecityflagbuttonset>
+    <homecityflagbuttonsetlarge>spanishFlagBtnLarge</homecityflagbuttonsetlarge>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_maltese</postgameflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_maltese.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/maltese.png</independencemodeicon>
+    <matchmakingtextures>
+      <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
+      <bannertexturecoords>0 0.375 0.78125 0.50</bannertexturecoords>
+      <portraittexture>ui\eso\eso_quick_search_politicians_02</portraittexture>
+      <portraittexturecoords>0.005859375 0.4296875 0.396484375 0.814453125</portraittexturecoords>
+      <smallportraittexture>ui\singleplayer\cpai_avatar_ottomans</smallportraittexture>
+      <smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
+    </matchmakingtextures>
+    <unitregen>
+      <unittype>Hero</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+    <multipleblocktrain>
+      <building>TownCenter</building>
+      <multipleblockunit>deFedBisonBatch</multipleblockunit>
+      <units>
+        <unit>Bison</unit>
+      </units>
+      <unitcounts>
+        <count>3</count>
+      </unitcounts>
+    </multipleblocktrain>
+    <multipleblocktrain>
+      <building>FortFrontier</building>
+      <multipleblockunit>deFortSpawnHospitallers</multipleblockunit>
+      <units>
+        <unit>deHospitaller</unit>
+      </units>
+      <unitcounts>
+        <count>5</count>
+      </unitcounts>
+    </multipleblocktrain>
+  </civ>
+
+  <!-- Cambio BAR-1 (Estados Berberiscos): civ nueva, clon COMPLETO de Otomanos (civ real
+       "Ottomans"). Reusa la bandera REAL de la revolución de Estados Berberiscos
+       (DERevBarbaryStates, objects\flags\spc_barbary — ya existe en el juego base) con
+       buttonset de Otomanos (no tiene uno propio, mismo patrón que Egipto). Sin Explorador:
+       usa "Capitán Corsario" (BARCorsairCaptain, clon del Explorador real con el modelo/
+       ícono real de Oruç Reis — ver protomods.xml). -->
+  <civ>
+    <name>BARBerberiscos</name>
+    <main>1</main>
+    <statsid>BB</statsid>
+    <portrait>objects\flags\spc_barbary</portrait>
+    <culture>Mediterranean</culture>
+    <settlerprotoname>Settler</settlerprotoname>
+    <displaynameid>80806</displaynameid>
+    <rollovernameid>80806</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>BARAge0</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>BARColonialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age2</age>
+      <tech>BARFortressize</tech>
+    </agetech>
+    <agetech>
+      <age>Age3</age>
+      <tech>BARIndustrialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age4</age>
+      <tech>BARImperialize</tech>
+    </agetech>
+    <postindustrialtech>BARPostIndustrial</postindustrialtech>
+    <postimperialtech>BARPostImperial</postimperialtech>
+    <deathmatchtech>DEDeathMatch</deathmatchtech>
+    <treatytech>DETreatyShadow</treatytech>
+    <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceOttomans</independencetech>
+    <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <gold>0</gold>
+    <food>0</food>
+    <wood>0</wood>
+    <startingunit>BARCorsairCaptain</startingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>OutpostWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
+    <empirewarsstartingunit>deCrateofFoodLarge400</empirewarsstartingunit>
+    <empirewarsresources>
+      <food>000.00</food>
+      <wood>500.00</wood>
+      <gold>100.00</gold>
+      <xp>184.00</xp>
+      <ships>0</ships>
+    </empirewarsresources>
+    <empirewarsshipmentxpmaximummodifier>0.60</empirewarsshipmentxpmaximummodifier>
+    <empirewarsshipmentgrowthmodifier>0.95</empirewarsshipmentgrowthmodifier>
+    <empirewarsshipmentmodifier>1.0</empirewarsshipmentmodifier>
+    <empirewarsshipmentrates>
+      <age0>4.00</age0>
+      <age1>2.67</age1>
+      <age2>1.34</age2>
+      <age3>1.34</age3>
+    </empirewarsshipmentrates>
+    <empirewarsageuprates>
+      <age1>2.00</age1>
+      <age2>1.50</age2>
+      <age3>1.50</age3>
+      <age4>1.00</age4>
+    </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
+    <randomstartingunits>0</randomstartingunits>
+    <homecityfilename>homecitybarmin.xml</homecityfilename>
+    <homecityflagtexture>objects\flags\spc_barbary</homecityflagtexture>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_barbary.png</homecityflagiconwpf>
+    <homecitypreviewwpf>resources/images/icons/history/histories/h_pc_ottomans.png</homecitypreviewwpf>
+    <homecityflagbuttonwpf>resources\images\icons\flags\flag_hc_barbary.png</homecityflagbuttonwpf>
+    <homecityflagbuttonset>ottomanFlagBtn</homecityflagbuttonset>
+    <homecityflagbuttonsetlarge>ottomanFlagBtnLarge</homecityflagbuttonsetlarge>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_barbary</postgameflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_barbary.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/ottoman.png</independencemodeicon>
+    <matchmakingtextures>
+      <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
+      <bannertexturecoords>0 0.375 0.78125 0.50</bannertexturecoords>
+      <portraittexture>ui\eso\eso_quick_search_politicians_02</portraittexture>
+      <portraittexturecoords>0.005859375 0.4296875 0.396484375 0.814453125</portraittexturecoords>
+      <smallportraittexture>ui\singleplayer\cpai_avatar_ottomans</smallportraittexture>
+      <smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
+    </matchmakingtextures>
+    <unitregen>
+      <unittype>Hero</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+  </civ>
+
+  <!-- Cambio COL-1 (Colombia): civ nueva, clon COMPLETO de España (civ real "Spanish").
+       Reusa la bandera/buttonset REALES de la revolución de Colombia (DERevColombia,
+       objects\flags\colombian, santanderFlagBtn — ya existen en el juego base). Sin
+       Explorador: usa "Simón Bolívar" (COLBolivar, clon del Explorador real con el modelo/
+       ícono real del héroe de campaña Bolívar — ver protomods.xml). Civ NORMAL (sin
+       InitiateRevolution/bloqueo de edad), mismo criterio que Rumania/Argentina. -->
+  <civ>
+    <name>COLColombia</name>
+    <main>1</main>
+    <statsid>CO</statsid>
+    <portrait>objects\flags\colombian</portrait>
+    <culture>Mediterranean</culture>
+    <settlerprotoname>Settler</settlerprotoname>
+    <displaynameid>80842</displaynameid>
+    <rollovernameid>80842</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>COLAge0</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>COLColonialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age2</age>
+      <tech>COLFortressize</tech>
+    </agetech>
+    <agetech>
+      <age>Age3</age>
+      <tech>COLIndustrialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age4</age>
+      <tech>COLImperialize</tech>
+    </agetech>
+    <postindustrialtech>COLPostIndustrial</postindustrialtech>
+    <postimperialtech>COLPostImperial</postimperialtech>
+    <deathmatchtech>DEDeathMatch</deathmatchtech>
+    <treatytech>DETreatyShadow</treatytech>
+    <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceSpanish</independencetech>
+    <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <gold>0</gold>
+    <food>0</food>
+    <wood>0</wood>
+    <startingunit>COLBolivar</startingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>OutpostWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
+    <empirewarsstartingunit>deCrateofFoodLarge400</empirewarsstartingunit>
+    <empirewarsresources>
+      <food>000.00</food>
+      <wood>500.00</wood>
+      <gold>100.00</gold>
+      <xp>184.00</xp>
+      <ships>0</ships>
+    </empirewarsresources>
+    <empirewarsshipmentxpmaximummodifier>0.60</empirewarsshipmentxpmaximummodifier>
+    <empirewarsshipmentgrowthmodifier>0.95</empirewarsshipmentgrowthmodifier>
+    <empirewarsshipmentmodifier>1.0</empirewarsshipmentmodifier>
+    <empirewarsshipmentrates>
+      <age0>4.00</age0>
+      <age1>2.67</age1>
+      <age2>1.34</age2>
+      <age3>1.34</age3>
+    </empirewarsshipmentrates>
+    <empirewarsageuprates>
+      <age1>2.00</age1>
+      <age2>1.50</age2>
+      <age3>1.50</age3>
+      <age4>1.00</age4>
+    </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
+    <randomstartingunits>0</randomstartingunits>
+    <homecityfilename>homecitycolmin.xml</homecityfilename>
+    <homecityflagtexture>objects\flags\colombian</homecityflagtexture>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_Colombian.png</homecityflagiconwpf>
+    <homecitypreviewwpf>resources/images/icons/history/histories/h_pc_spanish.png</homecitypreviewwpf>
+    <homecityflagbuttonwpf>resources\images\icons\flags\flag_hc_colombian.png</homecityflagbuttonwpf>
+    <homecityflagbuttonset>santanderFlagBtn</homecityflagbuttonset>
+    <homecityflagbuttonsetlarge>santanderFlagBtnLarge</homecityflagbuttonsetlarge>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_colombian</postgameflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_colombian.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/spanish.png</independencemodeicon>
+    <matchmakingtextures>
+      <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
+      <bannertexturecoords>0 0.375 0.78125 0.50</bannertexturecoords>
+      <portraittexture>ui\eso\eso_quick_search_politicians_02</portraittexture>
+      <portraittexturecoords>0.005859375 0.4296875 0.396484375 0.814453125</portraittexturecoords>
+      <smallportraittexture>ui\singleplayer\cpai_avatar_spanish</smallportraittexture>
+      <smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
+    </matchmakingtextures>
+    <unitregen>
+      <unittype>Hero</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+  </civ>
+
+  <!-- Cambio CHL-1 (Chile): civ nueva, clon COMPLETO de España (civ real "Spanish" — el
+       mismo real Age0Spanish marca DERevolutionChile obtainable, confirmando que Chile
+       revoluciona desde España en los datos reales). Reusa la bandera/buttonset REALES de
+       la revolución de Chile (DERevChile, objects\flags\chilean, oHigginsFlagBtn). Con
+       Explorador normal (el usuario no pidió reemplazo para esta civ). -->
+  <civ>
+    <name>CHLChile</name>
+    <main>1</main>
+    <statsid>CL</statsid>
+    <portrait>objects\flags\chilean</portrait>
+    <culture>Mediterranean</culture>
+    <settlerprotoname>Settler</settlerprotoname>
+    <displaynameid>80843</displaynameid>
+    <rollovernameid>80843</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>CHLAge0</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>CHLColonialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age2</age>
+      <tech>CHLFortressize</tech>
+    </agetech>
+    <agetech>
+      <age>Age3</age>
+      <tech>CHLIndustrialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age4</age>
+      <tech>CHLImperialize</tech>
+    </agetech>
+    <postindustrialtech>CHLPostIndustrial</postindustrialtech>
+    <postimperialtech>CHLPostImperial</postimperialtech>
+    <deathmatchtech>DEDeathMatch</deathmatchtech>
+    <treatytech>DETreatyShadow</treatytech>
+    <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceSpanish</independencetech>
+    <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <gold>0</gold>
+    <food>0</food>
+    <wood>0</wood>
+    <startingunit>Explorer</startingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>OutpostWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
+    <empirewarsstartingunit>deCrateofFoodLarge400</empirewarsstartingunit>
+    <empirewarsresources>
+      <food>000.00</food>
+      <wood>500.00</wood>
+      <gold>100.00</gold>
+      <xp>184.00</xp>
+      <ships>0</ships>
+    </empirewarsresources>
+    <empirewarsshipmentxpmaximummodifier>0.60</empirewarsshipmentxpmaximummodifier>
+    <empirewarsshipmentgrowthmodifier>0.95</empirewarsshipmentgrowthmodifier>
+    <empirewarsshipmentmodifier>1.0</empirewarsshipmentmodifier>
+    <empirewarsshipmentrates>
+      <age0>4.00</age0>
+      <age1>2.67</age1>
+      <age2>1.34</age2>
+      <age3>1.34</age3>
+    </empirewarsshipmentrates>
+    <empirewarsageuprates>
+      <age1>2.00</age1>
+      <age2>1.50</age2>
+      <age3>1.50</age3>
+      <age4>1.00</age4>
+    </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
+    <randomstartingunits>0</randomstartingunits>
+    <homecityfilename>homecitychlmin.xml</homecityfilename>
+    <homecityflagtexture>objects\flags\chilean</homecityflagtexture>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_Chilean.png</homecityflagiconwpf>
+    <homecitypreviewwpf>resources/images/icons/history/histories/h_pc_spanish.png</homecitypreviewwpf>
+    <homecityflagbuttonwpf>resources\images\icons\flags\flag_hc_chilean.png</homecityflagbuttonwpf>
+    <homecityflagbuttonset>oHigginsFlagBtn</homecityflagbuttonset>
+    <homecityflagbuttonsetlarge>oHigginsFlagBtnLarge</homecityflagbuttonsetlarge>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_chilean</postgameflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_chilean.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/spanish.png</independencemodeicon>
+    <matchmakingtextures>
+      <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
+      <bannertexturecoords>0 0.375 0.78125 0.50</bannertexturecoords>
+      <portraittexture>ui\eso\eso_quick_search_politicians_02</portraittexture>
+      <portraittexturecoords>0.005859375 0.4296875 0.396484375 0.814453125</portraittexturecoords>
+      <smallportraittexture>ui\singleplayer\cpai_avatar_spanish</smallportraittexture>
+      <smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
+    </matchmakingtextures>
+    <unitregen>
+      <unittype>Hero</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+  </civ>
+
+  <!-- Cambio FRA-1 (Francia Napoleónica): civ nueva, clon COMPLETO de Francia (civ real
+       "French"). Reusa la bandera REAL de "Franceses napoleónicos" (DERevFranceNE,
+       objects\flags\french_revolution_ne, ya existe en el juego base) con buttonset de
+       Francia (DERevFranceNE no define uno propio). Civ NORMAL (sin InitiateRevolution). El
+       Coureur (colono real de Francia) se transforma en Sansculotte progresivamente por
+       edad, réplica del efecto real de DERevolutionFrance (NO DERevolutionFranceNE, que es
+       una sub-revolución posterior sobre la primera — la mecánica de Sansculotte pedida
+       viene de la revolución base). -->
+  <civ>
+    <name>FRAFranceNapoleonica</name>
+    <main>1</main>
+    <statsid>FP</statsid>
+    <portrait>objects\flags\french_revolution_ne</portrait>
+    <culture>WesternEurope</culture>
+    <settlerprotoname>Coureur</settlerprotoname>
+    <displaynameid>200134</displaynameid>
+    <rollovernameid>200134</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>FRAAge0</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>FRAColonialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age2</age>
+      <tech>FRAFortressize</tech>
+    </agetech>
+    <agetech>
+      <age>Age3</age>
+      <tech>FRAIndustrialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age4</age>
+      <tech>FRAImperialize</tech>
+    </agetech>
+    <postindustrialtech>FRAPostIndustrial</postindustrialtech>
+    <postimperialtech>FRAPostImperial</postimperialtech>
+    <deathmatchtech>DEDeathMatch</deathmatchtech>
+    <treatytech>DETreatyShadow</treatytech>
+    <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependenceFrench</independencetech>
+    <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <gold>0</gold>
+    <food>0</food>
+    <wood>0</wood>
+    <startingunit>Explorer</startingunit>
+    <startingunit>NativeScout</startingunit>
+    <townstartingunit>Coureur</townstartingunit>
+    <townstartingunit>Coureur</townstartingunit>
+    <townstartingunit>Coureur</townstartingunit>
+    <townstartingunit>Coureur</townstartingunit>
+    <townstartingunit>Coureur</townstartingunit>
+    <townstartingunit>deCrateofFood50</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <empirewarsstartingunit>Coureur</empirewarsstartingunit>
+    <empirewarsstartingunit>Coureur</empirewarsstartingunit>
+    <empirewarsstartingunit>Coureur</empirewarsstartingunit>
+    <empirewarsstartingunit>Coureur</empirewarsstartingunit>
+    <empirewarsstartingunit>Coureur</empirewarsstartingunit>
+    <empirewarsstartingunit>Coureur</empirewarsstartingunit>
+    <empirewarsstartingunit>Coureur</empirewarsstartingunit>
+    <empirewarsstartingunit>Coureur</empirewarsstartingunit>
+    <empirewarsstartingunit>Coureur</empirewarsstartingunit>
+    <empirewarsstartingunit>OutpostWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
+    <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
+    <empirewarsresources>
+      <food>120.00</food>
+      <wood>300.00</wood>
+      <gold>100.00</gold>
+      <xp>184.00</xp>
+      <ships>0</ships>
+    </empirewarsresources>
+    <empirewarsshipmentxpmaximummodifier>0.60</empirewarsshipmentxpmaximummodifier>
+    <empirewarsshipmentgrowthmodifier>0.95</empirewarsshipmentgrowthmodifier>
+    <empirewarsshipmentmodifier>1.0</empirewarsshipmentmodifier>
+    <empirewarsshipmentrates>
+      <age0>4.00</age0>
+      <age1>2.67</age1>
+      <age2>1.34</age2>
+      <age3>1.34</age3>
+    </empirewarsshipmentrates>
+    <empirewarsageuprates>
+      <age1>2.00</age1>
+      <age2>1.50</age2>
+      <age3>1.50</age3>
+      <age4>1.00</age4>
+    </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
+    <randomstartingunits>0</randomstartingunits>
+    <homecityfilename>homecityframin.xml</homecityfilename>
+    <homecityflagtexture>objects\flags\french_revolution_ne</homecityflagtexture>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_French_Revolution_NE.png</homecityflagiconwpf>
+    <homecitypreviewwpf>resources/images/icons/history/histories/h_pc_french.png</homecitypreviewwpf>
+    <homecityflagbuttonwpf>resources/images/icons/flags/flag_hc_french_revolution_ne.png</homecityflagbuttonwpf>
+    <homecityflagbuttonset>frenchFlagBtn</homecityflagbuttonset>
+    <homecityflagbuttonsetlarge>frenchFlagBtnLarge</homecityflagbuttonsetlarge>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_french_revolution_ne</postgameflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_french_revolution_ne.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/french.png</independencemodeicon>
+    <matchmakingtextures>
+      <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
+      <bannertexturecoords>0 0.125 0.78125 0.25</bannertexturecoords>
+      <portraittexture>ui\eso\eso_quick_search_politicians_02</portraittexture>
+      <portraittexturecoords>0.005859375 0.00390625 0.396484375 0.392578125</portraittexturecoords>
+      <smallportraittexture>ui\singleplayer\cpai_avatar_french</smallportraittexture>
+      <smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
+    </matchmakingtextures>
+    <unitregen>
+      <unittype>Hero</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
+  </civ>
+
+  <!-- Cambio IOR-1 (Indias Orientales Neerlandesas): civ nueva, clon COMPLETO de Portugal
+       (civ real "Portuguese" — el mismo real Age0Portuguese marca DERevolutionIndonesia
+       obtainable, junto con Age0Dutch). Reusa la bandera real de la revolución indonesia
+       (DERevIndonesia, objects\flags\indonesian) con buttonset de Portugal (DERevIndonesia
+       no define uno propio). Civ NORMAL (sin InitiateRevolution). -->
+  <civ>
+    <name>IORDutchEastIndies</name>
+    <main>1</main>
+    <statsid>IO</statsid>
+    <portrait>objects\flags\indonesian</portrait>
+    <culture>Mediterranean</culture>
+    <settlerprotoname>Settler</settlerprotoname>
+    <displaynameid>80811</displaynameid>
+    <rollovernameid>80811</rollovernameid>
+    <independencetooltipid>212157</independencetooltipid>
+    <alliedid>26446</alliedid>
+    <alliedotherid>26445</alliedotherid>
+    <unalliedid>26444</unalliedid>
+    <agetech>
+      <age>Age0</age>
+      <tech>IORAge0</tech>
+    </agetech>
+    <agetech>
+      <age>Age1</age>
+      <tech>IORColonialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age2</age>
+      <tech>IORFortressize</tech>
+    </agetech>
+    <agetech>
+      <age>Age3</age>
+      <tech>IORIndustrialize</tech>
+    </agetech>
+    <agetech>
+      <age>Age4</age>
+      <tech>IORImperialize</tech>
+    </agetech>
+    <postindustrialtech>IORPostIndustrial</postindustrialtech>
+    <postimperialtech>IORPostImperial</postimperialtech>
+    <deathmatchtech>DEDeathMatch</deathmatchtech>
+    <treatytech>DETreatyShadow</treatytech>
+    <empirewarstech>DEEmpireWars</empirewarstech>
+    <independencetech>DEIndependencePortuguese</independencetech>
+    <buildingefficiency>0.3</buildingefficiency>
+    <freebuildingefficiency>1.0</freebuildingefficiency>
+    <gold>0</gold>
+    <food>0</food>
+    <wood>0</wood>
+    <startingunit>Explorer</startingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>Settler</townstartingunit>
+    <townstartingunit>deCrateofFood50</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <townstartingunit>CrateofWood</townstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>Settler</empirewarsstartingunit>
+    <empirewarsstartingunit>OutpostWagon</empirewarsstartingunit>
+    <empirewarsstartingunit>CrateofFoodLarge</empirewarsstartingunit>
+    <empirewarsstartingunit>deCrateofFoodLarge400</empirewarsstartingunit>
+    <empirewarsresources>
+      <food>100.00</food>
+      <wood>300.00</wood>
+      <gold>100.00</gold>
+      <xp>184.00</xp>
+      <ships>0</ships>
+    </empirewarsresources>
+    <empirewarsshipmentxpmaximummodifier>0.60</empirewarsshipmentxpmaximummodifier>
+    <empirewarsshipmentgrowthmodifier>0.95</empirewarsshipmentgrowthmodifier>
+    <empirewarsshipmentmodifier>1.0</empirewarsshipmentmodifier>
+    <empirewarsshipmentrates>
+      <age0>4.00</age0>
+      <age1>2.67</age1>
+      <age2>1.34</age2>
+      <age3>1.34</age3>
+    </empirewarsshipmentrates>
+    <empirewarsageuprates>
+      <age1>2.00</age1>
+      <age2>1.50</age2>
+      <age3>1.50</age3>
+      <age4>1.00</age4>
+    </empirewarsageuprates>
+    <regicidestartingunit>deRegent</regicidestartingunit>
+    <randomstartingunits>0</randomstartingunits>
+    <homecityfilename>homecityiormin.xml</homecityfilename>
+    <homecityflagtexture>objects\flags\indonesian</homecityflagtexture>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_Indonesian.png</homecityflagiconwpf>
+    <homecitypreviewwpf>resources/images/icons/history/histories/h_pc_portuguese.png</homecitypreviewwpf>
+    <homecityflagbuttonwpf>resources\images\icons\flags\flag_hc_indonesian.png</homecityflagbuttonwpf>
+    <homecityflagbuttonset>portugueseFlagBtn</homecityflagbuttonset>
+    <homecityflagbuttonsetlarge>portugueseFlagBtnLarge</homecityflagbuttonsetlarge>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_indonesian</postgameflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_indonesian.png</postgameflagiconwpf>
+    <independencemodeicon>resources/images/icons/flags/independence/portuguese.png</independencemodeicon>
+    <matchmakingtextures>
+      <bannertexture>ui\eso\civ_flags_quick_launch</bannertexture>
+      <bannertexturecoords>0 0.625 0.78125 0.75</bannertexturecoords>
+      <portraittexture>ui\eso\eso_quick_search_politicians_01</portraittexture>
+      <portraittexturecoords>0.005859375 0.4296875 0.396484375 0.814453125</portraittexturecoords>
+      <smallportraittexture>ui\singleplayer\cpai_avatar_portuguese</smallportraittexture>
+      <smallportraittexturecoords>0 0 1 1</smallportraittexturecoords>
+    </matchmakingtextures>
+    <unitregen>
+      <unittype>Hero</unittype>
+      <rate>0.25</rate>
+      <idletimeout>3.5</idletimeout>
+    </unitregen>
   </civ>
 </civmods>

@@ -1,0 +1,11 @@
+<animfile>
+  <definebone>HS Bone Hoof Back Rt</definebone>
+  <definebone>HS Bone Hoof Back Lt</definebone>
+  <definebone>HS Bone Master</definebone>
+  <attachment>Horse_Debris<component>Horse_Debris<assetreference type="ParticleSystem"><file>effects\animal particles\horse_debris.particle</file></assetreference></component><anim>Idle<component>Horse_Debris</component></anim></attachment>
+  <attachment>Horse_Dust<component>Horse_Dust<assetreference type="ParticleSystem"><file>effects\animal particles\horse_dust.particle</file></assetreference></component><anim>Idle<component>Horse_Dust</component></anim></attachment>
+  <component>trade_stagecoach_horse<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\trade\trade_stagecoach_horse</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>units\trade\lp_trade_stagecoach_horse</file></assetreference></lowpoly></logic></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_idle_generic_a</file></assetreference><component>trade_stagecoach_horse</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_bored_generic_a</file></assetreference><component>trade_stagecoach_horse</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\cavalry\horse_canter_generic_a</file></assetreference><component>trade_stagecoach_horse</component><attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"></attach><attach a="Horse_Dust" frombone="HS Bone Master" tobone="HS Bone Hoof Back Rt" syncanims="0"></attach><attach a="Horse_Debris" frombone="HS Bone Master" tobone="HS Bone Hoof Back Lt" syncanims="0"></attach><attach a="Horse_Debris" frombone="HS Bone Master" tobone="HS Bone Hoof Back Rt" syncanims="0"></attach></anim>
+</animfile>

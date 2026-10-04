@@ -1,0 +1,4 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\marlin\marlin</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_64x64</selectedtexture><width>8.00</width><height>8.00</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\marlin\marlin_swimA</file><tag type="Particles" particlename="fish01out_01">0.00</tag><tag type="Particles" particlename="fish01in_01">0.00</tag><tag type="Particles" particlename="fish01in_02">0.00</tag><tag type="Particles" particlename="fish01out_02">0.00</tag><tag type="Particles" particlename="fish02in_01">0.00</tag><tag type="Particles" particlename="fish02out_01">0.00</tag><tag type="Particles" particlename="fish02out_02">0.00</tag><tag type="Particles" particlename="fish02in_02">0.00</tag></assetreference><component>ModelComp</component></anim>
+</animfile>

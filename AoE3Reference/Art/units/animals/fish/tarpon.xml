@@ -1,0 +1,8 @@
+<animfile>
+  <definebone>BoneFish00</definebone>
+  <definebone>BoneFish08</definebone>
+  <attachment>glow<component>emitter3<assetreference type="popcornFx"><file>water_effects\fishingspot_glow_sm.pkfx</file></assetreference></component><anim>None<component>emitter3</component></anim></attachment>
+  <attachment>fishFx<component>enter<assetreference type="popcornFx"><file>units\animals\bass_fish\FishFx.pkfx</file></assetreference></component><anim>Idle<component>enter</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\fish\tarpon</file></assetreference><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_circle_64x64</selectedtexture><width>8.00</width><height>8.00</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\fish\fish_scene_animA</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\fish\fish_scene_animB</file></assetreference><component>ModelComp</component><attach a="glow" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0" allowrotation="1"></attach><attach a="fishFx" frombone="ATTACHPOINT" tobone="BoneFish00" syncanims="0"></attach><attach a="fishFx" frombone="ATTACHPOINT" tobone="BoneFish08" syncanims="0"></attach></anim>
+</animfile>

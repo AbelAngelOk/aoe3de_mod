@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\musketeer\textures\musketeer_2age_gun_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\musketeer\textures\musketeer_2age_gun_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\musketeer\textures\musketeer_2age_gun_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

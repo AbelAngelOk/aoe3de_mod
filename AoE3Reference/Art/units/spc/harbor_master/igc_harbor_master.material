@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\homecity_units\peasant_class_male\textures\peasant_class_male_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\homecity_units\peasant_class_male\textures\peasant_class_male_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\homecity_units\peasant_class_male\textures\peasant_class_male_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

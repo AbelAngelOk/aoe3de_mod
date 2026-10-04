@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\chinese\keshik\textures\keshik_rider_rank02_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\chinese\keshik\textures\keshik_rider_rank02_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\chinese\keshik\textures\keshik_rider_rank02_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\chinese\keshik\textures\keshik_rider_rank02_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\revolution\wallachian_archer\textures\wallachian_archer_rider_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\revolution\wallachian_archer\textures\wallachian_archer_rider_matA_normals">
+      </texture>
+      <texture name="Masks" override="units\revolution\wallachian_archer\textures\wallachian_archer_rider_matA_masks">
+      </texture>
+      <texture name="Details" override="units\revolution\wallachian_archer\textures\wallachian_archer_rider_matA_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

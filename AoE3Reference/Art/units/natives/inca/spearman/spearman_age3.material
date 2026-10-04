@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\inca\spearman\textures\spearman_hat_age3_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\inca\spearman\textures\spearman_hat_age3_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\inca\spearman\textures\spearman_hat_age3_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\inca\spearman\textures\spearman_hat_age3_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\inca\spearman\textures\spearman_age3_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\inca\spearman\textures\spearman_age3_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\inca\spearman\textures\spearman_age3_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\inca\spearman\textures\spearman_age3_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

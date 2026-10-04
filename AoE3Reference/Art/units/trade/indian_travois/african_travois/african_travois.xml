@@ -1,0 +1,23 @@
+<animfile>
+  <definebone>bone_wheel03</definebone>
+  <definebone>bone_wheel04</definebone>
+  <definebone>bone_attach_horse_a</definebone>
+  <definebone>bone_attach_horse_b</definebone>
+  <definebone>HS Bone Hoof Back Rt</definebone>
+  <definebone>HS Bone Hoof Back Lt</definebone>
+  <definebone>HS Bone Master</definebone>
+  <definebone>HS Bone Master</definebone>
+  <definebone>bone_wheel01</definebone>
+  <definebone>bone_wheel02</definebone>
+  <definebone>bone_prop_attach</definebone>
+  <definebone>bone_guide</definebone>
+  <definebone>bone_zebu_attach</definebone>
+  <attachment>Horse_Debris<component>Horse_Debris<assetreference type="ParticleSystem"><file>effects\animal particles\horse_debris.particle</file></assetreference></component><anim>Idle<component>Horse_Debris</component></anim></attachment>
+  <attachment>Prop_1<component>Prop_1<assetreference type="GrannyModel"><file>units\trade\indian_travois\african_travois\african_travois_props</file></assetreference></component><anim>Idle<component>Prop_1</component></anim></attachment>
+  <attachment>Zebu<include>units\trade\indian_travois\african_travois\african_travois_zebu.xml</include></attachment>
+  <attachment>Guide<include>units\trade\indian_travois\african_travois\african_travois_guide.xml</include></attachment>
+  <component>constructiontravois<assetreference type="GrannyModel"><file>units\trade\indian_travois\african_travois\african_travois</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_128x128</texture><selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture><width>2.00</width><height>4.00</height></decal><watersplash><texture>units\artillery\cannon\wheel_B</texture><width>1.75</width><height>2.00</height></watersplash><attach a="Prop_1" frombone="ATTACHPOINT" tobone="bone_prop_attach" syncanims="0"></attach><attach a="Guide" frombone="ATTACHPOINT" tobone="bone_guide" syncanims="1"></attach><attach a="Zebu" frombone="ATTACHPOINT" tobone="bone_zebu_attach" syncanims="1"></attach></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\trade\indian_travois\african_travois\african_travois_idle</file><weight>10</weight></assetreference><component>constructiontravois</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\trade\indian_travois\african_travois\african_travois_walk</file><weight>10</weight></assetreference><component>constructiontravois</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>units\trade\indian_travois\african_travois\african_travois_death</file><weight>10</weight></assetreference><component>constructiontravois</component></anim>
+</animfile>

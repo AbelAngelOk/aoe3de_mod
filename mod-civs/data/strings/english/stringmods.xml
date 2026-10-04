@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mod-civs: strings english — dividido de mod-minimal (2026-09-19). -->
+<stringmods>
+  <stringtable>
+    <language name="">
+      <!-- ===== Cambio 14: Finlandia (Fase 1) — clon de Suecia ===== -->
+      <string _locid="88882001">Finland</string>
+      <string _locid="88882002">The Finns bring forest warfare and elite jaeger marksmen to the battlefield.</string>
+      <string _locid="88882003">Helsinki</string>
+      <string _locid="88882004">The Finnish Marshal</string>
+      <!-- Fase 2: unidades distintivas -->
+      <string _locid="88882010">Savolax Jaeger</string>
+      <string _locid="88882011">Light jaeger skirmisher with excellent range; very strong against heavy infantry, but fragile.</string>
+      <string _locid="88882012">Long-range skirmisher</string>
+      <string _locid="88882013">Karelian Jaeger</string>
+      <string _locid="88882014">Finnish hybrid: builds structures, gathers wood, and fights as heavy infantry with a bonus against cavalry. Starts colonist-like in Age I and regains its military stats in Age II.</string>
+      <string _locid="88882015">Builder / heavy infantry</string>
+      <string _locid="88882016">Veteran Karelian Jaeger</string>
+      <string _locid="88882900">Torsten Stålhandske</string>
+      <string _locid="88882901">Finnish AI: forest jaegers, wood economy and light artillery.</string>
+      <!-- Parte A: rollover Academia de Turku (fusión Duelista) -->
+      <string _locid="88882020">Grants +50% hitpoints and attack to the Explorer, lets it heal and train Surgeons and Field Hospitals, and ships 1 Surgeon.</string>
+      <!-- Cambio 25: carta de Iglesia finlandesa (Tratado de Hamina) -->
+      <string _locid="88882030">Treaty of Fredrikshamn</string>
+      <string _locid="88882031">Adds technologies to the Church that ship troops when researched: Streltsy of Noteborg (Age II), Halberdiers of Viborg and Ingrian Recruits (Age III), and Cannon Shipment (Age IV). Also unlocks the Blockhouse Veteran/Guard/Imperial upgrades and the Northern Musketeers card (Age IV).</string>
+      <string _locid="88882032">Streltsy of Noteborg</string>
+      <string _locid="88882033">Research at the Church for 500 food to ship 13 Streltsy.</string>
+      <string _locid="88882034">Halberdiers of Viborg</string>
+      <string _locid="88882035">Research at the Church for 1000 coin to ship 14 Halberdiers.</string>
+      <string _locid="88882036">Ingrian Recruits</string>
+      <string _locid="88882037">Research at the Church for 1000 wood to ship 16 Rekruts (Russian musketeers).</string>
+      <string _locid="88882038">Shipment of Cannons</string>
+      <string _locid="88882039">Research at the Church for 500 food to ship 2 Leather Cannons and enable them as trainable at the Blockhouse from Age II.</string>
+      <!-- Cambio 28: Castillo de Kalmar (blocaos) -->
+      <string _locid="88882040">Ships 2 Blockhouse Wagons and upgrades Blockhouses: +25% hitpoints, extra bounty, and +1 to their build limit.</string>
+      <!-- Cambio 29: mejoras de rango de los jaegers finlandeses -->
+      <string _locid="88882050">Upgrades Karelian Jaegers to Veteran (+20% hitpoints and attack).</string>
+      <string _locid="88882051">Guard Karelian Jaeger</string>
+      <string _locid="88882052">Upgrades Karelian Jaegers to Guard (+30% hitpoints and attack).</string>
+      <string _locid="88882053">Veteran Savolax Jaeger</string>
+      <string _locid="88882054">Upgrades Savolax Jaegers to Veteran (+20% hitpoints and attack).</string>
+      <!-- Cambio 30: cartas de envío + mejoras de jaegers -->
+      <string _locid="88882060">Ships 8 Karelian Jaeger.</string>
+      <string _locid="88882061">Ships 9 Karelian Jaeger.</string>
+      <string _locid="88882062">Ships 16 Karelian Jaeger.</string>
+      <string _locid="88882063">Ships 10 Karelian Jaeger (infinite shipment).</string>
+      <string _locid="88882064">Ships 5 Counter Jaeger.</string>
+      <string _locid="88882065">Ships 8 Counter Jaeger.</string>
+      <string _locid="88882066">Ships 9 Counter Jaeger.</string>
+      <string _locid="88882067">Ships 12 Counter Jaeger.</string>
+      <string _locid="88882068">Ships 5 Counter Dragoon.</string>
+      <string _locid="88882069">Ships 8 Counter Dragoon.</string>
+      <string _locid="88882070">Ships 9 Counter Dragoon.</string>
+      <string _locid="88882071">Ships 7 Counter Dragoon (infinite shipment).</string>
+      <string _locid="88882072">Ships 4 Halberdiers.</string>
+      <string _locid="88882073">Ships 7 Halberdiers.</string>
+      <string _locid="88882074">Ships 8 Halberdiers.</string>
+      <string _locid="88882075">Ships 13 Halberdiers.</string>
+      <string _locid="88882076">Ships 4 Landsknechts for 500 coin.</string>
+      <string _locid="88882077">Ships 10 Landsknechts for 1000 coin.</string>
+      <string _locid="88882078">Ships 10 Landsknechts for 1000 coin (infinite shipment).</string>
+      <string _locid="88882079">Ships 9 Irish Brigadiers for 500 coin.</string>
+      <string _locid="88882080">Ships 12 Swiss Pikemen for 1000 coin.</string>
+      <string _locid="88882081">Ships 7 Black Riders for 1000 coin.</string>
+      <string _locid="88882082">Imperial Karelian Jaeger</string>
+      <string _locid="88882083">Upgrades Karelian Jaegers to Imperial (+50% hitpoints and attack).</string>
+      <string _locid="88882084">Guard Savolax Jaeger</string>
+      <string _locid="88882085">Upgrades Savolax Jaegers to Guard (+30% hitpoints and attack).</string>
+      <string _locid="88882086">Imperial Savolax Jaeger</string>
+      <string _locid="88882087">Upgrades Savolax Jaegers to Imperial (+50% hitpoints and attack).</string>
+      <string _locid="88882088">Veteran Counter Jaeger</string>
+      <string _locid="88882089">Upgrades Counter Jaegers to Veteran (+20% hitpoints and attack).</string>
+      <string _locid="88882090">Guard Counter Jaeger</string>
+      <string _locid="88882091">Upgrades Counter Jaegers to Guard (+30% hitpoints and attack).</string>
+      <string _locid="88882092">Imperial Counter Jaeger</string>
+      <string _locid="88882093">Upgrades Counter Jaegers to Imperial (+50% hitpoints and attack).</string>
+      <string _locid="88882094">Guard Counter Dragoon</string>
+      <string _locid="88882095">Upgrades Counter Dragoons to Guard (+20% hitpoints and attack).</string>
+      <string _locid="88882096">Imperial Counter Dragoon</string>
+      <string _locid="88882097">Upgrades Counter Dragoons to Imperial (+50% hitpoints and attack).</string>
+      <string _locid="88882098">Finnish Revolution</string>
+      <string _locid="88882099">Finland breaks away from Sweden: the Karelian Jaeger (Skirmisher) becomes a builder/gatherer with its real veteran look, trainable at the Town Center and the Blockhouse. The Settler is not lost.</string>
+      <string _locid="88882100">End of the Revolution</string>
+      <string _locid="88882101">Regains normal age advancement after the Revolution (Finland jumps straight to Age III). The Karelian Jaeger keeps its ability to build and gather.</string>
+      <string _locid="88882102" symbol="cStringFINHaveReturned">Finland has returned to the path of progress!</string>
+      <string _locid="88882103" symbol="cStringFINPlayersColonyReturned">%s has ended the REVOLUTION!</string>
+      <string _locid="88882401">Landsknecht Company</string>
+      <string _locid="88882402">Landsknecht Contract</string>
+      <string _locid="88882403">Ships 3 Landsknechts and enables training them at the Barracks and the Fort.</string>
+      <string _locid="88882404">Blockhouse Veterancy</string>
+      <string _locid="88882405">Research at the Church to upgrade Streltsy, Halberdiers, Rekruts and Leather Cannons trained at the Blockhouse to Veteran (+20% hitpoints and attack). Requires Age III.</string>
+      <string _locid="88882406">Blockhouse Guard</string>
+      <string _locid="88882407">Upgrades Blockhouse units to Guard (+35% hitpoints and attack). Requires Blockhouse Veterancy and Age IV.</string>
+      <string _locid="88882408">Blockhouse Imperial Army</string>
+      <string _locid="88882409">Upgrades Blockhouse units to Imperial (+50% hitpoints and attack). Requires Blockhouse Guard and Age V.</string>
+      <string _locid="88882410">25 Northern Musketeers</string>
+      <string _locid="88882411">Research at the Church for 1000 coin to ship 25 Northern Musketeers and enable them as trainable at the Blockhouse, at the cost of disabling Streltsy and Rekruts.</string>
+      <!-- Cambio ARG-1/2: Argentina (Italy clone) -->
+      <string _locid="88883001">Argentina</string>
+      <string _locid="88883002">Argentina</string>
+      <string _locid="88883003">Buenos Aires</string>
+      <string _locid="88883004">Explorer</string>
+      <string _locid="88883010">Gaucho</string>
+      <string _locid="88883011">Milicia Criolla</string>
+      <string _locid="88883012">Patricio</string>
+      <string _locid="88883013">Gaucho Entrerriano</string>
+      <string _locid="88883014">Mounted Granadero</string>
+      <string _locid="88883030">Blandengue</string>
+      <string _locid="88883031">Infernal</string>
+      <string _locid="88883040">Gaucho Jujeño</string>
+      <string _locid="88883041">Spy disguised as a gaucho. Special multipliers against heavy cavalry and shock infantry. Can build Barracks and Livestock Pens, and gather from cows.</string>
+      <string _locid="88883042">Spy / infiltrator</string>
+      <string _locid="88883050">Gaucho Pampeano</string>
+      <string _locid="88883051">Mounted guerrilla infantry. Attacks from stealth.</string>
+      <string _locid="88883052">Mounted guerrilla</string>
+      <string _locid="88883061">Veteran Milicia Criolla</string>
+      <string _locid="88883062">Guard Milicia Criolla</string>
+      <string _locid="88883063">Imperial Milicia Criolla</string>
+      <string _locid="88883071">Veteran Patricio</string>
+      <string _locid="88883072">Guard Patricio</string>
+      <string _locid="88883073">Imperial Patricio</string>
+      <string _locid="88883020">Cow Shipment I</string>
+      <string _locid="88883021">Cow Shipment II</string>
+      <string _locid="88883022">Cow Shipment III</string>
+      <string _locid="88883023">Ships 4 cows.</string>
+      <string _locid="88883024">Ships 5 cows.</string>
+      <string _locid="88883025">Ships 8 cows.</string>
+      <string _locid="88883026">Criollo lancer on a heavy mount.</string>
+      <string _locid="88883027">Mounted grenadier armed with a musket.</string>
+      <string _locid="88883900">José de San Martín</string>
+      <string _locid="88883901">The Argentinian AI: gauchos, criollos and grenadiers of the Pampas.</string>
+      <!-- Cambio EGY-1/2/3/4: Egypt (Ottoman clone) -->
+      <string _locid="88884001">Egypt</string>
+      <string _locid="88884002">Egypt</string>
+      <string _locid="88884003">Cairo</string>
+      <string _locid="88884004">Explorer</string>
+      <string _locid="88884010">Muhammad Ali Reforms</string>
+      <string _locid="88884011">Removes the Janissary (and its upgrades) in exchange for removing the training limit on the Nizam.</string>
+      <string _locid="88884020">Group of Camel Riders</string>
+      <string _locid="88884021">Squadron of Camel Riders</string>
+      <string _locid="88884022">Company of Camel Riders</string>
+      <string _locid="88884023">Regiment of Camel Riders</string>
+      <string _locid="88884024">Army of Camel Riders</string>
+      <string _locid="88884030">Ships 3 Camel Riders.</string>
+      <string _locid="88884031">Ships 4 Camel Riders.</string>
+      <string _locid="88884032">Ships 7 Camel Riders.</string>
+      <string _locid="88884033">Ships 5 Camel Riders.</string>
+      <string _locid="88884034">Ships 8 Camel Riders.</string>
+      <string _locid="88884040">Group of Mamelukes</string>
+      <string _locid="88884041">Squadron of Mamelukes</string>
+      <string _locid="88884042">Company of Mamelukes</string>
+      <string _locid="88884043">Mamelukes (Team)</string>
+      <string _locid="88884050">Ships 4 Mamelukes for 800 coin.</string>
+      <string _locid="88884051">Ships 5 Mamelukes for 1000 coin.</string>
+      <string _locid="88884052">Ships 6 Mamelukes for 1200 coin.</string>
+      <string _locid="88884053">Ships 4 Mamelukes to each ally for 1200 coin.</string>
+      <string _locid="88884060">Camel Rider</string>
+      <string _locid="88884044">Mameluke Division</string>
+      <string _locid="88884054">Ships 8 Mamelukes for 2000 coin.</string>
+      <!-- Italian Dutch (ITD) -->
+      <string _locid="88887001">Italian Dutch</string>
+      <string _locid="88887002">Italian Dutch</string>
+      <string _locid="88887003">Amsterdam</string>
+      <string _locid="88887004">Explorer</string>
+      <string _locid="88887210">Bersagliere</string>
+      <string _locid="88887211">Italian light skirmisher, available from the Colonial Age but weak (60% of its real stats); reaches full strength in the Industrial Age.</string>
+      <string _locid="88887212">Bersagliere</string>
+      <!-- Romania (ROU) -->
+      <string _locid="88888001">Romania</string>
+      <string _locid="88888002">Romania</string>
+      <string _locid="88888003">Bucharest</string>
+      <string _locid="88888004">Explorer</string>
+      <string _locid="88888210">Dorobant</string>
+      <string _locid="88888211">Irregular Romanian musket infantry. Replaces the Rekrut in the Blockhouse; trains in batches of 4.</string>
+      <string _locid="88888212">Dorobant</string>
+      <string _locid="88888220">Wallachian Horse Archer</string>
+      <string _locid="88888221">Light cavalry archer. Available from Age III at 80% of its stats; reaches full strength in Age IV.</string>
+      <string _locid="88888222">Wallachian Horse Archer</string>
+      <string _locid="88888230">Roshior Dragoon</string>
+      <string _locid="88888231">Elite Romanian dragoons. Visible in the Stable from the start, but only trainable from Age IV onward.</string>
+      <string _locid="88888232">Roshior Dragoon</string>
+      <string _locid="88888240">Seimen</string>
+      <string _locid="88888250">Vânător</string>
+      <string _locid="88888260">Seimen Veteran</string>
+      <string _locid="88888261">Seimen Guard</string>
+      <string _locid="88888262">Seimen Imperial</string>
+      <string _locid="88888270">Vânător Veteran</string>
+      <string _locid="88888271">Vânător Guard</string>
+      <string _locid="88888272">Vânător Imperial</string>
+      <string _locid="88888280">Dorobant Veteran</string>
+      <string _locid="88888281">Dorobant Guard</string>
+      <string _locid="88888282">Dorobant Imperial</string>
+      <string _locid="88888290">Calaras</string>
+      <!-- Italian Dutch fix (ITD): own settlers/explorers -->
+      <string _locid="88887240">Dutch Settler</string>
+      <string _locid="88887241">Dutch Settler. Costs 100 gold and has a build limit of 35.</string>
+      <string _locid="88887242">Dutch Settler</string>
+      <string _locid="88887250">Italian Settler</string>
+      <string _locid="88887251">Italian Settler. Costs 100 food and has a build limit of 35.</string>
+      <string _locid="88887252">Italian Settler</string>
+      <string _locid="88887260">Dutch Explorer</string>
+      <string _locid="88887261">Dutch Explorer.</string>
+      <string _locid="88887262">Dutch Explorer</string>
+      <string _locid="88887270">Italian Explorer</string>
+      <string _locid="88887271">Italian Explorer.</string>
+      <string _locid="88887272">Italian Explorer</string>
+      <!-- Knights Hospitaller (HOS), Malta clone -->
+      <string _locid="88889001">Knights Hospitaller</string>
+      <string _locid="88889002">Knights Hospitaller</string>
+      <string _locid="88889003">Valletta</string>
+      <string _locid="88889004">Morgan Black</string>
+      <string _locid="88889005">Morgan Black</string>
+      <string _locid="88889210">Rodelero</string>
+      <string _locid="88889211">Heavy infantry with sword and shield. Strong in melee against infantry.</string>
+      <string _locid="88889212">Rodelero</string>
+      <string _locid="88889220">Highlander</string>
+      <string _locid="88889221">Scottish mercenary with a claymore. High melee damage, costs only gold.</string>
+      <string _locid="88889222">Highlander</string>
+      <string _locid="88889230">Conquistador</string>
+      <string _locid="88889231">Light pistol cavalry. Effective against infantry.</string>
+      <string _locid="88889232">Conquistador</string>
+      <!-- Barbary States (BAR), Ottoman clone -->
+      <string _locid="888810001">Barbary States</string>
+      <string _locid="888810002">Barbary States</string>
+      <string _locid="888810003">Algiers</string>
+      <string _locid="888810004">Corsair Captain</string>
+      <string _locid="888810005">Corsair Captain</string>
+      <string _locid="888810220">Maghrebi Rider</string>
+      <string _locid="888810221">Maghrebi light cavalry. Fast and versatile.</string>
+      <string _locid="888810222">Maghrebi Rider</string>
+      <string _locid="888810230">Makhzen Rider</string>
+      <string _locid="888810231">Makhzen light cavalry archer. Effective against heavy cavalry and artillery.</string>
+      <string _locid="888810232">Makhzen Rider</string>
+      <!-- Colombia (COL), Spanish clone -->
+      <string _locid="888811220">Lancer</string>
+      <string _locid="888811221">Informal mounted lancer. Good against infantry.</string>
+      <string _locid="888811222">Lancer</string>
+      <string _locid="888811260">Veteran Independent Guard</string>
+      <string _locid="888811261">Guard Independent Guard</string>
+      <string _locid="888811262">Imperial Independent Guard</string>
+      <!-- Chile (CHL), Spanish clone -->
+      <string _locid="888812210">Mexican Soldier</string>
+      <string _locid="888812211">Irregular musket infantry.</string>
+      <string _locid="888812212">Mexican Soldier</string>
+      <string _locid="888812230">Mounted Hunter</string>
+      <string _locid="888812231">Chilean dragoon. Available from Age II at 80% of its stats; reaches full strength in Age IV. Extra bonus against heavy cavalry.</string>
+      <string _locid="888812232">Mounted Hunter</string>
+      <!-- Napoleonic France (FRA), French clone -->
+      <string _locid="888813210">Mounted Rifleman</string>
+      <string _locid="888813211">Rifleman cavalry. Not a mercenary: trains directly at the Stable.</string>
+      <string _locid="888813212">Mounted Rifleman</string>
+      <!-- Dutch East Indies (IOR), Portuguese clone -->
+      <string _locid="888814001">Dutch East Indies</string>
+      <string _locid="888814002">Dutch East Indies</string>
+      <string _locid="888814210">Jawa</string>
+      <string _locid="888814211">Irregular Javanese infantry. Costs food and coin.</string>
+      <string _locid="888814212">Jawa</string>
+      <string _locid="888814220">Berkuda</string>
+      <string _locid="888814221">Irregular cavalry. Costs food and coin.</string>
+      <string _locid="888814222">Berkuda</string>
+      <string _locid="888814230">Pemanah Kuda</string>
+      <string _locid="888814231">Irregular horse archer. Costs food and coin.</string>
+      <string _locid="888814232">Pemanah Kuda</string>
+      <string _locid="888814240">Prajurit Kraton</string>
+      <string _locid="888814241">Native warrior with a throwing chakram.</string>
+      <string _locid="888814242">Prajurit Kraton</string>
+      <!-- Cambio división de mod: textos de los clones ROUHajduk/ROUCrabat y sus mejoras -->
+      <string _locid="88888300">Hajduk</string>
+      <string _locid="88888301">Hungarian infantry with a strong melee charge and bonus damage against skirmishers and heavy infantry. Does not gain rank promotions.</string>
+      <string _locid="88888302">Shock skirmisher infantry</string>
+      <string _locid="88888303">Crabat</string>
+      <string _locid="88888304">Croatian cavalry: ranged attack strong vs cavalry (x3) and artillery (x2); melee strong vs infantry (x3).</string>
+      <string _locid="88888305">Anti-cavalry / anti-infantry cavalry</string>
+      <string _locid="88888306">Veteran Hajduk</string>
+      <string _locid="88888307">Guard Hajduk</string>
+      <string _locid="88888308">Imperial Hajduk</string>
+      <string _locid="88888309">Upgrades Hajduks to Veteran (+20% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88888310">Upgrades Hajduks to Guard (+20% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88888311">Upgrades Hajduks to Imperial (+50% hitpoints and attack, +0.10 speed).</string>
+    </language>
+  </stringtable>
+</stringmods>

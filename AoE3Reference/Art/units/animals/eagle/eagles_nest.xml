@@ -1,0 +1,4 @@
+<animfile>
+  <component>test<assetreference type="GrannyModel"><file>units\animals\eagle\tree_eagle_chics</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\eagle\tree_eagle_chics_idle</file></assetreference><component>test</component></anim>
+</animfile>

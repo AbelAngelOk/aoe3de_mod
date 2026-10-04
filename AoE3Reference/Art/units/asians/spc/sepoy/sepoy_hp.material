@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\spc\sepoy\textures\sepoy_hp_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\sepoy\textures\sepoy_hp_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\sepoy\textures\sepoy_hp_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

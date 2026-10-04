@@ -1114,6 +1114,20 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCMercsGallowglasses</name>
+      <maxcount>1</maxcount>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCMercsCranequiniers</name>
+      <maxcount>1</maxcount>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCMercsSwissPikemen</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1211,6 +1225,22 @@
       <age>2</age>
     </card>
     <card>
+      <name>DEHCShipWhalingShips</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCHireWhalingCrew1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
       <name>HCPrivateers</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1276,7 +1306,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <infiniteinlastage>1</infiniteinlastage>
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
@@ -1286,6 +1315,23 @@
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCStuartAllies1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCStuartAllies2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>24</displayunitcount>
     </card>
     <card>
       <name>HCREVShipGatlingGuns</name>
@@ -1348,10 +1394,10 @@
     </card>
     <card>
       <name>DEHCREVHighlanders</name>
-      <maxcount>-1</maxcount>
+      <maxcount>2</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <displayunitcount>14</displayunitcount>
       <revoltcard>
       </revoltcard>
@@ -1457,13 +1503,23 @@
     </card>
     <card>
       <name>DEHCCanadianLoyalists</name>
-      <maxcount>-1</maxcount>
+      <maxcount>2</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>10</displayunitcount>
       <revoltcard>
       </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVNovaScotia</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+      <displayunitcount>20</displayunitcount>
     </card>
     <card>
       <name>DEHCREVNativeAlliesCanada</name>
@@ -2347,6 +2403,7 @@
         <card>DEHCREVSpiceTrade</card>
         <card>HCWildernessWarfare</card>
         <card>DEHCREVFencibles</card>
+        <card>DEHCREVNovaScotia</card>
         <card>DEHCREVShipGrizzlies</card>
         <card>DEHCREVShipElk</card>
         <card>DEHCREVBuffaloHunt</card>
@@ -2867,6 +2924,8 @@
       <tech x="3.4" y="5.0">DEHCBourbonAllies1</tech>
       <tech x="3.4" y="7.0">HCXPHuronAlliesRepeat</tech>
       <tech x="4.4" y="3.0">DEHCMercsIrishBrigadiers</tech>
+      <tech x="4.4" y="3.0">DEHCMercsGallowglasses</tech>
+      <tech x="4.4" y="3.0">DEHCMercsCranequiniers</tech>
       <tech x="4.4" y="3.0">HCMercsSwissPikemen</tech>
       <tech x="4.4" y="4.0">DEHCMercsArmoredPistoleers</tech>
       <tech x="4.4" y="4.0">DEHCMercsGiantGrenadiers</tech>
@@ -2878,6 +2937,10 @@
       <tech x="4.4" y="5.0">HCMercsHolyRoman</tech>
       <tech x="5.1" y="5.0">HCMercsMediterranean</tech>
       <tech x="5.8" y="5.0">HCMercenaryLoyalty</tech>
+      <tech x="6.5" y="1.0">DEHCStuartAllies1</tech>
+      <tech x="6.5" y="1.0">DEHCStuartAllies2</tech>
+      <tech x="6.5" y="1.0">DEHCShipWhalingShips</tech>
+      <tech x="6.5" y="1.0">DEHCHireWhalingCrew1</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
       <tech x="6.5" y="3.0">HCPrivateers2</tech>
       <tech x="6.5" y="5.0">HCXPMercsGreatCannon</tech>
@@ -2901,6 +2964,8 @@
       <tech x="3.4" y="5.0">DEHCBourbonAllies1</tech>
       <tech x="3.4" y="7.0">HCXPHuronAlliesRepeat</tech>
       <tech x="4.4" y="3.0">DEHCMercsIrishBrigadiers</tech>
+      <tech x="4.4" y="3.0">DEHCMercsGallowglasses</tech>
+      <tech x="4.4" y="3.0">DEHCMercsCranequiniers</tech>
       <tech x="4.4" y="3.0">HCMercsSwissPikemen</tech>
       <tech x="4.4" y="4.0">DEHCMercsArmoredPistoleers</tech>
       <tech x="4.4" y="4.0">DEHCMercsGiantGrenadiers</tech>
@@ -2912,6 +2977,10 @@
       <tech x="4.4" y="5.0">HCMercsHolyRoman</tech>
       <tech x="5.1" y="5.0">HCMercsMediterranean</tech>
       <tech x="5.8" y="5.0">HCMercenaryLoyalty</tech>
+      <tech x="6.5" y="1.0">DEHCStuartAllies1</tech>
+      <tech x="6.5" y="1.0">DEHCStuartAllies2</tech>
+      <tech x="6.5" y="1.0">DEHCShipWhalingShips</tech>
+      <tech x="6.5" y="1.0">DEHCHireWhalingCrew1</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
       <tech x="6.5" y="3.0">HCPrivateers2</tech>
       <tech x="6.5" y="5.0">HCXPMercsGreatCannon</tech>

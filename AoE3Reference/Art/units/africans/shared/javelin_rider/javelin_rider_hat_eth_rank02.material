@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\africans\shared\javelin_rider\textures\javelin_rider_hat_eth_rank02_matA_basecolor">
+      </texture>
+      <texture name="Normals" override="units\africans\shared\javelin_rider\textures\javelin_rider_hat_eth_rank02_matA_normals">
+      </texture>
+      <texture name="Masks" override="units\africans\shared\javelin_rider\textures\javelin_rider_hat_eth_rank02_matA_masks">
+      </texture>
+      <texture name="Details" override="units\africans\shared\javelin_rider\textures\javelin_rider_hat_eth_rank02_matA_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

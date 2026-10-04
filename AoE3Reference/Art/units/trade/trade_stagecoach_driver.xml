@@ -1,0 +1,6 @@
+<animfile>
+  <component>trade_stagecoach_driver<logic type="LowPoly"><normal><assetreference type="GrannyModel"><file>units\trade\trade_stagecoach_driver</file></assetreference></normal><lowpoly><assetreference type="GrannyModel"><file>units\trade\lp_trade_stagecoach_driver</file></assetreference></lowpoly></logic></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\trade\trade_stagecoach_driver_idle</file></assetreference><component>trade_stagecoach_driver</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\trade\trade_stagecoach_driver_idle</file></assetreference><component>trade_stagecoach_driver</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\trade\trade_stagecoach_driver_walk</file></assetreference><component>trade_stagecoach_driver</component></anim>
+</animfile>

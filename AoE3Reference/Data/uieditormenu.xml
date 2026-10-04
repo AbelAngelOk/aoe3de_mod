@@ -1,19 +1,23 @@
 <layout>
-  <gadget name="EditorMenu" type="menu" size1024="0 0 1024 20" bevel="" textfont="Arial nobold nodrop" textfontsize="12" background="ui\editor\editor_background" tilebackground="" buttonsize1024="90 19">
+  <gadget name="EditorMenu" type="menu" size1024="0 0 1024 20" bevel="" textfont="Arial nobold nodrop" textfontsize="12" background="ui\editor\background\editor_background" tilebackground="" buttonsize1024="90 19">
     <submenu title="$$20252$$File" accelerator="F">
       <submenu title="$$20105$$New" accelerator="N">gadgetReal("NewScenarioGadget")</submenu>
       <submenu title="$$42170$$Load Scenario" accelerator="L">uiScenarioLoad</submenu>
       <submenu title="" separator="">
       </submenu>
-      <submenu title="$$19012$$Save" accelerator="S">uiSaveScenarioBrowser</submenu>
-      <submenu title="$$20253$$Save As" accelerator="A">uiSaveAsScenarioBrowser</submenu>
+      <submenu title="$$19012$$Save" accelerator="S">uiSaveScenarioPrompt</submenu>
+      <submenu title="$$20253$$Save As" accelerator="A">uiSaveScenarioPrompt(true)</submenu>
       <submenu title="" separator="">
       </submenu>
+      <submenu title="$$19114$$Game Settings" accelerator="O">modeEnter("Options")</submenu>
       <submenu title="$$20255$$Screenshot" accelerator="c">gadgetReal("ScreenshotDialog")</submenu>
       <submenu title="" separator="">
       </submenu>
       <submenu title="$$20259$$Return to Main Menu" accelerator="R">clearTradeRouteLines leaveGame</submenu>
       <submenu title="$$18449$$Exit to Windows" accelerator="E">exit</submenu>
+      <submenu title="" separator="">
+      </submenu>
+      <submenu title="0 ~testing">loadScenario("~testing")</submenu>
     </submenu>
     <submenu title="$$18575$$Edit" accelerator="E">
       <submenu title="$$20260$$Undo" accelerator="U">undo</submenu>
@@ -46,6 +50,7 @@
       <submenu title="$$20273$$Map Size..." accelerator="S">gadgetReal("MapSizeDialog")</submenu>
       <submenu title="$$20274$$Map Elevation..." accelerator="E">gadgetReal("MapElevationGadget")</submenu>
       <submenu title="$$28209$$Map types..." accelerator="T">gadgetReal("MapTypeDialog")</submenu>
+      <submenu title="$$56067$$Distance Checker" accelerator="D">gadgetReal("DistanceCheckerGadget")</submenu>
     </submenu>
     <submenu title="$$20275$$Terrain" accelerator="T">
       <submenu title="$$18829$$Paint Terrain" accelerator="P">editMode("Paint")</submenu>
@@ -64,15 +69,13 @@
       <submenu title="$$20280$$Brush Settings" accelerator="B">gadgetReal("BrushSettingsDialog")</submenu>
     </submenu>
     <submenu title="$$20281$$Objects" accelerator="O">
-      <submenu title="$$20282$$Place Object..." accelerator="P">editMode("PlaceUnit")</submenu>
+      <submenu title="$$20282$$Place Object..." accelerator="P">editMode("PlaceUnitSelect")</submenu>
       <submenu title="$$20283$$Position Object" accelerator="O">editMode("moveunit")</submenu>
       <submenu title="$$20284$$Delete Objects" accelerator="D">editMode("deleteunits")</submenu>
+      <submenu title="$$56064$$Convert Object" accelerator="C">editMode("convertunits")</submenu>
       <submenu title="$$20285$$Object Info" accelerator="I">gadgetReal("ObjectInfoPanel")</submenu>
+      <submenu title="Animation Viewer" accelerator="A">gadgetReal("AnimationEditorGadget")</submenu>
       <submenu title="$$33064$$Replace Unit" accelerator="R">gadgetReal("UnitRepDlg")</submenu>
-      <submenu title="" separator="">
-      </submenu>
-      <submenu title="$$37031$$Place Wall" accelerator="W">editMode("PlaceWall") uiSetProtoCursor("WallConnector", true)</submenu>
-      <submenu title="$$21581$$Convert to Gate" accelerator="G">uiTransformSelectedUnit("CWallGate")</submenu>
       <submenu title="" separator="">
       </submenu>
       <submenu title="$$26355$$Place Trade Route" accelerator="T">gadgetReal("TradeRouteDlg")</submenu>
@@ -93,6 +96,7 @@
       <submenu title="$$20287$$Triggers" accelerator="T">editMode("Triggers")</submenu>
       <submenu title="$$20288$$Group Editor" accelerator="I">editMode("TrigGroups")</submenu>
       <submenu title="$$20289$$Army Editor" accelerator="A">gadgetReal("ATriggerArmyGadget")</submenu>
+      <submenu title="$$56062$$XS Scripts" accelerator="X">gadgetReal("ScriptManager")</submenu>
     </submenu>
     <submenu title="$$20290$$Cinematics" accelerator="n">
       <submenu title="$$20291$$Camera Editor" accelerator="a">editMode("CameraTracks")</submenu>
@@ -103,9 +107,7 @@
       </submenu>
       <submenu title="" separator="">
       </submenu>
-      <submenu title="$$32668$$Set Camera Start Location">uiSetCameraStartLoc()</submenu>
-      <submenu title="$$32669$$Show Camera Start Location">uiShowCameraStartLoc()</submenu>
-      <submenu title="$$32699$$Delete Camera Start Location">uiDeleteCameraStartLoc()</submenu>
+      <submenu title="$$56084$$Camera Start Settings">gadgetReal("CameraStartDialog")</submenu>
       <submenu title="" separator="">
       </submenu>
       <submenu title="$$20295$$Terrain Grid" configindex="terrainGrid" accelerator="T">
@@ -139,147 +141,148 @@
       <submenu title="Reload MP Scenario Header">reloadMPScenarioFileHeader()</submenu>
     </submenu>
   </gadget>
-  <gadget name="ToolBar" type="menu" size1024="0 20 1024 45" background="ui\editor\editor_background">
-    <gadget name="FileFunctions" type="gadget" background="" size1024="5 23 75 43">
+  <gadget name="ToolBar" type="menu" size1024="0 20 1024 45" background="ui\editor\background\editor_background">
+    <gadget name="FileFunctions" type="gadget" background="" size1024="5 23 71 43">
       <gadget name="NewButton" type="button" tooltiptext="$$20105$$New" foreground="ui\editor\new" size1024="5 23 25 43">
         <command>gadgetReal("NewScenarioGadget")</command>
       </gadget>
-      <gadget name="LoadButton" type="button" tooltiptext="$$18441$$Load" foreground="ui\editor\load" size1024="30 23 50 43">
+      <gadget name="LoadButton" type="button" tooltiptext="$$18441$$Load" foreground="ui\editor\load" size1024="28 23 48 43">
         <command>uiScenarioLoad</command>
       </gadget>
-      <gadget name="SaveButton" type="button" tooltiptext="$$18442$$Save" foreground="ui\editor\save" size1024="55 23 75 43">
-        <command>uiSaveScenarioBrowser</command>
+      <gadget name="SaveButton" type="button" tooltiptext="$$18442$$Save" foreground="ui\editor\save" size1024="51 23 71 43">
+        <command>uiSaveScenarioPrompt</command>
       </gadget>
     </gadget>
-    <gadget name="EditFunctions" type="gadget" background="" size1024="90 23 135 43">
-      <gadget name="UndoButton" type="button" tooltiptext="$$20260$$Undo" foreground="ui\editor\undo" size1024="90 23 110 43">
+    <gadget name="EditFunctions" type="gadget" background="" size1024="78 23 121 43">
+      <gadget name="UndoButton" type="button" tooltiptext="$$20260$$Undo" foreground="ui\editor\undo" size1024="78 23 98 43">
         <command>undo</command>
       </gadget>
-      <gadget name="RedoButton" type="button" tooltiptext="$$20261$$Redo" foreground="ui\editor\redo" size1024="115 23 135 43">
+      <gadget name="RedoButton" type="button" tooltiptext="$$20261$$Redo" foreground="ui\editor\redo" size1024="101 23 121 43">
         <command>redo</command>
       </gadget>
     </gadget>
-    <gadget name="CopyPaste" type="gadget" background="" size1024="150 23 195 43">
-      <gadget name="CopyButton" type="button" tooltiptext="$$20264$$Terrain Copy" foreground="ui\editor\copy" size1024="150 23 170 43">
+    <gadget name="CopyPaste" type="gadget" background="" size1024="128 23 171 43">
+      <gadget name="CopyButton" type="button" tooltiptext="$$20264$$Terrain Copy" foreground="ui\editor\copy" size1024="128 23 148 43">
         <command>editMode("copy")</command>
       </gadget>
-      <gadget name="PasteButton" type="button" tooltiptext="$$20265$$Terrain Paste" foreground="ui\editor\paste" size1024="175 23 195 43">
+      <gadget name="PasteButton" type="button" tooltiptext="$$20265$$Terrain Paste" foreground="ui\editor\paste" size1024="151 23 171 43">
         <command>editMode("TerrainPaste")</command>
       </gadget>
     </gadget>
-    <gadget name="BrushandElevation" type="gadget" background="" size1024="210 23 355 43">
-      <gadget name="BrushSettingsButton" type="button" tooltiptext="$$20280$$Brush Settings" foreground="ui\editor\brushsettings" size1024="210 23 230 43">
+    <gadget name="BrushandElevation" type="gadget" background="" size1024="179 23 314 43">
+      <gadget name="BrushSettingsButton" type="button" tooltiptext="$$20280$$Brush Settings" foreground="ui\editor\brushsettings" size1024="179 23 199 43">
         <command>gadgetReal("BrushSettingsDialog")</command>
       </gadget>
-      <gadget name="RaiseLowerButton" type="button" tooltiptext="$$20304$$Raise/Lower Terrain" foreground="ui\editor\raiseLowerTerrain" size1024="235 23 255 43">
+      <gadget name="RaiseLowerButton" type="button" tooltiptext="$$20304$$Raise/Lower Terrain" foreground="ui\editor\raiseLowerTerrain" size1024="202 23 222 43">
         <command>editMode("elevation")</command>
       </gadget>
-      <gadget name="SampleTerrainButton" type="button" tooltiptext="$$20305$$Sample Terrain" foreground="ui\editor\sampleterrain" size1024="260 23 280 43">
+      <gadget name="SampleTerrainButton" type="button" tooltiptext="$$20305$$Sample Terrain" foreground="ui\editor\sampleterrain" size1024="225 23 245 43">
         <command>editMode("paintsample")</command>
       </gadget>
-      <gadget name="SampleElevationButton" type="button" tooltiptext="$$20306$$Sample Elevation" foreground="ui\editor\sampleelevation" size1024="285 23 305 43">
+      <gadget name="SampleElevationButton" type="button" tooltiptext="$$20306$$Sample Elevation" foreground="ui\editor\sampleelevation" size1024="248 23 268 43">
         <command>editMode("elevationsample")</command>
       </gadget>
-      <gadget name="SmoothButton" type="button" tooltiptext="$$20307$$Smooth" foreground="ui\editor\smooth" size1024="310 23 330 43">
+      <gadget name="SmoothButton" type="button" tooltiptext="$$20307$$Smooth" foreground="ui\editor\smooth" size1024="271 23 291 43">
         <command>editMode("smooth")</command>
       </gadget>
-      <gadget name="RoughenButton" type="button" tooltiptext="$$20308$$Roughen" foreground="ui\editor\roughen" size1024="335 23 355 43">
+      <gadget name="RoughenButton" type="button" tooltiptext="$$20308$$Roughen" foreground="ui\editor\roughen" size1024="294 23 314 43">
         <command>editMode("roughen")</command>
       </gadget>
     </gadget>
-    <gadget name="Tools" type="gadget" background="" size1024="370 23 655 43">
-      <gadget name="FreePaintButton" type="button" tooltiptext="$$20309$$Free Paint" foreground="ui\editor\paintterrain" size1024="370 23 390 43">
+    <gadget name="Tools" type="gadget" background="" size1024="322 23 605 43">
+      <gadget name="FreePaintButton" type="button" tooltiptext="$$20309$$Free Paint" foreground="ui\editor\paintterrain" size1024="322 23 342 43">
         <command>editMode("Paint")</command>
       </gadget>
-      <gadget name="MixButton" type="button" tooltiptext="$$28144$$Mixes" foreground="ui\editor\paintmix" size1024="395 23 415 43">
+      <gadget name="MixButton" type="button" tooltiptext="$$28144$$Mixes" foreground="ui\editor\paintmix" size1024="345 23 365 43">
         <command>editMode("paintmix")</command>
       </gadget>
-      <gadget name="LandButton" type="button" tooltiptext="$$20310$$Land" foreground="ui\editor\mountain" size1024="420 23 440 43">
+      <gadget name="LandButton" type="button" tooltiptext="$$20310$$Land" foreground="ui\editor\mountain" size1024="368 23 388 43">
         <command>editMode("PaintLand")</command>
       </gadget>
-      <gadget name="RiverButton" type="button" tooltiptext="$$24834$$River Tool" foreground="ui\editor\river" size1024="445 23 465 43">
+      <gadget name="RiverButton" type="button" tooltiptext="$$24834$$River Tool" foreground="ui\editor\river" size1024="396 23 416 43">
         <command>editMode("createRiver")</command>
       </gadget>
-      <gadget name="ShallowButton" type="button" tooltiptext="$$33804$$Shallow Tool" foreground="ui\editor\rivershallow" size1024="467 23 487 43">
+      <gadget name="ShallowButton" type="button" tooltiptext="$$33804$$Shallow Tool" foreground="ui\editor\rivershallow" size1024="419 23 439 43">
         <command>editMode("createRiverShallow")</command>
       </gadget>
-      <gadget name="OceanButton" type="button" tooltiptext="$$20311$$Paint Water" foreground="ui\editor\river" size1024="489 23 509 43">
+      <gadget name="OceanButton" type="button" tooltiptext="$$20311$$Paint Water" foreground="ui\editor\river" size1024="442 23 462 43">
         <command>editMode("paintWater")</command>
       </gadget>
-      <gadget name="EditWaterButton" type="button" tooltiptext="$$20312$$Edit Water" foreground="ui\editor\water" size1024="511 23 531 43">
+      <gadget name="EditWaterButton" type="button" tooltiptext="$$20312$$Edit Water" foreground="ui\editor\water" size1024="465 23 485 43">
         <command>editMode("editWater")</command>
       </gadget>
-      <gadget name="EditRiverButton" type="button" tooltiptext="$$70606$$Edit River Flow Tool" foreground="ui\editor\riveredit" size1024="533 23 553 43">
+      <gadget name="EditRiverButton" type="button" tooltiptext="$$70606$$Edit River Flow Tool" foreground="ui\editor\riveredit" size1024="488 23 508 43">
         <command>editMode("editRiver")</command>
       </gadget>
-      <gadget name="CliffButton" type="button" tooltiptext="$$20313$$Canyon and Cliff" foreground="ui\editor\cliff" size1024="555 23 575 43">
+      <gadget name="CliffButton" type="button" tooltiptext="$$20313$$Canyon and Cliff" foreground="ui\editor\cliff" size1024="516 23 536 43">
         <command>editMode("paintCliff")</command>
       </gadget>
-      <gadget name="EditCliffButton" type="button" tooltiptext="$$23990$$Edit Cliff Tool" foreground="ui\editor\cliffedit" size1024="580 23 600 43">
+      <gadget name="EditCliffButton" type="button" tooltiptext="$$23990$$Edit Cliff Tool" foreground="ui\editor\cliffedit" size1024="539 23 559 43">
         <command>editMode("editCliff")</command>
       </gadget>
-      <gadget name="ForestButton" type="button" tooltiptext="$$20314$$Forest" foreground="ui\editor\forest" size1024="610 23 630 43">
+      <gadget name="ForestButton" type="button" tooltiptext="$$20314$$Forest" foreground="ui\editor\forest" size1024="562 23 582 43">
         <command>editMode("paintforest")</command>
       </gadget>
-      <gadget name="EditForestButton" type="button" tooltiptext="$$23988$$Edit Forest Tool" size1024="635 23 655 43" z="11" foreground="ui\editor\forest">
+      <gadget name="EditForestButton" type="button" tooltiptext="$$23988$$Edit Forest Tool" size1024="585 23 605 43" z="11" foreground="ui\editor\forest">
         <command>editMode("editforest")</command>
       </gadget>
     </gadget>
-    <gadget name="UnitFunctions" type="gadget" size1024="670 23 740 43" background="">
-      <gadget name="PlaceUnitButton" type="button" tooltiptext="$$20282$$Place Object" foreground="ui\editor\placeunit" size1024="670 23 690 43">
-        <command>editMode("PlaceUnit")</command>
+    <gadget name="UnitFunctions" type="gadget" size1024="613 23 679 43" background="">
+      <gadget name="PlaceUnitButton" type="button" tooltiptext="$$20282$$Place Object" foreground="ui\editor\placeunit" size1024="613 23 633 43">
+        <command>editMode("PlaceUnitSelect")</command>
       </gadget>
-      <gadget name="MoveUnitButton" type="button" tooltiptext="$$20315$$Move Object" foreground="ui\editor\MoveUnit" size1024="695 23 715 43">
+      <gadget name="MoveUnitButton" type="button" tooltiptext="$$20315$$Move Object" foreground="ui\editor\MoveUnit" size1024="636 23 656 43">
         <command>editMode("moveunit")</command>
       </gadget>
-      <gadget name="DeleteUnitButton" type="button" tooltiptext="$$20284$$Delete Object" foreground="ui\editor\deleteunit" size1024="720 23 740 43">
+      <gadget name="DeleteUnitButton" type="button" tooltiptext="$$20284$$Delete Object" foreground="ui\editor\deleteunit" size1024="659 23 679 43">
         <command>editMode("deleteunits")</command>
       </gadget>
     </gadget>
-    <gadget name="LightingFunctions" type="gadget" size1024="755 23 775 43" background="">
-      <gadget name="LightingButton" type="button" tooltiptext="$$20272$$Lighting" foreground="ui\editor\lighting" size1024="755 23 775 43">
+    <gadget name="LightingFunctions" type="gadget" size1024="687 23 707 43" background="">
+      <gadget name="LightingButton" type="button" tooltiptext="$$20272$$Lighting" foreground="ui\editor\lighting" size1024="687 23 707 43">
         <command>editMode("None") gadgetReal("WorldLightingDialog")</command>
       </gadget>
     </gadget>
-    <gadget name="TriggersCinematicsFunctions" type="gadget" background="" size1024="790 23 860 43">
-      <gadget name="TriggersButton" type="button" tooltiptext="$$20287$$Triggers" foreground="ui\editor\triggers" size1024="790 23 810 43">
+    <gadget name="TriggersCinematicsFunctions" type="gadget" background="" size1024="710 23 776 43">
+      <gadget name="TriggersButton" type="button" tooltiptext="$$20287$$Triggers" foreground="ui\editor\triggers" size1024="710 23 730 43">
         <command>editMode("Triggers")</command>
       </gadget>
-      <gadget name="CinematicsButton" type="button" tooltiptext="$$20290$$Cinematics" foreground="ui\editor\cinematics" size1024="815 23 835 43">
+      <gadget name="CinematicsButton" type="button" tooltiptext="$$20290$$Cinematics" foreground="ui\editor\cinematics" size1024="733 23 753 43">
         <command>editMode("CameraTracks")</command>
       </gadget>
-      <gadget name="LetterBoxBars" type="button" tooltiptext="$$20292$$Toggle Letterbox Bars" foreground="ui\editor\letterboxbars" size1024="840 23 860 43">
+      <gadget name="LetterBoxBars" type="button" tooltiptext="$$20292$$Toggle Letterbox Bars" foreground="ui\editor\letterboxbars" size1024="756 23 776 43">
         <command>gadgetToggle("Letterbox-topbar") gadgetToggle("Letterbox-bottombar")</command>
       </gadget>
     </gadget>
-    <gadget name="YpackFunctions" type="gadget" size1024="900 23 920 43" background="">
-      <gadget name="AsianFyButton" type="button" tooltiptext="$$63078$$Convert to Asia" foreground="ui\editor\asianfy" size1024="900 23 920 43">
-        <command>editorSetAllTradeRoutesToDef("water") editorSetTechStatus("YPEnableAsianNativeOutpost",true) editorUpdateUnitVisuals()</command>
-      </gadget>
-      <gadget name="UnAsianFyButton" type="button" tooltiptext="$$63079$$Unconvert Asia" foreground="ui\editor\un_asianfy" size1024="920 23 940 43">
-        <command>editorSetAllTradeRoutesToDef("dirt") editorSetTechStatus("YPEnableAsianNativeOutpost", false) editorUpdateUnitVisuals()</command>
-      </gadget>
+    <gadget name="ActivePlayerDropdown" type="textField" dropdowndistance="140" fieldnametextfont="Arial nobold nodrop" fieldnametextfontsize="12" fieldnametextcolor="255 255 255" textfont="Arial nobold nodrop" textfontsize="12" textcolor="255 255 255" size1024="788 23 938 43" background="ui\editor\background\background_dark">$$56031$$Active Player<dropdown></dropdown></gadget>
+    <gadget name="ActivePlayerIndicator" type="gadget" backgroundcolor="0 0 0 0" size1024="941 25 961 41">
+    </gadget>
+    <gadget name="PlaytestScenarioNOWButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" foreground="ui\editor\play" size1024="964 24 984 41">
+      <command>uiStartScenarioTest</command>
+    </gadget>
+    <gadget name="CameraStartButton" type="button" tooltiptext="$$56032$$View Camera Start Position" foreground="ui\editor\default_orientation" size1024="992 24 1012 41" hidden="">
+      <command>uiShowCameraStartLoc</command>
     </gadget>
   </gadget>
-  <gadget name="BrushFunctionsTerrain" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$18829$$Paint Terrain" hidden="" windowzstyle="">
+  <gadget name="BrushFunctionsTerrain" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$18829$$Paint Terrain" hidden="" windowzstyle="">
     <gadget name="BrushFunctionsTerrainName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="59 587 189 612">
     </gadget>
-    <gadget name="BrushFunctionsTerrainSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="96 622 160 688">
+    <gadget name="BrushFunctionsTerrainSwatch" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" size1024="96 622 160 688">
     </gadget>
     <gadget name="BrushFunctionsTerrainBrushMask" type="button" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="59 698 189 723">$$20316$$Paint Mask<command>gadgetToggle("BrushMaskDialog")</command></gadget>
   </gadget>
-  <gadget name="BrushFunctionsSampleTexture" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20305$$Sample Terrain" hidden="" windowzstyle="">
-    <gadget name="BrushFunctionsSampleSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="96 622 160 688">
+  <gadget name="BrushFunctionsSampleTexture" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$20305$$Sample Terrain" hidden="" windowzstyle="">
+    <gadget name="BrushFunctionsSampleSwatch" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" size1024="96 622 160 688">
     </gadget>
     <gadget name="BrushFunctionsSampleBrushMask" type="button" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="56 698 193 723">$$20316$$Paint Mask<command>gadgetToggle("BrushMaskDialog")</command></gadget>
   </gadget>
-  <gadget name="BrushFunctionsAdjustElevation" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20325$$Adjust Elevation" hidden="" windowzstyle="">
+  <gadget name="BrushFunctionsAdjustElevation" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$20325$$Adjust Elevation" hidden="" windowzstyle="">
     <gadget name="ElevationSlider" type="slider" configindex="brushTimeScale" size1024="10 632 244 662">
     </gadget>
     <gadget name="SliderTextSlow" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" textcentervert="" size1024="10 662 100 682">$$20317$$Slow</gadget>
     <gadget name="SliderTextFast" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" textcentervert="" size1024="215 662 244 682">$$20318$$Fast</gadget>
   </gadget>
-  <gadget name="BrushFunctionsDeleteObjects" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20284$$Delete Objects" hidden="" windowzstyle="">
+  <gadget name="BrushFunctionsDeleteObjects" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$20284$$Delete Objects" hidden="" windowzstyle="">
     <gadget name="Inclusions" type="gadget" size1024="2 588 254 772">
       <gadget name="IncludePlayer1" type="checkButton" textfont="Arial nobold nodrop" textcolor="0 0 0" textfontsize="12" size1024="3 598 117 618">$$19047$$Player 1</gadget>
       <gadget name="IncludePlayer2" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 618 117 638">$$19048$$Player 2</gadget>
@@ -293,14 +296,16 @@
     </gadget>
     <gadget name="IncludeText" type="textBox" textcolor="0 0 0" textcentervert="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="2 570 254 595">$$20320$$Include:</gadget>
   </gadget>
-  <gadget name="BrushFunctionsPlaceObject" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20326$$Place Objects" hidden="" windowzstyle="">
-    <gadget name="BrushFunctionsPlaceObjectPicture" type="meshButton" background="ui\editor\editor_background" sunkenbevel="" size1024="95 622 159 686">
+  <gadget name="BrushFunctionsPlaceObject" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$20326$$Place Objects" hidden="" windowzstyle="">
+    <gadget name="BrushFunctionsPlaceObjectPicture" type="meshButton" background="ui\editor\background\editor_background" sunkenbevel="" size1024="95 612 159 676">
     </gadget>
-    <gadget name="BrushFunctionsPlaceObjectName" type="textBox" textcenterhoriz="" textcentervert="" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="77 692 177 712">
+    <gadget name="BrushFunctionsPlaceObjectName" type="textBox" textcenterhoriz="" textcentervert="" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="77 682 177 702">
     </gadget>
-    <gadget name="BrushFunctionsPlacePlaceAsDropdown" type="textField" dropdowndistance="140" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="10 582 244 602">$$20345$$Place As:<dropdown command="player(0)">$$20319$$Gaia</dropdown><dropdown command="player(1)">$$19047$$Player 1</dropdown><dropdown command="player(2)">$$19048$$Player 2</dropdown><dropdown command="player(3)">$$19049$$Player 3</dropdown><dropdown command="player(4)">$$19050$$Player 4</dropdown><dropdown command="player(5)">$$19051$$Player 5</dropdown><dropdown command="player(6)">$$19052$$Player 6</dropdown><dropdown command="player(7)">$$19053$$Player 7</dropdown><dropdown command="player(8)">$$19054$$Player 8</dropdown></gadget>
+    <gadget name="BrushFunctionsPlacePlaceAsDropdown" type="textField" dropdowndistance="140" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="10 582 244 602">$$20345$$Place As:<dropdown command="player(0)">$$20319$$Gaia</dropdown><dropdown></dropdown></gadget>
+    <gadget name="BrushFunctionsPlacePlaceWallBtn" type="button" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="32 717 122 742" bevelbutton="">$$37031$$Place Wall<command>editMode("PlaceWall") uiSetProtoCursor("WallConnector", true)</command></gadget>
+    <gadget name="BrushFunctionsPlaceGateBtn" type="button" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="132 717 222 742" bevelbutton="">$$21581$$Convert to Gate<command>uiTransformSelectedUnit("CWallGate", false, -1, true)</command></gadget>
   </gadget>
-  <gadget name="BrushFunctionsPositionObject" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20327$$Position Objects" hidden="" windowzstyle="">
+  <gadget name="BrushFunctionsPositionObject" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$20327$$Position Objects" hidden="" windowzstyle="">
     <gadget name="RotateHorizontal" type="button" foreground="UI\ui_dark_gray" tooltiptext="Rotate Horizontally" bevelbutton="" size1024="90 612 122 644">
     </gadget>
     <gadget name="RotateVertical" type="button" foreground="UI\ui_dark_gray" tooltiptext="Rotate Vertically" bevelbutton="" size1024="132 612 164 644">
@@ -310,25 +315,40 @@
     <gadget name="RotateStyle2" type="button" foreground="UI\ui_dark_gray" tooltiptext="Rotate About Object Placement Axis" bevelbutton="" size1024="132 657 164 689">
     </gadget>
   </gadget>
-  <gadget resizevert="" resizehorz="" name="PaintWaterToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20328$$Water" hidden="" windowzstyle="">
+  <gadget name="BrushFunctionsConvertObjects" type="gadget" size1024="0 520 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$STR_EDT_CON_OBJ$$Convert Object" hidden="">
+    <gadget name="ConvertInclusions" type="gadget" size1024="2 588 254 772">
+      <gadget name="ConvertIncludePlayer1" type="checkButton" textfont="Arial nobold nodrop" textcolor="0 0 0" textfontsize="12" size1024="3 598 117 618">$$19047$$Player 1</gadget>
+      <gadget name="ConvertIncludePlayer2" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 618 117 638">$$19048$$Player 2</gadget>
+      <gadget name="ConvertIncludePlayer3" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 638 117 658">$$19049$$Player 3</gadget>
+      <gadget name="ConvertIncludePlayer4" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 658 117 678">$$19050$$Player 4</gadget>
+      <gadget name="ConvertIncludePlayer5" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 678 117 698">$$19051$$Player 5</gadget>
+      <gadget name="ConvertIncludePlayer6" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 698 117 718">$$19052$$Player 6</gadget>
+      <gadget name="ConvertIncludePlayer7" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 718 117 738">$$19053$$Player 7</gadget>
+      <gadget name="ConvertIncludePlayer8" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="3 738 117 758">$$19054$$Player 8</gadget>
+      <gadget name="ConvertIncludeGaia" type="checkButton" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" size1024="119 738 253 758">$$20319$$Gaia</gadget>
+    </gadget>
+    <gadget name="ConvertIncludeText" type="textBox" textcolor="0 0 0" textcentervert="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="2 570 254 595">$$56065$$From:</gadget>
+    <gadget name="BrushFunctionsConvertAsDropdown" type="textField" dropdowndistance="140" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="10 550 244 570">$$56066$$To:<dropdown></dropdown></gadget>
   </gadget>
-  <gadget name="BrushFunctionsWaterTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20276$$Water Tool" hidden="" windowzstyle="">
-    <gadget name="WaterSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 582 74 646">
+  <gadget resizevert="" resizehorz="" name="PaintWaterToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\background\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20328$$Water" hidden="" windowzstyle="">
+  </gadget>
+  <gadget name="BrushFunctionsWaterTool" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$20276$$Water Tool" hidden="" windowzstyle="">
+    <gadget name="WaterSwatch" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" size1024="10 582 74 646">
     </gadget>
     <gadget name="WaterName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="10 582 240 607">
     </gadget>
     <gadget name="WaterPaintArea" type="checkButton" configindex="waterPaintArea" size1024="80 612 240 632">$$20322$$Paint Area</gadget>
     <gadget name="WaterToolRadioButtonsText" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="5 668 55 680">$$20323$$Action:</gadget>
-    <gadget name="WaterToolRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="140 25" radiosetdefaultbuttonindex="0" size1024="55 662 250 722">
+    <gadget name="WaterToolRadioButtons" type="radioset" background="ui\editor\background\editor_background" radiosetbuttonsize1024="140 25" radiosetdefaultbuttonindex="0" size1024="55 662 250 722">
       <button>$$20237$$Default</button>
       <button>$$20329$$Do not change type</button>
       <button>$$20330$$Free texturing</button>
     </gadget>
   </gadget>
-  <gadget resizevert="" resizehorz="" name="RiverToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20328$$Water" hidden="" windowzstyle="">
+  <gadget resizevert="" resizehorz="" name="RiverToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\background\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20328$$Water" hidden="" windowzstyle="">
   </gadget>
-  <gadget name="BrushFunctionsRiverTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$24834$$River Tool" hidden="" windowzstyle="">
-    <gadget name="RiverSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 577 65 632">
+  <gadget name="BrushFunctionsRiverTool" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$24834$$River Tool" hidden="" windowzstyle="">
+    <gadget name="RiverSwatch" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" size1024="10 577 65 632">
     </gadget>
     <gadget name="RiverName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="5 637 65 662">
     </gadget>
@@ -336,7 +356,7 @@
     <gadget name="RiverCreateRiver" type="button" size1024="160 651 244 671" bevel="">$$24835$$Create<command>uiCreateRiver</command></gadget>
     <gadget name="RiverRandomWaypointBtn" type="button" size1024="160 603 244 623" bevel="">$$19269$$Random<command>uiCreateRandomRiver</command></gadget>
     <gadget name="RiverRemove" type="button" size1024="160 627 244 647" bevel="">$$33280$$Remove River<command>gadgetReal("RemoveRiverDlg")</command></gadget>
-    <gadget name="RiverWaypointList" type="list" size1024="70 576 155 673" z="10" sunkenbevel="" buttonsize1024="110 15" scrollvert="" alphasort="" background="ui\core_ui\background_blue_normal" textcolor="0 0 0" showselect="" selectedcolor="255 255 255">
+    <gadget name="RiverWaypointList" type="list" size1024="70 576 155 673" z="10" sunkenbevel="" buttonsize1024="110 15" scrollvert="" alphasort="" background="ui\editor\background\background_field" textcolor="0 0 0" showselect="" selectedcolor="255 255 255">
     </gadget>
     <gadget name="RiverWaypointRadiusSlider" type="slider" size1024="77 680 238 700" z="10" showvalue="" sliderbuttons="" configindex="RiverWaypointRadius" sliderminmax="2,10" sliderquantize="1">
     </gadget>
@@ -348,7 +368,7 @@
     <gadget name="RiverSlider2Label" type="gadget" size1024="4 706 72 726">$$24858$$Breaks</gadget>
     <gadget name="RiverSlider3Label" type="gadget" size1024="4 732 72 752">$$24859$$Offset</gadget>
   </gadget>
-  <gadget name="BrushFunctionsPaintTerrainDetails" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$79851$$Terrain Details" hidden="" windowzstyle="">
+  <gadget name="BrushFunctionsPaintTerrainDetails" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$79851$$Terrain Details" hidden="" windowzstyle="">
     <gadget name="RedLabel" type="textBox" textcolor="1 0 0" size1024="0 580 20 605">$$23559$$Red</gadget>
     <gadget name="Red" type="slider" size1024="20 580 250 605" z="10" showvalue="" sliderbuttons="" configindex="TerrainDetailPaintRed" sliderminmax="0,1" sliderquantize="0.01">
     </gadget>
@@ -367,43 +387,45 @@
     <gadget name="HardnessLabel" type="textBox" textcolor="0 0 1" size1024="120 710 250 730">$$79856$$Hardness</gadget>
     <gadget name="Hardness" type="slider" size1024="120 730 250 750" z="10" sliderbuttons="" configindex="TerrainDetailPaintHardness" sliderminmax="0,1" sliderquantize="0.01">
     </gadget>
-    <gadget name="PaintTerrainDetailsMode" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="140 25" radiosetdefaultbuttonindex="0" size1024="10 670 120 730">
+    <gadget name="PaintTerrainDetailsMode" type="radioset" background="ui\editor\background\editor_background" radiosetbuttonsize1024="140 25" radiosetdefaultbuttonindex="0" size1024="10 670 120 730">
       <button command="uiSetTerrainDetailPaintMode(0)">$$79852$$Paint Overlay</button>
       <button command="uiSetTerrainDetailPaintMode(1)">$$79853$$Paint Wetness</button>
       <button command="uiSetTerrainDetailPaintMode(2)">$$20307$$Smooth</button>
     </gadget>
   </gadget>
-  <gadget name="BrushFunctionsRiverShallowTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="Shallow Tool" hidden="" windowzstyle="">
+  <gadget name="BrushFunctionsRiverShallowTool" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="Shallow Tool" hidden="" windowzstyle="">
     <gadget name="RiverShallowRadiusSlider" type="slider" size1024="77 632 238 652" z="10" showvalue="" sliderbuttons="" configindex="RiverShallowRadius" sliderminmax="1,20" sliderquantize="1">
     </gadget>
     <gadget name="RiverShallowRadiusSliderLabel" type="gadget" size1024="4 632 72 652">$$33805$$Width</gadget>
     <gadget name="ShallowCreate" type="button" size1024="67 670 187 695" bevel="">$$33806$$Create Shallow</gadget>
   </gadget>
-  <gadget resizevert="" resizehorz="" name="MountainToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="90 60" palettetitlebottom="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20337$$Mountains" hidden="" windowzstyle="">
+  <gadget resizevert="" resizehorz="" name="MountainToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="90 60" palettetitlebottom="" bevel="" background="ui\editor\background\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20337$$Mountains" hidden="" windowzstyle="">
   </gadget>
-  <gadget name="BrushFunctionsMountainTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="Mountain Tool" hidden="">
-    <gadget name="MountainSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 582 74 646">
+  <gadget name="BrushFunctionsMountainTool" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="Mountain Tool" hidden="">
+    <gadget name="MountainSwatch" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" size1024="10 582 74 646">
     </gadget>
     <gadget name="MountainToolRadioButtonsText" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="5 668 55 680">$$20323$$Action:</gadget>
-    <gadget name="MountainToolRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="125 25" radiosetdefaultbuttonindex="0" size1024="55 662 250 722">
+    <gadget name="MountainToolRadioButtons" type="radioset" background="ui\editor\background\editor_background" radiosetbuttonsize1024="125 25" radiosetdefaultbuttonindex="0" size1024="55 662 250 722">
       <button>$$20237$$Default</button>
       <button>$$20329$$Do not change type</button>
       <button>$$20330$$Free texturing</button>
     </gadget>
   </gadget>
-  <gadget resizevert="" resizehorz="" name="CanyonToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20331$$Canyons" hidden="" windowzstyle="">
+  <gadget resizevert="" resizehorz="" name="CanyonToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\background\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20331$$Canyons" hidden="" windowzstyle="">
   </gadget>
-  <gadget name="BrushFunctionsEditCliffTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$23990$$Edit Cliff Tool" hidden="" windowzstyle="">
-    <gadget name="EditCliffSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="95 601 159 665">
+  <gadget name="BrushFunctionsEditCliffTool" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$23990$$Edit Cliff Tool" hidden="" windowzstyle="">
+    <gadget name="EditCliffName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="85 576 169 596">
+    </gadget>
+    <gadget name="EditCliffSwatch" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" size1024="95 601 159 665">
     </gadget>
     <gadget name="CliffUpdateBtn" type="button" bevelbutton="" size1024="77 675 177 700" z="11">$$30123$$Update Cliff</gadget>
     <gadget name="PaintTextures" type="checkButton" configindex="cliffPaintTextures" size1024="80 748 240 768">[LOCALE] Paint Textures</gadget>
     <gadget name="PaintTOBs" type="checkButton" configindex="cliffPaintTOBs" size1024="80 718 240 738">[LOCALE] Paint Props</gadget>
   </gadget>
-  <gadget resizevert="" resizehorz="" name="CliffToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20333$$Cliffs" hidden="" windowzstyle="">
+  <gadget resizevert="" resizehorz="" name="CliffToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\background\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20333$$Cliffs" hidden="" windowzstyle="">
   </gadget>
-  <gadget name="BrushFunctionsCliffTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20334$$Cliff Tool" hidden="">
-    <gadget name="CliffSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 582 74 646">
+  <gadget name="BrushFunctionsCliffTool" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$20334$$Cliff Tool" hidden="">
+    <gadget name="CliffSwatch" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" size1024="10 582 74 646">
     </gadget>
     <gadget name="CliffName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="10 582 240 607">
     </gadget>
@@ -412,17 +434,17 @@
     </gadget>
     <gadget name="Paint Textures" type="checkButton" configindex="cliffPaintTextures" size1024="80 748 240 768">[LOCALE] Paint Textures</gadget>
   </gadget>
-  <gadget name="BrushFunctionsGrassTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20334$$Grass Tool" hidden="">
+  <gadget name="BrushFunctionsGrassTool" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$20334$$Grass Tool" hidden="">
     <gadget name="GrassLengthText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="80 603 162 623" z="11">Grass Length</gadget>
     <gadget name="GrassLength" type="slider" size1024="80 624 246 644" z="10" showvalue="" configindex="grassLength" sliderminmax="0,1.5" sliderquantize="0.1">
     </gadget>
   </gadget>
-  <gadget resizevert="" resizehorz="" name="MixPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$28144$$Mixes" hidden="" windowzstyle="">
+  <gadget resizevert="" resizehorz="" name="MixPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\background\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$28144$$Mixes" hidden="" windowzstyle="">
   </gadget>
-  <gadget resizevert="" resizehorz="" name="ForestToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20335$$Forests" hidden="" windowzstyle="">
+  <gadget resizevert="" resizehorz="" name="ForestToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\background\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20335$$Forests" hidden="" windowzstyle="">
   </gadget>
-  <gadget name="BrushFunctionsForestTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20279$$Forest Tool" hidden="">
-    <gadget name="ForestSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 582 74 646">
+  <gadget name="BrushFunctionsForestTool" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$20279$$Forest Tool" hidden="">
+    <gadget name="ForestSwatch" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" size1024="10 582 74 646">
     </gadget>
     <gadget name="ForestName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="10 582 240 607">
     </gadget>
@@ -436,8 +458,8 @@
     <gadget name="ForestUnderbrush" type="slider" size1024="80 704 246 724" z="11" configindex="forestUnderbrush">
     </gadget>
   </gadget>
-  <gadget name="BrushFunctionsEditForestTool" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$23988$$Edit Forest Tool" hidden="">
-    <gadget name="ForestSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="10 582 74 646">
+  <gadget name="BrushFunctionsEditForestTool" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$23988$$Edit Forest Tool" hidden="">
+    <gadget name="ForestSwatch" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" size1024="10 582 74 646">
     </gadget>
     <gadget name="ForestDensityText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="81 633 163 653" z="11">Density:</gadget>
     <gadget name="ForestDensity" type="slider" size1024="81 654 247 674" z="11" configindex="forestDensity">
@@ -450,47 +472,48 @@
     </gadget>
     <gadget name="ForestBuildBtn" type="button" size1024="82 591 172 616" z="11">$$23989$$Build Forest<command>uiRebuildForest()</command></gadget>
   </gadget>
-  <gadget name="BrushFunctionsCopyPaste" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20336$$Copy &amp; Paste" hidden="" windowzstyle="">
+  <gadget name="BrushFunctionsCopyPaste" type="gadget" size1024="0 527 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$20336$$Copy &amp; Paste" hidden="" windowzstyle="">
+    <gadget name="BrushFunctionsCopyPastePlayerDropdown" type="textField" dropdowndistance="140" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="33 557 200 577">$$20345$$Place As:<dropdown command="player(0)">$$20319$$Gaia</dropdown><dropdown></dropdown></gadget>
     <gadget name="BrushFunctionsCopyPasteIncludeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="15 582 80 607">$$20320$$Include</gadget>
     <gadget name="BrushFunctionsCopyPasteHeight" type="checkButton" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="92 602 255 622">$$20338$$Elevation<command>uiToggleTerrainPasteMode(2)</command></gadget>
     <gadget name="BrushFunctionsCopyPasteTexture" type="checkButton" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="92 622 255 642">$$20339$$Textures<command>uiToggleTerrainPasteMode(1)</command></gadget>
     <gadget name="BrushFunctionsCopyPasteRotationText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="15 652 80 677">$$20340$$Rotation:</gadget>
-    <gadget name="BrushFunctionsCopyPasteRotation" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" radiosetdefaultbuttonindex="2" size1024="90 647 200 712">
+    <gadget name="BrushFunctionsCopyPasteRotation" type="radioset" background="ui\editor\background\editor_background" radiosetbuttonsize1024="100 25" radiosetdefaultbuttonindex="2" size1024="90 647 200 712">
       <button command="uiSetClipboardRotation(0)">$$20341$$0 Degrees</button>
       <button command="uiSetClipboardRotation(90)">$$20342$$90 Degrees</button>
       <button command="uiSetClipboardRotation(180)">$$20343$$180 Degrees</button>
       <button command="uiSetClipboardRotation(270)">$$20344$$270 Degrees</button>
     </gadget>
   </gadget>
-  <gadget resizevert="" resizehorz="" name="EditWaterToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20328$$Water" hidden="" windowzstyle="">
+  <gadget resizevert="" resizehorz="" name="EditWaterToolPalette" type="palette" size1024="256 550 800 768" palettecontentsize1024="40 40" paletteelemsize1024="200 60" palettetitleright="" bevel="" background="ui\editor\background\editor_background" tilebackground="" paletteusedropdown="" alphasort="" refreshonreal="" titlebar="$$20328$$Water" hidden="" windowzstyle="">
   </gadget>
-  <gadget name="BrushFunctionsEditWater" type="gadget" size1024="0 550 254 768" background="ui\editor\editor_background" bevel="" titlebar="$$20277$$Edit Water Tool" hidden="" windowzstyle="">
+  <gadget name="BrushFunctionsEditWater" type="gadget" size1024="0 550 254 768" background="ui\editor\background\editor_background" bevel="" titlebar="$$20277$$Edit Water Tool" hidden="" windowzstyle="">
     <gadget name="EditWaterName" type="gadget" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevel="" size1024="10 570 240 595">
     </gadget>
-    <gadget name="EditWaterSwatch" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="95 596 159 660">
+    <gadget name="EditWaterSwatch" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" size1024="95 596 159 660">
     </gadget>
     <gadget name="EditWaterUpdateButton" type="button" bevelbutton="" size1024="77 670 177 695" z="11">$$33339$$Update Water</gadget>
     <gadget name="EditWaterBeautifyButton" type="button" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" bevelbutton="" size1024="77 700 177 725">$$20324$$Beautify</gadget>
     <gadget name="EditWaterRemoveButton" type="button" bevelbutton="" size1024="77 730 177 755" z="11">$$33452$$Remove Water</gadget>
   </gadget>
-  <gadget name="NewScenarioDialog" type="gadget" size1024="332 284 700 552" background="ui\editor\editor_background" bevel="" titlebar="$$20346$$New Scenario" closebutton="" hidden="" windowzstyle="" moveable="">
+  <gadget name="NewScenarioDialog" type="gadget" size1024="332 284 700 552" background="ui\editor\background\editor_background" bevel="" titlebar="$$20346$$New Scenario" closebutton="" hidden="" windowzstyle="" moveable="">
     <gadget name="NewScenarioTypeDropdown" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="342 316 607 338">$$20347$$Type:<dropdown>Something Goes Here!</dropdown></gadget>
     <gadget name="NewScenarioSeedEntry" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="342 341 582 363">$$20348$$Seed:</gadget>
     <gadget name="NewScenarioSizeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="342 422 407 441">$$20349$$Size:</gadget>
-    <gadget name="NewScenarioSizeRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" size1024="409 421 529 441">
+    <gadget name="NewScenarioSizeRadioButtons" type="radioset" background="ui\editor\background\editor_background" radiosetbuttonsize1024="100 25" size1024="409 421 529 441">
       <button command="configSetInt(&quot;WorldSizeX&quot;,200) configSetInt(&quot;WorldSizeZ&quot;,200)">$$18853$$Normal</button>
       <button command="configSetInt(&quot;WorldSizeX&quot;,400) configSetInt(&quot;WorldSizeZ&quot;,400)">$$18847$$Large</button>
     </gadget>
     <gadget name="NewScenarioPlayersDropdown" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="342 366 607 388">$$20350$$Number of Players<dropdown>1</dropdown><dropdown>2</dropdown><dropdown>3</dropdown><dropdown>4</dropdown><dropdown>5</dropdown><dropdown>6</dropdown><dropdown>7</dropdown><dropdown>8</dropdown></gadget>
     <gadget name="NewScenarioTeamsDropdown" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="342 391 607 413">$$33766$$Number of Teams<dropdown>-1</dropdown><dropdown>1</dropdown><dropdown>2</dropdown><dropdown>3</dropdown><dropdown>4</dropdown><dropdown>5</dropdown><dropdown>6</dropdown><dropdown>7</dropdown><dropdown>8</dropdown></gadget>
-    <gadget name="NewScenarioSeparator" type="gadget" background="UI\editor\menu_separator" size1024="342 493 685 503">
+    <gadget name="NewScenarioSeparator" type="gadget" background="ui\editor\controls\menu_separator" size1024="342 493 685 503">
     </gadget>
     <gadget name="NewScenarioDefaultsButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="352 513 462 538">$$20351$$Restore Defaults</gadget>
     <gadget name="NewScenarioGenerateButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="525 513 595 538">$$20352$$Generate</gadget>
     <gadget name="NewScenarioStartUnderDebugger" type="checkButton" textfont="Arial Nodrop For SE" textcolor="0 0 0" textfontsize="12" size1024="507 461 662 481">$$20353$$Start under debugger</gadget>
     <gadget name="NewScenarioCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="605 513 675 538">$$18457$$Close<command>gadgetUnReal("NewScenarioGadget")</command></gadget>
   </gadget>
-  <gadget name="MapElevationDialog" type="gadget" size1024="337 200 700 410" background="ui\editor\editor_background" bevel="" titlebar="$$20274$$Map Elevation" closebutton="" hidden="" windowzstyle="" moveable="">
+  <gadget name="MapElevationDialog" type="gadget" size1024="337 200 700 410" background="ui\editor\background\editor_background" bevel="" titlebar="$$20274$$Map Elevation" closebutton="" hidden="" windowzstyle="" moveable="">
     <gadget name="MapElevationSpaceAvailable" type="textBox" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" size1024="347 232 537 252">$$20354$$Current Elevation State</gadget>
     <gadget name="MapElevationSpaceAvailableAboveLabel" type="textBox" textcolor="0 0 0" textfontsize="12" textfont="Arial nobold nodrop" size1024="357 262 427 282">$$20355$$Above:</gadget>
     <gadget name="MapElevationSpaceAvailableAbove" type="textBox" textcolor="0 0 0" textfontsize="12" textfont="Arial nobold nodrop" size1024="412 262 487 282">
@@ -502,42 +525,42 @@
     <gadget name="MapElevationDownButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="507 294 627 319">$$20358$$Move Map Down</gadget>
     <gadget name="MapElevationApplyButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="530 365 600 390">$$20359$$Apply</gadget>
     <gadget name="MapElevationCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="610 365 680 390">$$18457$$Close<command>gadgetUnReal("MapElevationGadget")</command></gadget>
-    <gadget name="MapElevationSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 342 690 352">
+    <gadget name="MapElevationSeparator" type="gadget" background="ui\editor\controls\menu_separator" size1024="347 342 690 352">
     </gadget>
     <gadget name="MapElevationResetButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="357 365 427 390">$$18480$$Reset</gadget>
   </gadget>
-  <gadget name="GroupingSettingsDialog" type="gadget" size1024="337 200 700 460" background="ui\editor\editor_background" bevel="" titlebar="$$26085$$Save Grouping" closebutton="" hidden="" windowzstyle="" moveable="">
+  <gadget name="GroupingSettingsDialog" type="gadget" size1024="337 200 700 460" background="ui\editor\background\editor_background" bevel="" titlebar="$$26085$$Save Grouping" closebutton="" hidden="" windowzstyle="" moveable="">
     <gadget name="GroupingSettingsTerrainTypeDropdown" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="347 241 687 264">$$25548$$Transparent Terrain<dropdown>Something Goes Here!</dropdown></gadget>
     <gadget name="GroupingSettingsUsePlacementRules" type="checkButton" size1024="347 275 678 297">$$26086$$Ignore Placement Rules</gadget>
     <gadget name="GroupingSettingsSelectAsSingleUnit" type="checkButton" size1024="348 307 679 327">$$26087$$Select As Single Unit</gadget>
     <gadget name="GroupingSettingsWorkOnAsSingleUnit" type="checkButton" size1024="348 339 679 359">$$72628$$Work On As Single Unit</gadget>
     <gadget name="GroupingSettingsSaveHeights" type="checkButton" size1024="348 371 679 391">$$30192$$Save heights/cliffs</gadget>
-    <gadget name="GroupingSettingsSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 402 690 412">
+    <gadget name="GroupingSettingsSeparator" type="gadget" background="ui\editor\controls\menu_separator" size1024="347 402 690 412">
     </gadget>
     <gadget name="GroupingSettingsDialog-OKButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="530 419 600 444">$$18465$$OK<command>gadgetUnReal("GroupingSettingsDialog") uiExportGrouping</command></gadget>
     <gadget name="GroupingSettingsCancelButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="610 419 680 444">$$18466$$Cancel<command>gadgetUnReal("GroupingSettingsDialog")</command></gadget>
   </gadget>
-  <gadget name="WorldLightingDialog" type="gadget" size1024="337 200 700 400" background="ui\editor\editor_background" bevel="" titlebar="$$20364$$World Lighting" closebutton="" hidden="" windowzstyle="" moveable="">
+  <gadget name="WorldLightingDialog" type="gadget" size1024="337 200 700 400" background="ui\editor\background\editor_background" bevel="" titlebar="$$20364$$World Lighting" closebutton="" hidden="" windowzstyle="" moveable="">
     <gadget name="PresetLightingDropdown" type="textField" dropdowndistance="120" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="347 262 637 282">$$20368$$Preset Lighting<dropdown>Some Stuff in Here</dropdown></gadget>
-    <gadget name="WorldLightingSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 317 690 327">
+    <gadget name="WorldLightingSeparator" type="gadget" background="ui\editor\controls\menu_separator" size1024="347 317 690 327">
     </gadget>
     <gadget name="WorldLightingDefaultsButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="357 357 467 382">$$20351$$Restore Defaults</gadget>
     <gadget name="WorldLightingCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="610 357 680 382">$$18457$$Close<command>gadgetUnReal("WorldLightingDialog")</command></gadget>
   </gadget>
-  <gadget name="BrushSettingsDialog" type="gadget" size1024="337 200 600 645" background="ui\editor\editor_background" bevel="" titlebar="$$20280$$Brush Settings" closebutton="" hidden="" windowzstyle="" moveable="">
+  <gadget name="BrushSettingsDialog" type="gadget" size1024="337 200 600 645" background="ui\editor\background\editor_background" bevel="" titlebar="$$20280$$Brush Settings" closebutton="" hidden="" windowzstyle="" moveable="">
     <gadget name="ShapeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="340 236 417 256">$$20369$$Shape:</gadget>
-    <gadget name="ShapeRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" size1024="420 229 593 299">
+    <gadget name="ShapeRadioButtons" type="radioset" background="ui\editor\background\editor_background" radiosetbuttonsize1024="100 25" size1024="420 229 593 299">
       <button command="uiChangeBrushType(&quot;circular&quot;)">$$20370$$Circle</button>
       <button command="uiChangeBrushType(&quot;Rectangular&quot;)">$$20371$$Square</button>
     </gadget>
     <gadget name="CornerText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="340 311 420 331">$$37032$$Corner Mode:</gadget>
-    <gadget name="CornerRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" size1024="420 299 593 399">
+    <gadget name="CornerRadioButtons" type="radioset" background="ui\editor\background\editor_background" radiosetbuttonsize1024="100 25" size1024="420 299 593 399">
       <button command="uiChangeBrushCornerMode(0)">$$37033$$All</button>
       <button command="uiChangeBrushCornerMode(1)">$$37034$$Corners Only</button>
       <button command="uiChangeBrushCornerMode(2)">$$37035$$No Corners</button>
     </gadget>
     <gadget name="CliffModeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="340 414 420 434">$$37036$$Cliff Mode:</gadget>
-    <gadget name="CliffModeRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="140 25" size1024="420 399 593 549">
+    <gadget name="CliffModeRadioButtons" type="radioset" background="ui\editor\background\editor_background" radiosetbuttonsize1024="140 25" size1024="420 399 593 549">
       <button command="uiChangeCliffModMode(0)">$$37037$$No Clamping</button>
       <button command="uiChangeCliffModMode(1)">$$37038$$Clamp High Edge</button>
       <button command="uiChangeCliffModMode(2)">$$37039$$Clamp Low Edge</button>
@@ -548,26 +571,26 @@
     <gadget name="SliderTextSmall" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" textcentervert="" size1024="347 572 437 592">$$18845$$Small</gadget>
     <gadget name="SliderTextMedium" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" textcentervert="" size1024="444 572 492 592">$$18846$$Medium</gadget>
     <gadget name="SliderTextLarge" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" textcentervert="" size1024="552 572 597 592">$$18847$$Large</gadget>
-    <gadget name="BrushSettingsSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 595 590 605">
+    <gadget name="BrushSettingsSeparator" type="gadget" background="ui\editor\controls\menu_separator" size1024="347 595 590 605">
     </gadget>
     <gadget name="BrushSettingsCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="510 607 580 632">$$18457$$Close<command>gadgetUnReal("BrushSettingsDialog")</command></gadget>
   </gadget>
-  <gadget name="PlaytestDialog" type="gadget" size1024="337 200 700 380" background="ui\editor\editor_background" bevel="" titlebar="$$20269$$Playtest Scenario" closebutton="" hidden="" windowzstyle="" moveable="">
+  <gadget name="PlaytestDialog" type="gadget" size1024="337 200 700 380" background="ui\editor\background\editor_background" bevel="" titlebar="$$20269$$Playtest Scenario" closebutton="" hidden="" windowzstyle="" moveable="">
     <gadget name="PlaytestAsPlayer" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="125" size1024="347 236 597 260">$$20372$$Test As Player:<dropdown command="player(1)">$$20524$$1</dropdown><dropdown command="player(2)">$$20525$$2</dropdown><dropdown command="player(3)">$$20526$$3</dropdown><dropdown command="player(4)">$$20527$$4</dropdown><dropdown command="player(5)">$$20528$$5</dropdown><dropdown command="player(6)">$$20529$$6</dropdown><dropdown command="player(7)">$$20530$$7</dropdown><dropdown command="player(8)">$$20531$$8</dropdown><dropdown command="player(9)">$$20532$$9</dropdown><dropdown command="player(10)">$$20533$$10</dropdown><dropdown command="player(11)">$$20534$$11</dropdown><dropdown command="player(12)">$$20535$$12</dropdown></gadget>
     <gadget name="PlaytestDifficultyLevel" type="textField" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" dropdowndistance="100" size1024="347 272 597 297">$$20373$$Difficulty Level:<dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 0)">$$32605$$Sandbox</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 1)">$$18297$$Easy</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 2)">$$18298$$Moderate</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 3)">$$18299$$Hard</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 4)">$$18300$$Expert</dropdown><dropdown command="configSetInt(&quot;playtestDifficultyLevel&quot;, 5)">$$91770$$Extreme</dropdown></gadget>
-    <gadget name="PlaytestScenarioSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 322 690 332">
+    <gadget name="PlaytestScenarioSeparator" type="gadget" background="ui\editor\controls\menu_separator" size1024="347 322 690 332">
     </gadget>
     <gadget name="PlaytestScenarioOKButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="530 337 600 362">$$18465$$OK<command>gadgetUnReal("PlaytestDialog") clearTradeRouteLines uiStartScenarioTest</command></gadget>
     <gadget name="PlaytestScenarioCancelButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="610 337 680 362">$$18466$$Cancel<command>gadgetUnReal("PlaytestDialog")</command></gadget>
   </gadget>
-  <gadget name="ScreenshotDialog" type="gadget" size1024="337 200 700 480" background="ui\editor\editor_background" bevel="" titlebar="$$20374$$Create a Screenshot" closebutton="" hidden="" windowzstyle="" moveable="">
+  <gadget name="ScreenshotDialog" type="gadget" size1024="337 200 700 480" background="ui\editor\background\editor_background" bevel="" titlebar="$$20374$$Create a Screenshot" closebutton="" hidden="" windowzstyle="" moveable="">
     <gadget name="ScreenshotTypeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="337 228 418 248">$$20347$$Type:</gadget>
-    <gadget name="ScreenshotTypeRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" size1024="420 223 520 303">
+    <gadget name="ScreenshotTypeRadioButtons" type="radioset" background="ui\editor\background\editor_background" radiosetbuttonsize1024="100 25" size1024="420 223 520 303">
       <button command="configDef(&quot;jpegScreenshots&quot;)">$$20536$$JPG</button>
       <button command="configUndef(&quot;jpegScreenshots&quot;)">$$20537$$TGA</button>
     </gadget>
     <gadget name="ScreenshotQualityText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="527 229 604 249">$$20375$$Quality:</gadget>
-    <gadget name="ScreenshotQualityRadioButtons" type="radioset" background="ui\editor\editor_background" radiosetbuttonsize1024="100 25" radiosetdefaultbuttonindex="2" size1024="606 222 686 322">
+    <gadget name="ScreenshotQualityRadioButtons" type="radioset" background="ui\editor\background\editor_background" radiosetbuttonsize1024="100 25" radiosetdefaultbuttonindex="2" size1024="606 222 686 322">
       <button command="configSetInt(&quot;jpegScreenshotQuality&quot;, 25)">$$18579$$Low</button>
       <button command="configSetInt(&quot;jpegScreenshotQuality&quot;, 50)">$$18846$$Medium</button>
       <button command="configSetInt(&quot;jpegScreenshotQuality&quot;, 100)">$$18578$$High</button>
@@ -575,19 +598,19 @@
     <gadget name="ScreenshotIncludeText" type="textBox" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="339 327 531 347">$$20376$$Hide:</gadget>
     <gadget name="ScreenshotIncludeInterface" type="checkButton" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" configindex="screenShotHideUI" size1024="412 352 587 372">$$20377$$Interface</gadget>
     <gadget name="ScreenshotIncludeCursor" type="checkButton" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" configindex="screenShotHideCursor" size1024="412 382 587 402">$$20378$$Cursor</gadget>
-    <gadget name="ScreenshotSeparator" type="gadget" background="UI\editor\menu_separator" size1024="347 422 690 432">
+    <gadget name="ScreenshotSeparator" type="gadget" background="ui\editor\controls\menu_separator" size1024="347 422 690 432">
     </gadget>
     <gadget name="ScreenshotTakeButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="428 439 529 464">$$20379$$Shoot</gadget>
     <gadget name="ScreenshotCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="555 439 656 464">$$18457$$Close<command>gadgetUnReal("ScreenshotDialog")</command></gadget>
   </gadget>
-  <gadget name="ScenarioSummaryDialog" type="gadget" size1024="304 153 731 600" background="ui\editor\editor_background" bevel="" titlebar="$$20268$$Scenario Summary" closebutton="" hidden="" windowzstyle="" moveable="">
+  <gadget name="ScenarioSummaryDialog" type="gadget" size1024="304 153 731 600" background="ui\editor\background\editor_background" bevel="" titlebar="$$20268$$Scenario Summary" closebutton="" hidden="" windowzstyle="" moveable="">
     <gadget name="ScenarioSummaryScenarioName" type="textBox" textcolor="0 0 0" textfont="Arial Nodrop For SE" textfontsize="12" size1024="310 188 508 213">ScenarioNameHere:</gadget>
     <gadget name="ScenarioSummaryPageSelectDropDown" type="textField" textcolor="0 0 0" textfont="Arial nobold nodrop" textfontsize="12" dropdowndistance="115" size1024="508 188 723 213">
       <dropdown>$$20380$$World Info</dropdown>
       <dropdown>$$20381$$Player Info</dropdown>
       <dropdown>$$20382$$Misc Info</dropdown>
     </gadget>
-    <gadget name="WorldInfoPage" type="gadget" background="ui\editor\editor_background" sunkenbevel="" size1024="313 225 723 546">
+    <gadget name="WorldInfoPage" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" size1024="313 225 723 546">
       <gadget name="WorldInfoMapDimensionsLabel" type="textBox" textcolor="0 0 0" textfont="Courier Bold" textfontsize="12" size1024="316 232 486 252">$$20383$$Map Dimensions:</gadget>
       <gadget name="WorldInfoMapDimensions" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 232 721 252">SomeTextHere</gadget>
       <gadget name="WorldInfoAverageElevationLabel" type="textBox" textcolor="0 0 0" textfont="Courier Bold" textfontsize="12" size1024="316 258 486 278">$$20384$$Average Elevation:</gadget>
@@ -607,7 +630,7 @@
       <gadget name="WorldInfoRandomMapSeedLabel" type="textBox" textcolor="0 0 0" textfont="Courier Bold" textfontsize="12" size1024="316 511 486 531">$$20389$$Random Map Seed:</gadget>
       <gadget name="WorldInfoRandomMapSeed" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="489 511 721 531">SomeTextHere</gadget>
     </gadget>
-    <gadget name="PlayerInfoPage" type="gadget" background="ui\editor\editor_background" sunkenbevel="" hidden="" size1024="347 262 700 547">
+    <gadget name="PlayerInfoPage" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" hidden="" size1024="347 262 700 547">
       <gadget name="PlayerInfoLabels" type="textBox" textfont="Courier Bold" textfontsize="12" size1024="357 262 700 287">Labels here</gadget>
       <gadget name="PlayerInfoList" type="gadget" size1024="347 282 700 547">
         <gadget name="PlayerInfoPlayer1" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 287 700 299">123456789012 12345678 1234567 12345 12345 12345</gadget>
@@ -641,7 +664,7 @@
         </gadget>
       </gadget>
     </gadget>
-    <gadget name="MiscInfoPage" type="gadget" background="ui\editor\editor_background" sunkenbevel="" hidden="" size1024="347 262 700 547">
+    <gadget name="MiscInfoPage" type="gadget" background="ui\editor\background\editor_background" sunkenbevel="" hidden="" size1024="347 262 700 547">
       <gadget name="MiscInfoAvailFoodResource" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 267 700 279">
       </gadget>
       <gadget name="MiscInfoAvailWoodResource" type="textBox" textcolor="0 0 0" textfont="Courier" textfontsize="12" size1024="357 284 700 296">
@@ -654,7 +677,7 @@
     <gadget name="ExportToTextButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="496 562 600 587">$$20390$$Export to Text</gadget>
     <gadget name="ScenarioSummaryCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="610 562 714 587">$$18457$$Close<command>gadgetUnReal("AScenarioSummaryGadget")</command></gadget>
   </gadget>
-  <gadget name="PlayerDataDialog" type="gadget" size1024="4 93 1019 509" background="ui\editor\editor_background" bevel="" titlebar="$$20266$$Player Data" hidden="" closebutton="" windowzstyle="" moveable="">
+  <gadget name="PlayerDataDialog" type="gadget" size1024="4 93 1019 509" background="ui\editor\background\editor_background" bevel="" titlebar="$$20266$$Player Data" hidden="" closebutton="" windowzstyle="" moveable="">
     <gadget name="LabelPlayerDataRow" type="gadget" size1024="4 134 1016 154">
       <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="13 134 60 152">$$20391$$Player:</gadget>
       <gadget name="ColorText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="62 134 133 152">$$20392$$Color:</gadget>
@@ -1039,11 +1062,11 @@
       </gadget>
       <gadget name="PlayerDataAIClear12" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="941 411 998 431" z="11">$$20397$$Clear AI</gadget>
     </gadget>
-    <gadget name="PlayerDataSeparator" type="gadget" background="UI\editor\menu_separator" size1024="17 461 1005 471">
+    <gadget name="PlayerDataSeparator" type="gadget" background="ui\editor\controls\menu_separator" size1024="17 461 1005 471">
     </gadget>
     <gadget name="PlayerDataCancelButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="887 474 957 499">$$18457$$Close</gadget>
   </gadget>
-  <gadget name="PlayerDiplomacyDialog" type="gadget" size1024="140 50 860 560" background="ui\editor\editor_background" bevel="" titlebar="$$19098$$Diplomacy" closebutton="" hidden="" moveable="" windowzstyle="">
+  <gadget name="PlayerDiplomacyDialog" type="gadget" size1024="140 50 860 560" background="ui\editor\background\editor_background" bevel="" titlebar="$$19098$$Diplomacy" closebutton="" hidden="" moveable="" windowzstyle="">
     <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="142 78 242 99">$$20020$$Player</gadget>
     <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="258 79 288 99">$$20524$$1</gadget>
     <gadget name="PlayerText" textcolor="0 0 0" textfontsize="12" textfont="Arial Nodrop For SE" type="textBox" size1024="296 78 326 98">$$20525$$2</gadget>
@@ -2245,7 +2268,7 @@
         </stateentry>
       </gadget>
     </gadget>
-    <gadget name="DiplomacySettingsSeparator" type="gadget" background="UI\editor\menu_separator" size1024="148 468 848 478">
+    <gadget name="DiplomacySettingsSeparator" type="gadget" background="ui\editor\controls\menu_separator" size1024="148 468 848 478">
     </gadget>
     <gadget name="DiplomacySettingsCloseButton" type="button" bevelbutton="" textfont="Arial Nodrop For SE" textfontsize="12" size1024="728 512 828 537">$$18457$$Close<command>gadgetUnreal("PlayerDiplomacyDialog");</command></gadget>
     <gadget name="diplomacydialog-Key" type="gadget" size1024="149 480 378 558">
@@ -2260,12 +2283,18 @@
       </gadget>
     </gadget>
   </gadget>
-  <gadget name="ForbiddenProtoDlg" type="gadget" size1024="10 60 610 600" closebutton="" titlebar="$$20479$$Forbidden Units" background="ui\editor\editor_background" tilebackground="" bevel="" hidden="" windowzstyle="" moveable="">
-    <gadget type="textBox" name="ForbiddenProtoDlg-player-Text" size1024="15 90 170 110" textcolor="0 0 0" background="ui\editor\editor_background">$$20391$$Player:</gadget>
-    <gadget type="textField" name="ForbiddenProtoDlg-player-Field" size1024="180 90 300 110" textcolor="255 255 255" background="ui\editor\editor_background" bevel="" dropdowndistance="132">
+  <gadget name="ForbiddenProtoDlg" type="gadget" size1024="10 60 610 600" closebutton="" titlebar="$$20479$$Forbidden Units" background="ui\editor\background\editor_background" tilebackground="" bevel="" hidden="" windowzstyle="" moveable="">
+    <gadget type="textBox" name="ForbiddenProtoDlg-player-Text" size1024="15 90 170 110" textcolor="0 0 0" background="ui\editor\background\editor_background">$$20391$$Player:</gadget>
+    <gadget type="textField" name="ForbiddenProtoDlg-player-Field" size1024="180 90 300 110" textcolor="255 255 255" background="ui\editor\background\editor_background" bevel="" dropdowndistance="132">
     </gadget>
-    <gadget type="list" checkbutton="" name="ForbiddenProtoDlg-protolist" size1024="20 140 600 590" background="ui\editor\editor_background" bevel="" buttonsize1024="400 25" scrollvert="" alphasort="">
+    <gadget type="list" checkbutton="" name="ForbiddenProtoDlg-protolist" size1024="20 140 600 590" background="ui\editor\background\editor_background" bevel="" buttonsize1024="400 25" scrollvert="" alphasort="">
     </gadget>
+  </gadget>
+  <gadget name="CameraStartDlg" type="gadget" size1024="304 153 558 247" closebutton="" titlebar="$$56079$$Camera Start Location" background="ui\editor\background\editor_background" tilebackground="" bevel="" hidden="" moveable="" closeonesc="">
+    <gadget name="CameraStartDlg-Player" type="textField" dropdowndistance="140" textfont="Arial Nodrop For SE" textfontsize="12" textcolor="0 0 0" size1024="314 183 548 205">$$56080$$Target Player:<dropdown></dropdown></gadget>
+    <gadget name="CameraStartDlg-SetBtn" type="button" bevel="" size1024="314 215 385 237" z="11">$$56081$$Set</gadget>
+    <gadget name="CameraStartDlg-ShowBtn" type="button" bevel="" size1024="395 215 466 237" z="11">$$56082$$Show</gadget>
+    <gadget name="CameraStartDlg-DeleteBtn" type="button" bevel="" size1024="476 215 548 237" z="11">$$56083$$Delete</gadget>
   </gadget>
   <position name="AGameMinimap" size1024="813 560 1003 750">
   </position>

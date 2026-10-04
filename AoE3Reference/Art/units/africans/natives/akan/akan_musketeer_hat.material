@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\africans\natives\akan\textures\akan_musketeer_hat_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\africans\natives\akan\textures\akan_musketeer_hat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\africans\natives\akan\textures\akan_musketeer_hat_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -433,12 +433,21 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCossacks2</name>
+      <name>HCShipCossacks5</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>HCShipCossacks1</prereqtech>
       <age>2</age>
       <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>HCShipCossacks2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>HCShipCossacks1</prereqtech>
+      <age>2</age>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -487,6 +496,7 @@
       <level>10</level>
       <prereqtech>HCBarracksHPTeam</prereqtech>
       <age>2</age>
+      <displayunitcount>1</displayunitcount>
       <bindtotech>DEHCREVBlockhouseCannon</bindtotech>
     </card>
     <card>
@@ -538,7 +548,8 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>1</age>
+      <displayunitcount>3</displayunitcount>
     </card>
     <card>
       <name>HCXPShipCavArchersRepeat</name>
@@ -778,6 +789,14 @@
       <level>0</level>
       <prereqtech>HCColonialMilitia</prereqtech>
       <age>0</age>
+    </card>
+    <card>
+      <name>DEHCRussianAmericanCompany</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>2</displayunitcount>
     </card>
     <card>
       <name>HCImprovedBuildings</name>
@@ -1208,6 +1227,20 @@
       <age>0</age>
     </card>
     <card>
+      <name>DEHCMercsFortifiedWagonsRussian</name>
+      <maxcount>1</maxcount>
+      <age>1</age>
+      <displayunitcount>1</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCMercsFortifiedWagons</name>
+      <maxcount>1</maxcount>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCMercsHolyRoman</name>
       <maxcount>-1</maxcount>
       <level>25</level>
@@ -1321,6 +1354,14 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCOldenburgAlliesRussian</name>
+      <maxcount>1</maxcount>
+      <level>40</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+    </card>
+    <card>
       <name>DEHCOldenburgAlliesRepeat</name>
       <maxcount>-1</maxcount>
       <level>40</level>
@@ -1336,6 +1377,14 @@
       <age>2</age>
     </card>
     <card>
+      <name>DEHCHireWhalingCrew1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
       <name>HCPrivateers</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1349,6 +1398,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
+      <bindtotech>DEHCREVHandMortar</bindtotech>
       <age>2</age>
     </card>
     <card>
@@ -1357,7 +1407,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <infiniteinlastage>1</infiniteinlastage>
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
@@ -1367,6 +1416,15 @@
       <prereqtech>-1</prereqtech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCSamiAllies1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCREVShipGatlingGuns</name>
@@ -1417,6 +1475,7 @@
       <bindtotech>HCBlockhouseCannon</bindtotech>
       <revoltcard>
       </revoltcard>
+      <displayunitcount>1</displayunitcount>
     </card>
     <card>
       <name>DEHCREVSoldierTorps</name>
@@ -1611,10 +1670,37 @@
     </card>
     <card>
       <name>DEHCREVBlackberries</name>
-      <maxcount>2</maxcount>
+      <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVHajduks</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVHonved</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVMagyarGrenadiers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>1</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1633,25 +1719,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>3</age>
-      <displayunitcount>15</displayunitcount>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVHajduks</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>1</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVMagyarGrenadiers</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>1</age>
+      <displayunitcount>9</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1815,6 +1883,16 @@
       <prereqtech>XPRevolution</prereqtech>
       <age>3</age>
       <displayunitcount>12</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVHandMortar</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <bindtotech>DEHCHandMortar</bindtotech>
+      <age>2</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2043,6 +2121,7 @@
       <name>$$45518$$</name>
       <cards>
         <card>DEHCREVHajduks</card>
+        <card>DEHCREVHonved</card>
         <card>DEHCREVMagyarGrenadiers</card>
         <card>DEHCREVMilitaryFrontier</card>
         <card>DEHCREVCrabats</card>
@@ -2055,6 +2134,9 @@
         <card>DEHCREVLegionHungarian</card>
         <card>DEHCREVShipGrenadiersRepeat</card>
         <card>DEHCREVShipFalconetsBalkan</card>
+        <card>DEHCREVRidingSchool</card>
+        <card>DEHCREVCavalryCombat</card>
+        <card>DEHCREVHandMortar</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevRomania">
@@ -2216,6 +2298,7 @@
       <tech x="3.5" y="1.0">DEHCMilyutinReforms</tech>
       <tech x="2.5" y="5.0">DEHCInfantryCombatRussian</tech>
       <tech x="3.5" y="1.0">HCShipCossacks1</tech>
+      <tech x="3.5" y="2.0">HCShipCossacks5</tech>
       <tech x="3.5" y="2.0">HCShipCossacks2</tech>
       <tech x="3.0" y="3.0">HCShipCossacks3</tech>
       <tech x="2.5" y="4.0">HCShipCossacks4</tech>
@@ -2271,6 +2354,7 @@
       <tech x="3.5" y="1.0">DEHCMilyutinReforms</tech>
       <tech x="2.5" y="5.0">DEHCInfantryCombatRussian</tech>
       <tech x="3.5" y="1.0">HCShipCossacks1</tech>
+      <tech x="3.5" y="2.0">HCShipCossacks5</tech>
       <tech x="3.5" y="2.0">HCShipCossacks2</tech>
       <tech x="3.0" y="3.0">HCShipCossacks3</tech>
       <tech x="2.5" y="4.0">HCShipCossacks4</tech>
@@ -2337,6 +2421,7 @@
       <tech x="1.6" y="3.0">HCRidingSchool</tech>
       <tech x="2.3" y="1.0">HCColonialMilitia</tech>
       <tech x="2.0" y="2.0">HCPioneers</tech>
+      <tech x="2.0" y="2.0">DEHCRussianAmericanCompany</tech>
       <tech x="2.7" y="2.0">HCFrontierDefensesRussian</tech>
       <tech x="3.0" y="3.0">HCImprovedBuildings</tech>
       <tech x="2.3" y="3.0">HCAdvancedArsenal</tech>
@@ -2372,6 +2457,7 @@
       <tech x="1.6" y="3.0">HCRidingSchool</tech>
       <tech x="2.3" y="1.0">HCColonialMilitia</tech>
       <tech x="2.0" y="2.0">HCPioneers</tech>
+      <tech x="2.0" y="2.0">DEHCRussianAmericanCompany</tech>
       <tech x="2.7" y="2.0">HCFrontierDefensesRussian</tech>
       <tech x="3.0" y="3.0">HCImprovedBuildings</tech>
       <tech x="2.3" y="3.0">HCAdvancedArsenal</tech>
@@ -2497,16 +2583,21 @@
       <tech x="5.1" y="4.0">DEHCMercsPandours</tech>
       <tech x="5.8" y="3.0">HCMercsHighlanders</tech>
       <tech x="5.8" y="4.0">HCMercsHackapells</tech>
+      <tech x="5.1" y="5.0">DEHCMercsFortifiedWagonsRussian</tech>
+      <tech x="5.1" y="5.0">DEHCMercsFortifiedWagons</tech>
       <tech x="5.1" y="5.0">HCMercsHolyRoman</tech>
       <tech x="5.1" y="7.0">DEHCVasaAllies1</tech>
       <tech x="5.1" y="7.0">DEHCPhanarAllies1</tech>
       <tech x="5.1" y="7.0">HCXPNootkaAllies</tech>
+      <tech x="5.1" y="7.0">DEHCOldenburgAlliesRussian</tech>
       <tech x="5.1" y="7.0">DEHCOldenburgAlliesRepeat</tech>
       <tech x="5.1" y="7.0">DEHCBashkirRebellion</tech>
       <tech x="5.8" y="5.0">HCMercsHighland</tech>
       <tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="6.5" y="6.0">HCXPMercsGreatCannon</tech>
+      <tech x="6.5" y="6.0">DEHCSamiAllies1</tech>
       <tech x="5.1" y="1.0">DEHCTheaters</tech>
+      <tech x="7.2" y="1.0">DEHCHireWhalingCrew1</tech>
       <tech x="7.2" y="1.0">HCPrivateers</tech>
       <tech x="7.2" y="1.0">DEHCRussianBattleshipCard</tech>
       <tech x="7.2" y="1.0">DEHCShipBattleshipRepeat</tech>
@@ -2529,16 +2620,21 @@
       <tech x="5.1" y="4.0">DEHCMercsPandours</tech>
       <tech x="5.8" y="3.0">HCMercsHighlanders</tech>
       <tech x="5.8" y="4.0">HCMercsHackapells</tech>
+      <tech x="5.1" y="5.0">DEHCMercsFortifiedWagonsRussian</tech>
+      <tech x="5.1" y="5.0">DEHCMercsFortifiedWagons</tech>
       <tech x="5.1" y="5.0">HCMercsHolyRoman</tech>
       <tech x="5.1" y="7.0">DEHCVasaAllies1</tech>
       <tech x="5.1" y="7.0">DEHCPhanarAllies1</tech>
       <tech x="5.1" y="7.0">HCXPNootkaAllies</tech>
+      <tech x="5.1" y="7.0">DEHCOldenburgAlliesRussian</tech>
       <tech x="5.1" y="7.0">DEHCOldenburgAlliesRepeat</tech>
       <tech x="5.1" y="7.0">DEHCBashkirRebellion</tech>
       <tech x="5.8" y="5.0">HCMercsHighland</tech>
       <tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="6.5" y="6.0">HCXPMercsGreatCannon</tech>
+      <tech x="6.5" y="6.0">DEHCSamiAllies1</tech>
       <tech x="5.1" y="1.0">DEHCTheaters</tech>
+      <tech x="7.2" y="1.0">DEHCHireWhalingCrew1</tech>
       <tech x="7.2" y="1.0">HCPrivateers</tech>
       <tech x="7.2" y="1.0">DEHCRussianBattleshipCard</tech>
       <tech x="7.2" y="1.0">DEHCShipBattleshipRepeat</tech>

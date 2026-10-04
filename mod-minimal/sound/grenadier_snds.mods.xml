@@ -1,0 +1,69 @@
+<!--
+  mod-minimal (Rumania): el Granadero (Grenadier real, compartido con Francia/Rusia/Otomanos/
+  etc.) no tiene rama para "ROURomania" en Sound/grenadier_snds.xml (civ nueva) -> quedaba
+  mudo. Pedido explícito: reusar la voz del Crabat (HUNCrabat usa CroatianOutlawSelect/
+  Acknowledge/Attack directo). Se registran copias MM (MMCroatianOutlaw*) en
+  soundsetsde.mods.xml en vez de apuntar al nombre vanilla, porque agregar una rama nueva a un
+  civlogic YA EXISTENTE apuntando a un soundset por nombre real no suena en juego (confirmado
+  con Finlandia/Argentina, ver memoria aoe3-unit-sounds-snds).
+-->
+<protounitsounddefmods>
+  <protounit name="Grenadier">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="ROURomania">
+          <soundset name="MMCroatianOutlawSelect">
+          </soundset>
+        </choice>
+        <choice name="CHLChile">
+          <soundset name="MMSpanishCannonSelect">
+          </soundset>
+        </choice>
+        <choice name="FRAFranceNapoleonica">
+          <soundset name="MMFrenchGrenadierSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="ROURomania">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMCroatianOutlawAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMCroatianOutlawAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="CHLChile">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMSpanishCannonAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMSpanishCannonAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="FRAFranceNapoleonica">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMFrenchGrenadierAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMFrenchGrenadierAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

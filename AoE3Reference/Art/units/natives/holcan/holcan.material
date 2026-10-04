@@ -1,0 +1,42 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\holcan\textures\holcan_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\holcan\textures\holcan_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\holcan\textures\holcan_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\holcan\textures\holcan_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\holcan\textures\holcan_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\holcan\textures\holcan_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\holcan\textures\holcan_matb_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\holcan\textures\holcan_matb_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\holcan\textures\holcan_matc_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\holcan\textures\holcan_matc_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\holcan\textures\holcan_matc_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

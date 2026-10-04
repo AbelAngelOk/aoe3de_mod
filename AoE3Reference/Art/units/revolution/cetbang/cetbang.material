@@ -1,0 +1,28 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\revolution\cetbang\textures\cetbang_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\revolution\cetbang\textures\cetbang_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\revolution\cetbang\textures\cetbang_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\revolution\cetbang\textures\cetbang_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="units\revolution\cetbang\textures\cetbang_matb_normals">
+      </texture>
+      <texture name="Masks" override="units\revolution\cetbang\textures\cetbang_matb_masks">
+      </texture>
+      <texture name="Details" override="units\revolution\cetbang\textures\cetbang_matb_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -1,0 +1,110 @@
+<techtree>
+  <group name="Town Center">
+    <label string="23630" icon="resources\images\icons\flags\Techtree_Aztec.png" banner="ally" row="0" col="1" iconalpha="premultiplied">
+    </label>
+    <proto name="NativeEmbassy" icon="resources/art/buildings/native_embassy_portrait.png" banner="building" row="1" col="1">
+    </proto>
+    <tech name="deBigEmbassyGunRunning" icon="resources/images/icons/techs/native_big_button/native_31_build.png" banner="improvement" row="2" col="1">
+    </tech>
+    <proto name="deMercCapturedMortar" icon="resources\art\units\mercenaries\captured_mortar\captured_mortar_portrait.png" banner="unit" row="7" col="7">
+    </proto>
+    <proto name="SaloonOutlawPistol" icon="resources\art\nuggets\outlaw_kidnap\outlaw_icon_portrait.png" banner="unit" row="2" col="7">
+    </proto>
+    <proto name="SaloonOutlawRifleman" icon="resources\art\units\spc\outlaws\outlaw_shotgun_portrait.png" banner="unit" row="3" col="7">
+    </proto>
+    <proto name="SaloonPirate" icon="resources\art\units\spc\pirates\pirate_portrait.png" banner="unit" row="2" col="12">
+    </proto>
+    <proto name="SaloonOutlawRider" icon="resources\art\units\spc\outlaws\outlaw_rider_portrait.png" banner="unit" row="3" col="12">
+    </proto>
+    <proto name="ypDacoit" icon="resources\art\units\asians\mercenaries\fugitive_dacoit\dacoit_icon_portrait.png" banner="unit" row="3" col="18">
+    </proto>
+    <label string="72861" icon="resources\images\icons\flags\Techtree_Japanese.png" banner="ally" row="0" col="18" iconalpha="premultiplied">
+    </label>
+    <proto name="ypMonastery" icon="resources\art\buildings\asian_civs\monastery\monastery_icon_portrait.png" banner="building" row="1" col="18">
+    </proto>
+    <proto name="ypThuggee" icon="resources\art\units\asians\mercenaries\delinquent_thuggee\thuggee_icon_portrait.png" banner="unit" row="2" col="18">
+    </proto>
+    <proto name="ypWokouWaywardRonin" icon="resources\art\units\asians\mercenaries\wayward_ronin\wayward_ronin_icon_portrait.png" banner="unit" row="3" col="28">
+    </proto>
+    <proto name="ypWokouBlindMonk" icon="resources\art\units\asians\mercenaries\blind_monk\blind_monk_icon_portrait.png" banner="unit" row="2" col="28">
+    </proto>
+    <proto name="ypWokouPirate" icon="resources\art\units\asians\mercenaries\wokou_pirate\wokou_pirate_icon_portrait.png" banner="unit" row="3" col="23">
+    </proto>
+    <proto name="ypWokouWanderingHorseman" icon="resources\art\units\asians\mercenaries\wandering_horseman\wandering_horseman_icon_portrait.png" banner="unit" row="2" col="23">
+    </proto>
+    <label string="122000" icon="resources\images\icons\flags\Techtree_Italian.png" banner="ally" row="0" col="34" iconalpha="premultiplied">
+    </label>
+    <proto name="deLombard" icon="resources\art\buildings\lombard\lombard_portrait.png" banner="unit" row="1" col="34">
+    </proto>
+    <proto name="deSaloonInquisitor" icon="resources\art\units\natives\europeans\inquisitor_portrait.png" banner="unit" row="2" col="34">
+    </proto>
+    <proto name="deSaloonHajduk" icon="resources\art\units\revolution\hajduk_portrait.png" banner="unit" row="3" col="34">
+    </proto>
+    <proto name="deSaloonOutlawCossack" icon="resources\art\units\natives\europeans\cossack_daredevil_portrait.png" banner="unit" row="2" col="39">
+    </proto>
+    <proto name="deSaloonHighwaymanRider" icon="resources\art\units\natives\europeans\highwayman_mounted_portrait.png" banner="unit" row="3" col="39">
+    </proto>
+    <label string="72860" icon="resources\images\icons\flags\Techtree_French.png" banner="ally" row="1" col="45" iconalpha="premultiplied">
+    </label>
+    <proto name="Saloon" icon="resources\art\buildings\saloon_portrait.png" banner="building" row="2" col="45">
+      <override>
+        <nameoverride>110120</nameoverride>
+      </override>
+    </proto>
+    <proto name="deSaloonSailor" icon="resources\art\units\spc\outlaws\sailor_portrait.png" banner="unit" row="3" col="45">
+    </proto>
+    <proto name="deSaloonHarpooner" icon="resources\art\units\spc\outlaws\harpooner_portrait.png" banner="unit" row="2" col="50">
+    </proto>
+    <proto name="deSaloonQivittoq" icon="resources\art\units\spc\outlaws\qivittoq_portrait.png" banner="unit" row="3" col="50">
+    </proto>
+    <proto name="Dock" icon="resources\art\buildings\dock\dock_portrait.png" banner="building" row="0" col="50">
+    </proto>
+    <proto name="dePort" icon="resources\art\buildings\african_civs\port_portrait.png" banner="building" row="0" col="55">
+    </proto>
+    <proto name="deOutlawWhalingShip" icon="resources\art\units\naval\steamer\steamer_portrait.png" banner="unit" row="2" col="55">
+    </proto>
+    <label string="80685" icon="resources\images\icons\flags\Techtree_Ethiopian.png" banner="ally" row="0" col="66" iconalpha="premultiplied">
+    </label>
+    <proto name="deTower" icon="resources\art\buildings\african_civs\tower_portrait.png" banner="building" row="1" col="66">
+    </proto>
+    <label string="101010" icon="resources\images\icons\flags\Techtree_Hausa.png" banner="ally" row="0" col="71" iconalpha="premultiplied">
+    </label>
+    <proto name="deOutlawDesertArcher" icon="resources\art\units\africans\outlaws\desert_archer\desert_archer_portrait.png" banner="unit" row="2" col="60">
+    </proto>
+    <proto name="deOutlawDesertWarrior" icon="resources\art\units\africans\outlaws\desert_warrior\desert_warrior_portrait.png" banner="unit" row="3" col="60">
+    </proto>
+    <proto name="deOutlawDesertArcher" icon="resources\art\units\africans\outlaws\desert_archer\desert_archer_portrait.png" banner="unit" row="2" col="71">
+    </proto>
+    <proto name="deOutlawDesertWarrior" icon="resources\art\units\africans\outlaws\desert_warrior\desert_warrior_portrait.png" banner="unit" row="3" col="71">
+    </proto>
+    <proto name="deOutlawDesertRaider" icon="resources\art\units\africans\outlaws\desert_raider\desert_raider_portrait.png" banner="unit" row="3" col="55">
+    </proto>
+    <proto name="deOutlawDesertRaider" icon="resources\art\units\africans\outlaws\desert_raider\desert_raider_portrait.png" banner="unit" row="2" col="66">
+    </proto>
+    <proto name="deREVBarbaryMarksman" icon="resources\art\units\spc\barbary\berber_arquebusier_portrait.png" banner="unit" row="3" col="66">
+    </proto>
+    <label string="112000" icon="resources\images\icons\flags\Techtree_Mexican.png" banner="ally" row="0" col="77" iconalpha="premultiplied">
+    </label>
+    <proto name="Saloon" icon="resources\art\buildings\saloon_portrait.png" banner="building" row="1" col="77">
+      <override>
+        <nameoverride>112276</nameoverride>
+      </override>
+    </proto>
+    <proto name="deSaloonVaquero" icon="resources\art\units\spc\outlaws\vaquero_portrait.png" banner="unit" row="2" col="77">
+    </proto>
+    <proto name="deSaloonDesperado" icon="resources\art\units\spc\outlaws\desperado_portrait.png" banner="unit" row="3" col="77">
+    </proto>
+    <proto name="deSaloonBandido" icon="resources\art\units\spc\outlaws\bandido_portrait.png" banner="unit" row="2" col="82">
+    </proto>
+    <label string="49874" icon="resources\images\icons\flags\Techtree_American.png" banner="ally" row="0" col="88" iconalpha="premultiplied">
+    </label>
+    <proto name="Saloon" icon="resources/art/buildings/saloon_portrait.png" banner="building" row="1" col="88">
+    </proto>
+    <proto name="deSaloonCowboy" icon="resources\art\units\spc\outlaws\cowboy_portrait.png" banner="unit" row="2" col="88">
+    </proto>
+    <proto name="deSaloonOwlhoot" icon="resources\art\units\spc\outlaws\owlhoot_portrait.png" banner="unit" row="3" col="88">
+    </proto>
+    <proto name="deSaloonGunslinger" icon="resources\art\units\spc\outlaws\gunslinger_portrait.png" banner="unit" row="2" col="93">
+    </proto>
+  </group>
+</techtree>

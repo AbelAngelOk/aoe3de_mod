@@ -1,0 +1,35 @@
+<!--
+  mod-minimal (Indias Orientales Neerlandesas): el Lancero Javanés (deREVJavaSpearman, proto real
+  de la revolución de Indonesia) solo tiene ramas "Dutch" y "Portuguese" en
+  Sound/derevjavaspearman_snds.xml -> "IORDutchEastIndies" (civ nueva) quedaba mudo. Reusa la voz
+  de la rama Portuguese (base real de esta civ) vía soundsets MM registrados en
+  soundsetsde.mods.xml (mm\portuguesepikeman*.wav).
+-->
+<protounitsounddefmods>
+  <protounit name="deREVJavaSpearman">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="IORDutchEastIndies">
+          <soundset name="MMPortuguesePikemanSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="IORDutchEastIndies">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMPortuguesePikemanAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMPortuguesePikemanAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

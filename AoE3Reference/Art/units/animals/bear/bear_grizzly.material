@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\bear\textures\bear_grizzly_bear_grizzly_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\bear\textures\bear_grizzly_bear_grizzly_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\bear\textures\bear_grizzly_bear_grizzly_Masks">
+      </texture>
+      <texture name="Details" override="units\animals\bear\textures\bear_grizzly_bear_grizzly_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

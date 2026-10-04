@@ -1,7 +1,6 @@
 <homecity>
   <civ>XPSPC</civ>
   <name>$$44067$$</name>
-  <heroname>$$44006$$</heroname>
   <gatherpointunit>HomeCityGatherFlag</gatherpointunit>
   <visual>spc\xspc_homecity.xml</visual>
   <watervisual>spc\xspc_homecity_water.xml</watervisual>

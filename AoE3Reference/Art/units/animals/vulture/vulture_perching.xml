@@ -1,0 +1,12 @@
+<animfile>
+  <component>vulture<assetreference type="GrannyModel"><file>units\animals\vulture\perching_vultures</file></assetreference></component>
+  <anim>Mode1_Idle<assetreference type="GrannyAnim"><file>units\animals\vulture\perching_vultures_idle</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\vulture\perching_vultures_idleA02</file></assetreference><component>vulture</component></anim>
+  <anim>Mode1_Bored<assetreference type="GrannyAnim"><file>units\animals\vulture\perching_vultures_bored</file></assetreference><component>vulture</component></anim>
+  <anim>Mode1_Mode2<assetreference type="GrannyAnim"><file>units\animals\vulture\perching_vultures_idleAtoB</file></assetreference><component>vulture</component></anim>
+  <anim>Mode2_Idle<assetreference type="GrannyAnim"><file>units\animals\vulture\perching_vultures_idleB</file></assetreference><component>vulture</component></anim>
+  <anim>Mode2_Bored<assetreference type="GrannyAnim"><file>units\animals\vulture\perching_vultures_boredB</file></assetreference><component>vulture</component></anim>
+  <anim>Mode2_Mode1<assetreference type="GrannyAnim"><file>units\animals\vulture\perching_vultures_idleBtoA</file></assetreference><component>vulture</component></anim>
+  <anim>Mode3_Idle<assetreference type="GrannyAnim"><file>units\animals\vulture\perching_vultures_idleC</file></assetreference><component>vulture</component></anim>
+  <anim>Mode1_Mode3<assetreference type="GrannyAnim"><file>units\animals\vulture\perching_vultures_idleAtoC</file></assetreference><component>vulture</component></anim>
+  <anim>Mode3_Mode1<assetreference type="GrannyAnim"><file>units\animals\vulture\perching_vultures_idleCtoA</file></assetreference><component>vulture</component></anim>
+</animfile>

@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\africa_east\shotel_warrior\textures\shotel_warrior_sword_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\spc\africa_east\shotel_warrior\textures\shotel_warrior_sword_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\spc\africa_east\shotel_warrior\textures\shotel_warrior_sword_mata_masks">
+      </texture>
+      <float name="Lift Metallic" override="0.6320">
+      </float>
+      <float name="Roughness Metallic Min" override="0.1820">
+      </float>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\spc\africa_east\shotel_warrior\textures\shotel_warrior_elite_sword_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\spc\africa_east\shotel_warrior\textures\shotel_warrior_sword_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\spc\africa_east\shotel_warrior\textures\shotel_warrior_sword_mata_masks">
+      </texture>
+      <float name="Lift Metallic" override="0.6320">
+      </float>
+      <float name="Roughness Metallic Min" override="0.1820">
+      </float>
+    </parameters>
+  </submaterial>
+</material>

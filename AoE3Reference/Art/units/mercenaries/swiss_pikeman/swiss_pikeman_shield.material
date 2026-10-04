@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\mercenaries\swiss_pikeman\textures\swiss_pikeman_shield_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\mercenaries\swiss_pikeman\textures\swiss_pikeman_shield_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\mercenaries\swiss_pikeman\textures\swiss_pikeman_shield_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\mercenaries\swiss_pikeman\textures\swiss_pikeman_shield_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

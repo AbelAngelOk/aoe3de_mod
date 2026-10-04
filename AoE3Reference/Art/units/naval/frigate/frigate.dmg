@@ -1,0 +1,72 @@
+<damagetemplate>
+  <model name="units\naval\frigate_damaged">
+    <impactpoint name="boneimpact00" bone="boneimpact00" impacttype="wood" mode="linked" disableafterdestruction="1" motionstopfadetime="2.0" motionstopfadedelay="1.0" splasheffect="watersplash_med">
+      <part mesh="debris_1c" bone="bone_debris_1c" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact01" bone="boneimpact01" impacttype="wood" mode="linked" disableafterdestruction="1" motionstopfadetime="2.0" motionstopfadedelay="1.0" splasheffect="watersplash_med">
+      <part mesh="debris_2a" bone="bone_debris_2a" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_2d" bone="bone_debris_2d" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact02" bone="boneimpact02" impacttype="wood" mode="linked" motionstopfadetime="2.0" motionstopfadedelay="1.0" splasheffect="watersplash_med">
+      <part mesh="debris_3a" bone="bone_debris_3a" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_3c" bone="bone_debris_3c" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_3d" bone="bone_debris_3d" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_3e" bone="bone_debris_3e" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact03" bone="boneimpact03" impacttype="wood" mode="linked" motionstopfadetime="2.0" motionstopfadedelay="1.0" splasheffect="watersplash_med">
+      <part mesh="debris_4a" bone="bone_debris_4a" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_4d" bone="bone_debris_4d" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_4f" bone="bone_debris_4f" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml" blueprint="heavypart_lowspin">
+      </part>
+      <part mesh="debris_4g" bone="bone_debris_4g" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact04" bone="boneimpact04" impacttype="wood" mode="linked" motionstopfadetime="2.0" motionstopfadedelay="1.0" splasheffect="watersplash_med">
+      <part mesh="debris_5a" bone="bone_debris_5a" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_5c" bone="bone_debris_5c" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_5d" bone="bone_debris_5d" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_5e" bone="bone_debris_5e" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_5b" bone="bone_debris_5b" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml" blueprint="heavypart_lowspin">
+      </part>
+      <part mesh="debris_5f" bone="bone_debris_5f" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact05" bone="boneimpact05" impacttype="wood" mode="linked" disableafterdestruction="1" motionstopfadetime="2.0" motionstopfadedelay="1.0" splasheffect="watersplash_med">
+      <part mesh="debris_6a" bone="bone_debris_6a" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_6b" bone="bone_debris_6b" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml" blueprint="heavypart_lowspin">
+      </part>
+      <part mesh="debris_6c" bone="bone_debris_6c" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml" blueprint="heavypart_lowspin">
+      </part>
+      <part mesh="debris_6d" bone="bone_debris_6d" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml" blueprint="heavypart_lowspin">
+      </part>
+      <part mesh="debris_6e" bone="bone_debris_6e" halfextents="2.0, 3.0, 1.0" effect="effects\splinter_streamer.xml" blueprint="heavypart_lowspin">
+      </part>
+      <part mesh="debris_6f" bone="bone_debris_6f" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml" blueprint="heavypart_lowspin">
+      </part>
+      <part mesh="debris_6g" bone="bone_debris_6g" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml" blueprint="heavypart_lowspin">
+      </part>
+      <part mesh="debris_6h" bone="bone_debris_6h" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml" blueprint="heavypart_lowspin">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact06" bone="boneimpact06" impacttype="wood" mode="linked" disableafterdestruction="1" motionstopfadetime="2.0" motionstopfadedelay="1.0" splasheffect="watersplash_med">
+      <part mesh="debris_1a" bone="bone_debris_1a" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+      <part mesh="debris_1b" bone="bone_debris_1b" halfextents="0.25, .5, 1.0" effect="effects\splinter_streamer.xml">
+      </part>
+    </impactpoint>
+  </model>
+</damagetemplate>

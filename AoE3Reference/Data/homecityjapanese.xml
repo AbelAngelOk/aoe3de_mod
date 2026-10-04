@@ -1211,6 +1211,22 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCShipWhalingShipsJapanese</name>
+      <maxcount>2</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCHireWhalingCrewJapanese</name>
+      <maxcount>2</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
       <name>YPHCWokouJapanese1</name>
       <maxcount>2</maxcount>
       <level>0</level>
@@ -1820,6 +1836,8 @@
       <tech x="6.1" y="3">YPHCMercssohei1</tech>
       <tech x="6.1" y="5">YPHCMercssohei2</tech>
       <tech x="6.1" y="7">YPHCMercssohei3</tech>
+      <tech x="7.0" y="2">DEHCHireWhalingCrewJapanese</tech>
+      <tech x="7.0" y="2">DEHCShipWhalingShipsJapanese</tech>
       <tech x="7.0" y="2">YPHCWokouJapanese1</tech>
       <tech x="7.0" y="5">YPHCWokouJapanese3</tech>
       <tech x="7.0" y="7">YPHCWokouJapanese2</tech>
@@ -1849,6 +1867,8 @@
       <tech x="6.1" y="3">YPHCMercssohei1</tech>
       <tech x="6.1" y="5">YPHCMercssohei2</tech>
       <tech x="6.1" y="7">YPHCMercssohei3</tech>
+      <tech x="7.0" y="2">DEHCHireWhalingCrewJapanese</tech>
+      <tech x="7.0" y="2">DEHCShipWhalingShipsJapanese</tech>
       <tech x="7.0" y="2">YPHCWokouJapanese1</tech>
       <tech x="7.0" y="5">YPHCWokouJapanese3</tech>
       <tech x="7.0" y="7">YPHCWokouJapanese2</tech>

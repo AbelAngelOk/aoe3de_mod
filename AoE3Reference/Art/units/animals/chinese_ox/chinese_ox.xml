@@ -1,0 +1,5 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\chinese_ox\chinese_ox</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\quads\sanga_IdleA</file><weight>30</weight></assetreference><assetreference type="GrannyAnim"><file>animation_library\quads\sanga_IdleB</file><weight>10</weight></assetreference><assetreference type="GrannyAnim"><file>animation_library\quads\sanga_IdleC</file><weight>10</weight></assetreference><assetreference type="GrannyAnim"><file>animation_library\quads\sanga_IdleD</file><weight>10</weight></assetreference><assetreference type="GrannyAnim"><file>animation_library\quads\sanga_IdleE</file><weight>20</weight></assetreference><assetreference type="GrannyAnim"><file>animation_library\quads\sanga_IdleF</file><weight>10</weight></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\quads\sanga_walk_slow</file></assetreference><component>ModelComp</component></anim>
+</animfile>

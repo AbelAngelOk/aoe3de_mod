@@ -1,0 +1,28 @@
+<material>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\japanese\ashigaru\textures\ashigaru_0age_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\japanese\ashigaru\textures\ashigaru_0age_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\japanese\ashigaru\textures\ashigaru_0age_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\japanese\ashigaru\textures\ashigaru_0age_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\japanese\flaming_arrow\textures\flamingarrow_2_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\japanese\flaming_arrow\textures\flamingarrow_2_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\japanese\flaming_arrow\textures\flamingarrow_2_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

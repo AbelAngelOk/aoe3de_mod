@@ -1,0 +1,106 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_mata_Basecolor_red">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_mata_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_mata_Basecolor_red">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_mata_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_mata_Basecolor_yellow">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_mata_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="3">
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_mata_Basecolor_blue">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_mata_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="4">
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_mata_Basecolor_green">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_mata_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="5">
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_mata_Basecolor_orange">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_matb_Basecolor">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_matb_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_matb_Basecolor">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_matb_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_matb_Basecolor">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_matb_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="3">
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_matb_Basecolor">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_matb_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="4">
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_matb_Basecolor">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_matb_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="5">
+      <texture name="BaseColor" override="units\trade\trade_boats\textures\trade_boat_03_matb_Basecolor">
+      </texture>
+      <texture name="Normals" override="units\trade\trade_boats\textures\trade_boat_03_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\trade_boats\textures\trade_boat_03_matb_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

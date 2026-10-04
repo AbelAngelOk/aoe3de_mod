@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\revolution\wallachian_archer\textures\wallachian_archer_hat_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\revolution\wallachian_archer\textures\wallachian_archer_hat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\revolution\wallachian_archer\textures\wallachian_archer_hat_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\revolution\wallachian_archer\textures\wallachian_archer_hat_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

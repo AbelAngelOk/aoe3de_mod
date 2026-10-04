@@ -1,0 +1,109 @@
+<!--
+  mod-minimal (Finlandia): voz del Colono. El Colono es un proto COMPARTIDO y su sonido se
+  resuelve por <civlogic> (rama por civ) en Sound/settler_snds.xml — "DEFinnish" no existe ahí
+  (civ nueva) -> quedaba mudo. Este archivo ADITIVO (_snds.mods.xml, root protounitsounddefmods)
+  agrega la rama DEFinnish reusando los MISMOS soundsets que ya usa "DESwedish" en el vanilla
+  (DESwedishSettlerMale*), ya que Finlandia es un clon de Suecia y comparte el mismo modelo de
+  Colono. Grunt/Death/Creation no llevan rama porque en el archivo vanilla esos soundtypes no
+  están detrás de civlogic (usan variationlogic/soundset genérico, civ-independientes).
+-->
+<protounitsounddefmods>
+  <protounit name="Settler">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="HOTHungary">
+          <soundset name="MMOttomanSettlerMaleSelect">
+          </soundset>
+        </choice>
+        <choice name="HGEHungary">
+          <soundset name="MMGermanSettlerMaleSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="HOTHungary">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMOttomanSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMOttomanSettlerMaleAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="MMOttomanSettlerMaleBuild">
+              </soundset>
+            </choice>
+            <choice name="Huntable">
+              <soundset name="MMOttomanSettlerMaleGatherMeat">
+              </soundset>
+            </choice>
+            <choice name="Tree">
+              <soundset name="MMOttomanSettlerMaleGatherWood">
+              </soundset>
+            </choice>
+            <choice name="AbstractMine">
+              <soundset name="MMOttomanSettlerMaleGatherCoin">
+              </soundset>
+            </choice>
+            <choice name="AbstractFarm">
+              <soundset name="MMOttomanSettlerMaleFarm">
+              </soundset>
+            </choice>
+            <choice name="AbstractResourceCrate">
+              <soundset name="MMOttomanSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="AbstractFruit">
+              <soundset name="MMOttomanSettlerMaleGatherFruit">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="HGEHungary">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMGermanSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMGermanSettlerMaleAttack">
+              </soundset>
+            </choice>
+            <choice name="build">
+              <soundset name="MMGermanSettlerMaleBuild">
+              </soundset>
+            </choice>
+            <choice name="Huntable">
+              <soundset name="MMGermanSettlerMaleGatherMeat">
+              </soundset>
+            </choice>
+            <choice name="Tree">
+              <soundset name="MMGermanSettlerMaleGatherWood">
+              </soundset>
+            </choice>
+            <choice name="AbstractMine">
+              <soundset name="MMGermanSettlerMaleGatherCoin">
+              </soundset>
+            </choice>
+            <choice name="AbstractFarm">
+              <soundset name="MMGermanSettlerMaleFarm">
+              </soundset>
+            </choice>
+            <choice name="AbstractResourceCrate">
+              <soundset name="MMGermanSettlerMaleAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="AbstractFruit">
+              <soundset name="MMGermanSettlerMaleGatherFruit">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

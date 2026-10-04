@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\attachment_holcan_shield\textures\attachment_holcan_shield_mata1_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\attachment_holcan_shield\textures\attachment_holcan_shield_mata1_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\attachment_holcan_shield\textures\attachment_holcan_shield_mata1_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\attachment_holcan_shield\textures\attachment_holcan_shield_mata1_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

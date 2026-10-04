@@ -1,0 +1,36 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\aztec\jaguar_knight\backup\textures\attachment_jaguar_shield_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\natives\aztec\jaguar_knight\backup\textures\attachment_jaguar_shield_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\natives\aztec\jaguar_knight\backup\textures\attachment_jaguar_shield_mata_masks">
+      </texture>
+      <texture name="Details" override="units\natives\aztec\jaguar_knight\backup\textures\attachment_jaguar_shield_mata_details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\natives\aztec\jaguar_knight\textures\jaguar_knight_elite_shield_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\natives\aztec\jaguar_knight\textures\jaguar_knight_elite_shield_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\natives\aztec\jaguar_knight\textures\attachment_jaguar_shield_mata_masks">
+      </texture>
+      <texture name="Details" override="units\natives\aztec\jaguar_knight\textures\jaguar_knight_elite_shield_mata_details">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\natives\aztec\jaguar_knight\textures\attachment_jaguar_shield_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\natives\aztec\jaguar_knight\textures\attachment_jaguar_shield_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\natives\aztec\jaguar_knight\textures\attachment_jaguar_shield_mata_masks">
+      </texture>
+      <texture name="Details" override="units\natives\aztec\jaguar_knight\textures\attachment_jaguar_shield_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

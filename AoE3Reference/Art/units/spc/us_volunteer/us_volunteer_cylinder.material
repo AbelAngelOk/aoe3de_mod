@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\us_volunteer\textures\us_volunteer_cylinder_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\us_volunteer\textures\us_volunteer_cylinder_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\us_volunteer\textures\us_volunteer_cylinder_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\us_volunteer\textures\us_volunteer_cylinder_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

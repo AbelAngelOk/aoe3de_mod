@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="effects\projectiles\bolas\textures\bolas_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="effects\projectiles\bolas\textures\bolas_mata_Normals">
+      </texture>
+      <texture name="Masks" override="effects\projectiles\bolas\textures\bolas_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

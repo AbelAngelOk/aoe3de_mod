@@ -42,28 +42,28 @@
     <disabled>ui\file_system\slider_arrow_down_disabled</disabled>
   </set>
   <set name="sliderRightBtn_18" texturecoords="0 0 0.5625 0.5625">
-    <normal>ui\file_system\slider_arrow_18_right</normal>
-    <depressed>ui\file_system\slider_arrow_18_right_clicked</depressed>
-    <highlight>ui\file_system\slider_arrow_18_right_rollover</highlight>
-    <disabled>ui\file_system\slider_arrow_18_right_disabled</disabled>
+    <normal>ui\editor\file_system\slider_arrow_18_right</normal>
+    <depressed>ui\editor\file_system\slider_arrow_18_right_clicked</depressed>
+    <highlight>ui\editor\file_system\slider_arrow_18_right_rollover</highlight>
+    <disabled>ui\editor\file_system\slider_arrow_18_right_disabled</disabled>
   </set>
   <set name="sliderLeftBtn_18" texturecoords="0 0 0.5625 0.5625">
-    <normal>ui\file_system\slider_arrow_18_left</normal>
-    <depressed>ui\file_system\slider_arrow_18_left_clicked</depressed>
-    <highlight>ui\file_system\slider_arrow_18_left_rollover</highlight>
-    <disabled>ui\file_system\slider_arrow_18_left_disabled</disabled>
+    <normal>ui\editor\file_system\slider_arrow_18_left</normal>
+    <depressed>ui\editor\file_system\slider_arrow_18_left_clicked</depressed>
+    <highlight>ui\editor\file_system\slider_arrow_18_left_rollover</highlight>
+    <disabled>ui\editor\file_system\slider_arrow_18_left_disabled</disabled>
   </set>
   <set name="sliderUpBtn_18" texturecoords="0 0 0.5625 0.5625">
-    <normal>ui\file_system\slider_arrow_18_up</normal>
-    <depressed>ui\file_system\slider_arrow_18_up_clicked</depressed>
-    <highlight>ui\file_system\slider_arrow_18_up_rollover</highlight>
-    <disabled>ui\file_system\slider_arrow_18_up_disabled</disabled>
+    <normal>ui\editor\file_system\slider_arrow_18_up</normal>
+    <depressed>ui\editor\file_system\slider_arrow_18_up_clicked</depressed>
+    <highlight>ui\editor\file_system\slider_arrow_18_up_rollover</highlight>
+    <disabled>ui\editor\file_system\slider_arrow_18_up_disabled</disabled>
   </set>
   <set name="sliderDownBtn_18" texturecoords="0 0 0.5625 0.5625">
-    <normal>ui\file_system\slider_arrow_18_down</normal>
-    <depressed>ui\file_system\slider_arrow_18_down_clicked</depressed>
-    <highlight>ui\file_system\slider_arrow_18_down_rollover</highlight>
-    <disabled>ui\file_system\slider_arrow_18_down_disabled</disabled>
+    <normal>ui\editor\file_system\slider_arrow_18_down</normal>
+    <depressed>ui\editor\file_system\slider_arrow_18_down_clicked</depressed>
+    <highlight>ui\editor\file_system\slider_arrow_18_down_rollover</highlight>
+    <disabled>ui\editor\file_system\slider_arrow_18_down_disabled</disabled>
   </set>
   <set name="defaultSliderRightBtn" bevel="">
     <normal>ui\core_ui\arrow_right</normal>

@@ -39,6 +39,13 @@
          FINAge0 en vez de un <train> estático aquí, porque Skirmisher es un proto COMPARTIDO
          con Francia/Holanda/Alemania/España — un <train> estático lo haría entrenable desde
          el TC de cualquier civ que tenga Skirmisher habilitado. -->
+    <!-- Cambio ITD-6 (arreglo Holanda Italiana): colono holandés propio (col 0, reemplaza al
+         Settler genérico) y colono italiano propio (col 1, libre — la col 1 nativa la usan
+         xpColonialMilitia/deREVPolishLancer, ninguno habilitado por esta civ). deArchitect
+         se reubica de su columna nativa (2, compartida con Envoy) a la 4 vía
+         CommandRemove/CommandAdd en ITDAge0, no acá. -->
+    <train row="0" page="0" column="0">ITDSettlerDutch</train>
+    <train row="0" page="0" column="1">ITDSettlerItalian</train>
   </Unit>
 
   <Unit mergeMode='modify' name="Barracks">
@@ -54,22 +61,9 @@
     <tech row="0" page="1" column="1">HUNImperialHajduk</tech>
     <!-- Cambio 10 (g): infantería desmontada (desbloqueada por la carta HUNCardMountedInf) -->
     <train row="0" page="0" column="2">HUNMountedInfantryFoot</train>
-    <!-- Cambio 16 (Finlandia): cuartel REDISEÑADO. Se vacía el roster sueco (Pikeman/
-         Carolean/Crossbowman + techs deshabilitados en FINAge0). Roster propio (Cambio 40):
-         Jaeger de Carelia (col 0, proto propio) + Jaeger de Savonia (col 1, MercJaeger real)
-         + Jaeger de Contraataque (col 2, consulado). -->
-    <train row="0" page="0" column="0">FINKarelianJaeger</train>
-    <train row="0" page="0" column="1">MercJaeger</train>
-    <train row="0" page="0" column="2">deConsulateCounterJaeger</train>
-    <!-- Cambio 43: mejoras del Carelio (col 0, 3 niveles II/III/IV, sin Imperial). -->
-    <tech row="0" page="1" column="0">FINKarelianJaegerTier2</tech>
-    <tech row="0" page="1" column="0">FINKarelianJaegerTier3</tech>
-    <tech row="0" page="1" column="0">FINKarelianJaegerTier4</tech>
-    <!-- Cambio 43: mejora de Savonia (col 1, un solo nivel Imperial +50%). -->
-    <tech row="0" page="1" column="1">FINImperialSavolaxJaeger</tech>
-    <!-- Cambio 43: mejoras del Jaeger de Contraataque (col 2), ahora solo 2 niveles. -->
-    <tech row="0" page="1" column="2">FINGuardCounterJaeger</tech>
-    <tech row="0" page="1" column="2">FINImperialCounterJaeger</tech>
+    <!-- Cambio 49 (Finlandia): el roster de Finlandia (Jaeger de Carelia/Savonia/
+         Contraataque) se mudó al Blocao (ver ese bloque más abajo) — Finlandia ya no
+         construye Cuartel. -->
     <!-- Cambio HOT/HGE-2: Grenzer propio (col 3), compartido por Hungría Otomana y
          Hungría Alemana. Pandur propio (col 5) SOLO para Hungría Alemana, en el
          mismo slot que usan Skirmisher/deAzap/Cacadore/deBersagliere (lo reemplaza). -->
@@ -84,6 +78,26 @@
     <!-- Cambio ITD-1 (Ítalo-Neerlandesa): Bersagliere propio (col 5, mismo slot que
          Guerrillero/deAzap/HUNPandur — lo reemplaza para esta civ). -->
     <train row="0" page="0" column="5">ITDBersagliere</train>
+    <!-- Cambio ARG-4 (arreglo Argentina): Gaucho Jujeño (ARGSpyGaucho, 100% propio, col 4
+         libre) y mejoras de Milicia Criolla/Patricio (col 1/2 — mismas columnas donde
+         Argentina ya reposiciona Criollo/Granadero vía CommandAdd en ARGAge0; las techs
+         quedan `unobtainable` para cualquier otra civ, así que el botón no se filtra). El
+         Gaucho Pampeano (deEmboscador real) se agrega vía CommandAdd en ARGAge0, no acá,
+         porque es un proto REAL compartido (ver aoe3-shared-proto-per-player-extend). -->
+    <train row="0" page="0" column="4">ARGSpyGaucho</train>
+    <tech row="0" page="1" column="1">ARGVeteranMiliciaCriolla</tech>
+    <tech row="0" page="1" column="1">ARGGuardMiliciaCriolla</tech>
+    <tech row="0" page="1" column="1">ARGImperialMiliciaCriolla</tech>
+    <tech row="0" page="1" column="2">ARGVeteranPatricio</tech>
+    <tech row="0" page="1" column="2">ARGGuardPatricio</tech>
+    <tech row="0" page="1" column="2">ARGImperialPatricio</tech>
+    <!-- Cambio HOS-2 (Caballeros Hospitalarios): Highlander propio (HOSHighlander, clon de
+         MercHighlander sin mecanismo de mercenario), columna 7 libre. Rodelero (real) no
+         necesita entrada acá — ya tiene columna nativa propia en el Barracks real (col 2,
+         se habilita directo en HOSAge0). -->
+    <train row="0" page="0" column="7">HOSHighlander</train>
+    <!-- Cambio BAR-2 (Estados Berberiscos): Pirata propio, columna 8 libre. -->
+    <train row="0" page="0" column="8">BARPirate</train>
   </Unit>
 
   <Unit mergeMode='modify' name="Blockhouse">
@@ -93,6 +107,37 @@
          (col 3) son protos reales, sin cambios. -->
     <train row="0" page="0" column="1">HUNHajduk</train>
     <train row="0" page="0" column="2">ROUDorobant</train>
+    <!-- Cambio ROU-6 (Rumania): mejoras del Blocao. Col 0 = Seimen (clones propios, la mejora
+         real Strelet queda unobtainable para esta civ). Col 1 = Hajduk (reusa las mejoras
+         húngaras HUNVeteranHajduk/Guard/Imperial, ya existentes). Col 2 = Dorobant (clones
+         propios nuevos). Col 3 = Vânător (clones propios, la mejora real deRussianHalberdier
+         queda unobtainable para esta civ). -->
+    <tech row="0" page="1" column="0">ROUVeteranSeimen</tech>
+    <tech row="0" page="1" column="0">ROUGuardSeimen</tech>
+    <tech row="0" page="1" column="0">ROUImperialSeimen</tech>
+    <tech row="0" page="1" column="1">HUNVeteranHajduk</tech>
+    <tech row="0" page="1" column="1">HUNGuardHajduk</tech>
+    <tech row="0" page="1" column="1">HUNImperialHajduk</tech>
+    <tech row="0" page="1" column="2">ROUVeteranDorobant</tech>
+    <tech row="0" page="1" column="2">ROUGuardDorobant</tech>
+    <tech row="0" page="1" column="2">ROUImperialDorobant</tech>
+    <tech row="0" page="1" column="3">ROUVeteranVanator</tech>
+    <tech row="0" page="1" column="3">ROUGuardVanator</tech>
+    <tech row="0" page="1" column="3">ROUImperialVanator</tech>
+    <!-- Cambio 49 (Finlandia): roster de infantería mudado acá desde el Cuartel (que
+         Finlandia ya no construye) — Jaeger de Carelia (col 0), Jaeger de Savonia (col 3),
+         Jaeger de Contraataque (col 4). Columnas elegidas libres de colisión: Rusia usa
+         0/1/2/3 con Strelet/Hajduk(Rumania)/Dorobant/Alabardero pero Finlandia nunca
+         habilita esos protos reales, así que no compiten por el mismo botón. -->
+    <train row="0" page="0" column="0">FINKarelianJaeger</train>
+    <train row="0" page="0" column="3">MercJaeger</train>
+    <train row="0" page="0" column="4">deConsulateCounterJaeger</train>
+    <tech row="0" page="1" column="0">FINKarelianJaegerTier2</tech>
+    <tech row="0" page="1" column="0">FINKarelianJaegerTier3</tech>
+    <tech row="0" page="1" column="0">FINKarelianJaegerTier4</tech>
+    <tech row="0" page="1" column="3">FINImperialSavolaxJaeger</tech>
+    <tech row="0" page="1" column="4">FINGuardCounterJaeger</tech>
+    <tech row="0" page="1" column="4">FINImperialCounterJaeger</tech>
   </Unit>
 
   <Unit mergeMode='modify' name="Stable">
@@ -114,17 +159,23 @@
     <tech row="0" page="1" column="3">FINImperialCounterDragoon</tech>
     <!-- Cambio ARG-3 (Argentina): Lancer real deshabilitado para Argentina (columna 1
          nativa) — se usa el clon propio ARGLancer en su lugar (mismo stats, modelo del
-         deRevolutionaryScout). Columnas 3 y 4: Gaucho a Caballo y Granadero a Caballo son
-         protos REALES (deREVGaucho/deREVGranadero, de la revolución de Argentina que ya
-         existe en el juego base para Italia) — no hacen falta clones propios. -->
+         deRevolutionaryScout). Columna 3: Gaucho Entrerriano (ex "Gaucho a Caballo") es un
+         proto REAL (deREVGaucho, de la revolución de Argentina que ya existe en el juego base
+         para Italia) — no hace falta clon propio. Granadero a Caballo (deREVGranadero) se
+         mudó a la Fundición/ArtilleryDepot (Cambio ARG-5, vía CommandAdd en ARGAge0) en vez
+         de quedarse acá. -->
     <train row="0" page="0" column="1">ARGLancer</train>
     <train row="0" page="0" column="3">deREVGaucho</train>
-    <train row="0" page="0" column="4">deREVGranadero</train>
-    <!-- Cambio ROU-1 (Rumania): Jinete Arquero de Valaquia propio (col 2, reemplaza al
-         Arquero a Caballo real) y Dragón Roshior propio (col 3, unidad nueva, visible pero
-         deshabilitada hasta Edad IV/Industrial). -->
-    <train row="0" page="0" column="2">ROUWallachianArcher</train>
-    <train row="0" page="0" column="3">ROURoshiorDragoon</train>
+    <!-- Cambio ROU-1 (Rumania, actualizado ROU-7): Jinete Arquero de Valaquia propio (col 1,
+         2da columna) y Dragón Roshior propio (col 2, visible pero deshabilitado hasta Edad
+         IV/Industrial). Ambos son protos 100% exclusivos de Rumania, así que su columna se
+         edita directo acá sin filtrar a otras civs. El Crabat (HUNCrabat, compartido con
+         Hungría/HOT/HGE) se reposiciona a la col 3 SOLO para Rumania vía CommandRemove+
+         CommandAdd en ROUAge0 (ver techtreemods.xml) para no chocar con estas dos columnas. -->
+    <train row="0" page="0" column="1">ROUWallachianArcher</train>
+    <train row="0" page="0" column="2">ROURoshiorDragoon</train>
+    <!-- Cambio FRA-2 (Francia Napoleónica): Fusilero Montado propio, columna 4 libre. -->
+    <train row="0" page="0" column="4">FRAMountedRifleman</train>
   </Unit>
 
   <Unit mergeMode='modify' name="ArtilleryDepot">
@@ -1683,7 +1734,16 @@
     <maxrunvelocity>6.0000</maxrunvelocity>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
-    <animfile>units\infantry_ranged\skirmisher\skirmisher.xml</animfile>
+    <!-- Cambio 49 (Finlandia): animfile PROPIO (no el Skirmisher compartido) — copia de
+         skirmisher.xml con el <component>ModelComp> fijado directo al modelo/textura real
+         del Jaeger de Carelia (cuerpo del Carolean de Edad IV, materialvariant 1 = textura
+         "jaeger" dedicada), sin el <logic type="Tech"> condicionado a la tech de revolución
+         DERevolutionFinland (que además de InitiateRevolution bloquea el avance de edad).
+         Así se ve siempre el modelo correcto sin pagar ese costo. Ver
+         mod-minimal/art/units/infantry_ranged/karelianjaeger/karelianjaeger.xml — depende de
+         que el mod pueda overridear Art/ con archivos sueltos igual que ya hace con Sound/;
+         PENDIENTE DE CONFIRMAR EN JUEGO (no probado, a diferencia del mecanismo de sound). -->
+    <animfile>units\infantry_ranged\karelianjaeger\karelianjaeger.xml</animfile>
     <impacttype>Flesh</impacttype>
     <physicsinfo>dude</physicsinfo>
     <icon>resources\art\units\revolution\karelian_jaeger_icon.png</icon>
@@ -1763,7 +1823,8 @@
     <train row="0" page="6" column="7">TradingPost</train>
     <train row="0" page="6" column="9">Bank</train>
     <train row="0" page="6" column="10">Church</train>
-    <train row="0" page="6" column="11">Barracks</train>
+    <!-- Cambio 49: Barracks fuera del panel — Finlandia ya no construye Cuartel, el Blocao
+         (col 6, ya listado arriba) cubre defensa + entrenamiento militar. -->
     <train row="0" page="6" column="12">Stable</train>
     <train row="0" page="6" column="13">ArtilleryDepot</train>
     <tactics>rifleman.tactics</tactics>
@@ -2023,6 +2084,175 @@
       <damagebonus type="AbstractInfantry">3.000000</damagebonus>
       <damagearea>3.000000</damagearea>
       <damageflags>Enemy</damageflags>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio ARG-4 (arreglo Argentina, pendiente REVISAR ESTE CAMBIO): "Gaucho Jujeño" es un
+       clon completo del Espía real (xpSpy, mismas stats/tactics/protoacciones base contra
+       Mercenario/Héroe) con el modelo/ícono real del Salteador/Vigilante mexicano
+       (deEmboscador — el mismo proto real, con nombre base "Salteador" que sube a "Vigilante"
+       en sus mejoras, ver DEVigilantes/DEImperialVigilantes en techtreey.xml). Se le suman
+       los multiplicadores x7 vs caballería pesada y x5 vs infantería de choque pedidos, y
+       (vía efectos de tech en ARGAge0, no acá) la capacidad de construir Cuarteles y Corrales
+       + recolectar de las vacas, igual que el resto de los Gauchos de esta civ. -->
+  <unit id="88883211" name="ARGSpyGaucho">
+    <dbid>88883211</dbid>
+    <displaynameid>88883040</displaynameid>
+    <editornameid>88883040</editornameid>
+    <populationcount>1</populationcount>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <stealthdiscoveryradius>2.0000</stealthdiscoveryradius>
+    <formationcategory>Body</formationcategory>
+    <maxvelocity>6.2500</maxvelocity>
+    <maxrunvelocity>8.2500</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\infantry_ranged\emboscador\emboscador.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\infantry_ranged\emboscador\emboscador_icon.png</icon>
+    <portraiticon>resources\art\units\infantry_ranged\emboscador\emboscador_portrait.png</portraiticon>
+    <rollovertextid>88883041</rollovertextid>
+    <shortrollovertextid>88883042</shortrollovertextid>
+    <initialhitpoints>150.0000</initialhitpoints>
+    <maxhitpoints>150.0000</maxhitpoints>
+    <los>28.0000</los>
+    <rechargetime>75.0000</rechargetime>
+    <auxrechargetime>45.0000</auxrechargetime>
+    <autoattackrange>20.0000</autoattackrange>
+    <unitaitype>Passive</unitaitype>
+    <trainpoints>20.0000</trainpoints>
+    <bounty>11.0000</bounty>
+    <buildbounty>11.0000</buildbounty>
+    <cost resourcetype="Gold">110.0000</cost>
+    <allowedage>1</allowedage>
+    <armor type="Ranged" value="0.2000">
+    </armor>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractHandInfantry</unittype>
+    <unittype>AbstractCanSeeStealth</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Military</unittype>
+    <unittype>Economic</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>VisibleUnderFogIfGaia</flag>
+    <flag>Tracked</flag>
+    <command page="9" column="0">ToggleStealth</command>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>spy.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>10.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>CoverBuildingAttack</name>
+      <damage>5.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>CoverHandAttack</name>
+      <damage>2.500000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Mercenary">20.000000</damagebonus>
+      <damagebonus type="Hero">40.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">7.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">5.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>DefendHandAttack</name>
+      <damage>5.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Mercenary">20.000000</damagebonus>
+      <damagebonus type="Hero">40.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">7.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">5.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>5.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Mercenary">20.000000</damagebonus>
+      <damagebonus type="Hero">40.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">7.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">5.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>ChargeCarbineAttack</name>
+      <damage>5.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>20.000000</maxrange>
+      <minrange>0.000000</minrange>
+      <rof>3.00000</rof>
+      <damagebonus type="Mercenary">15.00000</damagebonus>
+      <damagebonus type="Hero">35.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">7.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">5.000000</damagebonus>
+      <active>0</active>
+      <chargeaction>1</chargeaction>
+    </protoaction>
+    <protoaction>
+      <name>ChargePistolAttack</name>
+      <damage>20.000000</damage>
+      <damagetype>Hand</damagetype>
+      <damagetype>Ranged</damagetype>
+      <maxrange>12.000000</maxrange>
+      <minrange>0.000000</minrange>
+      <rof>3.000000</rof>
+      <damagebonus type="Mercenary">3.500000</damagebonus>
+      <damagebonus type="Hero">5.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">7.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">5.000000</damagebonus>
+      <active>0</active>
+      <auxchargeaction>1</auxchargeaction>
+    </protoaction>
+    <protoaction>
+      <name>RangedAttack</name>
+      <damage>15.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="Mercenary">3.500000</damagebonus>
+      <damagebonus type="Hero">5.000000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.500000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
+      <damagebonus type="AbstractVillager">0.500000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">7.000000</damagebonus>
+      <damagebonus type="AbstractRangedShockInfantry">5.000000</damagebonus>
     </protoaction>
   </unit>
 
@@ -2685,7 +2915,15 @@
     <maxrunvelocity>7.0000</maxrunvelocity>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
-    <animfile>units\infantry_ranged\colonial_militia\colonial_militia.xml</animfile>
+    <!-- Cambio ROU-8: modelo real del Dorobant de la revolución (variante de textura 4 +
+         gorro alto ruso propios, units\revolution\dorobant\*) en vez del miliciano genérico
+         base. El animfile real (colonial_militia.xml) solo activa esa variante bajo
+         <logic type="RevolutionCiv"> con la clave "derevromania" (identidad de jugador en
+         revolución, no una tech) — como Rumania es una civ normal (sin revolución), se usa un
+         animfile PROPIO con esa rama sin condición (siempre activa). EXPERIMENTAL: depende de
+         que el mod pueda overridear assets bajo art/ (igual que FINKarelianJaeger), sin
+         confirmar en juego. -->
+    <animfile>units\infantry_ranged\roudorobant\roudorobant.xml</animfile>
     <impacttype>Flesh</impacttype>
     <physicsinfo>dude</physicsinfo>
     <icon>resources\art\units\revolution\dorobant_icon.png</icon>
@@ -2702,7 +2940,7 @@
     <bounty>11.0000</bounty>
     <buildbounty>11.0000</buildbounty>
     <cost resourcetype="Food">40.0000</cost>
-    <cost resourcetype="Wood">10.0000</cost>
+    <cost resourcetype="Gold">10.0000</cost>
     <allowedage>1</allowedage>
     <armor type="Hand" value="0.3000">
     </armor>
@@ -2901,7 +3139,6 @@
       <targetlock>1</targetlock>
       <damagebonus type="AbstractVillager">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">2.250000</damagebonus>
     </protoaction>
     <protoaction>
@@ -2913,7 +3150,6 @@
       <targetlock>1</targetlock>
       <damagebonus type="AbstractVillager">0.500000</damagebonus>
       <damagebonus type="AbstractHeavyCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">2.250000</damagebonus>
     </protoaction>
     <protoaction>
@@ -2928,7 +3164,6 @@
       <damagetype>Hand</damagetype>
       <rof>1.000000</rof>
       <damagebonus type="AbstractHeavyCavalry">4.500000</damagebonus>
-      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">3.500000</damagebonus>
     </protoaction>
   </unit>
@@ -3022,8 +3257,9 @@
       <damagetype>Ranged</damagetype>
       <maxrange>12.000000</maxrange>
       <rof>3.000000</rof>
-      <damagebonus type="AbstractHeavyCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractArtillery">3.000000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">0.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">2.250000</damagebonus>
       <damagebonus type="AbstractVillager">0.500000</damagebonus>
     </protoaction>
@@ -3032,8 +3268,9 @@
       <damage>12.650000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
-      <damagebonus type="AbstractHeavyCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractArtillery">3.000000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">0.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">2.250000</damagebonus>
     </protoaction>
     <protoaction>
@@ -3042,8 +3279,9 @@
       <damagetype>Ranged</damagetype>
       <maxrange>12.000000</maxrange>
       <rof>3.000000</rof>
-      <damagebonus type="AbstractHeavyCavalry">3.000000</damagebonus>
-      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractHeavyCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractArtillery">3.000000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">0.000000</damagebonus>
       <damagebonus type="AbstractCoyoteMan">2.250000</damagebonus>
       <damagebonus type="AbstractVillager">0.500000</damagebonus>
     </protoaction>
@@ -3052,6 +3290,2016 @@
       <damage>32.200000</damage>
       <damagetype>Hand</damagetype>
       <rof>1.500000</rof>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio ITD-7 (arreglo Holanda Italiana): colono holandés propio (clon completo de
+       Settler, mismo menú de construcción embebido -Iglesia/Banco/Lombardo incluidos-, solo
+       cambia costo -100 oro, estilo holandés-, límite de construcción -35- e ícono real del
+       colono holandés deIconVillagerDutch). -->
+  <unit id="88887213" name="ITDSettlerDutch">
+    <dbid>88887213</dbid>
+    <displaynameid>88887240</displaynameid>
+    <editornameid>88887240</editornameid>
+    <populationcount>1</populationcount>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Protected</formationcategory>
+    <maxvelocity>4.0000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\villagers\villager.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\villagers\villager_dutch_icon.png</icon>
+    <portraiticon>resources\art\units\villagers\villager_dutch_portrait.png</portraiticon>
+    <selectionpriority>10</selectionpriority>
+    <rollovertextid>88887241</rollovertextid>
+    <shortrollovertextid>88887242</shortrollovertextid>
+    <initialhitpoints>150.0000</initialhitpoints>
+    <maxhitpoints>150.0000</maxhitpoints>
+    <los>14.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <unitaitype>Civilian</unitaitype>
+    <trainpoints>25.0000</trainpoints>
+    <buildlimit>35</buildlimit>
+    <bounty>10.0000</bounty>
+    <buildbounty>10.0000</buildbounty>
+    <cost resourcetype="Gold">100.0000</cost>
+    <carrycapacity resourcetype="Food">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Wood">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Influence">1.0000</carrycapacity>
+    <allowedage>0</allowedage>
+    <armor type="Hand" value="0.2000">
+    </armor>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeEasySelectAvoid</unittype>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeAffectedByTownBell</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeLandEconomy</unittype>
+    <unittype>LogicalTypeSettlerBuildLimit</unittype>
+    <unittype>LogicalTypeMalteseCivBonus</unittype>
+    <unittype>LogicalTypeMalteseCivBonusHealsWhenIdle</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Economic</unittype>
+    <unittype>EconomicUnit</unittype>
+    <unittype>AbstractVillager</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>CountsTowardEconomicScore</unittype>
+    <unittype>ValidIdleVillager</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AffectedByTownBell</unittype>
+    <unittype>CannotConvertHill</unittype>
+    <train row="0" page="6" column="1">deHouseInca</train>
+    <train row="0" page="6" column="12">deKallanka</train>
+    <train row="0" page="6" column="0">Manor</train>
+    <train row="0" page="6" column="17">Capitol</train>
+    <train row="0" page="6" column="17">deStateCapitol</train>
+    <train row="0" page="6" column="0">HouseEast</train>
+    <train row="0" page="6" column="0">HouseMed</train>
+    <train row="0" page="6" column="0">House</train>
+    <train row="0" page="6" column="0">deHouseAfrican</train>
+    <train row="0" page="6" column="0">deTorp</train>
+    <train row="0" page="6" column="18">TownCenter</train>
+    <train row="0" page="6" column="19">NativeEmbassy</train>
+    <train row="0" page="6" column="16">dePalace</train>
+    <train row="0" page="6" column="16">Saloon</train>
+    <train row="0" page="6" column="16">deTavern</train>
+    <train row="0" page="6" column="0">CommunityPlaza</train>
+    <train row="0" page="6" column="1">Teepee</train>
+    <train row="0" page="6" column="1">Longhouse</train>
+    <train row="0" page="6" column="1">HouseAztec</train>
+    <train row="0" page="255" column="1">WallStraight2</train>
+    <train row="0" page="255" column="1">WallStraight5</train>
+    <train row="0" page="6" column="2">Market</train>
+    <train row="0" page="6" column="2">deLivestockMarket</train>
+    <train row="0" page="6" column="3">Farm</train>
+    <train row="0" page="6" column="3">Mill</train>
+    <train row="0" page="6" column="3">deField</train>
+    <train row="0" page="6" column="3">deHacienda</train>
+    <train row="0" page="6" column="4">LivestockPen</train>
+    <train row="0" page="6" column="5">Dock</train>
+    <train row="0" page="6" column="5">dePort</train>
+    <train row="0" page="6" column="6">Outpost</train>
+    <train row="0" page="6" column="6">deTower</train>
+    <train row="0" page="6" column="6">Blockhouse</train>
+    <train row="0" page="6" column="7">TradingPost</train>
+    <train row="0" page="6" column="8">WallConnector</train>
+    <train row="0" page="6" column="9">Bank</train>
+    <train row="0" page="6" column="9">deLombard</train>
+    <train row="0" page="6" column="10">deMountainMonastery</train>
+    <train row="0" page="6" column="10">deUniversity</train>
+    <train row="0" page="6" column="10">Church</train>
+    <train row="0" page="6" column="10">deCathedral</train>
+    <train row="0" page="6" column="10">deBasilica</train>
+    <train row="0" page="6" column="11">WarHut</train>
+    <train row="0" page="6" column="11">Barracks</train>
+    <train row="0" page="6" column="11">deHospital</train>
+    <train row="0" page="6" column="11">deWarCamp</train>
+    <train row="0" page="6" column="12">Stable</train>
+    <train row="0" page="6" column="12">deCommandery</train>
+    <train row="0" page="6" column="12">Corral</train>
+    <train row="0" page="6" column="12">NoblesHut</train>
+    <train row="0" page="6" column="13">ArtilleryDepot</train>
+    <train row="0" page="6" column="14">Arsenal</train>
+    <train row="0" page="6" column="15">Plantation</train>
+    <train row="0" page="6" column="15">deGranary</train>
+    <train row="0" page="6" column="6">deBlockhouse</train>
+    <train row="0" page="255" column="0">ypWJGiantBuddha2</train>
+    <train row="0" page="255" column="0">ypWJGiantBuddha3</train>
+    <train row="0" page="255" column="0">ypWJGiantBuddha4</train>
+    <train row="0" page="255" column="0">ypWJGiantBuddha5</train>
+    <train row="0" page="255" column="0">ypWJGoldenPavillion2</train>
+    <train row="0" page="255" column="0">ypWJGoldenPavillion3</train>
+    <train row="0" page="255" column="0">ypWJGoldenPavillion4</train>
+    <train row="0" page="255" column="0">ypWJGoldenPavillion5</train>
+    <train row="0" page="255" column="0">ypWJShogunate2</train>
+    <train row="0" page="255" column="0">ypWJShogunate3</train>
+    <train row="0" page="255" column="0">ypWJShogunate4</train>
+    <train row="0" page="255" column="0">ypWJShogunate5</train>
+    <train row="0" page="255" column="0">ypWJToriiGates2</train>
+    <train row="0" page="255" column="0">ypWJToriiGates3</train>
+    <train row="0" page="255" column="0">ypWJToriiGates4</train>
+    <train row="0" page="255" column="0">ypWJToriiGates5</train>
+    <train row="0" page="255" column="0">ypWJToshoguShrine2</train>
+    <train row="0" page="255" column="0">ypWJToshoguShrine3</train>
+    <train row="0" page="255" column="0">ypWJToshoguShrine4</train>
+    <train row="0" page="255" column="0">ypWJToshoguShrine5</train>
+    <train row="0" page="255" column="0">ypWITowerOfVictory5</train>
+    <train row="0" page="255" column="0">ypWITowerOfVictory4</train>
+    <train row="0" page="255" column="0">ypWITowerOfVictory3</train>
+    <train row="0" page="255" column="0">ypWITowerOfVictory2</train>
+    <train row="0" page="255" column="0">ypWITajMahal5</train>
+    <train row="0" page="255" column="0">ypWITajMahal4</train>
+    <train row="0" page="255" column="0">ypWITajMahal3</train>
+    <train row="0" page="255" column="0">ypWITajMahal2</train>
+    <train row="0" page="255" column="0">ypWIKarniMata5</train>
+    <train row="0" page="255" column="0">ypWIKarniMata4</train>
+    <train row="0" page="255" column="0">ypWIKarniMata3</train>
+    <train row="0" page="255" column="0">ypWIKarniMata2</train>
+    <train row="0" page="255" column="0">ypWICharminarGate5</train>
+    <train row="0" page="255" column="0">ypWICharminarGate4</train>
+    <train row="0" page="255" column="0">ypWICharminarGate3</train>
+    <train row="0" page="255" column="0">ypWICharminarGate2</train>
+    <train row="0" page="255" column="0">ypWIAgraFort5</train>
+    <train row="0" page="255" column="0">ypWIAgraFort4</train>
+    <train row="0" page="255" column="0">ypWIAgraFort3</train>
+    <train row="0" page="255" column="0">ypWIAgraFort2</train>
+    <train row="0" page="255" column="0">ypWCWhitePagoda5</train>
+    <train row="0" page="255" column="0">ypWCWhitePagoda4</train>
+    <train row="0" page="255" column="0">ypWCWhitePagoda2</train>
+    <train row="0" page="255" column="0">ypWCWhitePagoda3</train>
+    <train row="0" page="255" column="0">ypWCTempleOfHeaven5</train>
+    <train row="0" page="255" column="0">ypWCTempleOfHeaven4</train>
+    <train row="0" page="255" column="0">ypWCTempleOfHeaven3</train>
+    <train row="0" page="255" column="0">ypWCTempleOfHeaven2</train>
+    <train row="0" page="255" column="0">ypWCSummerPalace5</train>
+    <train row="0" page="255" column="0">ypWCSummerPalace4</train>
+    <train row="0" page="255" column="0">ypWCSummerPalace3</train>
+    <train row="0" page="255" column="0">ypWCConfucianAcademy2</train>
+    <train row="0" page="255" column="0">ypWCConfucianAcademy3</train>
+    <train row="0" page="255" column="0">ypWCConfucianAcademy4</train>
+    <train row="0" page="255" column="0">ypWCConfucianAcademy5</train>
+    <train row="0" page="255" column="0">ypWCPorcelainTower2</train>
+    <train row="0" page="255" column="0">ypWCPorcelainTower3</train>
+    <train row="0" page="255" column="0">ypWCPorcelainTower4</train>
+    <train row="0" page="255" column="0">ypWCPorcelainTower5</train>
+    <train row="0" page="255" column="0">ypWCSummerPalace2</train>
+    <train row="0" page="6" column="11">ypWarAcademy</train>
+    <train row="0" page="6" column="0">ypVillage</train>
+    <train row="0" page="6" column="2">ypTradeMarketAsian</train>
+    <train row="0" page="6" column="12">ypStableJapanese</train>
+    <train row="0" page="6" column="0">ypShrineJapanese</train>
+    <train row="0" page="6" column="4">ypSacredField</train>
+    <train row="0" page="6" column="3">ypRicePaddy</train>
+    <train row="0" page="6" column="10">ypMonastery</train>
+    <train row="0" page="6" column="0">ypHouseIndian</train>
+    <train row="0" page="6" column="5">YPDockAsian</train>
+    <train row="0" page="6" column="14">ypConsulate</train>
+    <train row="0" page="6" column="6">ypCastle</train>
+    <train row="0" page="6" column="12">ypCaravanserai</train>
+    <train row="0" page="6" column="11">ypBarracksJapanese</train>
+    <train row="0" page="6" column="11">YPBarracksIndian</train>
+    <train row="0" page="6" column="4">deFurTrade</train>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToshoguShrine4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTowerOfVictory3</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianKarniMata5</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianAgra3</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseWhitePagoda3</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseWhitePagoda2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseShogunate4</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToriiGates3</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToshoguShrine5</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToriiGates4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTowerOfVictory5</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTajMahal2</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianCharminar5</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianAgra5</tech>
+    <tech row="0" page="1" column="0">YPWonderChinesePorcelainTower4</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGiantBuddha3</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGiantBuddha4</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGoldenPavillion2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGoldenPavillion3</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGoldenPavillion4</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGoldenPavillion5</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseShogunate2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToriiGates2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToshoguShrine3</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToshoguShrine2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToriiGates5</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTowerOfVictory4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTajMahal4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTajMahal3</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianKarniMata2</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianCharminar4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianCharminar3</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianAgra4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianAgra2</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseWhitePagoda5</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseWhitePagoda4</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseTempleOfHeaven4</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseTempleOfHeaven3</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseTempleOfHeaven2</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseSummerPalace5</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseSummerPalace4</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseSummerPalace3</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseSummerPalace2</tech>
+    <tech row="0" page="1" column="0">YPWonderChinesePorcelainTower5</tech>
+    <tech row="0" page="1" column="0">YPWonderChinesePorcelainTower3</tech>
+    <tech row="0" page="1" column="0">YPWonderChinesePorcelainTower2</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseConfucianAcademy5</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseConfucianAcademy4</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseConfucianAcademy3</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseShogunate3</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTowerOfVictory2</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTajMahal5</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianKarniMata4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianKarniMata3</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianCharminar2</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseTempleOfHeaven5</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseConfucianAcademy2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGiantBuddha2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGiantBuddha5</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseShogunate5</tech>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>DeadReplacementWhenDestroyed</flag>
+    <flag>VisibleUnderFogIfGaia</flag>
+    <flag>Tracked</flag>
+    <flag>SettlerBuildLimit</flag>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="7">Delete</command>
+    <tactics>settler.tactics</tactics>
+    <protoaction>
+      <name>AutoGatherTrade</name>
+      <type>AutoGather</type>
+      <rate type="Trade">0.030000</rate>
+    </protoaction>
+    <protoaction>
+      <name>SpearAttack</name>
+      <damage>3.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>12.000000</maxrange>
+      <typedminrange type="Huntable">0</typedminrange>
+      <typedmaxrange type="Huntable">12</typedmaxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="Huntable">4.000000</damagebonus>
+      <damagebonus type="AbstractPet">2.000000</damagebonus>
+      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.500000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>BlunderbussAttack</name>
+      <damage>3.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>12.000000</maxrange>
+      <typedminrange type="Huntable">0</typedminrange>
+      <typedmaxrange type="Huntable">12</typedmaxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="Huntable">4.000000</damagebonus>
+      <damagebonus type="AbstractPet">2.000000</damagebonus>
+      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.500000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>Build</name>
+      <rate type="Building">1.000000</rate>
+      <rate type="Manor">1.000000</rate>
+      <rate type="House">1.000000</rate>
+      <rate type="Church">1.000000</rate>
+      <rate type="deField">1.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>5.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractResourceEnclosure">3.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>ChopAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+    </protoaction>
+    <protoaction>
+      <name>CrateGather</name>
+      <rate type="AbstractResourceCrate">8.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="Tree">0.500000</rate>
+      <rate type="AbstractMine">0.600000</rate>
+      <rate type="Plantation">0.500000</rate>
+      <rate type="Herdable">2.000000</rate>
+      <rate type="Huntable">0.840000</rate>
+      <rate type="AbstractBerryBush">0.670000</rate>
+      <rate type="Farm">0.500000</rate>
+      <rate type="Mill">0.670000</rate>
+      <rate type="ypRicePaddy" resource="Food">0.500000</rate>
+      <rate type="AbstractTradeMarket">1.500000</rate>
+      <rate type="ypBerryBuilding">0.670000</rate>
+      <rate type="ypRicePaddy" resource="Gold">0.340000</rate>
+      <rate type="ypGroveBuilding">0.500000</rate>
+      <rate type="deFurTrade" yield="1.100000">0.600000</rate>
+      <rate type="AbstractInfiniteCrate">8.000000</rate>
+      <rate type="deTorpBush2">0.670000</rate>
+      <rate type="AbstractMountainMonastery">0.600000</rate>
+      <rate type="deField" resource="Food">0.500000</rate>
+      <rate type="deField" resource="Gold">0.377000</rate>
+      <rate type="deField" resource="Wood">0.34000</rate>
+      <rate type="deField" resource="Influence">0.340000</rate>
+      <rate type="deHacienda">0.500000</rate>
+      <rate type="deHacienda" resource="Food">0.500000</rate>
+      <rate type="deHacienda" resource="Gold">0.340000</rate>
+      <rate type="deHacienda" resource="Wood">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>HandAttack</name>
+      <damage>10.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Llama">5.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HandAttackCrate</name>
+      <damage>10.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+    </protoaction>
+    <protoaction>
+      <name>Hunting</name>
+      <rate type="Herdable">1.000000</rate>
+      <rate type="Huntable">1.000000</rate>
+      <rate type="Tree">1.000000</rate>
+    </protoaction>
+  </unit>
+  <!-- Colono italiano propio (mismo clon, costo 100 comida sin oro -como el Settler base-,
+       límite 35, sin ícono propio real disponible -no existe deIconVillagerItalian en el
+       juego-, usa el ícono genérico de colono). -->
+  <unit id="88887214" name="ITDSettlerItalian">
+    <dbid>88887214</dbid>
+    <displaynameid>88887250</displaynameid>
+    <editornameid>88887250</editornameid>
+    <populationcount>1</populationcount>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Protected</formationcategory>
+    <maxvelocity>4.0000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\villagers\villager.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\villagers\villager_icon.png</icon>
+    <portraiticon>resources\art\units\villagers\villager_portrait.png</portraiticon>
+    <selectionpriority>10</selectionpriority>
+    <rollovertextid>88887251</rollovertextid>
+    <shortrollovertextid>88887252</shortrollovertextid>
+    <initialhitpoints>150.0000</initialhitpoints>
+    <maxhitpoints>150.0000</maxhitpoints>
+    <los>14.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <unitaitype>Civilian</unitaitype>
+    <trainpoints>25.0000</trainpoints>
+    <buildlimit>35</buildlimit>
+    <bounty>10.0000</bounty>
+    <buildbounty>10.0000</buildbounty>
+    <cost resourcetype="Food">100.0000</cost>
+    <carrycapacity resourcetype="Food">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Wood">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Influence">1.0000</carrycapacity>
+    <allowedage>0</allowedage>
+    <armor type="Hand" value="0.2000">
+    </armor>
+    <unittype>LogicalTypeMinimapFilterEconomic</unittype>
+    <unittype>LogicalTypeEasySelectAvoid</unittype>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeAffectedByTownBell</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeLandEconomy</unittype>
+    <unittype>LogicalTypeSettlerBuildLimit</unittype>
+    <unittype>LogicalTypeMalteseCivBonus</unittype>
+    <unittype>LogicalTypeMalteseCivBonusHealsWhenIdle</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Economic</unittype>
+    <unittype>EconomicUnit</unittype>
+    <unittype>AbstractVillager</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>CountsTowardEconomicScore</unittype>
+    <unittype>ValidIdleVillager</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AffectedByTownBell</unittype>
+    <unittype>CannotConvertHill</unittype>
+    <train row="0" page="6" column="1">deHouseInca</train>
+    <train row="0" page="6" column="12">deKallanka</train>
+    <train row="0" page="6" column="0">Manor</train>
+    <train row="0" page="6" column="17">Capitol</train>
+    <train row="0" page="6" column="17">deStateCapitol</train>
+    <train row="0" page="6" column="0">HouseEast</train>
+    <train row="0" page="6" column="0">HouseMed</train>
+    <train row="0" page="6" column="0">House</train>
+    <train row="0" page="6" column="0">deHouseAfrican</train>
+    <train row="0" page="6" column="0">deTorp</train>
+    <train row="0" page="6" column="18">TownCenter</train>
+    <train row="0" page="6" column="19">NativeEmbassy</train>
+    <train row="0" page="6" column="16">dePalace</train>
+    <train row="0" page="6" column="16">Saloon</train>
+    <train row="0" page="6" column="16">deTavern</train>
+    <train row="0" page="6" column="0">CommunityPlaza</train>
+    <train row="0" page="6" column="1">Teepee</train>
+    <train row="0" page="6" column="1">Longhouse</train>
+    <train row="0" page="6" column="1">HouseAztec</train>
+    <train row="0" page="255" column="1">WallStraight2</train>
+    <train row="0" page="255" column="1">WallStraight5</train>
+    <train row="0" page="6" column="2">Market</train>
+    <train row="0" page="6" column="2">deLivestockMarket</train>
+    <train row="0" page="6" column="3">Farm</train>
+    <train row="0" page="6" column="3">Mill</train>
+    <train row="0" page="6" column="3">deField</train>
+    <train row="0" page="6" column="3">deHacienda</train>
+    <train row="0" page="6" column="4">LivestockPen</train>
+    <train row="0" page="6" column="5">Dock</train>
+    <train row="0" page="6" column="5">dePort</train>
+    <train row="0" page="6" column="6">Outpost</train>
+    <train row="0" page="6" column="6">deTower</train>
+    <train row="0" page="6" column="6">Blockhouse</train>
+    <train row="0" page="6" column="7">TradingPost</train>
+    <train row="0" page="6" column="8">WallConnector</train>
+    <train row="0" page="6" column="9">Bank</train>
+    <train row="0" page="6" column="9">deLombard</train>
+    <train row="0" page="6" column="10">deMountainMonastery</train>
+    <train row="0" page="6" column="10">deUniversity</train>
+    <train row="0" page="6" column="10">Church</train>
+    <train row="0" page="6" column="10">deCathedral</train>
+    <train row="0" page="6" column="10">deBasilica</train>
+    <train row="0" page="6" column="11">WarHut</train>
+    <train row="0" page="6" column="11">Barracks</train>
+    <train row="0" page="6" column="11">deHospital</train>
+    <train row="0" page="6" column="11">deWarCamp</train>
+    <train row="0" page="6" column="12">Stable</train>
+    <train row="0" page="6" column="12">deCommandery</train>
+    <train row="0" page="6" column="12">Corral</train>
+    <train row="0" page="6" column="12">NoblesHut</train>
+    <train row="0" page="6" column="13">ArtilleryDepot</train>
+    <train row="0" page="6" column="14">Arsenal</train>
+    <train row="0" page="6" column="15">Plantation</train>
+    <train row="0" page="6" column="15">deGranary</train>
+    <train row="0" page="6" column="6">deBlockhouse</train>
+    <train row="0" page="255" column="0">ypWJGiantBuddha2</train>
+    <train row="0" page="255" column="0">ypWJGiantBuddha3</train>
+    <train row="0" page="255" column="0">ypWJGiantBuddha4</train>
+    <train row="0" page="255" column="0">ypWJGiantBuddha5</train>
+    <train row="0" page="255" column="0">ypWJGoldenPavillion2</train>
+    <train row="0" page="255" column="0">ypWJGoldenPavillion3</train>
+    <train row="0" page="255" column="0">ypWJGoldenPavillion4</train>
+    <train row="0" page="255" column="0">ypWJGoldenPavillion5</train>
+    <train row="0" page="255" column="0">ypWJShogunate2</train>
+    <train row="0" page="255" column="0">ypWJShogunate3</train>
+    <train row="0" page="255" column="0">ypWJShogunate4</train>
+    <train row="0" page="255" column="0">ypWJShogunate5</train>
+    <train row="0" page="255" column="0">ypWJToriiGates2</train>
+    <train row="0" page="255" column="0">ypWJToriiGates3</train>
+    <train row="0" page="255" column="0">ypWJToriiGates4</train>
+    <train row="0" page="255" column="0">ypWJToriiGates5</train>
+    <train row="0" page="255" column="0">ypWJToshoguShrine2</train>
+    <train row="0" page="255" column="0">ypWJToshoguShrine3</train>
+    <train row="0" page="255" column="0">ypWJToshoguShrine4</train>
+    <train row="0" page="255" column="0">ypWJToshoguShrine5</train>
+    <train row="0" page="255" column="0">ypWITowerOfVictory5</train>
+    <train row="0" page="255" column="0">ypWITowerOfVictory4</train>
+    <train row="0" page="255" column="0">ypWITowerOfVictory3</train>
+    <train row="0" page="255" column="0">ypWITowerOfVictory2</train>
+    <train row="0" page="255" column="0">ypWITajMahal5</train>
+    <train row="0" page="255" column="0">ypWITajMahal4</train>
+    <train row="0" page="255" column="0">ypWITajMahal3</train>
+    <train row="0" page="255" column="0">ypWITajMahal2</train>
+    <train row="0" page="255" column="0">ypWIKarniMata5</train>
+    <train row="0" page="255" column="0">ypWIKarniMata4</train>
+    <train row="0" page="255" column="0">ypWIKarniMata3</train>
+    <train row="0" page="255" column="0">ypWIKarniMata2</train>
+    <train row="0" page="255" column="0">ypWICharminarGate5</train>
+    <train row="0" page="255" column="0">ypWICharminarGate4</train>
+    <train row="0" page="255" column="0">ypWICharminarGate3</train>
+    <train row="0" page="255" column="0">ypWICharminarGate2</train>
+    <train row="0" page="255" column="0">ypWIAgraFort5</train>
+    <train row="0" page="255" column="0">ypWIAgraFort4</train>
+    <train row="0" page="255" column="0">ypWIAgraFort3</train>
+    <train row="0" page="255" column="0">ypWIAgraFort2</train>
+    <train row="0" page="255" column="0">ypWCWhitePagoda5</train>
+    <train row="0" page="255" column="0">ypWCWhitePagoda4</train>
+    <train row="0" page="255" column="0">ypWCWhitePagoda2</train>
+    <train row="0" page="255" column="0">ypWCWhitePagoda3</train>
+    <train row="0" page="255" column="0">ypWCTempleOfHeaven5</train>
+    <train row="0" page="255" column="0">ypWCTempleOfHeaven4</train>
+    <train row="0" page="255" column="0">ypWCTempleOfHeaven3</train>
+    <train row="0" page="255" column="0">ypWCTempleOfHeaven2</train>
+    <train row="0" page="255" column="0">ypWCSummerPalace5</train>
+    <train row="0" page="255" column="0">ypWCSummerPalace4</train>
+    <train row="0" page="255" column="0">ypWCSummerPalace3</train>
+    <train row="0" page="255" column="0">ypWCConfucianAcademy2</train>
+    <train row="0" page="255" column="0">ypWCConfucianAcademy3</train>
+    <train row="0" page="255" column="0">ypWCConfucianAcademy4</train>
+    <train row="0" page="255" column="0">ypWCConfucianAcademy5</train>
+    <train row="0" page="255" column="0">ypWCPorcelainTower2</train>
+    <train row="0" page="255" column="0">ypWCPorcelainTower3</train>
+    <train row="0" page="255" column="0">ypWCPorcelainTower4</train>
+    <train row="0" page="255" column="0">ypWCPorcelainTower5</train>
+    <train row="0" page="255" column="0">ypWCSummerPalace2</train>
+    <train row="0" page="6" column="11">ypWarAcademy</train>
+    <train row="0" page="6" column="0">ypVillage</train>
+    <train row="0" page="6" column="2">ypTradeMarketAsian</train>
+    <train row="0" page="6" column="12">ypStableJapanese</train>
+    <train row="0" page="6" column="0">ypShrineJapanese</train>
+    <train row="0" page="6" column="4">ypSacredField</train>
+    <train row="0" page="6" column="3">ypRicePaddy</train>
+    <train row="0" page="6" column="10">ypMonastery</train>
+    <train row="0" page="6" column="0">ypHouseIndian</train>
+    <train row="0" page="6" column="5">YPDockAsian</train>
+    <train row="0" page="6" column="14">ypConsulate</train>
+    <train row="0" page="6" column="6">ypCastle</train>
+    <train row="0" page="6" column="12">ypCaravanserai</train>
+    <train row="0" page="6" column="11">ypBarracksJapanese</train>
+    <train row="0" page="6" column="11">YPBarracksIndian</train>
+    <train row="0" page="6" column="4">deFurTrade</train>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToshoguShrine4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTowerOfVictory3</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianKarniMata5</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianAgra3</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseWhitePagoda3</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseWhitePagoda2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseShogunate4</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToriiGates3</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToshoguShrine5</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToriiGates4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTowerOfVictory5</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTajMahal2</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianCharminar5</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianAgra5</tech>
+    <tech row="0" page="1" column="0">YPWonderChinesePorcelainTower4</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGiantBuddha3</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGiantBuddha4</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGoldenPavillion2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGoldenPavillion3</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGoldenPavillion4</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGoldenPavillion5</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseShogunate2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToriiGates2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToshoguShrine3</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToshoguShrine2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseToriiGates5</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTowerOfVictory4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTajMahal4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTajMahal3</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianKarniMata2</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianCharminar4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianCharminar3</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianAgra4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianAgra2</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseWhitePagoda5</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseWhitePagoda4</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseTempleOfHeaven4</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseTempleOfHeaven3</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseTempleOfHeaven2</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseSummerPalace5</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseSummerPalace4</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseSummerPalace3</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseSummerPalace2</tech>
+    <tech row="0" page="1" column="0">YPWonderChinesePorcelainTower5</tech>
+    <tech row="0" page="1" column="0">YPWonderChinesePorcelainTower3</tech>
+    <tech row="0" page="1" column="0">YPWonderChinesePorcelainTower2</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseConfucianAcademy5</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseConfucianAcademy4</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseConfucianAcademy3</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseShogunate3</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTowerOfVictory2</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianTajMahal5</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianKarniMata4</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianKarniMata3</tech>
+    <tech row="0" page="1" column="0">YPWonderIndianCharminar2</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseTempleOfHeaven5</tech>
+    <tech row="0" page="1" column="0">YPWonderChineseConfucianAcademy2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGiantBuddha2</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseGiantBuddha5</tech>
+    <tech row="0" page="1" column="0">YPWonderJapaneseShogunate5</tech>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>DeadReplacementWhenDestroyed</flag>
+    <flag>VisibleUnderFogIfGaia</flag>
+    <flag>Tracked</flag>
+    <flag>SettlerBuildLimit</flag>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="7">Delete</command>
+    <tactics>settler.tactics</tactics>
+    <protoaction>
+      <name>AutoGatherTrade</name>
+      <type>AutoGather</type>
+      <rate type="Trade">0.030000</rate>
+    </protoaction>
+    <protoaction>
+      <name>SpearAttack</name>
+      <damage>3.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>12.000000</maxrange>
+      <typedminrange type="Huntable">0</typedminrange>
+      <typedmaxrange type="Huntable">12</typedmaxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="Huntable">4.000000</damagebonus>
+      <damagebonus type="AbstractPet">2.000000</damagebonus>
+      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.500000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>BlunderbussAttack</name>
+      <damage>3.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>2.000000</minrange>
+      <maxrange>12.000000</maxrange>
+      <typedminrange type="Huntable">0</typedminrange>
+      <typedmaxrange type="Huntable">12</typedmaxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="Huntable">4.000000</damagebonus>
+      <damagebonus type="AbstractPet">2.000000</damagebonus>
+      <damagebonus type="AbstractArtillery">2.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.500000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>Build</name>
+      <rate type="Building">1.000000</rate>
+      <rate type="Manor">1.000000</rate>
+      <rate type="House">1.000000</rate>
+      <rate type="Church">1.000000</rate>
+      <rate type="deField">1.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>5.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractResourceEnclosure">3.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>ChopAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+    </protoaction>
+    <protoaction>
+      <name>CrateGather</name>
+      <rate type="AbstractResourceCrate">8.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="Tree">0.500000</rate>
+      <rate type="AbstractMine">0.600000</rate>
+      <rate type="Plantation">0.500000</rate>
+      <rate type="Herdable">2.000000</rate>
+      <rate type="Huntable">0.840000</rate>
+      <rate type="AbstractBerryBush">0.670000</rate>
+      <rate type="Farm">0.500000</rate>
+      <rate type="Mill">0.670000</rate>
+      <rate type="ypRicePaddy" resource="Food">0.500000</rate>
+      <rate type="AbstractTradeMarket">1.500000</rate>
+      <rate type="ypBerryBuilding">0.670000</rate>
+      <rate type="ypRicePaddy" resource="Gold">0.340000</rate>
+      <rate type="ypGroveBuilding">0.500000</rate>
+      <rate type="deFurTrade" yield="1.100000">0.600000</rate>
+      <rate type="AbstractInfiniteCrate">8.000000</rate>
+      <rate type="deTorpBush2">0.670000</rate>
+      <rate type="AbstractMountainMonastery">0.600000</rate>
+      <rate type="deField" resource="Food">0.500000</rate>
+      <rate type="deField" resource="Gold">0.377000</rate>
+      <rate type="deField" resource="Wood">0.34000</rate>
+      <rate type="deField" resource="Influence">0.340000</rate>
+      <rate type="deHacienda">0.500000</rate>
+      <rate type="deHacienda" resource="Food">0.500000</rate>
+      <rate type="deHacienda" resource="Gold">0.340000</rate>
+      <rate type="deHacienda" resource="Wood">0.500000</rate>
+    </protoaction>
+    <protoaction>
+      <name>HandAttack</name>
+      <damage>10.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Llama">5.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HandAttackCrate</name>
+      <damage>10.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+    </protoaction>
+    <protoaction>
+      <name>Hunting</name>
+      <rate type="Herdable">1.000000</rate>
+      <rate type="Huntable">1.000000</rate>
+      <rate type="Tree">1.000000</rate>
+    </protoaction>
+  </unit>
+  <!-- Explorador holandés propio (clon completo de Explorer, sin ícono/skin propio real
+       disponible para Holanda -usa el genérico-). -->
+  <unit id="88887215" name="ITDExplorerDutch">
+    <dbid>88887215</dbid>
+    <displaynameid>88887260</displaynameid>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Body</formationcategory>
+    <maxvelocity>4.5000</maxvelocity>
+    <maxrunvelocity>6.5000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\explorers\explorer.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <icon>resources\art\units\explorers\explorer_portrait.png</icon>
+    <minimapicon>ui\minimap\hero</minimapicon>
+    <portraiticon>resources\art\units\explorers\explorer_portrait.png</portraiticon>
+    <selectionpriority>5</selectionpriority>
+    <rollovertextid>88887261</rollovertextid>
+    <shortrollovertextid>88887262</shortrollovertextid>
+    <initialhitpoints>400.0000</initialhitpoints>
+    <maxhitpoints>400.0000</maxhitpoints>
+    <los>18.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <autoattackrange>16.0000</autoattackrange>
+    <unitaitype>RangedCombative</unitaitype>
+    <bounty>45.0000</bounty>
+    <cost resourcetype="Gold">100.0000</cost>
+    <allowedage>0</allowedage>
+    <armor type="Ranged" value="0.1000">
+    </armor>
+    <carrycapacity resourcetype="Food">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Wood">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">1.0000</carrycapacity>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Military</unittype>
+    <unittype>Hero</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>AbstractCanSeeStealth</unittype>
+    <train row="0" page="6" column="1">TradingPost</train>
+    <train row="0" page="6" column="0">TownCenter</train>
+    <train row="0" page="6" column="3">NatBlowgunAmbusher</train>
+    <train row="0" page="6" column="3">Envoy</train>
+    <train row="0" page="6" column="2">WarDog</train>
+    <train row="0" page="6" column="4">NatClubmanLoyal</train>
+    <train row="0" page="6" column="5">PetCougar</train>
+    <flag>HeroName2</flag>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>KnockoutDeath</flag>
+    <flag>RotateInPlace</flag>
+    <flag>NotDeleteable</flag>
+    <flag>ForceBuildingData</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>explorer.tactics</tactics>
+    <protoaction>
+      <name>Build</name>
+      <rate type="TradingPost">3.000000</rate>
+      <rate type="TownCenter">1.000000</rate>
+      <rate type="FieldHospital">3.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>15.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+      <damagebonus type="Building">1.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>CrackshotAttack</name>
+      <damage>475.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="MercType2">0.010000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HandAttack</name>
+      <damage>6.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HandAttackCrate</name>
+      <damage>10.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+    </protoaction>
+    <protoaction>
+      <name>Heal</name>
+      <rate type="LogicalTypeHealed">50.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>SharpshooterAttack</name>
+      <damage>750.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>SwashbucklerAttack</name>
+      <damage>100.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagecap>200.000000</damagecap>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+      <damagearea>3.000000</damagearea>
+      <damageflags>GAIAEnemy</damageflags>
+      <damagebonus type="MercType2">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HeavyHandAttack</name>
+      <damage>30.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagebonus type="Guardian">20.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>12.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>CrateGather</name>
+      <rate type="AbstractResourceCrate">4.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="AbstractInfiniteCrate">4.000000</rate>
+    </protoaction>
+  </unit>
+  <!-- Explorador italiano propio (clon completo de Explorer, ícono real
+       explorer_italian_centurion.png -el mismo skin "Centurión" que usa Italia en el
+       juego base-). -->
+  <unit id="88887216" name="ITDExplorerItalian">
+    <dbid>88887216</dbid>
+    <displaynameid>88887270</displaynameid>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Body</formationcategory>
+    <maxvelocity>4.5000</maxvelocity>
+    <maxrunvelocity>6.5000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\explorers\explorer.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <icon>resources\art\units\explorers\explorer_italian_centurion.png</icon>
+    <minimapicon>ui\minimap\hero</minimapicon>
+    <portraiticon>resources\art\units\explorers\explorer_italian_centurion.png</portraiticon>
+    <selectionpriority>5</selectionpriority>
+    <rollovertextid>88887271</rollovertextid>
+    <shortrollovertextid>88887272</shortrollovertextid>
+    <initialhitpoints>400.0000</initialhitpoints>
+    <maxhitpoints>400.0000</maxhitpoints>
+    <los>18.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <autoattackrange>16.0000</autoattackrange>
+    <unitaitype>RangedCombative</unitaitype>
+    <bounty>45.0000</bounty>
+    <cost resourcetype="Gold">100.0000</cost>
+    <allowedage>0</allowedage>
+    <armor type="Ranged" value="0.1000">
+    </armor>
+    <carrycapacity resourcetype="Food">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Wood">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">1.0000</carrycapacity>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Military</unittype>
+    <unittype>Hero</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>AbstractCanSeeStealth</unittype>
+    <train row="0" page="6" column="1">TradingPost</train>
+    <train row="0" page="6" column="0">TownCenter</train>
+    <train row="0" page="6" column="3">NatBlowgunAmbusher</train>
+    <train row="0" page="6" column="3">Envoy</train>
+    <train row="0" page="6" column="2">WarDog</train>
+    <train row="0" page="6" column="4">NatClubmanLoyal</train>
+    <train row="0" page="6" column="5">PetCougar</train>
+    <flag>HeroName2</flag>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>KnockoutDeath</flag>
+    <flag>RotateInPlace</flag>
+    <flag>NotDeleteable</flag>
+    <flag>ForceBuildingData</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>explorer.tactics</tactics>
+    <protoaction>
+      <name>Build</name>
+      <rate type="TradingPost">3.000000</rate>
+      <rate type="TownCenter">1.000000</rate>
+      <rate type="FieldHospital">3.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>15.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+      <damagebonus type="Building">1.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>CrackshotAttack</name>
+      <damage>475.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="MercType2">0.010000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HandAttack</name>
+      <damage>6.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HandAttackCrate</name>
+      <damage>10.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+    </protoaction>
+    <protoaction>
+      <name>Heal</name>
+      <rate type="LogicalTypeHealed">50.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>SharpshooterAttack</name>
+      <damage>750.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>SwashbucklerAttack</name>
+      <damage>100.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagecap>200.000000</damagecap>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+      <damagearea>3.000000</damagearea>
+      <damageflags>GAIAEnemy</damageflags>
+      <damagebonus type="MercType2">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HeavyHandAttack</name>
+      <damage>30.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagebonus type="Guardian">20.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>12.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>CrateGather</name>
+      <rate type="AbstractResourceCrate">4.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="AbstractInfiniteCrate">4.000000</rate>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio HOS-2 (Caballeros Hospitalarios): Highlander propio. Clon de MercHighlander
+       real SIN el mecanismo de mercenario (quitados Mercenary/FortressMercenary/
+       LogicalTypePickableMerc/LogicalTypePickableMercOutlaw) — mismo patrón que
+       HUNHajduk/HUNCrabat/HUNPandur. Stats/animfile/costo (200 oro) idénticos al real. -->
+  <unit id="88889201" name="HOSHighlander">
+    <dbid>88889201</dbid>
+    <displaynameid>88889220</displaynameid>
+    <editornameid>88889220</editornameid>
+    <populationcount>2</populationcount>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Ranged</formationcategory>
+    <maxvelocity>4.0000</maxvelocity>
+    <maxrunvelocity>6.0000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\mercenaries\highlander\highlander.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\mercenaries\highlander\highlander_icon.png</icon>
+    <portraiticon>resources\art\units\mercenaries\highlander\highlander_portrait.png</portraiticon>
+    <rollovertextid>88889221</rollovertextid>
+    <shortrollovertextid>88889222</shortrollovertextid>
+    <initialhitpoints>400.0000</initialhitpoints>
+    <maxhitpoints>400.0000</maxhitpoints>
+    <los>16.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <unitaitype>RangedCombative</unitaitype>
+    <trainpoints>40.0000</trainpoints>
+    <bounty>20.0000</bounty>
+    <buildbounty>20.0000</buildbounty>
+    <cost resourcetype="Gold">200.0000</cost>
+    <allowedage>2</allowedage>
+    <armor type="Hand" value="0.4000">
+    </armor>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>Military</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Unit</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>AbstractHeavyInfantry</unittype>
+    <unittype>AbstractMusketeer</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>musketBayonet.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>40.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>DefendHandAttack</name>
+      <damage>32.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">1.500000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>DefendRangedAttack</name>
+      <damage>63.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>32.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">1.500000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerHandAttack</name>
+      <damage>32.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">1.500000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerRangedAttack</name>
+      <damage>63.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>VolleyHandAttack</name>
+      <damage>32.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractCavalry">2.000000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">1.500000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>63.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>12.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio HOS-3 (Caballeros Hospitalarios): "Morgan Black" en vez de Explorador. Clon
+       COMPLETO del héroe real deGrandMaster (Explorador de Malta — mismas stats/tactics/
+       comandos de construcción/habilidades: bandera inspiradora, carga de carabina, golpe
+       pesado) con el modelo/ícono REAL del héroe de campaña Morgan Black (SPCMorgan,
+       "Líder de los Caballeros de San Juan de Malta") y sus strings reales reutilizados
+       (displaynameid/rollovertextid = los mismos locids reales 25278/32463, no hace falta
+       string propia). -->
+  <unit id="88889202" name="HOSMorganBlack">
+    <dbid>88889202</dbid>
+    <displaynameid>25278</displaynameid>
+    <editornameid>25278</editornameid>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Mobile</formationcategory>
+    <maxvelocity>4.5000</maxvelocity>
+    <maxrunvelocity>6.5000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\spc\morgan_black\spc_morgan_black.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <icon>resources\art\units\spc\morgan_black\morgan_black_icon_64x64.png</icon>
+    <portraiticon>resources\art\units\spc\morgan_black\morgan_black_igc_icon.png</portraiticon>
+    <minimapicon>ui\minimap\hero</minimapicon>
+    <selectionpriority>5</selectionpriority>
+    <rollovertextid>32463</rollovertextid>
+    <shortrollovertextid>25278</shortrollovertextid>
+    <knockouttextid>125115</knockouttextid>
+    <initialhitpoints>500.0000</initialhitpoints>
+    <maxhitpoints>500.0000</maxhitpoints>
+    <los>18.0000</los>
+    <rechargetime>45.0000</rechargetime>
+    <chargeusagetime>0.2500</chargeusagetime>
+    <auxrechargetime>20.0000</auxrechargetime>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <autoattackrange>16.0000</autoattackrange>
+    <unitaitype>RangedCombative</unitaitype>
+    <trainpoints>20.0000</trainpoints>
+    <buildlimit>1</buildlimit>
+    <bounty>45.0000</bounty>
+    <cost resourcetype="Gold">100.0000</cost>
+    <allowedage>0</allowedage>
+    <armor type="Ranged" value="0.1000">
+    </armor>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>AbstractCanSeeStealth</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>Hero</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Military</unittype>
+    <unittype>UnitClass</unittype>
+    <train row="0" page="6" column="0">TownCenter</train>
+    <train row="0" page="6" column="1">TradingPost</train>
+    <train row="0" page="6" column="2">Outpost</train>
+    <train row="0" page="6" column="3">deDepot</train>
+    <train row="0" page="6" column="4">deMalteseGun</train>
+    <train row="0" page="6" column="5">FortFrontier</train>
+    <train row="0" page="11" column="4">NatBlowgunAmbusher</train>
+    <train row="0" page="11" column="5">NatClubmanLoyal</train>
+    <train row="0" page="11" column="5">PetCougar</train>
+    <tech row="0" page="11" column="1">deGeneralInspiringFlag</tech>
+    <tech row="0" page="11" column="1">deGeneralInspiringFlagMexican</tech>
+    <tech row="0" page="11" column="2">deGeneralChargeCarbine</tech>
+    <tech row="0" page="11" column="3">deGeneralChargeHeavyStrike</tech>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>HeroName2</flag>
+    <flag>RotateInPlace</flag>
+    <flag>NotDeleteable</flag>
+    <flag>ForceBuildingData</flag>
+    <flag>KnockoutDeath</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>general.tactics</tactics>
+    <protoaction>
+      <name>Build</name>
+      <rate type="TradingPost">3.000000</rate>
+      <rate type="TownCenter">1.000000</rate>
+      <rate type="Outpost">1.000000</rate>
+      <rate type="deDepot">1.000000</rate>
+      <rate type="deMalteseGun">1.000000</rate>
+      <rate type="FortFrontier">1.000000</rate>
+      <minrange>0.000000</minrange>
+      <maxrange>2.000000</maxrange>
+    </protoaction>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>15.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+      <damagebonus type="Building">1.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>ChargeCarbineAttack</name>
+      <damage>60.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>20.000000</maxrange>
+      <minrange>0.000000</minrange>
+      <rof>3.00000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+      <active>0</active>
+      <chargeaction>1</chargeaction>
+    </protoaction>
+    <protoaction>
+      <name>ChargeHeavyStrikeAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagebonus type="Guardian">4.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+      <damagecap>16.000000</damagecap>
+      <damagearea>3.000000</damagearea>
+      <active>0</active>
+      <auxchargeaction>1</auxchargeaction>
+    </protoaction>
+    <protoaction>
+      <name>HandAttack</name>
+      <damage>6.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>12.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>SharpshooterAttack</name>
+      <damage>750.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>OberhauAttack</name>
+      <damage>200.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagearea>4.000000</damagearea>
+      <damageflags>GAIAEnemy</damageflags>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio BAR-2 (Estados Berberiscos): Pirata propio. Clon de SaloonPirate real (mercenario
+       de Tavern) SIN el mecanismo de forajido/mercenario (quitados AbstractOutlaw/
+       LogicalTypePickableOutlaw/LogicalTypePickableMercOutlaw) — mismo patrón que
+       HUNHajduk/HUNCrabat/HUNPandur/HOSHighlander. Nombre real reutilizado directo (locid
+       46130 = "Pirata", ya correcto, sin SetName). -->
+  <unit id="888810201" name="BARPirate">
+    <dbid>888810201</dbid>
+    <displaynameid>46130</displaynameid>
+    <editornameid>46131</editornameid>
+    <populationcount>4</populationcount>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Body</formationcategory>
+    <maxvelocity>6.2500</maxvelocity>
+    <maxrunvelocity>8.2500</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\spc\pirates\pirates.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>dude</physicsinfo>
+    <icon>resources\art\units\spc\pirates\pirate_icon.png</icon>
+    <portraiticon>resources\art\units\spc\pirates\pirate_portrait.png</portraiticon>
+    <rollovertextid>46129</rollovertextid>
+    <shortrollovertextid>46128</shortrollovertextid>
+    <initialhitpoints>185.0000</initialhitpoints>
+    <maxhitpoints>185.0000</maxhitpoints>
+    <los>12.0000</los>
+    <autoattackrange>16.0000</autoattackrange>
+    <unitaitype>HandCombative</unitaitype>
+    <trainpoints>35.0000</trainpoints>
+    <initialtactic>Melee</initialtactic>
+    <bounty>22.0000</bounty>
+    <buildbounty>22.0000</buildbounty>
+    <cost resourcetype="Gold">110.0000</cost>
+    <carrycapacity resourcetype="Food">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Wood">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">1.0000</carrycapacity>
+    <allowedage>1</allowedage>
+    <armor type="Ranged" value="0.2000">
+    </armor>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Military</unittype>
+    <unittype>Unit</unittype>
+    <unittype>AbstractCoyoteMan</unittype>
+    <unittype>AbstractLightInfantry</unittype>
+    <unittype>AbstractHandInfantry</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="7">Delete</command>
+    <tactics>saloonPirate.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>32.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+      <damagebonus type="Ship">1.500000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>CoverBuildingAttack</name>
+      <damage>16.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+      <damagebonus type="Ship">1.500000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>CoverHandAttack</name>
+      <damage>8.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+    </protoaction>
+    <protoaction>
+      <name>HandAttack</name>
+      <damage>16.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+    </protoaction>
+    <protoaction>
+      <name>HandAttackCrate</name>
+      <damage>16.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+    </protoaction>
+    <protoaction>
+      <name>RangedAttack</name>
+      <damage>15.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>6.000000</minrange>
+      <maxrange>20.000000</maxrange>
+      <rof>2.500000</rof>
+      <damagebonus type="AbstractPikeman">0.500000</damagebonus>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio BAR-3 (Estados Berberiscos): "Capitán Corsario" en vez de Explorador. Clon
+       COMPLETO del Explorador real (mismo build list: TradingPost/TownCenter/FieldHospital,
+       mismas habilidades) con el modelo/ícono real del corsario histórico Oruç Reis
+       (protoy.xml deREVCorsairCaptain reusa units\spc\oruc_reis\*) y su nombre real
+       reutilizado directo (locid 80712 = "Capitán corsario", sin SetName). -->
+  <unit id="888810202" name="BARCorsairCaptain">
+    <dbid>888810202</dbid>
+    <displaynameid>80712</displaynameid>
+    <editornameid>80712</editornameid>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Body</formationcategory>
+    <maxvelocity>4.5000</maxvelocity>
+    <maxrunvelocity>6.5000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\spc\oruc_reis\spc_oruc_reis.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <icon>resources\art\units\spc\oruc_reis\oruc_reis_icon.png</icon>
+    <minimapicon>ui\minimap\hero</minimapicon>
+    <portraiticon>resources\art\units\spc\oruc_reis\oruc_reis_portrait.png</portraiticon>
+    <selectionpriority>5</selectionpriority>
+    <rollovertextid>80714</rollovertextid>
+    <shortrollovertextid>80624</shortrollovertextid>
+    <initialhitpoints>400.0000</initialhitpoints>
+    <maxhitpoints>400.0000</maxhitpoints>
+    <los>18.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <autoattackrange>16.0000</autoattackrange>
+    <unitaitype>RangedCombative</unitaitype>
+    <bounty>45.0000</bounty>
+    <cost resourcetype="Gold">100.0000</cost>
+    <allowedage>0</allowedage>
+    <armor type="Ranged" value="0.1000">
+    </armor>
+    <carrycapacity resourcetype="Food">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Wood">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">1.0000</carrycapacity>
+    <buildlimit>1</buildlimit>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Military</unittype>
+    <unittype>Hero</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>AbstractCanSeeStealth</unittype>
+    <train row="0" page="6" column="1">TradingPost</train>
+    <train row="0" page="6" column="0">TownCenter</train>
+    <train row="0" page="6" column="3">NatBlowgunAmbusher</train>
+    <train row="0" page="6" column="3">Envoy</train>
+    <train row="0" page="6" column="2">WarDog</train>
+    <train row="0" page="6" column="4">NatClubmanLoyal</train>
+    <train row="0" page="6" column="5">PetCougar</train>
+    <flag>HeroName2</flag>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>KnockoutDeath</flag>
+    <flag>RotateInPlace</flag>
+    <flag>NotDeleteable</flag>
+    <flag>ForceBuildingData</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>explorer.tactics</tactics>
+    <protoaction>
+      <name>Build</name>
+      <rate type="TradingPost">3.000000</rate>
+      <rate type="TownCenter">1.000000</rate>
+      <rate type="FieldHospital">3.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>15.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+      <damagebonus type="Building">1.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>CrackshotAttack</name>
+      <damage>475.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="MercType2">0.010000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HandAttack</name>
+      <damage>6.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HandAttackCrate</name>
+      <damage>10.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+    </protoaction>
+    <protoaction>
+      <name>Heal</name>
+      <rate type="LogicalTypeHealed">50.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>SharpshooterAttack</name>
+      <damage>750.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>SwashbucklerAttack</name>
+      <damage>100.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagecap>200.000000</damagecap>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+      <damagearea>3.000000</damagearea>
+      <damageflags>GAIAEnemy</damageflags>
+      <damagebonus type="MercType2">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HeavyHandAttack</name>
+      <damage>30.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagebonus type="Guardian">20.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>12.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>CrateGather</name>
+      <rate type="AbstractResourceCrate">4.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="AbstractInfiniteCrate">4.000000</rate>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio COL-2 (Colombia): "Simón Bolívar" en vez de Explorador. Clon COMPLETO del
+       Explorador real (mismo build list: TradingPost/TownCenter/FieldHospital, mismas
+       habilidades) con el modelo/ícono real del héroe de campaña Bolívar (protoy.xml
+       deREVBolivar reusa units\spc\bolivar\*) y su nombre real reutilizado directo (locid
+       34107 = "Bolívar", sin SetName). -->
+  <unit id="888811201" name="COLBolivar">
+    <dbid>888811201</dbid>
+    <displaynameid>34107</displaynameid>
+    <editornameid>34107</editornameid>
+    <obstructionradiusx>0.4900</obstructionradiusx>
+    <obstructionradiusz>0.4900</obstructionradiusz>
+    <formationcategory>Body</formationcategory>
+    <maxvelocity>4.5000</maxvelocity>
+    <maxrunvelocity>6.5000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\spc\bolivar\spc_bolivar.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <icon>resources\art\units\spc\bolivar\bolivar_icon.png</icon>
+    <minimapicon>ui\minimap\hero</minimapicon>
+    <portraiticon>resources\art\units\spc\bolivar\bolivar_portrait.png</portraiticon>
+    <selectionpriority>5</selectionpriority>
+    <rollovertextid>34106</rollovertextid>
+    <shortrollovertextid>34105</shortrollovertextid>
+    <initialhitpoints>400.0000</initialhitpoints>
+    <maxhitpoints>400.0000</maxhitpoints>
+    <los>18.0000</los>
+    <projectileprotounit>InvisibleProjectile</projectileprotounit>
+    <autoattackrange>16.0000</autoattackrange>
+    <unitaitype>RangedCombative</unitaitype>
+    <bounty>45.0000</bounty>
+    <cost resourcetype="Gold">100.0000</cost>
+    <allowedage>0</allowedage>
+    <armor type="Ranged" value="0.1000">
+    </armor>
+    <carrycapacity resourcetype="Food">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Wood">1.0000</carrycapacity>
+    <carrycapacity resourcetype="Gold">1.0000</carrycapacity>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>Unit</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Military</unittype>
+    <unittype>Hero</unittype>
+    <unittype>AbstractInfantry</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>AbstractGunpowderTrooper</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <unittype>AbstractRangedInfantry</unittype>
+    <unittype>LogicalTypeInfantryVolleyTactic</unittype>
+    <unittype>AbstractCanSeeStealth</unittype>
+    <train row="0" page="6" column="1">TradingPost</train>
+    <train row="0" page="6" column="0">TownCenter</train>
+    <train row="0" page="6" column="3">NatBlowgunAmbusher</train>
+    <train row="0" page="6" column="3">Envoy</train>
+    <train row="0" page="6" column="2">WarDog</train>
+    <train row="0" page="6" column="4">NatClubmanLoyal</train>
+    <train row="0" page="6" column="5">PetCougar</train>
+    <flag>HeroName2</flag>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>KnockoutDeath</flag>
+    <flag>RotateInPlace</flag>
+    <flag>NotDeleteable</flag>
+    <flag>ForceBuildingData</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="0">Garrison</command>
+    <command page="10" column="1">Stop</command>
+    <command page="11" column="0">Abilities</command>
+    <tactics>explorer.tactics</tactics>
+    <protoaction>
+      <name>Build</name>
+      <rate type="TradingPost">3.000000</rate>
+      <rate type="TownCenter">1.000000</rate>
+      <rate type="FieldHospital">3.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>15.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+      <damagebonus type="Building">1.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>CrackshotAttack</name>
+      <damage>475.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="MercType2">0.010000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HandAttack</name>
+      <damage>6.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HandAttackCrate</name>
+      <damage>10.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+    </protoaction>
+    <protoaction>
+      <name>Heal</name>
+      <rate type="LogicalTypeHealed">50.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>SharpshooterAttack</name>
+      <damage>750.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>SwashbucklerAttack</name>
+      <damage>100.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagecap>200.000000</damagecap>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+      <damagearea>3.000000</damagearea>
+      <damageflags>GAIAEnemy</damageflags>
+      <damagebonus type="MercType2">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>HeavyHandAttack</name>
+      <damage>30.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagebonus type="Guardian">20.000000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>VolleyRangedAttack</name>
+      <damage>12.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <maxrange>16.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="Guardian">3.000000</damagebonus>
+      <damagebonus type="AbstractVillager">0.250000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>CrateGather</name>
+      <rate type="AbstractResourceCrate">4.000000</rate>
+    </protoaction>
+    <protoaction>
+      <name>Gather</name>
+      <rate type="AbstractInfiniteCrate">4.000000</rate>
+    </protoaction>
+  </unit>
+
+  <!-- Cambio FRA-2 (Francia Napoleónica): Fusilero Montado propio. Clon de
+       deMercMountedRifleman real SIN el mecanismo de mercenario (quitados Mercenary/
+       IndustrialMercenary/LogicalTypePickableMerc/LogicalTypePickableMercOutlaw) — mismo
+       patrón que Hajduk/Crabat/Pandur/Highlander/Pirata. Costo/población propios pedidos
+       (125 comida + 175 oro, 3 de población) en vez de los reales (400 oro, 4 población). -->
+  <unit id="888813201" name="FRAMountedRifleman">
+    <dbid>888813201</dbid>
+    <displaynameid>888813210</displaynameid>
+    <editornameid>888813210</editornameid>
+    <populationcount>3</populationcount>
+    <obstructionradiusx>0.7900</obstructionradiusx>
+    <obstructionradiusz>0.7900</obstructionradiusz>
+    <formationcategory>Mobile</formationcategory>
+    <maxvelocity>6.0000</maxvelocity>
+    <maxrunvelocity>8.00000</maxrunvelocity>
+    <movementtype>land</movementtype>
+    <turnrate>18.0000</turnrate>
+    <animfile>units\mercenaries\mounted_rifleman\mounted_rifleman_horse.xml</animfile>
+    <impacttype>Flesh</impacttype>
+    <physicsinfo>cav</physicsinfo>
+    <icon>resources\art\units\mercenaries\mounted_rifleman\mounted_rifleman_icon.png</icon>
+    <portraiticon>resources\art\units\mercenaries\mounted_rifleman\mounted_rifleman_portrait.png</portraiticon>
+    <rollovertextid>888813211</rollovertextid>
+    <shortrollovertextid>888813212</shortrollovertextid>
+    <initialhitpoints>360.0000</initialhitpoints>
+    <maxhitpoints>360.0000</maxhitpoints>
+    <los>20.0000</los>
+    <unitaitype>HandCombative</unitaitype>
+    <trainpoints>65.0000</trainpoints>
+    <bounty>40.0000</bounty>
+    <buildbounty>40.0000</buildbounty>
+    <cost resourcetype="Food">125.0000</cost>
+    <cost resourcetype="Gold">175.0000</cost>
+    <allowedage>3</allowedage>
+    <armor type="Ranged" value="0.2500">
+    </armor>
+    <unittype>LogicalTypeHealed</unittype>
+    <unittype>LogicalTypeValidSharpshoot</unittype>
+    <unittype>LogicalTypeNeededForVictory</unittype>
+    <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeLandMilitary</unittype>
+    <unittype>LogicalTypeScout</unittype>
+    <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+    <unittype>LogicalTypeGarrisonInShips</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+    <unittype>LogicalTypeVillagersAttack</unittype>
+    <unittype>LogicalTypeHandUnitsAttack</unittype>
+    <unittype>LogicalTypeRangedUnitsAttack</unittype>
+    <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    <unittype>AbstractRangedHeavyCavalry</unittype>
+    <unittype>AbstractHeavyCavalry</unittype>
+    <unittype>AbstractCavalry</unittype>
+    <unittype>AbstractHandCavalry</unittype>
+    <unittype>AbstractGunpowderCavalry</unittype>
+    <unittype>AbstractRangedCavalry</unittype>
+    <unittype>AbstractCounterSkirmisher</unittype>
+    <unittype>Unit</unittype>
+    <unittype>Military</unittype>
+    <unittype>UnitClass</unittype>
+    <unittype>Ranged</unittype>
+    <unittype>HasBountyValue</unittype>
+    <unittype>CountsTowardMilitaryScore</unittype>
+    <unittype>AbstractCavalryInfantry</unittype>
+    <unittype>ConvertsHerds</unittype>
+    <flag>CollidesWithProjectiles</flag>
+    <flag>ApplyHandicapTraining</flag>
+    <flag>CorpseDecays</flag>
+    <flag>ShowGarrisonButton</flag>
+    <flag>DontRotateObstruction</flag>
+    <flag>ObscuredByUnits</flag>
+    <flag>Tracked</flag>
+    <command page="10" column="7">Delete</command>
+    <command page="10" column="1">Stop</command>
+    <command page="10" column="0">Garrison</command>
+    <tactics>musketheavycavalry.tactics</tactics>
+    <protoaction>
+      <name>BuildingAttack</name>
+      <damage>25.000000</damage>
+      <damagetype>Siege</damagetype>
+      <rof>3.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>DefendRangedAttack</name>
+      <damage>70.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>0.000000</minrange>
+      <maxrange>15.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractSkirmisher">2.000000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">1.340000</damagebonus>
+      <damagebonus type="AbstractPikeman">0.500000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.600000</damagebonus>
+      <damagebonus type="AbstractVillager">0.600000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>MeleeHandAttack</name>
+      <damage>45.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>1.500000</rof>
+      <damagebonus type="AbstractSkirmisher">2.000000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">1.340000</damagebonus>
+      <damagebonus type="AbstractPikeman">0.500000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.600000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>GuardianAttack</name>
+      <damage>45.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+    </protoaction>
+    <protoaction>
+      <name>TrampleHandAttack</name>
+      <damage>30.000000</damage>
+      <damagetype>Hand</damagetype>
+      <rof>2.000000</rof>
+      <damagecap>120.000000</damagecap>
+      <damagearea>3.000000</damagearea>
+      <damageflags>Enemy</damageflags>
+      <damagebonus type="AbstractSkirmisher">2.000000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">1.340000</damagebonus>
+      <damagebonus type="AbstractPikeman">0.500000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.600000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>StaggerRangedAttack</name>
+      <damage>70.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>0.000000</minrange>
+      <maxrange>15.000000</maxrange>
+      <rof>3.000000</rof>
+      <damagebonus type="AbstractSkirmisher">2.000000</damagebonus>
+      <damagebonus type="AbstractHeavyInfantry">1.340000</damagebonus>
+      <damagebonus type="AbstractPikeman">0.500000</damagebonus>
+      <damagebonus type="AbstractCavalry">0.600000</damagebonus>
+      <damagebonus type="AbstractLightInfantry">0.600000</damagebonus>
+      <damagebonus type="AbstractVillager">0.500000</damagebonus>
+    </protoaction>
+    <protoaction>
+      <name>GuardianRangedAttack</name>
+      <damage>70.000000</damage>
+      <damagetype>Ranged</damagetype>
+      <minrange>0.000000</minrange>
+      <maxrange>15.000000</maxrange>
+      <rof>3.000000</rof>
     </protoaction>
   </unit>
 </protomods>

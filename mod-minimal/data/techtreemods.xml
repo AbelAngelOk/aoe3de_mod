@@ -245,6 +245,14 @@
       <effect type="Data" action="CrateGather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">FINKarelianJaeger</target>
       </effect>
+      <!-- Cambio 49: paridad completa con las habilidades reales que otorga la revolución
+           (DERevolutionFinland sobre Skirmisher) — faltaban estas dos. -->
+      <effect type="Data" action="HandAttackCrate" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
+      <effect type="Data" action="Hunting" amount="1.00" subtype="WorkRate" unittype="AbstractInfiniteCrate" relativity="Assign">
+        <target type="ProtoUnit">FINKarelianJaeger</target>
+      </effect>
       <effect type="Data" amount="1.00" subtype="EnableAutoCrateGather" relativity="Assign">
         <target type="ProtoUnit">FINKarelianJaeger</target>
       </effect>
@@ -288,6 +296,13 @@
       <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
         <target type="ProtoUnit">Outpost</target>
       </effect>
+      <!-- Cambio 49 (Finlandia): se quita el Cuartel (Barracks) por completo — el Blocao pasa
+           a producir directo el roster de infantería (Jaeger de Carelia/Savonia/Contraataque,
+           reubicados a columnas del Blocao en protomods.xml). Sin Cuartel, un solo edificio
+           cubre defensa + entrenamiento militar. -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
       <!-- Cambio 27 (Finlandia): quitar el Cañón de cuero (unidad sueca) de la Fundición. -->
       <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
         <target type="ProtoUnit">deLeatherCannon</target>
@@ -301,25 +316,21 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">MercJaeger</target>
       </effect>
-      <!-- Cambio 44: stats base propios del Jaeger de Savonia (sin rebalanceo artificial) —
-           +5% vida sobre el MercJaeger real (250 HP → 262.5), daño sin tocar (30). La mejora
-           Imperial (Edad V, +50%) se calcula sobre el MercJaeger real, no sobre este +5%. -->
-      <effect type="Data" amount="1.05" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">MercJaeger</target>
-      </effect>
-      <effect type="SetName" proto="MercJaeger" culture="none" newname="91618"></effect>
-      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
-        <target type="ProtoUnit">MercJaeger</target>
-      </effect>
-      <effect type="Data" amount="80.00" subtype="Cost" resource="Wood" relativity="Absolute">
-        <target type="ProtoUnit">MercJaeger</target>
-      </effect>
-      <effect type="Data" amount="-120.00" subtype="Cost" resource="Gold" relativity="Absolute">
-        <target type="ProtoUnit">MercJaeger</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="MercJaeger" relativity="Absolute">
-        <target type="Player"></target>
-      </effect>
+      <!-- Cambio 49: se reemplaza la réplica manual de efectos (Cambio 44) por activar
+           DIRECTO la tech real DEChurchSavolaxJaegers. Motivo: su animfile real
+           (units\mercenaries\jaeger\jaeger.xml) tiene un <logic type="Tech"> que solo
+           muestra el modelo/textura "savolax" dedicado (units\mercenaries\jaeger\savolax)
+           si esta tech puntual está activa para el jugador — replicar los efectos a mano
+           (como hacía el Cambio 44) nunca disparaba ese cambio de modelo, solo las stats.
+           A diferencia de la revolución de Carelia, esta tech NO lleva InitiateRevolution
+           (es una carta de Iglesia común), así que no tiene costo de bloqueo de edad.
+           Efecto secundario aceptado: la tech real también entrega 6 Jaegers de Savonia
+           gratis al activarse (FreeHomeCityUnit), algo que el Cambio 44 evitaba a propósito
+           — se acepta como bonus de la civ en vez de intentar evitarlo (no se puede activar
+           "part de una tech" con efectos de datos). Mismos stats resultantes (HP x1.05,
+           costo 80 madera/-120 oro, sigilo, nombre "Jaeger de Savonia") porque son
+           exactamente los mismos efectos que ya replicaba el Cambio 44. -->
+      <effect type="TechStatus" status="active">DEChurchSavolaxJaegers</effect>
       <!-- Habilitar (obtainable) la línea de mejoras del Cuartel: Carelia (Tier2/3/4),
            Savonia (Imperial), Contraataque (Guard/Imperial). -->
       <effect type="TechStatus" status="obtainable">FINKarelianJaegerTier2</effect>
@@ -3424,8 +3435,267 @@
       <effect type="TechStatus" status="obtainable">ARGShipCow1</effect>
       <effect type="TechStatus" status="obtainable">ARGShipCow2</effect>
       <effect type="TechStatus" status="obtainable">ARGShipCow3</effect>
+
+      <!-- Cambio ARG-4/5 (arreglo Argentina, 2026-09-09): límite de vacas 50. -->
+      <effect type="Data" amount="50.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">Cow</target>
+      </effect>
+
+      <!-- Establo: Húsar -> "Blandengue" y Dragón -> "Infernal" (protos REALES compartidos,
+           SetName vive acá adentro de ARGAge0 así que solo afecta a Argentina). -->
+      <effect type="SetName" proto="Hussar" culture="none" newname="88883030"></effect>
+      <effect type="SetName" proto="Dragoon" culture="none" newname="88883031"></effect>
+
+      <!-- Gaucho Entrerriano (deREVGaucho, ya renombrado arriba vía el string 88883013):
+           cambiar el bono de daño de x3 contra caballería pesada a x3 contra infantería
+           pesada. Como es un proto REAL compartido con la revolución de Italia, se ajusta
+           por efecto de tech (DamageBonus, allactions=1 para tocar HandAttack y
+           RangedAttack a la vez) en vez de editar su protoaction directo. -->
+      <effect type="Data" amount="1.00" subtype="DamageBonus" unittype="AbstractHeavyCavalry" allactions="1" relativity="Assign">
+        <target type="ProtoUnit">deREVGaucho</target>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" allactions="1" relativity="Assign">
+        <target type="ProtoUnit">deREVGaucho</target>
+      </effect>
+
+      <!-- Fundición (Cambio ARG-5): quitar el Granadero real (heredado por defecto de
+           DEAge0Italians vía DEGrenadierEnable) y poner en su lugar al Granadero a Caballo
+           (deREVGranadero, real, mudado acá desde el Establo — ver Cambio ARG-3 en
+           protomods.xml). Sin CommandRemove porque deREVGranadero no tenía ningún <train>
+           nativo real en ningún edificio (proto exclusivo de revolución). -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">GuardGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">RGPavlovGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialPavlovs</effect>
+      <effect type="CommandAdd" proto="deREVGranadero" page="0" column="1">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+
+      <!-- Milicia Criolla (Musketeer real) y Patricio (deSoldado real): mejoras propias.
+           Milicia Criolla clona las 3 mejoras reales de Musketeer (VeteranMusketeers/
+           RGRedcoats/ImperialMusketeers) para poder renombrar cada nivel sin afectar a
+           Rusia/otras civs que también usan Musketeer real — se preserva el
+           `TechStatus active GuardMusketeers`/`UpdateVisual` interno de RGRedcoats para que
+           el modelo siga cambiando al sombrero de "casaca roja" (Redcoat) pedido, solo con
+           nombre propio encima. Patricio (deSoldado) no tiene mejoras reales que clonar —
+           mejoras 100% nuevas, mismos stats que el patrón Veterano/Guardia/Imperial ya usado
+           en el resto del mod. -->
+      <effect type="TechStatus" status="unobtainable">VeteranMusketeers</effect>
+      <effect type="TechStatus" status="unobtainable">RGRedcoats</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialMusketeers</effect>
+      <effect type="TechStatus" status="obtainable">ARGVeteranMiliciaCriolla</effect>
+      <effect type="TechStatus" status="obtainable">ARGGuardMiliciaCriolla</effect>
+      <effect type="TechStatus" status="obtainable">ARGImperialMiliciaCriolla</effect>
+      <effect type="TechStatus" status="obtainable">ARGVeteranPatricio</effect>
+      <effect type="TechStatus" status="obtainable">ARGGuardPatricio</effect>
+      <effect type="TechStatus" status="obtainable">ARGImperialPatricio</effect>
+
+      <!-- Cuartel (Cambio ARG-4): "Gaucho Jujeño" (ARGSpyGaucho, clon del Espía real
+           reskineado como Salteador/Vigilante mexicano, ver protomods.xml) — puede construir
+           Cuarteles (CommandAdd sobre sí mismo) y tiene la misma capacidad de Corral/vaca que
+           el resto de los Gauchos de esta civ. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ARGSpyGaucho</target>
+      </effect>
+      <effect type="Data" action="Build" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">ARGSpyGaucho</target>
+      </effect>
+      <effect type="CommandAdd" proto="Barracks" page="0" column="0">
+        <target type="ProtoUnit">ARGSpyGaucho</target>
+      </effect>
+      <effect type="CommandAdd" proto="LivestockPen" page="0" column="0">
+        <target type="ProtoUnit">ARGSpyGaucho</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Cow</target>
+      </effect>
+      <effect type="CommandAdd" proto="Cow" page="0" column="1">
+        <target type="ProtoUnit">ARGSpyGaucho</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">ARGSpyGaucho</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.00" subtype="WorkRate" unittype="Herdable" relativity="Assign">
+        <target type="ProtoUnit">ARGSpyGaucho</target>
+      </effect>
+
+      <!-- Cuartel: "Gaucho Pampeano" = deEmboscador REAL (Salteador/Vigilante mexicano),
+           reposicionado a la col 6 (libre) vía CommandAdd — es un proto compartido, no se
+           puede agregar como <train> estático sin filtrar el botón a México/otras civs que
+           también lo usen. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deEmboscador</target>
+      </effect>
+      <effect type="SetName" proto="deEmboscador" culture="none" newname="88883050" newrollover="88883051" newshortrollover="88883052"></effect>
+      <effect type="CommandAdd" proto="deEmboscador" page="0" column="6">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
     </effects>
   </tech>
+
+  <!-- ===================== Argentina: mejoras propias de Milicia Criolla y Patricio
+       ===================== -->
+  <tech name="ARGVeteranMiliciaCriolla" type="Normal">
+    <dbid>88883130</dbid>
+    <displaynameid>88883061</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="SetName" proto="Musketeer" culture="none" newname="88883061"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Musketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ARGGuardMiliciaCriolla" type="Normal">
+    <dbid>88883131</dbid>
+    <displaynameid>88883062</displaynameid>
+    <cost resourcetype="Wood">750.0000</cost>
+    <cost resourcetype="Gold">750.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ARGVeteranMiliciaCriolla</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.05" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <!-- Activa el status real GuardMusketeers (sin activar la tech real RGRedcoats en sí,
+           que está unobtainable arriba) para que el animfile de Musketeer siga mostrando el
+           modelo/sombrero real de "casaca roja" (Redcoat) pedido — el SetName de abajo pisa
+           el nombre real por el propio después. -->
+      <effect type="TechStatus" status="active">GuardMusketeers</effect>
+      <effect type="SetName" proto="Musketeer" culture="none" newname="88883062"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Musketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ARGImperialMiliciaCriolla" type="Normal">
+    <dbid>88883132</dbid>
+    <displaynameid>88883063</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ARGGuardMiliciaCriolla</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="SetName" proto="Musketeer" culture="none" newname="88883063"></effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Musketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ARGVeteranPatricio" type="Normal">
+    <dbid>88883133</dbid>
+    <displaynameid>88883071</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deSoldado</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deSoldado</target>
+      </effect>
+      <effect type="SetName" proto="deSoldado" culture="none" newname="88883071"></effect>
+    </effects>
+  </tech>
+  <tech name="ARGGuardPatricio" type="Normal">
+    <dbid>88883134</dbid>
+    <displaynameid>88883072</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ARGVeteranPatricio</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deSoldado</target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deSoldado</target>
+      </effect>
+      <effect type="SetName" proto="deSoldado" culture="none" newname="88883072"></effect>
+    </effects>
+  </tech>
+  <tech name="ARGImperialPatricio" type="Normal">
+    <dbid>88883135</dbid>
+    <displaynameid>88883073</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ARGGuardPatricio</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deSoldado</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deSoldado</target>
+      </effect>
+      <effect type="SetName" proto="deSoldado" culture="none" newname="88883073"></effect>
+    </effects>
+  </tech>
+
   <tech name="ARGColonialize" type="Normal">
     <dbid>88883102</dbid>
     <status>UNOBTAINABLE</status>
@@ -4510,9 +4780,37 @@
     <effects>
       <effect type="TechStatus" status="active">Age0Dutch</effect>
 
-      <!-- Colono a 100 de oro: ya viene de Age0Dutch, sin cambios. Mecánica de Italia:
-           un colono gratis cada vez que se completa CUALQUIER investigación. -->
+      <!-- Mecánica de Italia: un colono gratis cada vez que se completa CUALQUIER
+           investigación. -->
       <effect type="SetOnTechResearchedTech" amount="1.00">DEShipItalianVillager</effect>
+
+      <!-- Centro Urbano (arreglo): fuera el Settler genérico, dentro colono holandés propio
+           (máx. 35, coste 100 oro) y colono italiano propio (máx. 35, coste 100 comida) —
+           ambos con el mismo menú de construcción del Settler real (Iglesia/Banco/Lombardo
+           incluidos). Arquitecto habilitado y reubicado de su columna nativa (2, compartida
+           con Emisario) a la 4. Emisario ya viene habilitado por Age0Dutch, sin cambios.
+           Lombardo habilitado (Age0Dutch no lo hace; en el juego real solo lo activa Italia). -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ITDSettlerDutch</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ITDSettlerItalian</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deArchitect</target>
+      </effect>
+      <effect type="CommandRemove" proto="deArchitect">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="CommandAdd" proto="deArchitect" page="0" column="4">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deLombard</target>
+      </effect>
 
       <!-- Cuartel: fuera Guerrillero (Skirmisher), dentro Bersagliere propio (col 5).
            Disponible desde esta Edad (I) pero al 60% de vida/daño — sube a 80% en
@@ -4534,6 +4832,13 @@
       <effect type="Data" amount="0.60" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">ITDBersagliere</target>
       </effect>
+
+      <!-- Fundición de Artillería: la Culebrina mejora a Espingarda (italiana) en vez de a
+           Culebrina Real/Imperial (genérica) — mismo swap que hace DEAge0Italians. -->
+      <effect type="TechStatus" status="unobtainable">GrapeShot</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCulverin</effect>
+      <effect type="TechStatus" status="obtainable">ITDSpingardes</effect>
+      <effect type="TechStatus" status="obtainable">ITDImperialSpingardes</effect>
     </effects>
   </tech>
 
@@ -4695,6 +5000,373 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">ROURoshiorDragoon</target>
       </effect>
+      <effect type="SetName" proto="Cossack" culture="none" newname="88888290"></effect>
+
+      <!-- Establo (Cambio ROU-7): reposicionar Crabat (HUNCrabat, compartido con Hungría/
+           HOT/HGE, columna estática 1) a la col 3 SOLO para Rumania — su columna 1 nativa ya
+           la ocupa el Jinete Arquero de Valaquia (ver protomods.xml, Unit Stable). -->
+      <effect type="CommandRemove" proto="HUNCrabat">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="CommandAdd" proto="HUNCrabat" page="0" column="3">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+
+      <!-- Blocao: Strelet -> "Seimen" y Poruchik (deRussianHalberdier) -> "Vânător", solo
+           para Rumania. Como ambos son protos REALES compartidos con Rusia, no se puede tocar
+           su SetName base ni las mejoras reales (VeteranStrelets/GuardStrelets/ImperialStrelets,
+           DEVeteranRussianHalberdiers/DEGuardRussianHalberdiers/DEImperialRussianHalberdiers)
+           sin filtrar el renombre a Rusia real. Se clonan esas 3+3 mejoras (ROUVeteranSeimen...
+           ROUImperialVanator, ver más abajo) y se ocultan las reales para esta civ. -->
+      <effect type="SetName" proto="Strelet" culture="none" newname="88888240"></effect>
+      <effect type="SetName" proto="deRussianHalberdier" culture="none" newname="88888250"></effect>
+      <effect type="TechStatus" status="unobtainable">VeteranStrelets</effect>
+      <effect type="TechStatus" status="unobtainable">GuardStrelets</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialStrelets</effect>
+      <effect type="TechStatus" status="unobtainable">DEVeteranRussianHalberdiers</effect>
+      <effect type="TechStatus" status="unobtainable">DEGuardRussianHalberdiers</effect>
+      <effect type="TechStatus" status="unobtainable">DEImperialRussianHalberdiers</effect>
+      <effect type="TechStatus" status="obtainable">ROUVeteranSeimen</effect>
+      <effect type="TechStatus" status="obtainable">ROUGuardSeimen</effect>
+      <effect type="TechStatus" status="obtainable">ROUImperialSeimen</effect>
+      <effect type="TechStatus" status="obtainable">ROUVeteranVanator</effect>
+      <effect type="TechStatus" status="obtainable">ROUGuardVanator</effect>
+      <effect type="TechStatus" status="obtainable">ROUImperialVanator</effect>
+
+      <!-- Blocao: mejoras propias para Dorobant (nuevo, 3 niveles) y Hajduk (reusa las
+           mejoras húngaras HUNVeteranHajduk/HUNGuardHajduk/HUNImperialHajduk ya existentes,
+           mismo patrón multi-civ que Húngaros/HOT/HGE). -->
+      <effect type="TechStatus" status="obtainable">ROUVeteranDorobant</effect>
+      <effect type="TechStatus" status="obtainable">ROUGuardDorobant</effect>
+      <effect type="TechStatus" status="obtainable">ROUImperialDorobant</effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialHajduk</effect>
+
+      <!-- Blocao: costo de lote de Hajduk (HUNHajduk compartido con Hungría/HOT/HGE, blocktrain
+           de 4, ver civmods.xml). Costo reasignado SOLO para Rumania a 97.5 oro c/u (lote de 4
+           = 390 oro), sin tocar el proto compartido en protomods.xml. El Dorobant (100%
+           exclusivo) se editó directo en su proto: 40 comida + 10 oro c/u (lote = 160+40). -->
+      <effect type="Cost" resourcetype="Gold" amount="97.50" relativity="Assign">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+
+      <!-- Jinete Arquero de Valaquia y Dragón Roshior: bonos de daño editados directo en el
+           proto (protomods.xml) — ambos son protos 100% exclusivos de Rumania, sin necesidad
+           de un efecto de tech. -->
+
+      <!-- Centro Urbano: sin revoluciones para Rumania (civ normal, no revolucionaria). -->
+      <effect type="TechStatus" status="unobtainable">DERevolutionRomania</effect>
+
+      <!-- Políticos de avance de edad (heredados de Rusia vía Age0Russian): EXPERIMENTAL, sin
+           confirmar en juego (depende de que el motor arme la pantalla de elección de edad
+           enumerando techs OBTAINABLE con flag AgeUpgrade+SetAge, no de una lista fija — no se
+           encontró otro mecanismo de registro). Se clonan los 3 políticos cuyo envío cambia:
+           El Rastreador (Cossack x5 -> Calaras x4), El Mosquetero Real (deRussianMusketeer x13
+           -> Dorobant x13) y El Ministro de Guerra (Oprichnik x7 -> Dragón Roshior x7). El
+           Aventurero (Strelet x17) y el Mariscal de Caballería (Cossack x7) NO se tocan: como
+           Strelet/Cossack ya se renombran a Seimen/Calaras para Rumania (SetName arriba), esos
+           envíos ya muestran el nombre correcto sin ningún cambio adicional. -->
+      <effect type="TechStatus" status="unobtainable">PoliticianScoutRussian</effect>
+      <effect type="TechStatus" status="unobtainable">PoliticianMusketeerRussian</effect>
+      <effect type="TechStatus" status="unobtainable">PoliticianWarMinisterRussian</effect>
+      <effect type="TechStatus" status="obtainable">ROUPoliticianScout</effect>
+      <effect type="TechStatus" status="obtainable">ROUPoliticianMusketeer</effect>
+      <effect type="TechStatus" status="obtainable">ROUPoliticianWarMinister</effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Rumania: clones de políticos de edad (envío propio)
+       ===================== -->
+  <tech name="ROUPoliticianScout" type="Normal">
+    <dbid>88888320</dbid>
+    <displaynameid>35486</displaynameid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>35485</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Cossack" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ROUPoliticianMusketeer" type="Normal">
+    <dbid>88888321</dbid>
+    <displaynameid>35501</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>37441</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="Data" amount="13.00" subtype="FreeHomeCityUnit" unittype="ROUDorobant" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="SetAge">Age3</effect>
+    </effects>
+  </tech>
+  <tech name="ROUPoliticianWarMinister" type="Normal">
+    <dbid>88888322</dbid>
+    <displaynameid>35495</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>35494</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="ROURoshiorDragoon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="SetAge">Age3</effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Rumania: mejoras propias del Blocao (Seimen/Vânător/Dorobant)
+       ===================== -->
+  <tech name="ROUVeteranSeimen" type="Normal">
+    <dbid>88888310</dbid>
+    <displaynameid>88888260</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="SetName" proto="Strelet" culture="none" newname="88888260"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Strelet" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ROUGuardSeimen" type="Normal">
+    <dbid>88888311</dbid>
+    <displaynameid>88888261</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ROUVeteranSeimen</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="SetName" proto="Strelet" culture="none" newname="88888261"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Strelet" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ROUImperialSeimen" type="Normal">
+    <dbid>88888312</dbid>
+    <displaynameid>88888262</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ROUGuardSeimen</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="SetName" proto="Strelet" culture="none" newname="88888262"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Strelet" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ROUVeteranVanator" type="Normal">
+    <dbid>88888313</dbid>
+    <displaynameid>88888270</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_spear_infantry\veteran_spear_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianHalberdier</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianHalberdier</target>
+      </effect>
+      <effect type="SetName" proto="deRussianHalberdier" culture="none" newname="88888270"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deRussianHalberdier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ROUGuardVanator" type="Normal">
+    <dbid>88888314</dbid>
+    <displaynameid>88888271</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_spear_infantry\guard_spear_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ROUVeteranVanator</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianHalberdier</target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianHalberdier</target>
+      </effect>
+      <effect type="SetName" proto="deRussianHalberdier" culture="none" newname="88888271"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deRussianHalberdier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ROUImperialVanator" type="Normal">
+    <dbid>88888315</dbid>
+    <displaynameid>88888272</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_spear_infantry\imperial_spear_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ROUGuardVanator</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianHalberdier</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">deRussianHalberdier</target>
+      </effect>
+      <effect type="SetName" proto="deRussianHalberdier" culture="none" newname="88888272"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deRussianHalberdier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ROUVeteranDorobant" type="Normal">
+    <dbid>88888316</dbid>
+    <displaynameid>88888280</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">ROUDorobant</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">ROUDorobant</target>
+      </effect>
+      <effect type="SetName" proto="ROUDorobant" culture="none" newname="88888280"></effect>
+    </effects>
+  </tech>
+  <tech name="ROUGuardDorobant" type="Normal">
+    <dbid>88888317</dbid>
+    <displaynameid>88888281</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ROUVeteranDorobant</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">ROUDorobant</target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">ROUDorobant</target>
+      </effect>
+      <effect type="SetName" proto="ROUDorobant" culture="none" newname="88888281"></effect>
+    </effects>
+  </tech>
+  <tech name="ROUImperialDorobant" type="Normal">
+    <dbid>88888318</dbid>
+    <displaynameid>88888282</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">ROUGuardDorobant</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">ROUDorobant</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">ROUDorobant</target>
+      </effect>
+      <effect type="SetName" proto="ROUDorobant" culture="none" newname="88888282"></effect>
     </effects>
   </tech>
 
@@ -4760,6 +5432,1139 @@
     <flag>Shadow</flag>
     <effects>
       <effect type="TechStatus" status="active">PostImperialRussian</effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Holanda Italiana (ITD): Espingarda (mejora italiana de la
+       Culebrina, en vez de la genérica Culebrina Real/Imperial) ===================== -->
+  <!-- Clon de DESpingardes/DEImperialSpingardes reales (mismos efectos: stats + UpdateVisual
+       + renombrado) SIN el "reqtech=DEAge0Italians" del SetName real, porque esta civ no
+       activa DEAge0Italians (delega su identidad de edad de Holanda) — el renombrado a
+       "Espingarda" se aplica siempre para esta civ en vez de depender de esa condición. -->
+  <tech name="ITDSpingardes" type="Normal">
+    <dbid>88887501</dbid>
+    <displaynameid>124633</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Wood">400.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_artillery\guard_artillery.png</icon>
+    <rollovertextid>126737</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">DEMilitaryIndustrialAgeEnable</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Culverin" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deQuakerGun" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="0.05" subtype="ArmorSpecific" newtype="Ranged" relativity="Absolute">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="SetName" proto="Culverin" culture="none" newname="124632"></effect>
+    </effects>
+  </tech>
+
+  <tech name="ITDImperialSpingardes" type="Normal">
+    <dbid>88887502</dbid>
+    <displaynameid>124639</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_artillery\imperial_artillery.png</icon>
+    <rollovertextid>124640</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">ITDSpingardes</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Culverin" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deQuakerGun" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="SetName" proto="Culverin" culture="none" newname="124637"></effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Caballeros Hospitalarios (HOS): civ 9, clon COMPLETO de Malta
+       (DEMaltese, civ real completa del juego base, NO una revolución — ver
+       docs/civs/09-caballeros-hospitalarios.md). Delega toda su identidad de edad a las
+       techs reales de Malta vía TechStatus active, mismo patrón que Egipto/Otomanos y
+       Rumania/Rusia. Al activar DEAge0Maltese se heredan automáticamente: deHospitaller,
+       deMalteseMusketeer, Pikeman, Crossbowman ("Ballesteros", ya pedido, sin trabajo
+       extra), deHoopThrower, y toda la economía/edificios/políticos reales de Malta —
+       ver investigación completa en la memoria del proyecto. ===================== -->
+  <tech name="HOSAge0" type="Normal">
+    <dbid>88889101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEAge0Maltese</effect>
+
+      <!-- Cuartel: Rodelero (real) ya tiene columna nativa propia en el Barracks real
+           (col 2, protoy.xml) — solo hace falta habilitarlo, sin CommandAdd. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Rodelero</target>
+      </effect>
+
+      <!-- Cuartel: Highlander propio (HOSHighlander, clon de MercHighlander sin mecanismo
+           de mercenario — mismo patrón que HUNHajduk/HUNCrabat/HUNPandur), columna 7 libre. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HOSHighlander</target>
+      </effect>
+
+      <!-- Establo: Húsar y Lancero reales (roster europeo estándar, por si no vinieran ya
+           heredados de DEAge0Maltese) + Conquistador (ypNatMercConquistador real, sin
+           columna nativa en el Establo — se agrega vía CommandAdd a la col 7 libre). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Hussar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Lancer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ypNatMercConquistador</target>
+      </effect>
+      <effect type="SetName" proto="ypNatMercConquistador" culture="none" newname="88889230"></effect>
+      <effect type="CommandAdd" proto="ypNatMercConquistador" page="0" column="7">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+
+      <!-- Fundición: Lanzador de Fuego = deHoopThrower REAL de Malta (no ypFlameThrower
+           asiático usado antes por error). deHoopThrower YA viene Enabled por
+           DEAge0Maltese, YA tiene columna NATIVA en ArtilleryDepot (col 0, protoy.xml) y su
+           string real (locid 124564) YA dice exactamente "Lanzador de fuego" — cero trabajo
+           extra, sin SetName ni CommandAdd. Sus mejoras reales (DEVeteranHoopThrowers/
+           DEGuardHoopThrowers/DEImperialHoopThrowers) ya están `obtainable` desde
+           DEAge0Maltese también. -->
+    </effects>
+  </tech>
+  <tech name="HOSColonialize" type="Normal">
+    <dbid>88889102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOSAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEColonializeMaltese</effect>
+    </effects>
+  </tech>
+  <tech name="HOSFortressize" type="Normal">
+    <dbid>88889103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOSColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEFortressizeMaltese</effect>
+    </effects>
+  </tech>
+  <tech name="HOSIndustrialize" type="Normal">
+    <dbid>88889104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOSFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEIndustrializeMaltese</effect>
+    </effects>
+  </tech>
+  <tech name="HOSImperialize" type="Normal">
+    <dbid>88889105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOSIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">DEImperializeMaltese</effect>
+    </effects>
+  </tech>
+  <tech name="HOSPostIndustrial" type="Normal">
+    <dbid>88889106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEPostIndustrialMaltese</effect>
+    </effects>
+  </tech>
+  <tech name="HOSPostImperial" type="Normal">
+    <dbid>88889107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEPostImperialMaltese</effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Estados Berberiscos (BAR): civ 10, clon COMPLETO de Otomanos
+       (civ real "Ottomans"). Delega toda su identidad de edad a las techs reales de
+       Otomanos, mismo patrón que Egipto. El roster propio reusa protos y strings REALES de
+       la revolución de Estados Berberiscos (DERevolutionBarbaryStates) — "Tirador Corsario"
+       (deAllegianceBarbaryMarksman), "Guerrero Berberisco" (deREVBarbaryWarrior) y "Capitán
+       Corsario" (locid 80712, reusado directo en el clon de Explorador) ya tienen su nombre
+       real correcto, sin necesidad de SetName. Ver
+       docs/civs/10-estados-berberiscos.md. ===================== -->
+  <tech name="BARAge0" type="Normal">
+    <dbid>888810101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0Ottoman</effect>
+
+      <!-- Quitar el roster militar OTOMANO heredado de Age0Ottoman (pedido explícito del
+           usuario: "los de Estados Berberiscos no deben tener unidades otomanas") — mismo
+           patrón que Argentina deshabilita Pavisier/Pikeman/Halberdier de Italia. Cuartel:
+           Jenízaro y Azap. Establo: Deli, Spahi y Arquero a Caballo. Fundición: Humbaracı y
+           Cañón Abus. -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Janissary</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deAzap</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranJanissaries</effect>
+      <effect type="TechStatus" status="unobtainable">GuardJanissaries</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialJanissaries</effect>
+      <effect type="TechStatus" status="unobtainable">DEVeteranAzaps</effect>
+      <effect type="TechStatus" status="unobtainable">DEGuardAzaps</effect>
+      <effect type="TechStatus" status="unobtainable">DEImperialAzaps</effect>
+
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deDeli</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Spahi</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">CavalryArcher</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranDelis</effect>
+      <effect type="TechStatus" status="unobtainable">GuardCavalryArchers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCavalryArchers</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranCavalryArchersShadow</effect>
+
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deHumbaraci</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">AbusGun</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranHumbaracis</effect>
+      <effect type="TechStatus" status="unobtainable">RGBaratcuCorps</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialBaratcu</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranAbusGuns</effect>
+      <effect type="TechStatus" status="unobtainable">GuardAbusGuns</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialAbusGun</effect>
+
+      <!-- Cuartel: Pirata (BARPirate, clon de SaloonPirate sin mecanismo de mercenario,
+           columna 8 libre), Guerrero Berberisco y Tirador Corsario (reales, ninguno tiene
+           columna nativa en el Barracks — solo en Tavern/vía revolución — se agregan vía
+           CommandAdd). Ambos ya muestran su nombre real correcto sin SetName. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">BARPirate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deREVBarbaryWarrior</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="AllowedAge" relativity="Assign">
+        <target type="ProtoUnit">deREVBarbaryWarrior</target>
+      </effect>
+      <effect type="CommandAdd" proto="deREVBarbaryWarrior" page="0" column="9">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deAllegianceBarbaryMarksman</target>
+      </effect>
+      <effect type="CommandAdd" proto="deAllegianceBarbaryMarksman" page="0" column="10">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+
+      <!-- Establo: Jinete del Magreb (deBarbaryCavalry real, columna NATIVA 0 — solo
+           Enable+SetName, sin CommandAdd) y Jinete Makhzen (deBedouinHorseArcher real,
+           columna NATIVA 1, ídem). Ambos son protos reales de la propia revolución de
+           Estados Berberiscos, ya pensados para este slot. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deBarbaryCavalry</target>
+      </effect>
+      <effect type="SetName" proto="deBarbaryCavalry" culture="none" newname="888810220"></effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deBedouinHorseArcher</target>
+      </effect>
+      <effect type="SetName" proto="deBedouinHorseArcher" culture="none" newname="888810230"></effect>
+    </effects>
+  </tech>
+  <tech name="BARColonialize" type="Normal">
+    <dbid>888810102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>BARAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="BARFortressize" type="Normal">
+    <dbid>888810103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>BARColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="BARIndustrialize" type="Normal">
+    <dbid>888810104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>BARFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="BARImperialize" type="Normal">
+    <dbid>888810105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>BARIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="BARPostIndustrial" type="Normal">
+    <dbid>888810106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="BARPostImperial" type="Normal">
+    <dbid>888810107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialOttoman</effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Colombia (COL): civ 11, clon COMPLETO de España (civ real
+       "Spanish"). Delega toda su identidad de edad a las techs reales de España. Civ NORMAL
+       (sin InitiateRevolution), mismo criterio que Rumania/Argentina. Casi todo el roster
+       reusa nombres REALES ya correctos: "Guardia independiente" (locid 80965, real de
+       DERevolutionColombia), "Guerrillero" (locid 22956, nombre español default de
+       Skirmisher), "Llanero" (locid 80977, real), "Bolívar" (locid 34107, real). Ver
+       docs/civs/11-colombia.md. ===================== -->
+  <tech name="COLAge0" type="Normal">
+    <dbid>888811101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0Spanish</effect>
+
+      <!-- Cuartel: Guardia Independiente = Musketeer real, con los mismos buffs que le da
+           la tech real DERevolutionColombia (sin InitiateRevolution ni el envío de
+           Ironclads, que son específicos de la mecánica de revolución). Nombre real ya
+           correcto (locid 80965), sin necesidad de SetName. -->
+      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="0.90" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.50" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Assign">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="1.30" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Assign">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="1.50" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Assign">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="1.30" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Assign">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="1.50" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Assign">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="1.30" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Assign">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+
+      <!-- Mejoras propias de Guardia Independiente (clones de VeteranMusketeers/RGRedcoats/
+           ImperialMusketeers reales — no se pueden activar directo porque son compartidas
+           con cualquier civ que también use Musketeer real, mismo patrón que Milicia
+           Criolla de Argentina). -->
+      <effect type="TechStatus" status="unobtainable">VeteranMusketeers</effect>
+      <effect type="TechStatus" status="unobtainable">RGRedcoats</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialMusketeers</effect>
+      <effect type="TechStatus" status="obtainable">COLVeteranGuardiaIndependiente</effect>
+      <effect type="TechStatus" status="obtainable">COLGuardGuardiaIndependiente</effect>
+      <effect type="TechStatus" status="obtainable">COLImperialGuardiaIndependiente</effect>
+
+      <!-- Cuartel: Guerrillero = Skirmisher real. Nombre español default YA es "Guerrillero"
+           (locid 22956) — sin necesidad de SetName. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+
+      <!-- Establo: Llanero = deREVLlanero real. Réplica exacta del patrón que usa la carta
+           real DEHCREVLlaneros (Enable, Build/Gather/Hunting, bono x5 vs Llama, Corral+vaca,
+           1 población, entrenable directo en el Establo, 120 comida/0 oro). Nombre real ya
+           correcto (locid 80977), sin SetName. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deREVLlanero</target>
+      </effect>
+      <effect type="Data" action="Build" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deREVLlanero</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deREVLlanero</target>
+      </effect>
+      <effect type="Data" action="Hunting" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deREVLlanero</target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="DamageBonus" unittype="Llama" allactions="1" relativity="Assign">
+        <target type="ProtoUnit">deREVLlanero</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Cow</target>
+      </effect>
+      <effect type="CommandAdd" proto="LivestockPen" page="0" column="0">
+        <target type="ProtoUnit">deREVLlanero</target>
+      </effect>
+      <effect type="CommandAdd" proto="Cow" page="0" column="1">
+        <target type="ProtoUnit">deREVLlanero</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+        <target type="ProtoUnit">deREVLlanero</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deREVLlanero" relativity="Absolute">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="Data" amount="120.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">deREVLlanero</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">deREVLlanero</target>
+      </effect>
+
+      <!-- Establo: Lancero = deChinaco real ("Lancero de estilo charro" pedido). Columna
+           NATIVA propia en el Establo (columna 1) — solo Enable+SetName, sin CommandAdd. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deChinaco</target>
+      </effect>
+      <effect type="SetName" proto="deChinaco" culture="none" newname="888811220"></effect>
+    </effects>
+  </tech>
+  <tech name="COLColonialize" type="Normal">
+    <dbid>888811102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>COLAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeSpanish</effect>
+    </effects>
+  </tech>
+  <tech name="COLFortressize" type="Normal">
+    <dbid>888811103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>COLColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeSpanish</effect>
+    </effects>
+  </tech>
+  <tech name="COLIndustrialize" type="Normal">
+    <dbid>888811104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>COLFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeSpanish</effect>
+    </effects>
+  </tech>
+  <tech name="COLImperialize" type="Normal">
+    <dbid>888811105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>COLIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeSpanish</effect>
+    </effects>
+  </tech>
+  <tech name="COLPostIndustrial" type="Normal">
+    <dbid>888811106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialSpanish</effect>
+    </effects>
+  </tech>
+  <tech name="COLPostImperial" type="Normal">
+    <dbid>888811107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialSpanish</effect>
+    </effects>
+  </tech>
+
+  <!-- Colombia: mejoras propias de Guardia Independiente (clones de VeteranMusketeers/
+       RGRedcoats/ImperialMusketeers reales). -->
+  <tech name="COLVeteranGuardiaIndependiente" type="Normal">
+    <dbid>888811130</dbid>
+    <displaynameid>888811260</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="SetName" proto="Musketeer" culture="none" newname="888811260"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Musketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="COLGuardGuardiaIndependiente" type="Normal">
+    <dbid>888811131</dbid>
+    <displaynameid>888811261</displaynameid>
+    <cost resourcetype="Wood">750.0000</cost>
+    <cost resourcetype="Gold">750.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">COLVeteranGuardiaIndependiente</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.05" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="SetName" proto="Musketeer" culture="none" newname="888811261"></effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Musketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="COLImperialGuardiaIndependiente" type="Normal">
+    <dbid>888811132</dbid>
+    <displaynameid>888811262</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">COLGuardGuardiaIndependiente</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="SetName" proto="Musketeer" culture="none" newname="888811262"></effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Musketeer" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Chile (CHL): civ 12, clon COMPLETO de España (civ real
+       "Spanish" — el mismo real Age0Spanish marca DERevolutionChile obtainable). Civ NORMAL
+       (sin InitiateRevolution). "Húsar de la muerte" reusa EXACTO el efecto real de
+       DERevolutionChile (activa VeteranHussars/GuardHussars directo + x2 daño + ícono real
+       dedicado), sin las partes puramente económicas/de revolución (bono de Plantación,
+       límite de Colono, envío gratis de Húsares). Ver docs/civs/12-chile.md.
+       ===================== -->
+  <tech name="CHLAge0" type="Normal">
+    <dbid>888812101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0Spanish</effect>
+
+      <!-- Cuartel: Soldado Mexicano (deSoldado real, SetName propio — Argentina también lo
+           usa como "Patricio", pero con su propio SetName dentro de ARGAge0, así que no
+           colisiona) y Guerrillero (Skirmisher real, nombre español default ya correcto). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deSoldado</target>
+      </effect>
+      <effect type="SetName" proto="deSoldado" culture="none" newname="888812210"></effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+
+      <!-- Establo: Húsar de la Muerte = Hussar real, réplica exacta del efecto real de
+           DERevolutionChile (activa VeteranHussars/GuardHussars directo, x2 daño, ícono real
+           dedicado deIconREVChileanHussar). Nombre real ya correcto (locid 80935). -->
+      <effect type="TechStatus" status="active">VeteranHussars</effect>
+      <effect type="TechStatus" status="active">GuardHussars</effect>
+      <effect type="Data" amount="2.00" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Hussar</target>
+      </effect>
+      <effect type="SetName" proto="Hussar" culture="none" newname="80935"></effect>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Hussar" relativity="Absolute">
+        <target type="ProtoUnit">deIconREVChileanHussar</target>
+      </effect>
+
+      <!-- Establo: Cazador a Caballo = Dragoon real, con escalado por edad (80% en Edad II,
+           100% en Edad IV, mismo patrón que el Bersagliere de Holanda Italiana/Jinete
+           Arquero de Valaquia de Rumania) + el bono extra vs caballería pesada de la carta
+           real DEHCREVHorseHunters horneado directo (pedido explícito "Cazador a Caballo"). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Dragoon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AllowedAge" relativity="Assign">
+        <target type="ProtoUnit">Dragoon</target>
+      </effect>
+      <effect type="SetName" proto="Dragoon" culture="none" newname="888812230"></effect>
+      <effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Dragoon</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Dragoon</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
+        <target type="ProtoUnit">Dragoon</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
+        <target type="ProtoUnit">Dragoon</target>
+      </effect>
+      <effect type="Data" action="MeleeHandAttack" amount="2.00" subtype="DamageBonus" unittype="AbstractHeavyCavalry" relativity="Absolute">
+        <target type="ProtoUnit">Dragoon</target>
+      </effect>
+
+      <!-- Fundición: Granaderos = Grenadier real, habilitado directo. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="CHLColonialize" type="Normal">
+    <dbid>888812102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>CHLAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeSpanish</effect>
+    </effects>
+  </tech>
+  <tech name="CHLFortressize" type="Normal">
+    <dbid>888812103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>CHLColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeSpanish</effect>
+    </effects>
+  </tech>
+  <tech name="CHLIndustrialize" type="Normal">
+    <dbid>888812104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>CHLFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeSpanish</effect>
+      <!-- Cazador a Caballo: 80% -> 100% de sus stats reales -->
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Dragoon</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Dragoon</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="CHLImperialize" type="Normal">
+    <dbid>888812105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>CHLIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeSpanish</effect>
+    </effects>
+  </tech>
+  <tech name="CHLPostIndustrial" type="Normal">
+    <dbid>888812106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialSpanish</effect>
+    </effects>
+  </tech>
+  <tech name="CHLPostImperial" type="Normal">
+    <dbid>888812107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialSpanish</effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Francia Napoleónica (FRA): civ 13, clon COMPLETO de Francia
+       (civ real "French" — el Coureur es su colono real, no Settler). Delega toda su
+       identidad de edad a las techs reales de Francia. Civ NORMAL (sin
+       InitiateRevolution). El Sansculotte es una réplica del efecto real de
+       DERevolutionFrance (SetUnitType de Coureur a soldado, sin la parte de revolución/
+       InitiateRevolution/cambio de Explorador), aplicada progresivamente por edad: Edad I =
+       Coureur normal (economía pura, sin cambios en FRAAge0); Edad II (FRAColonialize) = la
+       transformación completa pero al 50% de sus stats de combate; Edad III
+       (FRAFortressize) = 75%; Edad IV (FRAIndustrialize) = 100%. Ver
+       docs/civs/13-francia-napoleonica.md. ===================== -->
+  <tech name="FRAAge0" type="Normal">
+    <dbid>888813101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0French</effect>
+
+      <!-- Límite de Sansculottes (Coureur): 70. -->
+      <effect type="Data" amount="70.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+
+      <!-- Fundición: Granaderos pueden recolectar recursos (habilidad económica agregada a
+           una unidad militar, mismo patrón que el Gaucho de Argentina con los Corrales). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.50" subtype="WorkRate" unittype="Tree" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.50" subtype="WorkRate" unittype="AbstractMine" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.50" subtype="WorkRate" unittype="Farm" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.50" subtype="WorkRate" unittype="Huntable" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.50" subtype="WorkRate" unittype="Herdable" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+
+      <!-- Establo: Fusilero Montado propio (FRAMountedRifleman), 100% clon exclusivo — solo
+           hace falta habilitarlo, su columna estática ya está en protomods.xml. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FRAMountedRifleman</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FRAColonialize" type="Normal">
+    <dbid>888813102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>FRAAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeFrench</effect>
+
+      <!-- Sansculotte (Edad II, 50%): réplica del efecto real de DERevolutionFrance sobre
+           Coureur, SIN InitiateRevolution ni el reemplazo de NativeScout->deRevolutionaryScout
+           (partes de mecánica de revolución, no de identidad de la unidad). -->
+      <effect type="SetName" proto="Coureur" culture="none" newname="125348" newrollover="125350" newshortrollover="125351"></effect>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Coureur" relativity="Absolute">
+        <target type="ProtoUnit">deIconSansculotte</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="SetUnitType" unittype="AbstractVillager" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="SetUnitType" unittype="LogicalTypeLandEconomy" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="SetUnitType" unittype="LogicalTypeEasySelectAvoid" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="AbstractInfantry" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="AbstractRangedInfantry" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="AbstractGunpowderTrooper" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="Military" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="LogicalTypeAffectedByVillagerUpgrades" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="EnableAutoFormations" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="LogicalTypeLandMilitary" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="LogicalTypeMinimapFilterMilitary" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="LogicalTypeRangedUnitsAutoAttackNoVillagers" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SetUnitType" unittype="AbstractCountAsGatherer" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="8.00" subtype="BuildBounty" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="8.00" subtype="KillBounty" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="-20.00" subtype="Cost" resource="Food" relativity="Absolute">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="-45.00" subtype="Hitpoints" relativity="Absolute">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="0.60" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="RifleAttack" amount="2.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="RifleAttack" amount="12.00" subtype="Damage" relativity="Absolute">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="ButtAttack" amount="2.00" subtype="DamageBonus" unittype="AbstractPet" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="ButtAttack" amount="2.00" subtype="DamageBonus" unittype="AbstractArtillery" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="ButtAttack" amount="2.00" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="ButtAttack" amount="4.00" subtype="Damage" relativity="Absolute">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="BuildingAttack" amount="1.50" subtype="DamageBonus" unittype="AbstractDefensiveBuilding" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="BuildingAttack" amount="26.00" subtype="Damage" relativity="Absolute">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="Build" amount="0.80" subtype="WorkRate" unittype="Building" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="CrateGather" amount="7.50" subtype="WorkRate" unittype="AbstractResourceCrate" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.7" subtype="WorkRate" unittype="Huntable" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.6" subtype="WorkRate" unittype="AbstractBerryBush" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="Herdable" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.66" subtype="WorkRate" unittype="AbstractMine" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.5" subtype="WorkRate" unittype="Tree" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.4" subtype="WorkRate" unittype="Plantation" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.5" subtype="WorkRate" unittype="Mill" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="0.4" subtype="WorkRate" unittype="Farm" relativity="Assign">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+
+      <!-- Escalado por edad: 50% de las stats de combate en Edad II (BasePercent encima de
+           los valores absolutos de arriba). -->
+      <effect type="Data" amount="0.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FRAFortressize" type="Normal">
+    <dbid>888813103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>FRAColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeFrench</effect>
+      <!-- Sansculotte: 50% -> 75% -->
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FRAIndustrialize" type="Normal">
+    <dbid>888813104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>FRAFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeFrench</effect>
+      <!-- Sansculotte: 75% -> 100% -->
+      <effect type="Data" amount="1.3333" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+      <effect type="Data" amount="1.3333" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Coureur</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FRAImperialize" type="Normal">
+    <dbid>888813105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>FRAIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeFrench</effect>
+    </effects>
+  </tech>
+  <tech name="FRAPostIndustrial" type="Normal">
+    <dbid>888813106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialFrench</effect>
+    </effects>
+  </tech>
+  <tech name="FRAPostImperial" type="Normal">
+    <dbid>888813107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialFrench</effect>
+    </effects>
+  </tech>
+
+  <!-- ===================== Indias Orientales Neerlandesas (IOR): civ 14, clon COMPLETO de
+       Portugal (civ real "Portuguese" — el mismo real Age0Portuguese marca
+       DERevolutionIndonesia obtainable, junto con Age0Dutch). Delega toda su identidad de
+       edad a las techs reales de Portugal. Civ NORMAL (sin InitiateRevolution). Lancero
+       Javanés y Cetbang reusan protos/nombres REALES de la revolución indonesia
+       (DERevolutionIndonesia); Jawa/Berkuda/Pemanah Kuda/Prajurit Kraton son renombres
+       propios sobre protos reales confirmados (mercenarios/nativos "Wanders", despojados del
+       tipo forajido). Ver docs/civs/14-indias-orientales-neerlandesas.md.
+       ===================== -->
+  <tech name="IORAge0" type="Normal">
+    <dbid>888814101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0Portuguese</effect>
+
+      <!-- Cuartel: Lancero Javanés (deREVJavaSpearman real) — réplica del patrón real
+           (AddTrain directo al Barracks, mismo mecanismo que usa la propia
+           DERevolutionIndonesia). Nombre real ya correcto (locid 80715). AllowedAge
+           reasignado a 0 (el real es 3, pensado para revolución tardía). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deREVJavaSpearman</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="AllowedAge" relativity="Assign">
+        <target type="ProtoUnit">deREVJavaSpearman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deREVJavaSpearman" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+
+      <!-- Cuartel: Jawa = ypRepentantSmuggler real (mercenario/nativo "Wanders" despojado
+           del tipo forajido — quitado AbstractOutlaw). Costo repartido alimento/monedas, 2
+           de población, columna 9 libre (sin CommandRemove: no tiene columna nativa en
+           ningún building, solo aparece como NPC errante). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ypRepentantSmuggler</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="SetUnitType" unittype="AbstractOutlaw" relativity="Assign">
+        <target type="ProtoUnit">ypRepentantSmuggler</target>
+      </effect>
+      <effect type="SetName" proto="ypRepentantSmuggler" culture="none" newname="888814210" newrollover="888814211" newshortrollover="888814212"></effect>
+      <effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+        <target type="ProtoUnit">ypRepentantSmuggler</target>
+      </effect>
+      <effect type="Data" amount="50.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">ypRepentantSmuggler</target>
+      </effect>
+      <effect type="Data" amount="50.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">ypRepentantSmuggler</target>
+      </effect>
+      <effect type="CommandAdd" proto="ypRepentantSmuggler" page="0" column="9">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+
+      <!-- Establo: Berkuda = deSaloonOutlawCossack real, mismo tratamiento. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deSaloonOutlawCossack</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="SetUnitType" unittype="AbstractOutlaw" relativity="Assign">
+        <target type="ProtoUnit">deSaloonOutlawCossack</target>
+      </effect>
+      <effect type="SetName" proto="deSaloonOutlawCossack" culture="none" newname="888814220" newrollover="888814221" newshortrollover="888814222"></effect>
+      <effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+        <target type="ProtoUnit">deSaloonOutlawCossack</target>
+      </effect>
+      <effect type="Data" amount="50.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">deSaloonOutlawCossack</target>
+      </effect>
+      <effect type="Data" amount="50.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">deSaloonOutlawCossack</target>
+      </effect>
+      <effect type="CommandAdd" proto="deSaloonOutlawCossack" page="0" column="5">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+
+      <!-- Establo: Pemanah Kuda = ypWokouWaywardRonin real, mismo tratamiento (3 tipos de
+           forajido a quitar: AbstractOutlaw/LogicalTypePickableOutlaw/
+           LogicalTypePickableMercOutlaw). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ypWokouWaywardRonin</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="SetUnitType" unittype="AbstractOutlaw" relativity="Assign">
+        <target type="ProtoUnit">ypWokouWaywardRonin</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="SetUnitType" unittype="LogicalTypePickableOutlaw" relativity="Assign">
+        <target type="ProtoUnit">ypWokouWaywardRonin</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="SetUnitType" unittype="LogicalTypePickableMercOutlaw" relativity="Assign">
+        <target type="ProtoUnit">ypWokouWaywardRonin</target>
+      </effect>
+      <effect type="SetName" proto="ypWokouWaywardRonin" culture="none" newname="888814230" newrollover="888814231" newshortrollover="888814232"></effect>
+      <effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+        <target type="ProtoUnit">ypWokouWaywardRonin</target>
+      </effect>
+      <effect type="Data" amount="60.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">ypWokouWaywardRonin</target>
+      </effect>
+      <effect type="Data" amount="90.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">ypWokouWaywardRonin</target>
+      </effect>
+      <effect type="CommandAdd" proto="ypWokouWaywardRonin" page="0" column="6">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+
+      <!-- Fundición: Cetbang (deREVCetbang real) — réplica del patrón real (AddTrain
+           directo a la Fundición). Nombre real ya casi correcto (locid 80801, "Cañón
+           cetbang"), sin SetName. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deREVCetbang</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deREVCetbang" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+
+      <!-- Fundición: Prajurit Kraton = ypNatChakram real (nativo, sin costo/población
+           pedidos — solo renombre). Columna 3 libre. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ypNatChakram</target>
+      </effect>
+      <effect type="SetName" proto="ypNatChakram" culture="none" newname="888814240" newrollover="888814241" newshortrollover="888814242"></effect>
+      <effect type="CommandAdd" proto="ypNatChakram" page="0" column="3">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="IORColonialize" type="Normal">
+    <dbid>888814102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>IORAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializePortuguese</effect>
+    </effects>
+  </tech>
+  <tech name="IORFortressize" type="Normal">
+    <dbid>888814103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>IORColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizePortuguese</effect>
+    </effects>
+  </tech>
+  <tech name="IORIndustrialize" type="Normal">
+    <dbid>888814104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>IORFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializePortuguese</effect>
+    </effects>
+  </tech>
+  <tech name="IORImperialize" type="Normal">
+    <dbid>888814105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>IORIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializePortuguese</effect>
+    </effects>
+  </tech>
+  <tech name="IORPostIndustrial" type="Normal">
+    <dbid>888814106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialPortuguese</effect>
+    </effects>
+  </tech>
+  <tech name="IORPostImperial" type="Normal">
+    <dbid>888814107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialPortuguese</effect>
     </effects>
   </tech>
 </techtreemods>

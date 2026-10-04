@@ -1,0 +1,5 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\hawk\hawk</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\hawk\hawk_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\animals\hawk\hawk_bored</file></assetreference><component>ModelComp</component></anim>
+</animfile>

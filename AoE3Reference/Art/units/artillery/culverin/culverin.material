@@ -1,0 +1,44 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\Culverin\textures\culverin_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\Culverin\textures\culverin_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\Culverin\textures\culverin_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\Culverin\textures\culverin_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\culverin\textures\culverin_guy_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\culverin\textures\culverin_guy_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\culverin\textures\culverin_guy_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\culverin\textures\culverin_guy_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\culverin\textures\culverin_horse_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\culverin\textures\culverin_horse_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\culverin\textures\culverin_horse_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\culverin\textures\culverin_horse_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

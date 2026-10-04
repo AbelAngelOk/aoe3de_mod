@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\generals\textures\astronaut_pistol_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\generals\textures\astronaut_pistol_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\generals\textures\astronaut_pistol_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

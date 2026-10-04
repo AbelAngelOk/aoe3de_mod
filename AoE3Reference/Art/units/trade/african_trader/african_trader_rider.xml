@@ -1,0 +1,8 @@
+<animfile>
+  <definebone>Bip 01 master</definebone>
+  <definebone>Bip01 Prop1</definebone>
+  <attachment>stick<component>stick<assetreference type="GrannyModel"><file>units\trade\african_trader\trader_stick</file></assetreference></component><anim>Idle<component>stick</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\trade\african_trader\african_trader_rider</file></assetreference><attach a="stick" frombone="bone_spear" tobone="bip01_Prop1" syncanims="0"></attach></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\asians\indians\sowar\sowarRider_idle01</file><weight>10</weight></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\sowar\sowarRider_idle02</file><weight>10</weight></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\sowar\sowarRider_idle03</file><weight>10</weight></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\sowar\sowarRider_idle05</file><weight>10</weight></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\sowar\sowarRider_idle06</file><weight>10</weight></assetreference><assetreference type="GrannyAnim"><file>units\asians\indians\sowar\sowarRider_idle00</file><weight>40</weight></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\asians\indians\sowar\sowarRider_walk</file></assetreference><component>ModelComp</component></anim>
+</animfile>

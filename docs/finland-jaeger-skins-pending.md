@@ -1,4 +1,23 @@
-# Skins de los jaegers finlandeses (Carelia / Savonia) — resuelto (mod-minimal 3.4)
+# Skins de los jaegers finlandeses (Carelia / Savonia) — resuelto (mod-minimal 3.4, actualizado v7.0)
+
+## Actualización v7.0 — causa raíz identificada con precisión
+
+Inspeccionando el `animfile` real (`skirmisher.xml`/`jaeger.xml`, extraídos de `ArtUnits.bar`
+con Resource Manager) se confirmó EXACTAMENTE por qué "el motor resuelve el nivel visual
+internamente por proto-id" (línea de abajo): cada uno tiene un `<component>ModelComp>` con
+un `<logic type="Tech">` — una rama por tech, activada solo si esa tech puntual (por nombre
+exacto) está `active` para el jugador. Ninguna cantidad de replicar efectos "equivalentes"
+con OTRO nombre de tech dispara la rama — hay que activar la tech con el nombre literal.
+
+- **Savonia**: la rama existe (`dechurchsavolaxjaegers` → modelo `savolax` dedicado) y la
+  tech (`DEChurchSavolaxJaegers`) es una carta de Iglesia común, sin `InitiateRevolution` —
+  **arreglado en v7.0** activándola directo en vez de replicar sus efectos a mano.
+- **Carelia**: la rama también existe (`derevolutionfinland` → cuerpo del Carolean de Edad
+  IV + textura `jaeger` dedicada) pero esa tech SÍ trae `InitiateRevolution` (bloqueo de
+  edad). En vez de perseguirla, v7.0 le dio a `FINKarelianJaeger` un `animfile` PROPIO con
+  esa misma rama pero SIN condición (siempre activa) — depende de que `Art/` sea
+  overrideable por el mod, cosa que NUNCA se confirmó en juego (a diferencia de `Sound/`).
+  Ver [[aoe3-finland-civ-clones-sweden]] (memoria) para el detalle completo.
 
 ## Qué se descubrió
 

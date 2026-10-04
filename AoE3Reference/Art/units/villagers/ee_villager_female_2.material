@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\villagers\ee_villager_female_2\textures\ee_villager_female_2_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\villagers\ee_villager_female_2\textures\ee_villager_female_2_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\villagers\ee_villager_female_2\textures\ee_villager_female_2_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\villagers\ee_villager_female_2\textures\ee_villager_female_2_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

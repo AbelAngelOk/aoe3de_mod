@@ -1,0 +1,32 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\revolution\jaeger\textures\jaeger_hat_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\revolution\jaeger\textures\jaeger_hat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\villagers\settler_wagon\textures\settler_wagon_hat_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\revolution\jaeger\textures\jaeger_hat_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\revolution\voluntario\textures\voluntario_hat_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\revolution\jaeger\textures\jaeger_hat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\villagers\settler_wagon\textures\settler_wagon_hat_mata_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\villagers\settler_wagon\textures\settler_wagon_hat_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\villagers\settler_wagon\textures\settler_wagon_hat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\villagers\settler_wagon\textures\settler_wagon_hat_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

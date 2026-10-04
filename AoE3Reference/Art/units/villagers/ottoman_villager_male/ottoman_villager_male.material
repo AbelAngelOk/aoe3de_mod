@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/villagers/ottoman_villager_male/textures/ottoman_villager_male_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/villagers/ottoman_villager_male/textures/ottoman_villager_male_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units/villagers/ottoman_villager_male/textures/ottoman_villager_male_matA_Masks">
+      </texture>
+      <texture name="Details" override="units/villagers/ottoman_villager_male/textures/ottoman_villager_male_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

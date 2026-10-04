@@ -1,0 +1,34 @@
+<!--
+  mod-minimal (Argentina): voz del sacerdote (Priest real — Italia lo habilita en
+  DEAge0Italians, no Missionary). Proto COMPARTIDO; su sonido se resuelve por <civlogic> en
+  Sound/priest_snds.xml y "ARGArgentina" no existe ahí (civ nueva) -> quedaba mudo. Archivo
+  ADITIVO que agrega la rama ARGArgentina reusando los soundsets reales "Spanish" (pedido
+  explícito: sonido del misionero español). Priest no tiene sonido de ataque (no combate),
+  por eso "enemy" queda vacío igual que en la rama Spanish real.
+-->
+<protounitsounddefmods>
+  <protounit name="Priest">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="ARGArgentina">
+          <soundset name="MMSpanishPriestSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="ARGArgentina">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMSpanishPriestAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

@@ -925,7 +925,7 @@
     <string _locid="50922" comment="proto-Explorer civ-Portuguese type-firstname">एंटोनियो </string>
     <string _locid="50923" comment="proto-Explorer civ-Portuguese type-firstname">बार्टोलोम </string>
     <string _locid="50924" comment="proto-Explorer civ-Portuguese type-firstname">बार्टोलोमेयू </string>
-    <string _locid="50925" comment="proto-Explorer civ-Portuguese type-firstname">डिओगो</string>
+    <string _locid="50925" comment="proto-Explorer civ-Portuguese type-firstname">डिओगो </string>
     <string _locid="50926" comment="proto-Explorer civ-Portuguese type-firstname">एस्टेवाओ </string>
     <string _locid="50927" comment="proto-Explorer civ-Portuguese type-firstname">फ़र्डिनैंड </string>
     <string _locid="50928" comment="proto-Explorer civ-Portuguese/Spanish type-firstname">गैसपर </string>
@@ -2680,5 +2680,513 @@
     <string _locid="54349" comment="proto-deMercBattleship civ-French type-title">वेंगुर</string>
     <string _locid="54350" comment="proto-deMercBattleship civ-French type-title">मोंतेबेलो</string>
     <string _locid="54351" comment="proto-deMercBattleship civ-Germans type-title">एडलर वॉन लुबेक</string>
+    <string _locid="54352" comment="proto-deHetman type-firstname">एडम </string>
+    <string _locid="54353" comment="proto-deHetman type-firstname">एलेक्ज़ैंडर </string>
+    <string _locid="54354" comment="proto-deHetman type-firstname">आंद्रेज  </string>
+    <string _locid="54355" comment="proto-deHetman type-firstname">दिमित्री </string>
+    <string _locid="54356" comment="proto-deHetman type-firstname">अर्नेस्टस </string>
+    <string _locid="54357" comment="proto-deHetman type-firstname">फेलिक्स </string>
+    <string _locid="54358" comment="proto-deHetman type-firstname">फ्रांसिसज़ेक </string>
+    <string _locid="54359" comment="proto-deHetman type-firstname">ग्रिगलियस </string>
+    <string _locid="54360" comment="proto-deHetman type-firstname">ग्रज़ेगोर्ज़ </string>
+    <string _locid="54361" comment="proto-deHetman type-firstname">हायरॉनिम् </string>
+    <string _locid="54362" comment="proto-deHetman type-firstname">जेन करोल </string>
+    <string _locid="54363" comment="proto-deHetman type-firstname">जनुस्ज़ </string>
+    <string _locid="54364" comment="proto-deHetman type-firstname">जर्ज़ी </string>
+    <string _locid="54365" comment="proto-deHetman type-firstname">जोनस </string>
+    <string _locid="54366" comment="proto-deHetman type-firstname">जोज़ेफ </string>
+    <string _locid="54367" comment="proto-deHetman type-firstname">कॉन्स्टेंटी </string>
+    <string _locid="54368" comment="proto-deHetman type-firstname">क्रिस्टुपस </string>
+    <string _locid="54369" comment="proto-deHetman type-firstname">करज़िस्तोफ </string>
+    <string _locid="54370" comment="proto-deHetman type-firstname">ल्यू </string>
+    <string _locid="54371" comment="proto-deHetman type-firstname">ल्यूडविकास </string>
+    <string _locid="54372" comment="proto-deHetman type-firstname">ल्यूडविक </string>
+    <string _locid="54373" comment="proto-deHetman type-firstname">मार्सिन </string>
+    <string _locid="54374" comment="proto-deHetman type-firstname">मेटउस्ज़  </string>
+    <string _locid="54375" comment="proto-deHetman type-firstname">मिचल </string>
+    <string _locid="54376" comment="proto-deHetman type-firstname">मिकोलज </string>
+    <string _locid="54377" comment="proto-deHetman type-firstname">मिकोलस  </string>
+    <string _locid="54378" comment="proto-deHetman type-firstname">पावेल जेन </string>
+    <string _locid="54379" comment="proto-deHetman type-firstname">पियोट्र </string>
+    <string _locid="54380" comment="proto-deHetman type-firstname">रोमन </string>
+    <string _locid="54381" comment="proto-deHetman type-firstname">सेवरिन </string>
+    <string _locid="54382" comment="proto-deHetman type-firstname">सिमोनस </string>
+    <string _locid="54383" comment="proto-deHetman type-firstname">स्टैनिस्लॉ </string>
+    <string _locid="54384" comment="proto-deHetman type-firstname">स्टैनिस्लोवास </string>
+    <string _locid="54385" comment="proto-deHetman type-firstname">स्टेफन </string>
+    <string _locid="54386" comment="proto-deHetman type-firstname">वैक्लाव </string>
+    <string _locid="54387" comment="proto-deHetman type-firstname">व्लादिस्लॉ </string>
+    <string _locid="54388" comment="proto-deHetman type-lastname">ब्रानिकी </string>
+    <string _locid="54389" comment="proto-deHetman type-lastname">चोदज़ा</string>
+    <string _locid="54390" comment="proto-deHetman type-lastname">चोडेकी</string>
+    <string _locid="54391" comment="proto-deHetman type-lastname">चोद्किविक्ज़</string>
+    <string _locid="54392" comment="proto-deHetman type-lastname">चोमेटोव्स्की</string>
+    <string _locid="54393" comment="proto-deHetman type-lastname">जारनीकी</string>
+    <string _locid="54394" comment="proto-deHetman type-lastname">डेनहोफस</string>
+    <string _locid="54395" comment="proto-deHetman type-lastname">फिरलेज</string>
+    <string _locid="54396" comment="proto-deHetman type-lastname">जबलोनोवस्की</string>
+    <string _locid="54397" comment="proto-deHetman type-lastname">जाजलोवीकी</string>
+    <string _locid="54398" comment="proto-deHetman type-lastname">कालिनोवस्की</string>
+    <string _locid="54399" comment="proto-deHetman type-lastname">कामियेनेकी</string>
+    <string _locid="54400" comment="proto-deHetman type-lastname">कज़ानोवस्की</string>
+    <string _locid="54401" comment="proto-deHetman type-lastname">कज़िमिरस</string>
+    <string _locid="54402" comment="proto-deHetman type-lastname">केसगैला</string>
+    <string _locid="54403" comment="proto-deHetman type-lastname">किज़का</string>
+    <string _locid="54404" comment="proto-deHetman type-lastname">कोला</string>
+    <string _locid="54405" comment="proto-deHetman type-lastname">कोनीसीपोल्स्की</string>
+    <string _locid="54406" comment="proto-deHetman type-lastname">कोसाकोवस्की</string>
+    <string _locid="54407" comment="proto-deHetman type-lastname">लैंकोरोंस्की</string>
+    <string _locid="54408" comment="proto-deHetman type-lastname">लूबोमिर्स्की</string>
+    <string _locid="54409" comment="proto-deHetman type-lastname">मार्टिनस</string>
+    <string _locid="54410" comment="proto-deHetman type-lastname">मेसलस्की</string>
+    <string _locid="54411" comment="proto-deHetman type-lastname">मिएलेकी</string>
+    <string _locid="54412" comment="proto-deHetman type-lastname">माइस्ज़कोव्स्की</string>
+    <string _locid="54413" comment="proto-deHetman type-lastname">ओगिंस्की</string>
+    <string _locid="54414" comment="proto-deHetman type-lastname">ओगेंस्किस</string>
+    <string _locid="54415" comment="proto-deHetman type-lastname">ओस्त्रोग्स्की</string>
+    <string _locid="54416" comment="proto-deHetman type-lastname">ओजारोव्स्की</string>
+    <string _locid="54417" comment="proto-deHetman type-lastname">पैनिवेस्की</string>
+    <string _locid="54418" comment="proto-deHetman type-lastname">परकुनस</string>
+    <string _locid="54419" comment="proto-deHetman type-lastname">पेनिएज़ेक</string>
+    <string _locid="54420" comment="proto-deHetman type-lastname">पियोरन</string>
+    <string _locid="54421" comment="proto-deHetman type-lastname">पोसीजस</string>
+    <string _locid="54422" comment="proto-deHetman type-lastname">पोटोकी</string>
+    <string _locid="54423" comment="proto-deHetman type-lastname">रैसिबोर्ज़ान</string>
+    <string _locid="54424" comment="proto-deHetman type-lastname">राड्विला</string>
+    <string _locid="54425" comment="proto-deHetman type-lastname">रैड्ज़िविल</string>
+    <string _locid="54426" comment="proto-deHetman type-lastname">रेवेरा</string>
+    <string _locid="54427" comment="proto-deHetman type-lastname">रायबेंको</string>
+    <string _locid="54428" comment="proto-deHetman type-lastname">ज़ेवुस्की</string>
+    <string _locid="54429" comment="proto-deHetman type-lastname">संगुस्स्को</string>
+    <string _locid="54430" comment="proto-deHetman type-lastname">सेपिएहा</string>
+    <string _locid="54431" comment="proto-deHetman type-lastname">सिनियाव्स्की</string>
+    <string _locid="54432" comment="proto-deHetman type-lastname">सोबीएस्की</string>
+    <string _locid="54433" comment="proto-deHetman type-lastname">सोस्नोवस्की</string>
+    <string _locid="54434" comment="proto-deHetman type-lastname">टारनोवस्की</string>
+    <string _locid="54435" comment="proto-deHetman type-lastname">टूरोव्स्की</string>
+    <string _locid="54436" comment="proto-deHetman type-lastname">टिज़्किविज़</string>
+    <string _locid="54437" comment="proto-deHetman type-lastname">विस्निओविकी</string>
+    <string _locid="54438" comment="proto-deHetman type-lastname">वोलोविज़</string>
+    <string _locid="54439" comment="proto-deHetman type-lastname">ज़मोयस्की</string>
+    <string _locid="54440" comment="proto-deHetman type-lastname">ज़ोल्कीव्स्की</string>
+    <string _locid="54441" comment="proto-Explorer type-firstname">टाइको </string>
+    <string _locid="54442" comment="proto-Explorer type-firstname">क्रिश्चियन </string>
+    <string _locid="54443" comment="proto-Explorer type-firstname">ओले </string>
+    <string _locid="54444" comment="proto-Explorer type-firstname">हान्स </string>
+    <string _locid="54445" comment="proto-Explorer type-firstname">एबरहार्ड </string>
+    <string _locid="54446" comment="proto-Explorer type-firstname">योर्गन </string>
+    <string _locid="54447" comment="proto-Explorer type-firstname">योहान </string>
+    <string _locid="54448" comment="proto-Explorer type-firstname">कार्सटन </string>
+    <string _locid="54449" comment="proto-Explorer type-firstname">फ़्रेडरिक </string>
+    <string _locid="54450" comment="proto-Explorer type-firstname">मोर्टन </string>
+    <string _locid="54451" comment="proto-Explorer type-firstname">याकोब </string>
+    <string _locid="54452" comment="proto-Explorer type-firstname">येन्स </string>
+    <string _locid="54453" comment="proto-Explorer type-firstname">कार्ल </string>
+    <string _locid="54454" comment="proto-Explorer type-firstname">एरिक </string>
+    <string _locid="54455" comment="proto-Explorer type-firstname">डिडरिक </string>
+    <string _locid="54456" comment="proto-Explorer type-firstname">पौल </string>
+    <string _locid="54457" comment="proto-Explorer type-lastname">ब्राहे</string>
+    <string _locid="54458" comment="proto-Explorer type-lastname">बारनेकोव</string>
+    <string _locid="54459" comment="proto-Explorer type-lastname">बेंडिक्सन</string>
+    <string _locid="54460" comment="proto-Explorer type-lastname">ब्रोंडस्टेड</string>
+    <string _locid="54461" comment="proto-Explorer type-lastname">एकलॉन</string>
+    <string _locid="54462" comment="proto-Explorer type-lastname">एगेडे</string>
+    <string _locid="54463" comment="proto-Explorer type-lastname">इडेस</string>
+    <string _locid="54464" comment="proto-Explorer type-lastname">योर्गनसन</string>
+    <string _locid="54465" comment="proto-Explorer type-lastname">कोच</string>
+    <string _locid="54466" comment="proto-Explorer type-lastname">नीबूर</string>
+    <string _locid="54467" comment="proto-Explorer type-lastname">नॉर्डन</string>
+    <string _locid="54468" comment="proto-Explorer type-lastname">स्पैनबर्ग</string>
+    <string _locid="54469" comment="proto-Explorer type-lastname">उलफ़ेल्ड</string>
+    <string _locid="54470" comment="proto-Explorer type-lastname">मुंक</string>
+    <string _locid="54471" comment="proto-Explorer type-lastname">बॉक</string>
+    <string _locid="54472" comment="proto-Explorer type-lastname">एरिक्सन</string>
+    <string _locid="54473" comment="proto-Explorer type-lastname">फ़ॉन हेवन</string>
+    <string _locid="54474" comment="proto-Explorer type-lastname">पिनिंग</string>
+    <string _locid="54475" comment="proto-Explorer type-lastname">नोल्सो</string>
+    <string _locid="54476" comment="proto-Fort type-title">आलहोम कैसल</string>
+    <string _locid="54477" comment="proto-Fort type-title">निकोबिंग कैसल</string>
+    <string _locid="54478" comment="proto-Fort type-title">फ्लैडस्ट्रैंड सिटाडेल</string>
+    <string _locid="54479" comment="proto-Fort type-title">क्रोनबॉर्ग</string>
+    <string _locid="54480" comment="proto-Fort type-title">एल्सिनोर</string>
+    <string _locid="54481" comment="proto-Fort type-title">स्कैनसिन</string>
+    <string _locid="54482" comment="proto-Fort type-title">कोल्डिंगहुस</string>
+    <string _locid="54483" comment="proto-Fort type-title">ट्रेक्रोनर फोर्ट</string>
+    <string _locid="54484" comment="proto-Fort type-title">हैमर्सहुस</string>
+    <string _locid="54485" comment="proto-Fort type-title">माल्मोहुस</string>
+    <string _locid="54486" comment="proto-Fort type-title">हेलसिंगबोर्ग फेस्टनिंग</string>
+    <string _locid="54487" comment="proto-Fort type-title">लैंड्सक्रोना सिटाडेल</string>
+    <string _locid="54488" comment="proto-Fort type-title">रेंड्सबोर्ग</string>
+    <string _locid="54489" comment="proto-Fort type-title">फ्रेडरिक्सबॉर्ग कैसल</string>
+    <string _locid="54490" comment="proto-Fort type-title">फ्लेंसबोर्गहुस</string>
+    <string _locid="54491" comment="proto-Fort type-title">एगेस्कोव कैसल</string>
+    <string _locid="54492" comment="proto-Fort type-title">स्केनरबोर्ग</string>
+    <string _locid="54493" comment="proto-Fort type-title">रिबरहुस स्लॉट</string>
+    <string _locid="54494" comment="proto-Fort type-title">एकर्सहुस फेस्टनिंग</string>
+    <string _locid="54495" comment="proto-Fort type-title">वार्डोहुस फेस्टनिंग</string>
+    <string _locid="54496" comment="proto-Fort type-title">कोंग्सविंगर फेस्टनिंग</string>
+    <string _locid="54497" comment="proto-Fort type-title">फ्रेडरिकस्टन</string>
+    <string _locid="54498" comment="proto-Fort type-title">बरगनहुस फेस्टनिंग</string>
+    <string _locid="54499" comment="proto-Fort type-title">क्रिश्चियनहोल्म फेस्टनिंग</string>
+    <string _locid="54500" comment="proto-Fort type-title">कास्टलेट</string>
+    <string _locid="54501" comment="proto-Fort type-title">कोपेनहेगन कैसल</string>
+    <string _locid="54502" comment="proto-Fort type-title">क्रिश्चियनफेल्ड फेस्टनिंग</string>
+    <string _locid="54503" comment="proto-Fort type-title">क्रिश्चियनसो</string>
+    <string _locid="54504" comment="proto-Fort type-title">क्रिश्चियनसो फेस्टनिंग</string>
+    <string _locid="54505" comment="proto-Fort type-title">क्रिश्चियनस्टन</string>
+    <string _locid="54506" comment="proto-Fort type-title">ओडेरोया फेस्टनिंग</string>
+    <string _locid="54507" comment="proto-Fort type-title">फ्रेडरिक्सोर्ट</string>
+    <string _locid="54508" comment="proto-Fort type-title">फ्रेडरिशिया</string>
+    <string _locid="54509" comment="proto-Fort type-title">मुंकहोल्मन</string>
+    <string _locid="54510" comment="proto-Fort type-title">ब्लेकर स्कैनसे</string>
+    <string _locid="54511" comment="proto-Fort type-title">निबोर्ग स्लॉट</string>
+    <string _locid="54512" comment="proto-Fort type-title">एल्टनहुस फेस्टनिंग</string>
+    <string _locid="54513" comment="proto-Fort type-title">फ्रेडरिक्सबर्ग फ़ोर्ट्रेस</string>
+    <string _locid="54514" comment="proto-Fort type-title">फ्रेडरिकस्टैड फेस्टनिंग</string>
+    <string _locid="54515" comment="proto-Fort type-title">स्टावर्न्स फ़ोर्ट्रेस</string>
+    <string _locid="54516" comment="proto-Fort type-title">ट्राकाई कैसल</string>
+    <string _locid="54517" comment="proto-Fort type-title">विलनियस कैसल</string>
+    <string _locid="54518" comment="proto-Fort type-title">बिर्ज़ाई कैसल</string>
+    <string _locid="54519" comment="proto-Fort type-title">क्लाईपेदा कैसल</string>
+    <string _locid="54520" comment="proto-Fort type-title">ब्रेस्ट कैसल</string>
+    <string _locid="54521" comment="proto-Fort type-title">कामियानेट्स-पोडिलस्की</string>
+    <string _locid="54522" comment="proto-Fort type-title">कौनास कैसल</string>
+    <string _locid="54523" comment="proto-Fort type-title">कोब्रिन कैसल</string>
+    <string _locid="54524" comment="proto-Fort type-title">क्रेमेनेट्स कैसल</string>
+    <string _locid="54525" comment="proto-Fort type-title">लिडा कैसल</string>
+    <string _locid="54526" comment="proto-Fort type-title">लुत्स्क कैसल</string>
+    <string _locid="54527" comment="proto-Fort type-title">नेस्विज़ कैसल</string>
+    <string _locid="54528" comment="proto-Fort type-title">बाथोरीज़ कैसल</string>
+    <string _locid="54529" comment="proto-Fort type-title">मीर कैसल</string>
+    <string _locid="54530" comment="proto-Fort type-title">तिकोत्सिन कैसल</string>
+    <string _locid="54531" comment="proto-Fort type-title">माल्बोर्क कैसल</string>
+    <string _locid="54532" comment="proto-Fort type-title">विस्वुयशिए फ़ोर्ट्रेस</string>
+    <string _locid="54533" comment="proto-Fort type-title">सांदोमिएर्स्की कैसल</string>
+    <string _locid="54534" comment="proto-Fort type-title">ज़ामोश्च फ़ोर्ट्रेस</string>
+    <string _locid="54535" comment="proto-Fort type-title">क्वोत्ज़को फ़ोर्ट्रेस</string>
+    <string _locid="54536" comment="proto-Fort type-title">फ़ोर्ट स्रेब्रना गुरा</string>
+    <string _locid="54537" comment="proto-Fort type-title">डैंबलिन फ़ोर्ट्रेस</string>
+    <string _locid="54538" comment="proto-Fort type-title">मोडलिन फ़ोर्ट्रेस</string>
+    <string _locid="54539" comment="proto-Fort type-title">टोरुन फ़ोर्ट्रेस</string>
+    <string _locid="54540" comment="proto-Fort type-title">क्राको बारबिकन</string>
+    <string _locid="54541" comment="proto-Fort type-title">क्राको फ़ोर्ट्रेस</string>
+    <string _locid="54542" comment="proto-Fort type-title">चोख़ा कैसल</string>
+    <string _locid="54543" comment="proto-Fort type-title">लुबलिन कैसल</string>
+    <string _locid="54544" comment="proto-Fort type-title">क्श्योन्ज़ कैसल</string>
+    <string _locid="54545" comment="proto-Fort type-title">पिधिरत्सी कैसल</string>
+    <string _locid="54546" comment="proto-Fort type-title">खोतिन फ़ोर्ट्रेस</string>
+    <string _locid="54547" comment="proto-Fort type-title">डबनो कैसल</string>
+    <string _locid="54548" comment="proto-Fort type-title">ज़बाराझ़ कैसल</string>
+    <string _locid="54549" comment="proto-Fort type-title">मेद्झ़ीबिझ़ फ़ोर्ट्रेस</string>
+    <string _locid="54550" comment="proto-Fort type-title">कोडक फ़ोर्ट्रेस</string>
+    <string _locid="54551" comment="proto-Fort type-title">मिताउ कैसल</string>
+    <string _locid="54552" comment="proto-Fort type-title">कुलदीगा कैसल</string>
+    <string _locid="54553" comment="proto-Fort type-title">रीगा कैसल</string>
+    <string _locid="54554" comment="proto-Fort type-title">डौगावग्रीवा कैसल</string>
+    <string _locid="54555" comment="proto-Fort type-title">दीनाबर्गा कैसल</string>
+    <string _locid="54556" comment="proto-Fort type-title">रॉयल कैसल</string>
+    <string _locid="54557" comment="proto-Fort type-title">क्श़ीश़तोपुर</string>
+    <string _locid="54558" comment="proto-Fort type-title">क्रासिचिन कैसल</string>
+    <string _locid="54559" comment="proto-Caravel type-title">फ़ीनिक्स</string>
+    <string _locid="54560" comment="proto-Caravel type-title">प्योत्र ज़ दान्स्का</string>
+    <string _locid="54561" comment="proto-Caravel type-title">स्त्र्ज़ेलेट्स</string>
+    <string _locid="54562" comment="proto-Caravel type-title">ग्वियाज़्डा</string>
+    <string _locid="54563" comment="proto-Caravel type-title">ख़ारिटास</string>
+    <string _locid="54564" comment="proto-Caravel type-title">बियावी ओज़ेव</string>
+    <string _locid="54565" comment="proto-Caravel type-title">बियावी लेव</string>
+    <string _locid="54566" comment="proto-Caravel type-title">ज़ूटी लेव</string>
+    <string _locid="54567" comment="proto-Caravel type-title">पन्ना वोड्ना</string>
+    <string _locid="54568" comment="proto-Caravel type-title">अर्का नोएगो</string>
+    <string _locid="54569" comment="proto-Caravel type-title">पुओमेन</string>
+    <string _locid="54570" comment="proto-Caravel type-title">वोडनिक</string>
+    <string _locid="54571" comment="proto-Caravel type-title">चार्नी क्रुक</string>
+    <string _locid="54572" comment="proto-Caravel type-title">लाटायोंत्सी येलेन</string>
+    <string _locid="54573" comment="proto-Galleon type-title">टिग्रिस</string>
+    <string _locid="54574" comment="proto-Galleon type-title">स्मोक</string>
+    <string _locid="54575" comment="proto-Galleon type-title">विएल्की सुओन्त्से</string>
+    <string _locid="54576" comment="proto-Galleon type-title">प्रोरोक सैमुएल</string>
+    <string _locid="54577" comment="proto-Galleon type-title">रिट्सेश</string>
+    <string _locid="54578" comment="proto-Galleon type-title">श्विएन्टी येशी</string>
+    <string _locid="54579" comment="proto-Galleon type-title">क्रुल डाविड</string>
+    <string _locid="54580" comment="proto-Galleon type-title">चार्नी ओज़ेव</string>
+    <string _locid="54581" comment="proto-Monitor type-title">श्विएन्टी काज़ीमिएश</string>
+    <string _locid="54582" comment="proto-Monitor type-title">लैंडग्राफ़ फ़ॉन हेसन</string>
+    <string _locid="54583" comment="proto-Monitor type-title">कैथरीना फ़ॉन गोल्डिंगन</string>
+    <string _locid="54584" comment="proto-Monitor type-title">ब्लूमेटोपफ़</string>
+    <string _locid="54585" comment="proto-Monitor type-title">वालिस</string>
+    <string _locid="54586" comment="proto-Monitor type-title">गाम्बिया उंड टोबैगो</string>
+    <string _locid="54587" comment="proto-Frigate type-title">कावालिएरिस</string>
+    <string _locid="54588" comment="proto-Frigate type-title">याकोबस मेयर</string>
+    <string _locid="54589" comment="proto-Frigate type-title">प्रिंसेसिन फ़ॉन कुरलैंड</string>
+    <string _locid="54590" comment="proto-Frigate type-title">वैपन फ़ॉन कुरलैंड</string>
+    <string _locid="54591" comment="proto-Frigate type-title">फ़र्स्टलिष डुरषलाउष्ट</string>
+    <string _locid="54592" comment="proto-Frigate type-title">प्रिंस फ़ॉन कुरलैंड</string>
+    <string _locid="54593" comment="proto-Frigate type-title">फोर्टिटूडो</string>
+    <string _locid="54594" comment="proto-deMercBattleship type-title">हेर्टसोगिन फ़ॉन कुरलैंड</string>
+    <string _locid="54595" comment="proto-deMercBattleship type-title">हेर्टसोगिन फ़ॉन कुरलैंड</string>
+    <string _locid="54596" comment="proto-deMercBattleship type-title">प्रिंस फ़्रीडरिष विल्हेल्म</string>
+    <string _locid="54597" comment="proto-Caravel type-title">सोलन</string>
+    <string _locid="54598" comment="proto-Caravel type-title">डेलफ़िनन</string>
+    <string _locid="54599" comment="proto-Caravel type-title">ग्लोमेन</string>
+    <string _locid="54600" comment="proto-Caravel type-title">सारपेन</string>
+    <string _locid="54601" comment="proto-Caravel type-title">एल्वेन</string>
+    <string _locid="54602" comment="proto-Caravel type-title">ट्रोस्ट</string>
+    <string _locid="54603" comment="proto-Caravel type-title">लांगलैंड</string>
+    <string _locid="54604" comment="proto-Caravel type-title">लोलैंड</string>
+    <string _locid="54605" comment="proto-Caravel type-title">अलार्ट</string>
+    <string _locid="54606" comment="proto-Caravel type-title">लुगेन</string>
+    <string _locid="54607" comment="proto-Caravel type-title">लिलेबेल्ट</string>
+    <string _locid="54608" comment="proto-Caravel type-title">ओरमेन</string>
+    <string _locid="54609" comment="proto-Caravel type-title">ग्रिब्सहुनडेन</string>
+    <string _locid="54610" comment="proto-Galleon type-title">ट्राइटन</string>
+    <string _locid="54611" comment="proto-Galleon type-title">गिडियन</string>
+    <string _locid="54612" comment="proto-Galleon type-title">आरगो</string>
+    <string _locid="54613" comment="proto-Galleon type-title">विड ऑर्न</string>
+    <string _locid="54614" comment="proto-Galleon type-title">सेंट ओलफ़</string>
+    <string _locid="54615" comment="proto-Galleon type-title">लोसेन</string>
+    <string _locid="54616" comment="proto-Galleon type-title">सनारेनस्वेन</string>
+    <string _locid="54617" comment="proto-Galleon type-title">मीकाएल</string>
+    <string _locid="54618" comment="proto-Galleon type-title">नयादन</string>
+    <string _locid="54619" comment="proto-Galleon type-title">विड ऑर्न</string>
+    <string _locid="54620" comment="proto-Galleon type-title">नयादन</string>
+    <string _locid="54621" comment="proto-Frigate type-title">बॉर्नहोम</string>
+    <string _locid="54622" comment="proto-Frigate type-title">हनीबल</string>
+    <string _locid="54623" comment="proto-Frigate type-title">होलस्टीन</string>
+    <string _locid="54624" comment="proto-Frigate type-title">क्राबाटेन</string>
+    <string _locid="54625" comment="proto-Frigate type-title">फ़्युन</string>
+    <string _locid="54626" comment="proto-Frigate type-title">सैमसन</string>
+    <string _locid="54627" comment="proto-Frigate type-title">स्टोरा सोफ़िया</string>
+    <string _locid="54628" comment="proto-Frigate type-title">ग्रोनलैंड</string>
+    <string _locid="54629" comment="proto-Frigate type-title">स्लेस्विग</string>
+    <string _locid="54630" comment="proto-Frigate type-title">डिटमार्स्कन</string>
+    <string _locid="54631" comment="proto-Frigate type-title">डैनेमार्क</string>
+    <string _locid="54632" comment="proto-Frigate type-title">नॉरगे</string>
+    <string _locid="54633" comment="proto-Frigate type-title">ओडिन</string>
+    <string _locid="54634" comment="proto-Frigate type-title">स्क्योल्ड</string>
+    <string _locid="54635" comment="proto-Frigate type-title">ट्रे क्रोनर</string>
+    <string _locid="54636" comment="proto-Frigate type-title">डैनब्रोगे</string>
+    <string _locid="54637" comment="proto-Frigate type-title">इंडफ़ोड्सरेटन</string>
+    <string _locid="54638" comment="proto-deMercBattleship type-title">नॉर्स्के लोव</string>
+    <string _locid="54639" comment="proto-deMercBattleship type-title">वाल्डेमार</string>
+    <string _locid="54640" comment="proto-deMercBattleship type-title">नेपच्यूनस</string>
+    <string _locid="54641" comment="proto-deMercBattleship type-title">सोफ़िया अमालिया</string>
+    <string _locid="54642" comment="proto-deMercBattleship type-title">एलीफैंटन</string>
+    <string _locid="54643" comment="proto-deMercBattleship type-title">ड्रोनिंगेन</string>
+    <string _locid="54644" comment="proto-deMercBattleship type-title">ड्रोनिंग एना सोफ़िया</string>
+    <string _locid="54645" comment="proto-deMercBattleship type-title">क्रिश्चियन डेन VII</string>
+    <string _locid="54646" comment="proto-deMercBattleship type-title">फ्रीडेरिकस</string>
+    <string _locid="54647" comment="proto-deMercBattleship type-title">जस्टिशिया</string>
+    <string _locid="54648" comment="proto-deMercBattleship type-title">येगरमेस्टर</string>
+    <string _locid="54649" comment="proto-deMercBattleship type-title">हरक्यूलिस</string>
+    <string _locid="54650" comment="proto-Monitor type-title">स्टोरेन</string>
+    <string _locid="54651" comment="proto-Monitor type-title">थुरा</string>
+    <string _locid="54652" comment="proto-Monitor type-title">आर्के नोआ</string>
+    <string _locid="54653" comment="proto-Monitor type-title">येल्पेरेन</string>
+    <string _locid="54654" comment="proto-Monitor type-title">होलगर डैन्सके</string>
+    <string _locid="54655" comment="proto-Monitor type-title">हेकला</string>
+    <string _locid="54656" comment="proto-Monitor type-title">आइडरन</string>
+    <string _locid="54657" comment="proto-Monitor type-title">प्रामेन</string>
+    <string _locid="54658" comment="proto-Monitor type-title">सोरमेन</string>
+    <string _locid="54659" comment="proto-Monitor type-title">केम्पेन</string>
+    <string _locid="54660" comment="proto-deGunboat type-title">क्रिश्चियनसंड</string>
+    <string _locid="54661" comment="proto-deGunboat type-title">कानोन्योले</string>
+    <string _locid="54662" comment="proto-deGunboat type-title">विबोर्ग</string>
+    <string _locid="54663" comment="proto-deGunboat type-title">रोस्किल्डे</string>
+    <string _locid="54664" comment="proto-deGunboat type-title">ओडेंस</string>
+    <string _locid="54665" comment="proto-deGunboat type-title">नाकस्कोव</string>
+    <string _locid="54666" comment="proto-deGunboat type-title">मिडलफ़ार्ट</string>
+    <string _locid="54667" comment="proto-deGunboat type-title">हेल्सिंगोर</string>
+    <string _locid="54668" comment="proto-deGunboat type-title">आलबोर्ग</string>
+    <string _locid="54669" comment="proto-deGunboat type-title">फ्लेन्सबोर्ग</string>
+    <string _locid="54670" comment="proto-deGunboat type-title">बोम्बार्डरबारकासे</string>
+    <string _locid="54671" comment="proto-deGunboat type-title">आरेनडाहल</string>
+    <string _locid="54672" comment="proto-deGunboat type-title">ग्रोनलैंडिस्के काट</string>
+    <string _locid="54673" comment="proto-deGunboat type-title">ग्राइंडर</string>
+    <string _locid="54674" comment="proto-xpIronclad type-title">तोर्डनशॉल्ड</string>
+    <string _locid="54675" comment="proto-xpIronclad type-title">एगिर</string>
+    <string _locid="54676" comment="proto-xpIronclad type-title">शेलैंड</string>
+    <string _locid="54677" comment="proto-xpIronclad type-title">अबसालोन</string>
+    <string _locid="54678" comment="proto-xpIronclad type-title">पीटर स्क्राम</string>
+    <string _locid="54679" comment="proto-xpIronclad type-title">डैनमार्क</string>
+    <string _locid="54680" comment="proto-xpIronclad type-title">नल्स जुएल</string>
+    <string _locid="54681" comment="proto-xpIronclad type-title">हेलगोलैंड</string>
+    <string _locid="54682" comment="proto-xpIronclad type-title">गोर्म</string>
+    <string _locid="54683" comment="proto-deWhalingShip type-title">ग्रोनलैंडफ़ारर</string>
+    <string _locid="54684" comment="proto-deWhalingShip type-title">नैनटकेट</string>
+    <string _locid="54685" comment="proto-deWhalingShip type-title">मोबी डिक</string>
+    <string _locid="54686" comment="proto-deWhalingShip type-title">पीक्वाड</string>
+    <string _locid="54687" comment="proto-deWhalingShip type-title">क्वीक्वेग</string>
+    <string _locid="54688" comment="proto-deWhalingShip type-title">बल्किंगटन</string>
+    <string _locid="54689" comment="proto-deWhalingShip type-title">एहाब</string>
+    <string _locid="54690" comment="proto-deWhalingShip type-title">स्टारबक</string>
+    <string _locid="54691" comment="proto-deWhalingShip type-title">फ़ादर मैपल</string>
+    <string _locid="54692" comment="proto-deWhalingShip type-title">इश्माएल</string>
+    <string _locid="54693" comment="proto-deWhalingShip type-title">पिप</string>
+    <string _locid="54694" comment="proto-deWhalingShip type-title">ताशतेगो</string>
+    <string _locid="54695" comment="proto-deWhalingShip type-title">डैगू</string>
+    <string _locid="54696" comment="proto-deWhalingShip type-title">फ़ेदल्लाह</string>
+    <string _locid="54697" comment="proto-deWhalingShip type-title">पर्थ</string>
+    <string _locid="54698" comment="proto-deWhalingShip type-title">घोस्ट</string>
+    <string _locid="54699" comment="proto-deWhalingShip type-title">सी वुल्फ़</string>
+    <string _locid="54700" comment="proto-deWhalingShip type-title">वैन वेडन</string>
+    <string _locid="54701" comment="proto-deWhalingShip type-title">वुल्फ़ लार्सन</string>
+    <string _locid="54702" comment="proto-deWhalingShip type-title">डेथ लार्सन</string>
+    <string _locid="54703" comment="proto-deWhalingShip type-title">चार्ल्स डब्लू. मॉर्गन</string>
+    <string _locid="54704" comment="proto-deWhalingShip type-title">एसेक्स</string>
+    <string _locid="54705" comment="proto-deWhalingShip type-title">हडक</string>
+    <string _locid="54706" comment="proto-deWhalingShip type-title">कैप्टन हुक</string>
+    <string _locid="54707" comment="proto-deWhalingShip type-title">लैगोडा</string>
+    <string _locid="54708" comment="proto-deWhalingShip type-title">ग्रोनलैंड</string>
+    <string _locid="54709" comment="proto-deWhalingShip type-title">अरोरा</string>
+    <string _locid="54710" comment="proto-deWhalingShip type-title">मॉर्गेनन</string>
+    <string _locid="54711" comment="proto-deWhalingShip type-title">निमरोड</string>
+    <string _locid="54712" comment="proto-deWhalingShip type-title">स्पिसा</string>
+    <string _locid="54713" comment="proto-deWhalingShip type-title">अंटार्कटिक</string>
+    <string _locid="54714" comment="proto-deWhalingShip type-title">योआ</string>
+    <string _locid="54715" comment="proto-deWhalingShip type-title">टू ब्रदर्स</string>
+    <string _locid="54716" comment="proto-deWhalingShip type-title">अकीलीज़</string>
+    <string _locid="54717" comment="proto-deWhalingShip type-title">स्पिट्सबर्गेन</string>
+    <string _locid="54718" comment="proto-deWhalingShip type-title">जान मायेन</string>
+    <string _locid="54719" comment="proto-deWhalingShip type-title">लोफ़ोटन</string>
+    <string _locid="54720" comment="proto-deWhalingShip type-title">वाइकिंगर</string>
+    <string _locid="54721" comment="proto-deWhalingShip type-title">ब्लबर</string>
+    <string _locid="54722" comment="proto-deWhalingShip type-title">नार्वल</string>
+    <string _locid="54723" comment="proto-deWhalingShip type-title">विटवाल</string>
+    <string _locid="54724" comment="proto-deWhalingShip type-title">विडवालेम</string>
+    <string _locid="54725" comment="proto-deWhalingShip type-title">सेटासिया</string>
+    <string _locid="54726" comment="proto-deWhalingShip type-title">कटलफ़िश</string>
+    <string _locid="54727" comment="proto-deWhalingShip type-title">ग्रोहवाल</string>
+    <string _locid="54728" comment="proto-deWhalingShip type-title">वालफ़ैंगर</string>
+    <string _locid="54729" comment="proto-deWhalingShip type-title">क्वालबोट</string>
+    <string _locid="54730" comment="proto-deWhalingShip type-title">वालबोट</string>
+    <string _locid="54731" comment="proto-deWhalingShip type-title">इनुलुआपिक</string>
+    <string _locid="54732" comment="proto-deWhalingShip type-title">स्वेन फ़ोयन</string>
+    <string _locid="54733" comment="proto-deWhalingShip type-title">विर्गोहामना</string>
+    <string _locid="54734" comment="proto-deWhalingShip type-title">स्मीरनबर्ग</string>
+    <string _locid="54735" comment="proto-deWhalingShip type-title">गेंजेस</string>
+    <string _locid="54736" comment="proto-deWhalingShip type-title">हारपूनर</string>
+    <string _locid="54737" comment="proto-deWhalingShip type-title">टेरा नोवा</string>
+    <string _locid="54738" comment="proto-deWhalingShip type-title">जेसन</string>
+    <string _locid="54739" comment="proto-deWhalingShip type-title">बेल्जिका</string>
+    <string _locid="54740" comment="proto-deTavern type-title">द ब्रुअरी</string>
+    <string _locid="54741" comment="proto-deTavern type-title">रेड किंग</string>
+    <string _locid="54742" comment="proto-deTavern type-title">सॉल्टी मरमेड</string>
+    <string _locid="54743" comment="proto-deTavern type-title">आइस ब्रेकर</string>
+    <string _locid="54744" comment="proto-deTavern type-title">लिटिल एपोथेकरी</string>
+    <string _locid="54745" comment="proto-deTavern type-title">ब्रिज मिल इन</string>
+    <string _locid="54746" comment="proto-deTavern type-title">शोटस्टुइन</string>
+    <string _locid="54747" comment="proto-deTavern type-title">बॉर्नहोम शिप बियर</string>
+    <string _locid="54748" comment="proto-deTavern type-title">लम्बयेस लस्टहाउस</string>
+    <string _locid="54749" comment="proto-deTavern type-title">जैकब्सन्स ब्रुअरी</string>
+    <string _locid="54750" comment="proto-deTavern type-title">ओलेस बियर</string>
+    <string _locid="54751" comment="proto-deTavern type-title">द ओल्ड एलीफैंट</string>
+    <string _locid="54752" comment="proto-deTavern type-title">किंग्स इन</string>
+    <string _locid="54753" comment="proto-deTavern type-title">डैनिश सॉसेज</string>
+    <string _locid="54754" comment="proto-deTavern type-title">हाइगे होल</string>
+    <string _locid="54755" comment="proto-deTavern type-title">बियर एक्सचेंज</string>
+    <string _locid="54756" comment="proto-deTavern type-title">नाइट मिकेलसन</string>
+    <string _locid="54757" comment="proto-deTavern type-title">ड्रंकन हसार</string>
+    <string _locid="54758" comment="proto-deTavern type-title">फ़ेमस जॉन पॉल</string>
+    <string _locid="54759" comment="proto-deTavern type-title">डेड पेज़ेंट</string>
+    <string _locid="54760" comment="proto-deTavern type-title">वन फ़ॉर द रोड</string>
+    <string _locid="54761" comment="proto-deTavern type-title">द ड्रंकन वर्म</string>
+    <string _locid="54762" comment="proto-deTavern type-title">कज़ाक इन</string>
+    <string _locid="54763" comment="proto-deTavern type-title">आयरन वुल्फ़</string>
+    <string _locid="54764" comment="proto-deTavern type-title">फ्राइड ब्रेड</string>
+    <string _locid="54765" comment="proto-deTavern type-title">लेइचेई इन</string>
+    <string _locid="54766" comment="proto-deTavern type-title">बीवर इन अ बैरल</string>
+    <string _locid="54767" comment="proto-deTavern type-title">मार्टिनस मिडरी</string>
+    <string _locid="54768" comment="proto-deTavern type-title">रोम</string>
+    <string _locid="54769" comment="proto-deTavern type-title">द स्ट्रॉन्ग सॉसेज</string>
+    <string _locid="54770" comment="proto-ExplorerDog type-title">फ़ाफ़िक</string>
+    <string _locid="54771" comment="proto-ExplorerDog type-title">शारिक</string>
+    <string _locid="54772" comment="proto-ExplorerDog type-title">रेक्सियो</string>
+    <string _locid="54773" comment="proto-ExplorerDog type-title">वोयटेक</string>
+    <string _locid="54774" comment="proto-ExplorerDog type-title">बुरेकु</string>
+    <string _locid="54775" comment="proto-ExplorerDog type-title">मिशेक</string>
+    <string _locid="54776" comment="proto-ExplorerDog type-title">कुबा</string>
+    <string _locid="54777" comment="proto-ExplorerDog type-title">ज़ोरान</string>
+    <string _locid="54778" comment="proto-ExplorerDog type-title">अज़ोर</string>
+    <string _locid="54779" comment="proto-ExplorerDog type-title">बोबिक</string>
+    <string _locid="54780" comment="proto-ExplorerDog type-title">बोबेर</string>
+    <string _locid="54781" comment="proto-ExplorerDog type-title">पूकीस</string>
+    <string _locid="54782" comment="proto-ExplorerDog type-title">ट्रोल</string>
+    <string _locid="54783" comment="proto-ExplorerDog type-title">बामसे</string>
+    <string _locid="54784" comment="proto-ExplorerDog type-title">रुल्ले</string>
+    <string _locid="54785" comment="proto-ExplorerDog type-title">फ़ेनरिस</string>
+    <string _locid="54786" comment="proto-ExplorerDog type-title">वाइल्डब्रैट</string>
+    <string _locid="54787" comment="proto-ExplorerDog type-title">क्विक</string>
+    <string _locid="54788" comment="proto-ExplorerDog type-title">पासॉप</string>
+    <string _locid="54789" comment="proto-ExplorerDog type-title">ट्रोफ़ास्ट</string>
+    <string _locid="54790" comment="proto-ExplorerDog type-title">फ्रेया</string>
+    <string _locid="54791" comment="proto-ExplorerDog type-title">मौली</string>
+    <string _locid="54792" comment="proto-ExplorerDog type-title">हाइमडाल</string>
+    <string _locid="54793" comment="proto-ExplorerDog type-title">गेरी</string>
+    <string _locid="54794" comment="proto-ExplorerDog type-title">फ़्रेकी</string>
+    <string _locid="54795" comment="proto-General type-firstname">बोल्ले </string>
+    <string _locid="54796" comment="proto-General type-firstname">काल्ले </string>
+    <string _locid="54797" comment="proto-General type-firstname">फ़्रिट्ज़ </string>
+    <string _locid="54798" comment="proto-General type-firstname">फ़्रिट्ज़े </string>
+    <string _locid="54799" comment="proto-General type-firstname">ओट्टो </string>
+    <string _locid="54800" comment="proto-General type-firstname">फ़्रायहेर </string>
+    <string _locid="54801" comment="proto-General type-firstname">हेलमथ </string>
+    <string _locid="54802" comment="proto-General type-firstname">ओबर्स्ट </string>
+    <string _locid="54803" comment="proto-General type-firstname">प्रिंस </string>
+    <string _locid="54804" comment="proto-General type-firstname">ग्राफ़ </string>
+    <string _locid="54805" comment="proto-General type-lastname">फ़ॉन शार्नहॉर्स्ट</string>
+    <string _locid="54806" comment="proto-General type-lastname">फ़ॉन मोल्टके</string>
+    <string _locid="54807" comment="proto-General type-lastname">फ़ॉन ब्युलो</string>
+    <string _locid="54808" comment="proto-General type-lastname">फ़ॉन डेनेविट्ज़</string>
+    <string _locid="54809" comment="proto-General type-lastname">फ़ॉन बिस्मार्क</string>
+    <string _locid="54810" comment="proto-General type-lastname">फ़ॉन त्ज़ीटन</string>
+    <string _locid="54811" comment="proto-General type-lastname">फ़ॉन ज़ैडलिट्ज़</string>
+    <string _locid="54812" comment="proto-General type-lastname">फ़ॉन प्रोयसन</string>
+    <string _locid="54813" comment="proto-General type-lastname">फ़ॉन ग्नैसेनाउ</string>
+    <string _locid="54814" comment="proto-General type-lastname">फ़ॉन कोपेनिक</string>
+    <string _locid="54815" comment="proto-General type-lastname">फ़ॉन श्पानडाउ</string>
+    <string _locid="54816" comment="proto-General type-lastname">फ़ॉन क्लायस्ट</string>
+    <string _locid="54817" comment="proto-General type-lastname">फ़ॉन त्ज़ित्ज़ेविट्ज़</string>
+    <string _locid="54818" comment="proto-General type-lastname">फ़ॉन हैमरस्टाइन</string>
+    <string _locid="54819" comment="proto-General type-lastname">फ़ॉन ब्रैंडनबर्ग</string>
+    <string _locid="54820" comment="proto-General type-lastname">फ़ॉन ल्युत्ज़ो</string>
+    <string _locid="54821" comment="proto-General type-lastname">फ़ॉन पॉट्सडैम</string>
+    <string _locid="54822" comment="proto-General type-lastname">फ़ॉन शार्लोटनबर्ग</string>
+    <string _locid="54823" comment="proto-General type-lastname">फ़ॉन हार्डनबर्ग</string>
+    <string _locid="54824" comment="proto-General type-lastname">फ़ॉन रिश्थॉफ़न</string>
+    <string _locid="54825" comment="proto-General type-lastname">फ़ॉन आरनिम</string>
+    <string _locid="54826" comment="proto-General type-lastname">फ़ॉम बर्गहाइन</string>
+    <string _locid="54827" comment="proto-General type-lastname">फ़ॉन फ़्रीडरिषहाइन</string>
+    <string _locid="54828" comment="proto-General type-lastname">फ़ॉन टॉयेफ़ल्सबर्ग</string>
+    <string _locid="54829" comment="proto-Xebec type-title">खोरटिट्सिया</string>
+    <string _locid="54830" comment="proto-Xebec type-title">उकरायिना</string>
+    <string _locid="54831" comment="proto-EggSleigh type-title">चिमनी क्रैशर</string>
+    <string _locid="54832" comment="proto-EggSleigh type-title">चिमनी स्वीपर</string>
+    <string _locid="54833" comment="proto-EggSleigh type-title">यूलटाइड कमांडर</string>
+    <string _locid="54834" comment="proto-EggSleigh type-title">स्ले-बेल</string>
+    <string _locid="54835" comment="proto-EggSleigh type-title">एयर स्लेड वन</string>
+    <string _locid="54836" comment="proto-EggSleigh type-title">स्ले-स्ले</string>
+    <string _locid="54837" comment="proto-EggSleigh type-title">आर्कटिक स्ले</string>
+    <string _locid="54838" comment="proto-EggSleigh type-title">स्ले बेल वन</string>
+    <string _locid="54839" comment="proto-EggSleigh type-title">आर्कटिक एक्सप्रेस</string>
+    <string _locid="54840" comment="proto-EggSleigh type-title">गिफ़्ट बॉम्बर</string>
+    <string _locid="54841" comment="proto-EggSleigh type-title">लव बॉम्बर</string>
+    <string _locid="54842" comment="proto-EggSleigh type-title">नो कैप बॉम्बर</string>
+    <string _locid="54843" comment="proto-EggSleigh type-title">सस स्लेड</string>
+    <string _locid="54844" comment="proto-EggSleigh type-title">ग्लिटर गेल</string>
+    <string _locid="54845" comment="proto-EggSleigh type-title">प्रिज्म पायलट</string>
+    <string _locid="54846" comment="proto-EggSleigh type-title">रेड हॉट स्ले</string>
+    <string _locid="54847" comment="proto-EggSleigh type-title">स्कारलेट स्टनर</string>
+    <string _locid="54848" comment="proto-EggSleigh type-title">असली लेजेंड</string>
+    <string _locid="54849" comment="proto-EggSleigh type-title">मिसलटो मेहेम</string>
+    <string _locid="54850" comment="proto-EggSleigh type-title">गिफ़्ट गुड</string>
+    <string _locid="54851" comment="proto-EggSleigh type-title">गिफ़्ट गॉड</string>
+    <string _locid="54852" comment="proto-EggSleigh type-title">ब्लिज़ार्ड बफ़</string>
+    <string _locid="54853" comment="proto-EggSleigh type-title">जिंगल जैंक</string>
+    <string _locid="54854" comment="proto-EggSleigh type-title">विंटर वैगन</string>
+    <string _locid="54855" comment="proto-EggSleigh type-title">यूल यॉट</string>
+    <string _locid="54856" comment="proto-EggSleigh type-title">फ़ादर फ़्रॉस्ट</string>
+    <string _locid="54857" comment="proto-EggSleigh type-title">रेनडियर राइडर</string>
+    <string _locid="54858" comment="proto-EggSleigh type-title">आर्कटिक एयरलाइंस</string>
+    <string _locid="54859" comment="proto-EggSleigh type-title">टिन्सल टैंकर</string>
   </language>
 </stringtable>

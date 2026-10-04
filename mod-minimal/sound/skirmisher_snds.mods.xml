@@ -1,0 +1,50 @@
+<!--
+  mod-minimal (Colombia): el Guerrillero real (Skirmisher) tiene <civlogic> en
+  Sound/skirmisher_snds.xml y "COLColombia" no existe ahí (civ nueva) -> quedaba mudo.
+  Reusa el mismo soundset que ya usa la rama "Spanish" real (presta la voz del Dragoon
+  español, SpanishDragoonSelect/etc.), copiado como MM.
+-->
+<protounitsounddefmods>
+  <protounit name="Skirmisher">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="COLColombia">
+          <soundset name="MMSpanishDragoonSelect">
+          </soundset>
+        </choice>
+        <choice name="CHLChile">
+          <soundset name="MMSpanishDragoonSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="COLColombia">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMSpanishDragoonAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMSpanishDragoonAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="CHLChile">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMSpanishDragoonAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMSpanishDragoonAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

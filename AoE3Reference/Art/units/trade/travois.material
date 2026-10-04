@@ -1,0 +1,38 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\travois\textures\travois_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\travois\textures\travois_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\travois\textures\travois_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\travois\textures\travois_MatB_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\travois\textures\travois_MatB_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\travois\textures\travois_MatB_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\travois\textures\travois_matc_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\travois\textures\travois_matc_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\travois\textures\travois_matc_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

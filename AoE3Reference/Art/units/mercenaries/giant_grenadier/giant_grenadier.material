@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\mercenaries\giant_grenadier\textures\giant_grenadier_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\mercenaries\giant_grenadier\textures\giant_grenadier_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\mercenaries\giant_grenadier\textures\giant_grenadier_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\mercenaries\giant_grenadier\textures\giant_grenadier_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

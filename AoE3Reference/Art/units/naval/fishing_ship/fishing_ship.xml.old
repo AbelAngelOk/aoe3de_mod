@@ -1,0 +1,29 @@
+<animfile>
+
+<component>ModelComp
+	<AssetReference Type='GrannyModel'>
+		<File>units\naval\fishing_ship\fishing_ship</File>
+	</AssetReference>
+	<Decal>
+	  <SelectedTexture>shadows_selections\selection_oval_64x128</SelectedTexture>
+	  <Texture>shadows_selections\shadow_circle_128x128</Texture>
+	  <Width>1.0</Width>
+	  <Height>1.0</Height>
+	</Decal>
+</component>
+
+<anim>Idle
+	<AssetReference Type='GrannyAnim'>
+		<File>animation_library\2_leg_idle\human_idle_generic_A</File>
+	</AssetReference>
+	<component>ModelComp</component>
+</anim>
+
+<anim>Walk
+	<AssetReference Type='GrannyAnim'>
+		<File>animation_library\2_leg_idle\human_idle_generic_A</File>
+	</AssetReference>
+	<component>ModelComp</component>
+</anim>
+
+</animfile>

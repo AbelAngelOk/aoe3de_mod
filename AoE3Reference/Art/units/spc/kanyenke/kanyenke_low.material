@@ -1,0 +1,42 @@
+<material>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\kanyenke\textures\kanyenke_spc_bow_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\kanyenke\textures\kanyenke_spc_bow_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\kanyenke\textures\kanyenke_spc_bow_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\kanyenke\textures\kanyenke_low_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\kanyenke\textures\kanyenke_low_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\kanyenke\textures\kanyenke_low_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\kanyenke\textures\kanyenke_low_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\kanyenke\textures\kanyenke_low_matc_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\kanyenke\textures\kanyenke_low_matc_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\kanyenke\textures\kanyenke_low_matc_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\kanyenke\textures\kanyenke_low_matc_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

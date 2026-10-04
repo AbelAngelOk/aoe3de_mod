@@ -1,0 +1,4 @@
+<animfile>
+  <component>flap02<assetreference type="GrannyModel"><file>units\animals\flock_of_birds\bird_model</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\bird_flap02</file></assetreference><component>flap02</component></anim>
+</animfile>

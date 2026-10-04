@@ -1,0 +1,2248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mod-hungria (Hungría, Hungría Otomana y Hungría Alemana): techtreemods.xml — dividido de mod-minimal (2026-09-19). -->
+<techtreemods>
+  <tech name="HUNAge0" type="Normal">
+    <dbid>88881101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0German</effect>
+      <!-- Cambio 1: colonos -> carretones de colonos (civ-específico) -->
+      <!-- Age0German habilita Settler; aquí lo deshabilitamos solo para Hungría -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <!-- Habilitar el carretón propio de Hungría (buildlimit 50 viene del proto) -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNSettlerWagon</target>
+      </effect>
+      <!-- Barcos pesqueros: límite propio de 50 (base es 99); civ-específico -->
+      <effect type="Data" amount="50.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <!-- Cambio 2: el cuartel produce solo mosqueteros y hajduks -->
+      <!-- Deshabilitar la infantería de cuartel alemana que activó Age0German -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Dopplesoldner</target>
+      </effect>
+      <!-- Habilitar el "mosquetero" propio (Honvéd) y el Hajduk -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- Cambio 4: quitar las mejoras alemanas del cuartel (ya no hay esas unidades).
+           Se hacen unobtainable solo para Hungría (Age0German las hizo obtainable). -->
+      <effect type="TechStatus" status="unobtainable">VeteranCrossbowmen</effect>
+      <effect type="TechStatus" status="unobtainable">GuardCrossbowmen</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCrossbowmen</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">GuardPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranDopplesoldners</effect>
+      <effect type="TechStatus" status="unobtainable">GuardDopplesoldners</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialDopplesoldner</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranSkirmishersShadow</effect>
+      <effect type="TechStatus" status="unobtainable">GuardSkirmishers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialSkirmishers</effect>
+      <effect type="TechStatus" status="unobtainable">RGPrussianNeedleGun</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialNeedleGun</effect>
+      <!-- Cambio 4: habilitar (obtainable) las mejoras propias: 3 Honvéd + 3 Hajduk.
+           Los prereqs de edad/nivel controlan cuándo se pueden investigar. -->
+      <effect type="TechStatus" status="obtainable">HUNVeteranHonved</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardHonved</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialHonved</effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialHajduk</effect>
+      <!-- Cambio 6: caballería. Deshabilitar la del Establo alemán (Uhlan, WarWagon)
+           y sus mejoras; habilitar Magyar Hussar + Crabat propios. -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Uhlan</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">WarWagon</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">RGCzapkaUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCzapkaUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialWarWagons</effect>
+      <effect type="TechStatus" status="unobtainable">GuardWarWagons</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <!-- Cambio 10 (g): infantería montada/desmontada DESHABILITADAS por defecto.
+           La carta HUNCardMountedInf las desbloquea (Establo y Cuartel respectivamente). -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">HUNMountedInfantry</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">HUNMountedInfantryFoot</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardMagyarHussar</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialMagyarHussar</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardCrabat</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialCrabat</effect>
+      <!-- Cambio 13 (Artillery Foundry): quitar el Granadero base y sus mejoras; poner
+           la Granadera Húngara propia con mejoras investigables en la Foundry. -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">GuardGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">RGPavlovGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialPavlovs</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialGrenadier</effect>
+    </effects>
+  </tech>
+  <tech name="HUNColonialize" type="Normal">
+    <dbid>88881102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HUNAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HUNFortressize" type="Normal">
+    <dbid>88881103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HUNColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HUNIndustrialize" type="Normal">
+    <dbid>88881104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HUNFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialize" type="Normal">
+    <dbid>88881105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HUNIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HUNPostIndustrial" type="Normal">
+    <dbid>88881106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HUNPostImperial" type="Normal">
+    <dbid>88881107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialGerman</effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 4/5: mejoras de unidades del cuartel (2 ramas × 3 niveles)
+       Cada nivel: +20% vida, +20% ataque (todas las acciones), +0.10 velocidad.
+       Excepción: el nivel Imperial (3º) sube +50% vida y ataque (velocidad +0.10).
+       Cada nivel RENOMBRA la unidad (SetName) a su rango (ej. "Hajduk Veterano").
+       Prereqs de EDAD usan los marcadores GENÉRICOS (Fortressize/Industrialize/
+       Imperialize), no los alemanes: el juego los reconoce como "requisito de edad"
+       y muestra la mejora en GRIS/bloqueada antes de cumplir la edad (igual que las
+       mejoras base, p.ej. VeteranMusketeers de españoles/británicos usa el genérico).
+       Hungría activa esos genéricos vía FortressizeGerman→Fortressize, etc.
+         Veterano → Fortaleza (III edad)
+         Guardia  → Industrial (IV edad) + Veterano investigado
+         Imperial → Imperial (V edad) + Guardia investigado
+       Las 3 comparten slot en el cuartel, así que se ve solo la "siguiente"
+       mejora de la cadena, bloqueada por edad hasta poder investigarla.
+       ============================================================ -->
+  <!-- === Rama Honvéd === -->
+  <tech name="HUNVeteranHonved" type="Normal">
+    <dbid>88881301</dbid>
+    <displaynameid>88881020</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>88881030</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHonved Veterano") -->
+      <effect type="SetName" proto="HUNHonved" culture="none" newname="88881020"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNGuardHonved" type="Normal">
+    <dbid>88881302</dbid>
+    <displaynameid>88881021</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>88881031</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">HUNVeteranHonved</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHonved Veterano") -->
+      <effect type="SetName" proto="HUNHonved" culture="none" newname="88881021"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialHonved" type="Normal">
+    <dbid>88881303</dbid>
+    <displaynameid>88881022</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>88881032</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardHonved</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHonved Veterano") -->
+      <effect type="SetName" proto="HUNHonved" culture="none" newname="88881022"></effect>
+    </effects>
+  </tech>
+  <!-- === Rama Hajduk === -->
+  <tech name="HUNVeteranHajduk" type="Normal">
+    <dbid>88881304</dbid>
+    <displaynameid>88881023</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>88881033</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHajduk Veterano") -->
+      <effect type="SetName" proto="HUNHajduk" culture="none" newname="88881023"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNGuardHajduk" type="Normal">
+    <dbid>88881305</dbid>
+    <displaynameid>88881024</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>88881034</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">HUNVeteranHajduk</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHajduk Veterano") -->
+      <effect type="SetName" proto="HUNHajduk" culture="none" newname="88881024"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialHajduk" type="Normal">
+    <dbid>88881306</dbid>
+    <displaynameid>88881025</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>88881035</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardHajduk</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- Renombra la unidad a su nivel (ej. "HUNHajduk Veterano") -->
+      <effect type="SetName" proto="HUNHajduk" culture="none" newname="88881025"></effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 6: mejoras de caballería (2 unidades × 2 niveles).
+       NADA en III. Guardia en IV (+20% vida y ataque), Imperial en V (+50%).
+       Prereqs de edad GENÉRICOS (Industrialize/Imperialize) para verse en gris.
+       Cada nivel renombra la unidad (SetName). Sin cambio de velocidad.
+       ============================================================ -->
+  <tech name="HUNGuardMagyarHussar" type="Normal">
+    <dbid>88881307</dbid>
+    <displaynameid>88881050</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">400.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <rollovertextid>88881060</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="SetName" proto="HUNMagyarHussar" culture="none" newname="88881050"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialMagyarHussar" type="Normal">
+    <dbid>88881308</dbid>
+    <displaynameid>88881051</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <cost resourcetype="Gold">800.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <rollovertextid>88881061</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardMagyarHussar</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="SetName" proto="HUNMagyarHussar" culture="none" newname="88881051"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNGuardCrabat" type="Normal">
+    <dbid>88881309</dbid>
+    <displaynameid>88881052</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Gold">400.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <rollovertextid>88881062</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="SetName" proto="HUNCrabat" culture="none" newname="88881052"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialCrabat" type="Normal">
+    <dbid>88881310</dbid>
+    <displaynameid>88881053</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <cost resourcetype="Gold">800.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <rollovertextid>88881063</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardCrabat</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="SetName" proto="HUNCrabat" culture="none" newname="88881053"></effect>
+    </effects>
+  </tech>
+  <!-- ============================================================================
+       Cambio 13: mejoras de la Granadera Húngara (investigables en la Artillery Foundry).
+       Reemplazan las mejoras por edad del consulado del deNatHungarianGrenadier original.
+       Prereqs con marcador genérico de edad (Fortressize/Industrialize/Imperialize) para
+       que se vean en gris antes de la edad. Patrón igual a Honved/Hajduk.
+       ============================================================================ -->
+  <tech name="HUNVeteranGrenadier" type="Normal">
+    <dbid>88881311</dbid>
+    <displaynameid>88881123</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>88881126</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenadier" culture="none" newname="88881123"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNGuardGrenadier" type="Normal">
+    <dbid>88881312</dbid>
+    <displaynameid>88881124</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>88881127</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">HUNVeteranGrenadier</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenadier" culture="none" newname="88881124"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialGrenadier" type="Normal">
+    <dbid>88881313</dbid>
+    <displaynameid>88881125</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>88881128</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardGrenadier</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenadier" culture="none" newname="88881125"></effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 7 (2026-07-02): Cartas de metrópoli (envíos + especiales).
+       Envíos: Doppel->Magyar(-1), Ulano->Crabat(-2), Guerrillero->Hajduk,
+       Ballestero->Honved(-3). Sin bono de úlanos.
+       ============================================================ -->
+  <tech name="HUNShipMagyarHussars1" type="Normal">
+    <dbid>88881401</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipMagyarHussars2" type="Normal">
+    <dbid>88881402</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">300.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipMagyarHussars3" type="Normal">
+    <dbid>88881403</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipMagyarHussars4" type="Normal">
+    <dbid>88881404</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">400.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipMagyarHussars5" type="Normal">
+    <dbid>88881405</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">700.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipMagyarHussars6" type="Normal">
+    <dbid>88881406</dbid>
+    <displaynameid>88881040</displaynameid>
+    <cost resourcetype="Food">800.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hungarian_hussar_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCrabats1" type="Normal">
+    <dbid>88881411</dbid>
+    <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Gold">225.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\crabat_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCrabats2" type="Normal">
+    <dbid>88881412</dbid>
+    <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Gold">450.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\crabat_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCrabats3" type="Normal">
+    <dbid>88881413</dbid>
+    <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Gold">675.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\crabat_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCrabats4" type="Normal">
+    <dbid>88881414</dbid>
+    <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Gold">525.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\crabat_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCrabats5" type="Normal">
+    <dbid>88881415</dbid>
+    <displaynameid>88881043</displaynameid>
+    <cost resourcetype="Gold">825.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\crabat_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="11.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHajduks1" type="Normal">
+    <dbid>88881421</dbid>
+    <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Gold">350.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hajduk_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHajduks2" type="Normal">
+    <dbid>88881422</dbid>
+    <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Gold">450.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hajduk_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHajduks3" type="Normal">
+    <dbid>88881423</dbid>
+    <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Gold">400.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hajduk_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHajduks4" type="Normal">
+    <dbid>88881424</dbid>
+    <displaynameid>88881010</displaynameid>
+    <cost resourcetype="Gold">600.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\revolution\hajduk_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="HUNHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHonveds2" type="Normal">
+    <dbid>88881432</dbid>
+    <displaynameid>88881013</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHonveds3" type="Normal">
+    <dbid>88881433</dbid>
+    <displaynameid>88881013</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHonveds4" type="Normal">
+    <dbid>88881434</dbid>
+    <displaynameid>88881013</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipHonveds5" type="Normal">
+    <dbid>88881435</dbid>
+    <displaynameid>88881013</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_cuartel_honved.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="HUNHonved" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardBurgomaster" type="Normal">
+    <dbid>88881440</dbid>
+    <displaynameid>88881070</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\explorers\explorer_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <!-- Cambio 10 (j): aura estilo tamborilero DESCARTADA (no data-moddable). +50% vida/ataque al Héroe. -->
+      <!-- Fusión: efecto de la carta "Globos Aerostáticos" (HCShipBalloons): habilita el poder
+           del globo + crates/oro condicionales (solo aplican si la civ tiene esas techs). -->
+      <effect type="TechStatus" status="active">deEnableBalloonPower</effect>
+      <effect tech="ypFreeCoinCrate400Age1" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateSpanishGold" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="deAddFree400CoinToInventory" type="Data" amount="330.00" subtype="ResourceIfTechObtainable" resource="Gold" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardPromotions" type="Normal">
+    <dbid>88881441</dbid>
+    <displaynameid>88881071</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_units_promotion.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="VeterancyEnable" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="VeterancyEnable" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardMagyarPop" type="Normal">
+    <dbid>88881442</dbid>
+    <displaynameid>88881072</displaynameid>
+    <rollovertextid>88881075</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_ussars_insurrection.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardDistributism" type="Normal">
+    <dbid>88881443</dbid>
+    <displaynameid>88881073</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\native\Distributivism.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardForeignLogging" type="Normal">
+    <dbid>88881444</dbid>
+    <displaynameid>88881074</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\asians\Foreign_Logging.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.35" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 8 (2026-07-04): cartas de combate de infantería (Honved+Hajduk).
+       ============================================================ -->
+  <tech name="HUNCardInfAttack" type="Normal">
+    <dbid>88881445</dbid>
+    <displaynameid>88881076</displaynameid>
+    <rollovertextid>88881080</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_inf_attack.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardInfDefense" type="Normal">
+    <dbid>88881446</dbid>
+    <displaynameid>88881077</displaynameid>
+    <rollovertextid>88881081</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_inf_defense.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardInfCombat" type="Normal">
+    <dbid>88881447</dbid>
+    <displaynameid>88881078</displaynameid>
+    <rollovertextid>88881082</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_inf_defense_and_attack.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHonved</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardBocskai" type="Normal">
+    <dbid>88881448</dbid>
+    <displaynameid>88881079</displaynameid>
+    <rollovertextid>88881083</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_hajduk.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Cambio 13: Levantamiento de Bocskai envía 1 Hajduk por cada Destacamento
+           (Outpost) que el jugador posea al jugar la carta (cálculo dinámico). -->
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnitByUnitCount" counttype="Outpost" unittype="HUNHajduk" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 9 (2026-07-04): cartas f/h/e/g.
+       ============================================================ -->
+  <tech name="HUNShipSettlerWagons2" type="Normal">
+    <dbid>88881451</dbid>
+    <displaynameid>88881090</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipSettlerWagons3" type="Normal">
+    <dbid>88881452</dbid>
+    <displaynameid>88881090</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipSettlerWagons4" type="Normal">
+    <dbid>88881453</dbid>
+    <displaynameid>88881090</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipSettlerWagonsTeam" type="Normal">
+    <dbid>88881454</dbid>
+    <displaynameid>88881090</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNXPShipSettlerWagons5" type="Normal">
+    <dbid>88881455</dbid>
+    <displaynameid>88881090</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\villagers\settler_wagon\settler_wagon_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="HUNSettlerWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCavMix1" type="Normal">
+    <dbid>88881456</dbid>
+    <displaynameid>88881091</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_border-cavalry_2.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipCavMix2" type="Normal">
+    <dbid>88881457</dbid>
+    <displaynameid>88881091</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_border-cavalry_2.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="HUNMagyarHussar" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="HUNCrabat" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardMountedInf" type="Normal">
+    <dbid>88881459</dbid>
+    <displaynameid>88881093</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\mounted_infantry_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNMountedInfantry" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <!-- Desbloquea la infantería montada en el Establo... -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNMountedInfantry</target>
+      </effect>
+      <!-- Cambio 10 (g): ...y la infantería desmontada en el Cuartel. Ambas sin límite
+           de creación (usan población; el límite se quitó de los protos). -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNMountedInfantryFoot</target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ============================================================================
+       Cambio 11: cartas de caballería propias (reemplazan cartas alemanas del mazo).
+       Todas con <researchpoints>40</researchpoints> = tiempo de envío estándar.
+       ============================================================================ -->
+  <!-- Reemplaza "Resistencia de la caballería" (HCCavalryHitpointsGerman 2281).
+       +15% de vida (resistencia) a TODA la caballería (AbstractCavalry). -->
+  <tech name="HUNCardCavDefense" type="Normal">
+    <dbid>88881460</dbid>
+    <displaynameid>88881100</displaynameid>
+    <rollovertextid>88881101</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_high-cav_defense.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- Reemplaza "Combate de la caballería" (HCCavalryCombatGerman 2159).
+       +15% de ataque y vida a TODA la caballería (AbstractCavalry). -->
+  <tech name="HUNCardCavStats" type="Normal">
+    <dbid>88881461</dbid>
+    <displaynameid>88881102</displaynameid>
+    <rollovertextid>88881103</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_cav_stats.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- Reemplaza "Caballería lipizzaner" (HCUhlanCombatGerman 2643).
+       "Legado del Corvinus": +20% de vida y ataque a la caballería PESADA
+       (AbstractHeavyCavalry: Húsar Magiar + Infantería Montada; no el Crábat ligero). -->
+  <tech name="HUNCardCorvinusLegacy" type="Normal">
+    <dbid>88881462</dbid>
+    <displaynameid>88881104</displaynameid>
+    <rollovertextid>88881105</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_high-cav_stats.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHeavyCavalry</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractHeavyCavalry</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ============================================================================
+       Cambio 12: cartas de mercenarios propias. Reemplazo de "Banda de lansquenetes"
+       + 4 cartas nuevas (equipo/infinitas en IV). Costo en oro; researchpoints = tiempo
+       de envío. Cartas de equipo: flag TeamTech. Infinitas: flag YPInfiniteTech + maxcount -1.
+       ============================================================================ -->
+  <!-- Reemplaza "Banda de lansquenetes" (HCMercsLandsknecht1German 2388):
+       envía 6 Pandúros por 250 de oro. -->
+  <tech name="HUNCardPandourBand" type="Normal">
+    <dbid>88881463</dbid>
+    <displaynameid>88881106</displaynameid>
+    <rollovertextid>88881107</rollovertextid>
+    <cost resourcetype="Gold">250.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\hc_pandour_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deMercPandour" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- "Dieta de Presburgo" (d): EQUIPO, INFINITA en IV: envía 7 Pandúros por 1000 de oro. -->
+  <tech name="HUNCardPandourShipTeam" type="Normal">
+    <dbid>88881464</dbid>
+    <displaynameid>88881108</displaynameid>
+    <rollovertextid>88881109</rollovertextid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_merc_pandours.png</icon>
+    <flag>YPInfiniteTech</flag>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="deMercPandour" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- EQUIPO, INFINITA en IV (c): envía 5 Jinetes Negros por 2000 de oro. -->
+  <!-- En IV (b): envía 11 Arcabuceros a caballo (Harquebusier) por 1000 de oro. -->
+  <!-- "Regimiento de Trenck" (e): EQUIPO en III: envía 4 Pandúros por 500 de oro. -->
+  <tech name="HUNCardTrenckRegiment" type="Normal">
+    <dbid>88881468</dbid>
+    <displaynameid>88881116</displaynameid>
+    <rollovertextid>88881117</rollovertextid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_merc_pandours_III.png</icon>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deMercPandour" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 12 (2026-07-21): Refactor de cartas de la revolución húngara.
+       Nuevas cartas: Ayuda Maltesa, 3 Hermanos Hospitalarios, Carreta de blocao.
+       ============================================================ -->
+  <tech name="HUNCardMalteseAid" type="Normal">
+    <dbid>88881470</dbid>
+    <displaynameid>88881130</displaynameid>
+    <rollovertextid>88881131</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\crossbow\crossbow_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Ayuda Maltesa: activa DOS cosas en el Cuartel, ambas en columna 0 (posición 1,
+           según el proto base del Cuartel: Crossbowman en train col 0, VeteranCrossbowmen en
+           tech col 0). HUNAge0 los había deshabilitado/hecho unobtainable; esta carta:
+           1) habilita Ballesteros NORMALES (entrenables), 2) hace INVESTIGABLE (no automática)
+           su mejora a Veteranos en el Cuartel. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Crossbowman" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <!-- (b) además envía 1 Ballestero al jugar la carta. -->
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <!-- Mejora a Veterano: investigable en el Cuartel (obtainable, no active). Su prereq
+           Fortressize la mantiene gris hasta Edad III y researchable a partir de ahí. -->
+      <effect type="TechStatus" status="obtainable">VeteranCrossbowmen</effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardHospitallerBrothers" type="Normal">
+    <dbid>88881471</dbid>
+    <displaynameid>124956</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry\hospitaller\hospitaller_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- 3 Hermanos Hospitalarios: idéntica a DEHCShipHospitaller1 de Malta (envía 3). -->
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="deHospitaller" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect tech="HUNDestacamentoGate" type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNCardDestacamentoLogistics" type="Normal">
+    <dbid>88881472</dbid>
+    <displaynameid>88881134</displaynameid>
+    <rollovertextid>88881135</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\trade\outpost_wagon_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Carrera de Destacamento: envia 1 Carreta de destacamento (OutpostWagon, construye un
+           Destacamento/Outpost), sube +1 el limite de Destacamentos (permanente) y ACTIVA el gate
+           HUNDestacamentoGate. Con el gate activo, cada carta de envio propia entrega ademas 1
+           Carreta de destacamento (efecto condicional horneado en cada carta). No es repetible. -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">OutpostWagon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="TechStatus" status="active">HUNDestacamentoGate</effect>
+    </effects>
+  </tech>
+  <!-- ============================================================
+       Cambio 13 (2026-07-21): Reformas Militares de María Teresa (Edad III).
+       Cambia PERMANENTEMENTE el coste de Hajduks y Crabats (deltas sobre el coste base).
+       Cost relativity="Absolute" = delta: Hajduk 110 oro -> 40 alim + 70 oro (+40 alim, -40 oro);
+       Crabat 150 oro -> 90 alim + 90 oro (+90 alim, -60 oro). No cambia otras estadísticas.
+       ============================================================ -->
+  <tech name="HUNCardMariaTheresaReforms" type="Normal">
+    <dbid>88881473</dbid>
+    <displaynameid>88881136</displaynameid>
+    <rollovertextid>88881137</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\hungary\hun_card_reformas-militares-maria-teresa.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Hajduk: 110 oro -> 40 alimento + 70 oro -->
+      <effect type="Data" amount="40.00" subtype="Cost" resource="Food" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="Data" amount="-40.00" subtype="Cost" resource="Gold" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <!-- Crabat: 150 oro -> 90 alimento + 90 oro -->
+      <effect type="Data" amount="90.00" subtype="Cost" resource="Food" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="Data" amount="-60.00" subtype="Cost" resource="Gold" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNDestacamentoGate" type="Normal">
+    <dbid>88881474</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+  </tech>
+  <!-- ============================================================
+       Cambio 14 (2026-07-22): "Patronato Apostólico" — carta de Edad II que hace OBTAINABLE
+       5 techs de Iglesia. Cada tech se investiga en la Iglesia (pagando recursos) y ENVÍA
+       unidades. Molde: ChurchTufanciCorps (envía + habilita + CommandAdd al Cuartel).
+       Las techs quedan grises hasta su edad (prereq con marcador genérico Colonialize/
+       Fortressize/Industrialize). Deben estar listadas en el proto Church (protomods.xml).
+       ============================================================ -->
+  <tech name="HUNCardChurchReforms" type="Normal">
+    <dbid>88881480</dbid>
+    <displaynameid>88881140</displaynameid>
+    <rollovertextid>88881141</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_royal_decree\hc_royal_decree.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <!-- Desbloquea (obtainable) las 5 techs de Iglesia; cada una se gatea por su edad. -->
+      <effect type="TechStatus" status="obtainable">HUNChurchCrossbowmen</effect>
+      <effect type="TechStatus" status="obtainable">HUNChurchPikemen</effect>
+      <effect type="TechStatus" status="obtainable">HUNChurchUhlans</effect>
+      <effect type="TechStatus" status="obtainable">HUNChurchJanissaries</effect>
+      <effect type="TechStatus" status="obtainable">HUNChurchBombards</effect>
+    </effects>
+  </tech>
+  <tech name="HUNChurchCrossbowmen" type="Normal">
+    <dbid>88881481</dbid>
+    <displaynameid>88881142</displaynameid>
+    <rollovertextid>88881143</rollovertextid>
+    <cost resourcetype="Wood">500.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\crossbow\crossbow_icon_64x64.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNChurchPikemen" type="Normal">
+    <dbid>88881482</dbid>
+    <displaynameid>88881144</displaynameid>
+    <rollovertextid>88881145</rollovertextid>
+    <cost resourcetype="Food">500.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry\pikeman\pikeman_icon.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNChurchUhlans" type="Normal">
+    <dbid>88881483</dbid>
+    <displaynameid>88881146</displaynameid>
+    <rollovertextid>88881147</rollovertextid>
+    <cost resourcetype="Food">1000.0000</cost>
+    <researchpoints>25.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\cavalry\uhlan\uhlan_icon.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNChurchJanissaries" type="Normal">
+    <dbid>88881484</dbid>
+    <displaynameid>88881148</displaynameid>
+    <rollovertextid>88881149</rollovertextid>
+    <cost resourcetype="Wood">2000.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\janissary\janissary_icon_64x64.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <!-- Envía 20 Jenízaros + los habilita y agrega al Cuartel (patrón ChurchTufanciCorps). -->
+      <effect type="Data" amount="20.00" subtype="FreeHomeCityUnit" unittype="Janissary" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Janissary</target>
+      </effect>
+      <effect type="CommandAdd" proto="Janissary" page="0" column="3">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <!-- (a) también agrega la tecnología para mejorar al Jenízaro: Veterano investigable en
+           el Cuartel (ya está listada ahí en page 1 col 4; su prereq Fortressize la gatea). -->
+      <effect type="TechStatus" status="obtainable">VeteranJanissaries</effect>
+    </effects>
+  </tech>
+  <tech name="HUNChurchBombards" type="Normal">
+    <dbid>88881485</dbid>
+    <displaynameid>88881150</displaynameid>
+    <rollovertextid>88881151</rollovertextid>
+    <cost resourcetype="Gold">2000.0000</cost>
+    <researchpoints>35.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\artillery\great_bombard\great_bombard_icon_64x64.png</icon>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="GreatBombard" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ===================== Grenzer (Hungría Otomana + Hungría Alemana) ===================== -->
+  <tech name="HUNVeteranGrenzer" type="Normal">
+    <dbid>88885304</dbid>
+    <displaynameid>88885220</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>88885230</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenzer" culture="none" newname="88885220"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNGuardGrenzer" type="Normal">
+    <dbid>88885305</dbid>
+    <displaynameid>88885221</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>88885231</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">HUNVeteranGrenzer</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenzer" culture="none" newname="88885221"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialGrenzer" type="Normal">
+    <dbid>88885306</dbid>
+    <displaynameid>88885222</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>88885232</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardGrenzer</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="SetName" proto="HUNGrenzer" culture="none" newname="88885222"></effect>
+    </effects>
+  </tech>
+  <!-- ===================== Pandur (Hungría Alemana) ===================== -->
+  <tech name="HUNVeteranPandur" type="Normal">
+    <dbid>88886304</dbid>
+    <displaynameid>88886220</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>88886230</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="SetName" proto="HUNPandur" culture="none" newname="88886220"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNGuardPandur" type="Normal">
+    <dbid>88886305</dbid>
+    <displaynameid>88886221</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>50.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>88886231</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">HUNVeteranPandur</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="SetName" proto="HUNPandur" culture="none" newname="88886221"></effect>
+    </effects>
+  </tech>
+  <tech name="HUNImperialPandur" type="Normal">
+    <dbid>88886306</dbid>
+    <displaynameid>88886222</displaynameid>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>70.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>88886232</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HUNGuardPandur</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="Data" amount="0.10" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="SetName" proto="HUNPandur" culture="none" newname="88886222"></effect>
+    </effects>
+  </tech>
+  <!-- ===================== Cartas de envío: Granadero Húngaro (equivalente a Humbaraci) ===================== -->
+  <tech name="HUNShipGrenadier1" type="Normal">
+    <dbid>88885421</dbid>
+    <displaynameid>88881120</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\grenadier\grenadier_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="HUNGrenadier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipGrenadier2" type="Normal">
+    <dbid>88885422</dbid>
+    <displaynameid>88881120</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\grenadier\grenadier_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNGrenadier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipGrenadierRepeat" type="Normal">
+    <dbid>88885423</dbid>
+    <displaynameid>88881120</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\ottoman\infinite_humbaraci.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="HUNGrenadier" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ===================== Cartas de envío: Pandur (Hungría Alemana, equivalente a las de Guerrillero) ===================== -->
+  <tech name="HUNShipPandurs1" type="Normal">
+    <dbid>88886421</dbid>
+    <displaynameid>88886210</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\pandour_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="HUNPandur" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipPandurs2" type="Normal">
+    <dbid>88886422</dbid>
+    <displaynameid>88886210</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\pandour_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="9.00" subtype="FreeHomeCityUnit" unittype="HUNPandur" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipPandurs3" type="Normal">
+    <dbid>88886423</dbid>
+    <displaynameid>88886210</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\pandour_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="HUNPandur" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HUNShipPandurs4" type="Normal">
+    <dbid>88886424</dbid>
+    <displaynameid>88886210</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\pandour\pandour_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="HUNPandur" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <!-- ===================== Hungría Otomana (HOT): clon de Otomanos ===================== -->
+  <tech name="HOTAge0" type="Normal">
+    <dbid>88885101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0Ottoman</effect>
+
+      <!-- Cuartel: fuera Azap, dentro Grenzer + Hajduk propios -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deAzap</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">DEVeteranAzaps</effect>
+      <effect type="TechStatus" status="unobtainable">DEGuardAzaps</effect>
+      <effect type="TechStatus" status="unobtainable">DEImperialAzaps</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialHajduk</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranGrenzer</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardGrenzer</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialGrenzer</effect>
+
+      <!-- Establo: fuera Arquero a Caballo Y Deli (comparten columna con Crabat/Hussar
+           Magiar en el Establo compartido; si no se deshabilitan quedar�an dos unidades
+           compitiendo por el mismo slot), dentro Crabat + Hussar Magiar propios -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">CavalryArcher</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranCavalryArchersShadow</effect>
+      <effect type="TechStatus" status="unobtainable">GuardCavalryArchers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCavalryArchers</effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deDeli</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranDelis</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardMagyarHussar</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialMagyarHussar</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardCrabat</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialCrabat</effect>
+
+      <!-- Fundición de Artillería: fuera Humbaraci y Obús (AbusGun), dentro Granadero Húngaro -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">deHumbaraci</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranHumbaracis</effect>
+      <effect type="TechStatus" status="unobtainable">RGBaratcuCorps</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialBaratcu</effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">AbusGun</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranAbusGuns</effect>
+      <effect type="TechStatus" status="unobtainable">GuardAbusGuns</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialAbusGun</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialGrenadier</effect>
+
+      <!-- Cartas de envío: fuera Azap/Humbaraci/Obús (no est�n en el pool de este civ),
+           dentro Hajduk/Crabat (reutilizadas de Hungr�a) y Granadero H�ngaro (nueva) -->
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks3</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks4</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats3</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats4</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats5</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadier1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadier2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadierRepeat</effect>
+    </effects>
+  </tech>
+  <tech name="HOTColonialize" type="Normal">
+    <dbid>88885102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOTAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="HOTFortressize" type="Normal">
+    <dbid>88885103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOTColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="HOTIndustrialize" type="Normal">
+    <dbid>88885104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOTFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="HOTImperialize" type="Normal">
+    <dbid>88885105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HOTIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="HOTPostIndustrial" type="Normal">
+    <dbid>88885106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialOttoman</effect>
+    </effects>
+  </tech>
+  <tech name="HOTPostImperial" type="Normal">
+    <dbid>88885107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialOttoman</effect>
+    </effects>
+  </tech>
+  <!-- ===================== Hungría Alemana (HGE): clon de Alemanes ===================== -->
+  <tech name="HGEAge0" type="Normal">
+    <dbid>88886101</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Age0German</effect>
+
+      <!-- Fundición de Artillería: fuera Granadero base, dentro Granadero Húngaro -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Grenadier</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">GuardGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">RGPavlovGrenadiers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialPavlovs</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenadier</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardGrenadier</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialGrenadier</effect>
+
+      <!-- Cuartel: agregar Grenzer + Hajduk; fuera Guerrillero (Skirmisher), dentro Pandur.
+           El Piquero (Pikeman) comparte columna con Hajduk en el Cuartel compartido; se
+           deshabilita para dejarle el slot (Ballestero y Dopplesoldner NO se tocan). -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">GuardPikemen</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialPikemen</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNHajduk</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardHajduk</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialHajduk</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNGrenzer</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranGrenzer</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardGrenzer</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialGrenzer</effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranSkirmishersShadow</effect>
+      <effect type="TechStatus" status="unobtainable">GuardSkirmishers</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialSkirmishers</effect>
+      <effect type="TechStatus" status="unobtainable">RGPrussianNeedleGun</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialNeedleGun</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNPandur</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNVeteranPandur</effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardPandur</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialPandur</effect>
+
+      <!-- Establo: fuera Uhlan y Carro de Guerra (comparten columna con Hussar Magiar/
+           Crabat en el Establo compartido; si no se deshabilitan quedar�an dos unidades
+           compitiendo por el mismo slot, igual que ya resuelve la Hungr�a base), dentro
+           Hussar Magiar + Crabat propios -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">Uhlan</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Assign">
+        <target type="ProtoUnit">WarWagon</target>
+      </effect>
+      <effect type="TechStatus" status="unobtainable">VeteranUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">RGCzapkaUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialCzapkaUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">ImperialWarWagons</effect>
+      <effect type="TechStatus" status="unobtainable">GuardWarWagons</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNMagyarHussar</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardMagyarHussar</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialMagyarHussar</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HUNCrabat</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HUNGuardCrabat</effect>
+      <effect type="TechStatus" status="obtainable">HUNImperialCrabat</effect>
+
+      <!-- Cartas de envío: Hajduk/Crabat (reutilizadas), Granadero Húngaro y Pandur (nuevas,
+           reemplazan a las de Guerrillero) -->
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks3</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipHajduks4</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats3</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats4</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipCrabats5</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadier1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadier2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipGrenadierRepeat</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipPandurs1</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipPandurs2</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipPandurs3</effect>
+      <effect type="TechStatus" status="obtainable">HUNShipPandurs4</effect>
+    </effects>
+  </tech>
+  <tech name="HGEColonialize" type="Normal">
+    <dbid>88886102</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HGEAge0</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ColonializeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HGEFortressize" type="Normal">
+    <dbid>88886103</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HGEColonialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">FortressizeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HGEIndustrialize" type="Normal">
+    <dbid>88886104</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HGEFortressize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">IndustrializeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HGEImperialize" type="Normal">
+    <dbid>88886105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqtech>HGEIndustrialize</prereqtech>
+    <effects>
+      <effect type="TechStatus" status="active">ImperializeGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HGEPostIndustrial" type="Normal">
+    <dbid>88886106</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostIndustrialGerman</effect>
+    </effects>
+  </tech>
+  <tech name="HGEPostImperial" type="Normal">
+    <dbid>88886107</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">PostImperialGerman</effect>
+    </effects>
+  </tech>
+</techtreemods>

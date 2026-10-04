@@ -1,0 +1,52 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_fish_bird_matc_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_fish_bird_matc_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_fish_bird_matc_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_matB_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_matB_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_matB_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\naval\fishing_boat_asian\textures\asian_fishing_boat_0_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

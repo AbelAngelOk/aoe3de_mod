@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\black_panther\textures\black_panther_0_MatA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\black_panther\textures\black_panther_0_MatA_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\black_panther\textures\black_panther_0_MatA_Masks">
+      </texture>
+      <texture name="Details" override="units\animals\black_panther\textures\black_panther_0_MatA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

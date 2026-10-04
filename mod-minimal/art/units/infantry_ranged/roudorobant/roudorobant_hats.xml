@@ -1,0 +1,4 @@
+<animfile>
+  <component>hats<assetreference type="GrannyModel"><file>units\revolution\dorobant\dorobant_hat</file></assetreference></component>
+  <anim>Idle<component>hats</component></anim>
+</animfile>

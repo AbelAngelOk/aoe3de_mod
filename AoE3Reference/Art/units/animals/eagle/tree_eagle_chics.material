@@ -1,0 +1,56 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\eagle\working\tree_eagle_chics_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\animals\eagle\working\tree_eagle_chics_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\animals\eagle\working\tree_eagle_chics_mata_masks">
+      </texture>
+      <float name="CutoutThreshold" override="0.2000">
+      </float>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\eagle\working\eagle_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\animals\eagle\working\eagle_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\animals\eagle\working\eagle_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\eagle\working\bark_color">
+      </texture>
+      <texture name="Normals" override="units\animals\eagle\working\bark_normal">
+      </texture>
+      <texture name="Masks" override="units\animals\eagle\working\mask_general_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="speedtree\nonspeedtree_subsurface">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\eagle\working\tree_eagle_chics_color">
+      </texture>
+      <texture name="Normals" override="units\animals\eagle\working\tree_eagle_chics_normal">
+      </texture>
+      <texture name="Masks" override="units\animals\eagle\working\mask_general_masks">
+      </texture>
+      <texture name="SubSurface" override="units\animals\eagle\working\tree_eagle_chics_ss">
+      </texture>
+      <float name="CutoutThreshold" override="0.2000">
+      </float>
+    </parameters>
+  </submaterial>
+</material>

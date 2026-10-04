@@ -1,0 +1,13 @@
+<animfile>
+  <definebone>bone_buzzard01</definebone>
+  <definebone>bone_buzzard02</definebone>
+  <definebone>bone_buzzard03</definebone>
+  <definebone>bone_buzzard04</definebone>
+  <definebone>bone_buzzard05</definebone>
+  <definebone>bone_buzzard06</definebone>
+  <definebone>bone_buzzard07</definebone>
+  <attachment>Buzzard<include>units\animals\buzzard\buzzard.xml</include></attachment>
+  <attachment>Carcass<include>units\animals\bison\bison_carcass.xml</include></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\buzzard\buzzard_path</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\buzzard\buzzard_path_idle</file></assetreference><component>ModelComp</component><attach a="Buzzard" frombone="MASTER" tobone="bone_buzzard01" syncanims="0"></attach><attach a="Buzzard" frombone="MASTER" tobone="bone_buzzard02" syncanims="0"></attach><attach a="Buzzard" frombone="MASTER" tobone="bone_buzzard03" syncanims="0"></attach><attach a="Buzzard" frombone="MASTER" tobone="bone_buzzard04" syncanims="0"></attach><attach a="Buzzard" frombone="MASTER" tobone="bone_buzzard05" syncanims="0"></attach><attach a="Buzzard" frombone="MASTER" tobone="bone_buzzard06" syncanims="0"></attach><attach a="Buzzard" frombone="MASTER" tobone="bone_buzzard07" syncanims="0"></attach><attach a="Carcass" frombone="ROOT" tobone="ROOT" syncanims="0"></attach></anim>
+</animfile>

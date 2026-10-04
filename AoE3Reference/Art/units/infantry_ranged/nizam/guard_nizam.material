@@ -1,0 +1,28 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\nizam\textures\guard_nizam_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\nizam\textures\guard_nizam_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\nizam\textures\guard_nizam_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry_ranged\nizam\textures\guard_nizam_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\attachments\east_sword\textures\east_sword_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\attachments\east_sword\textures\east_sword_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\attachments\east_sword\textures\east_sword_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

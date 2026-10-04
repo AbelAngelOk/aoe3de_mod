@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mod-hungria: strings spanish — dividido de mod-minimal (2026-09-19). -->
+<stringmods>
+  <stringtable>
+    <language name="">
+      <!-- Civilización -->
+      <string _locid="88881001">Húngaros</string>
+      <string _locid="88881002">Los húngaros traen las tradiciones de caballería del pueblo magiar al campo de batalla.</string>
+      <!-- Home City -->
+      <string _locid="88881003">Budapest</string>
+      <string _locid="88881004">El Caudillo Magiar</string>
+      <!-- Unidades -->
+      <string _locid="88881010">Hajduk</string>
+      <string _locid="88881011">Infantería húngara con una fuerte carga cuerpo a cuerpo y daño extra contra escaramuzadores e infantería pesada. No obtiene ascensos de rango.</string>
+      <string _locid="88881012">Infantería de choque</string>
+      <string _locid="88881013">Honvéd</string>
+      <string _locid="88881014">Infantería de línea húngara armada con un fusil de aguja. Buena contra caballería y otra infantería.</string>
+      <string _locid="88881015">Infantería de línea, buena vs caballería</string>
+      <!-- Mejoras de cuartel (Honvéd) -->
+      <string _locid="88881020">Honvéd Veterano</string>
+      <string _locid="88881021">Honvéd de la Guardia</string>
+      <string _locid="88881022">Honvéd Imperial</string>
+      <!-- Mejoras de cuartel (Hajduk) -->
+      <string _locid="88881023">Hajduk Veterano</string>
+      <string _locid="88881024">Hajduk de la Guardia</string>
+      <string _locid="88881025">Hajduk Imperial</string>
+      <!-- Rollovers de mejoras -->
+      <string _locid="88881030">Mejora los Honvéd a Veterano (+20% vida y ataque, +0.10 velocidad).</string>
+      <string _locid="88881031">Mejora los Honvéd a Guardia (+20% vida y ataque, +0.10 velocidad).</string>
+      <string _locid="88881032">Mejora los Honvéd a Imperial (+50% vida y ataque, +0.10 velocidad).</string>
+      <string _locid="88881033">Mejora los Hajduk a Veterano (+20% vida y ataque, +0.10 velocidad).</string>
+      <string _locid="88881034">Mejora los Hajduk a Guardia (+20% vida y ataque, +0.10 velocidad).</string>
+      <string _locid="88881035">Mejora los Hajduk a Imperial (+50% vida y ataque, +0.10 velocidad).</string>
+      <!-- Caballería: unidades -->
+      <string _locid="88881040">Húsar Magiar</string>
+      <string _locid="88881041">Caballería de choque húngara de élite, potente en cuerpo a cuerpo.</string>
+      <string _locid="88881042">Caballería de choque de élite</string>
+      <string _locid="88881043">Crabat</string>
+      <string _locid="88881044">Caballería croata: ataque a distancia fuerte vs caballería (x3) y artillería (x2); cuerpo a cuerpo fuerte vs infantería (x3).</string>
+      <string _locid="88881045">Caballería anti-caballería / anti-infantería</string>
+      <!-- Caballería: mejoras -->
+      <string _locid="88881050">Húsar Magiar de la Guardia</string>
+      <string _locid="88881051">Húsar Magiar Imperial</string>
+      <string _locid="88881052">Crabat de la Guardia</string>
+      <string _locid="88881053">Crabat Imperial</string>
+      <string _locid="88881060">Mejora los Húsares Magiares a Guardia (+20% vida y ataque).</string>
+      <string _locid="88881061">Mejora los Húsares Magiares a Imperial (+50% vida y ataque).</string>
+      <string _locid="88881062">Mejora los Crabats a Guardia (+20% vida y ataque).</string>
+      <string _locid="88881063">Mejora los Crabats a Imperial (+50% vida y ataque).</string>
+      <!-- Cartas especiales de metrópoli -->
+      <string _locid="88881070">Burgomaestre</string>
+      <string _locid="88881071">Ascensos de Élite</string>
+      <string _locid="88881072">Insurrección Noble</string>
+      <string _locid="88881075">La antigua obligación de la nobleza húngara de aportar caballería permite mantener un mayor número de Húsares Magiares en el campo de batalla. Efecto: Los Húsares Magiares ahora consumen 2 de población en lugar de 3.</string>
+      <string _locid="88881073">Distributivismo</string>
+      <string _locid="88881074">Tala en el Extranjero</string>
+      <!-- Cartas de combate de infantería (Cambio 8) -->
+      <string _locid="88881076">Ataque de Infantería</string>
+      <string _locid="88881077">Resistencia de Infantería</string>
+      <string _locid="88881078">Combate de Infantería</string>
+      <string _locid="88881079">Levantamiento de Bocskai</string>
+      <string _locid="88881080">+15% de ataque a Honvéds y Hajduks.</string>
+      <string _locid="88881081">+15% de vida a Honvéds y Hajduks.</string>
+      <string _locid="88881082">+15% de ataque y vida a Honvéds y Hajduks.</string>
+      <string _locid="88881083">Los Hajduks adaptan su defensa según su postura de combate: armadura cuerpo a cuerpo en modo cuerpo a cuerpo, armadura de asedio (contra artillería) en modo escalonado, y armadura a distancia en modo normal.</string>
+      <!-- Cambio 9: cartas f/h/e/g + unidad -->
+      <string _locid="88881090">Carretones de Colono</string>
+      <string _locid="88881091">Refuerzos de Caballería</string>
+      <string _locid="88881093">Infantería Montada</string>
+      <string _locid="88881094">Infantería Montada</string>
+      <string _locid="88881095">Fusilero montado versátil, eficaz contra caballería y a distancia.</string>
+      <string _locid="88881096">Fusilero montado</string>
+      <!-- Infantería montada desmontada (a pie) -->
+      <string _locid="88881097">Infantería Desmontada</string>
+      <string _locid="88881098">Infantería montada combatiendo a pie: escaramuzador a distancia fuerte contra infantería pesada. Puede volver a montar.</string>
+      <string _locid="88881099">Fusilero desmontado</string>
+      <!-- Cambio 11: cartas de caballería propias -->
+      <string _locid="88881100">Resistencia de la Caballería</string>
+      <string _locid="88881101">+15% de vida a toda la caballería.</string>
+      <string _locid="88881102">Combate de la Caballería</string>
+      <string _locid="88881103">+15% de ataque y vida a toda la caballería.</string>
+      <string _locid="88881104">Legado del Corvinus</string>
+      <string _locid="88881105">+20% de vida y ataque a la caballería pesada.</string>
+      <!-- Cambio 12: cartas de mercenarios -->
+      <string _locid="88881106">Banda de Pandúros</string>
+      <string _locid="88881107">Envía 6 Pandúros.</string>
+      <string _locid="88881108">EQUIPO Dieta de Presburgo</string>
+      <string _locid="88881109">EQUIPO Envía 7 Pandúros. Puede enviarse infinitas veces en la Edad Industrial.</string>
+      <string _locid="88881116">EQUIPO Regimiento de Trenck</string>
+      <string _locid="88881117">EQUIPO Envía 4 Pandúros.</string>
+      <!-- Cambio 13: Granadero húngaro (Artillery Foundry) -->
+      <string _locid="88881120">Granadero Húngaro</string>
+      <string _locid="88881121">Granadero húngaro que lanza granadas; potente contra edificios e infantería. Se entrena y mejora en la Fundición de Artillería.</string>
+      <string _locid="88881122">Granadero</string>
+      <string _locid="88881123">Granadero Húngaro Veterano</string>
+      <string _locid="88881124">Granadero Húngaro de la Guardia</string>
+      <string _locid="88881125">Granadero Húngaro Imperial</string>
+      <string _locid="88881126">Mejora los Granaderos Húngaros a Veteranos (+20% de vida y ataque).</string>
+      <string _locid="88881127">Mejora los Granaderos Húngaros a la Guardia (+20% de vida y ataque).</string>
+      <string _locid="88881128">Mejora los Granaderos Húngaros a Imperiales (+50% de vida y ataque).</string>
+      <!-- Personalidades de IA (game/ai/*.personality). Sin estas strings la IA aparece sin nombre. -->
+      <string _locid="88881900">Mátyás Corvinus</string>
+      <string _locid="88881901">La IA húngara: infantería Honvéd, húsares magiares y artillería.</string>
+      <!-- Cambio 12: cartas nuevas (Ayuda Maltesa, Carreta de Destacamento) -->
+      <string _locid="88881130">Ayuda Maltesa</string>
+      <string _locid="88881131">Habilita el entrenamiento de Ballesteros en el Cuartel y su mejora a Veteranos (investigable ahí).</string>
+      <string _locid="88881134">Carreta de Destacamento</string>
+      <string _locid="88881135">Envia 1 Carreta de destacamento y sube +1 el limite maximo de Destacamentos. A partir de entonces, cada envio militar propio incluye 1 Carreta de destacamento adicional.</string>
+      <!-- Cambio 13: Reformas Militares de María Teresa -->
+      <string _locid="88881136">Reformas Militares de María Teresa</string>
+      <string _locid="88881137">Cambia permanentemente el coste de los Hajduks (40 alimento, 70 monedas) y los Crabats (90 alimento, 90 monedas).</string>
+      <!-- Cambio 14: Patronato Apostólico (techs de Iglesia) -->
+      <string _locid="88881140">Patronato Apostólico</string>
+      <string _locid="88881141">Agrega tecnologías a la Iglesia que envían tropas al investigarse: Ballesteros y Piqueros (Edad II), Ulanos y Jenízaros (Edad III, los Jenízaros también se entrenan en el Cuartel) y Grandes Bombardas (Edad IV).</string>
+      <string _locid="88881142">Envío: Ballesteros</string>
+      <string _locid="88881143">Investígala en la Iglesia por 500 de madera para enviar 10 Ballesteros.</string>
+      <string _locid="88881144">Envío: Piqueros</string>
+      <string _locid="88881145">Investígala en la Iglesia por 500 de alimento para enviar 10 Piqueros.</string>
+      <string _locid="88881146">Envío: Ulanos</string>
+      <string _locid="88881147">Investígala en la Iglesia por 1000 de alimento para enviar 7 Ulanos.</string>
+      <string _locid="88881148">Envío: Jenízaros</string>
+      <string _locid="88881149">Investígala en la Iglesia por 2000 de madera para enviar 20 Jenízaros y habilitar su entrenamiento en el Cuartel.</string>
+      <string _locid="88881150">Envío: Grandes Bombardas</string>
+      <string _locid="88881151">Investígala en la Iglesia por 2000 de monedas para enviar 3 Grandes Bombardas.</string>
+      <!-- Hungría Otomana (HOT) -->
+      <string _locid="88885001">Hungría Otomana</string>
+      <string _locid="88885002">Hungría Otomana</string>
+      <string _locid="88885003">Buda</string>
+      <string _locid="88885004">Explorador</string>
+      <string _locid="88885210">Grenzer</string>
+      <string _locid="88885211">Soldado fronterizo de la Militärgrenze húngaro-otomana. Infantería ligera versátil, buena contra tropas de escaramuza.</string>
+      <string _locid="88885212">Grenzer</string>
+      <string _locid="88885220">Grenzer Veterano</string>
+      <string _locid="88885221">Grenzer de la Guardia</string>
+      <string _locid="88885222">Grenzer Imperial</string>
+      <string _locid="88885230">Mejora los Grenzer a Veterano (+20% vida y daño, +0.10 velocidad).</string>
+      <string _locid="88885231">Mejora los Grenzer a la Guardia (+20% vida y daño adicional, +0.10 velocidad).</string>
+      <string _locid="88885232">Mejora los Grenzer a Imperial (+50% vida y daño, +0.10 velocidad).</string>
+      <!-- Hungría Alemana (HGE) -->
+      <string _locid="88886001">Hungría Alemana</string>
+      <string _locid="88886002">Hungría Alemana</string>
+      <string _locid="88886003">Pozsony</string>
+      <string _locid="88886004">Explorador</string>
+      <string _locid="88886210">Pandur</string>
+      <string _locid="88886211">Infantería ligera irregular croata al servicio de los Habsburgo. Resistente, buena contra tropas de escaramuza.</string>
+      <string _locid="88886212">Pandur</string>
+      <string _locid="88886220">Pandur Veterano</string>
+      <string _locid="88886221">Pandur de la Guardia</string>
+      <string _locid="88886222">Pandur Imperial</string>
+      <string _locid="88886230">Mejora los Pandur a Veterano (+20% vida y daño, +0.10 velocidad).</string>
+      <string _locid="88886231">Mejora los Pandur a la Guardia (+20% vida y daño adicional, +0.10 velocidad).</string>
+      <string _locid="88886232">Mejora los Pandur a Imperial (+50% vida y daño, +0.10 velocidad).</string>
+</language>
+  </stringtable>
+</stringmods>

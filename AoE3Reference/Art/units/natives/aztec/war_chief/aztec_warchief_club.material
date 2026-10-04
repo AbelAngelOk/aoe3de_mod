@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\aztec\war_chief\textures\aztec_war_chief_club_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\natives\aztec\war_chief\textures\aztec_war_chief_club_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\natives\aztec\war_chief\textures\aztec_war_chief_club_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

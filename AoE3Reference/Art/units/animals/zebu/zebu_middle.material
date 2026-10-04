@@ -1,0 +1,42 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\zebu\textures\zebu_middle_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\zebu\textures\zebu_middle_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\zebu\textures\zebu_middle_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\animals\zebu\textures\zebu_middle_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\animals\zebu\textures\zebu_trojan_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\animals\zebu\textures\zebu_trojan_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\animals\zebu\textures\zebu_trojan_mata_masks">
+      </texture>
+      <texture name="Details" override="units\animals\zebu\textures\zebu_trojan_mata_details">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\animals\zebu\textures\zebu_gold_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\animals\zebu\textures\zebu_gold_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\animals\zebu\textures\zebu_gold_mata_masks">
+      </texture>
+      <texture name="Details" override="units\animals\zebu\textures\zebu_trojan_mata_details">
+      </texture>
+      <float name="Roughness Min" override="0.5000">
+      </float>
+      <float name="Roughness Metallic Min" override="0.0570">
+      </float>
+      <float name="Metallic Min" override="0.0390">
+      </float>
+    </parameters>
+  </submaterial>
+</material>

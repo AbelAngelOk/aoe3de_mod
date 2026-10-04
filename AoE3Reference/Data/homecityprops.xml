@@ -118,13 +118,15 @@
   </prop>
   <prop>
     <name>StagecoachRoyal</name>
-    <type>Unit</type>
+    <type>Object</type>
     <displayname>The Royal Coach</displayname>
     <displaynamestringid>42504</displaynamestringid>
     <description>This coach waits upon the whims of royalty.</description>
     <descriptionstringid>42505</descriptionstringid>
     <levelprereq>0</levelprereq>
+    <visual>homecity\homecity_units\stagecoach_royal\stagecoach_royal.xml</visual>
     <position>
+      <bone>bone_stagecoach</bone>
       <building>Cathedral</building>
     </position>
     <icon>homecity\home_city_props\icons\stagecoach</icon>
@@ -14390,4 +14392,1279 @@
     <description>View and Customize the appearance of your Explorer</description>
     <descriptionstringid>49566</descriptionstringid>
   </prop>
+  <prop>
+    <name>BrownCat</name>
+    <type>Unit</type>
+    <displayname>Cats</displayname>
+    <displaynamestringid>130584</displaynamestringid>
+    <description>Unlocks cats to patrol the streets and keep the city free of rodents.</description>
+    <descriptionstringid>130585</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\brown_cat</icon>
+  </prop>
+  <prop>
+    <name>BlackCat</name>
+    <type>Unit</type>
+    <displayname>Cats</displayname>
+    <displaynamestringid>130584</displaynamestringid>
+    <description>Unlocks cats to patrol the streets and keep the city free of rodents.</description>
+    <descriptionstringid>130585</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\black_cat</icon>
+  </prop>
+  <prop>
+    <name>Lighter</name>
+    <type>Unit</type>
+    <displayname>Lighter</displayname>
+    <displaynamestringid>130582</displaynamestringid>
+    <description>Unlocks a Lantern-bearer who will never leave you alone in the dark.</description>
+    <descriptionstringid>130583</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\lighter</icon>
+  </prop>
+  <prop>
+    <name>ExplorerDEHetmanPolish</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>Polish_Lamp0</name>
+    <type>Object</type>
+    <displayname>Basic Street Lamps</displayname>
+    <displaynamestringid>43226</displaynamestringid>
+    <description>Simple technology to make streets just a little safer at night.</description>
+    <descriptionstringid>43227</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_lamp\polish_lamp0.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\street_light_grey_3</icon>
+  </prop>
+  <prop>
+    <name>Polish_Lamp1</name>
+    <type>Object</type>
+    <displayname>Decorative Street Lamps</displayname>
+    <displaynamestringid>43230</displaynamestringid>
+    <description>Street lighting with a dramatic flair.</description>
+    <descriptionstringid>43231</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_lamp\polish_lamp1.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\street_light</icon>
+  </prop>
+  <prop>
+    <name>Polish_Lamp2</name>
+    <type>Object</type>
+    <displayname>Fancy Double-Globe Street Lamps</displayname>
+    <displaynamestringid>43234</displaynamestringid>
+    <description>Brighter, yet still elegant lighting for the city's best streets.</description>
+    <descriptionstringid>43235</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_lamp\polish_lamp2.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\street_light_two</icon>
+  </prop>
+  <prop>
+    <name>Polish_Lamp3</name>
+    <type>Object</type>
+    <displayname>Fancy Street Lamps</displayname>
+    <displaynamestringid>43232</displaynamestringid>
+    <description>Tastefully elegant lighting for the city's best streets.</description>
+    <descriptionstringid>43233</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_lamp\polish_lamp3.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\street_light_4</icon>
+  </prop>
+  <prop>
+    <name>Polish_DockTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish Dock 1</displayname>
+    <displaynamestringid>35745</displaynamestringid>
+    <description>Original version of the Dutch Harbor building's color scheme.</description>
+    <descriptionstringid>130318</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish-dock</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>Polish_DockTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish Dock 2</displayname>
+    <displaynamestringid>37671</displaynamestringid>
+    <description>A red and gold version of the Polish Harbor building's color scheme.</description>
+    <descriptionstringid>37812</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish-dock1</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>Polish_DockTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish Dock 3</displayname>
+    <displaynamestringid>37807</displaynamestringid>
+    <description>blue and white themed version of Polish Harbor building's color scheme.</description>
+    <descriptionstringid>37818</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish-dock2</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>Polish_DockTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish Dock 4</displayname>
+    <displaynamestringid>37675</displaynamestringid>
+    <description>A green version of the Polish Harbor building's color scheme.</description>
+    <descriptionstringid>126056</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish-dock3</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>Polish_NWTCTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish New World Trade Center 1</displayname>
+    <displaynamestringid>126063</displaynamestringid>
+    <description>The original version of the New World Trading Company.</description>
+    <descriptionstringid>126064</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\we-nwtc9</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>Polish_NWTCTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish New World Trade Center 2</displayname>
+    <displaynamestringid>126069</displaynamestringid>
+    <description>The blue version of the New World Trading Company with a weathered brick finish.</description>
+    <descriptionstringid>126070</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\we-nwtc10</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>Polish_NWTCTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish New World Trade Center 3</displayname>
+    <displaynamestringid>130319</displaynamestringid>
+    <description>The white version of the New World Trading Company with red roofs.</description>
+    <descriptionstringid>130320</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\we-nwtc11</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>Polish_NWTCTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish New World Trade Center 4</displayname>
+    <displaynamestringid>126067</displaynamestringid>
+    <description>The orange version of the New World Trading Company with a weathered brick finish.</description>
+    <descriptionstringid>126068</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\we-nwtc12</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>Polish_ManuPlantTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish Manufacturing Plant 1</displayname>
+    <displaynamestringid>49836</displaynamestringid>
+    <description>The original color scheme for the Manufacturing Plant.</description>
+    <descriptionstringid>49837</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\sl-factory1</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>Polish_ManuPlantTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish Manufacturing Plant 2</displayname>
+    <displaynamestringid>200034</displaynamestringid>
+    <description>The red version of the Manufacturing Plant.</description>
+    <descriptionstringid>130317</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\sl-factory2</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>Polish_ManuPlantTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish Manufacturing Plant 3</displayname>
+    <displaynamestringid>200036</displaynamestringid>
+    <description>A blue and white version of the Manufacturing Plant.</description>
+    <descriptionstringid>200037</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\sl-factory3</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>Polish_ManuPlantTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Polish Manufacturing Plant 4</displayname>
+    <displaynamestringid>200038</displaynamestringid>
+    <description>The gray version of the Manufacturing Plant.</description>
+    <descriptionstringid>49839</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\sl-factory4</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>Polish_CathedralTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Cathedral (default)</displayname>
+    <displaynamestringid>126103</displaynamestringid>
+    <description>The original version of the Cathedral.</description>
+    <descriptionstringid>126104</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish-church</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>Polish_CathedralTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Cathedral (blue)</displayname>
+    <displaynamestringid>200028</displaynamestringid>
+    <description>The blue version of the Polish Cathedral.</description>
+    <descriptionstringid>200029</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish-church1</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>Polish_CathedralTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Cathedral (orange)</displayname>
+    <displaynamestringid>200030</displaynamestringid>
+    <description>The orange version of the Polish Cathedral.</description>
+    <descriptionstringid>200031</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish-church2</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>Polish_CathedralTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Cathedral (mauve-red)</displayname>
+    <displaynamestringid>200032</displaynamestringid>
+    <description>The mauve-red version of the Polish Cathedral.</description>
+    <descriptionstringid>200033</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish-church3</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>Polish_AcademyTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Warsaw Royal Castle (default)</displayname>
+    <displaynamestringid>130330</displaynamestringid>
+    <description>The original version of the Warsaw Royal Castle.</description>
+    <descriptionstringid>130849</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\wrc</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>Polish_AcademyTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Warsaw Royal Castle (white)</displayname>
+    <displaynamestringid>130313</displaynamestringid>
+    <description>The white version of the Royal Castle with brown roofs.</description>
+    <descriptionstringid>130314</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\wrc1</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>Polish_AcademyTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Warsaw Royal Castle (light blue)</displayname>
+    <displaynamestringid>130315</displaynamestringid>
+    <description>The light blue version of the Royal Castle with orange roofs.</description>
+    <descriptionstringid>130316</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\wrc2</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>Polish_AcademyTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Warsaw Royal Castle (green)</displayname>
+    <displaynamestringid>130885</displaynamestringid>
+    <description>The green version of the Warsaw Royal Castle.</description>
+    <descriptionstringid>130886</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\wrc3</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>Polish_LightSet1</name>
+    <type>LightSet</type>
+    <displayname>Daytime Lighting</displayname>
+    <displaynamestringid>43288</displaynamestringid>
+    <description>The city with the sun shining brightly.</description>
+    <descriptionstringid>43289</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\ger_lightset1</icon>
+    <variationid>0</variationid>
+    <lightset>Warsaw1</lightset>
+  </prop>
+  <prop>
+    <name>Polish_LightSet2</name>
+    <type>LightSet</type>
+    <displayname>Dusk Lighting</displayname>
+    <displaynamestringid>42536</displaynamestringid>
+    <description>The city at dusk.</description>
+    <descriptionstringid>42537</descriptionstringid>
+    <levelprereq>30</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\ger_lightset2</icon>
+    <variationid>1</variationid>
+    <lightset>Warsaw2</lightset>
+  </prop>
+  <prop>
+    <name>Polish_LightSet3</name>
+    <type>LightSet</type>
+    <displayname>Rain Lighting</displayname>
+    <displaynamestringid>49060</displaynamestringid>
+    <description>A rainy city.</description>
+    <descriptionstringid>49061</descriptionstringid>
+    <position>
+      <building>Cathedral</building>
+      <bone>bone_main</bone>
+    </position>
+    <variationid>1</variationid>
+    <lightset>italy_rain</lightset>
+    <visual>homecity\polish\polish_lamp\polish_lamps.xml</visual>
+    <weathereffect>Rain</weathereffect>
+    <cost>5</cost>
+    <icon>homecity\home_city_props\icons\Italy_HC_Rain</icon>
+  </prop>
+  <prop>
+    <name>Danish_LightSet4</name>
+    <type>LightSet</type>
+    <displayname>Dusk Lighting</displayname>
+    <displaynamestringid>200051</displaynamestringid>
+    <description>The city at dusk.</description>
+    <descriptionstringid>200052</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+      <bone>bone_main</bone>
+    </position>
+    <icon>homecity\home_city_props\icons\sw_northern_lights</icon>
+    <variationid>3</variationid>
+    <lightset>swedish_homecity_night</lightset>
+    <visual>homecity\danish\danish_background\danish_aurora.xml</visual>
+  </prop>
+  <prop>
+    <name>Polish_SentryBox</name>
+    <type>Object</type>
+    <displayname>Polish Royal Sentry Box</displayname>
+    <displaynamestringid>130586</displaynamestringid>
+    <description>Polish Royal Sentry Box</description>
+    <descriptionstringid>130587</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_sentrybox\polish_sentrybox.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish_sentrybox</icon>
+  </prop>
+  <prop>
+    <name>Polish_SentryBox1</name>
+    <type>Object</type>
+    <displayname>Polish Royal Sentry Box</displayname>
+    <displaynamestringid>130586</displaynamestringid>
+    <description>Polish Royal Sentry Box</description>
+    <descriptionstringid>130587</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_sentrybox\polish_sentrybox_01.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish_sentrybox1</icon>
+  </prop>
+  <prop>
+    <name>Polish_SentryBox2</name>
+    <type>Object</type>
+    <displayname>Polish Royal Sentry Box</displayname>
+    <displaynamestringid>130586</displaynamestringid>
+    <description>Polish Royal Sentry Box</description>
+    <descriptionstringid>130587</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_sentrybox\polish_sentrybox_02.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish_sentrybox2</icon>
+  </prop>
+  <prop>
+    <name>Polish_SentryBox3</name>
+    <type>Object</type>
+    <displayname>Polish Royal Sentry Box</displayname>
+    <displaynamestringid>130586</displaynamestringid>
+    <description>Polish Royal Sentry Box</description>
+    <descriptionstringid>130587</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_sentrybox\polish_sentrybox_03.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish_sentrybox3</icon>
+  </prop>
+  <prop>
+    <name>Polish_Cannon</name>
+    <type>Object</type>
+    <displayname>Cannon</displayname>
+    <displaynamestringid>42619</displaynamestringid>
+    <description>A recently repaired cannon.</description>
+    <descriptionstringid>42620</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_props\cannon.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Props7</icon>
+  </prop>
+  <prop>
+    <name>Polish_Crane</name>
+    <type>Object</type>
+    <displayname>Loading Crane</displayname>
+    <displaynamestringid>43006</displaynamestringid>
+    <description>Heavy cranes for lifting cargo from the holds of ships in the harbor.</description>
+    <descriptionstringid>43007</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_props\crane.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dock_crane</icon>
+  </prop>
+  <prop>
+    <name>Polish_Guards</name>
+    <type>Object</type>
+    <displayname>Pancerni</displayname>
+    <displaynamestringid>124515</displaynamestringid>
+    <description>Guards standing guard in front of the Academy.</description>
+    <descriptionstringid>49184</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_props\polish_guard_academy.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish_guard</icon>
+  </prop>
+  <prop>
+    <name>Polish_Guards1</name>
+    <type>Object</type>
+    <displayname>Crown Grenadiers</displayname>
+    <displaynamestringid>130205</displaynamestringid>
+    <description>Guards standing guard in front of the Academy.</description>
+    <descriptionstringid>49184</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_props\polish_guard1_academy.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish_guard1</icon>
+  </prop>
+  <prop>
+    <name>Polish_Guards2</name>
+    <type>Object</type>
+    <displayname>Polish Winged Hussars</displayname>
+    <displaynamestringid>37520</displaynamestringid>
+    <description>Guards standing guard in front of the Academy.</description>
+    <descriptionstringid>49184</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_props\polish_guard2_academy.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\polish_guard2</icon>
+  </prop>
+  <prop>
+    <name>Polish_Market_Props</name>
+    <type>Object</type>
+    <displayname>Crates Barrels and Awnings</displayname>
+    <displaynamestringid>43124</displaynamestringid>
+    <description>A variety of market trappings surround main building.</description>
+    <descriptionstringid>43125</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_props\market_props.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\crate_awning</icon>
+  </prop>
+  <prop>
+    <name>Polish_Dock_Props</name>
+    <type>Object</type>
+    <displayname>Dock Equipment</displayname>
+    <displaynamestringid>43254</displaynamestringid>
+    <description>Strewn here and there, it's a lot of things for the dock.</description>
+    <descriptionstringid>43255</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_props\polish_dock_props.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dock_props</icon>
+  </prop>
+  <prop>
+    <name>Polish_Fishing_Boats</name>
+    <type>Object</type>
+    <displayname>Fishing Boats</displayname>
+    <displaynamestringid>43134</displaynamestringid>
+    <description>The fishing fleet is in and the boats ride lightly on the bay.</description>
+    <descriptionstringid>43135</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\polish\polish_props\polish_fishing_boats.xml</visual>
+    <position>
+      <bone>bone_moreboats</bone>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\fishing_boat</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Polish_DockTexture0</prop>
+    <prop>Polish_DockTexture1</prop>
+    <prop>Polish_DockTexture2</prop>
+    <prop>Polish_DockTexture3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Polish_NWTCTexture0</prop>
+    <prop>Polish_NWTCTexture1</prop>
+    <prop>Polish_NWTCTexture2</prop>
+    <prop>Polish_NWTCTexture3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Polish_ManuPlantTexture0</prop>
+    <prop>Polish_ManuPlantTexture1</prop>
+    <prop>Polish_ManuPlantTexture2</prop>
+    <prop>Polish_ManuPlantTexture3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Polish_CathedralTexture0</prop>
+    <prop>Polish_CathedralTexture1</prop>
+    <prop>Polish_CathedralTexture2</prop>
+    <prop>Polish_CathedralTexture3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Polish_AcademyTexture0</prop>
+    <prop>Polish_AcademyTexture1</prop>
+    <prop>Polish_AcademyTexture2</prop>
+    <prop>Polish_AcademyTexture3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Polish_Lamp0</prop>
+    <prop>Polish_Lamp1</prop>
+    <prop>Polish_Lamp2</prop>
+    <prop>Polish_Lamp3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Polish_Guards</prop>
+    <prop>Polish_Guards1</prop>
+    <prop>Polish_Guards2</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Polish_LightSet1</prop>
+    <prop>Polish_LightSet2</prop>
+    <prop>Polish_LightSet3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Polish_SentryBox</prop>
+    <prop>Polish_SentryBox1</prop>
+    <prop>Polish_SentryBox2</prop>
+    <prop>Polish_SentryBox3</prop>
+  </exclusiveprops>
+  <prop>
+    <name>ExplorerDEDanish</name>
+    <type>Unit</type>
+    <description>View and Customize the appearance of your Explorer</description>
+    <descriptionstringid>49566</descriptionstringid>
+  </prop>
+  <prop>
+    <name>Danish_Lamp0</name>
+    <type>Object</type>
+    <displayname>Basic Street Lamps</displayname>
+    <displaynamestringid>43226</displaynamestringid>
+    <description>Simple technology to make streets just a little safer at night.</description>
+    <descriptionstringid>43227</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_lamp\danish_lamp0.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\street_light_grey_3</icon>
+  </prop>
+  <prop>
+    <name>Danish_Lamp1</name>
+    <type>Object</type>
+    <displayname>Decorative Street Lamps</displayname>
+    <displaynamestringid>43230</displaynamestringid>
+    <description>Street lighting with a dramatic flair.</description>
+    <descriptionstringid>43231</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_lamp\danish_lamp1.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\street_light</icon>
+  </prop>
+  <prop>
+    <name>Danish_Lamp2</name>
+    <type>Object</type>
+    <displayname>Fancy Double-Globe Street Lamps</displayname>
+    <displaynamestringid>43234</displaynamestringid>
+    <description>Brighter, yet still elegant lighting for the city's best streets.</description>
+    <descriptionstringid>43235</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_lamp\danish_lamp2.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\street_light_two</icon>
+  </prop>
+  <prop>
+    <name>Danish_Lamp3</name>
+    <type>Object</type>
+    <displayname>Fancy Street Lamps</displayname>
+    <displaynamestringid>43232</displaynamestringid>
+    <description>Tastefully elegant lighting for the city's best streets.</description>
+    <descriptionstringid>43233</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_lamp\danish_lamp3.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\street_light_4</icon>
+  </prop>
+  <prop>
+    <name>Danish_DockTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish Dock 1</displayname>
+    <displaynamestringid>35745</displaynamestringid>
+    <description>Original version of the Dutch Harbor building's color scheme.</description>
+    <descriptionstringid>130318</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\we-dock1</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>Danish_DockTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish Dock 2</displayname>
+    <displaynamestringid>37671</displaynamestringid>
+    <description>A red and gold version of the Polish Harbor building's color scheme.</description>
+    <descriptionstringid>37812</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\we-dock2</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>Danish_DockTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish Dock 3</displayname>
+    <displaynamestringid>37807</displaynamestringid>
+    <description>A blue and white-themed upgrade to the Dock's structure and color scheme.</description>
+    <descriptionstringid>37818</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\we-dock3</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>Danish_DockTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish Dock 4</displayname>
+    <displaynamestringid>37675</displaynamestringid>
+    <description>A green version of the Polish Harbor building's color scheme.</description>
+    <descriptionstringid>126056</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\we-dock4</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>Danish_NWTCTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish New World Trade Center 1</displayname>
+    <displaynamestringid>126063</displaynamestringid>
+    <description>The original version of the New World Trading Company.</description>
+    <descriptionstringid>126064</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-market</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>Danish_NWTCTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish New World Trade Center 2</displayname>
+    <displaynamestringid>126065</displaynamestringid>
+    <description>A red-themed version of the New World Trade Center's structure and color scheme.</description>
+    <descriptionstringid>126066</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-market1</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>Danish_NWTCTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish New World Trade Center 3</displayname>
+    <displaynamestringid>126069</displaynamestringid>
+    <description>The blue version of the New World Trading Company with a weathered brick finish.</description>
+    <descriptionstringid>126070</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-market2</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>Danish_NWTCTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish New World Trade Center 4</displayname>
+    <displaynamestringid>126071</displaynamestringid>
+    <description>The green version of the New World Trading Company with a weathered brick finish.</description>
+    <descriptionstringid>126072</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Market</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-market3</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>Danish_ManuPlantTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish Manufacturing Plant 1</displayname>
+    <displaynamestringid>49836</displaynamestringid>
+    <description>The original color scheme for the Manufacturing Plant.</description>
+    <descriptionstringid>49837</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-factory</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>Danish_ManuPlantTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish Manufacturing Plant 2</displayname>
+    <displaynamestringid>200034</displaynamestringid>
+    <description>A red and gold version of the Manufacturing Plant.</description>
+    <descriptionstringid>130317</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-factory1</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>Danish_ManuPlantTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish Manufacturing Plant 3</displayname>
+    <displaynamestringid>200036</displaynamestringid>
+    <description>A blue and white version of the Manufacturing Plant.</description>
+    <descriptionstringid>200037</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-factory2</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>Danish_ManuPlantTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Danish Manufacturing Plant 4</displayname>
+    <displaynamestringid>200040</displaynamestringid>
+    <description>An orange version of the Manufacturing Plant.</description>
+    <descriptionstringid>49839</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>ManufacturingPlant</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-factory3</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>Danish_CathedralTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Cathedral (default)</displayname>
+    <displaynamestringid>126103</displaynamestringid>
+    <description>The original version of the Church of Our Savior.</description>
+    <descriptionstringid>126104</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-church</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>Danish_CathedralTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Cathedral (white)</displayname>
+    <displaynamestringid>130887</displaynamestringid>
+    <description>The white version of the Church of Our Savior.</description>
+    <descriptionstringid>130888</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-church1</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>Danish_CathedralTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Cathedral (grey)</displayname>
+    <displaynamestringid>126105</displaynamestringid>
+    <description>The grey version of the Church of Our Savior.</description>
+    <descriptionstringid>126106</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-church2</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>Danish_CathedralTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Cathedral (blue)</displayname>
+    <displaynamestringid>200026</displaynamestringid>
+    <description>The original (green) version of the Cathedral.</description>
+    <descriptionstringid>200027</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dk-church3</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>Danish_AcademyTexture0</name>
+    <type>ReplaceVisual</type>
+    <displayname>Frederiksborg Castle (default)</displayname>
+    <displaynamestringid>130329</displaynamestringid>
+    <description>The original version of the Frederiksborg Castle.</description>
+    <descriptionstringid>130889</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\frederiksborg</icon>
+    <variationid>0</variationid>
+  </prop>
+  <prop>
+    <name>Danish_AcademyTexture1</name>
+    <type>ReplaceVisual</type>
+    <displayname>Frederiksborg Castle (yellow)</displayname>
+    <displaynamestringid>130590</displaynamestringid>
+    <description>The moss green version of Frederiksborg Castle with red roofs.</description>
+    <descriptionstringid>130591</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\frederiksborg1</icon>
+    <variationid>1</variationid>
+  </prop>
+  <prop>
+    <name>Danish_AcademyTexture2</name>
+    <type>ReplaceVisual</type>
+    <displayname>Frederiksborg Castle (green)</displayname>
+    <displaynamestringid>130592</displaynamestringid>
+    <description>The dark green version of Frederiksborg Castle with blue roofs.</description>
+    <descriptionstringid>130593</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\frederiksborg2</icon>
+    <variationid>2</variationid>
+  </prop>
+  <prop>
+    <name>Danish_AcademyTexture3</name>
+    <type>ReplaceVisual</type>
+    <displayname>Frederiksborg Castle (blue)</displayname>
+    <displaynamestringid>130594</displaynamestringid>
+    <description>The blue version of Frederiksborg Castle with black roofs.</description>
+    <descriptionstringid>130595</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\frederiksborg3</icon>
+    <variationid>3</variationid>
+  </prop>
+  <prop>
+    <name>Danish_LightSet1</name>
+    <type>LightSet</type>
+    <displayname>Daytime Lighting</displayname>
+    <displaynamestringid>43288</displaynamestringid>
+    <description>The city with the sun shining brightly.</description>
+    <descriptionstringid>43289</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\ger_lightset1</icon>
+    <variationid>0</variationid>
+    <lightset>Copenhagen</lightset>
+  </prop>
+  <prop>
+    <name>Danish_LightSet2</name>
+    <type>LightSet</type>
+    <displayname>Dusk Lighting</displayname>
+    <displaynamestringid>42536</displaynamestringid>
+    <description>The city at dusk.</description>
+    <descriptionstringid>42537</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\brt_lightset2</icon>
+    <variationid>1</variationid>
+    <lightset>London Sunset</lightset>
+  </prop>
+  <prop>
+    <name>Danish_LightSet3</name>
+    <type>LightSet</type>
+    <displayname>Daytime Snow</displayname>
+    <displaynamestringid>200024</displaynamestringid>
+    <description>The city with the sun shining and snow.</description>
+    <descriptionstringid>200025</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+      <bone>bone_main</bone>
+    </position>
+    <icon>homecity\home_city_props\icons\sw_snowFall</icon>
+    <variationid>2</variationid>
+    <lightset>st_petersburg_night</lightset>
+    <weathereffect>Snow</weathereffect>
+    <visual>homecity\danish\danish_background\danish_lamps.xml</visual>
+  </prop>
+  <prop>
+    <name>Danish_LightSet4</name>
+    <type>LightSet</type>
+    <displayname>Dusk Lighting</displayname>
+    <displaynamestringid>200051</displaynamestringid>
+    <description>The city at dusk.</description>
+    <descriptionstringid>200052</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <position>
+      <building>Cathedral</building>
+      <bone>bone_main</bone>
+    </position>
+    <icon>homecity\home_city_props\icons\sw_northern_lights</icon>
+    <variationid>3</variationid>
+    <lightset>swedish_homecity_night</lightset>
+    <visual>homecity\danish\danish_background\danish_aurora.xml</visual>
+  </prop>
+  <prop>
+    <name>Danish_SentryBox</name>
+    <type>Object</type>
+    <displayname>Danish Royal Sentry Box</displayname>
+    <displaynamestringid>130586</displaynamestringid>
+    <description>Danish Royal Sentry Box</description>
+    <descriptionstringid>130587</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_sentrybox\danish_sentrybox.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\danish_sentrybox</icon>
+  </prop>
+  <prop>
+    <name>Danish_SentryBox1</name>
+    <type>Object</type>
+    <displayname>Danish Royal Sentry Box</displayname>
+    <displaynamestringid>130586</displaynamestringid>
+    <description>Danish Royal Sentry Box</description>
+    <descriptionstringid>130587</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_sentrybox\danish_sentrybox1.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\danish_sentrybox1</icon>
+  </prop>
+  <prop>
+    <name>Danish_SentryBox2</name>
+    <type>Object</type>
+    <displayname>Danish Royal Sentry Box</displayname>
+    <displaynamestringid>130586</displaynamestringid>
+    <description>Danish Royal Sentry Box</description>
+    <descriptionstringid>130587</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_sentrybox\danish_sentrybox2.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\danish_sentrybox2</icon>
+  </prop>
+  <prop>
+    <name>Danish_Crane</name>
+    <type>Object</type>
+    <displayname>Loading Crane</displayname>
+    <displaynamestringid>43006</displaynamestringid>
+    <description>Heavy cranes for lifting cargo from the holds of ships in the harbor.</description>
+    <descriptionstringid>43007</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_props\crane.xml</visual>
+    <position>
+      <bone>bone_crane</bone>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dock_crane</icon>
+  </prop>
+  <prop>
+    <name>Danish_Cannon</name>
+    <type>Object</type>
+    <displayname>Cannon</displayname>
+    <displaynamestringid>42619</displaynamestringid>
+    <description>A recently repaired cannon.</description>
+    <descriptionstringid>42620</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_props\cannon.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Cathedral</building>
+    </position>
+    <icon>homecity\home_city_props\icons\Props7</icon>
+  </prop>
+  <prop>
+    <name>Danish_Guards</name>
+    <type>Object</type>
+    <displayname>Academy Guards</displayname>
+    <displaynamestringid>49183</displaynamestringid>
+    <description>Guards standing guard in front of the Academy.</description>
+    <descriptionstringid>49184</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_props\danish_guard_academy.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Academy</building>
+    </position>
+    <icon>homecity\home_city_props\icons\danish_guard</icon>
+  </prop>
+  <prop>
+    <name>Danish_Dock_Props</name>
+    <type>Object</type>
+    <displayname>Dock Equipment</displayname>
+    <displaynamestringid>43254</displaynamestringid>
+    <description>Strewn here and there, it's a lot of things for the dock.</description>
+    <descriptionstringid>43255</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_props\danish_dock_props.xml</visual>
+    <position>
+      <bone>bone_main</bone>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\dock_props</icon>
+  </prop>
+  <prop>
+    <name>Danish_Fishing_Boats</name>
+    <type>Object</type>
+    <displayname>Fishing Boats</displayname>
+    <displaynamestringid>43134</displaynamestringid>
+    <description>The fishing fleet is in and the boats ride lightly on the bay.</description>
+    <descriptionstringid>43135</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_props\danish_fishing_boats.xml</visual>
+    <position>
+      <bone>bone_morefishingships01</bone>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\fishing_boat</icon>
+  </prop>
+  <prop>
+    <name>Danish_Fishing_Boats_More</name>
+    <type>Object</type>
+    <displayname>More Fishing Boats</displayname>
+    <displaynamestringid>43136</displaynamestringid>
+    <description>More boats, ready to trawl the briny depths and feed a hungry empire.</description>
+    <descriptionstringid>43137</descriptionstringid>
+    <levelprereq>0</levelprereq>
+    <visual>homecity\danish\danish_props\danish_fishing_boats_more.xml</visual>
+    <position>
+      <bone>bone_morefishingships</bone>
+      <building>Dock</building>
+    </position>
+    <icon>homecity\home_city_props\icons\fishing_boat_more</icon>
+  </prop>
+  <exclusiveprops>
+    <prop>Danish_DockTexture0</prop>
+    <prop>Danish_DockTexture1</prop>
+    <prop>Danish_DockTexture2</prop>
+    <prop>Danish_DockTexture3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Danish_NWTCTexture0</prop>
+    <prop>Danish_NWTCTexture1</prop>
+    <prop>Danish_NWTCTexture2</prop>
+    <prop>Danish_NWTCTexture3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Danish_ManuPlantTexture0</prop>
+    <prop>Danish_ManuPlantTexture1</prop>
+    <prop>Danish_ManuPlantTexture2</prop>
+    <prop>Danish_ManuPlantTexture3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Danish_CathedralTexture0</prop>
+    <prop>Danish_CathedralTexture1</prop>
+    <prop>Danish_CathedralTexture2</prop>
+    <prop>Danish_CathedralTexture3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Danish_AcademyTexture0</prop>
+    <prop>Danish_AcademyTexture1</prop>
+    <prop>Danish_AcademyTexture2</prop>
+    <prop>Danish_AcademyTexture3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Danish_Lamp0</prop>
+    <prop>Danish_Lamp1</prop>
+    <prop>Danish_Lamp2</prop>
+    <prop>Danish_Lamp3</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Danish_SentryBox</prop>
+    <prop>Danish_SentryBox1</prop>
+    <prop>Danish_SentryBox2</prop>
+  </exclusiveprops>
+  <exclusiveprops>
+    <prop>Danish_LightSet1</prop>
+    <prop>Danish_LightSet2</prop>
+    <prop>Danish_LightSet3</prop>
+    <prop>Danish_LightSet4</prop>
+  </exclusiveprops>
 </homecityprops>

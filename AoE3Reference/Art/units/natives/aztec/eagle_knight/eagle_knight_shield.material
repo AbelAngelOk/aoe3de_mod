@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\aztec\eagle_knight\textures\eagle_knight_shield_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\natives\aztec\eagle_knight\textures\eagle_knight_shield_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\natives\aztec\eagle_knight\textures\eagle_knight_shield_mata_masks">
+      </texture>
+      <texture name="Details" override="units\natives\aztec\eagle_knight\textures\eagle_knight_shield_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

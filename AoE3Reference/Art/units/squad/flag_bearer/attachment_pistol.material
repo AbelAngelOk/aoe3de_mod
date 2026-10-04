@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\squad\flag_bearer\textures\pistol_01_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\squad\flag_bearer\textures\pistol_01_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\squad\flag_bearer\textures\pistol_01_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\squad\flag_bearer\textures\pistol_01_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\squad\flag_bearer\textures\pistol_01_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\squad\flag_bearer\textures\pistol_01_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

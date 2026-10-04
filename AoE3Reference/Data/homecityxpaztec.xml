@@ -1208,8 +1208,8 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>HCXPTempleXolotl</prereqtech>
-      <age>2</age>
-      <displayunitcount>6</displayunitcount>
+      <age>3</age>
+      <displayunitcount>12</displayunitcount>
     </card>
     <card>
       <name>HCXPTempleXochipilli</name>

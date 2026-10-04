@@ -1229,6 +1229,22 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCHireWhalingCrew1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCHireWhalingCrew2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
+    </card>
+    <card>
       <name>HCPrivateers</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1269,6 +1285,15 @@
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <displayunitcount>6</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCMercsGallowglasses</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1318,6 +1343,32 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCStuartAllies1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>DEHCStuartAllies2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>24</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCStuartAllies3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCREVShipGatlingGuns</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -1362,7 +1413,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <age>3</age>
+      <age>1</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1378,10 +1429,10 @@
     </card>
     <card>
       <name>DEHCREVHighlanders</name>
-      <maxcount>-1</maxcount>
+      <maxcount>2</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <displayunitcount>14</displayunitcount>
       <revoltcard>
       </revoltcard>
@@ -1448,13 +1499,23 @@
     </card>
     <card>
       <name>DEHCCanadianLoyalists</name>
-      <maxcount>-1</maxcount>
+      <maxcount>2</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <displayunitcount>10</displayunitcount>
       <revoltcard>
       </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVNovaScotia</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+      <displayunitcount>20</displayunitcount>
     </card>
     <card>
       <name>DEHCREVBuffaloHunt</name>
@@ -1904,13 +1965,12 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVUnlockFactory</name>
+      <name>DEHCREVShipWarWagons</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <bindtotech>HCUnlockFactory</bindtotech>
       <age>3</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2203,6 +2263,7 @@
         <card>DEHCREVSpiceTrade</card>
         <card>HCWildernessWarfare</card>
         <card>DEHCREVFencibles</card>
+        <card>DEHCREVNovaScotia</card>
         <card>DEHCREVShipGrizzlies</card>
         <card>DEHCREVShipElk</card>
         <card>DEHCREVBuffaloHunt</card>
@@ -2287,7 +2348,7 @@
         <card>DEHCExtensiveFortificationsEuropean</card>
         <card>DEHCREVHuguenots</card>
         <card>HCShipCoveredWagons2</card>
-        <card>DEHCREVUnlockFactory</card>
+        <card>DEHCREVShipWarWagons</card>
         <card>DEHCREVRobberBarons</card>
         <card>DEHCREVShipMilitaryWagons</card>
         <card>DEHCREVShipHomesteadWagons</card>
@@ -2696,6 +2757,7 @@
       <tech x="4.1" y="3.0">DEHCMercsIrishBrigadiers</tech>
       <tech x="4.1" y="3.0">YPHCMercsJatLancer1</tech>
       <tech x="4.1" y="4.0">HCMercsHackapells</tech>
+      <tech x="4.1" y="4.0">DEHCMercsGallowglasses</tech>
       <tech x="4.1" y="4.0">HCMercsHighlanders</tech>
       <tech x="5.5" y="3.0">HCMercsHessians</tech>
       <tech x="5.5" y="4.0">HCMercsHessians2</tech>
@@ -2709,6 +2771,11 @@
       <tech x="6.3" y="3.0">DEHCHanoverAllies2</tech>
       <tech x="6.3" y="5.0">DEHCAkanAllies</tech>
       <tech x="6.3" y="7.0">HCXPCherokeeAlliesRepeat</tech>
+      <tech x="6.3" y="7.0">DEHCStuartAllies1</tech>
+      <tech x="6.3" y="7.0">DEHCStuartAllies2</tech>
+      <tech x="6.3" y="7.0">DEHCStuartAllies3</tech>
+      <tech x="7.0" y="1.0">DEHCHireWhalingCrew1</tech>
+      <tech x="7.0" y="1.0">DEHCHireWhalingCrew2</tech>
       <tech x="7.0" y="1.0">HCPrivateers</tech>
       <tech x="7.0" y="3.0">HCPrivateers2</tech>
       <tech x="7.0" y="5.0">HCPrivateers3</tech>
@@ -2729,6 +2796,7 @@
       <tech x="4.1" y="3.0">DEHCMercsIrishBrigadiers</tech>
       <tech x="4.1" y="3.0">YPHCMercsJatLancer1</tech>
       <tech x="4.1" y="4.0">HCMercsHackapells</tech>
+      <tech x="4.1" y="4.0">DEHCMercsGallowglasses</tech>
       <tech x="4.1" y="4.0">HCMercsHighlanders</tech>
       <tech x="5.5" y="3.0">HCMercsHessians</tech>
       <tech x="5.5" y="4.0">HCMercsHessians2</tech>
@@ -2742,6 +2810,11 @@
       <tech x="6.3" y="3.0">DEHCHanoverAllies2</tech>
       <tech x="6.3" y="5.0">DEHCAkanAllies</tech>
       <tech x="6.3" y="7.0">HCXPCherokeeAlliesRepeat</tech>
+      <tech x="6.3" y="7.0">DEHCStuartAllies1</tech>
+      <tech x="6.3" y="7.0">DEHCStuartAllies2</tech>
+      <tech x="6.3" y="7.0">DEHCStuartAllies3</tech>
+      <tech x="7.0" y="1.0">DEHCHireWhalingCrew1</tech>
+      <tech x="7.0" y="1.0">DEHCHireWhalingCrew2</tech>
       <tech x="7.0" y="1.0">HCPrivateers</tech>
       <tech x="7.0" y="3.0">HCPrivateers2</tech>
       <tech x="7.0" y="5.0">HCPrivateers3</tech>

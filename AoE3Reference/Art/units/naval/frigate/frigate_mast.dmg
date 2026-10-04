@@ -1,0 +1,26 @@
+<damagetemplate>
+  <model name="units\naval\frigate_damaged">
+    <impactpoint name="boneimpact00" bone="boneimpact05" impacttype="wood" motionstopfadetime="2.0" motionstopfadedelay="1.0" splasheffect="watersplash_med">
+      <part mesh="debris_5b" bone="bone_debris_5b" halfextents="0.25, .5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_6a" bone="bone_debris_6a" halfextents="0.25, .5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_6b" bone="bone_debris_6b" halfextents="0.25, .5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_6c" bone="bone_debris_6c" halfextents="0.25, .5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_6d" bone="bone_debris_6d" halfextents="0.25, .5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_6e" bone="bone_debris_6e" halfextents="2.0, 3.0, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_6f" bone="bone_debris_6f" halfextents="0.25, .5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_6f" bone="bone_debris_6f" halfextents="0.25, .5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_6g" bone="bone_debris_6g" halfextents="0.25, .5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_6h" bone="bone_debris_6h" halfextents="0.25, .5, 1.0" effect="effects\streamer.xml">
+      </part>
+    </impactpoint>
+  </model>
+</damagetemplate>

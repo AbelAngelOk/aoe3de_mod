@@ -1,0 +1,82 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\great_bombard\textures\great_bombard_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\great_bombard\textures\great_bombard_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\great_bombard\textures\great_bombard_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\great_bombard\textures\great_bombard_matc_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\great_bombard\textures\great_bombard_matc_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\great_bombard\textures\great_bombard_matc_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\great_bombard\textures\great_bombard_matd_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\great_bombard\textures\great_bombard_matd_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\great_bombard\textures\great_bombard_matd_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\great_bombard\textures\great_bombard_matd_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matf">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\great_bombard\textures\great_bombard_matf_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\great_bombard\textures\great_bombard_matf_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\great_bombard\textures\great_bombard_matf_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\great_bombard\textures\great_bombard_matf_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mate">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\great_bombard\textures\great_bombard_mate_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\great_bombard\textures\great_bombard_mate_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\great_bombard\textures\great_bombard_mate_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\great_bombard\textures\great_bombard_mate_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matg">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\great_bombard\textures\great_bombard_matg_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\great_bombard\textures\great_bombard_matg_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\great_bombard\textures\great_bombard_matg_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\great_bombard\textures\great_bombard_matg_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -687,7 +687,7 @@
       <bindtotech>HCColonialMilitia</bindtotech>
     </card>
     <card>
-      <name>HCPioneers</name>
+      <name>DEHCPioneersDutch</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>HCFrontierDefenses</prereqtech>
@@ -805,7 +805,7 @@
       <maxcount>1</maxcount>
       <level>25</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
@@ -1292,6 +1292,22 @@
       <displayunitcount>12</displayunitcount>
     </card>
     <card>
+      <name>DEHCHireWhalingCrew1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCHireWhalingCrew2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
+    </card>
+    <card>
       <name>HCPrivateers</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1375,7 +1391,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <infiniteinlastage>1</infiniteinlastage>
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
@@ -1432,7 +1447,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>20</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1528,6 +1543,15 @@
       <level>10</level>
       <bindtotech>HCAdvancedArsenal</bindtotech>
       <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVJavaRebellion</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1728,6 +1752,16 @@
       </revoltcard>
     </card>
     <card>
+      <name>HCPioneers</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>0</age>
+      <bindtotech>DEHCPioneersDutch</bindtotech>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVHuguenots</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1757,13 +1791,12 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVUnlockFactory</name>
+      <name>DEHCREVShipWarWagons</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <bindtotech>HCUnlockFactory</bindtotech>
       <age>3</age>
-      <displayunitcount>1</displayunitcount>
+      <displayunitcount>4</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1910,7 +1943,7 @@
     </card>
     <card>
       <name>DEHCREVBonifacio</name>
-      <maxcount>4</maxcount>
+      <maxcount>1</maxcount>
       <age>1</age>
       <displayunitcount>1</displayunitcount>
       <revoltcard>
@@ -2222,6 +2255,7 @@
         <card>DEHCREVOttomanExpArmy</card>
         <card>DEHCImmigrantsChinese</card>
         <card>DEHCREVAdvancedArsenal</card>
+        <card>DEHCREVJavaRebellion</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevUSA">
@@ -2265,7 +2299,7 @@
         <card>DEHCExtensiveFortificationsEuropean</card>
         <card>DEHCREVHuguenots</card>
         <card>HCShipCoveredWagons2</card>
-        <card>DEHCREVUnlockFactory</card>
+        <card>DEHCREVShipWarWagons</card>
         <card>DEHCREVRobberBarons</card>
         <card>DEHCREVShipMilitaryWagons</card>
         <card>DEHCREVShipHomesteadWagons</card>
@@ -2540,7 +2574,7 @@
       <tech x="0.8" y="3.0">HCFencingSchool</tech>
       <tech x="1.5" y="3.0">HCRidingSchool</tech>
       <tech x="1.6" y="1.0">HCXPRanching</tech>
-      <tech x="2.3" y="2.0">HCPioneers</tech>
+      <tech x="2.3" y="2.0">DEHCPioneersDutch</tech>
       <tech x="2.3" y="3.0">HCImprovedBuildings</tech>
       <tech x="3.0" y="2.0">HCColonialMilitia</tech>
       <tech x="2.6" y="1.0">HCFrontierDefenses</tech>
@@ -2575,7 +2609,7 @@
       <tech x="0.8" y="3.0">HCFencingSchool</tech>
       <tech x="1.5" y="3.0">HCRidingSchool</tech>
       <tech x="1.6" y="1.0">HCXPRanching</tech>
-      <tech x="2.3" y="2.0">HCPioneers</tech>
+      <tech x="2.3" y="2.0">DEHCPioneersDutch</tech>
       <tech x="2.3" y="3.0">HCImprovedBuildings</tech>
       <tech x="3.0" y="2.0">HCColonialMilitia</tech>
       <tech x="2.6" y="1.0">HCFrontierDefenses</tech>
@@ -2719,6 +2753,8 @@
       <tech x="4.2" y="1.0">DEHCMercenaryArmyDutch</tech>
       <tech x="4.2" y="1.0">DEHCTheaters</tech>
       <tech x="5.3" y="5.0">HCMercenaryLoyalty</tech>
+      <tech x="6.0" y="1.0">DEHCHireWhalingCrew1</tech>
+      <tech x="6.0" y="1.0">DEHCHireWhalingCrew2</tech>
       <tech x="6.0" y="1.0">HCPrivateers</tech>
       <tech x="6.0" y="3.0">HCPrivateers2</tech>
       <tech x="6.0" y="5.0">HCPrivateersTeam</tech>
@@ -2760,6 +2796,8 @@
       <tech x="5.3" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="5.3" y="6.0">HCXPMercsGreatCannon</tech>
       <tech x="4.2" y="1.0">DEHCTheaters</tech>
+      <tech x="6.0" y="1.0">DEHCHireWhalingCrew1</tech>
+      <tech x="6.0" y="1.0">DEHCHireWhalingCrew2</tech>
       <tech x="6.0" y="1.0">HCPrivateers</tech>
       <tech x="6.0" y="3.0">HCPrivateers2</tech>
       <tech x="6.0" y="5.0">HCPrivateersTeam</tech>

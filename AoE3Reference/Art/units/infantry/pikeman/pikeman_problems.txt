@@ -1,0 +1,1 @@
+Pikeman's sword attachment is currently using the entire Redolero DDT for it's texture.  If we keep the sword we will need to create a separate texture later.

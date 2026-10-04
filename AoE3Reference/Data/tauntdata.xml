@@ -1,0 +1,61 @@
+<tauntdata>
+  <taunt>71050</taunt>
+  <taunt>71051</taunt>
+  <taunt>71052</taunt>
+  <taunt>71053</taunt>
+  <taunt>71054</taunt>
+  <taunt>71055</taunt>
+  <taunt>71056</taunt>
+  <taunt>71057</taunt>
+  <taunt>71058</taunt>
+  <taunt>71059</taunt>
+  <taunt>71060</taunt>
+  <taunt>71061</taunt>
+  <taunt>71062</taunt>
+  <taunt>71063</taunt>
+  <taunt>71064</taunt>
+  <taunt>71065</taunt>
+  <taunt>71066</taunt>
+  <taunt>71067</taunt>
+  <taunt>71068</taunt>
+  <taunt>71069</taunt>
+  <taunt>71070</taunt>
+  <taunt>71071</taunt>
+  <taunt>71072</taunt>
+  <taunt>71073</taunt>
+  <taunt>71074</taunt>
+  <taunt>71075</taunt>
+  <taunt>71076</taunt>
+  <taunt>71077</taunt>
+  <taunt>71078</taunt>
+  <taunt>71079</taunt>
+  <taunt>71080</taunt>
+  <taunt>71081</taunt>
+  <taunt>71082</taunt>
+  <taunt soundpath="dialog\AMEL0060.mp3">27085</taunt>
+  <taunt soundpath="dialog\beau2015.mp3">35042</taunt>
+  <taunt soundpath="Chats\eliz164.mp3">38475</taunt>
+  <taunt soundpath="Chats\henry0146.mp3">39297</taunt>
+  <taunt soundpath="Chats\isabella0393.mp3">39869</taunt>
+  <taunt soundpath="Chats\IVAN0240.mp3">40052</taunt>
+  <taunt soundpath="Chats\ivan276.mp3">40249</taunt>
+  <taunt soundpath="dialog\JOHN0180.mp3">27030</taunt>
+  <taunt soundpath="dialog\JOHN0190.mp3">56138</taunt>
+  <taunt soundpath="dialog\MORG7010.mp3">27506</taunt>
+  <taunt soundpath="dialog\LIZZ0035.mp3">26906</taunt>
+  <taunt soundpath="Chats\maurice0281.mp3">40668</taunt>
+  <taunt soundpath="dialog\MORG0150.mp3">26918</taunt>
+  <taunt soundpath="Chats\NAPO0220.mp3">41100</taunt>
+  <taunt soundpath="dialog\stua2010.mp3">36763</taunt>
+  <taunt soundpath="dialog\WARW0015.mp3">27033</taunt>
+  <taunt soundpath="dialog\XCHAY8180.mp3">72387</taunt>
+  <taunt soundpath="Chats\XCRAZ0310.mp3">47333</taunt>
+  <taunt soundpath="dialog\YCHEN0003.mp3">65195</taunt>
+  <taunt soundpath="dialog\YEDWA0016.mp3">65332</taunt>
+  <taunt soundpath="dialog\YEDWA0026.mp3">69721</taunt>
+  <taunt soundpath="dialog\YJINH0005.mp3">65199</taunt>
+  <taunt soundpath="dialog\YJINH0012.mp3">65217</taunt>
+  <taunt soundpath="dialog\YKICH0009.mp3">64416</taunt>
+  <taunt soundpath="dialog\YKICH0020.mp3">64437</taunt>
+  <taunt soundpath="dialog\YNANI0000.mp3">65295</taunt>
+</tauntdata>

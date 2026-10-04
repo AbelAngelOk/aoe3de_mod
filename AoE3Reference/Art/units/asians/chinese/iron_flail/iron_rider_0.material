@@ -1,0 +1,28 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\chinese\iron_flail\textures\iron_rider_0_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\chinese\iron_flail\textures\iron_rider_0_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\chinese\iron_flail\textures\iron_rider_0_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\chinese\iron_flail\textures\iron_rider_0_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\oprichnik\textures\oprichnik_whip_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\oprichnik\textures\oprichnik_whip_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\oprichnik\textures\oprichnik_whip_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

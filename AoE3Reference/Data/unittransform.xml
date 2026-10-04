@@ -11,49 +11,109 @@
   <transform>
     <from>TownCenter</from>
     <to>CoveredWagon</to>
-    <tech>DEHCCampMovements</tech>
+    <tech>DETownCenterTransformTravois</tech>
     <command>deTownCenterTransformTravois</command>
   </transform>
   <transform>
     <from>CommunityPlaza</from>
     <to>deCommunityPlazaTravois</to>
-    <tech>DEHCCampMovements</tech>
+    <tech>DECommunityPlazaTransformTravois</tech>
     <command>deCommunityPlazaTransformTravois</command>
   </transform>
   <transform>
     <from>Market</from>
     <to>deMarketTravois</to>
-    <tech>DEHCCampMovements</tech>
+    <tech>DEMarketTransformTravois</tech>
     <command>deMarketTransformTravois</command>
   </transform>
   <transform>
     <from>Corral</from>
     <to>deCorralTravois</to>
-    <tech>DEHCCampMovements</tech>
+    <tech>DECorralTransformTravois</tech>
     <command>deCorralTransformTravois</command>
   </transform>
   <transform>
     <from>WarHut</from>
     <to>WarHutTravois</to>
-    <tech>DEHCCampMovements</tech>
+    <tech>DEWarHutTransformTravois</tech>
     <command>deWarHutTransformTravois</command>
   </transform>
   <transform>
     <from>Farm</from>
     <to>FarmTravois</to>
-    <tech>DEHCCampMovements</tech>
+    <tech>DEFarmTransformTravois</tech>
     <command>deFarmTransformTravois</command>
   </transform>
   <transform>
     <from>NativeEmbassy</from>
     <to>deEmbassyTravois</to>
-    <tech>DEHCCampMovements</tech>
+    <tech>DEEmbassyTransformTravois</tech>
     <command>deEmbassyTransformTravois</command>
   </transform>
   <transform>
     <from>Plantation</from>
     <to>dePlantationTravois</to>
-    <tech>DEHCCampMovements</tech>
+    <tech>DEPlantationTransformTravois</tech>
     <command>dePlantationTransformTravois</command>
+  </transform>
+  <transform>
+    <from>deFolwark</from>
+    <to>deFolwarkFarm</to>
+    <tech>DEFolwarkUpgradeFarm</tech>
+    <command>deFolwarkUpgradeFarm</command>
+  </transform>
+  <transform>
+    <from>deFolwark</from>
+    <to>deFolwarkLivestock</to>
+    <tech>DEFolwarkUpgradeLivestock</tech>
+    <command>deFolwarkUpgradeLivestock</command>
+  </transform>
+  <transform>
+    <from>deFolwark</from>
+    <to>deFolwarkDefensive</to>
+    <tech>DEFolwarkUpgradeDefensive</tech>
+    <command>deFolwarkUpgradeDefensive</command>
+  </transform>
+  <transform>
+    <from>deFolwark</from>
+    <to>deFolwarkSich</to>
+    <tech>DEFolwarkUpgradeSich</tech>
+    <command>deFolwarkUpgradeSich</command>
+  </transform>
+  <transform>
+    <from>deFolwarkFarm</from>
+    <to>deFolwark</to>
+    <tech>DEFolwarkDowngrade</tech>
+    <command>deFolwarkDowngrade</command>
+  </transform>
+  <transform>
+    <from>deFolwarkLivestock</from>
+    <to>deFolwark</to>
+    <tech>DEFolwarkDowngrade</tech>
+    <command>deFolwarkDowngrade</command>
+  </transform>
+  <transform>
+    <from>deFolwarkDefensive</from>
+    <to>deFolwark</to>
+    <tech>DEFolwarkDowngrade</tech>
+    <command>deFolwarkDowngrade</command>
+  </transform>
+  <transform>
+    <from>deFolwarkSich</from>
+    <to>deFolwark</to>
+    <tech>DEFolwarkDowngrade</tech>
+    <command>deFolwarkDowngrade</command>
+  </transform>
+  <transform>
+    <from>Envoy</from>
+    <to>Minuteman</to>
+    <tech>DEEnvoyUpgradeMilitia</tech>
+    <command>deEnvoyUpgradeMilitia</command>
+  </transform>
+  <transform>
+    <from>deMountainMonastery</from>
+    <to>deMountainChapel</to>
+    <tech>DEMountainMonasteryAbandon</tech>
+    <command>deMountainMonasteryAbandon</command>
   </transform>
 </unittransforms>

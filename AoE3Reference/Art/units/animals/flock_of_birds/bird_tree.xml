@@ -1,0 +1,6 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\flock_of_birds\bird_model</file></assetreference></component>
+  <anim>TakeOff<assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\bird_takeoff</file></assetreference><component>ModelComp</component></anim>
+  <anim>Loop<assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\bird_loop</file></assetreference><component>ModelComp</component></anim>
+  <anim>Land<assetreference type="GrannyAnim"><file>units\animals\flock_of_birds\bird_land</file></assetreference><component>ModelComp</component></anim>
+</animfile>

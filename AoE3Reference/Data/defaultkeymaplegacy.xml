@@ -68,7 +68,7 @@
       <displayname>$$71097$$Show Game Menu</displayname>
       <event>esc</event>
       <context>game</context>
-      <command>showGameMenu()</command>
+      <command>showGameMenu(true)</command>
     </keymapdata>
     <keymapdata>
       <name>Hide Game Menu</name>
@@ -279,7 +279,7 @@
       <displayname>$$20850$$Find Church or Mosque</displayname>
       <event>control-c</event>
       <context>game</context>
-      <command>uiFindAnyOfTypes("Church, ypChurch, deMountainMonastery, deUniversity, deCathedral, deBasilica")</command>
+      <command>uiFindAnyOfTypes("Church, ypChurch, deMountainMonastery, deUniversity, deCathedral, deBasilica, deChurchPolish, deChurchDanish")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Monastery</name>
@@ -300,7 +300,7 @@
       <displayname>$$48976$$Find House</displayname>
       <event>control-e</event>
       <context>game</context>
-      <command>uiFindType("House") uiFindType("HouseEast") uiFindType("HouseMed") uiFindType("HouseAztec")  uiFindType("Manor") uiFindType("Longhouse")  uiFindType("ypHouseIndian") uiFindType("ypShrineJapanese") uiFindType("deHouseInca") uiFindType("deTorp") uiFindType("deTorpGeneric") uiFindType("deHouseAfrican")</command>
+      <command>uiFindType("House") uiFindType("HouseEast") uiFindType("HouseMed") uiFindType("HouseAztec")  uiFindType("Manor") uiFindType("Longhouse")  uiFindType("ypHouseIndian") uiFindType("ypShrineJapanese") uiFindType("deHouseInca") uiFindType("deTorp") uiFindType("deTorpGeneric") uiFindType("deHouseAfrican") uiFindType("deHouseDanish")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Fort</name>
@@ -335,7 +335,7 @@
       <displayname>$$20855$$Find Mill</displayname>
       <event>control-i</event>
       <context>game</context>
-      <command>uiFindType("Mill") uiFindType("Farm") uiFindType("ypRicePaddy") uiFindType("deField") uiFindType("deHacienda")</command>
+      <command>uiFindType("Mill") uiFindType("Farm") uiFindType("ypRicePaddy") uiFindType("deField") uiFindType("deHacienda") uiFindType("deFolwark")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Native Embassy</name>
@@ -349,7 +349,7 @@
       <displayname>$$20856$$Find Bank</displayname>
       <event>control-k</event>
       <context>game</context>
-      <command>uiFindType("Bank") uiFindType("deLombard")</command>
+      <command>uiFindType("Bank") uiFindType("deLombard") uiFindType("deCustomsHouse")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Plantation</name>
@@ -473,7 +473,7 @@
       <displayname>$$68820$$Find Livestock Pen or Sacred Field</displayname>
       <event>control-v</event>
       <context>game</context>
-      <command>uiFindType("LivestockPen")  uiFindType("ypSacredField")</command>
+      <command>uiFindType("LivestockPen") uiFindType("ypSacredField") uiFindType("deFolwarkLivestock")</command>
     </keymapdata>
     <keymapdata>
       <name>Find War Hut</name>
@@ -494,14 +494,14 @@
       <displayname>$$26089$$Find Factory</displayname>
       <event>control-y</event>
       <context>game</context>
-      <command>uiFindType("Factory")</command>
+      <command>uiFindAnyOfTypes("Factory, deSejm")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Capitol</name>
       <displayname>$$43353$$Find Capitol</displayname>
       <event>control-z</event>
       <context>game</context>
-      <command>uiFindType("Capitol") uiFindType("deStateCapitol")</command>
+      <command>uiFindType("Capitol") uiFindType("deStateCapitol") uiFindType("deSejm")</command>
     </keymapdata>
     <keymapdata>
       <name>Find Village</name>
@@ -691,7 +691,7 @@
       <displayname>$$20870$$Build Church or Mosque</displayname>
       <event>c</event>
       <context>BuildAccel</context>
-      <command>tis("Church") tis("deMountainMonastery") tis("deUniversity") tis("deCathedral") tis("deBasilica")</command>
+      <command>tis("Church") tis("deMountainMonastery") tis("deUniversity") tis("deCathedral") tis("deBasilica") tis("deChurchPolish") tis("deChurchDanish")</command>
     </keymapdata>
     <keymapdata>
       <name>Build Monastery</name>
@@ -733,7 +733,7 @@
       <displayname>$$48978$$Build House or Longhouse</displayname>
       <event>e</event>
       <context>BuildAccel</context>
-      <command>tis("House") tis("HouseEast") tis("HouseMed") tis("HouseAztec") tis("Manor") tis("Longhouse") tis("ypShrineJapanese") tis("ypHouseIndian") tis("deHouseInca") tis("deTorp") tis("deTorpGeneric") tis("deHouseAfrican")</command>
+      <command>tis("House") tis("HouseEast") tis("HouseMed") tis("HouseAztec") tis("Manor") tis("Longhouse") tis("ypShrineJapanese") tis("ypHouseIndian") tis("deHouseInca") tis("deTorp") tis("deTorpGeneric") tis("deHouseAfrican") tis("deHouseDanish")</command>
     </keymapdata>
     <keymapdata>
       <name>Build Fort</name>
@@ -754,7 +754,7 @@
       <displayname>$$20877$$Build Mill</displayname>
       <event>i</event>
       <context>BuildAccel</context>
-      <command>tis("Mill") tis("Farm") tis("ypRicePaddy") tis("deHacienda")</command>
+      <command>tis("Mill") tis("Farm") tis("ypRicePaddy") tis("deHacienda") tis("deFolwark") tis("AbstractFolwark")</command>
     </keymapdata>
     <keymapdata>
       <name>Build Field</name>
@@ -776,6 +776,14 @@
       <event>k</event>
       <context>BuildAccel</context>
       <command>tis("Bank") tis("ypBankAsian") tis("deLombard")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Build Customs House</name>
+      <displayname>$$63360$$Customs House</displayname>
+      <displayformat>$$212112$$Build %s</displayformat>
+      <event>k</event>
+      <context>BuildAccel</context>
+      <command>tis("deCustomsHouse")</command>
     </keymapdata>
     <keymapdata>
       <name>Build Plantation</name>
@@ -915,7 +923,7 @@
       <displayname>$$43358$$Build Capitol</displayname>
       <event>z</event>
       <context>BuildAccel</context>
-      <command>tis("Capitol") tis("deStateCapitol")</command>
+      <command>tis("Capitol") tis("deStateCapitol") tis("deSejm")</command>
     </keymapdata>
     <keymapdata>
       <name>Build Village</name>
@@ -1175,6 +1183,13 @@
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="Town Center Hotkeys" displayname="$$43360$$Town Center Hotkeys" hotkeystyle="Legacy">
+    <keymapdata>
+      <name>Show Age Up Screen</name>
+      <displayname>Show Age Up Screen</displayname>
+      <event>shift-a</event>
+      <context>TownCenterAccel</context>
+      <command>uiShowAgeUpDialogInSelected()</command>
+    </keymapdata>
     <keymapdata>
       <name>Ring Town Bell</name>
       <displayname>$$22221$$Ring Town Bell</displayname>
@@ -1512,7 +1527,7 @@
     <keymapdata>
       <name>Selective Breeding</name>
       <displayname>$$23403$$Selective Breeding</displayname>
-      <event>h</event>
+      <event>b</event>
       <context>MarketAccel</context>
       <command>researchTechInSelected("SelectiveBreeding")</command>
     </keymapdata>
@@ -1900,7 +1915,7 @@
       <displayname>$$60084$$Yumi</displayname>
       <event>q</event>
       <context>BarracksAccel</context>
-      <command>tis("ypYumi")</command>
+      <command>tis("ypYumi") tis("ypConsulateVoltigeur")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Yumi</name>
@@ -1908,7 +1923,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-q</event>
       <context>BarracksAccel</context>
-      <command>tis("ypYumi",5)</command>
+      <command>tis("ypYumi",5) tis("ypConsulateVoltigeur",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Ashigaru</name>
@@ -1930,7 +1945,7 @@
       <displayname>$$63606$$Samurai</displayname>
       <event>e</event>
       <context>BarracksAccel</context>
-      <command>tis("ypKensei")</command>
+      <command>tis("ypKensei") tis("deLegionGrenadier")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Samurai</name>
@@ -1938,7 +1953,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-e</event>
       <context>BarracksAccel</context>
-      <command>tis("ypKensei",5)</command>
+      <command>tis("ypKensei",5) tis("deLegionGrenadier",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Rajput</name>
@@ -2289,6 +2304,34 @@
       <event>shift-g</event>
       <context>BarracksAccel</context>
       <command>tis("deMercGrenadier",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Piechur</name>
+      <displayname>$$29481$$Piechur</displayname>
+      <event>s</event>
+      <context>BarracksAccel</context>
+      <command>tis("dePiechur") tis("deREVSerdyuk")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Piechur</name>
+      <displayname>$$29481$$Piechur</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-s</event>
+      <context>BarracksAccel</context>
+      <command>tis("dePiechur",5) tis("deREVSerdyuk",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Cossack Daredevil</name>
+      <displayname>$$122357$$Cossack Daredevil</displayname>
+      <context>BarracksAccel</context>
+      <command>tis("deSaloonOutlawCossackRider")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Cossack Daredevil</name>
+      <displayname>$$122357$$Cossack Daredevil</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>BarracksAccel</context>
+      <command>tis("deSaloonOutlawCossackRider",5)</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="Village Hotkeys" displayname="$$68759$$Village Hotkeys" hotkeystyle="Legacy">
@@ -2721,7 +2764,7 @@
       <displayname>$$29469$$Crossbowman</displayname>
       <event>x</event>
       <context>BlockhouseAccel</context>
-      <command>tis("Crossbowman") tis("deLandwehr") tis("deOrdenanca")</command>
+      <command>tis("Crossbowman") tis("deLandwehr") tis("deOrdenanca") tis("deREVHaidamaka")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Crossbowmen</name>
@@ -2729,7 +2772,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-x</event>
       <context>BlockhouseAccel</context>
-      <command>tis("Crossbowman",5) tis("deLandwehr",5) tis("deOrdenanca",5)</command>
+      <command>tis("Crossbowman",5) tis("deLandwehr",5) tis("deOrdenanca",5) tis("deREVHaidamaka",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Carolean</name>
@@ -3389,7 +3432,7 @@
       <displayname>$$60092$$Naginata Rider</displayname>
       <event>q</event>
       <context>StableAccel</context>
-      <command>tis("ypNaginataRider")</command>
+      <command>tis("ypNaginataRider") tis("ypConsulateCzapakaUhlan")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Naginata Rider</name>
@@ -3397,7 +3440,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-q</event>
       <context>StableAccel</context>
-      <command>tis("ypNaginataRider",5)</command>
+      <command>tis("ypNaginataRider",5) tis("ypConsulateCzapakaUhlan",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Yabusame</name>
@@ -3533,6 +3576,49 @@
       <event>shift-e</event>
       <context>StableAccel</context>
       <command>tis("deDeli",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Retainer</name>
+      <displayname>$$130181$$Retainer</displayname>
+      <event>r</event>
+      <context>StableAccel</context>
+      <command>tis("deLithuanianRider") tis("deREVPolishLancer") tis("deREVHaidamakaRider")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Retainer</name>
+      <displayname>$$130181$$Retainer</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-r</event>
+      <context>StableAccel</context>
+      <command>tis("deLithuanianRider",5) tis("deREVPolishLancer",5) tis("deREVHaidamakaRider",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Winged Hussar</name>
+      <displayname>$$122100$$Winged Hussar</displayname>
+      <event>w</event>
+      <context>StableAccel</context>
+      <command>tis("deWingedHussar") tis("deREVStarshyna")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Winged Hussar</name>
+      <displayname>$$122100$$Winged Hussar</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-w</event>
+      <context>StableAccel</context>
+      <command>tis("deWingedHussar",5) tis("deREVStarshyna",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Cossack Daredevil</name>
+      <displayname>$$122357$$Cossack Daredevil</displayname>
+      <context>StableAccel</context>
+      <command>tis("deSaloonOutlawCossackRider")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Cossack Daredevil</name>
+      <displayname>$$122357$$Cossack Daredevil</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>StableAccel</context>
+      <command>tis("deSaloonOutlawCossackRider",5)</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="Corral Hotkeys" displayname="$$48975$$Corral Hotkeys" hotkeystyle="Legacy">
@@ -4074,7 +4160,7 @@
       <displayname>$$29481$$Skirmisher</displayname>
       <event>s</event>
       <context>FortFrontierAccel</context>
-      <command>tis("Skirmisher") tis("deBarbarySkirmisher") tis("deSPCUSVolunteer")</command>
+      <command>tis("Skirmisher") tis("deBarbarySkirmisher") tis("deSPCUSVolunteer") tis("ypConsulateVoltigeur")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Skirmishers</name>
@@ -4082,14 +4168,14 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-s</event>
       <context>FortFrontierAccel</context>
-      <command>tis("Skirmisher",5) tis("deBarbarySkirmisher",5) tis("deSPCUSVolunteer",5)</command>
+      <command>tis("Skirmisher",5) tis("deBarbarySkirmisher",5) tis("deSPCUSVolunteer",5) tis("ypConsulateVoltigeur",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Crossbowman</name>
       <displayname>$$29469$$Crossbowman</displayname>
       <event>x</event>
       <context>FortFrontierAccel</context>
-      <command>tis("Crossbowman") tis("deLandwehr") tis("deOrdenanca")</command>
+      <command>tis("Crossbowman") tis("deLandwehr") tis("deOrdenanca") tis("deREVHaidamaka")</command>
     </keymapdata>
     <keymapdata>
       <name>Multiple Crossbowmen</name>
@@ -4097,7 +4183,7 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <event>shift-x</event>
       <context>FortFrontierAccel</context>
-      <command>tis("Crossbowman",5) tis("deLandwehr",5) tis("deOrdenanca",5)</command>
+      <command>tis("Crossbowman",5) tis("deLandwehr",5) tis("deOrdenanca",5) tis("deREVHaidamaka",5)</command>
     </keymapdata>
     <keymapdata>
       <name>Carolean</name>
@@ -4616,6 +4702,103 @@
       <event>shift-g</event>
       <context>FortFrontierAccel</context>
       <command>tis("deHoopThrower",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Piechur</name>
+      <displayname>$$29481$$Piechur</displayname>
+      <event>p</event>
+      <context>FortFrontierAccel</context>
+      <command>tis("dePiechur") tis("deREVSerdyuk")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Piechur</name>
+      <displayname>$$29481$$Piechur</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-p</event>
+      <context>FortFrontierAccel</context>
+      <command>tis("dePiechur",5) tis("deREVSerdyuk",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Retainer</name>
+      <displayname>$$130181$$Retainer</displayname>
+      <event>r</event>
+      <context>FortFrontierAccel</context>
+      <command>tis("deLithuanianRider") tis("deREVPolishLancer") tis("deREVHaidamakaRider")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Retainer</name>
+      <displayname>$$130181$$Retainer</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-r</event>
+      <context>FortFrontierAccel</context>
+      <command>tis("deLithuanianRider",5) tis("deREVPolishLancer",5) tis("deREVHaidamakaRider",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Winged Hussar</name>
+      <displayname>$$122100$$Winged Hussar</displayname>
+      <event>w</event>
+      <context>FortFrontierAccel</context>
+      <command>tis("deWingedHussar") tis("deREVStarshyna")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Winged Hussar</name>
+      <displayname>$$122100$$Winged Hussar</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-w</event>
+      <context>FortFrontierAccel</context>
+      <command>tis("deWingedHussar",5) tis("deREVStarshyna",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Cossack Daredevil</name>
+      <displayname>$$122357$$Cossack Daredevil</displayname>
+      <context>FortFrontierAccel</context>
+      <command>tis("deSaloonOutlawCossackRider")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Cossack Daredevil</name>
+      <displayname>$$122357$$Cossack Daredevil</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>FortFrontierAccel</context>
+      <command>tis("deSaloonOutlawCossackRider",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Ashigaru</name>
+      <displayname>$$60096$$Ashigaru</displayname>
+      <context>FortFrontierAccel</context>
+      <command>tis("ypAshigaru")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Ashigaru</name>
+      <displayname>$$60096$$Ashigaru</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>FortFrontierAccel</context>
+      <command>tis("ypAshigaru",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Culverin</name>
+      <displayname>$$65386$$Culverin</displayname>
+      <context>FortFrontierAccel</context>
+      <command>tis("ypConsulateCulverin")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Culverin</name>
+      <displayname>$$65386$$Culverin</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>FortFrontierAccel</context>
+      <command>tis("ypConsulateCulverin",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Horse Artillery</name>
+      <displayname>$$65398$$Horse Artillery</displayname>
+      <context>FortFrontierAccel</context>
+      <command>tis("ypConsulateHorseArtillery")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Horse Artillery</name>
+      <displayname>$$65398$$Horse Artillery</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>FortFrontierAccel</context>
+      <command>tis("ypConsulateHorseArtillery",5)</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="Palace Hotkeys" displayname="$$101424$$Palace Hotkeys" hotkeystyle="Legacy">
@@ -5687,6 +5870,34 @@
       <context>DockAccel</context>
       <command>tis("deMercXebec",5) tis("deMercDhow",5)</command>
     </keymapdata>
+    <keymapdata>
+      <name>Gunboat</name>
+      <displayname>$$126968$$Gunboat</displayname>
+      <event>b</event>
+      <context>DockAccel</context>
+      <command>tis("deGunboat")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Gunboat</name>
+      <displayname>$$126968$$Gunboat</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-b</event>
+      <context>DockAccel</context>
+      <command>tis("deGunboat",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Whaling Ship</name>
+      <displayname>$$126968$$Whaling Ship</displayname>
+      <context>DockAccel</context>
+      <command>tis("deOutlawWhalingShip")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Whaling Ship</name>
+      <displayname>$$126968$$Whaling Ship</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>DockAccel</context>
+      <command>tis("deOutlawWhalingShip",5)</command>
+    </keymapdata>
   </keymapgroup>
   <keymapgroup name="Castle Hotkeys" displayname="$$68760$$Castle" hotkeystyle="Legacy">
     <keymapdata>
@@ -6076,6 +6287,51 @@
       <event>o</event>
       <context>ConsulateAccel</context>
       <command>uiConsulateUIInSelected()</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Culverin</name>
+      <displayname>$$65386$$Culverin</displayname>
+      <event>a</event>
+      <context>ConsulateAccel</context>
+      <command>tis("ypConsulateCulverin")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Culverin</name>
+      <displayname>$$65386$$Culverin</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-a</event>
+      <context>ConsulateAccel</context>
+      <command>tis("ypConsulateCulverin",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Horse Artillery</name>
+      <displayname>$$65398$$Horse Artillery</displayname>
+      <event>s</event>
+      <context>ConsulateAccel</context>
+      <command>tis("ypConsulateHorseArtillery")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Horse Artillery</name>
+      <displayname>$$65398$$Horse Artillery</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-s</event>
+      <context>ConsulateAccel</context>
+      <command>tis("ypConsulateHorseArtillery",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Gatling Gun</name>
+      <displayname>$$45211$$Gatling Gun</displayname>
+      <event>d</event>
+      <context>ConsulateAccel</context>
+      <command>tis("xpGatlingGun")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Gatling Gun</name>
+      <displayname>$$45211$$Gatling Gun</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-d</event>
+      <context>ConsulateAccel</context>
+      <command>tis("xpGatlingGun",5)</command>
     </keymapdata>
     <keymapdata>
       <name>tax 0</name>
@@ -6824,6 +7080,71 @@
       <displayformat>$$43376$$Multiple %s</displayformat>
       <context>SaloonAccel</context>
       <command>tis("deSaloonOutlawCossackRider",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Sailor</name>
+      <displayname>$$130677$$Sailor</displayname>
+      <context>SaloonAccel</context>
+      <command>tis("deSaloonSailor")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Sailor</name>
+      <displayname>$$130677$$Sailor</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>SaloonAccel</context>
+      <command>tis("deSaloonSailor",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Qivittoq</name>
+      <displayname>$$124295$$Qivittoq</displayname>
+      <context>SaloonAccel</context>
+      <command>tis("deSaloonQivittoq")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Qivittoq</name>
+      <displayname>$$124295$$Qivittoq</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>SaloonAccel</context>
+      <command>tis("deSaloonQivittoq",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Harpooner</name>
+      <displayname>$$130674$$Harpooner</displayname>
+      <context>SaloonAccel</context>
+      <command>tis("deSaloonHarpooner")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Harpooner</name>
+      <displayname>$$130674$$Harpooner</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>SaloonAccel</context>
+      <command>tis("deSaloonHarpooner",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Gallowglass</name>
+      <displayname>$$130369$$Gallowglass</displayname>
+      <context>SaloonAccel</context>
+      <command>tis("deMercGallowglass")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Gallowglass</name>
+      <displayname>$$130369$$Gallowglass</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>SaloonAccel</context>
+      <command>tis("deMercGallowglass",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Cranequinier</name>
+      <displayname>$$130365$$Cranequinier</displayname>
+      <context>SaloonAccel</context>
+      <command>tis("deMercCranequinier")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Cranequinier</name>
+      <displayname>$$130365$$Cranequinier</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>SaloonAccel</context>
+      <command>tis("deMercCranequinier",5)</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="Watch Tower Hotkeys" displayname="$$103402$$Watch Tower Hotkeys" hotkeystyle="Legacy">
@@ -8003,6 +8324,110 @@
       <context>NativeEmbassyAccel</context>
       <command>tis("deNatChevauleger",5) tis("deNatMercChevauleger",5)</command>
     </keymapdata>
+    <keymapdata>
+      <name>Noaidi</name>
+      <displayname>$$130654$$Noaidi</displayname>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatNoaidi")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Noaidi</name>
+      <displayname>$$130654$$Noaidi</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatNoaidi",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Sami Reindeer Herd</name>
+      <displayname>$$130826$$Sami Reindeer Herd</displayname>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatSamiReindeerHerd")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Sami Reindeer Herd</name>
+      <displayname>$$130826$$Sami Reindeer Herd</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatSamiReindeerHerd",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Inuit Hunter</name>
+      <displayname>$$130690$$Inuit Hunter</displayname>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatInuitHunter")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Inuit Hunter</name>
+      <displayname>$$130690$$Inuit Hunter</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatInuitHunter",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Inuit Qamutik</name>
+      <displayname>$$130687$$Inuit Qamutik</displayname>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatInuitQamutik")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Inuit Qamutik</name>
+      <displayname>$$130687$$Inuit Qamutik</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatInuitQamutik",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Husky</name>
+      <displayname>$$130693$$Husky</displayname>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatHusky")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Husky</name>
+      <displayname>$$130693$$Husky</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatHusky",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Clansman</name>
+      <displayname>$$130617$$Clansman</displayname>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatClansman")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Clansman</name>
+      <displayname>$$130617$$Clansman</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatClansman",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Lowlander</name>
+      <displayname>$$130623$$Lowlander</displayname>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatLowlanderInfantry")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Lowlander</name>
+      <displayname>$$130623$$Lowlander</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatLowlanderInfantry",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Bagpiper</name>
+      <displayname>$$130619$$Bagpiper</displayname>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatBagpiper")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Bagpiper</name>
+      <displayname>$$130619$$Bagpiper</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>NativeEmbassyAccel</context>
+      <command>tis("deNatBagpiper",5)</command>
+    </keymapdata>
   </keymapgroup>
   <keymapgroup name="Community Plaza Hotkeys" displayname="$$48924$$Community Plaza Hotkeys" hotkeystyle="Legacy">
     <keymapdata>
@@ -9179,6 +9604,225 @@
       <command>tis("Sheep",5)</command>
     </keymapdata>
   </keymapgroup>
+  <keymapgroup name="Folwark Hotkeys" displayname="$$212113$$Folwark Hotkeys" hotkeystyle="Legacy">
+    <keymapdata>
+      <name>Retainer</name>
+      <displayname>$$130181$$Retainer</displayname>
+      <event>q</event>
+      <context>FolwarkAccel</context>
+      <command>tis("deLithuanianRider") tis("deREVPolishLancer") tis("deREVHaidamakaRider")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Retainer</name>
+      <displayname>$$130181$$Retainer</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-q</event>
+      <context>FolwarkAccel</context>
+      <command>tis("deLithuanianRider",5) tis("deREVPolishLancer",5) tis("deREVHaidamakaRider",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Pikeman</name>
+      <displayname>$$22807$$Pikeman</displayname>
+      <event>w</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Pikeman")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Pikeman</name>
+      <displayname>$$22807$$Pikeman</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-w</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Pikeman",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Crossbowman</name>
+      <displayname>$$22938$$Crossbowman</displayname>
+      <event>e</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Crossbowman") tis("deREVHaidamaka")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Crossbowman</name>
+      <displayname>$$22938$$Crossbowman</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-e</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Crossbowman",5) tis("deREVHaidamaka",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Cavalry Archer</name>
+      <displayname>$$22946$$Cavalry Archer</displayname>
+      <event>r</event>
+      <context>FolwarkAccel</context>
+      <command>tis("CavalryArcher")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Cavalry Archer</name>
+      <displayname>$$22946$$Cavalry Archer</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-r</event>
+      <context>FolwarkAccel</context>
+      <command>tis("CavalryArcher",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Serdyuk</name>
+      <displayname>$$130410$$Serdyuk</displayname>
+      <context>FolwarkAccel</context>
+      <command>tis("deREVSerdyuk")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Serdyuk</name>
+      <displayname>$$130410$$Serdyuk</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>FolwarkAccel</context>
+      <command>tis("deREVSerdyuk",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Starshyna</name>
+      <displayname>$$130417$$Starshyna</displayname>
+      <context>FolwarkAccel</context>
+      <command>tis("deREVStarshyna")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Starshyna</name>
+      <displayname>$$130417$$Starshyna</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>FolwarkAccel</context>
+      <command>tis("deREVStarshyna",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Cossack Daredevil</name>
+      <displayname>$$122357$$Cossack Daredevil</displayname>
+      <context>FolwarkAccel</context>
+      <command>tis("deSaloonOutlawCossackRider")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Cossack Daredevil</name>
+      <displayname>$$122357$$Cossack Daredevil</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>FolwarkAccel</context>
+      <command>tis("deSaloonOutlawCossackRider",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Pig</name>
+      <displayname>$$130398$$Pig</displayname>
+      <event>a</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Pig")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Pig</name>
+      <displayname>$$130398$$Pig</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-a</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Pig",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Cow</name>
+      <displayname>$$28186$$Cow</displayname>
+      <event>s</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Cow")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Cow</name>
+      <displayname>$$28186$$Cow</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-s</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Cow",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Falconet</name>
+      <displayname>$$22952$$Falconet</displayname>
+      <event>a</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Falconet")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Falconet</name>
+      <displayname>$$22952$$Falconet</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-a</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Falconet",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Culverin</name>
+      <displayname>$$22950$$Culverin</displayname>
+      <event>s</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Culverin")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Culverin</name>
+      <displayname>$$22950$$Culverin</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-s</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Culverin",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Mortar</name>
+      <displayname>$$22975$$Mortar</displayname>
+      <event>d</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Mortar")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Mortar</name>
+      <displayname>$$22975$$Mortar</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-d</event>
+      <context>FolwarkAccel</context>
+      <command>tis("Mortar",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Petard</name>
+      <displayname>$$45003$$Petard</displayname>
+      <event>d</event>
+      <context>FolwarkAccel</context>
+      <command>tis("xpPetard")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Petard</name>
+      <displayname>$$45003$$Petard</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-d</event>
+      <context>FolwarkAccel</context>
+      <command>tis("xpPetard",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Farming Folwark</name>
+      <displayname>$$130802$$Farming Folwark</displayname>
+      <event>z</event>
+      <context>FolwarkAccel</context>
+      <command>commandResearchInSelected("deFolwarkUpgradeFarm")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Livestock Folwark</name>
+      <displayname>$$130805$$Livestock Folwark</displayname>
+      <event>x</event>
+      <context>FolwarkAccel</context>
+      <command>commandResearchInSelected("deFolwarkUpgradeLivestock")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Defensive Folwark</name>
+      <displayname>$$130808$$Defensive Folwark</displayname>
+      <event>c</event>
+      <context>FolwarkAccel</context>
+      <command>commandResearchInSelected("deFolwarkUpgradeDefensive") commandResearchInSelected("deFolwarkUpgradeSich")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Downgrade Folwark</name>
+      <displayname>$$130813$$Downgrade Folwark</displayname>
+      <event>alt-z</event>
+      <context>FolwarkAccel</context>
+      <command>commandResearchInSelected("deFolwarkDowngrade")</command>
+    </keymapdata>
+  </keymapgroup>
   <keymapgroup name="Trading Post Hotkeys" displayname="$$43371$$Trading Post Hotkeys" hotkeystyle="Legacy">
     <keymapdata>
       <name>Trade Route Food</name>
@@ -9210,7 +9854,7 @@
       <displayformat>$$79873$$Trade Route %s</displayformat>
       <event>alt-r</event>
       <context>TradingPostAccel</context>
-      <command>trtis("CrateofXP")</command>
+      <command>trtis("CrateofXP") trtis("deTradeCrateAll")</command>
     </keymapdata>
     <keymapdata>
       <name>Trade Route Influence</name>
@@ -10047,6 +10691,110 @@
       <context>TradingPostAccel</context>
       <command>tis("deNatQizilbash",5)</command>
     </keymapdata>
+    <keymapdata>
+      <name>Noaidi</name>
+      <displayname>$$130654$$Noaidi</displayname>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatNoaidi")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Noaidi</name>
+      <displayname>$$130654$$Noaidi</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatNoaidi",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Sami Reindeer Herd</name>
+      <displayname>$$130826$$Sami Reindeer Herd</displayname>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatSamiReindeerHerd")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Sami Reindeer Herd</name>
+      <displayname>$$130826$$Sami Reindeer Herd</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatSamiReindeerHerd",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Inuit Hunter</name>
+      <displayname>$$130690$$Inuit Hunter</displayname>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatInuitHunter")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Inuit Hunter</name>
+      <displayname>$$130690$$Inuit Hunter</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatInuitHunter",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Inuit Qamutik</name>
+      <displayname>$$130687$$Inuit Qamutik</displayname>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatInuitQamutik")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Inuit Qamutik</name>
+      <displayname>$$130687$$Inuit Qamutik</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatInuitQamutik",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Husky</name>
+      <displayname>$$130693$$Husky</displayname>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatHusky")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Husky</name>
+      <displayname>$$130693$$Husky</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatHusky",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Clansman</name>
+      <displayname>$$130617$$Clansman</displayname>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatClansman")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Clansman</name>
+      <displayname>$$130617$$Clansman</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatClansman",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Lowlander</name>
+      <displayname>$$130623$$Lowlander</displayname>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatLowlanderInfantry")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Lowlander</name>
+      <displayname>$$130623$$Lowlander</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatLowlanderInfantry",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Bagpiper</name>
+      <displayname>$$130619$$Bagpiper</displayname>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatBagpiper")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Bagpiper</name>
+      <displayname>$$130619$$Bagpiper</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <context>TradingPostAccel</context>
+      <command>tis("deNatBagpiper",5)</command>
+    </keymapdata>
   </keymapgroup>
   <keymapgroup name="Factory Hotkeys" displayname="$$79871$$Factory" hotkeystyle="Legacy">
     <keymapdata>
@@ -10076,6 +10824,110 @@
       <event>r</event>
       <context>FactoryAccel</context>
       <command>unitSetTactic("Cannon")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Produce Export</name>
+      <displayname>$$68974$$Produce Export</displayname>
+      <event>t</event>
+      <context>FactoryAccel</context>
+      <command>unitSetTactic("Trade")</command>
+    </keymapdata>
+  </keymapgroup>
+  <keymapgroup name="Sejm Hotkeys" displayname="$$212114$$Sejm" hotkeystyle="Legacy">
+    <keymapdata>
+      <name>Produce Food</name>
+      <displayname>$$130850$$Produce Food</displayname>
+      <event>q</event>
+      <context>SejmAccel</context>
+      <command>unitSetTactic("PolicyFood")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Produce Wood</name>
+      <displayname>$$130851$$Produce Wood</displayname>
+      <event>w</event>
+      <context>SejmAccel</context>
+      <command>unitSetTactic("PolicyWood")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Produce Coin</name>
+      <displayname>$$130852$$Produce Coin</displayname>
+      <event>e</event>
+      <context>SejmAccel</context>
+      <command>unitSetTactic("PolicyCoin")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Produce Artillery</name>
+      <displayname>$$130878$$Produce Artillery</displayname>
+      <event>r</event>
+      <context>SejmAccel</context>
+      <command>unitSetTactic("PolicyCannon")</command>
+    </keymapdata>
+  </keymapgroup>
+  <keymapgroup name="Customs House Hotkeys" displayname="$$212115$$Customs House" hotkeystyle="Legacy">
+    <keymapdata>
+      <name>Send Mixed Crates</name>
+      <displayname>$$41866$$Mixed Crates</displayname>
+      <displayformat>$$122263$$Send %s</displayformat>
+      <event>q</event>
+      <context>CustomsHouseAccel</context>
+      <command>sendFakeCardInSelected("DECustomsHouseMixedCrates")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Send Food Crates</name>
+      <displayname>$$26021$$Food Crates</displayname>
+      <displayformat>$$122263$$Send %s</displayformat>
+      <event>w</event>
+      <context>CustomsHouseAccel</context>
+      <command>sendFakeCardInSelected("DECustomsHouseFoodCrates")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Send Wood Crates</name>
+      <displayname>$$26025$$Wood Crates</displayname>
+      <displayformat>$$122263$$Send %s</displayformat>
+      <event>e</event>
+      <context>CustomsHouseAccel</context>
+      <command>sendFakeCardInSelected("DECustomsHouseWoodCrates")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Send Coin Crates</name>
+      <displayname>$$26029$$Coin Crates</displayname>
+      <displayformat>$$122263$$Send %s</displayformat>
+      <event>r</event>
+      <context>CustomsHouseAccel</context>
+      <command>sendFakeCardInSelected("DECustomsHouseCoinCrates")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Send Shipment</name>
+      <displayname>$$110257$$Shipment</displayname>
+      <displayformat>$$122263$$Send %s</displayformat>
+      <event>t</event>
+      <context>CustomsHouseAccel</context>
+      <command>sendFakeCardInSelected("DECustomsHouseShipment")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Send Customs Cruiser</name>
+      <displayname>$$130726$$Customs Cruiser</displayname>
+      <displayformat>$$122263$$Send %s</displayformat>
+      <event>y</event>
+      <context>CustomsHouseAccel</context>
+      <command>sendFakeCardInSelected("DECustomsHouseWarship")</command>
+    </keymapdata>
+  </keymapgroup>
+  <keymapgroup name="Watch House Hotkeys" displayname="$$212116$$Watch House" hotkeystyle="Legacy">
+    <keymapdata>
+      <name>Snaphane</name>
+      <displayname>$$130219$$Snaphane</displayname>
+      <event>q</event>
+      <context>WatchHouseAccel</context>
+      <command>tis("Minuteman")</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Multiple Snaphane</name>
+      <displayname>$$130219$$Snaphane</displayname>
+      <displayformat>$$43376$$Multiple %s</displayformat>
+      <event>shift-q</event>
+      <context>WatchHouseAccel</context>
+      <command>tis("Minuteman",5)</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="Dojo Hotkeys" displayname="$$68765$$Dojo" hotkeystyle="Legacy">
@@ -10462,6 +11314,12 @@
       <context>game</context>
       <command>doAbilityInSelected("PowerConvert")</command>
     </keymapdata>
+    <keymapdata>
+      <name>Charged Actions</name>
+      <displayname>$$162075$$Charged Actions</displayname>
+      <context>game</context>
+      <command>uiToggleChargedAction()</command>
+    </keymapdata>
   </keymapgroup>
   <keymapgroup name="Unit Tactics Hotkeys" displayname="$$68767$$Unit Tactics" hotkeystyle="Legacy">
     <keymapdata>
@@ -10807,6 +11665,13 @@
       <event>shift-d</event>
       <context>AgraFortAccel</context>
       <command>tis("ypSiegeElephant",5)</command>
+    </keymapdata>
+    <keymapdata>
+      <name>Eject Garrisoned Units</name>
+      <displayname>$$22223$$Eject Garrisoned Units</displayname>
+      <event>n</event>
+      <context>AgraFortAccel</context>
+      <command>uiEjectGarrisonedUnits()</command>
     </keymapdata>
   </keymapgroup>
   <keymapgroup name="Hero Pets and Disciples Hotkeys" displayname="$$68739$$Hero Pets and Disciples" hotkeystyle="Legacy">

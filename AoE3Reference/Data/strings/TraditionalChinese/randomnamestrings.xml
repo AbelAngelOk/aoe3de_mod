@@ -666,30 +666,30 @@
     <string _locid="50663" comment="proto-Explorer civ-Default type-title">卡斯特</string>
     <string _locid="50664" comment="proto-Explorer civ-Default type-title">瑞蓁蕾芙</string>
     <string _locid="50665" comment="proto-Explorer civ-Default type-title">迦葛瑞斯</string>
-    <string _locid="50666" comment="proto-Explorer civ-British/Dutch type-firstname">爵士</string>
-    <string _locid="50667" comment="proto-Explorer civ-British/Dutch type-firstname">杜克</string>
-    <string _locid="50668" comment="proto-Explorer civ-British/Dutch type-firstname">君主</string>
-    <string _locid="50669" comment="proto-Explorer civ-British type-firstname">愛倫</string>
-    <string _locid="50670" comment="proto-Explorer civ-British type-firstname">亞瑟</string>
-    <string _locid="50671" comment="proto-Explorer civ-British type-firstname">克里斯多福</string>
-    <string _locid="50672" comment="proto-Explorer civ-British type-firstname">大衛</string>
-    <string _locid="50673" comment="proto-Explorer civ-British type-firstname">艾德蒙</string>
-    <string _locid="50674" comment="proto-Explorer civ-British type-firstname">法蘭西斯</string>
-    <string _locid="50675" comment="proto-Explorer civ-British type-firstname">喬治</string>
-    <string _locid="50676" comment="proto-Explorer civ-British/Germans type-firstname">海恩利希</string>
-    <string _locid="50677" comment="proto-Explorer civ-British/Dutch/Portuguese type-firstname">亨利</string>
-    <string _locid="50678" comment="proto-Explorer civ-British type-firstname">修</string>
-    <string _locid="50679" comment="proto-Explorer civ-British type-firstname">韓弗理</string>
-    <string _locid="50680" comment="proto-Explorer civ-British type-firstname">詹姆斯</string>
-    <string _locid="50681" comment="proto-Explorer civ-British type-firstname">約翰</string>
-    <string _locid="50682" comment="proto-Explorer civ-British type-firstname">喬瑟夫</string>
-    <string _locid="50683" comment="proto-Explorer civ-British/Germans/Spanish type-firstname">馬丁</string>
-    <string _locid="50684" comment="proto-Explorer civ-British type-firstname">馬修</string>
-    <string _locid="50685" comment="proto-Explorer civ-British type-firstname">理查</string>
-    <string _locid="50686" comment="proto-Explorer civ-British/Portuguese/Spanish type-firstname">瑟巴斯坦</string>
-    <string _locid="50687" comment="proto-Explorer civ-British type-firstname">史帝芬</string>
-    <string _locid="50688" comment="proto-Explorer civ-British type-firstname">華爾德</string>
-    <string _locid="50689" comment="proto-Explorer civ-British type-firstname">威廉</string>
+    <string _locid="50666" comment="proto-Explorer civ-British/Dutch type-firstname">爵士 </string>
+    <string _locid="50667" comment="proto-Explorer civ-British/Dutch type-firstname">杜克 </string>
+    <string _locid="50668" comment="proto-Explorer civ-British/Dutch type-firstname">君主 </string>
+    <string _locid="50669" comment="proto-Explorer civ-British type-firstname">愛倫 </string>
+    <string _locid="50670" comment="proto-Explorer civ-British type-firstname">亞瑟 </string>
+    <string _locid="50671" comment="proto-Explorer civ-British type-firstname">克里斯多福 </string>
+    <string _locid="50672" comment="proto-Explorer civ-British type-firstname">大衛 </string>
+    <string _locid="50673" comment="proto-Explorer civ-British type-firstname">艾德蒙 </string>
+    <string _locid="50674" comment="proto-Explorer civ-British type-firstname">法蘭西斯 </string>
+    <string _locid="50675" comment="proto-Explorer civ-British type-firstname">喬治 </string>
+    <string _locid="50676" comment="proto-Explorer civ-British/Germans type-firstname">海恩利希 </string>
+    <string _locid="50677" comment="proto-Explorer civ-British/Dutch/Portuguese type-firstname">亨利 </string>
+    <string _locid="50678" comment="proto-Explorer civ-British type-firstname">修 </string>
+    <string _locid="50679" comment="proto-Explorer civ-British type-firstname">韓弗理 </string>
+    <string _locid="50680" comment="proto-Explorer civ-British type-firstname">詹姆斯 </string>
+    <string _locid="50681" comment="proto-Explorer civ-British type-firstname">約翰 </string>
+    <string _locid="50682" comment="proto-Explorer civ-British type-firstname">喬瑟夫 </string>
+    <string _locid="50683" comment="proto-Explorer civ-British/Germans/Spanish type-firstname">馬丁 </string>
+    <string _locid="50684" comment="proto-Explorer civ-British type-firstname">馬修 </string>
+    <string _locid="50685" comment="proto-Explorer civ-British type-firstname">理查 </string>
+    <string _locid="50686" comment="proto-Explorer civ-British/Portuguese/Spanish type-firstname">瑟巴斯坦 </string>
+    <string _locid="50687" comment="proto-Explorer civ-British type-firstname">史帝芬 </string>
+    <string _locid="50688" comment="proto-Explorer civ-British type-firstname">華爾德 </string>
+    <string _locid="50689" comment="proto-Explorer civ-British type-firstname">威廉 </string>
     <string _locid="50690" comment="proto-Explorer civ-British type-lastname">肯寧漢</string>
     <string _locid="50691" comment="proto-Explorer civ-British type-lastname">貝特</string>
     <string _locid="50692" comment="proto-Explorer civ-British type-lastname">菲力普</string>
@@ -725,20 +725,20 @@
     <string _locid="50722" comment="proto-Explorer civ-British type-lastname">丹皮爾</string>
     <string _locid="50723" comment="proto-Explorer civ-British type-lastname">哈佛爾</string>
     <string _locid="50724" comment="proto-Explorer civ-British type-lastname">傑克曼</string>
-    <string _locid="50725" comment="proto-Explorer civ-Dutch type-firstname">厄爾</string>
-    <string _locid="50726" comment="proto-Explorer civ-Dutch type-firstname">亞伯</string>
-    <string _locid="50727" comment="proto-Explorer civ-Dutch type-firstname">亞德里恩</string>
-    <string _locid="50728" comment="proto-Explorer civ-Dutch type-firstname">柯奈萊斯</string>
-    <string _locid="50729" comment="proto-Explorer civ-Dutch type-firstname">凱恩</string>
-    <string _locid="50730" comment="proto-Explorer civ-Dutch type-firstname">德克</string>
-    <string _locid="50731" comment="proto-Explorer civ-Dutch type-firstname">雅各</string>
-    <string _locid="50732" comment="proto-Explorer civ-Dutch type-firstname">珍</string>
-    <string _locid="50733" comment="proto-Explorer civ-Dutch type-firstname">裘多卡斯</string>
-    <string _locid="50734" comment="proto-Explorer civ-Dutch type-firstname">麥可</string>
-    <string _locid="50735" comment="proto-Explorer civ-Dutch type-firstname">尼可拉斯</string>
-    <string _locid="50736" comment="proto-Explorer civ-Dutch type-firstname">奧利佛</string>
-    <string _locid="50737" comment="proto-Explorer civ-Dutch type-firstname">皮特</string>
-    <string _locid="50738" comment="proto-Explorer civ-Dutch type-firstname">威倫</string>
+    <string _locid="50725" comment="proto-Explorer civ-Dutch type-firstname">厄爾 </string>
+    <string _locid="50726" comment="proto-Explorer civ-Dutch type-firstname">亞伯 </string>
+    <string _locid="50727" comment="proto-Explorer civ-Dutch type-firstname">亞德里恩 </string>
+    <string _locid="50728" comment="proto-Explorer civ-Dutch type-firstname">柯奈萊斯 </string>
+    <string _locid="50729" comment="proto-Explorer civ-Dutch type-firstname">凱恩 </string>
+    <string _locid="50730" comment="proto-Explorer civ-Dutch type-firstname">德克 </string>
+    <string _locid="50731" comment="proto-Explorer civ-Dutch type-firstname">雅各 </string>
+    <string _locid="50732" comment="proto-Explorer civ-Dutch type-firstname">珍 </string>
+    <string _locid="50733" comment="proto-Explorer civ-Dutch type-firstname">裘多卡斯 </string>
+    <string _locid="50734" comment="proto-Explorer civ-Dutch type-firstname">麥可 </string>
+    <string _locid="50735" comment="proto-Explorer civ-Dutch type-firstname">尼可拉斯 </string>
+    <string _locid="50736" comment="proto-Explorer civ-Dutch type-firstname">奧利佛 </string>
+    <string _locid="50737" comment="proto-Explorer civ-Dutch type-firstname">皮特 </string>
+    <string _locid="50738" comment="proto-Explorer civ-Dutch type-firstname">威倫 </string>
     <string _locid="50739" comment="proto-Explorer civ-Dutch type-lastname">珍斯遜</string>
     <string _locid="50740" comment="proto-Explorer civ-Dutch type-lastname">塔斯曼</string>
     <string _locid="50741" comment="proto-Explorer civ-Dutch type-lastname">布拉克</string>
@@ -761,23 +761,23 @@
     <string _locid="50758" comment="proto-Explorer civ-Dutch type-lastname">史都法森</string>
     <string _locid="50759" comment="proto-Explorer civ-Dutch type-lastname">強納森</string>
     <string _locid="50760" comment="proto-Explorer civ-Dutch type-lastname">巴倫支</string>
-    <string _locid="50761" comment="proto-Explorer civ-French type-firstname">杜可</string>
-    <string _locid="50762" comment="proto-Explorer civ-French type-firstname">先生</string>
-    <string _locid="50763" comment="proto-Explorer civ-French type-firstname">安姆</string>
-    <string _locid="50764" comment="proto-Explorer civ-French type-firstname">安卓</string>
+    <string _locid="50761" comment="proto-Explorer civ-French type-firstname">杜可 </string>
+    <string _locid="50762" comment="proto-Explorer civ-French type-firstname">先生 </string>
+    <string _locid="50763" comment="proto-Explorer civ-French type-firstname">安姆 </string>
+    <string _locid="50764" comment="proto-Explorer civ-French type-firstname">安卓 </string>
     <string _locid="50765" comment="proto-Explorer civ-French type-firstname">安東尼 </string>
-    <string _locid="50766" comment="proto-Explorer civ-French type-firstname">查理斯</string>
-    <string _locid="50767" comment="proto-Explorer civ-French type-firstname">賈克</string>
-    <string _locid="50768" comment="proto-Explorer civ-French type-firstname">賈克</string>
-    <string _locid="50769" comment="proto-Explorer civ-French type-firstname">吉恩</string>
-    <string _locid="50770" comment="proto-Explorer civ-French type-firstname">朱利安</string>
-    <string _locid="50771" comment="proto-Explorer civ-French type-firstname">路易</string>
-    <string _locid="50772" comment="proto-Explorer civ-French type-firstname">曼德爾</string>
-    <string _locid="50773" comment="proto-Explorer civ-French type-firstname">尼古拉</string>
-    <string _locid="50774" comment="proto-Explorer civ-French type-firstname">皮耶</string>
-    <string _locid="50775" comment="proto-Explorer civ-French type-firstname">芮妮</string>
-    <string _locid="50776" comment="proto-Explorer civ-French type-firstname">賽慕爾</string>
-    <string _locid="50777" comment="proto-Explorer civ-French type-firstname">湯瑪斯</string>
+    <string _locid="50766" comment="proto-Explorer civ-French type-firstname">查理斯 </string>
+    <string _locid="50767" comment="proto-Explorer civ-French type-firstname">賈克 </string>
+    <string _locid="50768" comment="proto-Explorer civ-French type-firstname">賈克 </string>
+    <string _locid="50769" comment="proto-Explorer civ-French type-firstname">吉恩 </string>
+    <string _locid="50770" comment="proto-Explorer civ-French type-firstname">朱利安 </string>
+    <string _locid="50771" comment="proto-Explorer civ-French type-firstname">路易 </string>
+    <string _locid="50772" comment="proto-Explorer civ-French type-firstname">曼德爾 </string>
+    <string _locid="50773" comment="proto-Explorer civ-French type-firstname">尼古拉 </string>
+    <string _locid="50774" comment="proto-Explorer civ-French type-firstname">皮耶 </string>
+    <string _locid="50775" comment="proto-Explorer civ-French type-firstname">芮妮 </string>
+    <string _locid="50776" comment="proto-Explorer civ-French type-firstname">賽慕爾 </string>
+    <string _locid="50777" comment="proto-Explorer civ-French type-firstname">湯瑪斯 </string>
     <string _locid="50778" comment="proto-Explorer civ-French type-lastname">邦皮蘭德</string>
     <string _locid="50779" comment="proto-Explorer civ-French type-lastname">米薛克斯</string>
     <string _locid="50780" comment="proto-Explorer civ-French type-lastname">德卡迪拉克</string>
@@ -801,31 +801,31 @@
     <string _locid="50798" comment="proto-Explorer civ-French type-lastname">德拉薩爾</string>
     <string _locid="50799" comment="proto-Explorer civ-French type-lastname">德尚普蘭</string>
     <string _locid="50800" comment="proto-Explorer civ-French type-lastname">歐伯特</string>
-    <string _locid="50801" comment="proto-Explorer civ-Germans type-firstname">男爵</string>
-    <string _locid="50802" comment="proto-Explorer civ-Germans type-firstname">考特</string>
-    <string _locid="50803" comment="proto-Explorer civ-Germans type-firstname">亞歷山大</string>
-    <string _locid="50804" comment="proto-Explorer civ-Germans type-firstname">安柏斯</string>
-    <string _locid="50805" comment="proto-Explorer civ-Germans type-firstname">奧古斯丁</string>
+    <string _locid="50801" comment="proto-Explorer civ-Germans type-firstname">男爵 </string>
+    <string _locid="50802" comment="proto-Explorer civ-Germans type-firstname">考特 </string>
+    <string _locid="50803" comment="proto-Explorer civ-Germans type-firstname">亞歷山大 </string>
+    <string _locid="50804" comment="proto-Explorer civ-Germans type-firstname">安柏斯 </string>
+    <string _locid="50805" comment="proto-Explorer civ-Germans type-firstname">奧古斯丁 </string>
     <string _locid="50806" comment="proto-Explorer civ-Germans type-firstname">奧古斯都 </string>
-    <string _locid="50807" comment="proto-Explorer civ-Germans type-firstname">卡爾</string>
-    <string _locid="50808" comment="proto-Explorer civ-Germans type-firstname">黛德利</string>
+    <string _locid="50807" comment="proto-Explorer civ-Germans type-firstname">卡爾 </string>
+    <string _locid="50808" comment="proto-Explorer civ-Germans type-firstname">黛德利 </string>
     <string _locid="50809" comment="proto-Explorer civ-Germans type-firstname">愛德華 </string>
-    <string _locid="50810" comment="proto-Explorer civ-Germans type-firstname">腓特烈</string>
-    <string _locid="50811" comment="proto-Explorer civ-Germans type-firstname">蓋伯赫</string>
+    <string _locid="50810" comment="proto-Explorer civ-Germans type-firstname">腓特烈 </string>
+    <string _locid="50811" comment="proto-Explorer civ-Germans type-firstname">蓋伯赫 </string>
     <string _locid="50812" comment="proto-Explorer civ-Germans type-firstname">格哈德  </string>
-    <string _locid="50813" comment="proto-Explorer civ-Germans type-firstname">喬志</string>
+    <string _locid="50813" comment="proto-Explorer civ-Germans type-firstname">喬志 </string>
     <string _locid="50814" comment="proto-Explorer civ-Germans type-firstname">古斯塔夫 </string>
-    <string _locid="50815" comment="proto-Explorer civ-Germans type-firstname">漢斯</string>
-    <string _locid="50816" comment="proto-Explorer civ-Germans type-firstname">漢德瑞克</string>
-    <string _locid="50817" comment="proto-Explorer civ-Germans type-firstname">約漢</string>
+    <string _locid="50815" comment="proto-Explorer civ-Germans type-firstname">漢斯 </string>
+    <string _locid="50816" comment="proto-Explorer civ-Germans type-firstname">漢德瑞克 </string>
+    <string _locid="50817" comment="proto-Explorer civ-Germans type-firstname">約漢 </string>
     <string _locid="50818" comment="proto-Explorer civ-Germans type-firstname">佧爾 </string>
-    <string _locid="50819" comment="proto-Explorer civ-Germans type-firstname">路德維</string>
-    <string _locid="50820" comment="proto-Explorer civ-Germans type-firstname">馬克西米倫</string>
-    <string _locid="50821" comment="proto-Explorer civ-Germans type-firstname">尼可拉絲</string>
+    <string _locid="50819" comment="proto-Explorer civ-Germans type-firstname">路德維 </string>
+    <string _locid="50820" comment="proto-Explorer civ-Germans type-firstname">馬克西米倫 </string>
+    <string _locid="50821" comment="proto-Explorer civ-Germans type-firstname">尼可拉絲 </string>
     <string _locid="50822" comment="proto-Explorer civ-Germans type-firstname">彼得 </string>
-    <string _locid="50823" comment="proto-Explorer civ-Germans type-firstname">羅伯</string>
+    <string _locid="50823" comment="proto-Explorer civ-Germans type-firstname">羅伯 </string>
     <string _locid="50824" comment="proto-Explorer civ-Germans type-firstname">所羅門 </string>
-    <string _locid="50825" comment="proto-Explorer civ-Germans type-firstname">威漢</string>
+    <string _locid="50825" comment="proto-Explorer civ-Germans type-firstname">威漢 </string>
     <string _locid="50826" comment="proto-Explorer civ-Germans type-lastname">阿爾分葛</string>
     <string _locid="50827" comment="proto-Explorer civ-Germans type-lastname">柏漢</string>
     <string _locid="50828" comment="proto-Explorer civ-Germans type-lastname">克里斯坦遜</string>
@@ -857,7 +857,7 @@
     <string _locid="50854" comment="proto-Explorer civ-Germans type-lastname">方布裘</string>
     <string _locid="50855" comment="proto-Explorer civ-Germans type-lastname">方翰柏得</string>
     <string _locid="50856" comment="proto-Explorer civ-Ottomans type-firstname">阿布哈茲 </string>
-    <string _locid="50857" comment="proto-Explorer civ-Ottomans type-firstname">阿馬迪</string>
+    <string _locid="50857" comment="proto-Explorer civ-Ottomans type-firstname">阿馬迪 </string>
     <string _locid="50858" comment="proto-Explorer civ-Ottomans type-firstname">安卡拉里 </string>
     <string _locid="50859" comment="proto-Explorer civ-Ottomans type-firstname">阿斯蘭 </string>
     <string _locid="50860" comment="proto-Explorer civ-Ottomans type-firstname">阿夫薩 </string>
@@ -868,27 +868,27 @@
     <string _locid="50865" comment="proto-Explorer civ-Ottomans type-firstname">伊弗拉克里 </string>
     <string _locid="50866" comment="proto-Explorer civ-Ottomans type-firstname/lastname">艾伏利亞 </string>
     <string _locid="50867" comment="proto-Explorer civ-Ottomans type-firstname">吉里特里 </string>
-    <string _locid="50868" comment="proto-Explorer civ-Ottomans type-firstname">朱塞佩</string>
+    <string _locid="50868" comment="proto-Explorer civ-Ottomans type-firstname">朱塞佩 </string>
     <string _locid="50869" comment="proto-Explorer civ-Ottomans type-firstname">哈雷普里 </string>
     <string _locid="50870" comment="proto-Explorer civ-Ottomans type-firstname">海瑞定 </string>
-    <string _locid="50871" comment="proto-Explorer civ-Ottomans type-firstname">卡拉</string>
-    <string _locid="50872" comment="proto-Explorer civ-Ottomans type-firstname">柯力克</string>
+    <string _locid="50871" comment="proto-Explorer civ-Ottomans type-firstname">卡拉 </string>
+    <string _locid="50872" comment="proto-Explorer civ-Ottomans type-firstname">柯力克 </string>
     <string _locid="50873" comment="proto-Explorer civ-Ottomans type-firstname">基尼克 </string>
     <string _locid="50874" comment="proto-Explorer civ-Ottomans type-firstname">基里姆里 </string>
-    <string _locid="50875" comment="proto-Explorer civ-Ottomans type-firstname">柯普瑞</string>
-    <string _locid="50876" comment="proto-Explorer civ-Ottomans type-firstname">柯普瑞</string>
-    <string _locid="50877" comment="proto-Explorer civ-Ottomans type-firstname">李歐</string>
-    <string _locid="50878" comment="proto-Explorer civ-Ottomans type-firstname">馬傑得</string>
-    <string _locid="50879" comment="proto-Explorer civ-Ottomans type-firstname">馬利莫</string>
-    <string _locid="50880" comment="proto-Explorer civ-Ottomans type-firstname">穆罕默德</string>
+    <string _locid="50875" comment="proto-Explorer civ-Ottomans type-firstname">柯普瑞 </string>
+    <string _locid="50876" comment="proto-Explorer civ-Ottomans type-firstname">柯普瑞 </string>
+    <string _locid="50877" comment="proto-Explorer civ-Ottomans type-firstname">李歐 </string>
+    <string _locid="50878" comment="proto-Explorer civ-Ottomans type-firstname">馬傑得 </string>
+    <string _locid="50879" comment="proto-Explorer civ-Ottomans type-firstname">馬利莫 </string>
+    <string _locid="50880" comment="proto-Explorer civ-Ottomans type-firstname">穆罕默德 </string>
     <string _locid="50881" comment="proto-Explorer civ-Ottomans type-firstname">帕爾加利 </string>
     <string _locid="50882" comment="proto-Explorer civ-Ottomans type-firstname">佩切涅格 </string>
-    <string _locid="50883" comment="proto-Explorer civ-Ottomans type-firstname">佩里</string>
+    <string _locid="50883" comment="proto-Explorer civ-Ottomans type-firstname">佩里 </string>
     <string _locid="50884" comment="proto-Explorer civ-Ottomans type-firstname">羅德斯盧 </string>
     <string _locid="50885" comment="proto-Explorer civ-Ottomans type-firstname">塞拉尼克里 </string>
-    <string _locid="50886" comment="proto-Explorer civ-Ottomans type-firstname">山姆斯</string>
+    <string _locid="50886" comment="proto-Explorer civ-Ottomans type-firstname">山姆斯 </string>
     <string _locid="50887" comment="proto-Explorer civ-Ottomans type-firstname">梭弗 </string>
-    <string _locid="50888" comment="proto-Explorer civ-Ottomans type-firstname">索庫盧</string>
+    <string _locid="50888" comment="proto-Explorer civ-Ottomans type-firstname">索庫盧 </string>
     <string _locid="50889" comment="proto-Explorer civ-Ottomans type-firstname">蘇萊曼 </string>
     <string _locid="50890" comment="proto-Explorer civ-Ottomans type-firstname">切普尼 </string>
     <string _locid="50891" comment="proto-Explorer civ-Ottomans type-firstname">切爾克斯 </string>
@@ -917,26 +917,26 @@
     <string _locid="50914" comment="proto-Explorer civ-Ottomans type-lastname">塞利姆 </string>
     <string _locid="50915" comment="proto-Explorer civ-Ottomans type-lastname">森西 </string>
     <string _locid="50916" comment="proto-Explorer civ-Ottomans type-lastname">圖魯爾 </string>
-    <string _locid="50917" comment="proto-Explorer civ-Portuguese/Spanish type-firstname">唐</string>
-    <string _locid="50918" comment="proto-Explorer civ-Portuguese type-firstname">卡伯特</string>
-    <string _locid="50919" comment="proto-Explorer civ-Portuguese type-firstname">阿方索</string>
-    <string _locid="50920" comment="proto-Explorer civ-Portuguese type-firstname">阿爾方索</string>
-    <string _locid="50921" comment="proto-Explorer civ-DEItalians type-firstname">阿馬利哥</string>
-    <string _locid="50922" comment="proto-Explorer civ-Portuguese type-firstname">安東尼奧</string>
-    <string _locid="50923" comment="proto-Explorer civ-Portuguese type-firstname">巴托羅米</string>
-    <string _locid="50924" comment="proto-Explorer civ-Portuguese type-firstname">巴托羅茂</string>
-    <string _locid="50925" comment="proto-Explorer civ-Portuguese type-firstname">迪爾多</string>
-    <string _locid="50926" comment="proto-Explorer civ-Portuguese type-firstname">艾斯特佛</string>
-    <string _locid="50927" comment="proto-Explorer civ-Portuguese type-firstname">斐迪南</string>
-    <string _locid="50928" comment="proto-Explorer civ-Portuguese/Spanish type-firstname">凱斯伯</string>
-    <string _locid="50929" comment="proto-Explorer civ-Portuguese type-firstname">吉爾</string>
-    <string _locid="50930" comment="proto-Explorer civ-Portuguese type-firstname">剛薩羅</string>
-    <string _locid="50931" comment="proto-Explorer civ-Portuguese type-firstname">荷奧</string>
-    <string _locid="50932" comment="proto-Explorer civ-Portuguese type-firstname">荷赫</string>
-    <string _locid="50933" comment="proto-Explorer civ-Portuguese type-firstname">曼紐</string>
-    <string _locid="50934" comment="proto-Explorer civ-Portuguese/Spanish type-firstname">佩卓</string>
-    <string _locid="50935" comment="proto-Explorer civ-Portuguese type-firstname">崔斯陶</string>
-    <string _locid="50936" comment="proto-Explorer civ-Portuguese type-firstname">法斯可</string>
+    <string _locid="50917" comment="proto-Explorer civ-Portuguese/Spanish type-firstname">唐 </string>
+    <string _locid="50918" comment="proto-Explorer civ-Portuguese type-firstname">卡伯特 </string>
+    <string _locid="50919" comment="proto-Explorer civ-Portuguese type-firstname">阿方索 </string>
+    <string _locid="50920" comment="proto-Explorer civ-Portuguese type-firstname">阿爾方索 </string>
+    <string _locid="50921" comment="proto-Explorer civ-DEItalians type-firstname">阿馬利哥 </string>
+    <string _locid="50922" comment="proto-Explorer civ-Portuguese type-firstname">安東尼奧 </string>
+    <string _locid="50923" comment="proto-Explorer civ-Portuguese type-firstname">巴托羅米 </string>
+    <string _locid="50924" comment="proto-Explorer civ-Portuguese type-firstname">巴托羅茂 </string>
+    <string _locid="50925" comment="proto-Explorer civ-Portuguese type-firstname">迪爾多 </string>
+    <string _locid="50926" comment="proto-Explorer civ-Portuguese type-firstname">艾斯特佛 </string>
+    <string _locid="50927" comment="proto-Explorer civ-Portuguese type-firstname">斐迪南 </string>
+    <string _locid="50928" comment="proto-Explorer civ-Portuguese/Spanish type-firstname">凱斯伯 </string>
+    <string _locid="50929" comment="proto-Explorer civ-Portuguese type-firstname">吉爾 </string>
+    <string _locid="50930" comment="proto-Explorer civ-Portuguese type-firstname">剛薩羅 </string>
+    <string _locid="50931" comment="proto-Explorer civ-Portuguese type-firstname">荷奧 </string>
+    <string _locid="50932" comment="proto-Explorer civ-Portuguese type-firstname">荷赫 </string>
+    <string _locid="50933" comment="proto-Explorer civ-Portuguese type-firstname">曼紐 </string>
+    <string _locid="50934" comment="proto-Explorer civ-Portuguese/Spanish type-firstname">佩卓 </string>
+    <string _locid="50935" comment="proto-Explorer civ-Portuguese type-firstname">崔斯陶 </string>
+    <string _locid="50936" comment="proto-Explorer civ-Portuguese type-firstname">法斯可 </string>
     <string _locid="50937" comment="proto-Explorer civ-Portuguese type-lastname">德阿爾伯葛爾</string>
     <string _locid="50938" comment="proto-Explorer civ-Portuguese type-lastname">德費斯普西</string>
     <string _locid="50939" comment="proto-Explorer civ-Portuguese type-lastname">法斯普西</string>
@@ -961,28 +961,28 @@
     <string _locid="50958" comment="proto-Explorer civ-Portuguese type-lastname">瑟爾曼諾</string>
     <string _locid="50959" comment="proto-Explorer civ-Portuguese type-lastname">德庫納</string>
     <string _locid="50960" comment="proto-Explorer civ-Portuguese type-lastname">德格瑪</string>
-    <string _locid="50961" comment="proto-Explorer civ-Russians type-firstname">亞力珊黛</string>
+    <string _locid="50961" comment="proto-Explorer civ-Russians type-firstname">亞力珊黛 </string>
     <string _locid="50962" comment="proto-Explorer civ-Russians type-firstname">安德烈西 </string>
-    <string _locid="50963" comment="proto-Explorer civ-Russians type-firstname">亞力克賽</string>
-    <string _locid="50964" comment="proto-Explorer civ-Russians type-firstname">亞力克瑟</string>
-    <string _locid="50965" comment="proto-Explorer civ-Russians type-firstname">德密特利</string>
-    <string _locid="50966" comment="proto-Explorer civ-Russians type-firstname">斐爾德</string>
+    <string _locid="50963" comment="proto-Explorer civ-Russians type-firstname">亞力克賽 </string>
+    <string _locid="50964" comment="proto-Explorer civ-Russians type-firstname">亞力克瑟 </string>
+    <string _locid="50965" comment="proto-Explorer civ-Russians type-firstname">德密特利 </string>
+    <string _locid="50966" comment="proto-Explorer civ-Russians type-firstname">斐爾德 </string>
     <string _locid="50967" comment="proto-Explorer civ-Russians type-firstname">加夫里爾 </string>
-    <string _locid="50968" comment="proto-Explorer civ-Russians type-firstname">蓋瑞辛</string>
+    <string _locid="50968" comment="proto-Explorer civ-Russians type-firstname">蓋瑞辛 </string>
     <string _locid="50969" comment="proto-Explorer civ-Russians type-firstname">格里戈里 </string>
-    <string _locid="50970" comment="proto-Explorer civ-Russians type-firstname">伊凡</string>
-    <string _locid="50971" comment="proto-Explorer civ-Russians type-firstname">哈里頓</string>
-    <string _locid="50972" comment="proto-Explorer civ-Russians type-firstname">米凱爾</string>
-    <string _locid="50973" comment="proto-Explorer civ-Russians type-firstname">佩特</string>
+    <string _locid="50970" comment="proto-Explorer civ-Russians type-firstname">伊凡 </string>
+    <string _locid="50971" comment="proto-Explorer civ-Russians type-firstname">哈里頓 </string>
+    <string _locid="50972" comment="proto-Explorer civ-Russians type-firstname">米凱爾 </string>
+    <string _locid="50973" comment="proto-Explorer civ-Russians type-firstname">佩特 </string>
     <string _locid="50974" comment="proto-Explorer civ-Russians type-firstname">比尤特什 </string>
     <string _locid="50975" comment="proto-Explorer civ-Russians type-firstname">塞米昂 </string>
-    <string _locid="50976" comment="proto-Explorer civ-Russians type-firstname">斯坦卡</string>
-    <string _locid="50977" comment="proto-Explorer civ-Russians type-firstname">史帝分</string>
-    <string _locid="50978" comment="proto-Explorer civ-Russians type-firstname">提摩斐</string>
+    <string _locid="50976" comment="proto-Explorer civ-Russians type-firstname">斯坦卡 </string>
+    <string _locid="50977" comment="proto-Explorer civ-Russians type-firstname">史帝分 </string>
+    <string _locid="50978" comment="proto-Explorer civ-Russians type-firstname">提摩斐 </string>
     <string _locid="50979" comment="proto-Explorer civ-Russians type-firstname">瓦西里 </string>
-    <string _locid="50980" comment="proto-Explorer civ-Russians type-firstname">弗拉迪米</string>
-    <string _locid="50981" comment="proto-Explorer civ-Russians type-firstname">維杜斯</string>
-    <string _locid="50982" comment="proto-Explorer civ-Russians type-firstname">葉爾馬克</string>
+    <string _locid="50980" comment="proto-Explorer civ-Russians type-firstname">弗拉迪米 </string>
+    <string _locid="50981" comment="proto-Explorer civ-Russians type-firstname">維杜斯 </string>
+    <string _locid="50982" comment="proto-Explorer civ-Russians type-firstname">葉爾馬克 </string>
     <string _locid="50983" comment="proto-Explorer civ-Russians type-lastname">亞特拉索夫</string>
     <string _locid="50984" comment="proto-Explorer civ-Russians type-lastname">巴格遜</string>
     <string _locid="50985" comment="proto-Explorer civ-Russians type-lastname">巴拉諾夫</string>
@@ -1012,32 +1012,32 @@
     <string _locid="51009" comment="proto-Explorer civ-Russians type-lastname">瓦西里耶夫 </string>
     <string _locid="51010" comment="proto-Explorer civ-Russians type-lastname">伊拉吉</string>
     <string _locid="51011" comment="proto-Explorer civ-Russians type-lastname">伊法諾夫</string>
-    <string _locid="51012" comment="proto-Explorer civ-Spanish type-firstname">艾隆梭</string>
-    <string _locid="51013" comment="proto-Explorer civ-Spanish type-firstname">阿法爾</string>
-    <string _locid="51014" comment="proto-Explorer civ-Spanish type-firstname">安德烈</string>
-    <string _locid="51015" comment="proto-Explorer civ-Spanish type-firstname">安東尼亞</string>
-    <string _locid="51016" comment="proto-Explorer civ-Spanish type-firstname">柏納爾</string>
-    <string _locid="51017" comment="proto-Explorer civ-Spanish type-firstname">克里斯多柏</string>
-    <string _locid="51018" comment="proto-Explorer civ-Spanish type-firstname">狄亞哥</string>
-    <string _locid="51019" comment="proto-Explorer civ-Spanish type-firstname">多明哥</string>
-    <string _locid="51020" comment="proto-Explorer civ-Spanish type-firstname">崔斯坦</string>
-    <string _locid="51021" comment="proto-Explorer civ-Spanish type-firstname">艾斯特方尼可</string>
-    <string _locid="51022" comment="proto-Explorer civ-Spanish type-firstname">伍思拜歐</string>
-    <string _locid="51023" comment="proto-Explorer civ-Spanish type-firstname">佛爾頓</string>
-    <string _locid="51024" comment="proto-Explorer civ-Spanish type-firstname">法蘭西斯科</string>
-    <string _locid="51025" comment="proto-Explorer civ-Spanish type-firstname">湯馬斯</string>
-    <string _locid="51026" comment="proto-Explorer civ-Spanish type-firstname">赫曼</string>
-    <string _locid="51027" comment="proto-Explorer civ-Spanish type-firstname">赫曼多</string>
-    <string _locid="51028" comment="proto-Explorer civ-Spanish type-firstname">胡安</string>
-    <string _locid="51029" comment="proto-Explorer civ-Spanish type-firstname">朱尼佩羅</string>
-    <string _locid="51030" comment="proto-Explorer civ-Spanish type-firstname">洛普</string>
-    <string _locid="51031" comment="proto-Explorer civ-Spanish type-firstname">盧卡斯</string>
-    <string _locid="51032" comment="proto-Explorer civ-Spanish type-firstname">路易斯</string>
-    <string _locid="51033" comment="proto-Explorer civ-Spanish type-firstname">馬可斯</string>
-    <string _locid="51034" comment="proto-Explorer civ-Spanish type-firstname">潘菲洛</string>
-    <string _locid="51035" comment="proto-Explorer civ-Spanish type-firstname">席爾發特</string>
-    <string _locid="51036" comment="proto-Explorer civ-Spanish type-firstname">瓦斯克斯</string>
-    <string _locid="51037" comment="proto-Explorer civ-Spanish type-firstname">維森特</string>
+    <string _locid="51012" comment="proto-Explorer civ-Spanish type-firstname">艾隆梭 </string>
+    <string _locid="51013" comment="proto-Explorer civ-Spanish type-firstname">阿法爾 </string>
+    <string _locid="51014" comment="proto-Explorer civ-Spanish type-firstname">安德烈 </string>
+    <string _locid="51015" comment="proto-Explorer civ-Spanish type-firstname">安東尼亞 </string>
+    <string _locid="51016" comment="proto-Explorer civ-Spanish type-firstname">柏納爾 </string>
+    <string _locid="51017" comment="proto-Explorer civ-Spanish type-firstname">克里斯多柏 </string>
+    <string _locid="51018" comment="proto-Explorer civ-Spanish type-firstname">狄亞哥 </string>
+    <string _locid="51019" comment="proto-Explorer civ-Spanish type-firstname">多明哥 </string>
+    <string _locid="51020" comment="proto-Explorer civ-Spanish type-firstname">崔斯坦 </string>
+    <string _locid="51021" comment="proto-Explorer civ-Spanish type-firstname">艾斯特方尼可 </string>
+    <string _locid="51022" comment="proto-Explorer civ-Spanish type-firstname">伍思拜歐 </string>
+    <string _locid="51023" comment="proto-Explorer civ-Spanish type-firstname">佛爾頓 </string>
+    <string _locid="51024" comment="proto-Explorer civ-Spanish type-firstname">法蘭西斯科 </string>
+    <string _locid="51025" comment="proto-Explorer civ-Spanish type-firstname">湯馬斯 </string>
+    <string _locid="51026" comment="proto-Explorer civ-Spanish type-firstname">赫曼 </string>
+    <string _locid="51027" comment="proto-Explorer civ-Spanish type-firstname">赫曼多 </string>
+    <string _locid="51028" comment="proto-Explorer civ-Spanish type-firstname">胡安 </string>
+    <string _locid="51029" comment="proto-Explorer civ-Spanish type-firstname">朱尼佩羅 </string>
+    <string _locid="51030" comment="proto-Explorer civ-Spanish type-firstname">洛普 </string>
+    <string _locid="51031" comment="proto-Explorer civ-Spanish type-firstname">盧卡斯 </string>
+    <string _locid="51032" comment="proto-Explorer civ-Spanish type-firstname">路易斯 </string>
+    <string _locid="51033" comment="proto-Explorer civ-Spanish type-firstname">馬可斯 </string>
+    <string _locid="51034" comment="proto-Explorer civ-Spanish type-firstname">潘菲洛 </string>
+    <string _locid="51035" comment="proto-Explorer civ-Spanish type-firstname">席爾發特 </string>
+    <string _locid="51036" comment="proto-Explorer civ-Spanish type-firstname">瓦斯克斯 </string>
+    <string _locid="51037" comment="proto-Explorer civ-Spanish type-firstname">維森特 </string>
     <string _locid="51038" comment="proto-Explorer civ-Spanish type-lastname">阿爾弗勒絲</string>
     <string _locid="51039" comment="proto-Explorer civ-Spanish type-lastname">德皮納得</string>
     <string _locid="51040" comment="proto-Explorer civ-Spanish type-lastname">德卡斯提羅</string>
@@ -2287,7 +2287,7 @@
     <string _locid="52309" comment="proto-dePadre civ-DEMexicans type-firstname">米格爾 </string>
     <string _locid="52310" comment="proto-dePadre civ-DEMexicans type-firstname">馬里亞諾 </string>
     <string _locid="52311" comment="proto-dePadre civ-DEMexicans type-firstname">何塞 </string>
-    <string _locid="52312" comment="proto-dePadre civ-DEMexicans type-firstname">維森特</string>
+    <string _locid="52312" comment="proto-dePadre civ-DEMexicans type-firstname">維森特 </string>
     <string _locid="52313" comment="proto-Saloon civ-DEMexicans type-title">帝國酒館</string>
     <string _locid="52314" comment="proto-Saloon civ-DEMexicans type-title">你好酒館</string>
     <string _locid="52315" comment="proto-Saloon civ-DEMexicans type-title">酒館</string>
@@ -2300,7 +2300,7 @@
     <string _locid="52322" comment="proto-deGeneral civ-DEMexicans type-firstname">安東尼奧‧羅培茲 </string>
     <string _locid="52323" comment="proto-deGeneral civ-DEMexicans type-firstname">尼古拉斯 </string>
     <string _locid="52324" comment="proto-deGeneral civ-DEMexicans type-firstname">何塞 </string>
-    <string _locid="52325" comment="proto-deGeneral civ-DEMexicans type-firstname">維森特</string>
+    <string _locid="52325" comment="proto-deGeneral civ-DEMexicans type-firstname">維森特 </string>
     <string _locid="52326" comment="proto-deGeneral civ-DEMexicans type-firstname">安納塔西奧 </string>
     <string _locid="52327" comment="proto-deGeneral civ-DEMexicans type-firstname">梅爾喬 </string>
     <string _locid="52328" comment="proto-deGeneral civ-DEMexicans type-firstname">曼努埃爾‧戈麥斯 </string>
@@ -2309,18 +2309,18 @@
     <string _locid="52331" comment="proto-deGeneral civ-DEMexicans type-firstname">菲利普‧聖地亞哥 </string>
     <string _locid="52332" comment="proto-deGeneral civ-DEMexicans type-firstname">李奧納多 </string>
     <string _locid="52333" comment="proto-deGeneral civ-DEMexicans type-firstname">赫爾梅吉爾多 </string>
-    <string _locid="52334" comment="proto-deGeneral civ-DEMexicans type-firstname">法蘭西斯科</string>
+    <string _locid="52334" comment="proto-deGeneral civ-DEMexicans type-firstname">法蘭西斯科 </string>
     <string _locid="52335" comment="proto-deGeneral civ-DEMexicans type-firstname">胡安‧帕布羅 </string>
     <string _locid="52336" comment="proto-deGeneral civ-DEMexicans type-firstname">維克多 </string>
     <string _locid="52337" comment="proto-deGeneral civ-DEMexicans type-firstname">卡洛斯‧薩拉札爾 </string>
     <string _locid="52338" comment="proto-deGeneral civ-DEMexicans type-firstname">阿古斯汀 </string>
     <string _locid="52339" comment="proto-deGeneral civ-DEMexicans type-firstname">馬里亞諾 </string>
     <string _locid="52340" comment="proto-deGeneral civ-DEMexicans type-firstname">米格爾 </string>
-    <string _locid="52341" comment="proto-deGeneral civ-DEMexicans type-firstname">吉恩</string>
+    <string _locid="52341" comment="proto-deGeneral civ-DEMexicans type-firstname">吉恩 </string>
     <string _locid="52342" comment="proto-deGeneral civ-DEMexicans type-firstname">何塞‧伊格納西奧 </string>
     <string _locid="52343" comment="proto-deGeneral civ-DEMexicans type-firstname">何塞‧阿爾塔加 </string>
     <string _locid="52344" comment="proto-deGeneral civ-DEMexicans type-firstname">何塞‧安東尼奧首領 </string>
-    <string _locid="52345" comment="proto-deGeneral civ-DEMexicans type-firstname">維森特</string>
+    <string _locid="52345" comment="proto-deGeneral civ-DEMexicans type-firstname">維森特 </string>
     <string _locid="52346" comment="proto-deGeneral civ-DEMexicans type-lastname">聖塔‧安那</string>
     <string _locid="52347" comment="proto-deGeneral civ-DEMexicans type-lastname">布拉沃</string>
     <string _locid="52348" comment="proto-deGeneral civ-DEMexicans type-lastname">布斯塔曼特</string>
@@ -2348,12 +2348,12 @@
     <string _locid="52370" comment="proto-dePadre civ-DEMexicans type-firstname">路易斯·婓力普 </string>
     <string _locid="52371" comment="proto-dePadre civ-DEMexicans type-firstname">巴托羅米 </string>
     <string _locid="52372" comment="proto-dePadre civ-DEMexicans type-firstname">基思 </string>
-    <string _locid="52373" comment="proto-dePadre civ-DEMexicans type-firstname">法蘭西斯科</string>
+    <string _locid="52373" comment="proto-dePadre civ-DEMexicans type-firstname">法蘭西斯科 </string>
     <string _locid="52374" comment="proto-dePadre civ-DEMexicans type-firstname">安東尼奧‧羅培茲 </string>
     <string _locid="52375" comment="proto-dePadre civ-DEMexicans type-firstname">赫蘇斯·門德斯 </string>
     <string _locid="52376" comment="proto-dePadre civ-DEMexicans type-firstname">薩爾瓦多 </string>
     <string _locid="52377" comment="proto-dePadre civ-DEMexicans type-firstname">何塞 </string>
-    <string _locid="52378" comment="proto-dePadre civ-DEMexicans type-firstname">胡安</string>
+    <string _locid="52378" comment="proto-dePadre civ-DEMexicans type-firstname">胡安 </string>
     <string _locid="52379" comment="proto-dePadre civ-DEMexicans type-firstname">路易斯·婓力普 </string>
     <string _locid="52380" comment="proto-dePadre civ-DEMexicans type-firstname">胡安·狄亞哥 </string>
     <string _locid="52381" comment="proto-dePadre civ-DEMexicans type-lastname">卡奧拉特奧塔欽</string>
@@ -2680,5 +2680,513 @@
     <string _locid="54349" comment="proto-deMercBattleship civ-French type-title">復仇者號</string>
     <string _locid="54350" comment="proto-deMercBattleship civ-French type-title">蒙特貝洛號</string>
     <string _locid="54351" comment="proto-deMercBattleship civ-Germans type-title">阿德爾‧馮‧呂貝克號</string>
+    <string _locid="54352" comment="proto-deHetman type-firstname">亞當 </string>
+    <string _locid="54353" comment="proto-deHetman type-firstname">亞歷山大 </string>
+    <string _locid="54354" comment="proto-deHetman type-firstname">安傑伊 </string>
+    <string _locid="54355" comment="proto-deHetman type-firstname">迪米特 </string>
+    <string _locid="54356" comment="proto-deHetman type-firstname">歐內斯塔斯 </string>
+    <string _locid="54357" comment="proto-deHetman type-firstname">費利克斯 </string>
+    <string _locid="54358" comment="proto-deHetman type-firstname">法蘭西斯切克 </string>
+    <string _locid="54359" comment="proto-deHetman type-firstname">格裡加利烏斯 </string>
+    <string _locid="54360" comment="proto-deHetman type-firstname">格熱戈茲 </string>
+    <string _locid="54361" comment="proto-deHetman type-firstname">希羅尼姆 </string>
+    <string _locid="54362" comment="proto-deHetman type-firstname">珍卡羅爾 </string>
+    <string _locid="54363" comment="proto-deHetman type-firstname">雅努什 </string>
+    <string _locid="54364" comment="proto-deHetman type-firstname">耶日 </string>
+    <string _locid="54365" comment="proto-deHetman type-firstname">喬納斯 </string>
+    <string _locid="54366" comment="proto-deHetman type-firstname">約瑟夫 </string>
+    <string _locid="54367" comment="proto-deHetman type-firstname">康斯坦蒂 </string>
+    <string _locid="54368" comment="proto-deHetman type-firstname">克里斯圖帕斯 </string>
+    <string _locid="54369" comment="proto-deHetman type-firstname">克日什托夫 </string>
+    <string _locid="54370" comment="proto-deHetman type-firstname">盧 </string>
+    <string _locid="54371" comment="proto-deHetman type-firstname">柳德維卡斯 </string>
+    <string _locid="54372" comment="proto-deHetman type-firstname">路德維 </string>
+    <string _locid="54373" comment="proto-deHetman type-firstname">馬辛 </string>
+    <string _locid="54374" comment="proto-deHetman type-firstname">馬特烏斯 </string>
+    <string _locid="54375" comment="proto-deHetman type-firstname">米赫爾 </string>
+    <string _locid="54376" comment="proto-deHetman type-firstname">米科瓦伊 </string>
+    <string _locid="54377" comment="proto-deHetman type-firstname">米科拉斯 </string>
+    <string _locid="54378" comment="proto-deHetman type-firstname">帕維爾揚 </string>
+    <string _locid="54379" comment="proto-deHetman type-firstname">彼得 </string>
+    <string _locid="54380" comment="proto-deHetman type-firstname">羅馬 </string>
+    <string _locid="54381" comment="proto-deHetman type-firstname">蘇爾仁 </string>
+    <string _locid="54382" comment="proto-deHetman type-firstname">西蒙納斯 </string>
+    <string _locid="54383" comment="proto-deHetman type-firstname">斯坦尼斯瓦夫 </string>
+    <string _locid="54384" comment="proto-deHetman type-firstname">斯坦尼斯洛瓦斯 </string>
+    <string _locid="54385" comment="proto-deHetman type-firstname">斯特凡 </string>
+    <string _locid="54386" comment="proto-deHetman type-firstname">沃克勞 </string>
+    <string _locid="54387" comment="proto-deHetman type-firstname">瓦迪斯瓦夫 </string>
+    <string _locid="54388" comment="proto-deHetman type-lastname">布拉尼基</string>
+    <string _locid="54389" comment="proto-deHetman type-lastname">喬查</string>
+    <string _locid="54390" comment="proto-deHetman type-lastname">喬德基</string>
+    <string _locid="54391" comment="proto-deHetman type-lastname">霍德凱維奇</string>
+    <string _locid="54392" comment="proto-deHetman type-lastname">喬梅托夫斯基</string>
+    <string _locid="54393" comment="proto-deHetman type-lastname">恰爾涅茨基</string>
+    <string _locid="54394" comment="proto-deHetman type-lastname">登霍法斯</string>
+    <string _locid="54395" comment="proto-deHetman type-lastname">菲爾萊</string>
+    <string _locid="54396" comment="proto-deHetman type-lastname">雅布洛諾夫斯基</string>
+    <string _locid="54397" comment="proto-deHetman type-lastname">賈茲洛維茨基</string>
+    <string _locid="54398" comment="proto-deHetman type-lastname">卡林諾斯基</string>
+    <string _locid="54399" comment="proto-deHetman type-lastname">卡米涅茨基</string>
+    <string _locid="54400" comment="proto-deHetman type-lastname">卡扎諾斯基</string>
+    <string _locid="54401" comment="proto-deHetman type-lastname">卡齊米拉斯</string>
+    <string _locid="54402" comment="proto-deHetman type-lastname">肯斯蓋拉</string>
+    <string _locid="54403" comment="proto-deHetman type-lastname">基什卡</string>
+    <string _locid="54404" comment="proto-deHetman type-lastname">科瓦</string>
+    <string _locid="54405" comment="proto-deHetman type-lastname">科涅茨波爾斯基</string>
+    <string _locid="54406" comment="proto-deHetman type-lastname">科薩科夫斯基斯</string>
+    <string _locid="54407" comment="proto-deHetman type-lastname">蘭科龍斯基</string>
+    <string _locid="54408" comment="proto-deHetman type-lastname">盧博米爾斯基</string>
+    <string _locid="54409" comment="proto-deHetman type-lastname">馬丁納斯</string>
+    <string _locid="54410" comment="proto-deHetman type-lastname">馬薩爾斯基</string>
+    <string _locid="54411" comment="proto-deHetman type-lastname">米萊茨基</string>
+    <string _locid="54412" comment="proto-deHetman type-lastname">梅什科夫斯基</string>
+    <string _locid="54413" comment="proto-deHetman type-lastname">奧金斯基</string>
+    <string _locid="54414" comment="proto-deHetman type-lastname">奧金斯基斯</string>
+    <string _locid="54415" comment="proto-deHetman type-lastname">奧斯特羅格斯基</string>
+    <string _locid="54416" comment="proto-deHetman type-lastname">奧扎羅夫斯基</string>
+    <string _locid="54417" comment="proto-deHetman type-lastname">帕涅維斯基</string>
+    <string _locid="54418" comment="proto-deHetman type-lastname">珀庫納斯</string>
+    <string _locid="54419" comment="proto-deHetman type-lastname">皮尼亞澤克</string>
+    <string _locid="54420" comment="proto-deHetman type-lastname">皮奧倫</string>
+    <string _locid="54421" comment="proto-deHetman type-lastname">波西尤斯</string>
+    <string _locid="54422" comment="proto-deHetman type-lastname">波托基</string>
+    <string _locid="54423" comment="proto-deHetman type-lastname">拉西博爾參</string>
+    <string _locid="54424" comment="proto-deHetman type-lastname">拉德維拉</string>
+    <string _locid="54425" comment="proto-deHetman type-lastname">拉齊維爾</string>
+    <string _locid="54426" comment="proto-deHetman type-lastname">雷維拉</string>
+    <string _locid="54427" comment="proto-deHetman type-lastname">雷本科</string>
+    <string _locid="54428" comment="proto-deHetman type-lastname">熱烏斯基</string>
+    <string _locid="54429" comment="proto-deHetman type-lastname">桑古什科</string>
+    <string _locid="54430" comment="proto-deHetman type-lastname">薩皮耶哈</string>
+    <string _locid="54431" comment="proto-deHetman type-lastname">謝尼亞夫斯基</string>
+    <string _locid="54432" comment="proto-deHetman type-lastname">索別斯基</string>
+    <string _locid="54433" comment="proto-deHetman type-lastname">索斯諾斯基</string>
+    <string _locid="54434" comment="proto-deHetman type-lastname">塔諾斯基</string>
+    <string _locid="54435" comment="proto-deHetman type-lastname">托洛斯基</string>
+    <string _locid="54436" comment="proto-deHetman type-lastname">蒂什凱維奇</string>
+    <string _locid="54437" comment="proto-deHetman type-lastname">維斯尼奧維茨基</string>
+    <string _locid="54438" comment="proto-deHetman type-lastname">沃沃維奇</string>
+    <string _locid="54439" comment="proto-deHetman type-lastname">扎莫伊斯基</string>
+    <string _locid="54440" comment="proto-deHetman type-lastname">佐爾凱斯基</string>
+    <string _locid="54441" comment="proto-Explorer civ-Danes type-firstname">第谷 </string>
+    <string _locid="54442" comment="proto-Explorer civ-Danes type-firstname">克里斯蒂安 </string>
+    <string _locid="54443" comment="proto-Explorer civ-Danes type-firstname">奧勒 </string>
+    <string _locid="54444" comment="proto-Explorer civ-Danes type-firstname">漢斯 </string>
+    <string _locid="54445" comment="proto-Explorer civ-Danes type-firstname">埃伯哈德 </string>
+    <string _locid="54446" comment="proto-Explorer civ-Danes type-firstname">約根 </string>
+    <string _locid="54447" comment="proto-Explorer civ-Danes type-firstname">約翰 </string>
+    <string _locid="54448" comment="proto-Explorer civ-Danes type-firstname">卡斯滕 </string>
+    <string _locid="54449" comment="proto-Explorer civ-Danes type-firstname">弗雷德里克 </string>
+    <string _locid="54450" comment="proto-Explorer civ-Danes type-firstname">莫滕 </string>
+    <string _locid="54451" comment="proto-Explorer civ-Danes type-firstname">雅各布 </string>
+    <string _locid="54452" comment="proto-Explorer civ-Danes type-firstname">延斯 </string>
+    <string _locid="54453" comment="proto-Explorer civ-Danes type-firstname">卡爾 </string>
+    <string _locid="54454" comment="proto-Explorer civ-Danes type-firstname">埃里克 </string>
+    <string _locid="54455" comment="proto-Explorer civ-Danes type-firstname">迪德里克 </string>
+    <string _locid="54456" comment="proto-Explorer civ-Danes type-firstname">保羅 </string>
+    <string _locid="54457" comment="proto-Explorer civ-Danes type-lastname">布拉赫</string>
+    <string _locid="54458" comment="proto-Explorer civ-Danes type-lastname">巴內科</string>
+    <string _locid="54459" comment="proto-Explorer civ-Danes type-lastname">本迪克森</string>
+    <string _locid="54460" comment="proto-Explorer civ-Danes type-lastname">布倫斯特德</string>
+    <string _locid="54461" comment="proto-Explorer civ-Danes type-lastname">埃克隆</string>
+    <string _locid="54462" comment="proto-Explorer civ-Danes type-lastname">埃格德</string>
+    <string _locid="54463" comment="proto-Explorer civ-Danes type-lastname">伊德斯</string>
+    <string _locid="54464" comment="proto-Explorer civ-Danes type-lastname">約根森</string>
+    <string _locid="54465" comment="proto-Explorer civ-Danes type-lastname">科赫</string>
+    <string _locid="54466" comment="proto-Explorer civ-Danes type-lastname">尼布爾</string>
+    <string _locid="54467" comment="proto-Explorer civ-Danes type-lastname">諾登</string>
+    <string _locid="54468" comment="proto-Explorer civ-Danes type-lastname">斯潘伯格</string>
+    <string _locid="54469" comment="proto-Explorer civ-Danes type-lastname">烏爾費爾特</string>
+    <string _locid="54470" comment="proto-Explorer civ-Danes type-lastname">蒙克</string>
+    <string _locid="54471" comment="proto-Explorer civ-Danes type-lastname">博克</string>
+    <string _locid="54472" comment="proto-Explorer civ-Danes type-lastname">埃里克森</string>
+    <string _locid="54473" comment="proto-Explorer civ-Danes type-lastname">馮·哈芬</string>
+    <string _locid="54474" comment="proto-Explorer civ-Danes type-lastname">賓寧</string>
+    <string _locid="54475" comment="proto-Explorer civ-Danes type-lastname">諾爾瑟</string>
+    <string _locid="54476" comment="proto-Fort civ-Danes type-title">奧爾霍姆城堡</string>
+    <string _locid="54477" comment="proto-Fort civ-Danes type-title">尼克賓城堡</string>
+    <string _locid="54478" comment="proto-Fort civ-Danes type-title">弗拉德斯特蘭德要塞</string>
+    <string _locid="54479" comment="proto-Fort civ-Danes type-title">克倫堡</string>
+    <string _locid="54480" comment="proto-Fort civ-Danes type-title">埃爾西諾</string>
+    <string _locid="54481" comment="proto-Fort civ-Danes type-title">斯坎辛要塞</string>
+    <string _locid="54482" comment="proto-Fort civ-Danes type-title">科靈胡斯城堡</string>
+    <string _locid="54483" comment="proto-Fort civ-Danes type-title">特雷克羅納堡壘</string>
+    <string _locid="54484" comment="proto-Fort civ-Danes type-title">哈默斯胡斯要塞</string>
+    <string _locid="54485" comment="proto-Fort civ-Danes type-title">馬爾默胡斯城堡</string>
+    <string _locid="54486" comment="proto-Fort civ-Danes type-title">赫爾辛堡要塞</string>
+    <string _locid="54487" comment="proto-Fort civ-Danes type-title">蘭斯克魯納要塞</string>
+    <string _locid="54488" comment="proto-Fort civ-Danes type-title">倫茨堡要塞</string>
+    <string _locid="54489" comment="proto-Fort civ-Danes type-title">弗雷德里克斯堡城堡</string>
+    <string _locid="54490" comment="proto-Fort civ-Danes type-title">弗倫斯堡胡斯</string>
+    <string _locid="54491" comment="proto-Fort civ-Danes type-title">伊格斯科夫城堡</string>
+    <string _locid="54492" comment="proto-Fort civ-Danes type-title">斯坎納堡</string>
+    <string _locid="54493" comment="proto-Fort civ-Danes type-title">里伯胡斯城堡</string>
+    <string _locid="54494" comment="proto-Fort civ-Danes type-title">阿克斯胡斯要塞</string>
+    <string _locid="54495" comment="proto-Fort civ-Danes type-title">瓦爾德胡斯要塞</string>
+    <string _locid="54496" comment="proto-Fort civ-Danes type-title">孔斯溫格要塞</string>
+    <string _locid="54497" comment="proto-Fort civ-Danes type-title">弗雷德里克斯坦要塞</string>
+    <string _locid="54498" comment="proto-Fort civ-Danes type-title">卑爾根胡斯要塞</string>
+    <string _locid="54499" comment="proto-Fort civ-Danes type-title">克里斯蒂安霍姆要塞</string>
+    <string _locid="54500" comment="proto-Fort civ-Danes type-title">卡斯特雷特要塞</string>
+    <string _locid="54501" comment="proto-Fort civ-Danes type-title">哥本哈根城堡</string>
+    <string _locid="54502" comment="proto-Fort civ-Danes type-title">克里斯蒂安菲耶爾要塞</string>
+    <string _locid="54503" comment="proto-Fort civ-Danes type-title">克里斯蒂安島要塞</string>
+    <string _locid="54504" comment="proto-Fort civ-Danes type-title">克里斯蒂安島要塞</string>
+    <string _locid="54505" comment="proto-Fort civ-Danes type-title">克里斯蒂安斯坦要塞</string>
+    <string _locid="54506" comment="proto-Fort civ-Danes type-title">奧德勒亞要塞</string>
+    <string _locid="54507" comment="proto-Fort civ-Danes type-title">弗雷德里克索特要塞</string>
+    <string _locid="54508" comment="proto-Fort civ-Danes type-title">腓特烈西亞要塞</string>
+    <string _locid="54509" comment="proto-Fort civ-Danes type-title">蒙克霍爾曼要塞</string>
+    <string _locid="54510" comment="proto-Fort civ-Danes type-title">布拉科堡壘</string>
+    <string _locid="54511" comment="proto-Fort civ-Danes type-title">尼堡城堡</string>
+    <string _locid="54512" comment="proto-Fort civ-Danes type-title">阿爾滕胡斯要塞</string>
+    <string _locid="54513" comment="proto-Fort civ-Danes type-title">弗雷德里克堡要塞</string>
+    <string _locid="54514" comment="proto-Fort civ-Danes type-title">弗雷德里克斯塔德要塞</string>
+    <string _locid="54515" comment="proto-Fort civ-Danes type-title">斯塔韋恩要塞</string>
+    <string _locid="54516" comment="proto-Fort civ-Poles type-title">特拉凱城堡</string>
+    <string _locid="54517" comment="proto-Fort civ-Poles type-title">維爾紐斯城堡</string>
+    <string _locid="54518" comment="proto-Fort civ-Poles type-title">比爾扎伊城堡</string>
+    <string _locid="54519" comment="proto-Fort civ-Poles type-title">克萊佩達城堡</string>
+    <string _locid="54520" comment="proto-Fort civ-Poles type-title">布列斯特城堡</string>
+    <string _locid="54521" comment="proto-Fort civ-Poles type-title">卡緬涅茨-波多利斯基</string>
+    <string _locid="54522" comment="proto-Fort civ-Poles type-title">考納斯城堡</string>
+    <string _locid="54523" comment="proto-Fort civ-Poles type-title">科布林城堡</string>
+    <string _locid="54524" comment="proto-Fort civ-Poles type-title">克雷梅內茨城堡</string>
+    <string _locid="54525" comment="proto-Fort civ-Poles type-title">利達城堡</string>
+    <string _locid="54526" comment="proto-Fort civ-Poles type-title">盧茨克城堡</string>
+    <string _locid="54527" comment="proto-Fort civ-Poles type-title">涅斯維日城堡</string>
+    <string _locid="54528" comment="proto-Fort civ-Poles type-title">巴托里城堡</string>
+    <string _locid="54529" comment="proto-Fort civ-Poles type-title">米爾城堡</string>
+    <string _locid="54530" comment="proto-Fort civ-Poles type-title">蒂科欽城堡</string>
+    <string _locid="54531" comment="proto-Fort civ-Poles type-title">馬爾堡城堡</string>
+    <string _locid="54532" comment="proto-Fort civ-Poles type-title">維斯洛烏伊希切要塞</string>
+    <string _locid="54533" comment="proto-Fort civ-Poles type-title">桑多梅日城堡</string>
+    <string _locid="54534" comment="proto-Fort civ-Poles type-title">扎莫希奇要塞</string>
+    <string _locid="54535" comment="proto-Fort civ-Poles type-title">克沃茲科要塞</string>
+    <string _locid="54536" comment="proto-Fort civ-Poles type-title">斯雷布爾納古拉堡壘</string>
+    <string _locid="54537" comment="proto-Fort civ-Poles type-title">登布林要塞</string>
+    <string _locid="54538" comment="proto-Fort civ-Poles type-title">莫德林要塞</string>
+    <string _locid="54539" comment="proto-Fort civ-Poles type-title">托倫要塞</string>
+    <string _locid="54540" comment="proto-Fort civ-Poles type-title">克拉科夫瓮城</string>
+    <string _locid="54541" comment="proto-Fort civ-Poles type-title">克拉科夫要塞</string>
+    <string _locid="54542" comment="proto-Fort civ-Poles type-title">喬哈城堡</string>
+    <string _locid="54543" comment="proto-Fort civ-Poles type-title">盧布林城堡</string>
+    <string _locid="54544" comment="proto-Fort civ-Poles type-title">克雄日城堡</string>
+    <string _locid="54545" comment="proto-Fort civ-Poles type-title">波德霍雷茨城堡</string>
+    <string _locid="54546" comment="proto-Fort civ-Poles type-title">霍廷要塞</string>
+    <string _locid="54547" comment="proto-Fort civ-Poles type-title">杜布諾城堡</string>
+    <string _locid="54548" comment="proto-Fort civ-Poles type-title">茲巴拉日城堡</string>
+    <string _locid="54549" comment="proto-Fort civ-Poles type-title">梅吉比日要塞</string>
+    <string _locid="54550" comment="proto-Fort civ-Poles type-title">科達克要塞</string>
+    <string _locid="54551" comment="proto-Fort civ-Poles type-title">米陶城堡</string>
+    <string _locid="54552" comment="proto-Fort civ-Poles type-title">庫爾迪加城堡</string>
+    <string _locid="54553" comment="proto-Fort civ-Poles type-title">里加城堡</string>
+    <string _locid="54554" comment="proto-Fort civ-Poles type-title">道加夫格里瓦城堡</string>
+    <string _locid="54555" comment="proto-Fort civ-Poles type-title">迪納堡城堡</string>
+    <string _locid="54556" comment="proto-Fort civ-Poles type-title">皇家城堡</string>
+    <string _locid="54557" comment="proto-Fort civ-Poles type-title">克里日托普城堡</string>
+    <string _locid="54558" comment="proto-Fort civ-Poles type-title">克拉西琴城堡</string>
+    <string _locid="54559" comment="proto-Caravel civ-Poles type-title">鳳凰號</string>
+    <string _locid="54560" comment="proto-Caravel civ-Poles type-title">格但斯克的彼得號</string>
+    <string _locid="54561" comment="proto-Caravel civ-Poles type-title">射手號</string>
+    <string _locid="54562" comment="proto-Caravel civ-Poles type-title">繁星號</string>
+    <string _locid="54563" comment="proto-Caravel civ-Poles type-title">仁慈號</string>
+    <string _locid="54564" comment="proto-Caravel civ-Poles type-title">白鷹號</string>
+    <string _locid="54565" comment="proto-Caravel civ-Poles type-title">白獅號</string>
+    <string _locid="54566" comment="proto-Caravel civ-Poles type-title">黃獅號</string>
+    <string _locid="54567" comment="proto-Caravel civ-Poles type-title">水仙女號</string>
+    <string _locid="54568" comment="proto-Caravel civ-Poles type-title">諾亞方舟號</string>
+    <string _locid="54569" comment="proto-Caravel civ-Poles type-title">烈焰號</string>
+    <string _locid="54570" comment="proto-Caravel civ-Poles type-title">水瓶座號</string>
+    <string _locid="54571" comment="proto-Caravel civ-Poles type-title">黑鴉號</string>
+    <string _locid="54572" comment="proto-Caravel civ-Poles type-title">飛鹿號</string>
+    <string _locid="54573" comment="proto-Galleon civ-Poles type-title">猛虎號</string>
+    <string _locid="54574" comment="proto-Galleon civ-Poles type-title">神龍號</string>
+    <string _locid="54575" comment="proto-Galleon civ-Poles type-title">烈陽號</string>
+    <string _locid="54576" comment="proto-Galleon civ-Poles type-title">先知薩穆埃爾號</string>
+    <string _locid="54577" comment="proto-Galleon civ-Poles type-title">騎士號</string>
+    <string _locid="54578" comment="proto-Galleon civ-Poles type-title">聖喬治號</string>
+    <string _locid="54579" comment="proto-Galleon civ-Poles type-title">大衛王號</string>
+    <string _locid="54580" comment="proto-Galleon civ-Poles type-title">黑鷹號</string>
+    <string _locid="54581" comment="proto-Monitor civ-Poles type-title">聖卡齊米日號</string>
+    <string _locid="54582" comment="proto-Monitor civ-Poles type-title">黑森領地伯爵號</string>
+    <string _locid="54583" comment="proto-Monitor civ-Poles type-title">庫爾迪加的卡特琳娜號</string>
+    <string _locid="54584" comment="proto-Monitor civ-Poles type-title">花盆號</string>
+    <string _locid="54585" comment="proto-Monitor civ-Poles type-title">巨鯨號</string>
+    <string _locid="54586" comment="proto-Monitor civ-Poles type-title">岡比亞與多巴哥號</string>
+    <string _locid="54587" comment="proto-Frigate civ-Poles type-title">騎士號</string>
+    <string _locid="54588" comment="proto-Frigate civ-Poles type-title">大雅各號</string>
+    <string _locid="54589" comment="proto-Frigate civ-Poles type-title">庫爾蘭公主號</string>
+    <string _locid="54590" comment="proto-Frigate civ-Poles type-title">庫爾蘭紋章號</string>
+    <string _locid="54591" comment="proto-Frigate civ-Poles type-title">王儲殿下號</string>
+    <string _locid="54592" comment="proto-Frigate civ-Poles type-title">庫爾蘭王子號</string>
+    <string _locid="54593" comment="proto-Frigate civ-Poles type-title">堅毅號</string>
+    <string _locid="54594" comment="proto-deMercBattleship civ-Poles type-title">庫爾蘭公爵夫人號</string>
+    <string _locid="54595" comment="proto-deMercBattleship civ-Poles type-title">庫爾蘭公爵夫人號</string>
+    <string _locid="54596" comment="proto-deMercBattleship civ-Poles type-title">腓特烈·威廉王子號</string>
+    <string _locid="54597" comment="proto-Caravel civ-Danes type-title">太陽號</string>
+    <string _locid="54598" comment="proto-Caravel civ-Danes type-title">海豚號</string>
+    <string _locid="54599" comment="proto-Caravel civ-Danes type-title">格洛馬號</string>
+    <string _locid="54600" comment="proto-Caravel civ-Danes type-title">薩普號</string>
+    <string _locid="54601" comment="proto-Caravel civ-Danes type-title">河流號</string>
+    <string _locid="54602" comment="proto-Caravel civ-Danes type-title">慰藉號</string>
+    <string _locid="54603" comment="proto-Caravel civ-Danes type-title">蘭格蘭號</string>
+    <string _locid="54604" comment="proto-Caravel civ-Danes type-title">洛蘭號</string>
+    <string _locid="54605" comment="proto-Caravel civ-Danes type-title">阿拉特號</string>
+    <string _locid="54606" comment="proto-Caravel civ-Danes type-title">勞根號</string>
+    <string _locid="54607" comment="proto-Caravel civ-Danes type-title">小貝爾特號</string>
+    <string _locid="54608" comment="proto-Caravel civ-Danes type-title">巨蛇號</string>
+    <string _locid="54609" comment="proto-Caravel civ-Danes type-title">格里布斯松登號</string>
+    <string _locid="54610" comment="proto-Galleon civ-Danes type-title">特里同號</string>
+    <string _locid="54611" comment="proto-Galleon civ-Danes type-title">基甸號</string>
+    <string _locid="54612" comment="proto-Galleon civ-Danes type-title">阿爾戈號</string>
+    <string _locid="54613" comment="proto-Galleon civ-Danes type-title">白鷹號</string>
+    <string _locid="54614" comment="proto-Galleon civ-Danes type-title">聖奧拉夫號</string>
+    <string _locid="54615" comment="proto-Galleon civ-Danes type-title">猞猁號</string>
+    <string _locid="54616" comment="proto-Galleon civ-Danes type-title">斯納倫斯文德號</string>
+    <string _locid="54617" comment="proto-Galleon civ-Danes type-title">米迦勒號</string>
+    <string _locid="54618" comment="proto-Galleon civ-Danes type-title">水仙女號</string>
+    <string _locid="54619" comment="proto-Galleon civ-Danes type-title">白鷹號</string>
+    <string _locid="54620" comment="proto-Galleon civ-Danes type-title">水仙女號</string>
+    <string _locid="54621" comment="proto-Frigate civ-Danes type-title">博恩霍姆號</string>
+    <string _locid="54622" comment="proto-Frigate civ-Danes type-title">漢尼拔號</string>
+    <string _locid="54623" comment="proto-Frigate civ-Danes type-title">霍爾斯坦號</string>
+    <string _locid="54624" comment="proto-Frigate civ-Danes type-title">克拉巴滕號</string>
+    <string _locid="54625" comment="proto-Frigate civ-Danes type-title">菲英號</string>
+    <string _locid="54626" comment="proto-Frigate civ-Danes type-title">參孫號</string>
+    <string _locid="54627" comment="proto-Frigate civ-Danes type-title">大索菲亞號</string>
+    <string _locid="54628" comment="proto-Frigate civ-Danes type-title">格陵蘭號</string>
+    <string _locid="54629" comment="proto-Frigate civ-Danes type-title">石勒蘇益格號</string>
+    <string _locid="54630" comment="proto-Frigate civ-Danes type-title">迪特馬爾申號</string>
+    <string _locid="54631" comment="proto-Frigate civ-Danes type-title">丹麥號</string>
+    <string _locid="54632" comment="proto-Frigate civ-Danes type-title">挪威號</string>
+    <string _locid="54633" comment="proto-Frigate civ-Danes type-title">奧丁號</string>
+    <string _locid="54634" comment="proto-Frigate civ-Danes type-title">盾牌號</string>
+    <string _locid="54635" comment="proto-Frigate civ-Danes type-title">三皇冠號</string>
+    <string _locid="54636" comment="proto-Frigate civ-Danes type-title">丹麥國旗號</string>
+    <string _locid="54637" comment="proto-Frigate civ-Danes type-title">天賦權利號</string>
+    <string _locid="54638" comment="proto-deMercBattleship civ-Danes type-title">挪威獅號</string>
+    <string _locid="54639" comment="proto-deMercBattleship civ-Danes type-title">瓦爾德馬號</string>
+    <string _locid="54640" comment="proto-deMercBattleship civ-Danes type-title">海王星號</string>
+    <string _locid="54641" comment="proto-deMercBattleship civ-Danes type-title">索菲亞·阿瑪利亞號</string>
+    <string _locid="54642" comment="proto-deMercBattleship civ-Danes type-title">大象號</string>
+    <string _locid="54643" comment="proto-deMercBattleship civ-Danes type-title">王后號</string>
+    <string _locid="54644" comment="proto-deMercBattleship civ-Danes type-title">安娜·索菲亞王后號</string>
+    <string _locid="54645" comment="proto-deMercBattleship civ-Danes type-title">克里斯蒂安七世號</string>
+    <string _locid="54646" comment="proto-deMercBattleship civ-Danes type-title">腓特烈號</string>
+    <string _locid="54647" comment="proto-deMercBattleship civ-Danes type-title">正義號</string>
+    <string _locid="54648" comment="proto-deMercBattleship civ-Danes type-title">獵手大師號</string>
+    <string _locid="54649" comment="proto-deMercBattleship civ-Danes type-title">赫拉克勒斯號</string>
+    <string _locid="54650" comment="proto-Monitor civ-Danes type-title">鱘魚號</string>
+    <string _locid="54651" comment="proto-Monitor civ-Danes type-title">圖拉號</string>
+    <string _locid="54652" comment="proto-Monitor civ-Danes type-title">諾亞方舟號</string>
+    <string _locid="54653" comment="proto-Monitor civ-Danes type-title">助手號</string>
+    <string _locid="54654" comment="proto-Monitor civ-Danes type-title">丹麥人奧吉爾號</string>
+    <string _locid="54655" comment="proto-Monitor civ-Danes type-title">赫克拉號</string>
+    <string _locid="54656" comment="proto-Monitor civ-Danes type-title">艾德號</string>
+    <string _locid="54657" comment="proto-Monitor civ-Danes type-title">駁船號</string>
+    <string _locid="54658" comment="proto-Monitor civ-Danes type-title">海蛇號</string>
+    <string _locid="54659" comment="proto-Monitor civ-Danes type-title">巨人號</string>
+    <string _locid="54660" comment="proto-deGunboat civ-Danes type-title">克里斯蒂安松號</string>
+    <string _locid="54661" comment="proto-deGunboat civ-Danes type-title">炮艇號</string>
+    <string _locid="54662" comment="proto-deGunboat civ-Danes type-title">維堡號</string>
+    <string _locid="54663" comment="proto-deGunboat civ-Danes type-title">羅斯基勒號</string>
+    <string _locid="54664" comment="proto-deGunboat civ-Danes type-title">歐登塞號</string>
+    <string _locid="54665" comment="proto-deGunboat civ-Danes type-title">納克斯考號</string>
+    <string _locid="54666" comment="proto-deGunboat civ-Danes type-title">米澤爾法特號</string>
+    <string _locid="54667" comment="proto-deGunboat civ-Danes type-title">赫爾辛格號</string>
+    <string _locid="54668" comment="proto-deGunboat civ-Danes type-title">奧爾堡號</string>
+    <string _locid="54669" comment="proto-deGunboat civ-Danes type-title">弗倫斯堡號</string>
+    <string _locid="54670" comment="proto-deGunboat civ-Danes type-title">炮艇號</string>
+    <string _locid="54671" comment="proto-deGunboat civ-Danes type-title">阿倫達爾號</string>
+    <string _locid="54672" comment="proto-deGunboat civ-Danes type-title">格陵蘭貓號</string>
+    <string _locid="54673" comment="proto-deGunboat civ-Danes type-title">磨床號</string>
+    <string _locid="54674" comment="proto-xpIronclad civ-Danes type-title">托登斯基約爾德號</string>
+    <string _locid="54675" comment="proto-xpIronclad civ-Danes type-title">埃吉爾號</string>
+    <string _locid="54676" comment="proto-xpIronclad civ-Danes type-title">西蘭號</string>
+    <string _locid="54677" comment="proto-xpIronclad civ-Danes type-title">阿布薩隆號</string>
+    <string _locid="54678" comment="proto-xpIronclad civ-Danes type-title">培德·斯克拉姆號</string>
+    <string _locid="54679" comment="proto-xpIronclad civ-Danes type-title">丹麥號</string>
+    <string _locid="54680" comment="proto-xpIronclad civ-Danes type-title">尼爾斯·尤爾號</string>
+    <string _locid="54681" comment="proto-xpIronclad civ-Danes type-title">赫爾戈蘭號</string>
+    <string _locid="54682" comment="proto-xpIronclad civ-Danes type-title">高姆號</string>
+    <string _locid="54683" comment="proto-deWhalingShip type-title">格陵蘭航者</string>
+    <string _locid="54684" comment="proto-deWhalingShip type-title">南塔基特</string>
+    <string _locid="54685" comment="proto-deWhalingShip type-title">白鯨記</string>
+    <string _locid="54686" comment="proto-deWhalingShip type-title">裴廓德號</string>
+    <string _locid="54687" comment="proto-deWhalingShip type-title">魁魁格</string>
+    <string _locid="54688" comment="proto-deWhalingShip type-title">巴金頓</string>
+    <string _locid="54689" comment="proto-deWhalingShip type-title">亞哈</string>
+    <string _locid="54690" comment="proto-deWhalingShip type-title">斯塔巴克</string>
+    <string _locid="54691" comment="proto-deWhalingShip type-title">梅普爾神父</string>
+    <string _locid="54692" comment="proto-deWhalingShip type-title">以實瑪利</string>
+    <string _locid="54693" comment="proto-deWhalingShip type-title">皮普</string>
+    <string _locid="54694" comment="proto-deWhalingShip type-title">塔斯提哥</string>
+    <string _locid="54695" comment="proto-deWhalingShip type-title">達古</string>
+    <string _locid="54696" comment="proto-deWhalingShip type-title">費達拉</string>
+    <string _locid="54697" comment="proto-deWhalingShip type-title">珀斯</string>
+    <string _locid="54698" comment="proto-deWhalingShip type-title">幽靈號</string>
+    <string _locid="54699" comment="proto-deWhalingShip type-title">海狼號</string>
+    <string _locid="54700" comment="proto-deWhalingShip type-title">范·魏登</string>
+    <string _locid="54701" comment="proto-deWhalingShip type-title">沃夫·拉森</string>
+    <string _locid="54702" comment="proto-deWhalingShip type-title">戴斯·拉森</string>
+    <string _locid="54703" comment="proto-deWhalingShip type-title">查爾斯·W·摩根號</string>
+    <string _locid="54704" comment="proto-deWhalingShip type-title">埃塞克斯號</string>
+    <string _locid="54705" comment="proto-deWhalingShip type-title">哈多克</string>
+    <string _locid="54706" comment="proto-deWhalingShip type-title">虎克船長</string>
+    <string _locid="54707" comment="proto-deWhalingShip type-title">拉戈達號</string>
+    <string _locid="54708" comment="proto-deWhalingShip type-title">格陵蘭號</string>
+    <string _locid="54709" comment="proto-deWhalingShip type-title">極光號</string>
+    <string _locid="54710" comment="proto-deWhalingShip type-title">晨曦號</string>
+    <string _locid="54711" comment="proto-deWhalingShip type-title">寧錄號</string>
+    <string _locid="54712" comment="proto-deWhalingShip type-title">斯皮薩號</string>
+    <string _locid="54713" comment="proto-deWhalingShip type-title">南極號</string>
+    <string _locid="54714" comment="proto-deWhalingShip type-title">約阿號</string>
+    <string _locid="54715" comment="proto-deWhalingShip type-title">兄弟號</string>
+    <string _locid="54716" comment="proto-deWhalingShip type-title">阿喀琉斯號</string>
+    <string _locid="54717" comment="proto-deWhalingShip type-title">斯匹次卑爾根號</string>
+    <string _locid="54718" comment="proto-deWhalingShip type-title">揚馬延號</string>
+    <string _locid="54719" comment="proto-deWhalingShip type-title">羅弗敦號</string>
+    <string _locid="54720" comment="proto-deWhalingShip type-title">維京者號</string>
+    <string _locid="54721" comment="proto-deWhalingShip type-title">脂肪號</string>
+    <string _locid="54722" comment="proto-deWhalingShip type-title">一角鯨號</string>
+    <string _locid="54723" comment="proto-deWhalingShip type-title">白鯨號</string>
+    <string _locid="54724" comment="proto-deWhalingShip type-title">白鯨者號</string>
+    <string _locid="54725" comment="proto-deWhalingShip type-title">鯨目號</string>
+    <string _locid="54726" comment="proto-deWhalingShip type-title">烏賊號</string>
+    <string _locid="54727" comment="proto-deWhalingShip type-title">灰鯨號</string>
+    <string _locid="54728" comment="proto-deWhalingShip type-title">捕鯨者號</string>
+    <string _locid="54729" comment="proto-deWhalingShip type-title">捕鯨船</string>
+    <string _locid="54730" comment="proto-deWhalingShip type-title">鯨船</string>
+    <string _locid="54731" comment="proto-deWhalingShip type-title">伊努盧阿皮克</string>
+    <string _locid="54732" comment="proto-deWhalingShip type-title">斯文·福因</string>
+    <string _locid="54733" comment="proto-deWhalingShip type-title">維爾戈哈姆納</string>
+    <string _locid="54734" comment="proto-deWhalingShip type-title">斯梅倫堡</string>
+    <string _locid="54735" comment="proto-deWhalingShip type-title">恆河號</string>
+    <string _locid="54736" comment="proto-deWhalingShip type-title">魚叉手號</string>
+    <string _locid="54737" comment="proto-deWhalingShip type-title">特拉諾瓦號</string>
+    <string _locid="54738" comment="proto-deWhalingShip type-title">伊阿宋號</string>
+    <string _locid="54739" comment="proto-deWhalingShip type-title">比利時號</string>
+    <string _locid="54740" comment="proto-deTavern civ-Danes type-title">釀酒坊</string>
+    <string _locid="54741" comment="proto-deTavern civ-Danes type-title">紅王</string>
+    <string _locid="54742" comment="proto-deTavern civ-Danes type-title">咸魚美人魚</string>
+    <string _locid="54743" comment="proto-deTavern civ-Danes type-title">破冰號</string>
+    <string _locid="54744" comment="proto-deTavern civ-Danes type-title">小藥局</string>
+    <string _locid="54745" comment="proto-deTavern civ-Danes type-title">橋磨坊客棧</string>
+    <string _locid="54746" comment="proto-deTavern civ-Danes type-title">漢薩大廳</string>
+    <string _locid="54747" comment="proto-deTavern civ-Danes type-title">博恩霍爾姆船用啤酒</string>
+    <string _locid="54748" comment="proto-deTavern civ-Danes type-title">隆比遊樂亭</string>
+    <string _locid="54749" comment="proto-deTavern civ-Danes type-title">雅各布森釀酒廠</string>
+    <string _locid="54750" comment="proto-deTavern civ-Danes type-title">歐萊的啤酒</string>
+    <string _locid="54751" comment="proto-deTavern civ-Danes type-title">老象酒館</string>
+    <string _locid="54752" comment="proto-deTavern civ-Danes type-title">國王客棧</string>
+    <string _locid="54753" comment="proto-deTavern civ-Danes type-title">丹麥香腸</string>
+    <string _locid="54754" comment="proto-deTavern civ-Danes type-title">舒適洞穴</string>
+    <string _locid="54755" comment="proto-deTavern civ-Danes type-title">啤酒交易所</string>
+    <string _locid="54756" comment="proto-deTavern civ-Danes type-title">米克爾森騎士</string>
+    <string _locid="54757" comment="proto-deTavern civ-Poles type-title">醉酒翼騎兵</string>
+    <string _locid="54758" comment="proto-deTavern civ-Poles type-title">著名的若望保祿</string>
+    <string _locid="54759" comment="proto-deTavern civ-Poles type-title">死農夫</string>
+    <string _locid="54760" comment="proto-deTavern civ-Poles type-title">馬鐙酒</string>
+    <string _locid="54761" comment="proto-deTavern civ-Poles type-title">醉蟲酒館</string>
+    <string _locid="54762" comment="proto-deTavern civ-Poles type-title">哥薩克酒館</string>
+    <string _locid="54763" comment="proto-deTavern civ-Poles type-title">鐵狼</string>
+    <string _locid="54764" comment="proto-deTavern civ-Poles type-title">油炸麵包</string>
+    <string _locid="54765" comment="proto-deTavern civ-Poles type-title">雷奇艾客棧</string>
+    <string _locid="54766" comment="proto-deTavern civ-Poles type-title">木桶裏的海狸</string>
+    <string _locid="54767" comment="proto-deTavern civ-Poles type-title">馬丁的美酒屋</string>
+    <string _locid="54768" comment="proto-deTavern civ-Poles type-title">羅馬</string>
+    <string _locid="54769" comment="proto-deTavern civ-Poles type-title">健壯血腸下</string>
+    <string _locid="54770" comment="proto-ExplorerDog civ-Poles type-title">小發</string>
+    <string _locid="54771" comment="proto-ExplorerDog civ-Poles type-title">小球</string>
+    <string _locid="54772" comment="proto-ExplorerDog civ-Poles type-title">小雷</string>
+    <string _locid="54773" comment="proto-ExplorerDog civ-Poles type-title">沃特克</string>
+    <string _locid="54774" comment="proto-ExplorerDog civ-Poles type-title">布雷克</string>
+    <string _locid="54775" comment="proto-ExplorerDog civ-Poles type-title">泰迪</string>
+    <string _locid="54776" comment="proto-ExplorerDog civ-Poles type-title">庫巴</string>
+    <string _locid="54777" comment="proto-ExplorerDog civ-Poles type-title">卓蘭</string>
+    <string _locid="54778" comment="proto-ExplorerDog civ-Poles type-title">阿佐爾</string>
+    <string _locid="54779" comment="proto-ExplorerDog civ-Poles type-title">波比克</string>
+    <string _locid="54780" comment="proto-ExplorerDog civ-Poles type-title">海狸</string>
+    <string _locid="54781" comment="proto-ExplorerDog civ-Poles type-title">毛茸茸</string>
+    <string _locid="54782" comment="proto-ExplorerDog civ-Poles type-title">巨魔</string>
+    <string _locid="54783" comment="proto-ExplorerDog civ-Danes type-title">班瑟</string>
+    <string _locid="54784" comment="proto-ExplorerDog civ-Danes type-title">魯勒</string>
+    <string _locid="54785" comment="proto-ExplorerDog civ-Danes type-title">芬里爾</string>
+    <string _locid="54786" comment="proto-ExplorerDog civ-Danes type-title">野味烤肉</string>
+    <string _locid="54787" comment="proto-ExplorerDog civ-Danes type-title">快快</string>
+    <string _locid="54788" comment="proto-ExplorerDog civ-Danes type-title">當心</string>
+    <string _locid="54789" comment="proto-ExplorerDog civ-Danes type-title">忠誠</string>
+    <string _locid="54790" comment="proto-ExplorerDog civ-Danes type-title">芙蕾雅</string>
+    <string _locid="54791" comment="proto-ExplorerDog civ-Danes type-title">莫莉</string>
+    <string _locid="54792" comment="proto-ExplorerDog civ-Danes type-title">海姆達爾</string>
+    <string _locid="54793" comment="proto-ExplorerDog civ-Danes type-title">基利</string>
+    <string _locid="54794" comment="proto-ExplorerDog civ-Danes type-title">庫力</string>
+    <string _locid="54795" comment="proto-General civ-REVPrussians type-firstname">博勒 </string>
+    <string _locid="54796" comment="proto-General civ-REVPrussians type-firstname">卡勒 </string>
+    <string _locid="54797" comment="proto-General civ-REVPrussians type-firstname">弗里茨 </string>
+    <string _locid="54798" comment="proto-General civ-REVPrussians type-firstname">弗里策 </string>
+    <string _locid="54799" comment="proto-General civ-REVPrussians type-firstname">奧托 </string>
+    <string _locid="54800" comment="proto-General civ-REVPrussians type-firstname">赫爾穆特 </string>
+    <string _locid="54801" comment="proto-General civ-REVPrussians type-firstname">弗賴赫爾 </string>
+    <string _locid="54802" comment="proto-General civ-REVPrussians type-firstname">奧伯斯特 </string>
+    <string _locid="54803" comment="proto-General civ-REVPrussians type-firstname">普林茨 </string>
+    <string _locid="54804" comment="proto-General civ-REVPrussians type-firstname">格拉夫 </string>
+    <string _locid="54805" comment="proto-General civ-REVPrussians type-lastname">馮·沙恩霍斯特</string>
+    <string _locid="54806" comment="proto-General civ-REVPrussians type-lastname">馮·毛奇*</string>
+    <string _locid="54807" comment="proto-General civ-REVPrussians type-lastname">馮·比洛</string>
+    <string _locid="54808" comment="proto-General civ-REVPrussians type-lastname">馮·德內維茨</string>
+    <string _locid="54809" comment="proto-General civ-REVPrussians type-lastname">馮·俾斯麥</string>
+    <string _locid="54810" comment="proto-General civ-REVPrussians type-lastname">馮·齊滕</string>
+    <string _locid="54811" comment="proto-General civ-REVPrussians type-lastname">馮·塞德利茨</string>
+    <string _locid="54812" comment="proto-General civ-REVPrussians type-lastname">馮·普魯士</string>
+    <string _locid="54813" comment="proto-General civ-REVPrussians type-lastname">馮·格奈森瑙</string>
+    <string _locid="54814" comment="proto-General civ-REVPrussians type-lastname">馮·克佩尼克</string>
+    <string _locid="54815" comment="proto-General civ-REVPrussians type-lastname">馮·施潘道</string>
+    <string _locid="54816" comment="proto-General civ-REVPrussians type-lastname">馮·克萊斯特</string>
+    <string _locid="54817" comment="proto-General civ-REVPrussians type-lastname">馮·齊策維茨</string>
+    <string _locid="54818" comment="proto-General civ-REVPrussians type-lastname">馮·哈默施泰因</string>
+    <string _locid="54819" comment="proto-General civ-REVPrussians type-lastname">馮·勃蘭登堡</string>
+    <string _locid="54820" comment="proto-General civ-REVPrussians type-lastname">馮·呂措</string>
+    <string _locid="54821" comment="proto-General civ-REVPrussians type-lastname">馮·波茨坦</string>
+    <string _locid="54822" comment="proto-General civ-REVPrussians type-lastname">馮·夏洛滕堡</string>
+    <string _locid="54823" comment="proto-General civ-REVPrussians type-lastname">馮·哈登貝格</string>
+    <string _locid="54824" comment="proto-General civ-REVPrussians type-lastname">馮·里希特霍芬</string>
+    <string _locid="54825" comment="proto-General civ-REVPrussians type-lastname">馮·阿尼姆</string>
+    <string _locid="54826" comment="proto-General civ-REVPrussians type-lastname">山林領主</string>
+    <string _locid="54827" comment="proto-General civ-REVPrussians type-lastname">腓特烈林領主</string>
+    <string _locid="54828" comment="proto-General civ-REVPrussians type-lastname">魔鬼山領主</string>
+    <string _locid="54829" comment="proto-Xebec civ-REVCossacks type-title">霍爾蒂察島</string>
+    <string _locid="54830" comment="proto-Xebec civ-REVCossacks type-title">烏克蘭</string>
+    <string _locid="54831" comment="proto-EggSleigh type-title">煙囪毀滅者</string>
+    <string _locid="54832" comment="proto-EggSleigh type-title">煙囪掃除者</string>
+    <string _locid="54833" comment="proto-EggSleigh type-title">尤爾指揮官</string>
+    <string _locid="54834" comment="proto-EggSleigh type-title">絕絕子鈴號</string>
+    <string _locid="54835" comment="proto-EggSleigh type-title">空軍一號雪橇</string>
+    <string _locid="54836" comment="proto-EggSleigh type-title">颯爽雪橇</string>
+    <string _locid="54837" comment="proto-EggSleigh type-title">極地亂殺</string>
+    <string _locid="54838" comment="proto-EggSleigh type-title">絕殺鈴一號</string>
+    <string _locid="54839" comment="proto-EggSleigh type-title">極地特快</string>
+    <string _locid="54840" comment="proto-EggSleigh type-title">大撒幣機</string>
+    <string _locid="54841" comment="proto-EggSleigh type-title">心動轟炸機</string>
+    <string _locid="54842" comment="proto-EggSleigh type-title">戀愛轟炸機</string>
+    <string _locid="54843" comment="proto-EggSleigh type-title">內鬼雪橇</string>
+    <string _locid="54844" comment="proto-EggSleigh type-title">閃耀風暴</string>
+    <string _locid="54845" comment="proto-EggSleigh type-title">稜鏡飛行員</string>
+    <string _locid="54846" comment="proto-EggSleigh type-title">火熱殺全場</string>
+    <string _locid="54847" comment="proto-EggSleigh type-title">緋紅驚艷者</string>
+    <string _locid="54848" comment="proto-EggSleigh type-title">歐皇機</string>
+    <string _locid="54849" comment="proto-EggSleigh type-title">槲寄生騷亂</string>
+    <string _locid="54850" comment="proto-EggSleigh type-title">菜鳥收禮</string>
+    <string _locid="54851" comment="proto-EggSleigh type-title">送禮之神</string>
+    <string _locid="54852" comment="proto-EggSleigh type-title">暴雪強化</string>
+    <string _locid="54853" comment="proto-EggSleigh type-title">叮當神機</string>
+    <string _locid="54854" comment="proto-EggSleigh type-title">寒冬戰車</string>
+    <string _locid="54855" comment="proto-EggSleigh type-title">尤爾遊艇號</string>
+    <string _locid="54856" comment="proto-EggSleigh type-title">霜凍老人</string>
+    <string _locid="54857" comment="proto-EggSleigh type-title">馴鹿騎士</string>
+    <string _locid="54858" comment="proto-EggSleigh type-title">極地航空</string>
+    <string _locid="54859" comment="proto-EggSleigh type-title">金絲油輪</string>
   </language>
 </stringtable>

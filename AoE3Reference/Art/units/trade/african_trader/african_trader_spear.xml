@@ -1,0 +1,4 @@
+<animfile>
+  <component>spear<assetreference type="GrannyModel"><file>units\trade\african_trader\african_trader_spear</file></assetreference></component>
+  <anim>Idle<component>spear</component></anim>
+</animfile>

@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\revolution\peruvian_guard\textures\peruvian_guard_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\revolution\peruvian_guard\textures\peruvian_guard_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\revolution\peruvian_guard\textures\peruvian_guard_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\revolution\peruvian_guard\textures\peruvian_guard_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\revolution\peruvian_guard\textures\peruvian_guard_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\revolution\peruvian_guard\textures\peruvian_guard_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\revolution\peruvian_guard\textures\peruvian_guard_matb_Masks">
+      </texture>
+      <texture name="Details" override="units\revolution\peruvian_guard\textures\peruvian_guard_matb_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

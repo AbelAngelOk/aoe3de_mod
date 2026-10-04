@@ -1,0 +1,5 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\buzzard\buzzard</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\buzzard\buzzard_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\animals\buzzard\buzzard_bored</file></assetreference><component>ModelComp</component></anim>
+</animfile>

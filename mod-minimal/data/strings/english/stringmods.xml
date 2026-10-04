@@ -240,10 +240,24 @@
       <string _locid="88883003">Buenos Aires</string>
       <string _locid="88883004">Explorer</string>
       <string _locid="88883010">Gaucho</string>
-      <string _locid="88883011">Criollo</string>
-      <string _locid="88883012">Granadero</string>
-      <string _locid="88883013">Mounted Gaucho</string>
+      <string _locid="88883011">Milicia Criolla</string>
+      <string _locid="88883012">Patricio</string>
+      <string _locid="88883013">Gaucho Entrerriano</string>
       <string _locid="88883014">Mounted Granadero</string>
+      <string _locid="88883030">Blandengue</string>
+      <string _locid="88883031">Infernal</string>
+      <string _locid="88883040">Gaucho Jujeño</string>
+      <string _locid="88883041">Spy disguised as a gaucho. Special multipliers against heavy cavalry and shock infantry. Can build Barracks and Livestock Pens, and gather from cows.</string>
+      <string _locid="88883042">Spy / infiltrator</string>
+      <string _locid="88883050">Gaucho Pampeano</string>
+      <string _locid="88883051">Mounted guerrilla infantry. Attacks from stealth.</string>
+      <string _locid="88883052">Mounted guerrilla</string>
+      <string _locid="88883061">Veteran Milicia Criolla</string>
+      <string _locid="88883062">Guard Milicia Criolla</string>
+      <string _locid="88883063">Imperial Milicia Criolla</string>
+      <string _locid="88883071">Veteran Patricio</string>
+      <string _locid="88883072">Guard Patricio</string>
+      <string _locid="88883073">Imperial Patricio</string>
       <string _locid="88883020">Cow Shipment I</string>
       <string _locid="88883021">Cow Shipment II</string>
       <string _locid="88883022">Cow Shipment III</string>
@@ -337,6 +351,98 @@
       <string _locid="88888230">Roshior Dragoon</string>
       <string _locid="88888231">Elite Romanian dragoons. Visible in the Stable from the start, but only trainable from Age IV onward.</string>
       <string _locid="88888232">Roshior Dragoon</string>
+      <string _locid="88888240">Seimen</string>
+      <string _locid="88888250">Vânător</string>
+      <string _locid="88888260">Seimen Veteran</string>
+      <string _locid="88888261">Seimen Guard</string>
+      <string _locid="88888262">Seimen Imperial</string>
+      <string _locid="88888270">Vânător Veteran</string>
+      <string _locid="88888271">Vânător Guard</string>
+      <string _locid="88888272">Vânător Imperial</string>
+      <string _locid="88888280">Dorobant Veteran</string>
+      <string _locid="88888281">Dorobant Guard</string>
+      <string _locid="88888282">Dorobant Imperial</string>
+      <string _locid="88888290">Calaras</string>
+
+      <!-- Italian Dutch fix (ITD): own settlers/explorers -->
+      <string _locid="88887240">Dutch Settler</string>
+      <string _locid="88887241">Dutch Settler. Costs 100 gold and has a build limit of 35.</string>
+      <string _locid="88887242">Dutch Settler</string>
+      <string _locid="88887250">Italian Settler</string>
+      <string _locid="88887251">Italian Settler. Costs 100 food and has a build limit of 35.</string>
+      <string _locid="88887252">Italian Settler</string>
+      <string _locid="88887260">Dutch Explorer</string>
+      <string _locid="88887261">Dutch Explorer.</string>
+      <string _locid="88887262">Dutch Explorer</string>
+      <string _locid="88887270">Italian Explorer</string>
+      <string _locid="88887271">Italian Explorer.</string>
+      <string _locid="88887272">Italian Explorer</string>
+
+      <!-- Knights Hospitaller (HOS), Malta clone -->
+      <string _locid="88889001">Knights Hospitaller</string>
+      <string _locid="88889002">Knights Hospitaller</string>
+      <string _locid="88889003">Valletta</string>
+      <string _locid="88889004">Morgan Black</string>
+      <string _locid="88889005">Morgan Black</string>
+      <string _locid="88889210">Rodelero</string>
+      <string _locid="88889211">Heavy infantry with sword and shield. Strong in melee against infantry.</string>
+      <string _locid="88889212">Rodelero</string>
+      <string _locid="88889220">Highlander</string>
+      <string _locid="88889221">Scottish mercenary with a claymore. High melee damage, costs only gold.</string>
+      <string _locid="88889222">Highlander</string>
+      <string _locid="88889230">Conquistador</string>
+      <string _locid="88889231">Light pistol cavalry. Effective against infantry.</string>
+      <string _locid="88889232">Conquistador</string>
+
+      <!-- Barbary States (BAR), Ottoman clone -->
+      <string _locid="888810001">Barbary States</string>
+      <string _locid="888810002">Barbary States</string>
+      <string _locid="888810003">Algiers</string>
+      <string _locid="888810004">Corsair Captain</string>
+      <string _locid="888810005">Corsair Captain</string>
+      <string _locid="888810220">Maghrebi Rider</string>
+      <string _locid="888810221">Maghrebi light cavalry. Fast and versatile.</string>
+      <string _locid="888810222">Maghrebi Rider</string>
+      <string _locid="888810230">Makhzen Rider</string>
+      <string _locid="888810231">Makhzen light cavalry archer. Effective against heavy cavalry and artillery.</string>
+      <string _locid="888810232">Makhzen Rider</string>
+
+      <!-- Colombia (COL), Spanish clone -->
+      <string _locid="888811220">Lancer</string>
+      <string _locid="888811221">Informal mounted lancer. Good against infantry.</string>
+      <string _locid="888811222">Lancer</string>
+      <string _locid="888811260">Veteran Independent Guard</string>
+      <string _locid="888811261">Guard Independent Guard</string>
+      <string _locid="888811262">Imperial Independent Guard</string>
+
+      <!-- Chile (CHL), Spanish clone -->
+      <string _locid="888812210">Mexican Soldier</string>
+      <string _locid="888812211">Irregular musket infantry.</string>
+      <string _locid="888812212">Mexican Soldier</string>
+      <string _locid="888812230">Mounted Hunter</string>
+      <string _locid="888812231">Chilean dragoon. Available from Age II at 80% of its stats; reaches full strength in Age IV. Extra bonus against heavy cavalry.</string>
+      <string _locid="888812232">Mounted Hunter</string>
+
+      <!-- Napoleonic France (FRA), French clone -->
+      <string _locid="888813210">Mounted Rifleman</string>
+      <string _locid="888813211">Rifleman cavalry. Not a mercenary: trains directly at the Stable.</string>
+      <string _locid="888813212">Mounted Rifleman</string>
+
+      <!-- Dutch East Indies (IOR), Portuguese clone -->
+      <string _locid="888814001">Dutch East Indies</string>
+      <string _locid="888814002">Dutch East Indies</string>
+      <string _locid="888814210">Jawa</string>
+      <string _locid="888814211">Irregular Javanese infantry. Costs food and coin.</string>
+      <string _locid="888814212">Jawa</string>
+      <string _locid="888814220">Berkuda</string>
+      <string _locid="888814221">Irregular cavalry. Costs food and coin.</string>
+      <string _locid="888814222">Berkuda</string>
+      <string _locid="888814230">Pemanah Kuda</string>
+      <string _locid="888814231">Irregular horse archer. Costs food and coin.</string>
+      <string _locid="888814232">Pemanah Kuda</string>
+      <string _locid="888814240">Prajurit Kraton</string>
+      <string _locid="888814241">Native warrior with a throwing chakram.</string>
+      <string _locid="888814242">Prajurit Kraton</string>
 
     </language>
   </stringtable>

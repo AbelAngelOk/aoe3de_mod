@@ -1,0 +1,4 @@
+<animfile>
+  <component>eaglerock<assetreference type="GrannyModel"><file>units\animals\eagle\rock_eagle_chics</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\eagle\rock_eagle_chics_idle</file></assetreference><component>eaglerock</component></anim>
+</animfile>

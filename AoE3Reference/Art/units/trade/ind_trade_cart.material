@@ -1,0 +1,38 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\ind_trade_cart\textures\ind_trade_cart_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\ind_trade_cart\textures\ind_trade_cart_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\ind_trade_cart\textures\ind_trade_cart_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\ind_trade_cart\textures\ind_trade_cart_driver_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\ind_trade_cart\textures\ind_trade_cart_driver_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\ind_trade_cart\textures\ind_trade_cart_driver_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\ind_trade_cart\textures\ind_trade_cart_horse_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\ind_trade_cart\textures\ind_trade_cart_horse_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\ind_trade_cart\textures\ind_trade_cart_horse_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry\halberdier\textures\alabardero_mata_Basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry\halberdier\textures\alabardero_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry\halberdier\textures\alabardero_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry\halberdier\textures\alabardero_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry\halberdier\textures\alabardero_matb_Basecolor">
+      </texture>
+      <texture name="Normals" override="units\infantry\halberdier\textures\alabardero_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry\halberdier\textures\alabardero_matb_Masks">
+      </texture>
+      <texture name="Details" override="units\infantry\halberdier\textures\alabardero_matb_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -1,0 +1,50 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\spc\treasure_ship\textures\spc_treasure_ship_stage_final_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\treasure_ship\textures\spc_treasure_ship_stage_final_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\treasure_ship\textures\spc_treasure_ship_stage_final_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\spc\treasure_ship\textures\spc_treasure_ship_stage_final_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\treasure_ship\textures\spc_treasure_ship_stage_final_matb_normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\treasure_ship\textures\spc_treasure_ship_stage_final_matb_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\spc\treasure_ship\textures\spc_treasure_ship_stage_3_matc_basecolor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\treasure_ship\textures\spc_treasure_ship_stage_3_matc_normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\treasure_ship\textures\spc_treasure_ship_stage_3_matc_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\japanese\flaming_arrow\textures\flamingarrow_2_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\asians\japanese\flaming_arrow\textures\flamingarrow_2_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\asians\japanese\flaming_arrow\textures\flamingarrow_2_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

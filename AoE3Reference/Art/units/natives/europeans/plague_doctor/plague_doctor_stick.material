@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\europeans\plague_doctor\textures\plague_doctor_stick_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\europeans\plague_doctor\textures\plague_doctor_stick_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\europeans\plague_doctor\textures\plague_doctor_stick_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

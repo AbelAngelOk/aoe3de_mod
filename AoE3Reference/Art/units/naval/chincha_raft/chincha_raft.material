@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\chincha_raft\textures\chincha_raft_Mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\chincha_raft\textures\chincha_raft_Mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\chincha_raft\textures\chincha_raft_Mata_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\chincha_raft\textures\chincha_raft_Mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\chincha_raft\textures\chincha_raft_Matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\chincha_raft\textures\chincha_raft_Matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\chincha_raft\textures\chincha_raft_Matb_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\chincha_raft\textures\chincha_raft_Matb_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="buildings\native_civs\trading_lodge\textures\trading_lodge_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="buildings\native_civs\trading_lodge\textures\trading_lodge_matb_Normals">
+      </texture>
+      <texture name="Masks" override="buildings\native_civs\trading_lodge\textures\trading_lodge_matb_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

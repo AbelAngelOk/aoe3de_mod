@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\sheep\textures\sheepfat_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\animals\sheep\textures\sheepfat_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\animals\sheep\textures\sheepfat_mata_masks">
+      </texture>
+      <texture name="Details" override="units\animals\sheep\textures\sheepfat_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

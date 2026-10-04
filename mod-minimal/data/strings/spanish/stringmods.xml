@@ -248,10 +248,24 @@
       <string _locid="88883003">Buenos Aires</string>
       <string _locid="88883004">Explorador</string>
       <string _locid="88883010">Gaucho</string>
-      <string _locid="88883011">Criollo</string>
-      <string _locid="88883012">Granadero</string>
-      <string _locid="88883013">Gaucho a Caballo</string>
+      <string _locid="88883011">Milicia Criolla</string>
+      <string _locid="88883012">Patricio</string>
+      <string _locid="88883013">Gaucho Entrerriano</string>
       <string _locid="88883014">Granadero a Caballo</string>
+      <string _locid="88883030">Blandengue</string>
+      <string _locid="88883031">Infernal</string>
+      <string _locid="88883040">Gaucho Jujeño</string>
+      <string _locid="88883041">Espía disfrazado de gaucho. Multiplicadores especiales contra caballería pesada e infantería de choque. Puede construir Cuarteles y Corrales, y recolectar de las vacas.</string>
+      <string _locid="88883042">Espía / infiltrado</string>
+      <string _locid="88883050">Gaucho Pampeano</string>
+      <string _locid="88883051">Infantería de guerrilla montada. Ataca desde el sigilo.</string>
+      <string _locid="88883052">Guerrilla montada</string>
+      <string _locid="88883061">Milicia Criolla Veterana</string>
+      <string _locid="88883062">Milicia Criolla de Guardia</string>
+      <string _locid="88883063">Milicia Criolla Imperial</string>
+      <string _locid="88883071">Patricio Veterano</string>
+      <string _locid="88883072">Patricio de Guardia</string>
+      <string _locid="88883073">Patricio Imperial</string>
       <string _locid="88883020">Envío de Vacas I</string>
       <string _locid="88883021">Envío de Vacas II</string>
       <string _locid="88883022">Envío de Vacas III</string>
@@ -345,6 +359,98 @@
       <string _locid="88888230">Dragón roshior</string>
       <string _locid="88888231">Dragoneros de élite rumanos. Visibles en el Establo desde el comienzo, pero solo entrenables a partir de la Edad IV.</string>
       <string _locid="88888232">Dragón roshior</string>
+      <string _locid="88888240">Seimen</string>
+      <string _locid="88888250">Vânător</string>
+      <string _locid="88888260">Seimen Veterano</string>
+      <string _locid="88888261">Seimen Guardia</string>
+      <string _locid="88888262">Seimen Imperial</string>
+      <string _locid="88888270">Vânător Veterano</string>
+      <string _locid="88888271">Vânător Guardia</string>
+      <string _locid="88888272">Vânător Imperial</string>
+      <string _locid="88888280">Dorobant Veterano</string>
+      <string _locid="88888281">Dorobant Guardia</string>
+      <string _locid="88888282">Dorobant Imperial</string>
+      <string _locid="88888290">Calaras</string>
+
+      <!-- Arreglo Holanda Italiana (ITD): colonos/exploradores propios -->
+      <string _locid="88887240">Colono holandés</string>
+      <string _locid="88887241">Colono holandés. Cuesta 100 de oro y tiene un límite de creación de 35.</string>
+      <string _locid="88887242">Colono holandés</string>
+      <string _locid="88887250">Colono italiano</string>
+      <string _locid="88887251">Colono italiano. Cuesta 100 de comida y tiene un límite de creación de 35.</string>
+      <string _locid="88887252">Colono italiano</string>
+      <string _locid="88887260">Explorador holandés</string>
+      <string _locid="88887261">Explorador holandés.</string>
+      <string _locid="88887262">Explorador holandés</string>
+      <string _locid="88887270">Explorador italiano</string>
+      <string _locid="88887271">Explorador italiano.</string>
+      <string _locid="88887272">Explorador italiano</string>
+
+      <!-- Caballeros Hospitalarios (HOS), clon de Malta -->
+      <string _locid="88889001">Caballeros Hospitalarios</string>
+      <string _locid="88889002">Caballeros Hospitalarios</string>
+      <string _locid="88889003">La Valeta</string>
+      <string _locid="88889004">Morgan Black</string>
+      <string _locid="88889005">Morgan Black</string>
+      <string _locid="88889210">Rodelero</string>
+      <string _locid="88889211">Infantería pesada con escudo y espada. Fuerte cuerpo a cuerpo contra infantería.</string>
+      <string _locid="88889212">Rodelero</string>
+      <string _locid="88889220">Highlander</string>
+      <string _locid="88889221">Mercenario escocés con espadón. Gran daño cuerpo a cuerpo, cuesta solo oro.</string>
+      <string _locid="88889222">Highlander</string>
+      <string _locid="88889230">Conquistador</string>
+      <string _locid="88889231">Caballería ligera con pistola. Eficaz contra infantería.</string>
+      <string _locid="88889232">Conquistador</string>
+
+      <!-- Estados Berberiscos (BAR), clon de Otomanos -->
+      <string _locid="888810001">Estados Berberiscos</string>
+      <string _locid="888810002">Estados Berberiscos</string>
+      <string _locid="888810003">Argel</string>
+      <string _locid="888810004">Capitán Corsario</string>
+      <string _locid="888810005">Capitán Corsario</string>
+      <string _locid="888810220">Jinete del Magreb</string>
+      <string _locid="888810221">Caballería ligera magrebí. Rápida y versátil.</string>
+      <string _locid="888810222">Jinete del Magreb</string>
+      <string _locid="888810230">Jinete Makhzen</string>
+      <string _locid="888810231">Caballería ligera con arco al servicio del Majzén. Eficaz contra caballería pesada y artillería.</string>
+      <string _locid="888810232">Jinete Makhzen</string>
+
+      <!-- Colombia (COL), clon de España -->
+      <string _locid="888811220">Lancero</string>
+      <string _locid="888811221">Lancero de estilo informal, a caballo. Bueno contra infantería.</string>
+      <string _locid="888811222">Lancero</string>
+      <string _locid="888811260">Guardia Independiente Veterana</string>
+      <string _locid="888811261">Guardia Independiente de la Guardia</string>
+      <string _locid="888811262">Guardia Independiente Imperial</string>
+
+      <!-- Chile (CHL), clon de España -->
+      <string _locid="888812210">Soldado Mexicano</string>
+      <string _locid="888812211">Infantería irregular con mosquete.</string>
+      <string _locid="888812212">Soldado Mexicano</string>
+      <string _locid="888812230">Cazador a Caballo</string>
+      <string _locid="888812231">Dragón chileno. Disponible desde la Edad II al 80% de sus estadísticas; alcanza su fuerza completa en la Edad IV. Bono extra contra caballería pesada.</string>
+      <string _locid="888812232">Cazador a Caballo</string>
+
+      <!-- Francia Napoleónica (FRA), clon de Francia -->
+      <string _locid="888813210">Fusilero Montado</string>
+      <string _locid="888813211">Caballería de fusileros. No es mercenario: se entrena directo en el Establo.</string>
+      <string _locid="888813212">Fusilero Montado</string>
+
+      <!-- Indias Orientales Neerlandesas (IOR), clon de Portugal -->
+      <string _locid="888814001">Indias Orientales Neerlandesas</string>
+      <string _locid="888814002">Indias Orientales Neerlandesas</string>
+      <string _locid="888814210">Jawa</string>
+      <string _locid="888814211">Infantería irregular javanesa. Cuesta alimento y monedas.</string>
+      <string _locid="888814212">Jawa</string>
+      <string _locid="888814220">Berkuda</string>
+      <string _locid="888814221">Caballería irregular. Cuesta alimento y monedas.</string>
+      <string _locid="888814222">Berkuda</string>
+      <string _locid="888814230">Pemanah Kuda</string>
+      <string _locid="888814231">Arquero a caballo irregular. Cuesta alimento y monedas.</string>
+      <string _locid="888814232">Pemanah Kuda</string>
+      <string _locid="888814240">Prajurit Kraton</string>
+      <string _locid="888814241">Guerrero nativo con chakram arrojadizo.</string>
+      <string _locid="888814242">Prajurit Kraton</string>
 
     </language>
   </stringtable>

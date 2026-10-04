@@ -1,0 +1,22 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\cuirassier\textures\cuirassier_age03_sword_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\uhlan\textures\uhlan_age02_sword_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\uhlan\textures\uhlan_age02_sword_mata_masks">
+      </texture>
+      <float name="Lift Metallic" override="0.5090">
+      </float>
+      <float name="Lift Non-Metallic" override="0.5040">
+      </float>
+      <float name="Roughness Metallic Max" override="0.6590">
+      </float>
+      <float name="Metallic Max" override="0.8220">
+      </float>
+    </parameters>
+  </submaterial>
+</material>

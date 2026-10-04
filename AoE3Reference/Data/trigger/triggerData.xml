@@ -13,27 +13,27 @@
     </condition>
     <condition name="Distance to Unit">
       <param name="SrcObject" dispname="$$22295$$Source Units" vartype="unit">default</param>
-      <param name="DstObject" dispname="$$22296$$Target Unit" vartype="unit">default</param>
+      <param name="DstObject" dispname="$$22296$$Target Unit" vartype="unit" dispradius="">default</param>
       <param name="Op" dispname="$$22297$$Operator" vartype="operator">==</param>
-      <param name="Dist" dispname="$$22298$$Distance" vartype="float">0</param>
+      <param name="Dist" dispname="$$22298$$Distance" vartype="float" dispradius="">0</param>
       <command>trUnitSelectClear();</command>
       <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
       <expression>trUnitDistanceToUnit("%DstObject%") %Op% %Dist%</expression>
     </condition>
     <condition name="Units in Area">
-      <param name="DstObject" dispname="$$22300$$Center Unit" vartype="unit">default</param>
+      <param name="DstObject" dispname="$$22300$$Center Unit" vartype="unit" dispradius="">default</param>
       <param name="Player" dispname="$$22301$$Player" vartype="player">1</param>
       <param name="UnitType" dispname="$$22302$$Unit Type" vartype="unittype">Unit</param>
-      <param name="Dist" dispname="$$22303$$Radius" vartype="float">10</param>
+      <param name="Dist" dispname="$$22303$$Radius" vartype="float" dispradius="">10</param>
       <param name="Op" dispname="$$22297$$Operator" vartype="operator">==</param>
       <param name="Count" dispname="$$22304$$Count" vartype="float">1</param>
       <expression>trCountUnitsInArea("%DstObject%",%Player%,"%UnitType%",%Dist%) %Op% %Count%</expression>
     </condition>
     <condition name="Distance to Point">
       <param name="SrcObject" dispname="$$22295$$Source Units" vartype="unit">default</param>
-      <param name="DstPoint" dispname="" vartype="area">0</param>
+      <param name="DstPoint" dispname="" vartype="area" dispradius="">0</param>
       <param name="Op" dispname="$$22297$$Operator" vartype="operator">==</param>
-      <param name="Dist" dispname="$$22298$$Distance" vartype="float">0</param>
+      <param name="Dist" dispname="$$22298$$Distance" vartype="float" dispradius="">0</param>
       <command>trUnitSelectClear();</command>
       <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
       <expression>trUnitDistanceToPoint(%DstPoint%) %Op% %Dist%</expression>
@@ -244,17 +244,17 @@
     </condition>
     <condition name="Army Distance to Unit">
       <param name="SrcArmy" dispname="$$22348$$Army" vartype="group">default</param>
-      <param name="DstObject" dispname="$$22296$$Target Unit" vartype="unit">default</param>
+      <param name="DstObject" dispname="$$22296$$Target Unit" vartype="unit" dispradius="">default</param>
       <param name="Op" dispname="$$22297$$Operator" vartype="operator">==</param>
-      <param name="Dist" dispname="$$22298$$Distance" vartype="float">0</param>
+      <param name="Dist" dispname="$$22298$$Distance" vartype="float" dispradius="">0</param>
       <command>trArmySelect("%SrcArmy%");</command>
       <expression>trUnitDistanceToUnit("%DstObject%") %Op% %Dist%</expression>
     </condition>
     <condition name="Army Distance to Point">
       <param name="SrcArmy" dispname="$$22348$$Army" vartype="group">default</param>
-      <param name="DstPoint" dispname="" vartype="area">0</param>
+      <param name="DstPoint" dispname="" vartype="area" dispradius="">0</param>
       <param name="Op" dispname="$$22297$$Operator" vartype="operator">==</param>
-      <param name="Dist" dispname="$$22298$$Distance" vartype="float">0</param>
+      <param name="Dist" dispname="$$22298$$Distance" vartype="float" dispradius="">0</param>
       <command>trArmySelect("%SrcArmy%");</command>
       <expression>trUnitDistanceToPoint(%DstPoint%) %Op% %Dist%</expression>
     </condition>
@@ -415,6 +415,10 @@
     </condition>
   </conditions>
   <effects>
+    <effect name="Fire Event">
+      <param name="EventID" dispname="$$22362$$Trigger" vartype="event">-1</param>
+      <command>trEventFire(%EventID%);</command>
+    </effect>
     <effect name="SetIdleProcessing">
       <param name="IdleProc" dispname="$$22356$$Process Idle:" vartype="bool">true</param>
       <command>trSetUnitIdleProcessing(%IdleProc%);</command>
@@ -603,12 +607,19 @@
       <command>trSoundPlayDialog("%Sound%", %EventID%, %Ignore%, "%Subtitle%", "%Portrait%");</command>
     </effect>
     <effect name="Play Dialogue">
-      <param name="StringID" dispname="$$22385$$Subtitle" vartype="stringid">
+      <param name="Player" dispname="Player" vartype="player">-1</param>
+      <param name="StringID" dispname="Subtitle" vartype="stringid">
       </param>
-      <param name="EventID" dispname="$$22362$$Trigger" vartype="event">-1</param>
-      <param name="Ignore" dispname="$$22405$$Ignore Event on Abort" vartype="bool">false</param>
-      <param name="Seconds" dispname="$$22293$$Milliseconds" vartype="long">1</param>
-      <command>trSoundPlayDialogue("%StringID%", %EventID%, %Ignore%, %Seconds%);</command>
+      <param name="CharacterStrID" dispname="Character" vartype="stringid">
+      </param>
+      <param name="PortraitStrID" dispname="Portrait" vartype="stringid">
+      </param>
+      <param name="Sound" dispname="Sound" vartype="soundsimple">
+      </param>
+      <param name="EventID" dispname="Trigger" vartype="event">-1</param>
+      <param name="Ignore" dispname="Ignore Event on Abort" vartype="bool">false</param>
+      <param name="Seconds" dispname="Milliseconds" vartype="long">1</param>
+      <command>trSoundPlayCharacterDialogue(%Player%, "%StringID%", "%CharacterStrID%", "%PortraitStrID%", "%Sound%", %EventID%, %Ignore%, %Seconds%);</command>
     </effect>
     <effect name="Music Mood">
       <param name="MoodID" dispname="$$22407$$Mood ID" vartype="long">0</param>
@@ -639,10 +650,6 @@
       <command>trUnitSelectClear();</command>
       <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
       <command>trUnitBuildUnit("%ProtoUnit%", vector(%DstPoint%));</command>
-    </effect>
-    <effect name="Fire Event">
-      <param name="EventID" dispname="$$22362$$Trigger" vartype="event">-1</param>
-      <command>trEventFire(%EventID%);</command>
     </effect>
     <effect name="Move to Unit">
       <param name="SrcObject" dispname="$$22295$$Source Units" vartype="unit">default</param>
@@ -774,6 +781,13 @@
       <command>trUnitSelectClear();</command>
       <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
       <command>trUnitSetHeading(%Heading%);</command>
+    </effect>
+    <effect name="Unit: Set Variation">
+      <param name="SrcObject" dispname="Units" vartype="unit">default</param>
+      <param name="Variation" dispname="Variation" vartype="long">0</param>
+      <command>trUnitSelectClear();</command>
+      <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
+      <command>trUnitSetVariation(%Variation%);</command>
     </effect>
     <effect name="AI Func">
       <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
@@ -1290,7 +1304,7 @@
       <command>trShowChoiceDialog("%MainText%", "%Text1%", %Event1%, "%Text2%", %Event2%);</command>
     </effect>
     <effect name="Modify Protounit">
-      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="protounit">Villager</param>
+      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="unittype">Villager</param>
       <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
       <param name="Field" dispname="$$25417$$Field" vartype="pufield">0</param>
       <param name="Delta" dispname="$$25418$$Delta" vartype="float">1.0</param>
@@ -1348,20 +1362,20 @@
       <command>trDamageUnit(%DamageAmt%);</command>
     </effect>
     <effect name="Damage Units in Area">
-      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit">default</param>
+      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit" dispradius="">default</param>
       <param name="Player" dispname="$$22301$$Player" vartype="player">1</param>
       <param name="UnitType" dispname="$$22302$$Unit Type" vartype="unittype">Unit</param>
-      <param name="Dist" dispname="$$22303$$Radius" vartype="float">10</param>
+      <param name="Dist" dispname="$$22303$$Radius" vartype="float" dispradius="">10</param>
       <param name="Damage" dispname="$$25479$$Damage" vartype="float">50</param>
       <command>trUnitSelectClear();</command>
       <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
       <command>trDamageUnitsInArea(%Player%,"%UnitType%",%Dist%,%Damage%);</command>
     </effect>
     <effect name="Move From Area">
-      <param name="RefObject" dispname="$$22300$$Center Unit" vartype="unit">default</param>
+      <param name="RefObject" dispname="$$22300$$Center Unit" vartype="unit" dispradius="">default</param>
       <param name="UnitType" dispname="$$25481$$Type" vartype="string">Unit</param>
       <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
-      <param name="Radius" dispname="$$22303$$Radius" vartype="float">10</param>
+      <param name="Radius" dispname="$$22303$$Radius" vartype="float" dispradius="">10</param>
       <param name="DstPoint" dispname="$$22410$$X" vartype="area">0</param>
       <param name="AttackMove" dispname="$$18986$$Attack Move" vartype="bool">false</param>
       <command>trUnitSelectClear();</command>
@@ -1398,13 +1412,13 @@
     </effect>
     <effect name="Quest Var Modify">
       <param name="QVName" dispname="$$32954$$Var Name" vartype="string">QV1</param>
-      <param name="Oper" dispname="$$22297$$Operator" vartype="string">+</param>
+      <param name="Oper" dispname="$$22297$$Operator" vartype="arithmeticoperator">+</param>
       <param name="Value" dispname="$$25372$$Value" vartype="float">0</param>
       <command>trQuestVarSet("%QVName%", trQuestVarGet("%QVName%") %Oper% %Value%);</command>
     </effect>
     <effect name="Quest Var Modify 2">
       <param name="QVName" dispname="$$32954$$Var Name" vartype="string">QV1</param>
-      <param name="Oper" dispname="$$22297$$Operator" vartype="string">+</param>
+      <param name="Oper" dispname="$$22297$$Operator" vartype="arithmeticoperator">+</param>
       <param name="QVName2" dispname="$$32956$$Var Name 2" vartype="string">QV2</param>
       <command>trQuestVarSet("%QVName%", trQuestVarGet("%QVName%") %Oper% trQuestVarGet("%QVName2%"));</command>
     </effect>
@@ -1444,7 +1458,7 @@
       <param name="PlanName" dispname="Plan Name" vartype="string">DefendPoint</param>
       <param name="Area" dispname="" vartype="area">0, 0, 0</param>
       <param name="EngageRange" dispname="Engage Range" vartype="float">50</param>
-      <param name="EvaluationFrequency" dispname="Frequency" vartype="long">5</param>
+      <param name="EvaluationFrequency" dispname="Frequency (ms)" vartype="long">1000</param>
       <param name="GatherDistance" dispname="GatherDistance" vartype="float">25</param>
       <param name="Priority" dispname="Priority" vartype="long">50</param>
       <command>trCreateDefendPlan("%SrcArmy%", "%PlanName%", %Area%, %EngageRange%, %EvaluationFrequency%, %GatherDistance%, %Priority%);</command>
@@ -1455,7 +1469,7 @@
       <param name="Player" dispname="AttackPlayer" vartype="player">2</param>
       <param name="Area" dispname="" vartype="area">0, 0, 0</param>
       <param name="EngageRange" dispname="Engage Range" vartype="float">50</param>
-      <param name="EvaluationFrequency" dispname="Frequency" vartype="long">5</param>
+      <param name="EvaluationFrequency" dispname="Frequency (ms)" vartype="long">1000</param>
       <param name="Priority" dispname="Priority" vartype="long">50</param>
       <command>trCreateAttackPlan("%SrcArmy%", "%PlanName%", %Player%, %Area%, %EngageRange%, %EvaluationFrequency%, %Priority%);</command>
     </effect>
@@ -1520,6 +1534,11 @@
       <param name="Age" dispname="Age" vartype="long">0</param>
       <param name="DisplayEffect" dispname="Display Effect" vartype="bool">true</param>
       <command>trPlayerSetAge(%Player%, %Age%, %DisplayEffect%);</command>
+    </effect>
+    <effect name="Player: Set Global Yield">
+      <param name="Player" dispname="Player" vartype="player">1</param>
+      <param name="Yield" dispname="Yield Rate" vartype="float">1</param>
+      <command>trPlayerSetGlobalYield(%Player%, %Yield%);</command>
     </effect>
     <effect name="Player : Toggle TC Spawning">
       <param name="Player" dispname="$$22301$$Player" vartype="player">1</param>
@@ -1675,30 +1694,34 @@
       <param name="Disable" dispname="$$42199$$Disable" vartype="bool">false</param>
       <command>trDisableUnitDeletion(%Disable%);</command>
     </effect>
+    <effect name="Scenario: Enable Revolutions">
+      <param name="Enable" dispname="Enable" vartype="bool">true</param>
+      <command>trEnableRevolutions(%Enable%);</command>
+    </effect>
     <effect name="Convert Units in Area">
-      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit">default</param>
+      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit" dispradius="">default</param>
       <param name="SrcPlayer" dispname="$$79816$$Source Player" vartype="player">1</param>
       <param name="TrgPlayer" dispname="$$79817$$Target Player" vartype="player">1</param>
       <param name="UnitType" dispname="$$22302$$Unit Type" vartype="unittype">Unit</param>
-      <param name="Dist" dispname="$$22303$$Radius" vartype="float">10</param>
+      <param name="Dist" dispname="$$22303$$Radius" vartype="float" dispradius="">10</param>
       <command>trUnitSelectClear();</command>
       <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
       <command>trConvertUnitsInArea(%SrcPlayer%,%TrgPlayer%,"%UnitType%",%Dist%);</command>
     </effect>
     <effect name="Kill Units in Area">
-      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit">default</param>
+      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit" dispradius="">default</param>
       <param name="Player" dispname="$$22301$$Player" vartype="player">1</param>
       <param name="UnitType" dispname="$$22302$$Unit Type" vartype="unittype">Unit</param>
-      <param name="Dist" dispname="$$22303$$Radius" vartype="float">10</param>
+      <param name="Dist" dispname="$$22303$$Radius" vartype="float" dispradius="">10</param>
       <command>trUnitSelectClear();</command>
       <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
       <command>trKillUnitsInArea(%Player%,"%UnitType%",%Dist%);</command>
     </effect>
     <effect name="Delete Units in Area">
-      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit">default</param>
+      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit" dispradius="">default</param>
       <param name="Player" dispname="$$22301$$Player" vartype="player">1</param>
       <param name="UnitType" dispname="$$22302$$Unit Type" vartype="unittype">Unit</param>
-      <param name="Dist" dispname="$$22303$$Radius" vartype="float">10</param>
+      <param name="Dist" dispname="$$22303$$Radius" vartype="float" dispradius="">10</param>
       <command>trUnitSelectClear();</command>
       <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
       <command>trRemoveUnitsInArea(%Player%,"%UnitType%",%Dist%);</command>
@@ -1717,8 +1740,8 @@
       <param name="Name" dispname="$$22365$$Name" vartype="string">default</param>
       <param name="Player" dispname="$$22301$$Player" vartype="player">0</param>
       <param name="UnitType" dispname="$$22302$$Unit Type" vartype="unittype">Unit</param>
-      <param name="CenterUnit" dispname="$$22300$$Center Unit" vartype="unit">default</param>
-      <param name="Dist" dispname="$$22303$$Radius" vartype="float">10</param>
+      <param name="CenterUnit" dispname="$$22300$$Center Unit" vartype="unit" dispradius="">default</param>
+      <param name="Dist" dispname="$$22303$$Radius" vartype="float" dispradius="">10</param>
       <param name="Count" dispname="$$22487$$Total" vartype="long">0</param>
       <param name="Msg" dispname="$$20056$$Message" vartype="stringid">The End is Near</param>
       <param name="Event" dispname="$$22362$$Trigger" vartype="event">0</param>
@@ -1745,7 +1768,7 @@
       <command>trCounterIncrementManual("%Name%");</command>
     </effect>
     <effect name="Enable/Disable Protounit Action">
-      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="protounit">Settler</param>
+      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="unittype">Settler</param>
       <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
       <param name="Action" dispname="$$18970$$Action" vartype="string">
       </param>
@@ -1838,17 +1861,17 @@
       <command>trHealUnit(%HealAmt%);</command>
     </effect>
     <effect name="Heal Units in Area">
-      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit">default</param>
+      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit" dispradius="">default</param>
       <param name="Player" dispname="$$22301$$Player" vartype="player">1</param>
       <param name="UnitType" dispname="$$22302$$Unit Type" vartype="unittype">Unit</param>
-      <param name="Dist" dispname="$$22303$$Radius" vartype="float">10</param>
+      <param name="Dist" dispname="$$22303$$Radius" vartype="float" dispradius="">10</param>
       <param name="HealAmt" dispname="$$22456$$Amount" vartype="float">50</param>
       <command>trUnitSelectClear();</command>
       <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
       <command>trHealUnitsInArea(%Player%,"%UnitType%",%Dist%,%HealAmt%);</command>
     </effect>
     <effect name="Modify Protounit Action">
-      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="protounit">Villager</param>
+      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="unittype">Villager</param>
       <param name="ProtoUnitAction" dispname="$$18970$$Action" vartype="string">
       </param>
       <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
@@ -1858,7 +1881,7 @@
       <command>trModifyProtounitAction("%ProtoUnit%", "%ProtoUnitAction%", %PlayerID%, %Field%, %Delta%, %Relativity%);</command>
     </effect>
     <effect name="Modify Protounit Data">
-      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="protounit">Villager</param>
+      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="unittype">Villager</param>
       <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
       <param name="Field" dispname="$$25417$$Field" vartype="pudatafield">0</param>
       <param name="Delta" dispname="$$25372$$Delta" vartype="float">1.0</param>
@@ -1866,7 +1889,7 @@
       <command>trModifyProtounitData("%ProtoUnit%", %PlayerID%, %Field%, %Delta%, %Relativity%);</command>
     </effect>
     <effect name="Modify Protounit Resource">
-      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="protounit">Villager</param>
+      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="unittype">Villager</param>
       <param name="Resource" dispname="$$22324$$Resource" vartype="resource">food</param>
       <param name="PlayerID" dispname="$$22301$$Player" vartype="player">1</param>
       <param name="Field" dispname="$$25417$$Field" vartype="puresourcefield">0</param>
@@ -1875,7 +1898,7 @@
       <command>trModifyProtounitResource("%ProtoUnit%", "%Resource%", %PlayerID%, %Field%, %Delta%, %Relativity%);</command>
     </effect>
     <effect name="Modify Protounit Action Unit Type">
-      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="protounit">Villager</param>
+      <param name="ProtoUnit" dispname="$$22449$$ProtoUnit" vartype="unittype">Villager</param>
       <param name="ProtoUnitAction" dispname="$$18970$$Action" vartype="string">
       </param>
       <param name="UnitType" dispname="$$22302$$Unit Type" vartype="string">
@@ -1894,10 +1917,10 @@
       <command>trGroupingConvertUnitType(%InstanceID%, %PlayerID%, "%UnitType%");</command>
     </effect>
     <effect name="Heal Units Percent in Area">
-      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit">default</param>
+      <param name="SrcObject" dispname="$$22300$$Center Unit" vartype="unit" dispradius="">default</param>
       <param name="Player" dispname="$$22301$$Player" vartype="player">1</param>
       <param name="UnitType" dispname="$$22302$$Unit Type" vartype="unittype">Unit</param>
-      <param name="Dist" dispname="$$22303$$Radius" vartype="float">10</param>
+      <param name="Dist" dispname="$$22303$$Radius" vartype="float" dispradius="">10</param>
       <param name="HealPct" dispname="$$123029$$HealPct" vartype="float">50</param>
       <command>trUnitSelectClear();</command>
       <command loop="" loopparm="SrcObject">trUnitSelect("%SrcObject%");</command>
@@ -2042,6 +2065,22 @@
       <param name="DstObject" dispname="$$22296$$Target Unit" vartype="unit">default</param>
       <param name="Count" dispname="$$22304$$Count" vartype="long">1</param>
       <command>trUnitCreateFromSourceMulti("%ProtoName%", "%SrcObject%", "%DstObject%", %PlayerID%, %Count%);</command>
+    </effect>
+    <effect name="Protounit: Set Unit Type">
+      <param name="PlayerID" dispname="Player" vartype="player">1</param>
+      <param name="ProtoUnit" dispname="ProtoUnit" vartype="unittype">Villager</param>
+      <param name="UnitType" dispname="Unit Type" vartype="abstractunittype">
+      </param>
+      <param name="Set" dispname="Set" vartype="bool">true</param>
+      <command>trProtoUnitSetUnitType(%PlayerID%, "%ProtoUnit%", "%UnitType%", %Set%);</command>
+    </effect>
+    <effect name="Protounit: Set Flag">
+      <param name="PlayerID" dispname="Player" vartype="player">1</param>
+      <param name="ProtoUnit" dispname="Unit Type" vartype="unittype">Villager</param>
+      <param name="Flag" dispname="Flag" vartype="protounitflag">
+      </param>
+      <param name="Set" dispname="Set" vartype="bool">true</param>
+      <command>trProtoUnitSetFlag(%PlayerID%, "%ProtoUnit%", "%Flag%", %Set%);</command>
     </effect>
   </effects>
 </trigger>

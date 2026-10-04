@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\kanyenke\textures\kanyenke_igc_bow_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\spc\kanyenke\textures\kanyenke_igc_bow_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\spc\kanyenke\textures\kanyenke_igc_bow_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

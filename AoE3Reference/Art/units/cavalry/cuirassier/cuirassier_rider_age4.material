@@ -1,0 +1,70 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\cuirassier\textures\cuirassier_age4_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\cuirassier\textures\cuirassier_age4_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\cuirassier\textures\cuirassier_age4_mata_masks">
+      </texture>
+      <texture name="Details" override="units\cavalry\cuirassier\textures\cuirassier_age4_mata_details">
+      </texture>
+      <float name="AO Intensity" override="0.4960">
+      </float>
+      <float name="Roughness Metallic Min" override="0.4750">
+      </float>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\revolution\independence_dragoon\textures\independence_dragoon_rider_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\revolution\independence_dragoon\textures\independence_dragoon_rider_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\revolution\independence_dragoon\textures\independence_dragoon_rider_mata_masks">
+      </texture>
+      <texture name="Details" override="units\revolution\independence_dragoon\textures\independence_dragoon_rider_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\cuirassier\textures\cuirassier_age4_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\cuirassier\textures\cuirassier_age4_matb_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\cuirassier\textures\cuirassier_age4_matb_masks">
+      </texture>
+      <texture name="Details" override="units\cavalry\cuirassier\textures\cuirassier_age4_matb_details">
+      </texture>
+      <float name="AO Intensity" override="0.4180">
+      </float>
+      <float name="Roughness Metallic Min" override="0.3370">
+      </float>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\revolution\independence_dragoon\textures\independence_dragoon_hat_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\revolution\independence_dragoon\textures\independence_dragoon_hat_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\revolution\independence_dragoon\textures\independence_dragoon_hat_mata_masks">
+      </texture>
+      <texture name="Details" override="units\revolution\independence_dragoon\textures\independence_dragoon_hat_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\cuirassier\textures\cuirassier_age4_matc_basecolor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\cuirassier\textures\cuirassier_age4_matc_normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\cuirassier\textures\cuirassier_age4_matc_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

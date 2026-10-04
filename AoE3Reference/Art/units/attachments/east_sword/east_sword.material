@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\attachments\east_sword\textures\east_sword_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\attachments\east_sword\textures\east_sword_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\attachments\east_sword\textures\east_sword_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

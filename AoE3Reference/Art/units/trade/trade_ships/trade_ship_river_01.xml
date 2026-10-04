@@ -1,0 +1,17 @@
+<animfile>
+  <definebone>bone_banner_a1</definebone>
+  <definebone>bone_banner_a2</definebone>
+  <definebone>bone_banner_a3</definebone>
+  <definebone>bone_banner_a4</definebone>
+  <definebone>bone_center</definebone>
+  <definebone>bone_master</definebone>
+  <definebone>bone_front_wake</definebone>
+  <definebone>bone_front_foam</definebone>
+  <definebone>bone_man</definebone>
+  <attachment>MoveWaterFoam<component>foam2<assetreference type="popcornFx"><file>water_effects\move_waterFoam.pkfx</file></assetreference></component><anim>None<component>foam2</component></anim></attachment>
+  <attachment>IdleWaterFoam<component>foam3<assetreference type="popcornFx"><file>water_effects\idle_waterFoam.pkfx</file></assetreference></component><anim>None<component>foam3</component></anim></attachment>
+  <attachment>trade_boat_01_man<include>units\trade\trade_boats\trade_boat_01_man.xml</include></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\trade\trade_boats\trade_boat_01</file></assetreference><attach a="trade_boat_01_man" frombone="hotspot" tobone="bone_man" syncanims="1"></attach><decal><effecttype>default</effecttype><selectedtexture>shadows_selections\selection_oval_64x128</selectedtexture><width>5.00</width><height>7.00</height></decal><watersplash><texture>units\naval\fishing_ship\fishing_ship_hullmask</texture><width>6.5</width><height>6.5</height></watersplash></component>
+  <anim>Idle<component>ModelComp</component><attach a="moveWaterFoam" frombone="ATTACHPOINT" tobone="bone_man" syncanims="0"></attach></anim>
+  <anim>Walk<component>ModelComp</component><attach a="moveWaterFoam" frombone="ATTACHPOINT" tobone="bone_man" syncanims="0"></attach></anim>
+</animfile>

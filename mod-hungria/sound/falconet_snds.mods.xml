@@ -1,0 +1,34 @@
+<!--
+  mod-minimal (Hungría): voz propia del Falconete. El Falconet es un proto COMPARTIDO y su
+  sonido va por <civlogic> (rama por civ); Hungría (HUNHungarians) no tenía rama. Este
+  archivo ADITIVO agrega la rama HUNHungarians a Select y Acknowledge (mover/atacar),
+  apuntando a los soundsets húngaros de soundsetsde.mods.xml. Patrón "Just Poland".
+-->
+<protounitsounddefmods>
+  <protounit name="Falconet">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianFalconetSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="HungarianFalconetMove">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="HungarianFalconetAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

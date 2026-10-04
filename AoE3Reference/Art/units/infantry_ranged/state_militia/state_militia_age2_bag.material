@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\infantry_ranged\state_militia\textures\state_militia_age2_matA_bag_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\infantry_ranged\state_militia\textures\state_militia_age2_matA_bag_Normals">
+      </texture>
+      <texture name="Masks" override="units\infantry_ranged\state_militia\textures\state_militia_age2_matA_bag_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

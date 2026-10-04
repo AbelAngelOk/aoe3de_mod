@@ -1,0 +1,46 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\spc\chen\textures\igc_chen_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\chen\textures\igc_chen_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\chen\textures\igc_chen_matA_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\asians\spc\chen\textures\monk_chen_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\chen\textures\monk_chen_matA_Normals">
+      </texture>
+      <texture name="Details" override="units\asians\spc\chen\textures\monk_chen_matA_Details">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\chen\textures\monk_chen_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\spc\chen\textures\igc_chen_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\chen\textures\igc_chen_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\chen\textures\igc_chen_matb_Masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\asians\spc\chen\textures\monk_chen_matb_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\chen\textures\igc_chen_matb_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\chen\textures\igc_chen_matb_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\spc\chen\textures\monk_chen_matb_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

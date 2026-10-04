@@ -1,0 +1,28 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_emissive_advanced">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\eggs\flaming_hot_dog_cart\textures\flaming_hot_dog_cart_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\asians\eggs\flaming_hot_dog_cart\textures\flaming_hot_dog_cart_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\asians\eggs\flaming_hot_dog_cart\textures\flaming_hot_dog_cart_mata_masks">
+      </texture>
+      <texture name="Emissive" override="units\asians\eggs\flaming_hot_dog_cart\textures\flaming_hot_dog_cart_mata_emissive">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\eggs\flaming_hot_dog_cart\textures\flaming_hot_dog_cart_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\asians\eggs\flaming_hot_dog_cart\textures\flaming_hot_dog_cart_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\asians\eggs\flaming_hot_dog_cart\textures\flaming_hot_dog_cart_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

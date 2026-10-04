@@ -1,0 +1,18 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\morgan_black\textures\morgan_black_low_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\spc\morgan_black\textures\morgan_black_low_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\spc\morgan_black\textures\morgan_black_low_mata_masks">
+      </texture>
+      <texture name="Details" override="units\spc\morgan_black\textures\morgan_black_low_mata_details">
+      </texture>
+      <float name="AO Intensity" override="0.2000">
+      </float>
+    </parameters>
+  </submaterial>
+</material>

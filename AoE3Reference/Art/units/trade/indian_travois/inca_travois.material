@@ -1,0 +1,66 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\indian_travois\textures\inca_travois_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\indian_travois\textures\inca_travois_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\indian_travois\textures\inca_travois_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\trade\indian_travois\textures\inca_travois_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\indian_travois\textures\inca_porter_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\indian_travois\textures\inca_porter_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\trade\indian_travois\textures\inca_porter_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\trade\indian_travois\textures\inca_porter_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mate">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="buildings\inca\props\textures\prop_b_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="buildings\inca\props\textures\prop_b_mata_normals">
+      </texture>
+      <texture name="Masks" override="buildings\inca\props\textures\prop_b_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matd">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\supply_cart\textures\supply_cart_bank_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="units\trade\supply_cart\textures\supply_cart_bank_matb_normals">
+      </texture>
+      <texture name="Masks" override="units\trade\supply_cart\textures\supply_cart_bank_matb_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="buildings\props_colony\wood_a_bucket\textures\wood_a_bucket_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="buildings\props_colony\wood_a_bucket\textures\wood_a_bucket_mata_normals">
+      </texture>
+      <texture name="Masks" override="buildings\props_colony\wood_a_bucket\textures\wood_a_bucket_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

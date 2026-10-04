@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\spc\huang\textures\bow_long_02_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\asians\spc\huang\textures\bow_long_02_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\asians\spc\huang\textures\bow_long_02_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

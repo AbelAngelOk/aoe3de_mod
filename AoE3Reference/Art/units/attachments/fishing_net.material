@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\attachments\fishing_net\textures\fishing_net_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\attachments\fishing_net\textures\fishing_net_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\attachments\fishing_net\textures\fishing_net_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

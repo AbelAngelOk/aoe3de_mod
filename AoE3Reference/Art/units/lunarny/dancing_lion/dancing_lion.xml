@@ -1,0 +1,6 @@
+<animfile>
+  <definebone>Bone_rt_foot</definebone>
+  <definebone>Bone_lt_foot</definebone>
+  <component>dancing_lion<assetreference type="GrannyModel"><file>units\lunarny\dancing_lion\dancing_lion</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_64x64</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.0</width><height>2.00</height></decal></component>
+  <anim>Dance<assetreference type="GrannyAnim"><file>animation_library\quads\dancing_lion_dance</file><tag type="SpecificSoundSet" checkvisible="1" set="PowerSmokeBomb">0.97</tag><tag type="Particles" particlename="lionDanceSmokeScreen">0.98</tag></assetreference><component>dancing_lion</component></anim>
+</animfile>

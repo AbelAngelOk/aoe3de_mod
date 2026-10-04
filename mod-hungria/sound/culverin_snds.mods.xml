@@ -1,0 +1,33 @@
+<!--
+  mod-minimal (Hungría): voz propia de la Culebrina. Proto COMPARTIDO (Culverin) con voz por
+  <civlogic>; Hungría no tenía rama. Archivo ADITIVO que agrega la rama HUNHungarians a Select
+  y Acknowledge (mover/atacar), apuntando a los soundsets de soundsetsde.mods.xml.
+-->
+<protounitsounddefmods>
+  <protounit name="Culverin">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <soundset name="HungarianCulverinSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="HUNHungarians">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="HungarianCulverinMove">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="HungarianCulverinAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

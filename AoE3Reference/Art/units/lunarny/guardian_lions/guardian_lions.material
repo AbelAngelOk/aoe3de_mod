@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\lunarny\guardian_lions\textures\guardian_lions_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\lunarny\guardian_lions\textures\guardian_lions_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\lunarny\guardian_lions\textures\guardian_lions_mata_masks">
+      </texture>
+      <texture name="Details" override="units\lunarny\guardian_lions\textures\guardian_lions_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

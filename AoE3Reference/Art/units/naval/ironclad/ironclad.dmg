@@ -1,0 +1,62 @@
+<damagetemplate>
+  <model name="\units\naval\ironclad\ironclad_damaged">
+    <impactpoint name="boneimpact01" bone="boneimpact01" impacttype="rooftile" motionstopfadetime="2.0" motionstopfadedelay="8.0" splasheffect="watersplash_med">
+      <part mesh="debirs_1a" bone="bone_debirs_1a" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_1b" bone="bone_debirs_1b" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_1c" bone="bone_debirs_1c" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_1d" bone="bone_debirs_1d" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_1e" bone="bone_debirs_1e" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_1f" bone="bone_debirs_1f" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact02" bone="boneimpact02" impacttype="rooftile" motionstopfadetime="2.0" motionstopfadedelay="8.0" splasheffect="watersplash_med">
+      <part mesh="debirs_2a" bone="bone_debirs_2a" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_2b" bone="bone_debirs_2b" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_2c" bone="bone_debirs_2c" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_2d" bone="bone_debirs_2d" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact03" bone="boneimpact03" impacttype="rooftile" motionstopfadetime="2.0" motionstopfadedelay="8.0" splasheffect="watersplash_med">
+      <part mesh="debirs_3a" bone="bone_debirs_3a" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_3b" bone="bone_debirs_3b" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_3c" bone="bone_debirs_3c" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_3d" bone="bone_debirs_3d" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact04" bone="boneimpact04" impacttype="rooftile" motionstopfadetime="2.0" motionstopfadedelay="8.0" splasheffect="watersplash_med">
+      <part mesh="debirs_4a" bone="bone_debirs_4a" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_4b" bone="bone_debirs_4b" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_4c" bone="bone_debirs_4c" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_4d" bone="bone_debirs_4d" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact05" bone="boneimpact05" impacttype="rooftile" motionstopfadetime="2.0" motionstopfadedelay="8.0" splasheffect="watersplash_med">
+      <part mesh="debirs_5a" bone="bone_debirs_5a" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debris_5b" bone="bone_debris_5b" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+    </impactpoint>
+    <impactpoint name="boneimpact06" bone="boneimpact06" impacttype="rooftile" motionstopfadetime="2.0" motionstopfadedelay="8.0" splasheffect="watersplash_med">
+      <part mesh="debirs_6a" bone="bone_debirs_6a" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_6c" bone="bone_debirs_6c" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+      <part mesh="debirs_6b" bone="bone_debirs_6b" halfextents="0.25, 0.5, 1.0" effect="effects\streamer.xml">
+      </part>
+    </impactpoint>
+  </model>
+</damagetemplate>

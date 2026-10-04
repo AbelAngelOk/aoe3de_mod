@@ -1,0 +1,10 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\linked_object\Parent_model</file></assetreference><decal><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_circle_32x32</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\linked_object\Parent_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\linked_object\Parent_walk</file><tag type="FootstepLeft">0.30</tag><tag type="FootstepRight">0.80</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>units\linked_object\Parent_death</file></assetreference><component>ModelComp</component></anim>
+  <anim>VeerRight<assetreference type="GrannyAnim"><file>units\linked_object\Parent_VeerRight</file></assetreference><component>ModelComp</component></anim>
+  <anim>VeerLeft<assetreference type="GrannyAnim"><file>units\linked_object\Parent_VeerLeft</file></assetreference><component>ModelComp</component></anim>
+  <anim>TurnLeft<assetreference type="GrannyAnim"><file>units\linked_object\Parent_TurnLeft</file></assetreference><component>ModelComp</component></anim>
+  <anim>TurnRight<assetreference type="GrannyAnim"><file>units\linked_object\Parent_TurnRight</file></assetreference><component>ModelComp</component></anim>
+</animfile>

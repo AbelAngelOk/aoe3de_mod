@@ -1146,6 +1146,13 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCMercsGallowglasses</name>
+      <maxcount>1</maxcount>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCMercsArmoredPistoleers</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1234,6 +1241,14 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCShipWhalingShips</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
       <name>DEHCHabsburgAllies1</name>
       <maxcount>1</maxcount>
       <level>25</level>
@@ -1280,7 +1295,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <infiniteinlastage>1</infiniteinlastage>
       <displayunitcount>2</displayunitcount>
     </card>
     <card>
@@ -1879,6 +1893,16 @@
       </revoltcard>
     </card>
     <card>
+      <name>DEHCREVShipSoldados</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
       <name>DEHCREVMXShipHaciendaWagonRepeat</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -2255,6 +2279,7 @@
         <card>DEHCREVMXCaballeros</card>
         <card>DEHCNewSpainViceroyalty</card>
         <card>DEHCFedMXThreeGuarantees</card>
+        <card>DEHCREVShipSoldados</card>
         <card>DEHCREVMXShipHaciendaWagonRepeat</card>
         <card>DEHCFedMXZacatecasSilver</card>
         <card>DEHCREVOutlawCombat</card>
@@ -2671,8 +2696,10 @@
       <tech x="5.8" y="5.0">HCMercsHolyRoman</tech>
       <tech x="6.5" y="4.0">HCXPMercsFusiliers</tech>
       <tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
+      <tech x="6.5" y="1.0">DEHCShipWhalingShips</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
       <tech x="7.2" y="1.0">DEHCMercsIrishBrigadiers</tech>
+      <tech x="7.2" y="1.0">DEHCMercsGallowglasses</tech>
       <tech x="7.2" y="3.0">DEHCHabsburgAllies1</tech>
       <tech x="7.2" y="3.0">DEHCBourbonAllies1</tech>
       <tech x="7.2" y="7.0">HCXPMayanAlliesRepeat</tech>
@@ -2703,8 +2730,10 @@
       <tech x="5.8" y="5.0">HCMercsHolyRoman</tech>
       <tech x="6.5" y="4.0">HCXPMercsFusiliers</tech>
       <tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
+      <tech x="6.5" y="1.0">DEHCShipWhalingShips</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
       <tech x="7.2" y="1.0">DEHCMercsIrishBrigadiers</tech>
+      <tech x="7.2" y="1.0">DEHCMercsGallowglasses</tech>
       <tech x="7.2" y="3.0">DEHCHabsburgAllies1</tech>
       <tech x="7.2" y="3.0">DEHCBourbonAllies1</tech>
       <tech x="7.2" y="7.0">HCXPMayanAlliesRepeat</tech>

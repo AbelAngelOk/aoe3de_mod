@@ -1,0 +1,38 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\george_washington_x\textures\igc_george_washington_x_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\george_washington_x\textures\igc_george_washington_x_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\george_washington_x\textures\igc_george_washington_x_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\george_washington_x\textures\igc_george_washington_hat_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\george_washington_x\textures\igc_george_washington_hat_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\george_washington_x\textures\igc_george_washington_hat_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\george_washington_x\textures\igc_george_washington_hat_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\george_washington_x\textures\igc_george_washington_hat_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\george_washington_x\textures\igc_george_washington_hat_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

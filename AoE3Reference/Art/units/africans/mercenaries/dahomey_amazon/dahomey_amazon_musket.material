@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\africans\mercenaries\dahomey_amazon\textures\dahomey_amazon_musket_mata_Basecolor">
+      </texture>
+      <texture name="Normals" override="units\africans\mercenaries\dahomey_amazon\textures\dahomey_amazon_musket_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\africans\mercenaries\dahomey_amazon\textures\dahomey_amazon_musket_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\africans\mercenaries\dahomey_amazon\textures\dahomey_amazon_musket_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

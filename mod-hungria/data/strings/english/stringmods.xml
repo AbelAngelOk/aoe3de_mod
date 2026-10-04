@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mod-hungria: strings english — dividido de mod-minimal (2026-09-19). -->
+<stringmods>
+  <stringtable>
+    <language name="">
+      <!-- Civilización -->
+      <string _locid="88881001">Hungarians</string>
+      <string _locid="88881002">The Hungarians bring the cavalry traditions of the Magyar people to the battlefield.</string>
+      <!-- Home City -->
+      <string _locid="88881003">Budapest</string>
+      <string _locid="88881004">The Magyar Chieftain</string>
+      <!-- Unidades -->
+      <string _locid="88881010">Hajduk</string>
+      <string _locid="88881011">Hungarian infantry with a strong melee charge and bonus damage against skirmishers and heavy infantry. Does not gain rank promotions.</string>
+      <string _locid="88881012">Shock skirmisher infantry</string>
+      <string _locid="88881013">Honvéd</string>
+      <string _locid="88881014">Hungarian line infantry armed with a needle gun. Good against cavalry and other infantry.</string>
+      <string _locid="88881015">Line infantry, good vs cavalry</string>
+      <!-- Mejoras de cuartel (Honvéd) — singular, sirve también de nombre de unidad -->
+      <string _locid="88881020">Veteran Honvéd</string>
+      <string _locid="88881021">Guard Honvéd</string>
+      <string _locid="88881022">Imperial Honvéd</string>
+      <!-- Mejoras de cuartel (Hajduk) -->
+      <string _locid="88881023">Veteran Hajduk</string>
+      <string _locid="88881024">Guard Hajduk</string>
+      <string _locid="88881025">Imperial Hajduk</string>
+      <!-- Rollovers de mejoras -->
+      <string _locid="88881030">Upgrades Honvéds to Veteran (+20% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88881031">Upgrades Honvéds to Guard (+20% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88881032">Upgrades Honvéds to Imperial (+50% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88881033">Upgrades Hajduks to Veteran (+20% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88881034">Upgrades Hajduks to Guard (+20% hitpoints and attack, +0.10 speed).</string>
+      <string _locid="88881035">Upgrades Hajduks to Imperial (+50% hitpoints and attack, +0.10 speed).</string>
+      <!-- Caballería: unidades -->
+      <string _locid="88881040">Magyar Hussar</string>
+      <string _locid="88881041">Elite Hungarian shock cavalry, powerful in melee.</string>
+      <string _locid="88881042">Elite shock cavalry</string>
+      <string _locid="88881043">Crabat</string>
+      <string _locid="88881044">Croatian cavalry: ranged attack strong vs cavalry (x3) and artillery (x2); melee strong vs infantry (x3).</string>
+      <string _locid="88881045">Anti-cavalry / anti-infantry cavalry</string>
+      <!-- Caballería: mejoras (singular, sirve de nombre de unidad) -->
+      <string _locid="88881050">Guard Magyar Hussar</string>
+      <string _locid="88881051">Imperial Magyar Hussar</string>
+      <string _locid="88881052">Guard Crabat</string>
+      <string _locid="88881053">Imperial Crabat</string>
+      <string _locid="88881060">Upgrades Magyar Hussars to Guard (+20% hitpoints and attack).</string>
+      <string _locid="88881061">Upgrades Magyar Hussars to Imperial (+50% hitpoints and attack).</string>
+      <string _locid="88881062">Upgrades Crabats to Guard (+20% hitpoints and attack).</string>
+      <string _locid="88881063">Upgrades Crabats to Imperial (+50% hitpoints and attack).</string>
+      <!-- Cartas especiales de metrópoli -->
+      <string _locid="88881070">Burgomaster</string>
+      <string _locid="88881071">Elite Promotions</string>
+      <string _locid="88881072">Noble Insurrection</string>
+      <string _locid="88881075">The old obligation of the Hungarian nobility to provide cavalry allows a larger number of Magyar Hussars to be kept on the battlefield. Effect: Magyar Hussars now cost 2 population instead of 3.</string>
+      <string _locid="88881073">Distributism</string>
+      <string _locid="88881074">Foreign Logging</string>
+      <!-- Infantry combat cards (Change 8) -->
+      <string _locid="88881076">Infantry Attack</string>
+      <string _locid="88881077">Infantry Resistance</string>
+      <string _locid="88881078">Infantry Combat</string>
+      <string _locid="88881079">Bocskai's Uprising</string>
+      <string _locid="88881080">+15% attack to Honvéds and Hajduks.</string>
+      <string _locid="88881081">+15% hitpoints to Honvéds and Hajduks.</string>
+      <string _locid="88881082">+15% attack and hitpoints to Honvéds and Hajduks.</string>
+      <string _locid="88881083">Hajduks adapt their defense to their combat stance: melee armor in melee mode, siege armor (vs artillery) in staggered mode, and ranged armor in normal mode.</string>
+      <!-- Change 9: cards f/h/e/g + unit -->
+      <string _locid="88881090">Settler Wagons</string>
+      <string _locid="88881091">Cavalry Reinforcements</string>
+      <string _locid="88881093">Mounted Infantry</string>
+      <string _locid="88881094">Mounted Infantry</string>
+      <string _locid="88881095">Versatile mounted rifleman, effective against cavalry and at range.</string>
+      <string _locid="88881096">Mounted rifleman</string>
+      <!-- Infantería montada desmontada (a pie) -->
+      <string _locid="88881097">Dismounted Infantry</string>
+      <string _locid="88881098">Mounted infantry fighting on foot: a ranged skirmisher strong against heavy infantry. Can mount back onto its horse.</string>
+      <string _locid="88881099">Dismounted rifleman</string>
+      <!-- Cambio 11: cartas de caballería propias -->
+      <string _locid="88881100">Cavalry Resistance</string>
+      <string _locid="88881101">+15% hitpoints to all cavalry.</string>
+      <string _locid="88881102">Cavalry Combat</string>
+      <string _locid="88881103">+15% attack and hitpoints to all cavalry.</string>
+      <string _locid="88881104">Corvinus Legacy</string>
+      <string _locid="88881105">+20% hitpoints and attack to heavy cavalry.</string>
+      <!-- Cambio 12: cartas de mercenarios -->
+      <string _locid="88881106">Pandour Band</string>
+      <string _locid="88881107">Ships 6 Pandours.</string>
+      <string _locid="88881108">TEAM Diet of Pressburg</string>
+      <string _locid="88881109">TEAM Ships 7 Pandours. Can be shipped infinitely in the Industrial Age.</string>
+      <string _locid="88881116">TEAM Regiment of Trenck</string>
+      <string _locid="88881117">TEAM Ships 4 Pandours.</string>
+      <!-- Cambio 13: Granadero húngaro (Artillery Foundry) -->
+      <string _locid="88881120">Hungarian Grenadier</string>
+      <string _locid="88881121">Hungarian grenadier that hurls grenades; powerful against buildings and infantry. Trained and upgraded at the Artillery Foundry.</string>
+      <string _locid="88881122">Grenadier</string>
+      <string _locid="88881123">Veteran Hungarian Grenadier</string>
+      <string _locid="88881124">Guard Hungarian Grenadier</string>
+      <string _locid="88881125">Imperial Hungarian Grenadier</string>
+      <string _locid="88881126">Upgrades Hungarian Grenadiers to Veteran (+20% hitpoints and attack).</string>
+      <string _locid="88881127">Upgrades Hungarian Grenadiers to Guard (+20% hitpoints and attack).</string>
+      <string _locid="88881128">Upgrades Hungarian Grenadiers to Imperial (+50% hitpoints and attack).</string>
+      <!-- AI personalities (game/ai/*.personality). Without these strings the AI shows no name. -->
+      <string _locid="88881900">Matthias Corvinus</string>
+      <string _locid="88881901">Hungarian AI: Honvéd infantry, Magyar hussars and artillery.</string>
+      <!-- Cambio 12: cartas nuevas (Ayuda Maltesa, Carreta de Destacamento) -->
+      <string _locid="88881130">Maltese Aid</string>
+      <string _locid="88881131">Enables Crossbowmen training at the Barracks and their Veteran upgrade (researchable there).</string>
+      <string _locid="88881134">Blockhouse Wagon</string>
+      <string _locid="88881135">Ships 1 Outpost Wagon and raises the maximum Outpost limit by +1. From then on, each of your own military shipments also includes 1 extra Outpost Wagon.</string>
+      <!-- Cambio 13: Reformas Militares de María Teresa -->
+      <string _locid="88881136">Maria Theresa's Military Reforms</string>
+      <string _locid="88881137">Permanently changes the cost of Hajduks (40 food, 70 coin) and Crabats (90 food, 90 coin).</string>
+      <!-- Cambio 14: Patronato Apostólico (techs de Iglesia) -->
+      <string _locid="88881140">Apostolic Patronage</string>
+      <string _locid="88881141">Adds technologies to the Church that ship troops when researched: Crossbowmen and Pikemen (Age II), Uhlans and Janissaries (Age III, Janissaries can also be trained at the Barracks) and Great Bombards (Age IV).</string>
+      <string _locid="88881142">Shipment: Crossbowmen</string>
+      <string _locid="88881143">Research at the Church for 500 wood to ship 10 Crossbowmen.</string>
+      <string _locid="88881144">Shipment: Pikemen</string>
+      <string _locid="88881145">Research at the Church for 500 food to ship 10 Pikemen.</string>
+      <string _locid="88881146">Shipment: Uhlans</string>
+      <string _locid="88881147">Research at the Church for 1000 food to ship 7 Uhlans.</string>
+      <string _locid="88881148">Shipment: Janissaries</string>
+      <string _locid="88881149">Research at the Church for 2000 wood to ship 20 Janissaries and enable training them at the Barracks.</string>
+      <string _locid="88881150">Shipment: Great Bombards</string>
+      <string _locid="88881151">Research at the Church for 2000 coin to ship 3 Great Bombards.</string>
+      <!-- Ottoman Hungary (HOT) -->
+      <string _locid="88885001">Ottoman Hungary</string>
+      <string _locid="88885002">Ottoman Hungary</string>
+      <string _locid="88885003">Buda</string>
+      <string _locid="88885004">Explorer</string>
+      <string _locid="88885210">Grenzer</string>
+      <string _locid="88885211">Frontier soldier of the Hungarian-Ottoman Militärgrenze. Versatile light infantry, strong against skirmish troops.</string>
+      <string _locid="88885212">Grenzer</string>
+      <string _locid="88885220">Veteran Grenzer</string>
+      <string _locid="88885221">Guard Grenzer</string>
+      <string _locid="88885222">Imperial Grenzer</string>
+      <string _locid="88885230">Upgrades Grenzer to Veteran (+20% hit points and damage, +0.10 speed).</string>
+      <string _locid="88885231">Upgrades Grenzer to Guard (+20% additional hit points and damage, +0.10 speed).</string>
+      <string _locid="88885232">Upgrades Grenzer to Imperial (+50% hit points and damage, +0.10 speed).</string>
+      <!-- German Hungary (HGE) -->
+      <string _locid="88886001">German Hungary</string>
+      <string _locid="88886002">German Hungary</string>
+      <string _locid="88886003">Pozsony</string>
+      <string _locid="88886004">Explorer</string>
+      <string _locid="88886210">Pandur</string>
+      <string _locid="88886211">Irregular Croatian light infantry in Habsburg service. Tough, strong against skirmish troops.</string>
+      <string _locid="88886212">Pandur</string>
+      <string _locid="88886220">Veteran Pandur</string>
+      <string _locid="88886221">Guard Pandur</string>
+      <string _locid="88886222">Imperial Pandur</string>
+      <string _locid="88886230">Upgrades Pandur to Veteran (+20% hit points and damage, +0.10 speed).</string>
+      <string _locid="88886231">Upgrades Pandur to Guard (+20% additional hit points and damage, +0.10 speed).</string>
+      <string _locid="88886232">Upgrades Pandur to Imperial (+50% hit points and damage, +0.10 speed).</string>
+</language>
+  </stringtable>
+</stringmods>

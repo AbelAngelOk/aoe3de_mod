@@ -1,6 +1,6 @@
 <layout>
   <gadget name="HomecityEdit" type="gadget" size1024="3 100 492 518" transparent="" background="" z="10" hidden="" bevel="" windowzstyle="">
-    <gadget name="HomecityMainEdit" type="gadget" size1024="3 100 492 518" background="ui\editor\editor_background" bevel="">
+    <gadget name="HomecityMainEdit" type="gadget" size1024="3 100 492 518" background="ui\editor\background\editor_background" bevel="">
       <gadget name="HomecityEditCivLabel" textcolor="0 0 0" textjustifyright="" textfontsize="12" textfont="Arial nodrop" type="formatText" size1024="70 154 149 174">$$49150$$Civ:</gadget>
       <gadget name="HomecityEditCivDropdown" type="textField" dropdowndistance="120" textfont="Arial nobold nodrop" z="11" textfontsize="12" textcolor="0 0 0" fieldreadonly="" size1024="161 156 276 176">
         <dropdown>
@@ -19,7 +19,7 @@
       <gadget name="HomecityEditSummaryButton" z="11" type="button" bevelbutton="" textfont="Arial nodrop" textfontsize="12" size1024="344 229 461 254">$$49152$$Homecity Summary</gadget>
       <gadget name="HomecityEditCancelButton" z="11" type="button" bevelbutton="" textfont="Arial nodrop" textfontsize="12" size1024="364 480 467 506">$$18457$$Close</gadget>
     </gadget>
-    <gadget name="HomecitySummaryEdit" type="gadget" size1024="253 160 750 445" hidden="" background="ui\editor\editor_background" bevel="">
+    <gadget name="HomecitySummaryEdit" type="gadget" size1024="253 160 750 445" hidden="" background="ui\editor\background\editor_background" bevel="">
       <gadget name="HomecitySummaryEditCityLabel" textcolor="0 0 0" textfontsize="12" textfont="Arial nodrop" type="textBox" size1024="394 227 473 247">$$41757$$City:</gadget>
       <gadget name="HomecitySummaryEditCity" type="textField" textfont="Arial nobold nodrop" textfontsize="12" textcolor="0 0 0" size1024="486 226 663 246">
       </gadget>

@@ -1,0 +1,4 @@
+<animfile>
+  <component>cart<assetreference type="GrannyModel"><file>units\trade\cart\cart</file></assetreference></component>
+  <anim>None<component>cart</component></anim>
+</animfile>

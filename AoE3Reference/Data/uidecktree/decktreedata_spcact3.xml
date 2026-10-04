@@ -2,11 +2,11 @@
   <group name="The Market Place">
     <label string="36930" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="1">
     </label>
-    <card name="HCShipSettlers2" banner="unit" icon="resources/art/units/villagers/villager_portrait.png" row="1" col="2">
+    <card name="HCShipSettlers2" banner="unit" icon="resources/art/units/villagers/villager_icon.png" row="1" col="2">
     </card>
-    <card name="HCShipSettlers3" banner="unit" icon="resources/art/units/villagers/villager_portrait.png" row="2" col="2">
+    <card name="HCShipSettlers3" banner="unit" icon="resources/art/units/villagers/villager_icon.png" row="2" col="2">
     </card>
-    <card name="HCShipSettlers4" banner="unit" icon="resources/art/units/villagers/villager_portrait.png" row="3" col="2">
+    <card name="HCShipSettlers4" banner="unit" icon="resources/art/units/villagers/villager_icon.png" row="3" col="2">
     </card>
     <card name="HCShipFoodCrates1" banner="improvement" icon="resources/images/icons/techs/infinite_food.png" row="4" col="2">
     </card>
@@ -22,15 +22,15 @@
     </card>
     <card name="HCShipCoinCrates3" banner="improvement" icon="resources/images/icons/techs/hc_unlock_coin_crate/hc_unlock_coin_crate.png" row="2" col="8">
     </card>
-    <card name="HCShipSheep1" banner="unit" icon="resources/art/units/animals/sheep/sheep_icon_portrait.png" row="3" col="8">
+    <card name="HCShipSheep1" banner="unit" icon="resources\images\icons\techs\building_sheep.png" row="3" col="8">
     </card>
-    <card name="HCShipSheep2" banner="unit" icon="resources/art/units/animals/sheep/sheep_icon_portrait.png" row="4" col="8">
+    <card name="HCShipSheep2" banner="unit" icon="resources\images\icons\techs\building_sheep.png" row="4" col="8">
     </card>
-    <card name="HCShipCoveredWagons" banner="unit" icon="resources/art/units/villagers/covered_wagon/covered_wagon_portrait.png" row="5" col="8">
+    <card name="HCShipCoveredWagons" banner="unit" icon="resources/art/units/villagers/covered_wagon/covered_wagon_icon_64.png" row="5" col="8">
     </card>
-    <card name="HCShipBalloons" banner="unit" icon="resources/art/units/balloons/hot_air_balloon_portrait.png" row="6" col="8">
+    <card name="HCShipBalloons" banner="unit" icon="resources\images\icons\techs\hc_balloons\hc_balloons.png" row="6" col="8">
     </card>
-    <card name="HCHeroesAct3" banner="improvement" icon="resources/art/units/spc/amelia_black/amelia_black_igc_icon.png" row="7" col="8">
+    <card name="HCHeroesAct3" banner="improvement" icon="resources/art/units/spc/amelia_black/amelia_black_icon_64x64.png" row="7" col="8">
     </card>
     <card name="HCHeroesCooper" banner="improvement" icon="resources/images/icons/techs/hc_ability_field_promotion/hc_ability_field_promotion.png" row="8" col="8">
     </card>
@@ -38,25 +38,25 @@
   <group name="Military Academy">
     <label string="24965" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="14">
     </label>
-    <card name="HCShipSkirmishers1" banner="unit" icon="resources/art/units/infantry_ranged/skirmisher/skirmisher_portrait.png" row="1" col="15">
+    <card name="HCShipSkirmishers1" banner="unit" icon="resources/art/units/infantry_ranged/skirmisher/skirmisher_icon.png" row="1" col="15">
     </card>
-    <card name="HCShipSkirmishers2" banner="unit" icon="resources/art/units/infantry_ranged/skirmisher/skirmisher_portrait.png" row="2" col="15">
+    <card name="HCShipSkirmishers2" banner="unit" icon="resources/art/units/infantry_ranged/skirmisher/skirmisher_icon.png" row="2" col="15">
     </card>
-    <card name="HCShipMusketeers1" banner="unit" icon="resources/art/units/infantry_ranged/musketeer/musketeer_portrait.png" row="3" col="15">
+    <card name="HCShipMusketeers1" banner="unit" icon="resources/art/units/infantry_ranged/musketeer/musketeer_icon_64x64.png" row="3" col="15">
     </card>
-    <card name="HCShipMusketeers2" banner="unit" icon="resources/art/units/infantry_ranged/musketeer/musketeer_portrait.png" row="4" col="15">
+    <card name="HCShipMusketeers2" banner="unit" icon="resources/art/units/infantry_ranged/musketeer/musketeer_icon_64x64.png" row="4" col="15">
     </card>
-    <card name="HCShipMusketeers3" banner="unit" icon="resources/art/units/infantry_ranged/musketeer/musketeer_portrait.png" row="5" col="15">
+    <card name="HCShipMusketeers3" banner="unit" icon="resources/art/units/infantry_ranged/musketeer/musketeer_icon_64x64.png" row="5" col="15">
     </card>
-    <card name="HCShipMusketeers4" banner="unit" icon="resources/art/units/infantry_ranged/musketeer/musketeer_portrait.png" row="6" col="15">
+    <card name="HCShipMusketeers4" banner="unit" icon="resources/art/units/infantry_ranged/musketeer/musketeer_icon_64x64.png" row="6" col="15">
     </card>
-    <card name="HCShipHussars1" banner="unit" icon="resources/art/units/cavalry/light_cavalry/light_cavalry_portrait.png" row="1" col="21">
+    <card name="HCShipHussars1" banner="unit" icon="resources/art/units/cavalry/light_cavalry/light_cavalry_icon_64x64.png" row="1" col="21">
     </card>
-    <card name="HCShipHussars2" banner="unit" icon="resources/art/units/cavalry/light_cavalry/light_cavalry_portrait.png" row="2" col="21">
+    <card name="HCShipHussars2" banner="unit" icon="resources/art/units/cavalry/light_cavalry/light_cavalry_icon_64x64.png" row="2" col="21">
     </card>
-    <card name="HCShipHussars3" banner="unit" icon="resources/art/units/cavalry/light_cavalry/light_cavalry_portrait.png" row="3" col="21">
+    <card name="HCShipHussars3" banner="unit" icon="resources/art/units/cavalry/light_cavalry/light_cavalry_icon_64x64.png" row="3" col="21">
     </card>
-    <card name="HCShipHussars4" banner="unit" icon="resources/art/units/cavalry/light_cavalry/light_cavalry_portrait.png" row="4" col="21">
+    <card name="HCShipHussars4" banner="unit" icon="resources/art/units/cavalry/light_cavalry/light_cavalry_icon_64x64.png" row="4" col="21">
     </card>
     <card name="HCCavalryDamageBritish" banner="improvement" icon="resources/images/icons/techs/hc_cavalry_damage/hc_cavalry_damage.png" row="5" col="21">
     </card>
@@ -64,19 +64,19 @@
     </card>
     <card name="HCCavalryCombatBritish" banner="improvement" icon="resources/images/icons/techs/hc_cavalry_combat/hc_cavalry_combat.png" row="7" col="21">
     </card>
-    <card name="HCShipFalconets1" banner="unit" icon="resources/art/units/artillery/falconet/falconet_portrait.png" row="1" col="27">
+    <card name="HCShipFalconets1" banner="unit" icon="resources/art/units/artillery/falconet/falconet_icon_64x64.png" row="1" col="27">
     </card>
-    <card name="HCShipFalconets2" banner="unit" icon="resources/art/units/artillery/falconet/falconet_portrait.png" row="2" col="27">
+    <card name="HCShipFalconets2" banner="unit" icon="resources/art/units/artillery/falconet/falconet_icon_64x64.png" row="2" col="27">
     </card>
-    <card name="HCShipFalconets3" banner="unit" icon="resources/art/units/artillery/falconet/falconet_portrait.png" row="3" col="27">
+    <card name="HCShipFalconets3" banner="unit" icon="resources/art/units/artillery/falconet/falconet_icon_64x64.png" row="3" col="27">
     </card>
-    <card name="HCShipMortars1" banner="unit" icon="resources/art/units/artillery/mortar/mortar_portrait.png" row="4" col="27">
+    <card name="HCShipMortars1" banner="unit" icon="resources/art/units/artillery/mortar/mortar_icon_64x64.png" row="4" col="27">
     </card>
-    <card name="HCShipMortars2" banner="unit" icon="resources/art/units/artillery/mortar/mortar_portrait.png" row="5" col="27">
+    <card name="HCShipMortars2" banner="unit" icon="resources/art/units/artillery/mortar/mortar_icon_64x64.png" row="5" col="27">
     </card>
-    <card name="HCShipRockets1" banner="unit" icon="resources/art/units/artillery/rocket/rocket_portrait.png" row="6" col="27">
+    <card name="HCShipRockets1" banner="unit" icon="resources/art/units/artillery/rocket/rocket_icon.png" row="6" col="27">
     </card>
-    <card name="HCShipRockets2" banner="unit" icon="resources/art/units/artillery/rocket/rocket_portrait.png" row="7" col="27">
+    <card name="HCShipRockets2" banner="unit" icon="resources/art/units/artillery/rocket/rocket_icon.png" row="7" col="27">
     </card>
     <card name="HCAdvancedArtillerySPCAct3" banner="unit" icon="resources/images/icons/techs/field_gun/shot_tower.png" row="8" col="27">
     </card>
@@ -100,7 +100,7 @@
     </card>
     <card name="HCAdvancedArsenal" banner="improvement" icon="resources/images/icons/techs/hc_advanced_arsenal/hc_advanced_arsenal.png" row="1" col="40">
     </card>
-    <card name="HCUnlockFort" banner="building" icon="resources/art/buildings/fort/fort_portrait.png" row="2" col="40">
+    <card name="HCUnlockFort" banner="building" icon="resources/art/buildings/fort/fort_icon.png" row="2" col="40">
     </card>
     <card name="HCExtensiveFortifications" banner="improvement" icon="resources/images/icons/techs/hc_extensive_fortifications/hc_extensive_fortifications.png" row="3" col="40">
     </card>
@@ -118,7 +118,7 @@
     </card>
     <card name="HCCheaperManors" banner="improvement" icon="resources/images/icons/techs/hc_virginia_company/hc_virginia_company.png" row="2" col="46">
     </card>
-    <card name="HCUnlockFactory" banner="building" icon="resources/art/buildings/factory/shared_factory_portrait.png" row="3" col="46">
+    <card name="HCUnlockFactory" banner="building" icon="resources/art/buildings/factory/shared_factory_icon.png" row="3" col="46">
     </card>
   </group>
   <group name="Manufacturing Plant">
@@ -148,13 +148,13 @@
   <group name="Laclede's Landing">
     <label string="36929" banner="building" icon="resources/art/buildings/town_center/towncenter_portrait.png" row="0" col="65">
     </label>
-    <card name="HCShipCaravels1" banner="unit" icon="resources/art/units/naval/caravel_ship/caravel_ship_portrait.png" row="1" col="66">
+    <card name="HCShipCaravels1" banner="unit" icon="resources/art/units/naval/caravel_ship/caravel_ship_icon.png" row="1" col="66">
     </card>
-    <card name="HCShipGalleons" banner="unit" icon="resources/art/units/naval/galleon/galleon_icon_portrait.png" row="2" col="66">
+    <card name="HCShipGalleons" banner="unit" icon="resources/art/units/naval/galleon/galleon_icon_64x64.png" row="2" col="66">
     </card>
-    <card name="HCShipFrigates" banner="unit" icon="resources/art/units/naval/frigate/frigate_icon_portrait.png" row="3" col="66">
+    <card name="HCShipFrigates" banner="unit" icon="resources/art/units/naval/frigate/frigate_icon.png" row="3" col="66">
     </card>
-    <card name="HCShipMonitors" banner="unit" icon="resources/art/units/naval/monitor/monitor_icon_portrait.png" row="4" col="66">
+    <card name="HCShipMonitors" banner="unit" icon="resources/art/units/naval/monitor/monitor_icon_64x64.png" row="4" col="66">
     </card>
     <card name="HCAdmirality" banner="unit" icon="resources/images/icons/techs/hc_admirality/hc_admirality.png" row="5" col="66">
     </card>

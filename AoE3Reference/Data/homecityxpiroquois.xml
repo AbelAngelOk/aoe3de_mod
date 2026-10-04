@@ -80,12 +80,13 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCShipVillagersNativeTeam</name>
+      <name>HCXPShipVillagersTeam</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCXPShipVillagers3</prereqtech>
       <age>1</age>
       <displayunitcount>3</displayunitcount>
+      <overrideicontech>DEHCShipVillagersNativeTeam</overrideicontech>
     </card>
     <card>
       <name>HCShipFoodCrates1</name>
@@ -591,19 +592,9 @@
       <age>3</age>
     </card>
     <card>
-      <name>HCXPShipLightCannon1</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>2</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCXPShipLightCannon2</name>
       <maxcount>1</maxcount>
       <level>25</level>
-      <prereqtech>HCXPShipLightCannon1</prereqtech>
       <age>3</age>
       <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1222,6 +1213,14 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>DEHCShipWhalingShips</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
       <name>HCXPBuccaneers</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1543,7 +1542,7 @@
       <tech x="0.7" y="3.0">HCXPShipVillagers3</tech>
       <tech x="0.7" y="2.0">HCXPShipVillagers2</tech>
       <tech x="0.7" y="4.0">HCXPShipVillagers4</tech>
-      <tech x="0.7" y="4.0">DEHCShipVillagersNativeTeam</tech>
+      <tech x="0.7" y="4.0">HCXPShipVillagersTeam</tech>
       <tech x="0.7" y="5.0">HCXPAdvancedScouts</tech>
       <tech x="1.7" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.5" y="1.0">HCShipWoodCrates1</tech>
@@ -1573,7 +1572,7 @@
       <tech x="0.7" y="3.0">HCXPShipVillagers3</tech>
       <tech x="0.7" y="2.0">HCXPShipVillagers2</tech>
       <tech x="0.7" y="4.0">HCXPShipVillagers4</tech>
-      <tech x="0.7" y="4.0">DEHCShipVillagersNativeTeam</tech>
+      <tech x="0.7" y="4.0">HCXPShipVillagersTeam</tech>
       <tech x="0.7" y="5.0">HCXPAdvancedScouts</tech>
       <tech x="1.7" y="1.0">HCShipFoodCrates1</tech>
       <tech x="2.5" y="1.0">HCShipWoodCrates1</tech>
@@ -1903,6 +1902,7 @@
       <tech x="6.0" y="7.0">HCXPNationalUnity</tech>
       <tech x="7.0" y="1.0">HCXPDutchAllies1</tech>
       <tech x="7.0" y="3.0">HCXPDutchAllies2</tech>
+      <tech x="7.0" y="4.0">DEHCShipWhalingShips</tech>
       <tech x="7.0" y="4.0">HCXPBuccaneers</tech>
       <tech x="7.0" y="5.0">HCXPBuccaneers2</tech>
       <tech x="7.0" y="5.0">DEHCCovenantChain</tech>
@@ -1939,6 +1939,7 @@
       <tech x="6.0" y="7.0">HCXPNationalUnity</tech>
       <tech x="7.0" y="1.0">HCXPDutchAllies1</tech>
       <tech x="7.0" y="3.0">HCXPDutchAllies2</tech>
+      <tech x="7.0" y="4.0">DEHCShipWhalingShips</tech>
       <tech x="7.0" y="4.0">HCXPBuccaneers</tech>
       <tech x="7.0" y="5.0">HCXPBuccaneers2</tech>
       <tech x="7.0" y="5.0">DEHCCovenantChain</tech>

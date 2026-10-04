@@ -1,0 +1,17 @@
+<animfile>
+  <definebone>Bone_rt_foot</definebone>
+  <definebone>Bone_lt_foot</definebone>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\honey_badger\honey_badger</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_64x64</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.0</width><height>1.75</height><zoffset>-0.20</zoffset></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_boreda</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_boredb</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_walk</file></assetreference><component>ModelComp</component></anim>
+  <anim>HandAttack<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_attack</file><tag type="Attack">0.60</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_death</file><tag type="SpecificSoundSet" checkvisible="1" set="RagdollImpact">0.78</tag></assetreference><component>ModelComp</component></anim>
+  <anim>Nugget_Tree<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_guardian_tree</file></assetreference><component>ModelComp</component></anim>
+  <anim>Nugget_Tree_Exit<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_guardian_tree_exit</file></assetreference><component>ModelComp</component></anim>
+  <anim>Nugget_Wagon_A<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_guardian_wagona</file></assetreference><component>ModelComp</component></anim>
+  <anim>Nugget_Wagon_A_Exit<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_guardian_wagona_exit</file></assetreference><component>ModelComp</component></anim>
+  <anim>Nugget_Wagon_B<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_guardian_wagonb</file></assetreference><component>ModelComp</component></anim>
+  <anim>Nugget_Wagon_B_Exit<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_guardian_wagonb_exit</file></assetreference><component>ModelComp</component></anim>
+  <anim>Nugget_Missionary<assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_guardian_priesta</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_guardian_priestb</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_guardian_priestc</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\honey_badger\honey_badger_guardian_priestd</file></assetreference><component>ModelComp</component></anim>
+</animfile>

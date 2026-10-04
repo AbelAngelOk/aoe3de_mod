@@ -3,4 +3,6 @@
   <unittype>deHanoverFactory</unittype>
   <unittype>deUniversity</unittype>
   <unittype tech="DEHCAutarky">deHouseInca</unittype>
+  <unittype>deSejm</unittype>
+  <unittype tech="DEHCREVFrankfurtAssembly">Capitol</unittype>
 </tacticdisplay>

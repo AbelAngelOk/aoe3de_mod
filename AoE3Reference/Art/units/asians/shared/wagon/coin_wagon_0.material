@@ -1,0 +1,40 @@
+<material>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\shared\wagon\textures\coin_wagon_0_driver_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\shared\wagon\textures\coin_wagon_0_driver_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\shared\wagon\textures\coin_wagon_0_driver_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\asians\shared\wagon\textures\coin_wagon_0_driver_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\shared\wagon\textures\coin_wagon_0_horse_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\shared\wagon\textures\coin_wagon_0_horse_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\shared\wagon\textures\coin_wagon_0_horse_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\asians\shared\wagon\textures\coin_wagon_0_001_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\asians\shared\wagon\textures\coin_wagon_0_001_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\asians\shared\wagon\textures\coin_wagon_0_001_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

@@ -1,0 +1,56 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="destructible">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/naval/caravel_ship/textures/caravel_ship_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/naval/caravel_ship/textures/caravel_ship_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units/naval/caravel_ship/textures/caravel_ship_matA_Masks">
+      </texture>
+      <texture name="Details" override="units/naval/caravel_ship/textures/caravel_ship_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/naval/caravel_ship/textures/caravel_ship_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/naval/caravel_ship/textures/caravel_ship_matB_Normals">
+      </texture>
+      <texture name="Masks" override="units/naval/caravel_ship/textures/caravel_ship_matB_Masks">
+      </texture>
+      <texture name="Details" override="units/naval/caravel_ship/textures/caravel_ship_matB_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/spc/fire_ship/textures/fire_ship1_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/spc/fire_ship/textures/fire_ship1_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units/spc/fire_ship/textures/fire_ship1_matA_Masks">
+      </texture>
+      <texture name="Details" override="units/spc/fire_ship/textures/fire_ship1_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matz">
+    <materialdef name="destructible">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="generic_props\destruction\textures\destructionsheet_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="generic_props\destruction\textures\destructionsheet_mata_normals">
+      </texture>
+      <texture name="Masks" override="generic_props\destruction\textures\destructionsheet_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

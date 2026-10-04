@@ -54,9 +54,53 @@
     <modifyexponent>1.03</modifyexponent>
     <modifybase>0.0</modifybase>
   </action>
-  <tactic>Yumi<action>TacticYumi</action><protounitcommand>TacticYumi</protounitcommand><agerequirement>1</agerequirement><transition><tactic>Ashigaru</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Samurai</tactic><length>2</length><exit>1</exit></transition><transition><tactic>NaginataRider</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Yabusame</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <action>
+    <name>TacticRifleman</name>
+    <type>DanceBonus</type>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifyprotoid>deDojoRiflemanArmy</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <action>
+    <name>TacticGrenadier</name>
+    <type>DanceBonus</type>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifyprotoid>deDojoGrenadierArmy</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <action>
+    <name>TacticUhlan</name>
+    <type>DanceBonus</type>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifyprotoid>deDojoUhlanArmy</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <action>
+    <name>TacticDragoon</name>
+    <type>DanceBonus</type>
+    <dancebonustype>UnitSpawn</dancebonustype>
+    <active>0</active>
+    <persistent>1</persistent>
+    <modifyprotoid>deDojoDragoonArmy</modifyprotoid>
+    <modifymultiplier>0.065</modifymultiplier>
+    <modifyexponent>1.03</modifyexponent>
+    <modifybase>0.0</modifybase>
+  </action>
+  <tactic>Yumi<action>TacticYumi</action><action>TacticRifleman</action><protounitcommand>TacticYumi</protounitcommand><agerequirement>1</agerequirement><transition><tactic>Ashigaru</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Samurai</tactic><length>2</length><exit>1</exit></transition><transition><tactic>NaginataRider</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Yabusame</tactic><length>2</length><exit>1</exit></transition></tactic>
   <tactic>Ashigaru<action>TacticAshigaru</action><protounitcommand>TacticAshigaru</protounitcommand><agerequirement>1</agerequirement><transition><tactic>Yumi</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Samurai</tactic><length>2</length><exit>1</exit></transition><transition><tactic>NaginataRider</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Yabusame</tactic><length>2</length><exit>1</exit></transition></tactic>
-  <tactic>Samurai<action>TacticSamurai</action><protounitcommand>TacticSamurai</protounitcommand><agerequirement>1</agerequirement><transition><tactic>Yumi</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Ashigaru</tactic><length>2</length><exit>1</exit></transition><transition><tactic>NaginataRider</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Yabusame</tactic><length>2</length><exit>1</exit></transition></tactic>
-  <tactic>NaginataRider<action>TacticNaginataRider</action><protounitcommand>TacticNaginataRider</protounitcommand><agerequirement>1</agerequirement><transition><tactic>Yumi</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Ashigaru</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Samurai</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Yabusame</tactic><length>2</length><exit>1</exit></transition></tactic>
-  <tactic>Yabusame<action>TacticYabusame</action><protounitcommand>TacticYabusame</protounitcommand><agerequirement>2</agerequirement><transition><tactic>Yumi</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Ashigaru</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Samurai</tactic><length>2</length><exit>1</exit></transition><transition><tactic>NaginataRider</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Samurai<action>TacticSamurai</action><action>TacticGrenadier</action><protounitcommand>TacticSamurai</protounitcommand><agerequirement>1</agerequirement><transition><tactic>Yumi</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Ashigaru</tactic><length>2</length><exit>1</exit></transition><transition><tactic>NaginataRider</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Yabusame</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>NaginataRider<action>TacticNaginataRider</action><action>TacticUhlan</action><protounitcommand>TacticNaginataRider</protounitcommand><agerequirement>1</agerequirement><transition><tactic>Yumi</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Ashigaru</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Samurai</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Yabusame</tactic><length>2</length><exit>1</exit></transition></tactic>
+  <tactic>Yabusame<action>TacticYabusame</action><action>TacticDragoon</action><protounitcommand>TacticYabusame</protounitcommand><agerequirement>2</agerequirement><transition><tactic>Yumi</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Ashigaru</tactic><length>2</length><exit>1</exit></transition><transition><tactic>Samurai</tactic><length>2</length><exit>1</exit></transition><transition><tactic>NaginataRider</tactic><length>2</length><exit>1</exit></transition></tactic>
 </tactics>

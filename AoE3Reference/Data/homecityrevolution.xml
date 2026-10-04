@@ -148,7 +148,6 @@
   <building>
     <name>Academy</name>
     <visual>
-      <file>buildings_west\academy.xml</file>
       <bone>bone_academy</bone>
     </visual>
     <uix>460</uix>
@@ -172,7 +171,6 @@
   <building>
     <name>Cathedral</name>
     <visual>
-      <file>british\british_cathedral.xml</file>
       <bone>bone_cathedral</bone>
     </visual>
     <uix>80</uix>
@@ -196,7 +194,6 @@
   <building>
     <name>ManufacturingPlant</name>
     <visual>
-      <file>british\british_manufacturing_plant.xml</file>
       <bone>bone_plant</bone>
     </visual>
     <uix>450</uix>
@@ -218,7 +215,6 @@
   <building>
     <name>Dock</name>
     <visual>
-      <file>british\british_dock.xml</file>
       <bone>bone_dock</bone>
     </visual>
     <uix>200</uix>

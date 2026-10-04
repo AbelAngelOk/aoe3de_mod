@@ -29,6 +29,8 @@
   </set>
   <set name="specialtymapsrandom">
   </set>
+  <set name="arcticrandom">
+  </set>
   <mpscenarioimagepath name="ui\random_map\scenario">
   </mpscenarioimagepath>
 </mapsetnames>

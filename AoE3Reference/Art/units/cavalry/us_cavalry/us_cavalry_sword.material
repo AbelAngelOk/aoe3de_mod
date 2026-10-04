@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\cavalry\us_cavalry\textures\us_cavalry_sword_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\cavalry\us_cavalry\textures\us_cavalry_sword_Normals">
+      </texture>
+      <texture name="Masks" override="units\cavalry\us_cavalry\textures\us_cavalry_sword_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

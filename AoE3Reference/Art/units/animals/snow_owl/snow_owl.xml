@@ -1,0 +1,5 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\snow_owl\snow_owl</file></assetreference><decal><texture isfakeshadow="1">shadows_selections\shadow_circle_64x64</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\air\snow_owl_walkA</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\air\snow_owl_walkA</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\air\snow_owl_walkB</file></assetreference><component>ModelComp</component></anim>
+</animfile>

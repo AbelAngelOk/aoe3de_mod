@@ -1,0 +1,35 @@
+<!--
+  mod-minimal (Finlandia): voz del Alabardero (Halberdier), entrenable en el Blocao vía
+  FINChurchHalberdiers. Proto COMPARTIDO (también lo usa Rusia); su sonido se resuelve por
+  <civlogic> en Sound/halberdier_snds.xml y "DEFinnish" no existe ahí -> mudo. Archivo ADITIVO
+  que agrega la rama DEFinnish reusando los mismos soundsets que ya usa "DESwedish" en el
+  vanilla (mismo patrón que settler_snds.mods.xml y explorer_snds.mods.xml).
+-->
+<protounitsounddefmods>
+  <protounit name="Halberdier">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="DEFinnish">
+          <soundset name="MMDESwedishHalberdierSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="DEFinnish">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="MMDESwedishHalberdierAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="MMDESwedishHalberdierAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>

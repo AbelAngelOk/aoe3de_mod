@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/villagers/dutch_villager_female/textures/dutch_villager_female_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/villagers/dutch_villager_female/textures/dutch_villager_female_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units/villagers/dutch_villager_female/textures/dutch_villager_female_matA_Masks">
+      </texture>
+      <texture name="Details" override="units/villagers/dutch_villager_female/textures/dutch_villager_female_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

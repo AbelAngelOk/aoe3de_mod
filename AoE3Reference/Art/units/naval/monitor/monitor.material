@@ -1,0 +1,70 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\monitor\textures\monitor_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\monitor_matA_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\naval\monitor\textures\monitor_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\monitor_matA_Details">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\naval\monitor\textures\monitor_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\monitor_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\naval\monitor\textures\monitor_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_matB_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_matB_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\monitor_matB_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\naval\monitor\textures\ottoman_monitor_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_matB_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_matB_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\ottoman_monitor_matB_Details">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="units\naval\monitor\textures\indian_monitor_matB_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\naval\monitor\textures\monitor_matB_Normals">
+      </texture>
+      <texture name="Masks" override="units\naval\monitor\textures\monitor_matB_Masks">
+      </texture>
+      <texture name="Details" override="units\naval\monitor\textures\indian_monitor_matB_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

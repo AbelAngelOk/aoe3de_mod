@@ -1185,6 +1185,13 @@
       <displayunitcount>8</displayunitcount>
     </card>
     <card>
+      <name>DEHCMercsCranequiniers</name>
+      <maxcount>1</maxcount>
+      <age>1</age>
+      <displayunitcount>4</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>DEHCMercsArmoredPistoleers</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1194,12 +1201,12 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCXPMercsElmeti</name>
+      <name>DEHCMercsElmetiPortuguese</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCMercsLandsknecht2</prereqtech>
-      <age>3</age>
-      <displayunitcount>6</displayunitcount>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1217,6 +1224,22 @@
       <level>25</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
+    </card>
+    <card>
+      <name>DEHCShipWhalingShips</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>2</displayunitcount>
+    </card>
+    <card>
+      <name>DEHCHireWhalingCrew1</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>5</displayunitcount>
     </card>
     <card>
       <name>HCPrivateers</name>
@@ -1283,7 +1306,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <infiniteinlastage>1</infiniteinlastage>
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
@@ -1360,7 +1382,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>18</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1506,7 +1528,7 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>1</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>20</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1592,6 +1614,15 @@
       <level>10</level>
       <bindtotech>HCAdvancedArsenal</bindtotech>
       <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVJavaRebellion</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1909,7 +1940,7 @@
     </card>
     <card>
       <name>DEHCREVBonifacio</name>
-      <maxcount>4</maxcount>
+      <maxcount>1</maxcount>
       <age>1</age>
       <displayunitcount>1</displayunitcount>
       <revoltcard>
@@ -2241,6 +2272,7 @@
         <card>DEHCREVOttomanExpArmy</card>
         <card>DEHCImmigrantsChinese</card>
         <card>DEHCREVAdvancedArsenal</card>
+        <card>DEHCREVJavaRebellion</card>
       </cards>
     </revoltdeck>
     <revoltdeck civ="DERevPeru">
@@ -2720,9 +2752,10 @@
       <tech x="4.4" y="1.0">DEHCTheaters</tech>
       <tech x="3.5" y="4.0">DEHCMercsCannoneersEuropean</tech>
       <tech x="3.5" y="4.0">DEHCWettinAllies1</tech>
-      <tech x="3.5" y="4.0">HCXPMercsElmeti</tech>
+      <tech x="3.5" y="4.0">DEHCMercsElmetiPortuguese</tech>
       <tech x="4.4" y="3.0">HCMercsLandsknecht2</tech>
       <tech x="4.4" y="4.0">DEHCMercsArmoredPistoleers</tech>
+      <tech x="5.8" y="3.0">DEHCMercsCranequiniers</tech>
       <tech x="5.8" y="3.0">HCMercsHackapells</tech>
       <tech x="5.1" y="3.0">HCMercsRonin</tech>
       <tech x="5.8" y="4.0">HCXPMercsNinja</tech>
@@ -2732,6 +2765,8 @@
       <tech x="5.1" y="5.0">HCMercsAsian</tech>
       <tech x="5.8" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="5.8" y="6.0">HCXPMercsGreatCannon</tech>
+      <tech x="5.8" y="6.0">DEHCShipWhalingShips</tech>
+      <tech x="5.8" y="6.0">DEHCHireWhalingCrew1</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
       <tech x="6.5" y="3.0">HCPrivateers2</tech>
       <tech x="6.5" y="3.0">DEHCPortugueseBattleshipCard</tech>
@@ -2753,9 +2788,10 @@
       <tech x="4.4" y="1.0">DEHCTheaters</tech>
       <tech x="3.5" y="4.0">DEHCMercsCannoneersEuropean</tech>
       <tech x="3.5" y="4.0">DEHCWettinAllies1</tech>
-      <tech x="3.5" y="4.0">HCXPMercsElmeti</tech>
+      <tech x="3.5" y="4.0">DEHCMercsElmetiPortuguese</tech>
       <tech x="4.4" y="3.0">HCMercsLandsknecht2</tech>
       <tech x="4.4" y="4.0">DEHCMercsArmoredPistoleers</tech>
+      <tech x="5.8" y="3.0">DEHCMercsCranequiniers</tech>
       <tech x="5.8" y="3.0">HCMercsHackapells</tech>
       <tech x="5.1" y="3.0">HCMercsRonin</tech>
       <tech x="5.8" y="4.0">HCXPMercsNinja</tech>
@@ -2765,6 +2801,8 @@
       <tech x="5.1" y="5.0">HCMercsAsian</tech>
       <tech x="5.8" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="5.8" y="6.0">HCXPMercsGreatCannon</tech>
+      <tech x="5.8" y="6.0">DEHCShipWhalingShips</tech>
+      <tech x="5.8" y="6.0">DEHCHireWhalingCrew1</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
       <tech x="6.5" y="3.0">HCPrivateers2</tech>
       <tech x="6.5" y="3.0">DEHCPortugueseBattleshipCard</tech>

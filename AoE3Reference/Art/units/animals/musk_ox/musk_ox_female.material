@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\musk_ox\textures\musk_ox_female_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\musk_ox\textures\musk_ox_female_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\musk_ox\textures\musk_ox_female_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\animals\musk_ox\textures\musk_ox_female_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\animals\musk_ox\textures\musk_ox_female_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\animals\musk_ox\textures\musk_ox_female_matA_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

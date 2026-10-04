@@ -1,0 +1,14 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\revolution\barbary_marksman\textures\barbary_skirmisher_gun_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="units\revolution\barbary_marksman\textures\barbary_skirmisher_gun_mata_normals">
+      </texture>
+      <texture name="Masks" override="units\revolution\barbary_marksman\textures\barbary_skirmisher_gun_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

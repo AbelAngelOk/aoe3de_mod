@@ -1,0 +1,116 @@
+<techtree>
+  <group name="Town Center">
+    <label string="102500" icon="resources\art\buildings\native_settlement\native_akan_site_portrait.png" banner="ally" row="0" col="1" iconalpha="premultiplied">
+    </label>
+    <tech name="DENatAkanGoldEconomy" icon="resources\images\icons\techs\africans\natives\aka_gold_economy.png" banner="improvement" row="1" col="1">
+    </tech>
+    <proto name="deNatAkanMusketeer" icon="resources\art\units\africans\natives\akan_musketeer\akan_musketeer_portrait.png" banner="unit" row="2" col="1">
+    </proto>
+    <tech name="DEWarriorSocietyAkan" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="1">
+    </tech>
+    <tech name="DEChampionAkan" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="1">
+    </tech>
+    <tech name="DENatAkanDrums" icon="resources\images\icons\techs\africans\natives\aka_drums.png" banner="improvement" row="0" col="6">
+    </tech>
+    <tech name="DENatAkanCocoaBeans" icon="resources\images\icons\techs\africans\natives\aka_cocoa.png" banner="improvement" row="1" col="6">
+    </tech>
+    <tech name="DENatAkanHeroSpawn" icon="resources\art\techs\africans\aka_asafo.png" banner="improvement" row="0" col="11">
+    </tech>
+    <tech name="DENatAkanPalmOil" icon="resources\images\icons\techs\africans\natives\aka_palm_oil.png" banner="improvement" row="1" col="11">
+    </tech>
+    <proto name="deNatAkanWarchief" icon="resources\art\units\africans\natives\akan_tufohen\akan_tufohen_portrait.png" banner="unit" row="0" col="16">
+    </proto>
+    <label string="102504" icon="resources\art\buildings\native_settlement\native_berber_site_portrait.png" banner="ally" row="0" col="22" iconalpha="premultiplied">
+    </label>
+    <tech name="DENatBerberMusketCharge" icon="resources\images\icons\techs\africans\natives\ber_fantasia.png" banner="improvement" row="1" col="22">
+    </tech>
+    <proto name="deNatCamelRider" icon="resources\art\units\africans\natives\tuareg\berber_camel_rider_portrait.png" banner="unit" row="2" col="22">
+    </proto>
+    <tech name="DEWarriorSocietyBerbers" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="22">
+    </tech>
+    <tech name="DEChampionBerbers" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="22">
+    </tech>
+    <proto name="deNatNomad" icon="resources\art\units\africans\natives\berber_nomad\berber_nomad_portrait.png" banner="unit" row="0" col="27">
+    </proto>
+    <tech name="DENatBerberDesertKings" icon="resources\images\icons\techs\africans\natives\ber_desert_kings.png" banner="improvement" row="1" col="27">
+    </tech>
+    <proto name="deNatSaltCamel" icon="resources\art\units\africans\natives\berber_salt_camel\berber_salt_camel_portrait.png" banner="unit" row="0" col="32">
+    </proto>
+    <tech name="DENatBerberSaltCaravans" icon="resources\images\icons\techs\africans\saharan_trade.png" banner="improvement" row="1" col="32">
+    </tech>
+    <tech name="DENatBerberDynasties" icon="resources\images\icons\techs\africans\natives\ber_dynasties.png" banner="improvement" row="0" col="37">
+    </tech>
+    <tech name="DENatGhorfas" icon="resources\images\icons\techs\africans\natives\ber_ghorfas.png" banner="improvement" row="1" col="37">
+    </tech>
+    <proto name="deNatBerberSultan" icon="resources\art\units\africans\natives\berber_sultan\berber_sultan_portrait.png" banner="unit" row="0" col="42">
+    </proto>
+    <label string="102502" icon="resources\art\buildings\native_settlement\native_somali_site_portrait.png" banner="ally" row="0" col="48" iconalpha="premultiplied">
+    </label>
+    <tech name="DENatSomaliCoinage" icon="resources\images\icons\techs\africans\natives\som_coinage.png" banner="improvement" row="1" col="48">
+    </tech>
+    <proto name="deNatSomaliDarood" icon="resources\art\units\africans\natives\somali\somali_skirmisher_portrait.png" banner="unit" row="2" col="48">
+    </proto>
+    <proto name="deNatSomaliJavelineer" icon="resources\art\units\africans\natives\somali\somali_javelineer_portrait.png" banner="unit" row="2" col="48">
+    </proto>
+    <tech name="DEWarriorSocietySomali" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="48">
+    </tech>
+    <tech name="DEChampionSomali" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="48">
+    </tech>
+    <tech name="DENatSomaliBerberaSeaport" icon="resources\images\icons\techs\africans\natives\som_berbera.png" banner="improvement" row="0" col="53">
+    </tech>
+    <tech name="DENatSomaliJileDaggers" icon="resources\images\icons\techs\africans\natives\som_daggers.png" banner="improvement" row="1" col="53">
+    </tech>
+    <tech name="DENatSomaliOryxShields" icon="resources\images\icons\techs\africans\natives\som_oryx_shields.png" banner="improvement" row="0" col="58">
+    </tech>
+    <tech name="DENatSomaliEnableMerc" icon="resources\images\icons\techs\africans\natives\nat_askaris.png" banner="improvement" row="4" col="58">
+    </tech>
+    <proto name="deNatSomaliAskariProxy" icon="resources\art\units\africans\mercenaries\askari\askari_portrait.png" banner="unit" row="5" col="58">
+    </proto>
+    <tech name="DENatSomaliLighthouses" icon="resources\images\icons\techs\africans\natives\som_lighthouse.png" banner="improvement" row="0" col="63">
+    </tech>
+    <tech name="DENatSomaliEngineers" icon="resources\images\icons\techs\africans\natives\som_ajuran.png" banner="improvement" row="1" col="63">
+    </tech>
+    <label string="102704" string2="102701" icon="resources/images/icons/abilities/ability_lighthouse.png" banner="improvement" row="0" col="68" iconalpha="premultiplied">
+    </label>
+    <label string="102503" icon="resources\art\buildings\native_settlement\native_sudanese_site_portrait.png" banner="ally" row="0" col="74" iconalpha="premultiplied">
+    </label>
+    <tech name="DENatSudaneseQuiltedArmor" icon="resources\images\icons\techs\africans\natives\sud_quilted_armor.png" banner="improvement" row="1" col="74">
+    </tech>
+    <proto name="deNatSudaneseDervish" icon="resources\art\units\africans\natives\sudanese_dervish\sudanese_dervish_portrait.png" banner="unit" row="2" col="74">
+    </proto>
+    <tech name="DEWarriorSocietySudanese" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="74">
+    </tech>
+    <tech name="DEChampionSudanese" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="74">
+    </tech>
+    <tech name="DENatSudaneseHakura" icon="resources\images\icons\techs\africans\natives\sud_hakura.png" banner="improvement" row="0" col="79">
+    </tech>
+    <tech name="DENatSudaneseEnableMerc" icon="resources\images\icons\techs\africans\natives\nat_askaris.png" banner="improvement" row="4" col="79">
+    </tech>
+    <proto name="deNatSudaneseAskariProxy" icon="resources\art\units\africans\mercenaries\askari\askari_portrait.png" banner="unit" row="5" col="79">
+    </proto>
+    <tech name="DENatSudaneseRedSeaTrade" icon="resources\images\icons\techs\africans\natives\sud_red_sea_trade.png" banner="improvement" row="0" col="84">
+    </tech>
+    <proto name="deNatSudaneseSennarProxy" icon="resources\art\units\africans\mercenaries\sudanese_horseman\sudanese_horseman_portrait.png" banner="unit" row="5" col="84">
+    </proto>
+    <label string="102501" icon="resources\art\buildings\native_settlement\native_yoruba_site_portrait.png" banner="ally" row="0" col="90" iconalpha="premultiplied">
+    </label>
+    <tech name="DENatPoisonedBlades" icon="resources\images\icons\techs\africans\natives\yor_poisoned_blades.png" banner="improvement" row="1" col="90">
+    </tech>
+    <proto name="deNatYorubaLegionary" icon="resources\art\units\africans\natives\yoruba_legionary\yoruba_legionary_portrait.png" banner="unit" row="2" col="90">
+    </proto>
+    <tech name="DEWarriorSocietyYoruba" icon="resources\images\icons\techs\warrior_society\warrior_society.png" banner="improvement" row="4" col="90">
+    </tech>
+    <tech name="DEChampionYoruba" icon="resources\images\icons\techs\champion_natives\champion_natives.png" banner="improvement" row="6" col="90">
+    </tech>
+    <tech name="DENatYorubaTwins" icon="resources\images\icons\techs\africans\natives\yor_twins.png" banner="improvement" row="0" col="95">
+    </tech>
+    <tech name="DENatYorubaHerbalism" icon="resources\images\icons\techs\africans\natives\yor_herbalism.png" banner="improvement" row="1" col="95">
+    </tech>
+    <proto name="deNatYorubaRider" icon="resources\art\units\africans\natives\yoruba_cavalry\yoruba_cavalry_portrait.png" banner="unit" row="2" col="95">
+    </proto>
+    <tech name="DENatYorubaWrestling" icon="resources\images\icons\techs\africans\natives\yor_wrestling.png" banner="improvement" row="0" col="100">
+    </tech>
+    <tech name="DENatEredoLegacy" icon="resources\images\icons\techs\africans\natives\yor_eredo.png" banner="improvement" row="1" col="100">
+    </tech>
+  </group>
+</techtree>

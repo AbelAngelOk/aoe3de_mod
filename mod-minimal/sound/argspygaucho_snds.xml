@@ -1,0 +1,39 @@
+<!--
+  mod-minimal (Argentina): voz del Gaucho Jujeño (ARGSpyGaucho, clon 100% propio del Espía
+  real xpSpy). Al ser un proto EXCLUSIVO de Argentina (no compartido con nadie), el archivo va
+  PLANO sin <civlogic> (a diferencia de xpspy_snds.mods.xml, que sí lo necesita porque xpSpy
+  es compartido) — reusa los mismos soundsets reales "Spanish" ya registrados para el Espía
+  de esta civ (MMSpanishLightCavalry*, ver xpspy_snds.mods.xml).
+-->
+<protounitsounddef>
+  <protounit name="ARGSpyGaucho">
+    <soundtype name="Select">
+      <soundset name="MMSpanishLightCavalrySelect">
+      </soundset>
+    </soundtype>
+    <soundtype name="Grunt">
+      <soundset name="GenericMaleGrunt">
+      </soundset>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="GenericMaleDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="MilitaryBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <targetlogic>
+        <choice name="default">
+          <soundset name="MMSpanishLightCavalryAcknowledge">
+          </soundset>
+        </choice>
+        <choice name="enemy">
+          <soundset name="MMSpanishLightCavalryAttack">
+          </soundset>
+        </choice>
+      </targetlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

@@ -1,0 +1,12 @@
+<animfile>
+  <definebone>bone turtle04</definebone>
+  <definebone>bone turtle03</definebone>
+  <definebone>bone turtle02</definebone>
+  <definebone>bone turtle05</definebone>
+  <definebone>bone turtle06</definebone>
+  <definebone>bone Deadtree_1</definebone>
+  <attachment>LogFoam<component>logfoam<assetreference type="popcornFx"><file>water_effects\riverRipple_turtleLogs.pkfx</file></assetreference></component><anim>Idle<component>logfoam</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\turtle\turtle</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\turtle\turtle_idle</file></assetreference><attach a="LogFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\animals\turtle\turtle_bored</file><tag type="Particles" particlename="turtle04Splash_IN">0.00</tag><tag type="Particles" particlename="Turtle03Splash_IN">0.00</tag><tag type="Particles" particlename="turtle04Splash_OUT">0.00</tag><tag type="Particles" particlename="Turtle03Splash_OUT">0.00</tag><tag type="Particles" particlename="LogRipple">0.0</tag><tag type="Particles" particlename="LogRipple2">0.0</tag></assetreference><assetreference type="GrannyAnim"><file>units\animals\turtle\turtle_boredB</file><tag type="Particles" particlename="LogRipple">0.0</tag><tag type="Particles" particlename="LogRipple_a">0.00</tag></assetreference><assetreference type="GrannyAnim"><file>units\animals\turtle\turtle_boredC</file><tag type="Particles" particlename="turtle05_in">0.00</tag><tag type="Particles" particlename="turtle02_in">0.00</tag><tag type="Particles" particlename="turtle06_in">0.00</tag><tag type="Particles" particlename="turtle06_in2">0.00</tag><tag type="Particles" particlename="turtle02_out">0.00</tag><tag type="Particles" particlename="turtle06_out">0.00</tag><tag type="Particles" particlename="turtle06_out2">0.00</tag><tag type="Particles" particlename="turtle05_out">0.00</tag><tag type="Particles" particlename="LogRipple">0.00</tag><tag type="Particles" particlename="LogRipple2">0.00</tag><tag type="Particles" particlename="LogRipple_a">0.00</tag><tag type="Particles" particlename="LogRipple_a2">0.00</tag></assetreference><component>ModelComp</component><attach a="LogFoam" frombone="ATTACHPOINT" tobone="ATTACHPOINT" syncanims="0"></attach></anim>
+</animfile>

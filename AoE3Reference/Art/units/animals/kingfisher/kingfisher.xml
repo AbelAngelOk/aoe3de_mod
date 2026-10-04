@@ -1,0 +1,5 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\kingfisher\kingfisher_scene</file></assetreference></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>units\animals\kingfisher\kingfisher_idle</file></assetreference><component>ModelComp</component></anim>
+  <anim>Bored<assetreference type="GrannyAnim"><file>units\animals\kingfisher\kingfisher_idle</file></assetreference><assetreference type="GrannyAnim"><file>units\animals\kingfisher\kingfisher_boredA</file></assetreference><component>ModelComp</component></anim>
+</animfile>

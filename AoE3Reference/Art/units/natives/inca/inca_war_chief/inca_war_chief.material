@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\inca\inca_war_chief\textures\inca_war_chief_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\inca\inca_war_chief\textures\inca_war_chief_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\inca\inca_war_chief\textures\inca_war_chief_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\inca\inca_war_chief\textures\inca_war_chief_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\natives\inca\inca_war_chief\textures\inca_war_chief_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\inca\inca_war_chief\textures\inca_war_chief_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\inca\inca_war_chief\textures\inca_war_chief_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\inca\inca_war_chief\textures\inca_war_chief_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

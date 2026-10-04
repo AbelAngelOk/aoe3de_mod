@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+
+<animfile>
+	<DefineBone>Bone_master</DefineBone>
+	<DefineBone>bone_attach_horse_a</DefineBone>
+	<DefineBone>bone_attach_horse_b</DefineBone>
+	<DefineBone>HS Bone Master</DefineBone>
+	<DefineBone>bone_attach_driver</DefineBone>
+	<DefineBone>Bip01</DefineBone>
+	<attachment>trade_stagecoach_horse
+		<component>trade_stagecoach_horse</component>
+		<anim>None
+			<component>trade_stagecoach_horse</component>
+		</anim>
+		<include>units\trade\trade_stagecoach_horse.xml</include>
+	</attachment>
+	<attachment>trade_stagecoach_driver
+		<component>driver</component>
+		<anim>None
+			<component>driver</component>
+		</anim>
+		<include>units\trade\trade_stagecoach_driver.xml</include>
+	</attachment>
+	<component>trade_stagecoach
+		<linkSection>
+			<linkOffset>0.1</linkOffset>
+			<linkComponent>horse</linkComponent>
+			<linkConstraint>0</linkConstraint>
+		</linkSection>
+		<linkSection>
+			<linkOffset>-0.3</linkOffset>
+			<linkComponent>limber_cart</linkComponent>
+			<linkComponent>wheel_cart</linkComponent>
+			<linkConstraint>0</linkConstraint>
+		</linkSection>
+		<linkSection>
+			<linkOffset>-1.6</linkOffset>
+			<linkComponent>cannon</linkComponent>
+			<linkComponent>wheel_cannon</linkComponent>
+			<linkConstraint>1</linkConstraint>
+		</linkSection>
+		<AssetReference Type ="GrannyModel">
+			<File>units\trade\trade_stagecoach</File>
+		</AssetReference>
+		<Decal>
+			<Texture>shadows_selections\shadow_circle_128x128</Texture>
+			<SelectedTexture>shadows_selections\shadow_circle_128x128</SelectedTexture>
+			<Width>2.00</Width>
+			<Height>4.00</Height>
+		</Decal>
+	</component>
+	<anim>Idle
+		<AssetReference Type ="GrannyAnim">
+			<File>units\trade\trade_stagecoach_idle</File>
+		</AssetReference>
+		<component>trade_stagecoach</component>
+		<Attach a ="trade_stagecoach_horse" fromBone ="HS Bone Master" toBone ="bone_attach_horse_a" syncAnims ="1"></Attach>
+		<Attach a ="trade_stagecoach_horse" fromBone ="HS Bone Master" toBone ="bone_attach_horse_b" syncAnims ="1"></Attach>
+		<Attach a ="trade_stagecoach" fromBone ="Bone_master" toBone ="Bone_master" syncAnims ="1"></Attach>
+		<Attach a ="trade_stagecoach_driver" fromBone ="Bip01" toBone ="bone_attach_driver" syncAnims ="1"></Attach>
+	</anim>
+	<anim>Walk
+		<AssetReference Type ="GrannyAnim">
+			<File>units\trade\trade_stagecoach_walk</File>
+		</AssetReference>
+		<component>trade_stagecoach</component>
+		<Attach a ="trade_stagecoach_horse" fromBone ="HS Bone Master" toBone ="bone_attach_horse_b" syncAnims ="1"></Attach>
+		<Attach a ="trade_stagecoach_horse" fromBone ="HS Bone Master" toBone ="bone_attach_horse_a" syncAnims ="1"></Attach>
+		<Attach a ="trade_stagecoach" fromBone ="Bone_master" toBone ="Bone_master" syncAnims ="1"></Attach>
+		<Attach a ="trade_stagecoach_driver" fromBone ="Bip01" toBone ="bone_attach_driver" syncAnims ="1"></Attach>
+	</anim>
+	<anim>Bored
+		<AssetReference Type ="GrannyAnim">
+			<File>units\trade\trade_stagecoach_idle</File>
+		</AssetReference>
+		<component>trade_stagecoach</component>
+		<Attach a ="trade_stagecoach_horse" fromBone ="HS Bone Master" toBone ="bone_attach_horse_a" syncAnims ="1"></Attach>
+		<Attach a ="trade_stagecoach_horse" fromBone ="HS Bone Master" toBone ="bone_attach_horse_b" syncAnims ="1"></Attach>
+		<Attach a ="trade_stagecoach" fromBone ="Bone_master" toBone ="Bone_master" syncAnims ="1"></Attach>
+		<Attach a ="trade_stagecoach_driver" fromBone ="Bip01" toBone ="bone_attach_driver" syncAnims ="1"></Attach>
+	</anim>
+</animfile>

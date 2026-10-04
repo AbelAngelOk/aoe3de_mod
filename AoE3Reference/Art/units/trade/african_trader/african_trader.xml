@@ -1,0 +1,7 @@
+<animfile>
+  <definebone>bip01_Prop1</definebone>
+  <attachment>spear<include>units\trade\african_trader\african_trader_spear.xml</include></attachment>
+  <component>ModelComp<logic type="LowPoly"><lowpoly><assetreference type="GrannyModel"><file>units\trade\african_trader\african_trader</file></assetreference></lowpoly></logic><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_32x32</texture><selectedtexture>shadows_selections\selection_hero_64x64</selectedtexture><noncinematictexture>shadows_selections\shadow_hero_64x64</noncinematictexture><width>1.50</width><height>1.50</height><selectionextrawidth>1.0</selectionextrawidth><selectionextraheight>1.0</selectionextraheight></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\explorer\idle_explorer_A</file></assetreference><component>ModelComp</component><attach a="spear" frombone="bone_spear" tobone="bip01_Prop1" syncanims="0"></attach></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\shared\walk_generic_lower</file><file>animation_library\explorer\walk_explorer_upper</file><tag type="FootstepLeft" footprinttype="HumanLeft">0.14</tag><tag type="FootstepRight" footprinttype="HumanRight">0.61</tag></assetreference><component>ModelComp</component><attach a="spear" frombone="bone_spear" tobone="bip01_Prop1" syncanims="0"></attach></anim>
+</animfile>

@@ -1,0 +1,12 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\trade\american_trader\textures\andean_cap_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\trade\american_trader\textures\andean_cap_matA_Normals">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

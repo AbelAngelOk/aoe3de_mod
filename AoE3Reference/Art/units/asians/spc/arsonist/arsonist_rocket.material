@@ -1,0 +1,30 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\artillery\rocket\textures\mysorean_rocket_guy_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\artillery\rocket\textures\mysorean_rocket_guy_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\artillery\rocket\textures\mysorean_rocket_guy_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\artillery\rocket\textures\mysorean_rocket_guy_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units/asians/spc/arsonist/textures/arsonist_lp_hat_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units/asians/spc/arsonist/textures/arsonist_lp_hat_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units/asians/spc/arsonist/textures/arsonist_lp_hat_mata_Masks">
+      </texture>
+      <texture name="Details" override="units/asians/spc/arsonist/textures/arsonist_lp_hat_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

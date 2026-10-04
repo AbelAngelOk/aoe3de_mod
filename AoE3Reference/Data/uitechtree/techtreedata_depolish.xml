@@ -1,0 +1,480 @@
+<techtree>
+  <group name="Town Center">
+    <proto name="TownCenter" icon="resources/art/buildings/town_center/towncenter_portrait.png" banner="building" row="0" col="1">
+    </proto>
+    <tech name="XPRevolution" icon="resources/images/icons/techs/revolution.png" banner="improvement" row="6" col="1">
+    </tech>
+    <proto name="Settler" icon="resources/art/units/villagers/villager_portrait.png" banner="unit" row="1" col="2">
+    </proto>
+    <tech name="Levy" icon="resources/images/icons/techs/levy/levy.png" banner="improvement" row="1" col="7">
+    </tech>
+    <proto name="deHetman" icon="resources\art\units\explorers\hetman_portrait.png" banner="unit" row="0" col="7">
+    </proto>
+    <proto name="deSejm" icon="resources\art\buildings\capitol\sejm_portrait.png" banner="building" row="0" col="12">
+    </proto>
+    <proto name="TradingPost" icon="resources/art/buildings/trading_post/trading_post_portrait.png" banner="building" row="1" col="12">
+    </proto>
+  </group>
+  <group name="Revolutions">
+    <tech name="XPRevolution" icon="resources/images/icons/techs/revolution.png" banner="improvement" row="4" col="1">
+      <override>
+        <techforcost>DERevolutionCossackHetmanate</techforcost>
+      </override>
+    </tech>
+    <tech name="DERevolutionCossackHetmanate" icon="resources/images/icons/flags/flag_hc_cossacks.png" banner="ally" row="4" col="6" iconalpha="premultiplied">
+    </tech>
+    <proto name="deREVChern" icon="resources\art\units\revolution\cossacks\chern_portrait.png" banner="unit" row="4" col="11">
+    </proto>
+    <proto name="deREVSerdyuk" icon="resources\art\units\revolution\cossacks\serdyuk_portrait.png" banner="unit" row="5" col="12">
+    </proto>
+    <proto name="deREVCossackTabor" icon="resources\art\units\revolution\cossacks\tabor_portrait.png" banner="unit" row="5" col="17">
+    </proto>
+    <proto name="deREVHaidamakaRider" icon="resources\art\units\revolution\cossacks\haidamaka_portrait.png" banner="unit" row="4" col="16">
+    </proto>
+    <proto name="deSaloonOutlawCossack" icon="resources\art\units\natives\europeans\cossack_daredevil_portrait.png" banner="unit" row="5" col="2">
+    </proto>
+    <proto name="deREVStarshyna" icon="resources\art\units\revolution\cossacks\starshyna_portrait.png" banner="unit" row="5" col="7">
+    </proto>
+    <tech name="XPRevolution" icon="resources/images/icons/techs/revolution.png" banner="improvement" row="6" col="1">
+    </tech>
+    <tech name="DERevolutionWarsaw" icon="resources/images/icons/flags/flag_hc_warsaw.png" banner="ally" row="6" col="6" iconalpha="premultiplied">
+    </tech>
+    <proto name="Musketeer" icon="resources\art\units\revolution\warsaw\vistula_legionary_portrait.png" banner="unit" row="7" col="6">
+      <override>
+        <nameoverride>130505</nameoverride>
+      </override>
+    </proto>
+    <proto name="Skirmisher" icon="resources\art\units\revolution\warsaw\vistula_rifleman_portrait.png" banner="unit" row="8" col="6">
+      <override>
+        <nameoverride>130506</nameoverride>
+      </override>
+    </proto>
+    <proto name="deWingedHussar" icon="resources\art\units\revolution\warsaw\vistula_hussar_portrait.png" banner="unit" row="9" col="6">
+      <override>
+        <nameoverride>130507</nameoverride>
+      </override>
+    </proto>
+    <label string="130508" string2="130509" icon="resources\art\units\revolution\warsaw\krakus_portrait.png" banner="unit" row="8" col="1">
+      <override>
+        <protoforcost>Dragoon</protoforcost>
+      </override>
+    </label>
+    <proto name="deREVPolishLancer" icon="resources\art\units\revolution\warsaw\polish_lancer_portrait.png" banner="unit" row="7" col="1">
+    </proto>
+    <tech name="DERevolutionHungaryRussian" icon="resources/images/icons/flags/flag_hc_hungarian.png" banner="ally" row="6" col="11" iconalpha="premultiplied">
+    </tech>
+    <label string="80900" string2="80899" icon="resources/images/icons/portraits/units/colonial_militia_portrait.png" banner="unit" row="7" col="11">
+      <override>
+        <protoforcost>xpColonialMilitia</protoforcost>
+      </override>
+    </label>
+    <proto name="deLegionMagyarHussar" icon="resources\art\units\revolution\hungarian_hussar_portrait.png" banner="unit" row="8" col="11">
+    </proto>
+    <proto name="deNatHungarianGrenadier" icon="resources\art\units\infantry_ranged\grenadier\grenadier_portrait.png" banner="unit" row="9" col="11">
+    </proto>
+    <tech name="DERevolutionUSA" icon="resources/images/icons/flags/flag_hc_american.png" banner="ally" row="6" col="16" iconalpha="premultiplied">
+    </tech>
+    <proto name="xpColonialMilitia" icon="resources/images/icons/portraits/units/colonial_militia_portrait.png" banner="unit" row="7" col="16">
+    </proto>
+    <proto name="xpGatlingGun" icon="resources\art\units\gatling_gun_portrait.png" banner="unit" row="8" col="16">
+    </proto>
+    <tech name="DERevolutionLivonia" icon="resources/images/icons/flags/flag_hc_livonian.png" banner="ally" row="4" col="22" iconalpha="premultiplied">
+    </tech>
+    <proto name="deREVHighMaster" icon="resources\art\units\revolution\livonians\high_master_portrait.png" banner="unit" row="5" col="22">
+    </proto>
+    <proto name="deREVOrderMusketeer" icon="resources\art\units\revolution\livonians\order_musketeer_portrait.png" banner="unit" row="4" col="27">
+    </proto>
+    <proto name="deREVOrderPavisier" icon="resources\art\units\revolution\livonians\order_pavisier_portrait.png" banner="unit" row="5" col="27">
+    </proto>
+    <proto name="deREVTeutonicKnight" icon="resources\art\units\revolution\livonians\teutonic_knight_portrait.png" banner="unit" row="4" col="32">
+    </proto>
+    <proto name="deREVKnightBrother" icon="resources\art\units\revolution\livonians\knight_brother_portrait.png" banner="unit" row="5" col="32">
+    </proto>
+  </group>
+  <group name="House">
+    <proto name="House" icon="resources/art/buildings/house/house_portrait.png" banner="building" row="0" col="18">
+    </proto>
+  </group>
+  <group name="Native Embassy">
+    <proto name="NativeEmbassy" icon="resources/art/buildings/native_embassy_portrait.png" banner="building" row="1" col="18">
+    </proto>
+    <label string="34000" string2="72852" icon="resources\art\units\natives\rifleman_portrait.png" banner="unit" row="2" col="18">
+      <override>
+        <protoforcost>NatRifleman</protoforcost>
+      </override>
+    </label>
+  </group>
+  <group name="Market">
+    <proto name="Market" icon="resources/art/buildings/market/market_portrait.png" banner="building" row="0" col="24">
+    </proto>
+    <tech name="Gangsaw" icon="resources/images/icons/techs/gang_saw/gang_saw_64x64.png" banner="improvement" row="1" col="34">
+    </tech>
+    <tech name="LogFlume" icon="resources/images/icons/techs/log_flume/log_flume_64x64.png" banner="improvement" row="2" col="37">
+    </tech>
+    <tech name="CircularSaw" icon="resources/images/icons/techs/circular_saw/circular_saw.png" banner="improvement" row="4" col="37">
+    </tech>
+    <tech name="HuntingDogs" icon="resources/images/icons/techs/hunting_dogs/hunting_dogs_64x64.png" banner="improvement" row="1" col="24">
+    </tech>
+    <tech name="SteelTraps" icon="resources/images/icons/techs/steel_traps/steel_traps.png" banner="improvement" row="2" col="24">
+    </tech>
+    <tech name="PlacerMines" icon="resources/images/icons/techs/placer_mines/placer_mines_64x64.png" banner="improvement" row="1" col="29">
+    </tech>
+    <tech name="Amalgamation" icon="resources/images/icons/techs/amalgamation/amalgamation_64x64.png" banner="improvement" row="2" col="29">
+    </tech>
+    <tech name="Blunderbuss" icon="resources/images/icons/techs/blunderbuss/blunderbuss_64x64.png" banner="improvement" row="0" col="29">
+    </tech>
+    <tech name="GreatCoat" icon="resources/images/icons/techs/great_coat/great_coat_64x64.png" banner="improvement" row="0" col="34">
+    </tech>
+  </group>
+  <group name="Dock">
+    <proto name="Dock" icon="resources/art/buildings/dock/dock_portrait.png" banner="building" row="0" col="43">
+    </proto>
+    <tech name="GillNets" icon="resources/images/icons/techs/gill_nets/gill_nets.png" banner="improvement" row="1" col="44">
+    </tech>
+    <tech name="LongLines" icon="resources/images/icons/techs/long_lines/long_lines.png" banner="improvement" row="2" col="44">
+    </tech>
+    <proto name="Monitor" icon="resources/art/units/naval/monitor/monitor_icon_portrait.png" banner="unit" row="6" col="44">
+    </proto>
+    <tech name="ShipHowitzers" icon="resources/images/icons/techs/ship_howitzers/ship_howitzers.png" banner="improvement" row="7" col="44">
+    </tech>
+    <tech name="ImperialMonitors" icon="resources/images/icons/techs/imperial_navy/imperial_navy.png" banner="improvement" row="8" col="44">
+    </tech>
+    <proto name="FishingBoat" icon="resources/art/units/naval/fishing_ship/fishing_ship_icon_portrait.png" banner="unit" row="1" col="49">
+    </proto>
+    <tech name="Carronade" icon="resources/images/icons/techs/carronade/carronade.png" banner="improvement" row="2" col="49">
+    </tech>
+    <tech name="PercussionLocks" icon="resources/images/icons/techs/percussion_locks/percussion_locks.png" banner="improvement" row="4" col="49">
+    </tech>
+    <proto name="Caravel" icon="resources/art/units/naval/caravel_ship/caravel_ship_portrait.png" banner="unit" row="2" col="55">
+    </proto>
+    <tech name="ArmorPlating" icon="resources/images/icons/techs/armor_plating/armor_plating.png" banner="improvement" row="3" col="55">
+    </tech>
+    <proto name="Frigate" icon="resources/art/units/naval/frigate/frigate_icon_portrait.png" banner="unit" row="4" col="55">
+    </proto>
+    <tech name="ImperialManOWar" icon="resources/images/icons/techs/imperial_navy/imperial_navy.png" banner="improvement" row="8" col="55">
+    </tech>
+    <proto name="Galleon" icon="resources/art/units/naval/galleon/galleon_icon_portrait.png" banner="unit" row="2" col="60">
+    </proto>
+  </group>
+  <group name="Outpost">
+    <proto name="Outpost" icon="resources/art/buildings/outpost/outpost_portrait.png" banner="building" row="0" col="66">
+    </proto>
+    <tech name="FrontierOutpost" icon="resources/images/icons/techs/frontier_outpost/frontier_outpost.png" banner="improvement" row="4" col="66">
+    </tech>
+    <tech name="FortifiedOutpost" icon="resources/images/icons/techs/fortified_outpost/fortified_outpost.png" banner="improvement" row="6" col="66">
+    </tech>
+  </group>
+  <group name="Trading Post">
+    <proto name="TradingPost" icon="resources/art/buildings/trading_post/trading_post_portrait.png" banner="building" row="0" col="72">
+    </proto>
+    <tech name="TradeRouteUpgrade1" icon="resources/art/units/trade/stagecoach_icon_64x64.png" banner="improvement" row="2" col="72">
+    </tech>
+    <tech name="TradeRouteUpgrade2" icon="resources/art/units/trains/train_icon_64x64.png" banner="improvement" row="6" col="72">
+    </tech>
+  </group>
+  <group name="Folwark">
+    <proto name="deFolwark" icon="resources/art/buildings/folwark/folwark_portrait.png" banner="building" row="0" col="78">
+    </proto>
+    <proto name="Pikeman" icon="resources/art/units/infantry/pikeman/pikeman_portrait.png" banner="unit" row="3" col="83">
+    </proto>
+    <proto name="deLithuanianRider" icon="resources\art\units\cavalry\lithuanian_rider\lithuanian_rider_portrait.png" banner="unit" row="2" col="83">
+    </proto>
+    <tech name="SeedDrill" icon="resources/images/icons/techs/seed_drill/seed_drill.png" banner="improvement" row="2" col="78">
+    </tech>
+    <proto name="deFolwarkDefensive" icon="resources\art\buildings\folwark\folwark_military_portrait.png" banner="building" row="2" col="88">
+      <override>
+        <protoforcost>deHouseDanish</protoforcost>
+      </override>
+    </proto>
+    <proto name="Crossbowman" icon="resources\art\units\infantry_ranged\crossbow\crossbow_portrait.png" banner="unit" row="3" col="89">
+    </proto>
+    <proto name="CavalryArcher" icon="resources\art\units\cavalry\cav_archer\cav_archer_portrait.png" banner="unit" row="4" col="89">
+    </proto>
+    <proto name="deFolwarkLivestock" icon="resources\art\buildings\folwark\folwark_livestock_portrait.png" banner="building" row="0" col="88">
+      <override>
+        <protoforcost>deFishTrap</protoforcost>
+      </override>
+    </proto>
+    <proto name="deFolwarkFarm" icon="resources\art\buildings\folwark\folwark_farm_portrait.png" banner="building" row="0" col="83">
+      <override>
+        <protoforcost>Church</protoforcost>
+      </override>
+    </proto>
+    <tech name="ArtificialFertilizer" icon="resources/images/icons/techs/artificial_fertilizer/artificial_fertilizer.png" banner="improvement" row="4" col="78">
+    </tech>
+    <proto name="Pig" icon="resources/art/units/animals/pig/pig_icon.png" banner="unit" row="0" col="93">
+    </proto>
+    <tech name="SelectiveBreeding" icon="resources/images/icons/techs/selective_breeding/selective_breeding.png" banner="improvement" row="1" col="93">
+    </tech>
+  </group>
+  <group name="Estate">
+    <proto name="Plantation" icon="resources/art/buildings/plantation/plantation_portrait.png" banner="building" row="4" col="83">
+    </proto>
+    <tech name="Bookkeeping" icon="resources/images/icons/techs/bookkeeping/bookkeeping.png" banner="improvement" row="5" col="83">
+    </tech>
+    <tech name="Homesteading" icon="resources/images/icons/techs/homesteading/homesteading.png" banner="improvement" row="6" col="83">
+    </tech>
+    <tech name="OreRefining" icon="resources/images/icons/techs/ore_refining/ore_refining.png" banner="improvement" row="7" col="83">
+    </tech>
+  </group>
+  <group name="Sejm">
+    <proto name="deSejm" icon="resources\art\buildings\capitol\sejm_portrait.png" banner="building" row="2" col="99">
+    </proto>
+    <label string="130850" string2="123183" icon="resources\images\icons\fire_pit\sejm_food_off.png" banner="improvement" row="2" col="104" iconalpha="premultiplied">
+    </label>
+    <label string="130851" string2="123184" icon="resources\images\icons\fire_pit\sejm_wood_off.png" banner="improvement" row="2" col="109" iconalpha="premultiplied">
+    </label>
+    <label string="130852" string2="123185" icon="resources\images\icons\fire_pit\senate_coin_off.png" banner="improvement" row="2" col="114" iconalpha="premultiplied">
+    </label>
+    <tech name="DESejmFood1" icon="resources\images\icons\techs\polish\sejm_food_upgrade1.png" banner="improvement" row="4" col="99">
+    </tech>
+    <tech name="DESejmFood2" icon="resources\images\icons\techs\polish\sejm_food_upgrade2.png" banner="improvement" row="6" col="99">
+    </tech>
+    <tech name="DESejmFood3" icon="resources\images\icons\techs\polish\sejm_food_upgrade3.png" banner="improvement" row="8" col="99">
+    </tech>
+    <tech name="DESejmWood1" icon="resources\images\icons\techs\polish\sejm_Wood_upgrade1.png" banner="improvement" row="4" col="104">
+    </tech>
+    <tech name="DESejmWood2" icon="resources\images\icons\techs\polish\sejm_Wood_upgrade2.png" banner="improvement" row="6" col="104">
+    </tech>
+    <tech name="DESejmWood3" icon="resources\images\icons\techs\polish\sejm_Wood_upgrade3.png" banner="improvement" row="8" col="104">
+    </tech>
+    <tech name="DESejmCoin1" icon="resources\images\icons\techs\polish\sejm_Coin_upgrade1.png" banner="improvement" row="4" col="109">
+    </tech>
+    <tech name="DESejmCoin2" icon="resources\images\icons\techs\polish\sejm_Coin_upgrade2.png" banner="improvement" row="6" col="109">
+    </tech>
+    <tech name="DESejmCoin3" icon="resources\images\icons\techs\polish\sejm_Coin_upgrade3.png" banner="improvement" row="8" col="109">
+    </tech>
+    <tech name="DESejmNatives1" icon="resources\images\icons\techs\polish\sejm_native_upgrade1.png" banner="improvement" row="4" col="114">
+    </tech>
+    <tech name="DESejmNatives2" icon="resources\images\icons\techs\polish\sejm_native_upgrade2.png" banner="improvement" row="8" col="114">
+    </tech>
+    <tech name="DESejmHetman1" icon="resources\images\icons\techs\polish\sejm_hetman_upgrade1.png" banner="improvement" row="4" col="119">
+    </tech>
+    <tech name="DESejmHetman2" icon="resources\images\icons\techs\polish\sejm_hetman_upgrade2.png" banner="improvement" row="6" col="119">
+    </tech>
+    <tech name="DESejmHetman3" icon="resources\images\icons\techs\polish\sejm_hetman_upgrade3.png" banner="improvement" row="8" col="119">
+    </tech>
+    <tech name="HCBlockade" icon="resources\images\icons\techs\hc_blockade\hc_blockade.png" banner="improvement" row="8" col="124">
+    </tech>
+    <tech name="Spies" icon="resources\images\icons\techs\spies\spies.png" banner="improvement" row="9" col="124">
+    </tech>
+  </group>
+  <group name="Wall">
+    <proto name="WallStraight1" icon="resources/art/buildings/wall/wall_portrait.png" banner="building" row="0" col="131">
+    </proto>
+    <tech name="Bastion" icon="resources/images/icons/techs/bastion/bastion.png" banner="improvement" row="1" col="131">
+    </tech>
+  </group>
+  <group name="Church">
+    <proto name="Church" icon="resources/art/buildings/church/church_portrait.png" banner="building" row="2" col="131">
+    </proto>
+    <tech name="ChurchMissionFervor" icon="resources/images/icons/techs/native/unction.png" banner="improvement" row="3" col="131">
+    </tech>
+    <tech name="DEChurchLiberumVeto" icon="resources\images\icons\techs\polish\liberum_veto.png" banner="improvement" row="2" col="151">
+    </tech>
+    <tech name="Bastion" icon="resources/images/icons/techs/bastion/bastion.png" banner="improvement" row="4" col="131">
+    </tech>
+    <tech name="ChurchStandingArmy" icon="resources/images/icons/techs/standing_army/standing_army.png" banner="improvement" row="6" col="136">
+    </tech>
+    <proto name="Priest" icon="resources/art/units/priests/we_priest_portrait.png" banner="unit" row="2" col="136">
+    </proto>
+    <tech name="ChurchTownWatch" icon="resources/images/icons/techs/town_watch/town_watch.png" banner="improvement" row="3" col="141">
+    </tech>
+    <tech name="ChurchMassCavalry" icon="resources/images/icons/techs/mass_cavalry/mass_cavalry.png" banner="improvement" row="6" col="131">
+    </tech>
+    <proto name="xpSpy" icon="resources/art/units/spy_portrait.png" banner="unit" row="2" col="141">
+    </proto>
+    <tech name="ChurchGasLighting" icon="resources/images/icons/techs/gas_lighting/gas_lighting.png" banner="improvement" row="3" col="136">
+    </tech>
+    <tech name="DEHCRoyalDecreePolish" icon="resources\images\icons\techs\hc_royal_decree\hc_royal_decree.png" banner="shipment" row="3" col="146">
+    </tech>
+    <tech name="DEChurchCrownGrenadiers" icon="resources\images\icons\techs\polish\crown_grenadiers.png" banner="improvement" row="5" col="151">
+    </tech>
+    <tech name="DEChurchBarConfederation" icon="resources\images\icons\techs\polish\bar_confederation.png" banner="improvement" row="6" col="151">
+    </tech>
+    <tech name="DEChurchCrownJanissaries" icon="resources\images\icons\techs\polish\sobieskis_janissaries.png" banner="improvement" row="3" col="151">
+    </tech>
+    <tech name="ChurchMercantilism" icon="resources/images/icons/techs/mercantilism/mercantilism.png" banner="improvement" row="2" col="146">
+    </tech>
+  </group>
+  <group name="Barracks">
+    <proto name="Barracks" icon="resources/art/buildings/barracks/barracks_portraits.png" banner="building" row="2" col="157">
+    </proto>
+    <proto name="Crossbowman" icon="resources/art/units/infantry_ranged/crossbow/crossbow_portrait.png" banner="unit" row="3" col="157">
+    </proto>
+    <tech name="VeteranCrossbowmen" icon="resources/images/icons/techs/veteran_archer_infantry/veteran_archer_infantry.png" banner="improvement" row="4" col="157">
+    </tech>
+    <proto name="Pikeman" icon="resources/art/units/infantry/pikeman/pikeman_portrait.png" banner="unit" row="3" col="162">
+    </proto>
+    <tech name="VeteranPikemen" icon="resources/images/icons/techs/veteran_spear_infantry/veteran_spear_infantry.png" banner="improvement" row="4" col="162">
+    </tech>
+    <tech name="RGScythemen" icon="resources/images/icons/techs/guard_spear_infantry/guard_spear_infantry.png" banner="improvement" row="6" col="162">
+    </tech>
+    <tech name="ImperialScythemen" icon="resources/images/icons/techs/imperial_spear_infantry/imperial_spear_infantry.png" banner="improvement" row="8" col="162">
+    </tech>
+    <proto name="dePiechur" icon="resources/art/units/infantry_ranged/piechur/piechur_portrait.png" banner="unit" row="3" col="167">
+    </proto>
+    <tech name="VeteranPiechurs" icon="resources/images/icons/techs/veteran_sword_infantry/veteran_sword_infantry.png" banner="improvement" row="4" col="167">
+    </tech>
+    <tech name="RGKurpie" icon="resources/images/icons/techs/guard_sword_infantry/guard_sword_infantry.png" banner="improvement" row="6" col="167">
+    </tech>
+    <tech name="ImperialKurpie" icon="resources/images/icons/techs/imperial_sword_infantry/imperial_sword_infantry.png" banner="improvement" row="8" col="167">
+    </tech>
+  </group>
+  <group name="Stable">
+    <proto name="Stable" icon="resources/art/buildings/stables/stables_portrait.png" banner="building" row="2" col="173">
+    </proto>
+    <proto name="deLithuanianRider" icon="resources\art\units\cavalry\lithuanian_rider\lithuanian_rider_portrait.png" banner="unit" row="3" col="173">
+    </proto>
+    <tech name="VeteranLithuanianRiders" icon="resources/images/icons/techs/veteran_cavalry/veteran_cavalry.png" banner="improvement" row="4" col="173">
+    </tech>
+    <tech name="RGVanguards" icon="resources/images/icons/techs/guard_cavalry/guard_cavalry.png" banner="improvement" row="6" col="173">
+    </tech>
+    <tech name="ImperialVanguards" icon="resources/images/icons/techs/imperial_cavalry/imperial_cavalry.png" banner="improvement" row="8" col="173">
+    </tech>
+    <proto name="deWingedHussar" icon="resources\art\units\cavalry\winged_hussar\winged_hussar_portrait.png" banner="unit" row="3" col="178">
+    </proto>
+    <tech name="VeteranWingedHussars" icon="resources/images/icons/techs/veteran_cavalry/veteran_cavalry.png" banner="improvement" row="4" col="178">
+    </tech>
+    <tech name="GuardWingedHussars" icon="resources/images/icons/techs/guard_cavalry/guard_cavalry.png" banner="improvement" row="6" col="178">
+    </tech>
+    <tech name="ImperialWingedHussars" icon="resources/images/icons/techs/imperial_cavalry/imperial_cavalry.png" banner="improvement" row="8" col="178">
+    </tech>
+    <proto name="CavalryArcher" icon="resources\art\units\cavalry\cav_archer\cav_archer_portrait.png" banner="unit" row="4" col="183">
+    </proto>
+    <tech name="RGPancerni" icon="resources/images/icons/techs/guard_cavalry/guard_cavalry.png" banner="improvement" row="6" col="183">
+    </tech>
+    <tech name="ImperialPancerni" icon="resources/images/icons/techs/imperial_cavalry/imperial_cavalry.png" banner="improvement" row="8" col="183">
+    </tech>
+  </group>
+  <group name="Artillery Foundry">
+    <proto name="ArtilleryDepot" icon="resources/art/buildings/artillery_depot/artillery_depot_portrait.png" banner="building" row="4" col="189">
+    </proto>
+    <proto name="Falconet" icon="resources/art/units/artillery/falconet/falconet_portrait.png" banner="unit" row="5" col="189">
+    </proto>
+    <tech name="FieldGun" icon="resources/images/icons/techs/guard_artillery/guard_artillery.png" banner="improvement" row="6" col="189">
+    </tech>
+    <tech name="ImperialFieldGun" icon="resources/images/icons/techs/imperial_artillery/imperial_artillery.png" banner="improvement" row="8" col="189">
+    </tech>
+    <proto name="Culverin" icon="resources/art/units/artillery/culverin/culverin_portrait.png" banner="unit" row="5" col="194">
+    </proto>
+    <tech name="GrapeShot" icon="resources/images/icons/techs/guard_artillery/guard_artillery.png" banner="improvement" row="6" col="194">
+    </tech>
+    <tech name="ImperialCulverin" icon="resources/images/icons/techs/imperial_artillery/imperial_artillery.png" banner="improvement" row="8" col="194">
+    </tech>
+    <proto name="xpPetard" icon="resources/art/units/petard_portrait.png" banner="unit" row="5" col="200">
+    </proto>
+    <proto name="Mortar" icon="resources/art/units/artillery/mortar/mortar_portrait.png" banner="unit" row="6" col="200">
+    </proto>
+    <tech name="Howitzer" icon="resources/images/icons/techs/guard_artillery/guard_artillery.png" banner="improvement" row="7" col="200">
+    </tech>
+    <tech name="ImperialHowitzer" icon="resources/images/icons/techs/imperial_artillery/imperial_artillery.png" banner="improvement" row="8" col="200">
+    </tech>
+    <proto name="xpHorseArtillery" icon="resources/art/units/horse_artillery_portrait.png" banner="unit" row="6" col="205">
+    </proto>
+    <tech name="HeavyHorseArtillery" icon="resources/images/icons/techs/guard_artillery/guard_artillery.png" banner="improvement" row="7" col="205">
+    </tech>
+    <tech name="ImperialHorseArtillery" icon="resources/images/icons/techs/imperial_artillery/imperial_artillery.png" banner="improvement" row="8" col="205">
+    </tech>
+  </group>
+  <group name="Saloon">
+    <proto name="deTavern" icon="resources/art/buildings/saloon_portrait.png" banner="building" row="2" col="211">
+    </proto>
+    <tech name="DETavernFolkHeroes" icon="resources/images/icons/techs/tavern/folk_heroes.png" banner="improvement" row="5" col="212">
+    </tech>
+    <label string="100686" string2="72850" icon="resources\art\units\mercenaries\landsknecht\landsknecht_portrait.png" banner="unit" row="3" col="217">
+      <override>
+        <protoforcost>MercLandsknecht</protoforcost>
+      </override>
+    </label>
+    <label string="72858" string2="72851" icon="resources\art\nuggets\outlaw_kidnap\outlaw_icon_portrait.png" banner="unit" row="3" col="212">
+      <override>
+        <protoforcost>SaloonOutlawPistol</protoforcost>
+      </override>
+    </label>
+  </group>
+  <group name="Arsenal">
+    <proto name="Arsenal" icon="resources/art/buildings/arsenal/arsenal_portrait.png" banner="building" row="4" col="223">
+    </proto>
+    <tech name="Pillage" icon="resources/images/icons/techs/pillage/pillage.png" banner="improvement" row="5" col="223">
+      <override>
+        <additionaldesc>49232</additionaldesc>
+      </override>
+    </tech>
+    <tech name="CavalryCuirass" icon="resources/images/icons/techs/cavalry_cuirass/cavalry_cuirass.png" banner="improvement" row="4" col="228">
+    </tech>
+    <tech name="GunnersQuadrant" icon="resources/images/icons/techs/gunners_quadrant/gunners_quadrant.png" banner="improvement" row="5" col="228">
+    </tech>
+    <tech name="Rifling" icon="resources/images/icons/techs/rifling/rifling.png" banner="improvement" row="4" col="233">
+    </tech>
+    <tech name="HeatedShot" icon="resources/images/icons/techs/heated_shot/heated_shot.png" banner="improvement" row="5" col="233">
+    </tech>
+    <tech name="Flintlock" icon="resources/images/icons/techs/flint_lock/flint_lock.png" banner="improvement" row="4" col="238">
+      <override>
+        <additionaldesc>49232</additionaldesc>
+      </override>
+    </tech>
+    <tech name="ProfessionalGunners" icon="resources/images/icons/techs/professional_gunners/professional_gunners.png" banner="improvement" row="5" col="238">
+      <override>
+        <additionaldesc>49232</additionaldesc>
+      </override>
+    </tech>
+    <tech name="InfantryBreastplate" icon="resources/images/icons/techs/infantry_breastplate/infantry_breastplate.png" banner="improvement" row="4" col="243">
+    </tech>
+    <tech name="Caracole" icon="resources/images/icons/techs/caracole/caracole.png" banner="improvement" row="5" col="243">
+    </tech>
+    <tech name="MilitaryDrummers" icon="resources/images/icons/techs/military_drummers/military_drummers.png" banner="improvement" row="4" col="248">
+      <override>
+        <additionaldesc>49232</additionaldesc>
+      </override>
+    </tech>
+    <tech name="Bayonet" icon="resources/images/icons/techs/bayonet/bayonet.png" banner="improvement" row="5" col="248">
+    </tech>
+    <tech name="PaperCartridge" icon="resources/images/icons/techs/paper_cartridge/paper_cartridge.png" banner="improvement" row="4" col="253">
+      <override>
+        <additionaldesc>49232</additionaldesc>
+      </override>
+    </tech>
+    <tech name="Trunion" icon="resources/images/icons/techs/trunion/trunion.png" banner="improvement" row="5" col="253">
+      <override>
+        <additionaldesc>49232</additionaldesc>
+      </override>
+    </tech>
+  </group>
+  <group name="Factory">
+    <proto name="Factory" icon="resources/art/buildings/factory/shared_factory_portrait.png" banner="building" row="6" col="223">
+    </proto>
+    <tech name="FactorySteamPower" icon="resources/images/icons/techs/steam_power/steam_power.png" banner="improvement" row="7" col="223">
+    </tech>
+    <tech name="FactoryCannery" icon="resources/images/icons/techs/cannery/cannery.png" banner="improvement" row="6" col="228">
+    </tech>
+    <tech name="FactoryWaterPower" icon="resources/images/icons/techs/water_power/water_power.png" banner="improvement" row="7" col="228">
+    </tech>
+    <tech name="FactoryMassProduction" icon="resources/images/icons/techs/mass_production/mass_production.png" banner="improvement" row="7" col="233">
+    </tech>
+    <proto name="Cannon" icon="resources/art/units/artillery/cannon/cannon_icon_64.png" banner="unit" row="6" col="238">
+    </proto>
+    <tech name="ImperialCannon" icon="resources/images/icons/techs/imperial_artillery/imperial_artillery.png" banner="improvement" row="7" col="238">
+    </tech>
+  </group>
+  <group name="Fort">
+    <proto name="FortFrontier" icon="resources/art/buildings/fort/fort_portrait.png" banner="building" row="4" col="259">
+    </proto>
+    <tech name="Revetment" icon="resources/images/icons/techs/revetment/revetment.png" banner="improvement" row="6" col="260">
+    </tech>
+    <tech name="StarFort" icon="resources/images/icons/techs/star_fort/star_fort.png" banner="improvement" row="7" col="260">
+    </tech>
+    <proto name="Pikeman" icon="resources/art/units/infantry/pikeman/pikeman_portrait.png" banner="unit" row="4" col="264">
+    </proto>
+    <proto name="deWingedHussar" icon="resources/art/units/natives/europeans/winged_hussar_portrait.png" banner="unit" row="5" col="264">
+    </proto>
+    <proto name="Crossbowman" icon="resources/art/units/infantry_ranged/crossbow/crossbow_portrait.png" banner="unit" row="4" col="269">
+    </proto>
+    <proto name="deLithuanianRider" icon="resources\art\units\cavalry\lithuanian_rider\lithuanian_rider_portrait.png" banner="unit" row="5" col="269">
+    </proto>
+    <proto name="dePiechur" icon="resources/art/units/infantry_ranged/piechur/piechur_portrait.png" banner="unit" row="4" col="274">
+    </proto>
+    <proto name="CavalryArcher" icon="resources/art/units/cavalry/cav_archer/cav_archer_portrait.png" banner="unit" row="5" col="274">
+    </proto>
+  </group>
+</techtree>

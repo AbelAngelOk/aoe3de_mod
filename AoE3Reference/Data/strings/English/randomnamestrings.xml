@@ -1298,7 +1298,7 @@
     <string _locid="51295" comment="proto-ExplorerDog civ-Default type-title">Duke</string>
     <string _locid="51296" comment="proto-ExplorerDog civ-Default type-title">Dusty</string>
     <string _locid="51297" comment="proto-ExplorerDog civ-Default type-title">Dutch</string>
-    <string _locid="51298" comment="proto-ExplorerDog civ-Default type-title">Eimsteim</string>
+    <string _locid="51298" comment="proto-ExplorerDog civ-Default type-title">Einstein</string>
     <string _locid="51299" comment="proto-ExplorerDog civ-Default type-title">Elly</string>
     <string _locid="51300" comment="proto-ExplorerDog civ-Default type-title">Ember</string>
     <string _locid="51301" comment="proto-ExplorerDog civ-Default type-title">Enzo</string>
@@ -2680,5 +2680,512 @@
     <string _locid="54349" comment="proto-deMercBattleship civ-French type-title">Vengeur</string>
     <string _locid="54350" comment="proto-deMercBattleship civ-French type-title">Montebello</string>
     <string _locid="54351" comment="proto-deMercBattleship civ-Germans type-title">Adler von Lübeck</string>
+    <string _locid="54352" comment="proto-deHetman type-firstname">Adam </string>
+    <string _locid="54353" comment="proto-deHetman type-firstname">Aleksander </string>
+    <string _locid="54354" comment="proto-deHetman type-firstname">Andrzej  </string>
+    <string _locid="54355" comment="proto-deHetman type-firstname">Dymitr </string>
+    <string _locid="54356" comment="proto-deHetman type-firstname">Ernestas </string>
+    <string _locid="54357" comment="proto-deHetman type-firstname">Feliks </string>
+    <string _locid="54358" comment="proto-deHetman type-firstname">Franciszek </string>
+    <string _locid="54359" comment="proto-deHetman type-firstname">Grigalius </string>
+    <string _locid="54360" comment="proto-deHetman type-firstname">Grzegorz </string>
+    <string _locid="54361" comment="proto-deHetman type-firstname">Hieronim </string>
+    <string _locid="54362" comment="proto-deHetman type-firstname">Jan Karol </string>
+    <string _locid="54363" comment="proto-deHetman type-firstname">Janusz </string>
+    <string _locid="54364" comment="proto-deHetman type-firstname">Jerzy </string>
+    <string _locid="54365" comment="proto-deHetman type-firstname">Jonas </string>
+    <string _locid="54366" comment="proto-deHetman type-firstname">Józef </string>
+    <string _locid="54367" comment="proto-deHetman type-firstname">Konstanty </string>
+    <string _locid="54368" comment="proto-deHetman type-firstname">Kristupas </string>
+    <string _locid="54369" comment="proto-deHetman type-firstname">Krzysztof </string>
+    <string _locid="54370" comment="proto-deHetman type-firstname">Lew </string>
+    <string _locid="54371" comment="proto-deHetman type-firstname">Liudvikas </string>
+    <string _locid="54372" comment="proto-deHetman type-firstname">Ludwik </string>
+    <string _locid="54373" comment="proto-deHetman type-firstname">Marcin </string>
+    <string _locid="54374" comment="proto-deHetman type-firstname">Mateusz </string>
+    <string _locid="54375" comment="proto-deHetman type-firstname">Michał </string>
+    <string _locid="54376" comment="proto-deHetman type-firstname">Mikołaj </string>
+    <string _locid="54377" comment="proto-deHetman type-firstname">Mykolas </string>
+    <string _locid="54378" comment="proto-deHetman type-firstname">Paweł Jan </string>
+    <string _locid="54379" comment="proto-deHetman type-firstname">Piotr </string>
+    <string _locid="54380" comment="proto-deHetman type-firstname">Roman </string>
+    <string _locid="54381" comment="proto-deHetman type-firstname">Seweryn </string>
+    <string _locid="54382" comment="proto-deHetman type-firstname">Simonas </string>
+    <string _locid="54383" comment="proto-deHetman type-firstname">Stanisław </string>
+    <string _locid="54384" comment="proto-deHetman type-firstname">Stanislovas </string>
+    <string _locid="54385" comment="proto-deHetman type-firstname">Stefan </string>
+    <string _locid="54386" comment="proto-deHetman type-firstname">Waclaw </string>
+    <string _locid="54387" comment="proto-deHetman type-firstname">Władysław </string>
+    <string _locid="54388" comment="proto-deHetman type-lastname">Branicki</string>
+    <string _locid="54389" comment="proto-deHetman type-lastname">Chodcza</string>
+    <string _locid="54390" comment="proto-deHetman type-lastname">Chodecki</string>
+    <string _locid="54391" comment="proto-deHetman type-lastname">Chodkiewicz</string>
+    <string _locid="54392" comment="proto-deHetman type-lastname">Chometowski</string>
+    <string _locid="54393" comment="proto-deHetman type-lastname">Czarniecki</string>
+    <string _locid="54394" comment="proto-deHetman type-lastname">Denhofas</string>
+    <string _locid="54395" comment="proto-deHetman type-lastname">Firlej</string>
+    <string _locid="54396" comment="proto-deHetman type-lastname">Jablonowski</string>
+    <string _locid="54397" comment="proto-deHetman type-lastname">Jazlowiecki</string>
+    <string _locid="54398" comment="proto-deHetman type-lastname">Kalinowski</string>
+    <string _locid="54399" comment="proto-deHetman type-lastname">Kamieniecki</string>
+    <string _locid="54400" comment="proto-deHetman type-lastname">Kazanowski</string>
+    <string _locid="54401" comment="proto-deHetman type-lastname">Kazimieras</string>
+    <string _locid="54402" comment="proto-deHetman type-lastname">Kęsgaila</string>
+    <string _locid="54403" comment="proto-deHetman type-lastname">Kiszka</string>
+    <string _locid="54404" comment="proto-deHetman type-lastname">Koła</string>
+    <string _locid="54405" comment="proto-deHetman type-lastname">Koniecpolski</string>
+    <string _locid="54406" comment="proto-deHetman type-lastname">Kosakovskis</string>
+    <string _locid="54407" comment="proto-deHetman type-lastname">Lanckoronski</string>
+    <string _locid="54408" comment="proto-deHetman type-lastname">Lubomirski</string>
+    <string _locid="54409" comment="proto-deHetman type-lastname">Martynas</string>
+    <string _locid="54410" comment="proto-deHetman type-lastname">Massalski</string>
+    <string _locid="54411" comment="proto-deHetman type-lastname">Mielecki</string>
+    <string _locid="54412" comment="proto-deHetman type-lastname">Myszkowski</string>
+    <string _locid="54413" comment="proto-deHetman type-lastname">Ogiński</string>
+    <string _locid="54414" comment="proto-deHetman type-lastname">Oginskis</string>
+    <string _locid="54415" comment="proto-deHetman type-lastname">Ostrogski</string>
+    <string _locid="54416" comment="proto-deHetman type-lastname">Ozarowski</string>
+    <string _locid="54417" comment="proto-deHetman type-lastname">Panieweski</string>
+    <string _locid="54418" comment="proto-deHetman type-lastname">Perkūnas</string>
+    <string _locid="54419" comment="proto-deHetman type-lastname">Pieniazek</string>
+    <string _locid="54420" comment="proto-deHetman type-lastname">Piorun</string>
+    <string _locid="54421" comment="proto-deHetman type-lastname">Pociejus</string>
+    <string _locid="54422" comment="proto-deHetman type-lastname">Potocki</string>
+    <string _locid="54423" comment="proto-deHetman type-lastname">Raciborzan</string>
+    <string _locid="54424" comment="proto-deHetman type-lastname">Radvila</string>
+    <string _locid="54425" comment="proto-deHetman type-lastname">Radziwiłł</string>
+    <string _locid="54426" comment="proto-deHetman type-lastname">Rewera</string>
+    <string _locid="54427" comment="proto-deHetman type-lastname">Rybeńko</string>
+    <string _locid="54428" comment="proto-deHetman type-lastname">Rzewuski</string>
+    <string _locid="54429" comment="proto-deHetman type-lastname">Sanguszko</string>
+    <string _locid="54430" comment="proto-deHetman type-lastname">Sapieha</string>
+    <string _locid="54431" comment="proto-deHetman type-lastname">Sieniawski</string>
+    <string _locid="54432" comment="proto-deHetman type-lastname">Sobieski</string>
+    <string _locid="54433" comment="proto-deHetman type-lastname">Sosnowski</string>
+    <string _locid="54434" comment="proto-deHetman type-lastname">Tarnowski</string>
+    <string _locid="54435" comment="proto-deHetman type-lastname">Tworowski</string>
+    <string _locid="54436" comment="proto-deHetman type-lastname">Tyszkiewicz</string>
+    <string _locid="54437" comment="proto-deHetman type-lastname">Wiśniowiecki</string>
+    <string _locid="54438" comment="proto-deHetman type-lastname">Wołłowicz</string>
+    <string _locid="54439" comment="proto-deHetman type-lastname">Zamoyski</string>
+    <string _locid="54440" comment="proto-deHetman type-lastname">Zólkiewski</string>
+    <string _locid="54441" comment="proto-Explorer civ-Danes type-firstname">Tycho </string>
+    <string _locid="54442" comment="proto-Explorer civ-Danes type-firstname">Christian </string>
+    <string _locid="54443" comment="proto-Explorer civ-Danes type-firstname">Ole </string>
+    <string _locid="54444" comment="proto-Explorer civ-Danes type-firstname">Hans </string>
+    <string _locid="54445" comment="proto-Explorer civ-Danes type-firstname">Eberhard </string>
+    <string _locid="54446" comment="proto-Explorer civ-Danes type-firstname">Jørgen </string>
+    <string _locid="54447" comment="proto-Explorer civ-Danes type-firstname">Johan </string>
+    <string _locid="54448" comment="proto-Explorer civ-Danes type-firstname">Karsten </string>
+    <string _locid="54449" comment="proto-Explorer civ-Danes type-firstname">Frederik </string>
+    <string _locid="54450" comment="proto-Explorer civ-Danes type-firstname">Morten </string>
+    <string _locid="54451" comment="proto-Explorer civ-Danes type-firstname">Jacob </string>
+    <string _locid="54452" comment="proto-Explorer civ-Danes type-firstname">Jens </string>
+    <string _locid="54453" comment="proto-Explorer civ-Danes type-firstname">Carl </string>
+    <string _locid="54454" comment="proto-Explorer civ-Danes type-firstname">Erik </string>
+    <string _locid="54455" comment="proto-Explorer civ-Danes type-firstname">Didrik </string>
+    <string _locid="54456" comment="proto-Explorer civ-Danes type-firstname">Poul </string>
+    <string _locid="54457" comment="proto-Explorer civ-Danes type-lastname">Brahe</string>
+    <string _locid="54458" comment="proto-Explorer civ-Danes type-lastname">Barnekow</string>
+    <string _locid="54459" comment="proto-Explorer civ-Danes type-lastname">Bendixen</string>
+    <string _locid="54460" comment="proto-Explorer civ-Danes type-lastname">Brøndsted</string>
+    <string _locid="54461" comment="proto-Explorer civ-Danes type-lastname">Ecklon</string>
+    <string _locid="54462" comment="proto-Explorer civ-Danes type-lastname">Egede</string>
+    <string _locid="54463" comment="proto-Explorer civ-Danes type-lastname">Ides</string>
+    <string _locid="54464" comment="proto-Explorer civ-Danes type-lastname">Jørgensen</string>
+    <string _locid="54465" comment="proto-Explorer civ-Danes type-lastname">Koch</string>
+    <string _locid="54466" comment="proto-Explorer civ-Danes type-lastname">Niebuhr</string>
+    <string _locid="54467" comment="proto-Explorer civ-Danes type-lastname">Norden</string>
+    <string _locid="54468" comment="proto-Explorer civ-Danes type-lastname">Spanberg</string>
+    <string _locid="54469" comment="proto-Explorer civ-Danes type-lastname">Ulfeldt</string>
+    <string _locid="54470" comment="proto-Explorer civ-Danes type-lastname">Munk</string>
+    <string _locid="54471" comment="proto-Explorer civ-Danes type-lastname">Bock</string>
+    <string _locid="54472" comment="proto-Explorer civ-Danes type-lastname">Eriksen</string>
+    <string _locid="54473" comment="proto-Explorer civ-Danes type-lastname">von Haven</string>
+    <string _locid="54474" comment="proto-Explorer civ-Danes type-lastname">Pinning</string>
+    <string _locid="54475" comment="proto-Explorer civ-Danes type-lastname">Nolsøe</string>
+    <string _locid="54476" comment="proto-Fort civ-Danes type-title">Aalholm Castle</string>
+    <string _locid="54477" comment="proto-Fort civ-Danes type-title">Nykøbing Castle</string>
+    <string _locid="54478" comment="proto-Fort civ-Danes type-title">Fladstrand Citadel</string>
+    <string _locid="54479" comment="proto-Fort civ-Danes type-title">Kronborg</string>
+    <string _locid="54480" comment="proto-Fort civ-Danes type-title">Elsinore</string>
+    <string _locid="54481" comment="proto-Fort civ-Danes type-title">Skansin</string>
+    <string _locid="54482" comment="proto-Fort civ-Danes type-title">Koldinghus</string>
+    <string _locid="54483" comment="proto-Fort civ-Danes type-title">Trekroner Fort</string>
+    <string _locid="54484" comment="proto-Fort civ-Danes type-title">Hammershus</string>
+    <string _locid="54485" comment="proto-Fort civ-Danes type-title">Malmöhus</string>
+    <string _locid="54486" comment="proto-Fort civ-Danes type-title">Helsingborg Festning</string>
+    <string _locid="54487" comment="proto-Fort civ-Danes type-title">Landskrona Citadel</string>
+    <string _locid="54488" comment="proto-Fort civ-Danes type-title">Rendsborg</string>
+    <string _locid="54489" comment="proto-Fort civ-Danes type-title">Frederiksborg Castle</string>
+    <string _locid="54490" comment="proto-Fort civ-Danes type-title">Flensborghus</string>
+    <string _locid="54491" comment="proto-Fort civ-Danes type-title">Egeskov Castle</string>
+    <string _locid="54492" comment="proto-Fort civ-Danes type-title">Skanerborg</string>
+    <string _locid="54493" comment="proto-Fort civ-Danes type-title">Riberhus Slot</string>
+    <string _locid="54494" comment="proto-Fort civ-Danes type-title">Akershus Festning</string>
+    <string _locid="54495" comment="proto-Fort civ-Danes type-title">Vardøhus Festning</string>
+    <string _locid="54496" comment="proto-Fort civ-Danes type-title">Kongsvinger Festning</string>
+    <string _locid="54497" comment="proto-Fort civ-Danes type-title">Fredriksten</string>
+    <string _locid="54498" comment="proto-Fort civ-Danes type-title">Bergenhus Festning</string>
+    <string _locid="54499" comment="proto-Fort civ-Danes type-title">Christiansholm Festning</string>
+    <string _locid="54500" comment="proto-Fort civ-Danes type-title">Kastellet</string>
+    <string _locid="54501" comment="proto-Fort civ-Danes type-title">Copenhagen Castle</string>
+    <string _locid="54502" comment="proto-Fort civ-Danes type-title">Christianfjeld Festning</string>
+    <string _locid="54503" comment="proto-Fort civ-Danes type-title">Christiansø</string>
+    <string _locid="54504" comment="proto-Fort civ-Danes type-title">Christiansø Festning</string>
+    <string _locid="54505" comment="proto-Fort civ-Danes type-title">Christiansten</string>
+    <string _locid="54506" comment="proto-Fort civ-Danes type-title">Odderøya Festning</string>
+    <string _locid="54507" comment="proto-Fort civ-Danes type-title">Frederiksort</string>
+    <string _locid="54508" comment="proto-Fort civ-Danes type-title">Fredericia</string>
+    <string _locid="54509" comment="proto-Fort civ-Danes type-title">Munkholmen</string>
+    <string _locid="54510" comment="proto-Fort civ-Danes type-title">Blaker Skanse</string>
+    <string _locid="54511" comment="proto-Fort civ-Danes type-title">Nyborg Slot</string>
+    <string _locid="54512" comment="proto-Fort civ-Danes type-title">Altenhus Festning</string>
+    <string _locid="54513" comment="proto-Fort civ-Danes type-title">Fredriksberg Fortress</string>
+    <string _locid="54514" comment="proto-Fort civ-Danes type-title">Fredrikstad Festning</string>
+    <string _locid="54515" comment="proto-Fort civ-Danes type-title">Staverns Fortress</string>
+    <string _locid="54516" comment="proto-Fort civ-Poles type-title">Trakai Castle</string>
+    <string _locid="54517" comment="proto-Fort civ-Poles type-title">Vilnius Castle</string>
+    <string _locid="54518" comment="proto-Fort civ-Poles type-title">Biržai Castle</string>
+    <string _locid="54519" comment="proto-Fort civ-Poles type-title">Klaipėda Castle</string>
+    <string _locid="54520" comment="proto-Fort civ-Poles type-title">Brest Castle</string>
+    <string _locid="54521" comment="proto-Fort civ-Poles type-title">Kamianets-Podilskyi</string>
+    <string _locid="54522" comment="proto-Fort civ-Poles type-title">Kaunas Castle</string>
+    <string _locid="54523" comment="proto-Fort civ-Poles type-title">Kobryn Castle</string>
+    <string _locid="54524" comment="proto-Fort civ-Poles type-title">Kremenets Castle</string>
+    <string _locid="54525" comment="proto-Fort civ-Poles type-title">Lida Castle</string>
+    <string _locid="54526" comment="proto-Fort civ-Poles type-title">Lutsk Castle</string>
+    <string _locid="54527" comment="proto-Fort civ-Poles type-title">Nesvizh Castle</string>
+    <string _locid="54528" comment="proto-Fort civ-Poles type-title">Bathory's Castle</string>
+    <string _locid="54529" comment="proto-Fort civ-Poles type-title">Mir Castle</string>
+    <string _locid="54530" comment="proto-Fort civ-Poles type-title">Tykocin Castle</string>
+    <string _locid="54531" comment="proto-Fort civ-Poles type-title">Malbork Castle</string>
+    <string _locid="54532" comment="proto-Fort civ-Poles type-title">Wisłoujście Fortress</string>
+    <string _locid="54533" comment="proto-Fort civ-Poles type-title">Sandomierski Castle</string>
+    <string _locid="54534" comment="proto-Fort civ-Poles type-title">Zamość Fortress</string>
+    <string _locid="54535" comment="proto-Fort civ-Poles type-title">Kłodzko Fortress</string>
+    <string _locid="54536" comment="proto-Fort civ-Poles type-title">Fort Srebrna Góra</string>
+    <string _locid="54537" comment="proto-Fort civ-Poles type-title">Dęblin Fortress</string>
+    <string _locid="54538" comment="proto-Fort civ-Poles type-title">Modlin Fortress</string>
+    <string _locid="54539" comment="proto-Fort civ-Poles type-title">Toruń Fortress</string>
+    <string _locid="54540" comment="proto-Fort civ-Poles type-title">Kraków Barbican</string>
+    <string _locid="54541" comment="proto-Fort civ-Poles type-title">Kraków Fortress</string>
+    <string _locid="54542" comment="proto-Fort civ-Poles type-title">Czocha Castle</string>
+    <string _locid="54543" comment="proto-Fort civ-Poles type-title">Lublin Castle</string>
+    <string _locid="54544" comment="proto-Fort civ-Poles type-title">Książ Castle</string>
+    <string _locid="54545" comment="proto-Fort civ-Poles type-title">Pidhirtsi Castle</string>
+    <string _locid="54546" comment="proto-Fort civ-Poles type-title">Khotyn Fortress</string>
+    <string _locid="54547" comment="proto-Fort civ-Poles type-title">Dubno Castle</string>
+    <string _locid="54548" comment="proto-Fort civ-Poles type-title">Zbarazh Castle</string>
+    <string _locid="54549" comment="proto-Fort civ-Poles type-title">Medzhybizh Fortress</string>
+    <string _locid="54550" comment="proto-Fort civ-Poles type-title">Kodak Fortress</string>
+    <string _locid="54551" comment="proto-Fort civ-Poles type-title">Mitau Castle</string>
+    <string _locid="54552" comment="proto-Fort civ-Poles type-title">Kuldīga Castle</string>
+    <string _locid="54553" comment="proto-Fort civ-Poles type-title">Riga Castle</string>
+    <string _locid="54554" comment="proto-Fort civ-Poles type-title">Daugavgrīva Castle</string>
+    <string _locid="54555" comment="proto-Fort civ-Poles type-title">Dinaburga Castle</string>
+    <string _locid="54556" comment="proto-Fort civ-Poles type-title">Royal Castle</string>
+    <string _locid="54557" comment="proto-Fort civ-Poles type-title">Krzyżtopór</string>
+    <string _locid="54558" comment="proto-Fort civ-Poles type-title">Krasiczyn Castle</string>
+    <string _locid="54559" comment="proto-Caravel civ-Poles type-title">Feniks</string>
+    <string _locid="54560" comment="proto-Caravel civ-Poles type-title">Piotr z Gdańska</string>
+    <string _locid="54561" comment="proto-Caravel civ-Poles type-title">Strzelec</string>
+    <string _locid="54562" comment="proto-Caravel civ-Poles type-title">Gwiazda</string>
+    <string _locid="54563" comment="proto-Caravel civ-Poles type-title">Charitas</string>
+    <string _locid="54564" comment="proto-Caravel civ-Poles type-title">Biały Orzeł</string>
+    <string _locid="54565" comment="proto-Caravel civ-Poles type-title">Biały Lew</string>
+    <string _locid="54566" comment="proto-Caravel civ-Poles type-title">Żółty Lew</string>
+    <string _locid="54567" comment="proto-Caravel civ-Poles type-title">Panna Wodna</string>
+    <string _locid="54568" comment="proto-Caravel civ-Poles type-title">Arka Noego</string>
+    <string _locid="54569" comment="proto-Caravel civ-Poles type-title">Płomień</string>
+    <string _locid="54570" comment="proto-Caravel civ-Poles type-title">Wodnik</string>
+    <string _locid="54571" comment="proto-Caravel civ-Poles type-title">Czarny Kruk</string>
+    <string _locid="54572" comment="proto-Caravel civ-Poles type-title">Latający Jeleń</string>
+    <string _locid="54573" comment="proto-Galleon civ-Poles type-title">Tygrys</string>
+    <string _locid="54574" comment="proto-Galleon civ-Poles type-title">Smok</string>
+    <string _locid="54575" comment="proto-Galleon civ-Poles type-title">Wielkie Słońce</string>
+    <string _locid="54576" comment="proto-Galleon civ-Poles type-title">Prorok Samuel</string>
+    <string _locid="54577" comment="proto-Galleon civ-Poles type-title">Rycerz</string>
+    <string _locid="54578" comment="proto-Galleon civ-Poles type-title">Święty Jerzy</string>
+    <string _locid="54579" comment="proto-Galleon civ-Poles type-title">Król Dawid</string>
+    <string _locid="54580" comment="proto-Galleon civ-Poles type-title">Czarny Orzeł</string>
+    <string _locid="54581" comment="proto-Monitor civ-Poles type-title">Svētais Kazimirs</string>
+    <string _locid="54582" comment="proto-Monitor civ-Poles type-title">Hesenes Landgrāfs</string>
+    <string _locid="54583" comment="proto-Monitor civ-Poles type-title">Katrīna no Kuldīgas</string>
+    <string _locid="54584" comment="proto-Monitor civ-Poles type-title">Augu Pods</string>
+    <string _locid="54585" comment="proto-Monitor civ-Poles type-title">Valis</string>
+    <string _locid="54586" comment="proto-Monitor civ-Poles type-title">Gambija un Tobāgo</string>
+    <string _locid="54587" comment="proto-Frigate civ-Poles type-title">Kavalieris</string>
+    <string _locid="54588" comment="proto-Frigate civ-Poles type-title">Jacobus Major</string>
+    <string _locid="54589" comment="proto-Frigate civ-Poles type-title">Kurzemes Princese</string>
+    <string _locid="54590" comment="proto-Frigate civ-Poles type-title">Kurzemes Ģerbonis</string>
+    <string _locid="54591" comment="proto-Frigate civ-Poles type-title">Jūsu Karaliskā Augstība</string>
+    <string _locid="54592" comment="proto-Frigate civ-Poles type-title">Kurzemes Princis</string>
+    <string _locid="54593" comment="proto-Frigate civ-Poles type-title">Fortitudo</string>
+    <string _locid="54594" comment="proto-deMercBattleship civ-Poles type-title">Duchess of Courland</string>
+    <string _locid="54595" comment="proto-deMercBattleship civ-Poles type-title">Herzogin von Curland</string>
+    <string _locid="54596" comment="proto-deMercBattleship civ-Poles type-title">Princis Frīdrihs Vilhelms</string>
+    <string _locid="54597" comment="proto-Caravel civ-Danes type-title">Solen</string>
+    <string _locid="54598" comment="proto-Caravel civ-Danes type-title">Delphinen</string>
+    <string _locid="54599" comment="proto-Caravel civ-Danes type-title">Glommen</string>
+    <string _locid="54600" comment="proto-Caravel civ-Danes type-title">Sarpen</string>
+    <string _locid="54601" comment="proto-Caravel civ-Danes type-title">Elven</string>
+    <string _locid="54602" comment="proto-Caravel civ-Danes type-title">Trost</string>
+    <string _locid="54603" comment="proto-Caravel civ-Danes type-title">Langeland</string>
+    <string _locid="54604" comment="proto-Caravel civ-Danes type-title">Lolland</string>
+    <string _locid="54605" comment="proto-Caravel civ-Danes type-title">Allart</string>
+    <string _locid="54606" comment="proto-Caravel civ-Danes type-title">Lougen</string>
+    <string _locid="54607" comment="proto-Caravel civ-Danes type-title">Lillebælt</string>
+    <string _locid="54608" comment="proto-Caravel civ-Danes type-title">Ormen</string>
+    <string _locid="54609" comment="proto-Caravel civ-Danes type-title">Gribshunden</string>
+    <string _locid="54610" comment="proto-Galleon civ-Danes type-title">Triton</string>
+    <string _locid="54611" comment="proto-Galleon civ-Danes type-title">Gideon</string>
+    <string _locid="54612" comment="proto-Galleon civ-Danes type-title">Argo</string>
+    <string _locid="54613" comment="proto-Galleon civ-Danes type-title">Hvide Ørn</string>
+    <string _locid="54614" comment="proto-Galleon civ-Danes type-title">St. Oluf</string>
+    <string _locid="54615" comment="proto-Galleon civ-Danes type-title">Lossen</string>
+    <string _locid="54616" comment="proto-Galleon civ-Danes type-title">Snarensvend</string>
+    <string _locid="54617" comment="proto-Galleon civ-Danes type-title">Mikael</string>
+    <string _locid="54618" comment="proto-Galleon civ-Danes type-title">Najaden</string>
+    <string _locid="54619" comment="proto-Galleon civ-Danes type-title">Hvide Ørn</string>
+    <string _locid="54620" comment="proto-Galleon civ-Danes type-title">Najaden</string>
+    <string _locid="54621" comment="proto-Frigate civ-Danes type-title">Bornholm</string>
+    <string _locid="54622" comment="proto-Frigate civ-Danes type-title">Hannibal</string>
+    <string _locid="54623" comment="proto-Frigate civ-Danes type-title">Holsten</string>
+    <string _locid="54624" comment="proto-Frigate civ-Danes type-title">Krabaten</string>
+    <string _locid="54625" comment="proto-Frigate civ-Danes type-title">Fyen</string>
+    <string _locid="54626" comment="proto-Frigate civ-Danes type-title">Samson</string>
+    <string _locid="54627" comment="proto-Frigate civ-Danes type-title">Stora Sofia</string>
+    <string _locid="54628" comment="proto-Frigate civ-Danes type-title">Grønland</string>
+    <string _locid="54629" comment="proto-Frigate civ-Danes type-title">Slesvig</string>
+    <string _locid="54630" comment="proto-Frigate civ-Danes type-title">Ditmarsken</string>
+    <string _locid="54631" comment="proto-Frigate civ-Danes type-title">Dannemark</string>
+    <string _locid="54632" comment="proto-Frigate civ-Danes type-title">Norge</string>
+    <string _locid="54633" comment="proto-Frigate civ-Danes type-title">Odin</string>
+    <string _locid="54634" comment="proto-Frigate civ-Danes type-title">Skjold</string>
+    <string _locid="54635" comment="proto-Frigate civ-Danes type-title">Tre Kroner</string>
+    <string _locid="54636" comment="proto-Frigate civ-Danes type-title">Dannebroge</string>
+    <string _locid="54637" comment="proto-Frigate civ-Danes type-title">Indfødsretten</string>
+    <string _locid="54638" comment="proto-deMercBattleship civ-Danes type-title">Norske Løve</string>
+    <string _locid="54639" comment="proto-deMercBattleship civ-Danes type-title">Waldemar</string>
+    <string _locid="54640" comment="proto-deMercBattleship civ-Danes type-title">Neptunus</string>
+    <string _locid="54641" comment="proto-deMercBattleship civ-Danes type-title">Sophia Amalia</string>
+    <string _locid="54642" comment="proto-deMercBattleship civ-Danes type-title">Elephanten</string>
+    <string _locid="54643" comment="proto-deMercBattleship civ-Danes type-title">Dronningen</string>
+    <string _locid="54644" comment="proto-deMercBattleship civ-Danes type-title">Dronning Anna Sophia</string>
+    <string _locid="54645" comment="proto-deMercBattleship civ-Danes type-title">Christian Den VII</string>
+    <string _locid="54646" comment="proto-deMercBattleship civ-Danes type-title">Fridericus</string>
+    <string _locid="54647" comment="proto-deMercBattleship civ-Danes type-title">Justitia</string>
+    <string _locid="54648" comment="proto-deMercBattleship civ-Danes type-title">Jægermester</string>
+    <string _locid="54649" comment="proto-deMercBattleship civ-Danes type-title">Hercules</string>
+    <string _locid="54650" comment="proto-Monitor civ-Danes type-title">Støren</string>
+    <string _locid="54651" comment="proto-Monitor civ-Danes type-title">Thura</string>
+    <string _locid="54652" comment="proto-Monitor civ-Danes type-title">Arche Noæ</string>
+    <string _locid="54653" comment="proto-Monitor civ-Danes type-title">Hjælperen</string>
+    <string _locid="54654" comment="proto-Monitor civ-Danes type-title">Holger Danske</string>
+    <string _locid="54655" comment="proto-Monitor civ-Danes type-title">Hekla</string>
+    <string _locid="54656" comment="proto-Monitor civ-Danes type-title">Eideren</string>
+    <string _locid="54657" comment="proto-Monitor civ-Danes type-title">Prammen</string>
+    <string _locid="54658" comment="proto-Monitor civ-Danes type-title">Søormen</string>
+    <string _locid="54659" comment="proto-Monitor civ-Danes type-title">Kjæmpen</string>
+    <string _locid="54660" comment="proto-deGunboat civ-Danes type-title">Christiansund</string>
+    <string _locid="54661" comment="proto-deGunboat civ-Danes type-title">Kanonjolle</string>
+    <string _locid="54662" comment="proto-deGunboat civ-Danes type-title">Viborg</string>
+    <string _locid="54663" comment="proto-deGunboat civ-Danes type-title">Roeskilde</string>
+    <string _locid="54664" comment="proto-deGunboat civ-Danes type-title">Odense</string>
+    <string _locid="54665" comment="proto-deGunboat civ-Danes type-title">Nakskov</string>
+    <string _locid="54666" comment="proto-deGunboat civ-Danes type-title">Middelfart</string>
+    <string _locid="54667" comment="proto-deGunboat civ-Danes type-title">Helsingøer</string>
+    <string _locid="54668" comment="proto-deGunboat civ-Danes type-title">Aalborg</string>
+    <string _locid="54669" comment="proto-deGunboat civ-Danes type-title">Flensborg</string>
+    <string _locid="54670" comment="proto-deGunboat civ-Danes type-title">Bombarderbarkasse</string>
+    <string _locid="54671" comment="proto-deGunboat civ-Danes type-title">Ahrendahl</string>
+    <string _locid="54672" comment="proto-deGunboat civ-Danes type-title">Grønlandiske Kat</string>
+    <string _locid="54673" comment="proto-deGunboat civ-Danes type-title">Grinder</string>
+    <string _locid="54674" comment="proto-xpIronclad civ-Danes type-title">Tordenskjold</string>
+    <string _locid="54675" comment="proto-xpIronclad civ-Danes type-title">Ægir</string>
+    <string _locid="54676" comment="proto-xpIronclad civ-Danes type-title">Sjælland</string>
+    <string _locid="54677" comment="proto-xpIronclad civ-Danes type-title">Absalon</string>
+    <string _locid="54678" comment="proto-xpIronclad civ-Danes type-title">Peder Skram</string>
+    <string _locid="54679" comment="proto-xpIronclad civ-Danes type-title">Danmark</string>
+    <string _locid="54680" comment="proto-xpIronclad civ-Danes type-title">Niels Juel</string>
+    <string _locid="54681" comment="proto-xpIronclad civ-Danes type-title">Helgoland</string>
+    <string _locid="54682" comment="proto-xpIronclad civ-Danes type-title">Gorm</string>
+    <string _locid="54683" comment="proto-deWhalingShip type-title">Grönlandfahrer</string>
+    <string _locid="54684" comment="proto-deWhalingShip type-title">Nantucket</string>
+    <string _locid="54685" comment="proto-deWhalingShip type-title">Moby Dick</string>
+    <string _locid="54686" comment="proto-deWhalingShip type-title">Pequod</string>
+    <string _locid="54687" comment="proto-deWhalingShip type-title">Queequeg</string>
+    <string _locid="54688" comment="proto-deWhalingShip type-title">Bulkington</string>
+    <string _locid="54689" comment="proto-deWhalingShip type-title">Ahab</string>
+    <string _locid="54690" comment="proto-deWhalingShip type-title">Starbuck</string>
+    <string _locid="54691" comment="proto-deWhalingShip type-title">Father Mapple</string>
+    <string _locid="54692" comment="proto-deWhalingShip type-title">Ishmael</string>
+    <string _locid="54693" comment="proto-deWhalingShip type-title">Pip</string>
+    <string _locid="54694" comment="proto-deWhalingShip type-title">Tashtego</string>
+    <string _locid="54695" comment="proto-deWhalingShip type-title">Daggoo</string>
+    <string _locid="54696" comment="proto-deWhalingShip type-title">Fedallah</string>
+    <string _locid="54697" comment="proto-deWhalingShip type-title">Perth</string>
+    <string _locid="54698" comment="proto-deWhalingShip type-title">Ghost</string>
+    <string _locid="54699" comment="proto-deWhalingShip type-title">Sea Wolf</string>
+    <string _locid="54700" comment="proto-deWhalingShip type-title">Van Weyden</string>
+    <string _locid="54701" comment="proto-deWhalingShip type-title">Wolf Larsen</string>
+    <string _locid="54702" comment="proto-deWhalingShip type-title">Death Larsen</string>
+    <string _locid="54703" comment="proto-deWhalingShip type-title">Charles W. Morgan</string>
+    <string _locid="54704" comment="proto-deWhalingShip type-title">Essex</string>
+    <string _locid="54705" comment="proto-deWhalingShip type-title">Haddock</string>
+    <string _locid="54706" comment="proto-deWhalingShip type-title">Captain Hook</string>
+    <string _locid="54707" comment="proto-deWhalingShip type-title">Lagoda</string>
+    <string _locid="54708" comment="proto-deWhalingShip type-title">Groenland</string>
+    <string _locid="54709" comment="proto-deWhalingShip type-title">Aurora</string>
+    <string _locid="54710" comment="proto-deWhalingShip type-title">Morgenen</string>
+    <string _locid="54711" comment="proto-deWhalingShip type-title">Nimrod</string>
+    <string _locid="54712" comment="proto-deWhalingShip type-title">Spissa</string>
+    <string _locid="54713" comment="proto-deWhalingShip type-title">Antarctic</string>
+    <string _locid="54714" comment="proto-deWhalingShip type-title">Gjøa</string>
+    <string _locid="54715" comment="proto-deWhalingShip type-title">Two Brothers</string>
+    <string _locid="54716" comment="proto-deWhalingShip type-title">Achilles</string>
+    <string _locid="54717" comment="proto-deWhalingShip type-title">Spitsbergen</string>
+    <string _locid="54718" comment="proto-deWhalingShip type-title">Jan Mayen</string>
+    <string _locid="54719" comment="proto-deWhalingShip type-title">Lofoten</string>
+    <string _locid="54720" comment="proto-deWhalingShip type-title">Vikinger</string>
+    <string _locid="54721" comment="proto-deWhalingShip type-title">Blubber</string>
+    <string _locid="54722" comment="proto-deWhalingShip type-title">Narvhal</string>
+    <string _locid="54723" comment="proto-deWhalingShip type-title">Hvithval</string>
+    <string _locid="54724" comment="proto-deWhalingShip type-title">Hvidhvalen</string>
+    <string _locid="54725" comment="proto-deWhalingShip type-title">Cetacea</string>
+    <string _locid="54726" comment="proto-deWhalingShip type-title">Cuttlefish</string>
+    <string _locid="54727" comment="proto-deWhalingShip type-title">Gråhval</string>
+    <string _locid="54728" comment="proto-deWhalingShip type-title">Hvalfanger</string>
+    <string _locid="54729" comment="proto-deWhalingShip type-title">Kvalbåt</string>
+    <string _locid="54730" comment="proto-deWhalingShip type-title">Hvalbåt</string>
+    <string _locid="54731" comment="proto-deWhalingShip type-title">Inuluapik</string>
+    <string _locid="54732" comment="proto-deWhalingShip type-title">Svend Foyn</string>
+    <string _locid="54733" comment="proto-deWhalingShip type-title">Virgohamna</string>
+    <string _locid="54734" comment="proto-deWhalingShip type-title">Smeerenburg</string>
+    <string _locid="54735" comment="proto-deWhalingShip type-title">Ganges</string>
+    <string _locid="54736" comment="proto-deWhalingShip type-title">Harpooner</string>
+    <string _locid="54737" comment="proto-deWhalingShip type-title">Terra Nova</string>
+    <string _locid="54738" comment="proto-deWhalingShip type-title">Jason</string>
+    <string _locid="54739" comment="proto-deWhalingShip type-title">Belgica</string>
+    <string _locid="54741" comment="proto-deTavern civ-Danes type-title">Den Røde Konge</string>
+    <string _locid="54742" comment="proto-deTavern civ-Danes type-title">Den Salte Havfrue</string>
+    <string _locid="54743" comment="proto-deTavern civ-Danes type-title">Isbryderen</string>
+    <string _locid="54744" comment="proto-deTavern civ-Danes type-title">Det Lille Apotek</string>
+    <string _locid="54745" comment="proto-deTavern civ-Danes type-title">Bromølle Kro</string>
+    <string _locid="54746" comment="proto-deTavern civ-Danes type-title">Schøtstuene</string>
+    <string _locid="54747" comment="proto-deTavern civ-Danes type-title">Bornholm Skibsøl</string>
+    <string _locid="54748" comment="proto-deTavern civ-Danes type-title">Lumbyes Lysthus</string>
+    <string _locid="54749" comment="proto-deTavern civ-Danes type-title">Jacobsens Bryghus</string>
+    <string _locid="54750" comment="proto-deTavern civ-Danes type-title">Oles Øl</string>
+    <string _locid="54751" comment="proto-deTavern civ-Danes type-title">Den Gamle Elefant</string>
+    <string _locid="54752" comment="proto-deTavern civ-Danes type-title">Kongens Kro</string>
+    <string _locid="54753" comment="proto-deTavern civ-Danes type-title">Danske Pølser</string>
+    <string _locid="54754" comment="proto-deTavern civ-Danes type-title">Hygge Hullet</string>
+    <string _locid="54755" comment="proto-deTavern civ-Danes type-title">Øl-Børsen</string>
+    <string _locid="54756" comment="proto-deTavern civ-Danes type-title">Ridder Mikkelsen</string>
+    <string _locid="54757" comment="proto-deTavern civ-Poles type-title">Pijany Husarz</string>
+    <string _locid="54758" comment="proto-deTavern civ-Poles type-title">Sławny Jan Paweł</string>
+    <string _locid="54759" comment="proto-deTavern civ-Poles type-title">Martwy Chłop</string>
+    <string _locid="54760" comment="proto-deTavern civ-Poles type-title">Strzemienny</string>
+    <string _locid="54761" comment="proto-deTavern civ-Poles type-title">Pod Zalanym Robakiem</string>
+    <string _locid="54762" comment="proto-deTavern civ-Poles type-title">Karczma Kozacka</string>
+    <string _locid="54763" comment="proto-deTavern civ-Poles type-title">Geležinis Vilkas</string>
+    <string _locid="54764" comment="proto-deTavern civ-Poles type-title">Kepta Duona</string>
+    <string _locid="54765" comment="proto-deTavern civ-Poles type-title">Leičių Užeiga</string>
+    <string _locid="54766" comment="proto-deTavern civ-Poles type-title">Bober w Beczce</string>
+    <string _locid="54767" comment="proto-deTavern civ-Poles type-title">Martyno Midudė</string>
+    <string _locid="54768" comment="proto-deTavern civ-Poles type-title">Rzym</string>
+    <string _locid="54769" comment="proto-deTavern civ-Poles type-title">Pod krzepką kaszanką</string>
+    <string _locid="54770" comment="proto-ExplorerDog civ-Poles type-title">Fafik</string>
+    <string _locid="54771" comment="proto-ExplorerDog civ-Poles type-title">Szarik</string>
+    <string _locid="54772" comment="proto-ExplorerDog civ-Poles type-title">Reksio</string>
+    <string _locid="54773" comment="proto-ExplorerDog civ-Poles type-title">Wojtek</string>
+    <string _locid="54774" comment="proto-ExplorerDog civ-Poles type-title">Burek</string>
+    <string _locid="54775" comment="proto-ExplorerDog civ-Poles type-title">Misiek</string>
+    <string _locid="54776" comment="proto-ExplorerDog civ-Poles type-title">Kuba</string>
+    <string _locid="54777" comment="proto-ExplorerDog civ-Poles type-title">Zoran</string>
+    <string _locid="54778" comment="proto-ExplorerDog civ-Poles type-title">Azor</string>
+    <string _locid="54779" comment="proto-ExplorerDog civ-Poles type-title">Bobik</string>
+    <string _locid="54780" comment="proto-ExplorerDog civ-Poles type-title">Bober</string>
+    <string _locid="54781" comment="proto-ExplorerDog civ-Poles type-title">Pūkis</string>
+    <string _locid="54782" comment="proto-ExplorerDog civ-Poles type-title">Troll</string>
+    <string _locid="54783" comment="proto-ExplorerDog civ-Danes type-title">Bamse</string>
+    <string _locid="54784" comment="proto-ExplorerDog civ-Danes type-title">Rulle</string>
+    <string _locid="54785" comment="proto-ExplorerDog civ-Danes type-title">Fenris</string>
+    <string _locid="54786" comment="proto-ExplorerDog civ-Danes type-title">Wildbrat</string>
+    <string _locid="54787" comment="proto-ExplorerDog civ-Danes type-title">Kvikk</string>
+    <string _locid="54788" comment="proto-ExplorerDog civ-Danes type-title">Passop</string>
+    <string _locid="54789" comment="proto-ExplorerDog civ-Danes type-title">Trofast</string>
+    <string _locid="54790" comment="proto-ExplorerDog civ-Danes type-title">Freja</string>
+    <string _locid="54791" comment="proto-ExplorerDog civ-Danes type-title">Molly</string>
+    <string _locid="54792" comment="proto-ExplorerDog civ-Danes type-title">Heimdall</string>
+    <string _locid="54793" comment="proto-ExplorerDog civ-Danes type-title">Geri</string>
+    <string _locid="54794" comment="proto-ExplorerDog civ-Danes type-title">Freki</string>
+    <string _locid="54795" comment="proto-deGeneral civ-REVPrussians type-firstname">Bolle </string>
+    <string _locid="54796" comment="proto-deGeneral civ-REVPrussians type-firstname">Kalle </string>
+    <string _locid="54797" comment="proto-deGeneral civ-REVPrussians type-firstname">Fritz </string>
+    <string _locid="54798" comment="proto-deGeneral civ-REVPrussians type-firstname">Fritze </string>
+    <string _locid="54799" comment="proto-deGeneral civ-REVPrussians type-firstname">Otto </string>
+    <string _locid="54800" comment="proto-deGeneral civ-REVPrussians type-firstname">Freiherr </string>
+    <string _locid="54801" comment="proto-deGeneral civ-REVPrussians type-firstname">Helmuth </string>
+    <string _locid="54802" comment="proto-deGeneral civ-REVPrussians type-firstname">Oberst </string>
+    <string _locid="54803" comment="proto-deGeneral civ-REVPrussians type-firstname">Prinz </string>
+    <string _locid="54804" comment="proto-deGeneral civ-REVPrussians type-firstname">Graf </string>
+    <string _locid="54805" comment="proto-deGeneral civ-REVPrussians type-lastname">von Scharnhorst</string>
+    <string _locid="54806" comment="proto-deGeneral civ-REVPrussians type-lastname">von Moltke</string>
+    <string _locid="54807" comment="proto-deGeneral civ-REVPrussians type-lastname">von Bülow</string>
+    <string _locid="54808" comment="proto-deGeneral civ-REVPrussians type-lastname">von Dennewitz</string>
+    <string _locid="54809" comment="proto-deGeneral civ-REVPrussians type-lastname">von Bismarck</string>
+    <string _locid="54810" comment="proto-deGeneral civ-REVPrussians type-lastname">von Zieten</string>
+    <string _locid="54811" comment="proto-deGeneral civ-REVPrussians type-lastname">von Seydlitz</string>
+    <string _locid="54812" comment="proto-deGeneral civ-REVPrussians type-lastname">von Preußen</string>
+    <string _locid="54813" comment="proto-deGeneral civ-REVPrussians type-lastname">von Gneisenau</string>
+    <string _locid="54814" comment="proto-deGeneral civ-REVPrussians type-lastname">von Köpenick</string>
+    <string _locid="54815" comment="proto-deGeneral civ-REVPrussians type-lastname">von Spandau</string>
+    <string _locid="54816" comment="proto-deGeneral civ-REVPrussians type-lastname">von Kleist</string>
+    <string _locid="54817" comment="proto-deGeneral civ-REVPrussians type-lastname">von Zitzewitz</string>
+    <string _locid="54818" comment="proto-deGeneral civ-REVPrussians type-lastname">von Hammerstein</string>
+    <string _locid="54819" comment="proto-deGeneral civ-REVPrussians type-lastname">von Brandenburg</string>
+    <string _locid="54820" comment="proto-deGeneral civ-REVPrussians type-lastname">von Lützow</string>
+    <string _locid="54821" comment="proto-deGeneral civ-REVPrussians type-lastname">von Potsdam</string>
+    <string _locid="54822" comment="proto-deGeneral civ-REVPrussians type-lastname">von Charlottenburg</string>
+    <string _locid="54823" comment="proto-deGeneral civ-REVPrussians type-lastname">von Hardenberg</string>
+    <string _locid="54824" comment="proto-deGeneral civ-REVPrussians type-lastname">von Richthofen</string>
+    <string _locid="54825" comment="proto-deGeneral civ-REVPrussians type-lastname">von Arnim</string>
+    <string _locid="54826" comment="proto-deGeneral civ-REVPrussians type-lastname">vom Berghain</string>
+    <string _locid="54827" comment="proto-deGeneral civ-REVPrussians type-lastname">von Friedrichshain</string>
+    <string _locid="54828" comment="proto-deGeneral civ-REVPrussians type-lastname">von Teufelsberg</string>
+    <string _locid="54829" comment="proto-Xebec civ-REVCossacks type-title">Khortytsia</string>
+    <string _locid="54830" comment="proto-Xebec civ-REVCossacks type-title">Ukrayina</string>
+    <string _locid="54831" comment="proto-EggSleigh type-title">Chimney Crasher</string>
+    <string _locid="54832" comment="proto-EggSleigh type-title">Chimney Sweeper</string>
+    <string _locid="54833" comment="proto-EggSleigh type-title">Yuletide Commander</string>
+    <string _locid="54834" comment="proto-EggSleigh type-title">Slay-Bell</string>
+    <string _locid="54835" comment="proto-EggSleigh type-title">Air Sled One</string>
+    <string _locid="54836" comment="proto-EggSleigh type-title">SleighSlay</string>
+    <string _locid="54837" comment="proto-EggSleigh type-title">Arctic Slay</string>
+    <string _locid="54838" comment="proto-EggSleigh type-title">Slay Bell One</string>
+    <string _locid="54839" comment="proto-EggSleigh type-title">Arctic Express</string>
+    <string _locid="54840" comment="proto-EggSleigh type-title">Gift Bomber</string>
+    <string _locid="54841" comment="proto-EggSleigh type-title">Love Bomber</string>
+    <string _locid="54842" comment="proto-EggSleigh type-title">NoCapBomber</string>
+    <string _locid="54843" comment="proto-EggSleigh type-title">SusSled</string>
+    <string _locid="54844" comment="proto-EggSleigh type-title">GlitterGale</string>
+    <string _locid="54845" comment="proto-EggSleigh type-title">PrismPilot</string>
+    <string _locid="54846" comment="proto-EggSleigh type-title">RedHotSlay</string>
+    <string _locid="54847" comment="proto-EggSleigh type-title">ScarletStunner</string>
+    <string _locid="54848" comment="proto-EggSleigh type-title">AbsoluteLegend</string>
+    <string _locid="54849" comment="proto-EggSleigh type-title">MistletoeMayhem</string>
+    <string _locid="54850" comment="proto-EggSleigh type-title">GiftGud</string>
+    <string _locid="54851" comment="proto-EggSleigh type-title">GiftGod</string>
+    <string _locid="54852" comment="proto-EggSleigh type-title">BlizzardBuff</string>
+    <string _locid="54853" comment="proto-EggSleigh type-title">JingleJank</string>
+    <string _locid="54854" comment="proto-EggSleigh type-title">WinterWagon</string>
+    <string _locid="54855" comment="proto-EggSleigh type-title">YuleYacht</string>
+    <string _locid="54856" comment="proto-EggSleigh type-title">FatherFrost</string>
+    <string _locid="54857" comment="proto-EggSleigh type-title">ReindeerRider</string>
+    <string _locid="54858" comment="proto-EggSleigh type-title">ArcticAirlines</string>
+    <string _locid="54859" comment="proto-EggSleigh type-title">TinselTanker</string>
   </language>
 </stringtable>

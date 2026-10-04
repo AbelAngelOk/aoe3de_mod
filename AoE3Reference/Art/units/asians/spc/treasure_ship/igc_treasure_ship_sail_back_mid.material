@@ -1,0 +1,62 @@
+<material>
+  <submaterial name="matA">
+    <materialdef name="default_doublesided">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\sails\textures\sails_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\sails\textures\sails_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\sails\textures\sails_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matB">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\galley1\textures\galley1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\galley1\textures\galley1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\galley1\textures\galley1_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matC">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\rigging\textures\rigging_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\rigging\textures\rigging_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\rigging\textures\rigging_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matD">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\mainbuilding\textures\mainbuilding_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\mainbuilding\textures\mainbuilding_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\mainbuilding\textures\mainbuilding_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matE">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\china_spc_ship\crowsnest\textures\crowsnest_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\china_spc_ship\crowsnest\textures\crowsnest_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\china_spc_ship\crowsnest\textures\crowsnest_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

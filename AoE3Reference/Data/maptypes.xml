@@ -102,7 +102,6 @@
   <type>westEurope</type>
   <type>mediEurope</type>
   <type>northEurope</type>
-  <type>Iceland</type>
   <type>Steppe1</type>
   <type>Steppe2</type>
   <type>Steppe3</type>
@@ -121,4 +120,7 @@
   <type>euroNavalRiverTradeRoute</type>
   <type>mediSea</type>
   <type>lostEU</type>
+  <type>xpNorseDLC</type>
+  <type>euroGlobal</type>
+  <type>arcticterritorieswater</type>
 </maptypes>

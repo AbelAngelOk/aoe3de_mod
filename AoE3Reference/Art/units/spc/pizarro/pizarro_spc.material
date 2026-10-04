@@ -1,0 +1,38 @@
+<material>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\pizarro\textures\pizarro_sword_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\pizarro\textures\pizarro_sword_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\pizarro\textures\pizarro_sword_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\pizarro\textures\pizarro_igc_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\pizarro\textures\pizarro_igc_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\pizarro\textures\pizarro_igc_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matb">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\pizarro\textures\pizarro_igc_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\pizarro\textures\pizarro_igc_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\pizarro\textures\pizarro_igc_mata_Masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

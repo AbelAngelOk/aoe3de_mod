@@ -485,7 +485,7 @@
     <icon>resources\art\units\villagers\villager_icon.png</icon>
     <minimapeventtime sendalertto="ally">1</minimapeventtime>
     <activetime>60</activetime>
-    <createunit quantity="10" radius="5" delay="0.0">ypSettlerIceCream</createunit>
+    <createunit quantity="10" radius="5" delay="0.0" permanent="">ypSettlerIceCream</createunit>
     <placement forceonmap="1">LOSDontCare</placement>
     <startsoundset>PowerIceCream</startsoundset>
     <rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
@@ -1292,7 +1292,7 @@
     <rolloverid>112166</rolloverid>
     <icon>resources\images\icons\abilities\ability_barbary_flag.png</icon>
     <minimapeventtime sendalertto="player">1</minimapeventtime>
-    <activetime>30</activetime>
+    <activetime>45</activetime>
     <unitmodify flagoverrideunit="deFlagBarbary" apply="set">PeaceFlag</unitmodify>
     <allowduringnorush>1</allowduringnorush>
     <allowwhileattacking>0</allowwhileattacking>
@@ -1302,7 +1302,7 @@
     <rolloverid>112168</rolloverid>
     <icon>resources\images\icons\abilities\ability_hide_rowboat_us.png</icon>
     <minimapeventtime sendalertto="all">1</minimapeventtime>
-    <activetime>30</activetime>
+    <activetime>45</activetime>
     <radius>0</radius>
     <unitaction>AutoStealth</unitaction>
     <allowduringnorush>1</allowduringnorush>
@@ -1685,70 +1685,70 @@
     <timerrolloverid>104872</timerrolloverid>
     <minimapeventtime sendalertto="none">1</minimapeventtime>
     <activetime>365</activetime>
-    <effect type="WorkRate" action="Gather" unittype="Huntable" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="Huntable" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="AbstractBerryBush" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="AbstractBerryBush" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="Herdable" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="Herdable" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="Tree" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="Tree" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="AbstractMine" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="AbstractMine" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="Plantation" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="Plantation" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="Mill" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="Mill" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="Farm" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="Farm" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="ypBerryBuilding" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="ypBerryBuilding" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="ypGroveBuilding" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="ypGroveBuilding" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="deFurTrade" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="deFurTrade" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="deMountainMonastery" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">deAbun</target>
     </effect>
-    <effect type="WorkRate" action="Gather" unittype="deTorpBush2" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Gather" unittype="deTorpBush2" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Food" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Gold" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Wood" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRateSpecific" action="Gather" unittype="deHacienda" resource="Wood" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Food" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Food" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Gold" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRateSpecific" action="Gather" unittype="ypRicePaddy" resource="Gold" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Food" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Food" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Gold" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRateSpecific" action="Gather" unittype="deField" resource="Gold" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
-    <effect type="WorkRate" action="Build" relativity="BasePercent" amount="1.20">
+    <effect type="WorkRate" action="Build" relativity="BasePercent" amount="1.15">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
     <effect type="TrainPoints" relativity="BasePercent" amount="0.75">
@@ -1955,6 +1955,9 @@
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
     <effect type="WorkRate" action="Gather" unittype="Mill" relativity="BasePercent" amount="1.25">
+      <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+    </effect>
+    <effect type="WorkRate" action="Gather" unittype="AbstractFolwark" relativity="BasePercent" amount="1.25">
       <target type="ProtoUnit">LogicalTypeLandEconomy</target>
     </effect>
     <effect type="WorkRate" action="Gather" unittype="Farm" relativity="BasePercent" amount="1.25">
@@ -2587,5 +2590,256 @@
     <displaynameid>110177</displaynameid>
     <rolloverid>112148</rolloverid>
     <icon>resources\images\icons\abilities\ability_inspiring_flag_rev_canada.png</icon>
+  </power>
+  <power name="deScanianResistance" type="SwapUnit">
+    <displaynameid>130740</displaynameid>
+    <rolloverid>130741</rolloverid>
+    <timerrolloverid>55583</timerrolloverid>
+    <alertid>130742</alertid>
+    <icon>resources\images\icons\abilities\ability_scanian_resistance.png</icon>
+    <minimapeventtime sendalertto="All">1</minimapeventtime>
+    <activetime>90</activetime>
+    <powerplayerrelation>player</powerplayerrelation>
+    <mutate>
+    </mutate>
+    <abstractattacktargettype>LogicalTypeLandEconomy</abstractattacktargettype>
+    <abstracttype swapto="Minuteman">LogicalTypeLandEconomy</abstracttype>
+    <global>
+    </global>
+    <reversible>
+    </reversible>
+    <forcefullhp>
+    </forcefullhp>
+    <allowduringnorush>0</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <startsoundset>BattlecryMedium</startsoundset>
+  </power>
+  <power name="deTriangulation" type="RevealUnit">
+    <displaynameid>130745</displaynameid>
+    <rolloverid>130746</rolloverid>
+    <timerrolloverid>55583</timerrolloverid>
+    <alertid>130747</alertid>
+    <icon>resources\images\icons\abilities\ability_triangulation.png</icon>
+    <minimapeventtime sendalertto="All">1</minimapeventtime>
+    <activetime>20</activetime>
+    <powerplayerrelation>any</powerplayerrelation>
+    <abstractattacktargettype>Ship</abstractattacktargettype>
+    <revealerproto>deTriangulationRevealer</revealerproto>
+    <economicgprevealerproto>deTriangulationEcoGpRevealer</economicgprevealerproto>
+    <militarygprevealerproto>deTriangulationMilGpRevealer</militarygprevealerproto>
+    <navalgprevealerproto>deTriangulationNavalGpRevealer</navalgprevealerproto>
+    <revealhcgatherpoints>1</revealhcgatherpoints>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DEPowerTriangulation</soundset>
+  </power>
+  <power name="deRecruitGuardianDanish" type="UnitAction">
+    <displaynameid>72463</displaynameid>
+    <rolloverid>72464</rolloverid>
+    <icon>resources\images\icons\abilities\recruit_snaphane.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="" gaiaonly="">unit</placement>
+    <abstractattacktargettype>Guardian</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>WaterGuardian</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>AnimalGuardian</explicitlyrestrictedattacktargettype>
+    <unitaction>RecruitGuardianDanish</unitaction>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerBattleshipPolish" type="GeneralEffect">
+    <displaynameid>130359</displaynameid>
+    <rolloverid>130360</rolloverid>
+    <icon>resources\images\icons\abilities\passive_emblem_couronia.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deChargeAbilitySpearStun" type="GeneralEffect">
+    <displaynameid>62770</displaynameid>
+    <rolloverid>130387</rolloverid>
+    <icon>resources\images\icons\abilities\passive_lance_charge.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deNatPowerArcticAcclimation" type="GeneralEffect">
+    <displaynameid>130669</displaynameid>
+    <rolloverid>130670</rolloverid>
+    <icon>resources\images\icons\abilities\ability_arctic_acclimation.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>5</activetime>
+    <effect type="ResourceExchange" fromresource="Gold" toresource="Wood" relativity="BasePercent" amount="0.5">
+      <target type="Player">
+      </target>
+    </effect>
+    <effect type="ResourceExchange" fromresource="Food" toresource="Wood" relativity="BasePercent" amount="0.5">
+      <target type="Player">
+      </target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DENatPowerInuit</soundset>
+  </power>
+  <power name="deChargeAbilityClaymoreChop" type="GeneralEffect">
+    <displaynameid>130916</displaynameid>
+    <rolloverid>130917</rolloverid>
+    <icon>resources\images\icons\abilities\passive_chop.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deNatPowerHighlandCharge" type="GeneralEffect">
+    <displaynameid>130625</displaynameid>
+    <rolloverid>130787</rolloverid>
+    <icon>resources\images\icons\abilities\ability_highland_charge.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>20</activetime>
+    <effect type="Damage" relativity="BasePercent" amount="1.30">
+      <target type="ProtoUnit">AbstractHandInfantry</target>
+    </effect>
+    <effect type="CannotSnare">
+      <target type="ProtoUnit">AbstractHandInfantry</target>
+    </effect>
+    <messagealertplayerrelation>none</messagealertplayerrelation>
+    <placement forceonmap="1" ally="">unit</placement>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DENatPowerStuart</soundset>
+  </power>
+  <power name="dePowerMilitaryStun" type="UnitAction">
+    <displaynameid>62770</displaynameid>
+    <rolloverid>130943</rolloverid>
+    <icon>resources\images\icons\abilities\ability_military_stun.png</icon>
+    <minimapeventtime sendalertto="all">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <unitaction>Stun</unitaction>
+    <abstractattacktargettype>AbstractCavalryInfantry</abstractattacktargettype>
+    <explicitlyrestrictedattacktargettype>Hero</explicitlyrestrictedattacktargettype>
+    <explicitlyrestrictedattacktargettype>AbstractArtillery</explicitlyrestrictedattacktargettype>
+    <allowduringnorush>1</allowduringnorush>
+    <startsoundset>PowerStun</startsoundset>
+  </power>
+  <power name="dePowerBlubberBuster" type="UnitAction">
+    <displaynameid>130680</displaynameid>
+    <rolloverid>130681</rolloverid>
+    <icon>resources\images\icons\abilities\ability_blubber_buster.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>Unit</abstractattacktargettype>
+    <unitaction>GrenadeAttack</unitaction>
+  </power>
+  <power name="deSailorChopWood" type="UnitAction">
+    <displaynameid>130321</displaynameid>
+    <rolloverid>130322</rolloverid>
+    <icon>resources\images\icons\abilities\passive_carpentry.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="dePowerGrenadeHarpoon" type="UnitAction">
+    <displaynameid>130323</displaynameid>
+    <rolloverid>130324</rolloverid>
+    <icon>resources\images\icons\abilities\ability_grenade_harpoon.png</icon>
+    <minimapeventtime sendalertto="player">1</minimapeventtime>
+    <activetime>8</activetime>
+    <radius>5.0</radius>
+    <placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+    <abstractattacktargettype>Unit</abstractattacktargettype>
+    <unitaction>GrenadeAttack</unitaction>
+  </power>
+  <power name="deRoyalShipwrights" type="GoodFortune">
+    <displaynameid>130932</displaynameid>
+    <rolloverid>130933</rolloverid>
+    <icon>resources\images\icons\abilities\ability_royal_shipwrights.png</icon>
+    <cost>
+      <food>500.0</food>
+    </cost>
+    <costmultiplier>0.0</costmultiplier>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>0.1</activetime>
+    <radius>10.0</radius>
+    <placement forceonmap="1" ally="">full</placement>
+    <abstractattacktargettype>Ship</abstractattacktargettype>
+    <rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+    <unitaction>Heal</unitaction>
+    <hitpointstoheal>100</hitpointstoheal>
+    <ignorehitpointcap>1</ignorehitpointcap>
+    <rate>20000</rate>
+    <allowduringnorush>1</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DEPowerRoyalShipwrights</soundset>
+  </power>
+  <power name="deBagpiperAura" type="GeneralEffect">
+    <displaynameid>104912</displaynameid>
+    <rolloverid>63758</rolloverid>
+    <icon>resources\images\icons\abilities\passive_gaelic_support.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deBagpiperFrightenAura" type="GeneralEffect">
+    <displaynameid>41865</displaynameid>
+    <rolloverid>41860</rolloverid>
+    <icon>resources\images\icons\abilities\passive_pipes_death.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deLighthouseAbility" type="UnitAction">
+    <displaynameid>41864</displaynameid>
+    <rolloverid>130939</rolloverid>
+    <icon>resources\images\icons\abilities\passive_lighthouse.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deMarchRevolution" type="SwapUnit">
+    <displaynameid>125591</displaynameid>
+    <rolloverid>130997</rolloverid>
+    <timerrolloverid>55583</timerrolloverid>
+    <alertid>130998</alertid>
+    <icon>resources\images\icons\abilities\ability_march_revolution.png</icon>
+    <minimapeventtime sendalertto="All">1</minimapeventtime>
+    <activetime>80</activetime>
+    <powerplayerrelation>player</powerplayerrelation>
+    <mutate>
+    </mutate>
+    <abstractattacktargettype>LogicalTypeLandEconomy</abstractattacktargettype>
+    <abstracttype swapto="deREVCossackTabor">AbstractDoubleVillager</abstracttype>
+    <abstracttype swapto="xpColonialMilitia">LogicalTypeLandEconomy</abstracttype>
+    <global>
+    </global>
+    <reversible>
+    </reversible>
+    <forcefullhp>
+    </forcefullhp>
+    <allowduringnorush>0</allowduringnorush>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+    <soundset type="StartSound" listenertype="Caster">DENatPowerWittelsbach</soundset>
+  </power>
+  <power name="deImmigrantsChineseLevy" type="GeneralEffect">
+    <placement forceonmap="1">LOSDontCare</placement>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deRegicideBigStealth" type="GeneralEffect">
+    <displaynameid>112892</displaynameid>
+    <rolloverid>112893</rolloverid>
+    <timerrolloverid>112894</timerrolloverid>
+    <icon>resources\images\icons\abilities\ability_temp_stealth_infantry.png</icon>
+    <minimapeventtime sendalertto="none">1</minimapeventtime>
+    <activetime>15</activetime>
+    <effect type="ActionEnable" action="AutoStealth">
+      <target type="ProtoUnit">deRegent</target>
+    </effect>
+    <effect type="ForbidSquadMode" squadmode="Stealth" relativity="Assign" amount="1">
+      <target type="ProtoUnit">deRegent</target>
+    </effect>
+    <placement forceonmap="1" ally="">full</placement>
+    <startsoundset>UI_Stealth</startsoundset>
+    <alwaysaddtoplayer>1</alwaysaddtoplayer>
+  </power>
+  <power name="ypPowerTradeAura" type="UnitAction">
+    <displaynameid>69859</displaynameid>
+    <rolloverid>212150</rolloverid>
+    <icon>resources\images\icons\techs\asians\tech_passive_xp_aura_icon_64.png</icon>
+    <allowduringnorush>1</allowduringnorush>
+  </power>
+  <power name="deAztecPassiveAbilityIndependence" type="UnitAction">
+    <displaynameid>49885</displaynameid>
+    <rolloverid>212174</rolloverid>
+    <icon>\resources\images\icons\abilities\tech_passive_aztec_ability.png</icon>
+    <allowduringnorush>1</allowduringnorush>
   </power>
 </powers>

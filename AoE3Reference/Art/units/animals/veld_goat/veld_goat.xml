@@ -1,0 +1,5 @@
+<animfile>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\animals\veld_goat\veld_goat</file></assetreference><decal><effecttype>default</effecttype><texture isfakeshadow="1">shadows_selections\shadow_circle_64x64</texture><selectedtexture>shadows_selections\selection_oval_32x64</selectedtexture><width>1.0</width><height>1.0</height></decal></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\quads\veld_goat_idleA</file><weight>20</weight></assetreference><assetreference type="GrannyAnim"><file>animation_library\quads\veld_goat_idleB</file><weight>20</weight></assetreference><assetreference type="GrannyAnim"><file>animation_library\quads\veld_goat_idleC</file><weight>20</weight></assetreference><component>ModelComp</component></anim>
+  <anim>Death<assetreference type="GrannyAnim"><file>animation_library\quads\veld_goat_death</file></assetreference><component>ModelComp</component></anim>
+</animfile>

@@ -1,0 +1,5 @@
+<animfile>
+  <component>ModelComp<logic type="Variation"><data><assetreference type="GrannyModel"><file>units\animals\duck\duck_mallard_flock</file></assetreference></data><data><assetreference type="GrannyModel"><file>units\animals\duck\duck_mallard_bflock</file></assetreference></data></logic></component>
+  <anim>Idle<assetreference type="GrannyAnim"><file>animation_library\air\duck_mallard_walka</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\air\duck_mallard_walkb</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\air\duck_mallard_walkc</file></assetreference><component>ModelComp</component></anim>
+  <anim>Walk<assetreference type="GrannyAnim"><file>animation_library\air\duck_mallard_walka</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\air\duck_mallard_walkb</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\air\duck_mallard_walkc</file></assetreference><component>ModelComp</component></anim>
+</animfile>

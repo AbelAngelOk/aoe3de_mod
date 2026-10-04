@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\spc\sultan_malik\textures\sultan_malik_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\spc\sultan_malik\textures\sultan_malik_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\spc\sultan_malik\textures\sultan_malik_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\spc\sultan_malik\textures\sultan_malik_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>
